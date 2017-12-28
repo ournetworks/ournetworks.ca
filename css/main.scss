@@ -1,0 +1,30 @@
+---
+---
+@charset "utf-8";
+@import "variables";
+@import "base";
+@import "layout";
+@import "fonts";
+@import "typography";
+@import "tables";
+@import "lists";
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+  background-color: $background-color;
+}
+
+.icon {
+  display: inline-block;
+  fill: currentColor;
+  height: 1em;
+  width: 1em;
+  margin-bottom: -0.1em;
+}
