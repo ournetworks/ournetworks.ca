@@ -213,46 +213,12 @@
   }
 }
 
-// Site featurettes
-
-.featurette {
-  padding: 60px 0;
-  &:nth-child(odd) {
-    background-color: $grey-color-lighter;
-  }
-  h1 {
-    font-weight: normal;
-    font-size: 2.7rem;
-  }
-  img {
-    @media screen and (max-width: $on-palm) {
-      margin: 1em 0;
-    }
-  }
-}
-
-.featurette-events-row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.featurette-events-column {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  a {
-    color: $grey-color-light;
-  }
-
-  @media screen and (max-width: $on-palm) {
-    display: none;
-  }
+.splash {
+  padding: 75px 0 ;
 }
 
 .post {
-  padding: 95px 0 ;
+  padding: 75px 0 ;
 }
 
 // Post header
