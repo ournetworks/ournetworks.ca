@@ -14,12 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: State of Our Networks
-email: hello@tomesh.net
+email: orga@ournetworks.ca
 description: >- # this means to ignore newlines until "baseurl:"
-  A one-day hands-on conference about the past, present, and future of building our own network infrastructures to access the internet in our city.
+  Conference about the past, present, and future of building our own network infrastructures.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: tomeshnet
+twitter_username:
 github_username:  ournetworks
 
 # Build settings
