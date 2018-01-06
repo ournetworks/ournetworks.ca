@@ -1,0 +1,29 @@
+<header class="header">
+  <div class="container">
+    <span class="site-title">
+      <a href="{{ site.baseurl }}/" rel="home">
+        {% if page.url == '/' %}
+          {{ site.title }}
+        {% else %}
+        {% endif %}
+      </a>
+    </span>
+    <nav class="nav" role="navigation" aria-label="Primary Menu">
+      <ul class="menu">
+        {% assign currentTitle = page.title %}
+        {% assign current = page.url | split: '/' %}
+        {% assign sorted_pages = site.pages | sort: "order" %}
+          {% for page in sorted_pages %}
+             {% if page.order > 0 %}
+               <li>
+                 <a class= "nav-item {% if page.url contains current[1] %}active{% endif %}"
+                    href="{{ page.url }}" aria-label="{{ page.title }}">
+                    {% if page.titleDisplay %}{{ page.titleDisplay }}{% else %}{% endif %}
+                 </a>
+               </li>
+             {% endif %}
+        {% endfor %}
+      </ul> <!-- .nav -->
+    </nav>
+  </div>
+</header>
