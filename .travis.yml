@@ -4,6 +4,11 @@ rvm:
 
 before_script: bundle exec jekyll build
 
+addons:
+  apt:
+    packages:
+    - libcurl4-openssl-dev
+
 script: travis_retry bundle exec htmlproofer ./_site
 
 env:
