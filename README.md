@@ -4,11 +4,11 @@
 
 This repository holds the source code and static assets of [ournetworks.ca](http://ournetworks.ca), built with [Jekyll](https://jekyllrb.com/), [Normalize.css](http://necolas.github.io/normalize.css/), [Work Sans](https://github.com/weiweihuanghuang/Work-Sans), and icons from [Font Awesome](http://fontawesome.io/).
 
-Organizing materials and planning for _State of Our Networks 2018_ can be found in the [2018 planning repository](https://github.com/ournetworks/2018).
+**State of Our Networks 2018** organizing materials and planning can be found in the [2018 planning repository](https://github.com/ournetworks/2018).
 
 Ournetworks.ca code at ournetworks/ournetworks.ca is licensed under a [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl.html). State of Our Networks content is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
-_State of Our Networks 2017 Mini-Conference_ materials by [Toronto Mesh](https://tomesh.net/).
+_State of Our Networks 2017 Mini-Conference_ content by [Toronto Mesh](https://tomesh.net/).
 
 ## Development
 1. Clone repository: `git clone https://github.com/ournetworks/ournetworks.ca.git && cd ournetworks.ca`
