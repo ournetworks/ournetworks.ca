@@ -19,6 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Conference about the past, present, and future of building our own network infrastructures.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: pretty
 twitter_username:
 github_username:  ournetworks
 
