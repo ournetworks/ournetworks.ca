@@ -95,22 +95,6 @@
 
 // Events
 
-.events-grid {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.event-item {
-  padding-right: 20px;
-  margin: 0 0 40px;
-
-  @media screen and (max-width: $on-palm) {
-    height: auto;
-    margin-bottom: 1.5em;
-    padding-right: 0;
-  }
-}
-
 .event-time-location {
   .icon {
     min-width: 1.75em;
@@ -124,53 +108,6 @@
 
   .event-meta-item {
     margin-bottom: 0;
-  }
-}
-
-.event-status {
-  display: block;
-  padding: 10px;
-  color: darken($brand-color, 5%);
-  background: rgba($brand-color, .1);
-}
-
-.events-home-grid {
-  padding: 0.5em 0;
-  margin: 0.5em 0;
-}
-
-.event-title-previous {
-  font-size: 2.2rem;
-}
-
-.events-subscribe-container {
-  @media screen and (max-width: $on-palm) {
-    text-align: center;
-  }
-}
-
-// Events 'Show More'
-
-#show-more {
-  margin-top: 1em;
-  max-height: 0;
-  overflow: hidden;
-  -webkit-transition: max-height 500ms;
-  transition: max-height 500ms;
-
-  &.show {
-    max-height: 100vh;
-    -webkit-transition: max-height 1s;
-    transition: max-height 1s;
-
-    @media screen and (max-width: $on-palm) {
-      display: block;
-      max-height: none;
-    }
-  }
-
-  @media screen and (max-width: $on-palm) {
-    display: none;
   }
 }
 
@@ -231,10 +168,6 @@
   margin-top: 4em;
 }
 
-.event-add {
-  margin-top: 1em;
-}
-
 // Notices
 
 .notice {
@@ -242,12 +175,6 @@
   padding-top: 4em;
   padding-bottom: 4em;
   min-height: calc(100% - 8em - 172px);
-}
-
-// Pagination
-
-.pagination {
-  text-align: center;
 }
 
 // Social Media Biography

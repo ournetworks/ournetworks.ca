@@ -12,11 +12,17 @@ A conference about the past, present, and future of building our own (inter)netw
 </div>
 
 <form action="https://formspree.io/orga@ournetworks.ca" method="POST">
-  <label for="name">Name</label>
-  <input type="text" id="name" name="name" placeholder="Your name">
-  <label for="email">Email</label>
-  <input type="email" id="email" name="_replyto" placeholder="Email address" aria-required="true" required>
-  <input type="submit" name="submit" value="Sign up for Updates">
+  <div class="row form-group">
+    <div class="four columns">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name">
+    </div>
+    <div class="four columns">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="_replyto" placeholder="Email address" aria-required="true" required>
+    </div>
+  </div>
+  <input type="submit" name="submit" value="Sign up for Updates" class="button button-primary">
   <input type="hidden" name="_format" value="plain">
   <input type="hidden" name="_subject" value="New SoON Sign Up">
   <input type="hidden" name="_next" value="//ournetworks.ca/?signup=confirmed">
