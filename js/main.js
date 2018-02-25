@@ -8,6 +8,6 @@ document.addEventListener('DOMContentLoaded', function(){
     confirmationEle.innerHTML = '<div class="container"><p>Email submitted successfully</p></div>';
 
     post.append(confirmationEle);
-    document.querySelector('.post').classList.add('extended');
+    document.querySelector('.splash').classList.add('extended');
   }
 });

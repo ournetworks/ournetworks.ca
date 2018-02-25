@@ -152,6 +152,10 @@
 
 .splash {
   padding: 75px 0 0;
+
+  &.extended {
+    padding-top: 125px;
+  }
 }
 
 .post {
