@@ -15,10 +15,8 @@ Our theme this year focuses on how we **Do It With Others (DIWO)** as opposed to
 
 Deadline for proposals is **April 27, 2018**, check out our full [**call for participation**](./2018) for submission instructions!
 
-
 Want to receive a update when registration launches?
 
-<!-- Sign up for Email -->
 <form action="https://formspree.io/orga@ournetworks.ca" method="POST">
   <div class="row form-group">
     <div class="four columns">
