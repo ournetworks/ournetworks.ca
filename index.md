@@ -7,6 +7,7 @@ title: State of Our Networks
   <span style="font-size: 4.85rem; line-height: 1.2; font-weight: 600;">July 13–18, 2018</span><br />
   <span style="font-size: 3.5rem; line-height: 1.2;">{{ site.title }}</span><br />
   <h1>Beyond DIY: Do It With Others</h1>
+  <h2>Toronto, Ontario</h2>
 </div>
 
 Our theme this year focuses on how we **Do It With Others (DIWO)** as opposed to just ourselves, building on the "**distributed campaign for emancipatory, networked art practices**," instigated by UK-based [Furtherfield](http://archive.furtherfield.org/projects/diwo-do-it-others-resource) (2006) as a response to the Do It Yourself (DIY) movement. We have seen a growing number of peer-to-peer, inclusive, and privacy-respecting projects mobilizing against setbacks to resilient, accessible, equitable communications over the internet in 2017. Yet many open questions remain. In the face of threats to the open internet, which tools and tactics will help us recognize the opportunities and challenges of this moment? What kinds of creative and critical engagement with technology practices can enable meaningful change when we do it with others?
