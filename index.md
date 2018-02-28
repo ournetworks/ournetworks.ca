@@ -1,6 +1,5 @@
 ---
 layout: splash
-title: State of Our Networks
 ---
 
 <div style="margin-bottom: 2.25em;">
