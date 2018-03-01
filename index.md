@@ -1,8 +1,5 @@
 ---
 layout: splash
-title: State of Our Networks
-redirect_from:
-  - '/cfp'
 ---
 
 <div style="margin-bottom: 2.25em;">
