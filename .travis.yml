@@ -9,11 +9,20 @@ addons:
     packages:
     - libcurl4-openssl-dev
 
-script: travis_retry bundle exec htmlproofer --check-html --internal_domains "/www.ournetworks.ca/,/ournetworks.ca/" ./_site
-
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
+script: travis_retry bundle exec htmlproofer --check-html --internal_domains "/www.ournetworks.ca/,/ournetworks.ca/" ./_site
+
+deploy:
+  provider: script
+  script: bash scripts/deploy.sh $USER $PASSWORD
+  on:
+    branch: master
+
 notifications:
-  email: false
+  email:
+    recipients:
+      - orga@ournetworks.ca
+    on_failure: always
