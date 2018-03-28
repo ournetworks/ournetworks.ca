@@ -33,7 +33,3 @@ Want to receive a update when registration launches?
   <input type="hidden" name="_subject" value="New SoON Sign Up">
   <input type="hidden" name="_next" value="//ournetworks.ca/?signup=confirmed">
 </form>
-
-***
-
-If you have any questions email us at [{{ site.email }}](mailto:{{ site.email }})!
