@@ -7,10 +7,10 @@ layout: default
       <h1 class="post-title heading" itemprop="name headline">{{ page.title }}</h1>
       <div class="event-time-location">
         <div class="event-meta">
-          {% include_absolute _icons/calendar-o.svg class:icon %}
+          {% include icons/calendar-o.svg %}
           <p class="event-time event-meta-item">{{ page.date | date: "%-d %B %Y"}}, <strong>{{page.startTime | date:"%-I:%M%P "}}</strong> &ndash; <strong>{{page.endTime | date:"%-I:%M%P "}}</strong></p></div>
         <div class="event-meta">
-          {% include_absolute _icons/map-marker.svg class:icon %}
+          {% include icons/map-marker.svg %}
           <p class="event-location event-meta-item">
           {% if page.locationLink %}
             <a href="{{page.locationLink}}" target="_blank">{{ page.location }}</a>
@@ -37,9 +37,9 @@ layout: default
         </script>
         {% capture googleCalendarLink %}text={{ event_title | url_encode }}&location={{ event_location | url_encode }}&dates={{ event_start }}/{{ event_end }}&details={{ event_description | url_encode }}&ctz=America/Toronto&sf=true&output=xml{% endcapture %}
 
-        <button download="event.ics" class="compact" id="event-add-button">{% include_absolute _icons/calendar-plus-o.svg class:icon %}&nbsp;&nbsp;Add to Calendar (.ics)</button>
+        <button download="event.ics" class="compact" id="event-add-button">{% include icons/calendar-plus-o.svg %}&nbsp;&nbsp;Add to Calendar (.ics)</button>
         <a class="button compact" target="_blank" rel="noopener" href="https://www.google.com/calendar/render?action=TEMPLATE&{{ googleCalendarLink }}">
-          {% include_absolute _icons/google_calendar.svg class:icon %}&nbsp;&nbsp;Add to Google Calendar
+          {% include icons/google_calendar.svg %}&nbsp;&nbsp;Add to Google Calendar
         </a>
       </div>
     </header>
@@ -48,7 +48,7 @@ layout: default
     </div>
     <footer class="post-footer">
       <div class="row">
-        <a href="{{ site.baseurl }}/events" class="button">{% include_absolute _icons/calendar.svg class:icon %}
+        <a href="{{ site.baseurl }}/events" class="button">{% include icons/calendar.svg %}
     &nbsp;&nbsp;Back to Events</a>
       </div>
     </footer>
