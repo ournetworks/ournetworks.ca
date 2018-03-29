@@ -16,18 +16,10 @@
     {% capture event_end %}{{ include.event.date | date: "%Y%m%d" }}T{{ include.event.endTime | date:"%H%M%S" }}{% endcapture %}
     {% capture event_location %}{{ include.event.location }}{% endcapture %}
     {% capture event_description %}{{ include.event.text | strip }} For details: {{ include.event.url|strip | prepend: site.url }}{% endcapture %}
-    <script type="text/javascript">
-      var event_data = {
-        LOCATION:'{{ event_location }}',
-        SUMMARY:'{{ event_title }}',
-        DESCRIPTION:'{{ event_description }}',
-        DTSTART:'{{ event_start }}',
-        DTEND:'{{ event_end }}'
-      }
-    </script>
+
     {% capture googleCalendarLink %}text={{ event_title | url_encode }}&location={{ event_location | url_encode }}&dates={{ event_start }}/{{ event_end }}&details={{ event_description | url_encode }}&ctz=America/Toronto&sf=true&output=xml{% endcapture %}
 
-    <button download="event.ics" class="compact" id="event-add-button">{% include icons/calendar-plus-o.svg %}&nbsp;&nbsp;Add to Calendar (.ics)</button>
+    <button download="event.ics" class="compact event-add-button" data-location='{{ event_location }}' data-summary='{{ event_title }}' data-description='{{ event_description }}' data-dtstart='{{ event_start }}' data-dtend='{{ event_end }}'>{% include icons/calendar-plus-o.svg %}&nbsp;&nbsp;Add to Calendar (.ics)</button>
     <a class="button compact" target="_blank" rel="noopener" href="https://www.google.com/calendar/render?action=TEMPLATE&{{ googleCalendarLink }}">
       {% include icons/google_calendar.svg %}&nbsp;&nbsp;Add to Google Calendar
     </a>
