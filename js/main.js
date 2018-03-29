@@ -15,16 +15,14 @@ document.addEventListener('DOMContentLoaded', function(){
   }
 
   // ics download
-  var eventAddButton = document.getElementsByClassName('event-add-button');
-  var events = [].slice.call(eventAddButton);
+  var eventAddButtons = document.getElementsByClassName('event-add-button');
+  var events = [].slice.call(eventAddButtons);
 
   events.map(function(e){
-    e.addEventListener('click', function () {
+    e.addEventListener('click', function() {
       var cal = ics();
       cal.addEvent(this.dataset.summary, this.dataset.description, this.dataset.location, this.dataset.dtstart, this.dataset.dtend, this.dataset.dtstamp);
       cal.download();
     });
   });
-
-
 });
