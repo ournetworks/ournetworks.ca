@@ -21,19 +21,13 @@ Deadline for proposals is **April 27, 2018**, check out our full [**call for par
 We will host two open hour calls for people to ask questions about potential topics and the conference itself. No prior registration needed, just visit: [https://appear.in/ournetworks](https://appear.in/ournetworks)
 
 <!-- Call section -->
-<section class="sections">
-  <div class="container">
-    <div class="row featurette-events-row">
-      {% for call in site.data.calls %}
-      <div class="six columns">
-        {% include event.html event=call %}
-      </div>
-      {% endfor %}
-    </div>
+<section class="sections row featurette-events-row">
+  {% for call in site.data.calls %}
+  <div class="six columns">
+    {% include event.html event=call %}
   </div>
+  {% endfor %}
 </section>
-
-<br />
 
 ### Updates
 
