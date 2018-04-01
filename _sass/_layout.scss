@@ -128,6 +128,14 @@
   }
 }
 
+.featurette-events-row {
+  margin-bottom: 2em;
+
+  .compact + .compact {
+    margin-top: 0.75em;
+  }
+}
+
 // Notices
 
 .notice {
