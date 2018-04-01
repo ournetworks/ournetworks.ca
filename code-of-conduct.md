@@ -47,39 +47,6 @@ If you are being harassed, notice that someone else is being harassed, or have a
 
 Those who wish to report a violation but don't feel comfortable talking to the organizers online or at an event can email [coc@ournetworks.ca](mailto:coc@ournetworks.ca), which is **currently** monitored by [**Dawn, @dcwalk**](http://dcwalker.ca), and will be monitored during the event on an active basis.
 
-Our [internal guidelines](./CONDUCT.md#guidelines) for enforcing our Code of Conduct are viewable online.
+Our [internal guidelines](https://github.com/ournetworks/2018/blob/master/CONDUCT.md#guidelines) for enforcing our Code of Conduct are viewable online.
 
-_These are adapted from the [Toronto Mesh Code of Conduct](https://tomesh.net/code-of-conduct/), which in turn was based on the anti-harassment policy from the [Geek Feminism Wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy) and draws inspiration from [No more rock stars: how to stop abuse in tech communities](https://hypatia.ca/2016/06/21/no-more-rock-stars/). The section about expected behaviour is adapted from the [Gamma Space Code of Conduct](https://github.com/GammaSpace/policies/blob/master/code-of-conduct.md)._
-
----
-
-## Guidelines
-
-Our Networks adopted the [Toronto Mesh Code of Conduct](https://tomesh.net/code-of-conduct/) for our January 14, 2017 event, and consensed to actively use a conference-specific code of conduct on [XXXX, 2018](https://github.com/ournetworks/2018/pull/33). The Code of Conduct language is in our [2018 organizing](./CONDUCT.md) repository and on our website at [ournetworks.ca/code-of-conduct/](https://ournetworks.ca/code-of-conduct).
-
-### Enforcement
-
-[Enforcement guidelines](./CONDUCT.md#enforcement) are established in the Code of Conduct, with additional details provided below.
-
-#### Receiving Reports
-
-(The following is included from [geekfeminism.wikia.com](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Responding_to_reports))
-
-If someone reports harassment, ask for a written account of what happened. This should be **kept confidential** to as small a group as reasonably possible, and potentially anonymised by the receiving person before distribution to the closed group. If organizers receive a verbal report, they should themselves write down what they were told as soon as they can.
-
-If the following information is not volunteered in a report, ask for it/include it, but do not pressure anyone:
-
-- Identifying information (name/badge number) of the participant doing the harassing
-- The behavior that was in violation
-- The approximate time of the behavior (if different than the time the report was made)
-- The circumstances surrounding the incident
-- Other people involved in the incident
-
-Further resources:
-
-- [geekfeminism.wikia.com/wiki/Conference_anti-harassment/Responding_to_reports](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Responding_to_reports)
-- [wiki.openhatch.org/OpenHatch_event_code_of_conduct/Staff_Procedures_for_Handling_Incidents](http://wiki.openhatch.org/OpenHatch_event_code_of_conduct/Staff_Procedures_for_Handling_Incidents)
-
-#### Email Reporting
-
-Our `coc@ournetworks.ca` is monitored by an individual on a rotating basis, new monitors will be determined at a planning meeting once per year.
+_This code is adapted from the [Toronto Mesh Code of Conduct](https://tomesh.net/code-of-conduct/), which in turn was based on the anti-harassment policy from the [Geek Feminism Wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy) and draws inspiration from [No more rock stars: how to stop abuse in tech communities](https://hypatia.ca/2016/06/21/no-more-rock-stars/). The section about expected behaviour is adapted from the [Gamma Space Code of Conduct](https://github.com/GammaSpace/policies/blob/master/code-of-conduct.md)._
