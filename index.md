@@ -13,7 +13,7 @@ Our theme this year focuses on how we **Do It With Others (DIWO)** as opposed to
 
 **We are inviting proposals for talks, workshops, discussions, demonstrations and interventions to explore these questions.**
 
-Deadline for proposals is **April 27, 2018**, check out our full [**call for participation**](./2018) for submission instructions!
+Deadline for proposals is **April 30, 2018**, check out our full [**call for participation**](./2018) for submission instructions!
 
 
 ### Not sure? Ask us!
