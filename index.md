@@ -9,12 +9,32 @@ layout: splash
   <h2>Toronto, Ontario</h2>
 </div>
 
+<!-- Areas section -->
+<section class="sections row featurette-events-row">
+  <div class="four columns">
+    <h3>Kickoff</h3>
+    <span><strong>July 13</strong> • Friday</span>
+    <p>The first day has morning field trips as well as an afternoon into evening social</p>
+  </div>
+  <div class="four columns">
+    <h3>Conference</h3>
+    <span><strong>July 14-15</strong> • Saturday, Sunday</span>
+    <p>The weekend is our main event, 2 days packed full of talks, demos, and workshops</p>
+  </div>
+  <div class="four columns">
+    <h3>Sprints</h3>
+    <span><strong>July 16-18</strong> • Monday, Tuesday, Wednesday</span>
+    <p>The final 3 days are our in-person project sprints, join others or propose your own collaboration</p>
+  </div>
+</section>
+
+## Conference Call for Participation
+
 Our theme this year focuses on how we **Do It With Others (DIWO)** as opposed to just ourselves, building on the "**distributed campaign for emancipatory, networked art practices**," instigated by UK-based [Furtherfield](http://archive.furtherfield.org/projects/diwo-do-it-others-resource) (2006) as a response to the Do It Yourself (DIY) movement. We have seen a growing number of peer-to-peer, inclusive, and privacy-respecting projects mobilizing against setbacks to resilient, accessible, equitable communications over the internet in 2017. Yet many open questions remain. In the face of threats to the open internet, which tools and tactics will help us recognize the opportunities and challenges of this moment? What kinds of creative and critical engagement with technology practices can enable meaningful change when we do it with others?
 
 **We are inviting proposals for talks, workshops, discussions, demonstrations and interventions to explore these questions.**
 
 Deadline for proposals is **April 30, 2018**, check out our full [**call for participation**](./2018) for submission instructions!
-
 
 ### Not sure? Ask us!
 
