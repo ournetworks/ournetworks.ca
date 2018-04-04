@@ -9,22 +9,23 @@ layout: splash
   <h2>Toronto, Ontario</h2>
 </div>
 
-<!-- Areas section -->
+<!-- Event areas section -->
 <section class="sections row featurette-events-row">
   <div class="four columns">
     <h3>Kickoff</h3>
-    <span><strong>July 13</strong> • Friday</span>
-    <p>The first day has morning field trips as well as an afternoon into evening social</p>
+    <span>Friday • 13</span>
+    <p>We open with morning field trips and an afternoon-into-evening social event</p>
   </div>
   <div class="four columns">
     <h3>Conference</h3>
-    <span><strong>July 14-15</strong> • Saturday, Sunday</span>
+    <span>Saturday, Sunday • 14, 15</span>
     <p>The weekend is our main event, 2 days packed full of talks, demos, and workshops</p>
+
   </div>
   <div class="four columns">
     <h3>Sprints</h3>
-    <span><strong>July 16-18</strong> • Monday, Tuesday, Wednesday</span>
-    <p>The final 3 days are our in-person project sprints, join others or propose your own collaboration</p>
+    <span>Monday–Wednesday • 16–18</span>
+    <p>The final 3 days are in-person, collaborative project sprints</p>
   </div>
 </section>
 
