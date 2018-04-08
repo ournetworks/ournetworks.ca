@@ -19,6 +19,9 @@ env:
 script: travis_retry bundle exec htmlproofer --check-html --internal_domains "/www.ournetworks.ca/,/ournetworks.ca/" ./_site
 
 deploy:
+  # Otherwise, travis assumes you want to clean up workspace after tests
+  # With cleanup, we wouldn't have build artefact or SSH keys
+  skip_cleanup: true
   provider: script
   script: bash scripts/deploy.sh
   on:
