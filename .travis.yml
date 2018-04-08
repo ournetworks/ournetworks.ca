@@ -4,6 +4,7 @@ rvm:
 
 before_install:
   - openssl aes-256-cbc -K $encrypted_a3d58fa41b45_key -iv $encrypted_a3d58fa41b45_iv -in scripts/id_rsa.enc -out scripts/id_rsa -d
+  - chmod 400 scripts/id_rsa
 
 before_script: bundle exec jekyll build
 
@@ -19,8 +20,8 @@ env:
 script: travis_retry bundle exec htmlproofer --check-html --internal_domains "/www.ournetworks.ca/,/ournetworks.ca/" ./_site
 
 deploy:
-  # Otherwise, travis assumes you want to clean up workspace after tests
-  # With cleanup, we wouldn't have build artefact or SSH keys
+  # Cleanup removes keys and build artefacts.
+  # See: https://docs.travis-ci.com/user/deployment/#Uploading-Files-and-skip_cleanup
   skip_cleanup: true
   provider: script
   script: bash scripts/deploy.sh
