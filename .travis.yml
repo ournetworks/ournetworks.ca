@@ -28,7 +28,6 @@ deploy:
   on:
     branch:
       - master
-      - travis-deploy
 
 notifications:
   email:
