@@ -4,12 +4,12 @@
 #
 # Usage:
 #
-#     ./deploy.sh [ <ssh user> [ <server host> [ <ssh identity file> ]]]
+#     ./deploy.sh [ <ssh user> [ <ssh identity file> [ <server host> ]]]
 #
 #
 USER="${1:-travis}"
-SERVER="${2:-ournetworks.ca}"
-IDENTITY_FILE="${3:-scripts/id_rsa}"
+IDENTITY_FILE="${2:-scripts/id_rsa}"
+SERVER="${3:-ournetworks.ca}"
 SITE_DIR="/var/www/html"
 
 # This is done to skip the fingerprint check on new connection
