@@ -41,13 +41,15 @@
     white-space: nowrap;
 
     &:hover {
-      background: rgba($white, 0.20);
+      background: rgba($white, 0.2);
     }
+
     &:focus {
       color: $white;
       background: rgba($white, 0.55);
       transition: none;
     }
+
     &.active {
       color: $white;
       background: rgba($white, 0.3);
