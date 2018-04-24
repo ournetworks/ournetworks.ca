@@ -1,12 +1,11 @@
 .site-title {
-  font-size: 1.2em;
   margin: 0;
   padding: 0;
   flex-grow: 1;
 }
 
 .header {
-  background-color: $black;
+  background-color: $white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 50px;
@@ -32,7 +31,7 @@
 
   a {
     transition: color 180ms ease-in-out, background 180ms ease-in-out;
-    color: $white;
+    color: $black;
   }
 
   .nav-item {
@@ -51,7 +50,7 @@
     }
 
     &.active {
-      color: $white;
+      color: $accent-color;
       background: rgba($white, 0.3);
     }
 

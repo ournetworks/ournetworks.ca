@@ -38,11 +38,11 @@ figcaption {
 // Links
 
 a {
-  color: $brand-color;
+  color: $accent-color;
   text-decoration: none;
 
   &:hover {
-    color: darken($brand-color, 15%);
+    color: darken($accent-color, 15%);
   }
 }
 
@@ -77,9 +77,9 @@ code {
   margin: 0 0.2rem;
   font-size: 15px;
   white-space: nowrap;
-  border: 1px solid rgba($brand-color, 0.1);
+  border: 1px solid rgba($accent-color, 0.1);
   border-radius: 3px;
-  background-color: rgba($brand-color, 0.05);
+  background-color: rgba($accent-color, 0.05);
 }
 
 code {

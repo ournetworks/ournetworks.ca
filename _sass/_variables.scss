@@ -1,13 +1,12 @@
 // Typography Variables
 
-$base-font-family: "worksans", Helvetica, Arial, sans-serif;
+$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $base-font-size: 16px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.5;
 $base-heading-line-height: 1.2;
 $base-margin-bottom: 1em;
-$base-padding: $base-margin-bottom * 2;
 
 $spacing-unit: 2em;
 
@@ -15,7 +14,7 @@ $spacing-unit: 2em;
 
 $text-color: #111;
 $background-color: #fdfdfd;
-$brand-color: #1f73e0;
+$accent-color: #1f73e0;
 
 $white: #fff;
 $black: #000;

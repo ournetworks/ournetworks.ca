@@ -2,9 +2,9 @@
 layout: splash
 ---
 
-<div style="margin-bottom: 2.25em;">
-  <span style="font-size: 4.85rem; line-height: 1.2; font-weight: 600;">July 13–18, 2018</span><br />
-  <span style="font-size: 3.5rem; line-height: 1.2;">{{ site.title }}</span><br />
+<div>
+  <span>July 13–18, 2018</span>
+  <span>{{ site.title }}</span>
   <h1>Beyond DIY: Do It With Others</h1>
   <h2>Toronto, Ontario</h2>
 </div>
@@ -20,7 +20,6 @@ layout: splash
     <h3>Conference</h3>
     <span>Saturday, Sunday • 14, 15</span>
     <p>The weekend is our main event, 2 days packed full of talks, demos, and workshops</p>
-
   </div>
   <div class="four columns">
     <h3>Sprints</h3>
