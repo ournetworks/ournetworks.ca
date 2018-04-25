@@ -1,12 +1,6 @@
 // Forms
 
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
+.input-text,
 textarea,
 select {
   width: 100%;
@@ -21,17 +15,6 @@ select {
   border: 1px solid #d1d1d1;
   box-shadow: none;
   box-sizing: border-box;
-}
-
-// Removes awkward default styles on some inputs for iOS */
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -43,13 +26,7 @@ textarea {
   padding-bottom: 6px;
 }
 
-input[type="email"]:focus,
-input[type="number"]:focus,
-input[type="search"]:focus,
-input[type="text"]:focus,
-input[type="tel"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
+.input-text:focus,
 textarea:focus,
 select:focus {
   border: 1px solid $accent-color;
@@ -65,11 +42,6 @@ legend {
 fieldset {
   padding: 0;
   border-width: 0;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-  display: inline;
 }
 
 label > .label-body {
