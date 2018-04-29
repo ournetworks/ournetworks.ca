@@ -31,7 +31,7 @@ layout: splash
 
 ## Conference Call for Participation
 
-**Update:** Extended one week to Mon, May 7, 2018!
+<mark>**Update:** Deadline extended to Monday, May 7, 2018!</mark>
 
 Our theme this year focuses on how we **Do It With Others (DIWO)** as opposed to just ourselves, building on the "**distributed campaign for emancipatory, networked art practices**," instigated by UK-based [Furtherfield](http://archive.furtherfield.org/projects/diwo-do-it-others-resource) (2006) as a response to the Do It Yourself (DIY) movement. We have seen a growing number of peer-to-peer, inclusive, and privacy-respecting projects mobilizing in favour of resilient, accessible, equitable communications over the internet in 2017. And yet many open questions remain. In the face of threats to the open internet, which tools and tactics will help us recognize the opportunities and challenges of this moment? What kinds of creative and critical engagement with technology practices can enable meaningful change when we do it with others?
 
