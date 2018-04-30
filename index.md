@@ -1,60 +1,21 @@
 ---
 layout: splash
+redirect_from:
+  - '/cfp/'
+  - '/2018/'
 ---
 
-<div style="margin-bottom: 2.25em;">
-  <span style="font-size: 4.85rem; line-height: 1.2; font-weight: 600;">July 13–18, 2018</span><br />
-  <span style="font-size: 3.5rem; line-height: 1.2;">{{ site.title }}</span><br />
-  <h1>Beyond DIY: Do It With Others</h1>
-  <h2>Toronto, Ontario</h2>
-</div>
+{% include 2018-hero.html %}
 
-<!-- Event areas section -->
-<section class="sections row featurette-events-row">
-  <div class="four columns">
-    <h3>Kickoff</h3>
-    <span>Friday • 13</span>
-    <p>We open with morning field trips and an afternoon-into-evening social event</p>
-  </div>
-  <div class="four columns">
-    <h3>Conference</h3>
-    <span>Saturday, Sunday • 14, 15</span>
-    <p>The weekend is our main event, 2 days packed full of talks, demos, and workshops</p>
+What kinds of creative and critical engagement with technology practices can enable meaningful change when we do it with others?
 
-  </div>
-  <div class="four columns">
-    <h3>Sprints</h3>
-    <span>Monday–Wednesday • 16–18</span>
-    <p>The final 3 days are in-person, collaborative project sprints</p>
-  </div>
-</section>
+Our theme this year focuses on how we **Do It With Others (DIWO)** as opposed to just ourselves, building on the “distributed campaign for emancipatory, networked art practices,” instigated by UK-based Furtherfield (2006) as a response to the Do It Yourself (DIY) movement. We have seen a growing number of peer-to-peer, inclusive, and privacy-respecting projects mobilizing in favour of resilient, accessible, equitable communications over the internet in 2017. And yet many open questions remain. In the face of threats to the open internet, which tools and tactics will help us recognize the opportunities and challenges of this moment?
 
-## Conference Call for Participation
-
-<mark><strong>Update</strong>: Deadline extended to Monday, May 7, 2018!</mark>
-
-Our theme this year focuses on how we **Do It With Others (DIWO)** as opposed to just ourselves, building on the "**distributed campaign for emancipatory, networked art practices**," instigated by UK-based [Furtherfield](http://archive.furtherfield.org/projects/diwo-do-it-others-resource) (2006) as a response to the Do It Yourself (DIY) movement. We have seen a growing number of peer-to-peer, inclusive, and privacy-respecting projects mobilizing in favour of resilient, accessible, equitable communications over the internet in 2017. And yet many open questions remain. In the face of threats to the open internet, which tools and tactics will help us recognize the opportunities and challenges of this moment? What kinds of creative and critical engagement with technology practices can enable meaningful change when we do it with others?
-
-**We are inviting proposals for talks, workshops, discussions, demonstrations and interventions to explore these questions.**
-
-Deadline for proposals is Monday ~~April 30~~ **May 7, 2018**, check out our full [**call for participation**](./2018) for submission instructions!
-
-### Not sure? Ask us!
-
-We will host two open hour calls for people to ask questions about potential topics and the conference itself. No prior registration needed, just visit: [https://appear.in/ournetworks](https://appear.in/ournetworks)
-
-<!-- Call section -->
-<section class="sections row featurette-events-row">
-  {% for call in site.data.calls %}
-  <div class="six columns">
-    {% include event.html event=call %}
-  </div>
-  {% endfor %}
-</section>
+The deadline for conference proposals has now closed, check back late-May for our full conference schedule! In the meantime, are you interested in [selling your stuff](/2018/kickoff-yami-ichi/) at our Internet Yami-ichi? Considering [hosting a project](/2018/sprints/) during our sprints?
 
 ### Updates
 
-Want to receive a update when registration launches?
+Want to receive a update mid-May when registration and the schedule launches?
 
 <form action="https://formspree.io/orga@ournetworks.ca" method="POST">
   <div class="row form-group">
