@@ -15,7 +15,7 @@ $spacing-unit: 2em;
 $text-color: #111;
 $background-color: #ffffff;
 $background-accent: #d1e9e3;
-$accent-color: #2b1fe0;
+$accent-color: darken($background-accent, 30%);
 
 $white: #fff;
 $black: #000;

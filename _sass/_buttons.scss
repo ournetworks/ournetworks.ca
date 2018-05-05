@@ -33,8 +33,8 @@ button:focus {
 .button.button-primary,
 button.button-primary {
   color: $white;
-  background-color: $accent-color;
-  border-color: $accent-color;
+  background-color: $black;
+  border-color: $black;
 }
 
 .button.button-primary:hover,
@@ -42,8 +42,8 @@ button.button-primary:hover,
 .button.button-primary:focus,
 button.button-primary:focus {
   color: $white;
-  background-color: darken($accent-color, 10%);
-  border-color: darken($accent-color, 10%);
+  background-color: lighten($black, 20%);
+  border-color: lighten($black, 20%);
 }
 
 .compact {
