@@ -9,8 +9,7 @@ select {
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 38px;
-  padding: 6px 10px; // The 6px vertically centers text on FF, ignored by Webkit */
+  padding: 0.75em 1em;
   background-color: #fff;
   border: 1px solid #d1d1d1;
   box-shadow: none;
