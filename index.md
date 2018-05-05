@@ -21,11 +21,11 @@ Want to receive a update mid-May when registration and the schedule launches?
   <div class="row form-group">
     <div class="four columns">
       <label for="name">Name</label>
-      <input type="text" id="name" name="name" placeholder="Your name">
+      <input type="text" id="name" class="input-text" name="name" placeholder="Your name">
     </div>
     <div class="four columns">
       <label for="email">Email</label>
-      <input type="email" id="email" name="_replyto" placeholder="Email address" aria-required="true" required>
+      <input type="email" id="email" class="input-text" name="_replyto" placeholder="Email address" aria-required="true" required>
     </div>
   </div>
   <input type="submit" name="submit" value="Sign up for Updates" class="button button-primary">

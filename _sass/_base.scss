@@ -1,4 +1,4 @@
-// Basic Styling
+// Base Styling
 
 html {
   box-sizing: border-box;
@@ -38,14 +38,13 @@ figcaption {
 // Links
 
 a {
-  color: $brand-color;
+  color: $accent-color;
   text-decoration: none;
 
   &:hover {
-    color: darken($brand-color, 15%);
+    color: darken($accent-color, 15%);
   }
 }
-
 
 // Blockquotes
 
@@ -68,20 +67,19 @@ hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
   border-width: 0;
-  border-top: 1px solid #E1E1E1;
+  border-top: 1px solid #e1e1e1;
 }
-
 
 // Code formatting
 
 pre,
 code {
-  margin: 0 .2rem;
+  margin: 0 0.2rem;
   font-size: 15px;
   white-space: nowrap;
-  border: 1px solid rgba($brand-color, 0.1);
+  border: 1px solid rgba($accent-color, 0.1);
   border-radius: 3px;
-  background-color: rgba($brand-color, 0.05);
+  background-color: rgba($accent-color, 0.05);
 }
 
 code {

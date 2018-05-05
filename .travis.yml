@@ -35,4 +35,5 @@ notifications:
   email:
     recipients:
       - orga@ournetworks.ca
-    on_failure: always
+    on_success: change
+    on_failure: change
