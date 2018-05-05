@@ -6,19 +6,15 @@
 
 .header {
   background-color: $white;
-  line-height: 50px;
   width: 100%;
   position: fixed;
   z-index: 100;
   top: 0;
-
-  @media (max-width: $on-palm) {
-    line-height: 40px;
-  }
+  padding: 1em 0;
 
   .container {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     flex-wrap: wrap;
     position: relative;
 
@@ -54,5 +50,15 @@
     li + li {
       margin-top: 0;
     }
+
+    a {
+      color: $black;
+    }
   }
+}
+
+.logo {
+  display: block;
+  width: 150px;
+  height: auto;
 }
