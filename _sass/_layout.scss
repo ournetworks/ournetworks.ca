@@ -202,17 +202,8 @@
   }
 }
 
-.post,
-.splash {
-  padding: 75px 0 0;
-
-  &.extended {
-    padding-top: 125px;
-
-    @media (max-width: $on-palm) {
-      padding-top: 150px;
-    }
-  }
+.post {
+  padding: 100px 0 0;
 
   @media (max-width: $on-palm) {
     padding-top: 100px;
@@ -224,6 +215,44 @@
 
   .compact + .compact {
     margin-top: 0.75em;
+  }
+}
+
+// Splash
+
+.splash {
+  &.extended {
+    padding-top: 61px;
+
+    @media (max-width: $on-palm) {
+      padding-top: 53px;
+    }
+  }
+}
+
+.splash-hero {
+  padding-top: 100px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  background: $background-accent;
+  background-image: url('../images/splash-outline.svg');
+  background-repeat: no-repeat;
+  background-position: 102% center;
+
+  @media (max-width: $content-width) {
+    background-image: none;
+  }
+}
+
+.feature {
+  margin-bottom: 1.6em;
+
+  &:last-child {
+    margin-bottom: 0;
+
+    p {
+      margin-bottom: 0;
+    }
   }
 }
 

@@ -5,15 +5,14 @@
 }
 
 .header {
-  background-color: $white;
   width: 100%;
   position: fixed;
   z-index: 100;
   top: 0;
-  padding: 1em 0;
 
-  .container {
+  > .container {
     display: flex;
+    padding: 1em 0;
     align-items: center;
     flex-wrap: wrap;
     position: relative;
@@ -28,8 +27,9 @@
     display: inline-flex;
     white-space: nowrap;
 
-    &.active {
-      color: $black;
+    &.active,
+    &:hover {
+      color: rgba($black, 0.5);
     }
 
     @media (max-width: $on-palm) {

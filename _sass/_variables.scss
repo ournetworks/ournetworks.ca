@@ -13,7 +13,7 @@ $spacing-unit: 2em;
 // Color Variables
 
 $text-color: #111;
-$background-color: #ffffff;
+$background-color: #fff;
 $background-accent: #d1e9e3;
 $accent-color: darken($background-accent, 30%);
 
@@ -25,5 +25,4 @@ $grey-color-light: lighten($grey-color, 40%);
 // Content Layout Variables
 
 $content-width: 900px;
-
 $on-palm: 600px;

@@ -1,9 +1,14 @@
 // Announcements
 .announcement {
-  background-color: $accent-color;
+  background-color: $black;
   color: $white;
+  padding: 1em;
 
   p {
     margin: 0;
+  }
+
+  @media (max-width: $on-palm) {
+    padding: 1em 0;
   }
 }

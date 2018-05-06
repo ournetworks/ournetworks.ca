@@ -80,6 +80,11 @@ p {
   line-height: 1.2em;
 }
 
+.splash-heading {
+  @include rsp-font(4vw, 24px, 36px);
+  margin-bottom: 0.1em;
+}
+
 // Terminal Font helper
 
 .terminal {

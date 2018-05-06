@@ -9,7 +9,7 @@ select {
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 0.75em 1em;
+  padding: 1em 0.85em 0.85em;
   background-color: #fff;
   border: 1px solid #d1d1d1;
   box-shadow: none;
@@ -17,6 +17,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  line-height: 1em;
 }
 
 textarea {
