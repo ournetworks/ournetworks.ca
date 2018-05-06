@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function(){
     confirmationEle.setAttribute('role', 'alert');
     confirmationEle.innerHTML = '<div class="container"><p>Successfully signed up for updates</p></div>';
 
-    post.append(confirmationEle);
+    post.prepend(confirmationEle);
     document.querySelector('.splash').classList.add('extended');
   }
 
