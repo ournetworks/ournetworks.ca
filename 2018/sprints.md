@@ -6,6 +6,9 @@ subtitle: "Sprints"
 titleDisplay: "Sprints"
 startDate: 2018-07-16
 endDate: 2018-07-18
+venueName: Semaphore Demo Room
+location: Room 417, Claude T. Bissell, 140 St. George Street
+locationLink: http://osm.org/go/ZX6Bw~WNh--?m=
 ---
 
 Monday–Wednesday • 16–18

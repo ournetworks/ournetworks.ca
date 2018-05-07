@@ -6,6 +6,9 @@ subtitle: "Conference"
 titleDisplay: "Conference"
 startDate: 2018-07-14
 endDate: 2018-07-15
+venueName: Mozilla Community Space
+location: Suite 500, 366 Adelaide Street
+locationLink: https://osm.org/go/ZX6BjZ50h?m=
 ---
 
 Saturday, Sunday • 14, 15
