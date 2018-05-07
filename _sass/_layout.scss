@@ -203,7 +203,7 @@
 }
 
 .post {
-  padding: 100px 0 0;
+  padding: 120px 0 0;
 
   @media (max-width: $on-palm) {
     padding-top: 100px;
@@ -228,10 +228,21 @@
       padding-top: 53px;
     }
   }
+
+  > .container {
+
+    p {
+      max-width: 75%;
+
+      @media (max-width: $content-width) {
+        max-width: none;
+      }
+    }
+  }
 }
 
 .splash-hero {
-  padding-top: 100px;
+  padding-top: 120px;
   margin-bottom: 50px;
   padding-bottom: 50px;
   background: $background-accent;
@@ -254,6 +265,22 @@
       margin-bottom: 0;
     }
   }
+}
+
+// Splash SVGs
+
+.asterisk-outline {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  @media (max-width: $content-width) {
+    display: none;
+  }
+}
+
+.stairs-outline {
+  margin: 1em 0;
 }
 
 // Notices

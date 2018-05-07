@@ -11,6 +11,9 @@ Our theme this year focuses on how we **Do It With Others (DIWO)** as opposed to
 
 The deadline for conference proposals has now closed, check back late-May for our full conference schedule! In the meantime, are you interested in [selling your stuff](/2018/kickoff-yami-ichi/) at our Internet Yami-ichi? Considering [hosting a project](/2018/sprints/) during our sprints?
 
+{% include graphics/asterisk-outline.svg %}
+{% include graphics/stairs-outline.svg %}
+
 ### Updates
 
 Want to receive a update mid-May when registration and the schedule launches?
