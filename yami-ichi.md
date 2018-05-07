@@ -3,12 +3,11 @@ layout: page
 order: 1
 title: "2018"
 subtitle: "Kickoff Yami-ichi"
-titleDisplay: "Kickoff"
+titleDisplay: "Yami-Ichi"
 excerpt:
-venueId:  
-date:
-startTime:
-endTime:
+startDate: 2018-07-13
+redirect_from:
+  - '/2018/kickoff-yami-ichi/'
 ---
 
 Friday • 13
@@ -29,15 +28,6 @@ Take your own Internet liberties* here, with us.
 free and useful!
 ```
 
-Calling all vendors of internet-ish things! Come gather and exchange goods from the backstreets of the Internet Friday July 13, 2018 afternoon into evening.
+<iframe width="80%" height="415" src="https://www.youtube.com/embed/mjWJsE7B1cs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mjWJsE7B1cs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-<!--second wave
-
-Watch the above video, still interested?
-
-Tell us about [your offer](#)
-Closing date for vendor registration: June 30 2018
-Offering fee: $20
-second wave -->
+Calling all vendors of internet-ish things-- be prepared to gather and exchange goods from the backstreets of the Internet on Friday July 13, 2018 afternoon into evening. Our call for vendors will go live late-May, watch this space.

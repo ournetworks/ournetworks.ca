@@ -16,7 +16,7 @@ The deadline for conference proposals has now closed, check back late-May for ou
 
 ### Updates
 
-Want to receive a update mid-May when registration and the schedule launches?
+Want to receive a update mid-May when the conference program and registration launches?
 
 <form action="https://formspree.io/orga@ournetworks.ca" method="POST">
   <div class="row form-group">
