@@ -6,12 +6,11 @@ title: "Conference"
 titleDisplay: "Conference"
 startDate: 2018-07-14
 endDate: 2018-07-15
-venueName: Mozilla Community Space
-location: Suite 500, 366 Adelaide Street
+venueName: "Mozilla Community Space"
+location: "Suite 500, 366 Adelaide Street"
 locationLink: https://osm.org/go/ZX6BjZ50h?m=
 ---
 
-Saturday, Sunday • July 14, 15
 
 What kinds of creative and critical engagement with technology practices can enable meaningful change when we do it with others?
 

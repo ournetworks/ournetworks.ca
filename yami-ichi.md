@@ -4,16 +4,12 @@ order: 1
 section: "2018"
 title: "Kickoff Yami-ichi"
 titleDisplay: "Yami-Ichi"
-excerpt:
 startDate: 2018-07-13
 redirect_from:
-  - '/2018/kickoff-yami-ichi/'
+  - "/2018/kickoff-yami-ichi/"
 ---
 
-Friday • July 13
-
-
-Calling all vendors of internet-ish things-- be prepared to gather and exchange goods from the backstreets of the Internet on Friday July 13, 2018 afternoon into evening. What's a Yami-ichi you ask?
+Calling all vendors of internet-ish things— be prepared to gather and exchange goods from the backstreets of the Internet on {{ page.startDate | date: '%B %d, %Y' }} afternoon into evening. What's a Yami-ichi you ask?
 
 <blockquote>
   S*%t happens. Didn't used to. Like when some small off-handed private comment

@@ -1,8 +1,8 @@
 ---
 layout: splash
 redirect_from:
-  - '/cfp/'
-  - '/2018/'
+  - "/cfp/"
+  - "/2018/"
 ---
 
 What kinds of creative and critical engagement with technology practices can enable meaningful change when we do it with others?
