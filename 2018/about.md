@@ -49,7 +49,7 @@ Our Networks organizers have hosted civic tech events and community networks wor
   <li class="bio-sm-list-item"><a href="https://twitter.com/patconnolly" target="_blank">{% include icons/twitter.svg %}&nbsp;@patconnolly</a></li>
 </ul>
 
-**S Friend**{:#s} is a software engineer and artist who's been focusing on the development of games, interactive experiences, and open source tools. Professionally, S specializes in blockchain analytics - personally, S's practice more broadly explores the polar concerns of privacy and transparency and the political/environmental implications of technology. S is involved in community organizations including: Toronto Mesh, The Reported (a database of police-involved deaths in Canada), The Toronto Tool Library, and Dames Making Games.
+**Sarah Friend**{:#sarah} is an artist and software engineer working at a large blockchain development studio. When not doing that, she creates games and other interactive experiences. Her practice more broadly explores the polar concerns of privacy and transparency and the political/environmental implications of technology. She is a proud Recurse Center alum, and has recently presented at the Montreal International Games Showcase, the MoneyLab program by the Institute for Networked Culture in London, and Transmediale Berlin.
 
 <ul class="bio-sm-list">
   <li class="bio-sm-list-item"><a href="https://isthisa.com/" target="_blank">{% include icons/link.svg %}&nbsp;isthisa.com</a></li>
