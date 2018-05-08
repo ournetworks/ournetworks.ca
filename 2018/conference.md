@@ -1,8 +1,8 @@
 ---
 layout: page
 order: 2
-title: "2018"
-subtitle: "Conference"
+section: "2018"
+title: "Conference"
 titleDisplay: "Conference"
 startDate: 2018-07-14
 endDate: 2018-07-15
@@ -11,7 +11,7 @@ location: Suite 500, 366 Adelaide Street
 locationLink: https://osm.org/go/ZX6BjZ50h?m=
 ---
 
-Saturday, Sunday • 14, 15
+Saturday, Sunday • July 14, 15
 
 What kinds of creative and critical engagement with technology practices can enable meaningful change when we do it with others?
 

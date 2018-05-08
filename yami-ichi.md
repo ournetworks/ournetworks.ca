@@ -1,8 +1,8 @@
 ---
 layout: page
 order: 1
-title: "2018"
-subtitle: "Kickoff Yami-ichi"
+section: "2018"
+title: "Kickoff Yami-ichi"
 titleDisplay: "Yami-Ichi"
 excerpt:
 startDate: 2018-07-13
@@ -10,7 +10,7 @@ redirect_from:
   - '/2018/kickoff-yami-ichi/'
 ---
 
-Friday • 13
+Friday • July 13
 
 ```
 S*%t happens. Didn't used to. Like when some small off-handed private comment

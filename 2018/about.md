@@ -1,8 +1,8 @@
 ---
 layout: page
 order: 10
-title: "2018"
-subtitle: "About the Event"
+section: "2018"
+title: "About the Event"
 titleDisplay: "About"
 ---
 

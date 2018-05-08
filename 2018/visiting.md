@@ -1,8 +1,8 @@
 ---
 layout: page
 order: 11
-title: "2018"
-subtitle: "Visiting Toronto"
+section: "2018"
+title: "Visiting Toronto"
 titleDisplay: "Visiting"
 ---
 

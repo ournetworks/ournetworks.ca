@@ -1,8 +1,8 @@
 ---
 layout: page
 order: 3
-title: "2018"
-subtitle: "Sprints"
+section: "2018"
+title: "Sprints"
 titleDisplay: "Sprints"
 startDate: 2018-07-16
 endDate: 2018-07-18
@@ -11,7 +11,7 @@ location: Room 417, Claude T. Bissell, 140 St. George Street
 locationLink: http://osm.org/go/ZX6Bw~WNh--?m=
 ---
 
-Monday–Wednesday • 16–18
+Monday–Wednesday • July 16–18
 
 Modelled after [PyCon](https://us.pycon.org/2018/community/sprints/), we are supporting project sprints following the conference. Sprints provide an opportunity for people interested in a project to come together to learn and create in a truely Do It With Others (DIWO) environment. The goal is to make friends and build lasting relationships, working together to share knowledge, build features, hack on prototypes, and polish resources.
 
