@@ -16,7 +16,7 @@ Awesome, we are [planning this event openly](https://github.com/ournetworks/2018
 
 Our Networks organizers have planned workshops and hosted events on network literacy and community networks as well as built mesh networks with Toronto Mesh for the past two years:
 
-**Benedict Lau**{:#benhylau} is a Toronto-based engineer who believes in knowledge sharing and appropriate technology principles. He enjoys building things that fascinate him, which on rare occasions turn out useful for other people. Lately he's been spending much time on mobile software and exploring the wonderful world of distributed systems.
+**Benedict Lau**{:#benhylau} is an engineer working on mobile software and mesh networks. He is a contributor and organizer at Toronto Mesh, currently focused on meshing with single-board computers and building deployment tools and literacy around peer-to-peer applications.
 
 <ul class="bio-sm-list">
  <li class="bio-sm-list-item"><a href="http://www.groundupworks.com/" target="_blank">{% include icons/link.svg %}&nbsp;groundupworks.com </a></li>
