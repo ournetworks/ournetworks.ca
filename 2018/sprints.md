@@ -12,10 +12,9 @@ locationLink: http://osm.org/go/ZX6Bw~WNh--?m=
 ---
 
 
-
 Modelled after [PyCon](https://us.pycon.org/2018/community/sprints/), we are supporting project sprints following the conference. Sprints provide an opportunity for people interested in a project to come together to learn and create in a truely Do It With Others (DIWO) environment. The goal is to make friends and build lasting relationships, working together to share knowledge, build features, hack on prototypes, and polish resources.
 
-We've secured space 10am–9:30pm Monday thru Wednesday with hi-speed internet, power bars, post-its, and markers. All you need to do is [propose a sprint topic](#propose-a-sprint) or [join a sprint](#join-a-sprint) below!
+We've secured space 10am–9:30pm Monday thru Wednesday with hi-speed internet, power bars, post-its, and markers. All you need to do is [propose a sprint topic](#propose-a-sprint) or [join a sprint](#join-a-sprint) below.
 
 ***
 
@@ -59,4 +58,4 @@ presentation throughout the sprint. | |
 ```
 
 
-After that all you have to do is attend the sprint pitches session on Sunday afternoon to give us a 5 minute overview of the project!
+After that all you have to do is attend the sprint pitches session on Sunday afternoon to give us a 5 minute overview of the project.
