@@ -88,13 +88,16 @@ p {
 
 // Posts title
 
+.post-header {
+  margin-bottom: 1.2em;
+}
+
 .post-title {
-  margin-bottom: 1em;
+  margin-bottom: 0.25em;
 }
 
 .post-subtitle {
-  font-size: 3.5rem;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.35em;
 }
 
 // Terminal Font helper
