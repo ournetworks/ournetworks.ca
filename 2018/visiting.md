@@ -8,17 +8,17 @@ titleDisplay: "Visiting"
 
 We have a slowly-growing list of questions for those visiting the event, if you don't see yours answered below, send us an email at {{ site.email }}.
 
-### Are the venues accessible?
+### I am traveling from out of town, how can I stay in Toronto affordably? (a.k.a. What are community billets?)
 
-We are committed to reducing barriers to access throughout the event. All spaces--for kickoff, conference, and sprints--have elevator access and accessible washrooms.
-
-### I am traveling from out of town, how can I stay in Toronto affordably? (a.k.a. What are Community Billets?)
-
-We do not have a discount rate with a hotel, however we have arranged for a limited number of spots for those looking for a place to stay, check out the [community billets list](#) to coordinate!
+We have arranged a limited number of spots with people based in Toronto for those looking for a place to stay.  Billeting is a way of supporting participants to attend within their budget and at the same time, welcome them into our community. If you indicated you were interested in hosting or staying in a community billet we will be contacting you. In the meantime, check out the [community billets list](https://ethercalc.org/4ub40nmpo1pp) or email [billets@ournetworks.ca](mailto:billets@ournetworks.ca) and we'll help coordinate!
 
 ### What is the best way to get around Toronto?
 
-Toronto in July is easily navigable by bike ([Bike Share Toronto](https://bikesharetoronto.com/)), public transportation ([TTC](http://www.ttc.ca/)), and to many places on foot.
+Toronto in July is easily navigable by bike ([Bike Share Toronto](https://bikesharetoronto.com/) as a popular rental option), using public transportation ([TTC](http://www.ttc.ca/)), and on foot around the event venues.
+
+### Are the venues accessible?
+
+We are committed to reducing barriers to access throughout the event. All spaces—for kickoff, conference, and sprints—have elevator access and accessible washrooms.
 
 ### I want to make this even even better, how can I help?
 

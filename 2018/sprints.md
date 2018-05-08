@@ -33,7 +33,7 @@ Add your name to the list by [editing this page on GitHub](https://github.com/ou
 
 ## Propose a Sprint
 
-Anyone can propose a Sprint in the lead up to--and at--the conference. If a topic comes up during Our Networks and you feel a Sprint may be the right format to test / kickstart the project, we encourage you to propose a Sprint!
+Anyone can propose a Sprint in the lead up to--and at--the conference. If a topic comes up during Our Networks and you feel a Sprint may be the right format to test/kickstart the project, we encourage you to propose a Sprint!
 
 Pitching a Sprint involves [editing this page on GitHub](https://github.com/ournetworks/ournetworks.ca/edit/master/2018/sprints.md) to add a short description about the idea along with the following information:
 

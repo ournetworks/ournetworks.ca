@@ -14,7 +14,7 @@ Awesome, we are [planning this event openly](https://github.com/ournetworks/2018
 
 ###  Organizing Team
 
-Our Networks organizers have planned workshops and hosted events on network literacy and community networks as well as built mesh networks with Toronto Mesh for the past two years:
+Our Networks organizers have hosted civic tech events and community networks workshops, created network literacy materials, and built mesh networks with Toronto Mesh for the past two years:
 
 **Benedict Lau**{:#benhylau} is an engineer working on mobile software and mesh networks. He is a contributor and organizer at Toronto Mesh, currently focused on meshing with single-board computers and building deployment tools and literacy around peer-to-peer applications.
 
