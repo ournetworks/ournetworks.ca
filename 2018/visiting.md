@@ -18,7 +18,7 @@ Toronto in July is easily navigable by bike ([Bike Share Toronto](https://bikesh
 
 ### Are the venues accessible?
 
-We are committed to reducing barriers to access throughout the event. All spaces—for kickoff, conference, and sprints—have elevator access and accessible washrooms.
+We are committed to reducing barriers to access throughout the event. All spaces—for Kickoff Yami-ichi, Conference, and Sprints—have elevator access and accessible washrooms.
 
 ### I want to make this even even better, how can I help?
 
