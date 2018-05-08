@@ -10,7 +10,7 @@ Design concept and logo by [Marlo Yarlo](http://www.marloyarlo.com/).
 
 ## License & Copyright
 
-Copyright (C) 2018 garrying, dcwalk, patcon
+Copyright (C) 2018 garrying, dcwalk, patcon, sarah
 
 Ournetworks.ca **code** at [ournetworks/ournetworks.ca](https://github.com/ournetworks/ournetworks.ca/) is licensed under a [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl.html). This program is free software: you can redistribute it and/or modify it under the terms of the [GNU General Public License](https://www.gnu.org/licenses/gpl.html) as published by the Free Software Foundation, version 3.0. A copy is distributed with the code at [`LICENSE.md`](./LICENSE.md).
 
