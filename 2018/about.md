@@ -13,7 +13,7 @@ Our Networks has a <a href="/code-of-conduct/">Code of Conduct</a>, for any cond
 
 ### I want to make this even even better, how can I help?
 
-Awesome, we are [planning this event openly](https://github.com/ournetworks/2018)! You should consider [tabling at our Yami-ichi](/yami-ichi/) or [pitching a project for our Sprints](/2018/sprints/). If those activities don't appeal, we will need volunteers to help the event run smoothly--reach out to us at <a href="mailto:{{ site.email }}">{{ site.email }}</a>!
+You should consider [tabling at our Yami-ichi](/yami-ichi/) or [pitching a project for our Sprints](/2018/sprints/). Awesome, we are [planning this event openly](https://github.com/ournetworks/2018) so you can check out other tasks we are working on. If those activities don't appeal to you, we will need volunteers to help the event run smoothly--reach out to us at <a href="mailto:{{ site.email }}">{{ site.email }}</a> to be added to the volunteer list.
 
 ###  Organizing Team
 
