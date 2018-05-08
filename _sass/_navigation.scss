@@ -9,15 +9,23 @@
   position: fixed;
   z-index: 100;
   top: 0;
+  transition: background 100ms ease-in-out;
+
+  @media (max-width: $on-palm) {
+    background: $white;
+    box-shadow: 0 3px 0 0 rgba($black, 0.1);
+  }
 
   > .container {
     display: flex;
-    padding: 1.85em 0;
+    padding: 1.75em 0 1em;
     align-items: center;
     flex-wrap: wrap;
     position: relative;
+    transition: padding 200ms ease-in-out;
 
     @media (max-width: $on-palm) {
+      padding: 1em 0;
       display: block;
     }
   }
@@ -34,6 +42,8 @@
 
     @media (max-width: $on-palm) {
       display: block;
+      text-align:center;
+      padding: 0.5em 0 0.5em;
     }
   }
 
@@ -54,11 +64,67 @@
     a {
       color: $black;
     }
+
+    @media (max-width: $on-palm) {
+      display: block;
+      margin-top: 1em;
+    }
+  }
+
+  &.active-bg {
+    background: $white;
+
+    > .container {
+      padding: 1em 0;
+    }
   }
 }
+
+// Mobile Menu Trigger
+
+.nav {
+  @media (max-width: $on-palm) {
+    display: none;
+  }
+}
+
+input[type="checkbox"].menu-btn {
+  display: none;
+
+  &:checked ~ .nav {
+    display: block;
+  }
+
+  &:checked ~ .menu-icon {
+    background: $black;
+    color: $white;
+  }
+}
+
+.menu-icon {
+  display: none;
+  position: absolute;
+  top: 1em;
+  right: 0;
+  border: 1px solid #e1e1e1;
+  padding: 0.8em 1em 0.6em 1em;
+  line-height: 1em;
+  font-size: 0.75em;
+
+  @media (max-width: $on-palm) {
+    display: block;
+  }
+}
+
+
+// Logo
 
 .logo {
   display: block;
   width: 156px;
   height: auto;
+
+  @media (max-width: $on-palm) {
+    width: 90px;
+  }
 }

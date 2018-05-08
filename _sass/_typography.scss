@@ -22,6 +22,7 @@ h2 {
 }
 
 h3 {
+  margin-top: 1em;
   font-size: 2.5rem;
   line-height: $base-heading-line-height;
 }
@@ -83,6 +84,17 @@ p {
 .splash-heading {
   @include rsp-font(4vw, 24px, 36px);
   margin-bottom: 0.1em;
+}
+
+// Posts title
+
+.post-title {
+  margin-bottom: 1em;
+}
+
+.post-subtitle {
+  font-size: 3.5rem;
+  margin-bottom: 0.5em;
 }
 
 // Terminal Font helper
