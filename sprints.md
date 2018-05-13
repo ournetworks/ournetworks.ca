@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 3
+order: 4
 section: "2018"
 title: "Sprints"
 titleDisplay: "Sprints"

@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 1
+order: 2
 section: "2018"
 title: "Kickoff Yami-ichi"
 titleDisplay: "Yami-Ichi"
