@@ -4,6 +4,8 @@ order: 11
 section: "2018"
 title: "Visiting Toronto"
 titleDisplay: "Visiting"
+redirect_from:
+  - "/2018/visiting"
 ---
 
 We have a slowly-growing list of questions for those visiting the event, if you don't see yours answered below, send us an email at {{ site.email }}.
