@@ -4,18 +4,23 @@ order: 10
 section: "2018"
 title: "About the Event"
 titleDisplay: "About"
+redirect_from:
+  - "/2018/about"
 ---
 
 Our Networks is a conference about the past, present, and future of building our own network infrastructures. Now in its second year, the event brings together enthusiasts, hardware and software hackers, researchers, organizers and more to collectively explore creative and critical engagements with the Internet and alternative infrastructures.
 
-Our Networks has a <a href="/code-of-conduct/">Code of Conduct</a>, for any conduct reports or concerns please email <a href="mailto:coc@ournetworks.ca">coc@ournetworks.ca</a>.
+The event has a <a href="/code-of-conduct/">Code of Conduct</a>, in order to create an environment where we can work together. During the event if you are being harassed, notice that someone else is being harassed, or have any other concerns, we ask you to contact an organizer immediately. Those who wish to do so but don’t feel comfortable talking to the organizers in-person can email <a href="mailto:coc@ournetworks.ca">coc@ournetworks.ca</a>.
 
+###  Design
 
-### I want to make this even even better, how can I help?
+Design concept and logo by [Marlo Yarlo](http://www.marloyarlo.com/).
 
-You should consider [tabling at our Yami-ichi](/yami-ichi/) or [pitching a project for our Sprints](/2018/sprints/). We are [planning this event openly](https://github.com/ournetworks/2018) so you can also check tasks we are working on. If those activities don't appeal to you, we will need volunteers to help the event run smoothly--reach out to us at <a href="mailto:{{ site.email }}">{{ site.email }}</a> to be added to the volunteer list.
+<ul class="bio-sm-list">
+  <li class="bio-sm-list-item"><a href="http://www.marloyarlo.com/" target="_blank">{% include icons/link.svg %}&nbsp;marloyarlo.com</a></li>
+</ul>
 
-###  Organizing Team
+###  Organizers
 
 Our Networks organizers have hosted civic tech events and community networks workshops, created network literacy materials, and built mesh networks with Toronto Mesh for the past two years:
 
@@ -57,10 +62,6 @@ Our Networks organizers have hosted civic tech events and community networks wor
   <li class="bio-sm-list-item"><a href="https://github.com/ana0" target="_blank">{% include icons/github.svg %}&nbsp;ana0</a></li>
 </ul>
 
-###  Design
+### I want to make this event better, how can I help?
 
-Design concept and logo by [Marlo Yarlo](http://www.marloyarlo.com/).
-
-<ul class="bio-sm-list">
-  <li class="bio-sm-list-item"><a href="http://www.marloyarlo.com/" target="_blank">{% include icons/link.svg %}&nbsp;marloyarlo.com</a></li>
-</ul>
+You should consider [tabling at our Yami-ichi](/yami-ichi/) or [pitching a project for our Sprints](/2018/sprints/). We are [planning this event openly](https://github.com/ournetworks/2018) so you can also check tasks we are working on. If those activities don't appeal to you, we will need volunteers to help the event run smoothly--reach out to us at <a href="mailto:{{ site.email }}">{{ site.email }}</a> to be added to the volunteer list.
