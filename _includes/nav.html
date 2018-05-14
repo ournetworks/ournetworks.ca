@@ -13,12 +13,20 @@
         {% assign current = page.url %}
         {% assign sorted_pages = site.pages | sort: "order" %}
           {% for page in sorted_pages %}
-             {% if page.order > 0 %}
+             {% if page.order > 0 and page.parent == nil %}
                <li>
                  <a class= "nav-item {% if current != '/' %}{% if page.url contains current %}active{% endif %}{% endif %}"
                     href="{{ page.url }}" aria-label="{{ page.title }}">
                     {% if page.titleDisplay %}{{ page.titleDisplay }}{% else %}{% endif %}
                  </a>
+                 <ul class="nav-item-sub">
+                    {% assign sorted2_pages = site.pages | sort: "order" %}
+                    {% for page2 in sorted2_pages %}
+                      {% if page.title == page2.parent %}
+                      <li><a class= "{% if page2.url contains current[1] %}active{% endif %}" href="{{ page2.url }}" aria-label="{% if page2.titleDisplay %}{{ page2.titleDisplay }}{% else %}{{ page2.title }}{% endif %}">{% if page2.titleDisplay %}{{ page2.titleDisplay }}{% else %}{{ page2.title }}{% endif %}</a></li>
+                      {% endif %}
+                    {% endfor %}
+                 </ul>
                </li>
              {% endif %}
         {% endfor %}
