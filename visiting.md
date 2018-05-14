@@ -8,7 +8,7 @@ redirect_from:
   - "/2018/visiting"
 ---
 
-We have a slowly-growing list of questions for those visiting the event, if you don't see yours answered below, send us an email at {{ site.email }}.
+We have a slowly-growing list of questions for those visiting Tkaronto (Toronto), if you don't see yours answered below, send us an email at [{{ site.email }}](mailto:{{ site.email }}).
 
 ### I am traveling from out of town, how can I stay in Toronto affordably? (a.k.a. What are community billets?)
 
@@ -24,4 +24,4 @@ We are committed to reducing barriers to access throughout the event. All spaces
 
 ### I want to make this even even better, how can I help?
 
-Awesome! First, consider [tabling at our Yami-ichi](/yami-ichi/) or [pitching a project for our Sprints](/2018/sprints/). If those don't appeal we'd love to have weekend volunteers, email us at {{ site.email }}!
+Awesome! First, consider [tabling at our Yami-ichi](/yami-ichi/) or [pitching a project for our Sprints](/sprints/). If those don't appeal we'd love to have weekend volunteers, email us at [{{ site.email }}](mailto:{{ site.email }})!

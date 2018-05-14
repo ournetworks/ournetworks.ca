@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 2
+order: 3
 section: "2018"
 title: "Conference"
 titleDisplay: "Conference"
@@ -10,7 +10,7 @@ venueName: "Mozilla Community Space"
 location: "Suite 500, 366 Adelaide Street"
 locationLink: https://osm.org/go/ZX6BjZ50h?m=
 redirect_from:
-  - "/2018/conference"
+  - "/2018/conferences"
 ---
 
 
