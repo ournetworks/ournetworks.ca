@@ -55,6 +55,7 @@
     list-style: none;
 
     li {
+      position: relative;
       flex-grow: 1;
     }
 
@@ -129,40 +130,31 @@ input[type="checkbox"].menu-btn {
   }
 }
 
-/*Sub menu CSS*/
+// Sub-menu
 
 .nav-item-sub {
   position: absolute;
   z-index: 1000;
   display: none;
-  float: left;
   min-width: 160px;
   padding: 0;
-  font-size: inherent;
-  text-align: left;
   list-style: none;
   background: $white;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, .1);
+  box-shadow: 0 3px 0 0 rgba($black, 0.1);
 
-  & > li > a {
+  li:first-child {
+    padding-top: 5px;
+  }
+
+  a {
     display: block;
-    padding: 3px 20px;
-    clear: both;
-    line-height: 1.42857143;
-    color: $black;
     white-space: nowrap;
-    padding: 10px;
+    padding: 8px 15px;
   }
 
-  li  a:hover {
-    background: rgba($white, 0.2);
-  }
-
-  .active {
-    color: $white;
-    background: rgba($white, 0.3);
+  a:hover,
+  a.active {
+    color: rgba($black, 0.5);
   }
 }
 
@@ -172,10 +164,11 @@ input[type="checkbox"].menu-btn {
 
 @media (max-width: $on-palm) {
   .nav-item-sub {
-    display:block;
-    position:inherit;
-    width:100%;
+    display: block;
+    position: inherit;
+    width: 100%;
     float: none;
     padding: 0 25px;
+    text-align: center;
   }
 }
