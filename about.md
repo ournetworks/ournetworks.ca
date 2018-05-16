@@ -28,7 +28,7 @@ Our Networks organizers have hosted civic tech events and community networks wor
  <li class="bio-sm-list-item"><a href="https://github.com/benhylau" target="_blank">{% include icons/github.svg %}&nbsp;benhylau</a></li>
 </ul>
 
-**Dawn Walker**{:#dawn} is a researcher and PhD student at the University of Toronto focused on participatory design tactics for building environmental civic technologies. She also imagines possibilities for grassroots and decentralized (environmental) data with [EDGI](https://envirodatagov.org/) and [Data Together](https://datatogether.org/). A keen urban agriculturalist, Dawn would rather be in the garden.
+**Dawn Walker**{:#dawn} is a researcher and PhD student at the University of Toronto focused on participatory design tactics for building environmental civic technologies. She also imagines possibilities for grassroots and decentralized (environmental) data with [EDGI](https://envirodatagov.org/) and [Data Together](https://datatogether.org/){:data-proofer-ignore=''}. A keen urban agriculturalist, Dawn would rather be in the garden.
 
 <ul class="bio-sm-list">
   <li class="bio-sm-list-item"><a href="http://dcwalker.ca" target="_blank">{% include icons/link.svg %}&nbsp;dcwalker.ca</a></li>
