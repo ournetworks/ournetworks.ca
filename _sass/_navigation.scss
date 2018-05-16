@@ -55,6 +55,7 @@
     list-style: none;
 
     li {
+      position: relative;
       flex-grow: 1;
     }
 
@@ -126,5 +127,48 @@ input[type="checkbox"].menu-btn {
 
   @media (max-width: $on-palm) {
     width: 90px;
+  }
+}
+
+// Sub-menu
+
+.nav-item-sub {
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  min-width: 160px;
+  padding: 0;
+  list-style: none;
+  background: $white;
+  box-shadow: 0 3px 0 0 rgba($black, 0.1);
+
+  li:first-child {
+    padding-top: 5px;
+  }
+
+  a {
+    display: block;
+    white-space: nowrap;
+    padding: 8px 15px;
+  }
+
+  a:hover,
+  a.active {
+    color: rgba($black, 0.5);
+  }
+}
+
+.header li:hover .nav-item-sub {
+  display: block;
+}
+
+@media (max-width: $on-palm) {
+  .nav-item-sub {
+    display: block;
+    position: inherit;
+    width: 100%;
+    float: none;
+    padding: 0 25px;
+    text-align: center;
   }
 }
