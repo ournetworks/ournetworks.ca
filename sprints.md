@@ -22,7 +22,7 @@ We've secured space 10am–9:30pm Monday thru Wednesday with hi-speed internet, 
 
 ## Join a Sprint
 
-Add your name to the list in advance by <a href="https://github.com/ournetworks/ournetworks.ca/edit/master/2018/sprints.md" data-proofer-ignore>editing this page on GitHub</a> (don't worry we'll help with formatting!) and make sure to watch the sprint pitches on Sunday at the conference, the project lead will be there providing an overview.
+Add your name to the list in advance by <a href="https://github.com/ournetworks/ournetworks.ca/edit/master/sprints.md">editing this page on GitHub</a> (don't worry we'll help with formatting!) and make sure to watch the sprint pitches on Sunday at the conference, the project lead will be there providing an overview.
 
 
 
@@ -36,7 +36,7 @@ Add your name to the list in advance by <a href="https://github.com/ournetworks/
 
 Anyone can propose a Sprint in the lead up to--and at--the conference. If a topic comes up during Our Networks and you feel a Sprint may be the right format to test/kickstart the project, we encourage you to propose a Sprint!
 
-Pitching a Sprint involves <a href="https://github.com/ournetworks/ournetworks.ca/edit/master/2018/sprints.md" data-proofer-ignore>editing this page on GitHub</a> to add a short description about the idea along with the following information:
+Pitching a Sprint involves <a href="https://github.com/ournetworks/ournetworks.ca/edit/master/sprints.md">editing this page on GitHub</a> to add a short description about the idea along with the following information:
 
 - Project name with a website or link if one exists
 - Sprint lead with contact email
