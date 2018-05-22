@@ -28,7 +28,7 @@ Add your name to the list in advance by <a href="https://github.com/ournetworks/
 
 | Project Name            | Project Lead | Description and Goals | Attending |
 |:------------------------|:-------------|:----------------------|:----------|
-| From Learning To Building Networks | @benhylau, ben.hy.lau@gmail.com | Share network literacy efforts by Toronto Mesh, then together explore workshop-based approaches to building and maintaining community network infrastructure. | |
+| From Learning To Building Networks | @benhylau, ben.hy.lau@gmail.com | Share network literacy efforts by Toronto Mesh, then together explore workshop-based approaches to building and maintaining community network infrastructure. From 10am to 12pm on Monday, July 16. | |
 |                         |              |                       |           |
 
 <br />
