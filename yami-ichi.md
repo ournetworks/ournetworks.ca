@@ -4,10 +4,27 @@ order: 2
 section: "2018"
 title: "Kickoff Yami-ichi"
 titleDisplay: "Yami-Ichi"
+location: Toronto Media Arts Centre, 32 Lisgar St
+locationLink: https://osm.org/go/ZX6BIz1xQ?m=&way=66233699
 startDate: 2018-07-13
 redirect_from:
   - "/2018/kickoff-yami-ichi/"
 ---
+
+<div class="event-time-location">
+  <div class="event-meta">
+    {% include icons/map-marker.svg %}
+    <p class="event-location event-meta-item">
+    {% if page.locationLink %}
+      <a href="{{page.locationLink}}" target="_blank">{{ page.location }}</a> <!--_-->
+    {% else %}
+      {{ page.location }}
+    {% endif %}
+    </p>
+  </div>
+</div>
+
+<br />
 
 Calling all vendors of internet-ish things— be prepared to gather and exchange goods from the backstreets of the Internet on {{ page.startDate | date: '%B %d, %Y' }} afternoon into evening. What's a Yami-ichi you ask?
 
@@ -29,6 +46,10 @@ Calling all vendors of internet-ish things— be prepared to gather and exchange
 
 <p style="text-align: right;"> — <a href="http://yami-ichi.biz/">IDPW, a secret society on the internet that goes back more than 100 years</a></p>
 
-Our call for vendors goes live late-May, until then, watch this video!
+***
 
-<div style="text-align: center;"> <iframe width="80%" height="415" src="https://www.youtube.com/embed/mjWJsE7B1cs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+## Apply to Bit Bazaar × Yami-Ichi
+
+Applications are open until June 21 and exhibitors will be selected and notified on a rolling basis.
+
+<a href="https://preview.bitbazaar.world/" class="button button-primary" target="_blank">Apply to Participate</a>
