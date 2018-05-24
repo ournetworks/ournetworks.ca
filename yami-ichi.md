@@ -3,15 +3,26 @@ layout: page
 order: 2
 section: "2018"
 title: "Kickoff Party: Bit Bazaar × Internet Yami-ichi"
-titleDisplay: "Bit Bazaar × Internet Yami-Ichi"
-location: Toronto Media Arts Centre, 32 Lisgar St
+titleDisplay: "Yami-Ichi"
+location: Toronto Media Arts Centre, 32 Lisgar Street
 locationLink: https://osm.org/go/ZX6BIz1xQ?m=&way=66233699
 startDate: 2018-07-13
+startTime: '14:00'
+endTime: '21:00'
 redirect_from:
   - "/2018/kickoff-yami-ichi/"
 ---
 
 <div class="event-time-location" style="margin-bottom: 2em;">
+  <div class="event-meta">
+    {% include icons/ticket.svg %}
+    <p class="event-cost event-meta-item">Free entrance, Apply to <a href="#vend">vend below</a>
+    </p>
+  </div>
+  <div class="event-meta">
+    {% include icons/calendar-o.svg %}
+    <p class="event-time event-meta-item">{{ page.startDate | date: "%-d %B %Y"}}, <strong>{{page.startTime | date:"%-I:%M %P "}}</strong> – <strong>{{page.endTime | date:"%-I:%M %P"}}</strong>, party from  pm-late</p>
+  </div>
   <div class="event-meta">
     {% include icons/map-marker.svg %}
     <p class="event-location event-meta-item">
@@ -23,6 +34,8 @@ redirect_from:
     </p>
   </div>
 </div>
+
+***
 
 Calling all vendors of internet-ish things— be prepared to gather and exchange goods from the backstreets of the Internet on {{ page.startDate | date: '%B %d, %Y' }} afternoon into evening. What's a Yami-ichi you ask?
 
@@ -47,6 +60,8 @@ Calling all vendors of internet-ish things— be prepared to gather and exchange
 This year we're thrilled to be collaborating with our friends from Bit Bazaar, Toronto's 🎮 video game flea market, 📚 pop up zine shop, and  🌮 food celebration.  Think of it like a supergroup of weird, wonderful, digital artefacts brought to one physical location: one-of-a-kind, limited-edition and handmade/DIY items—pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys, + party!
 
 ***
+
+<a id="vend">
 
 ## Apply to Vend at Bit Bazaar × Yami-Ichi
 
