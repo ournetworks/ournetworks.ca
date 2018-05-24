@@ -2,8 +2,8 @@
 layout: page
 order: 2
 section: "2018"
-title: "Kickoff Yami-ichi"
-titleDisplay: "Yami-Ichi"
+title: "Kickoff Party: Bit Bazaar x Internet Yami-ichi"
+titleDisplay: "Bit Bazaar x Internet Yami-Ichi"
 location: Toronto Media Arts Centre, 32 Lisgar St
 locationLink: https://osm.org/go/ZX6BIz1xQ?m=&way=66233699
 startDate: 2018-07-13
@@ -46,10 +46,12 @@ Calling all vendors of internet-ish things— be prepared to gather and exchange
 
 <p style="text-align: right;"> — <a href="http://yami-ichi.biz/">IDPW, a secret society on the internet that goes back more than 100 years</a></p>
 
+This year we're thrilled to be collaborating with our friends from Bit Bazaar, Toronto's 🎮 video game flea market, 📚 pop up zine shop, and  🌮 food celebration.  Think of it like a supergroup of weird, wonderful, digital artefacts brought to one physical location: one-of-a-kind, limited-edition and handmade/DIY items—pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys, + party!
+
 ***
 
-## Apply to Bit Bazaar × Yami-Ichi
+## Apply to Vend at Bit Bazaar × Yami-Ichi
 
 Applications are open until June 21 and exhibitors will be selected and notified on a rolling basis.
 
-<a href="https://preview.bitbazaar.world/" class="button button-primary" target="_blank">Apply to Participate</a>
+<a href="https://2018.bitbazaar.world/" class="button button-primary" target="_blank">Apply to Participate</a>
