@@ -2,12 +2,40 @@
 layout: page
 order: 2
 section: "2018"
-title: "Kickoff Yami-ichi"
+title: "Kickoff Party: Bit Bazaar × Internet Yami-ichi"
 titleDisplay: "Yami-Ichi"
+location: Toronto Media Arts Centre, 32 Lisgar Street
+locationLink: https://osm.org/go/ZX6BIz1xQ?m=&way=66233699
 startDate: 2018-07-13
+startTime: '14:00'
+endTime: '21:00'
 redirect_from:
   - "/2018/kickoff-yami-ichi/"
 ---
+
+<div class="event-time-location" style="margin-bottom: 2em;">
+  <div class="event-meta">
+    {% include icons/ticket.svg %}
+    <p class="event-cost event-meta-item">Free entrance, Apply to <a href="#vend">vend below</a>
+    </p>
+  </div>
+  <div class="event-meta">
+    {% include icons/calendar-o.svg %}
+    <p class="event-time event-meta-item">{{ page.startDate | date: "%-d %B %Y"}}, <strong>{{page.startTime | date:"%-I:%M %P "}}</strong> – <strong>{{page.endTime | date:"%-I:%M %P"}}</strong>, party from  pm-late</p>
+  </div>
+  <div class="event-meta">
+    {% include icons/map-marker.svg %}
+    <p class="event-location event-meta-item">
+    {% if page.locationLink %}
+      <a href="{{page.locationLink}}" target="_blank">{{ page.location }}</a> <!--_-->
+    {% else %}
+      {{ page.location }}
+    {% endif %}
+    </p>
+  </div>
+</div>
+
+***
 
 Calling all vendors of internet-ish things— be prepared to gather and exchange goods from the backstreets of the Internet on {{ page.startDate | date: '%B %d, %Y' }} afternoon into evening. What's a Yami-ichi you ask?
 
@@ -29,6 +57,14 @@ Calling all vendors of internet-ish things— be prepared to gather and exchange
 
 <p style="text-align: right;"> — <a href="http://yami-ichi.biz/">IDPW, a secret society on the internet that goes back more than 100 years</a></p>
 
-Our call for vendors goes live late-May, until then, watch this video!
+This year we're thrilled to be collaborating with our friends from Bit Bazaar, Toronto's 🎮 video game flea market, 📚 pop up zine shop, and  🌮 food celebration.  Think of it like a supergroup of weird, wonderful, digital artefacts brought to one physical location: one-of-a-kind, limited-edition and handmade/DIY items—pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys, + party!
 
-<div style="text-align: center;"> <iframe width="80%" height="415" src="https://www.youtube.com/embed/mjWJsE7B1cs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+***
+
+<a id="vend">
+
+## Apply to Vend at Bit Bazaar × Yami-Ichi
+
+Applications are open until June 21 and exhibitors will be selected and notified on a rolling basis.
+
+<a href="https://2018.bitbazaar.world/" class="button button-primary" target="_blank">Apply to Participate</a>
