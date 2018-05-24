@@ -2,8 +2,8 @@
 layout: page
 order: 2
 section: "2018"
-title: "Kickoff Party: Bit Bazaar x Internet Yami-ichi"
-titleDisplay: "Bit Bazaar x Internet Yami-Ichi"
+title: "Kickoff Party: Bit Bazaar × Internet Yami-ichi"
+titleDisplay: "Bit Bazaar × Internet Yami-Ichi"
 location: Toronto Media Arts Centre, 32 Lisgar St
 locationLink: https://osm.org/go/ZX6BIz1xQ?m=&way=66233699
 startDate: 2018-07-13
@@ -11,7 +11,7 @@ redirect_from:
   - "/2018/kickoff-yami-ichi/"
 ---
 
-<div class="event-time-location">
+<div class="event-time-location" style="margin-bottom: 2em;">
   <div class="event-meta">
     {% include icons/map-marker.svg %}
     <p class="event-location event-meta-item">
@@ -23,8 +23,6 @@ redirect_from:
     </p>
   </div>
 </div>
-
-<br />
 
 Calling all vendors of internet-ish things— be prepared to gather and exchange goods from the backstreets of the Internet on {{ page.startDate | date: '%B %d, %Y' }} afternoon into evening. What's a Yami-ichi you ask?
 
