@@ -4,7 +4,7 @@ order: 2
 section: "2018"
 title: "Kickoff Party: Bit Bazaar × Internet Yami-ichi"
 titleDisplay: "Yami-Ichi"
-location: Toronto Media Arts Centre, 32 Lisgar Street
+location: "Toronto Media Arts Centre, 32 Lisgar Street"
 locationLink: https://osm.org/go/ZX6BIz1xQ?m=&way=66233699
 startDate: 2018-07-13
 startTime: '14:00'
@@ -16,12 +16,12 @@ redirect_from:
 <div class="event-time-location" style="margin-bottom: 2em;">
   <div class="event-meta">
     {% include icons/ticket.svg %}
-    <p class="event-cost event-meta-item">Free entrance, Apply to <a href="#vend">vend below</a>
+    <p class="event-cost event-meta-item">Free entrance, <a href="#vend">apply to vend below</a>
     </p>
   </div>
   <div class="event-meta">
     {% include icons/calendar-o.svg %}
-    <p class="event-time event-meta-item">{{ page.startDate | date: "%-d %B %Y"}}, <strong>{{page.startTime | date:"%-I:%M %P "}}</strong> – <strong>{{page.endTime | date:"%-I:%M %P"}}</strong>, party from  pm-late</p>
+    <p class="event-time event-meta-item"><strong>{{page.startTime | date:"%-I:%M %P "}}</strong> – <strong>{{page.endTime | date:"%-I:%M %P"}}</strong>, party until late</p>
   </div>
   <div class="event-meta">
     {% include icons/map-marker.svg %}
