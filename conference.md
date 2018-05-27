@@ -23,7 +23,7 @@ redirect_from:
   </div>
   <div class="event-meta">
     {% include icons/calendar-o.svg %}
-    <p class="event-time event-meta-item"><strong>{{page.startTime | date:"%-I:%M %P "}}</strong> – <strong>{{page.endTime | date:"%-I:%M %P"}}</strong>, <a href="#schedule">schedule below</a></p>
+    <p class="event-time event-meta-item"><strong>{{page.startTime | date:"%-I:%M %P "}}</strong> – <strong>{{page.endTime | date:"%-I:%M %P"}}</strong></p>
   </div>
   <div class="event-meta">
     {% include icons/map-marker.svg %}
