@@ -68,4 +68,4 @@ We have three admission types: Organization Supporter, Supporter, and Reduced Co
 
 <br />
 
-<a class="button button-primary" href="https://www.brownpapertickets.com/event/3447058" role="link">{% include icons/ticket.svg %}&nbsp;&nbsp;Register on Brown Paper Tickets</a>
+<a class="button button-primary" href="https://www.brownpapertickets.com/event/3447058">{% include icons/ticket.svg %}&nbsp;&nbsp;Register on Brown Paper Tickets</a>

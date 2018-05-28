@@ -3,6 +3,7 @@
 .button,
 button {
   display: inline-flex;
+  align-items: baseline;
   padding: 1em 2em 0.85em;
   color: #555;
   text-align: center;
@@ -25,7 +26,6 @@ button:hover,
 button:focus {
   color: #333;
   border-color: #888;
-  outline: 0;
 }
 
 .button.button-primary,
