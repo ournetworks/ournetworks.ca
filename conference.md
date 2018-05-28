@@ -48,23 +48,27 @@ Our theme focuses on how we **Do It With Others (DIWO)** as opposed to just ours
 
 ## Program Highlights
 
+Our call for submissions closed with an overwhelming number of awesome submissions. We're just finalizing the schedule, but you can expect:
 
+- Talks about distributed data stewardship, migrating to peer-to-peer implementations, and the tactics used by existing protocols with a view to changing the internet
+- Discussion sessions on transitioning to decentralized projects and imagining that alternatives we want
+- Hands-on workshops strategizing outreach and organizing with local neighbours
 
-
-
-Check back here late-May for our full conference program!
+Check back June 1 for our conference program!
 
 ***
 
 ## Registration
 
-We have three admission types: Organization Supporter, Supporter, and Reduced Cost. The true cost for us to host this event is $57 per person. Your support at or above that price allows us to put sponsorship money elsewhere and offer reduced cost admissions. If it is difficult to attend even with a reduced cost admission, please contact us at {{ site.email }}. We are able to sport a limited number of scholarships and also are looking for volunteers interested in helping at the event in return for complimentary admission.
+We have three admission types: Organization Supporter, Supporter, and Reduced Cost. The true cost for us to host this event is $57 per person. Your support at or above that price allows us to offer reduced cost admissions and use sponsorship money elsewhere. If it is difficult to attend even at a reduced cost, contact us at [{{ site.email }}](mailto:{{ site.email }}). We are able to support a limited number of scholarships and are also looking for volunteers interested in helping at the event in return for complimentary admission.
 
-| Admission  | Price  | Details |
-|:-----------|:-------|:--------|
+| Admission Level | Price | Details |
+|:----------------|:------|:--------|
 | Organization Supporter | $100 + fees | Consider registering as organization supporter if your org is paying or your registration can be reimbursed. This allows us to offer reduced cost admissions and scholarships. |
 | Supporter | $50 + fees | Consider registering as a supporter to allow us to put sponsorship money toward our other operating costs. |
 | Reduced Cost | $20 + fees | If you are unwaged, a student, or otherwise in need of a reduced cost registration. |
+
+We also have [swag](/swag/) you can purchase at registration (also during the conference). Pickup will be available both days of the conference.
 
 <br />
 
