@@ -9,7 +9,7 @@ endDate: 2018-07-15
 startTime: "9:00"
 endTime: "18:00"
 locationName: "Mozilla Community Space"
-location: "Suite 500, 366 Adelaide Street"
+location: "Suite 500, 366 Adelaide Street West"
 locationLink: https://osm.org/go/ZX6BjZ50h?m=
 redirect_from:
   - "/2018/conference/"
