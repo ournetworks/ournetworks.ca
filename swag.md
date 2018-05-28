@@ -81,6 +81,6 @@ Limited-run tote design available for purchase during [registration](/conference
     </p>
   </div>
   <div class="eight columns">
-    <img src="/images/swag/2-shirt-design.png" alt="Shirt Design #2 detail">
+    <img src="/images/swag/tote-design.png" alt="Shirt Design #2 detail">
   </div>
 </div>
