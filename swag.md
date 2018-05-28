@@ -14,6 +14,7 @@ What better way to celebrate Doing It With Others than by buying [t-shirts](#t-s
 <br />
 
 ## T-Shirts - $20
+<a id="t-shirts"></a>
 
 We have 4 shirt designs available for purchase during [registration](/conference/#registration) (also for sale at the conference). Available S-XL in straight cut and fitted options. Printed locally on Bella+Canvas [3001](https://www.bellacanvas.com/product/3001/Unisex-Jersey-Short-Sleeve-Tee.html) or [6004](https://www.bellacanvas.com/product/6004/Womens-The-Favorite-Tee.html).
 
@@ -68,6 +69,7 @@ We have 4 shirt designs available for purchase during [registration](/conference
 <br />
 
 ## Totes - $15
+<a id="totes"></a>
 
 Limited-run tote design available for purchase during [registration](/conference/#registration) (also for sale at the conference).
 
