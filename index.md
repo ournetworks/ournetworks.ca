@@ -5,18 +5,24 @@ redirect_from:
   - "/2018/"
 ---
 
-What kinds of creative and critical engagement with technology practices can enable meaningful change when we do it with others?
-
-Our theme this year focuses on how we **Do It With Others (DIWO)** as opposed to just ourselves, building on the “distributed campaign for emancipatory, networked art practices,” instigated by UK-based Furtherfield (2006) as a response to the Do It Yourself (DIY) movement. We have seen a growing number of peer-to-peer, inclusive, and privacy-respecting projects mobilizing in favour of resilient, accessible, equitable communications over the internet in 2017. And yet many open questions remain. In the face of threats to the open internet, which tools and tactics will help us recognize the opportunities and challenges of this moment?
-
-The deadline for conference proposals has now closed, check back late-May for our full conference schedule! In the meantime, are you interested in [selling your stuff](/yami-ichi/) at our Internet Yami-ichi? Or [hosting a project](/sprints/) during our Sprints?
+<div class="row">
+    <h2>Registration now open!</h2>
+    <p>We have <a href="/conference/#registration">sliding scale registration</a> to help support running this event.
+    </p>
+    <p>You can also apply to <a href="/yami-ichi/">vend your stuff</a> at our Internet Yami-ichi and <a href="/sprints/">host a project</a> during our Sprints.
+    </p>
+</div>
 
 {% include graphics/asterisk-outline.svg %}
 {% include graphics/stairs-outline.svg %}
 
+This year we ask: What kinds of creative and critical engagement with technology practices can enable meaningful change when we do it with others?
+
+Our theme focuses on how we can **Do It With Others (DIWO)** as opposed to just ourselves as we build new network infrastructures and draws on the distributed campaign for emancipatory, networked art practices, instigated by UK-based Furtherfield (2006) as a response to the Do It Yourself (DIY) movement. We have seen a growing number of peer-to-peer, inclusive, and privacy-respecting projects mobilizing in favour of resilient, accessible, equitable communications over the internet in 2017. And yet many open questions remain. In the face of threats to the open internet, which tools and tactics will help us recognize the opportunities and challenges of this moment?
+
 ### Updates
 
-Want to receive a update mid-May when the conference program and registration launches?
+Want to receive an update when the conference program launches?
 
 <form action="https://formspree.io/orga@ournetworks.ca" method="POST">
   <div class="row form-group">
