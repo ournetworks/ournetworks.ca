@@ -51,7 +51,7 @@ Our theme focuses on how we **Do It With Others (DIWO)** as opposed to just ours
 Our call for submissions closed with an overwhelming number of awesome submissions. We're just finalizing the schedule, but you can expect:
 
 - Talks about distributed data stewardship, migrating to peer-to-peer implementations, and the tactics used by existing protocols with a view to changing the internet
-- Discussion sessions on transitioning to decentralized projects and imagining that alternatives we want
+- Discussion sessions on transitioning to decentralized projects and imagining what alternatives we want
 - Hands-on workshops strategizing outreach and organizing with local neighbours
 
 Check back June 1 for our conference program!

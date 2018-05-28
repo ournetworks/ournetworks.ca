@@ -20,7 +20,7 @@ We have 4 shirt designs available for purchase during [registration](/conference
 
 <div class="row">
   <div class="four columns">
-    <h3>2018 T-Shirt Design #1</h3>
+    <h3>Design #1 2018</h3>
     <p>Limited-run 2018 edition print in "accent"-uated mint green.<br />
     Printed front and back with shoutouts to our wonderful sponsors.
     </p>
@@ -32,7 +32,7 @@ We have 4 shirt designs available for purchase during [registration](/conference
 <hr>
 <div class="row">
   <div class="four columns">
-    <h3>2018 T-Shirt Design #2</h3>
+    <h3>Design #2 2018 Black</h3>
     <p>Limited-run 2018 edition print in wardrobe-basic black.<br />
     Printed front and back with shoutouts to our wonderful sponsors.
     </p>
@@ -44,7 +44,7 @@ We have 4 shirt designs available for purchase during [registration](/conference
 <hr>
 <div class="row">
   <div class="four columns">
-    <h3>T-Shirt Design Black</h3>
+    <h3>Design #3 Black</h3>
     <p>Rep Our Networks as timeless in "is-there-any-other-colour?" black.  <br />
     Printed front and back.
     </p>
@@ -56,7 +56,7 @@ We have 4 shirt designs available for purchase during [registration](/conference
 <hr>
 <div class="row">
   <div class="four columns">
-    <h3>T-Shirt Design White</h3>
+    <h3>Design #4 White</h3>
     <p>Rep Our Networks as timeless in white, but keep it monochome if you must.<br />
     Printed front and back.
     </p>
