@@ -13,7 +13,7 @@ redirect_from:
   - "/2018/kickoff-yami-ichi/"
 ---
 
-<div class="event-time-location" style="margin-bottom: 2em;">
+<div class="event-time-location">
   <div class="event-meta">
     {% include icons/ticket.svg %}
     <p class="event-cost event-meta-item">Free entrance, <a href="#vend">apply to vend below</a>
