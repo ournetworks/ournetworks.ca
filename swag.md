@@ -26,7 +26,7 @@ We have 4 shirt designs available for purchase during [registration](/conference
     </p>
   </div>
   <div class="eight columns">
-    <img src="/images/swag/3-shirt-design.png" alt="Shirt Design #3 detail">
+    <img src="/images/swag/1-shirt-design.png" alt="Shirt Design #1 detail">
   </div>
 </div>
 <hr>
@@ -38,7 +38,7 @@ We have 4 shirt designs available for purchase during [registration](/conference
     </p>
   </div>
   <div class="eight columns">
-    <img src="/images/swag/4-shirt-design.png" alt="Shirt Design #4 detail">
+    <img src="/images/swag/2-shirt-design.png" alt="Shirt Design #2 detail">
   </div>
 </div>
 <hr>
@@ -50,19 +50,19 @@ We have 4 shirt designs available for purchase during [registration](/conference
     </p>
   </div>
   <div class="eight columns">
-    <img src="/images/swag/1-shirt-design.png" alt="Shirt Design #1 detail">
+    <img src="/images/swag/3-shirt-design.png" alt="Shirt Design #3 detail">
   </div>
 </div>
 <hr>
 <div class="row">
   <div class="four columns">
     <h3>Design #4 White</h3>
-    <p>Rep Our Networks as timeless in white, but keep it monochome if you must.<br />
+    <p>Rep Our Networks as timeless not in black, but keep it monochrome if you must.<br />
     Printed front and back.
     </p>
   </div>
   <div class="eight columns">
-    <img src="/images/swag/2-shirt-design.png" alt="Shirt Design #2 detail">
+    <img src="/images/swag/4-shirt-design.png" alt="Shirt Design #4 detail">
   </div>
 </div>
 
