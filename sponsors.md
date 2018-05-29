@@ -1,10 +1,10 @@
 ---
 layout: page
-order: 0
+order: 2
 section: "2018"
 title: "Sponsors"
 titleDisplay: "Sponsors"
-parent: "About"
+parent: "About the Event"
 ---
 
 Our Networks is a volunteer-run and would not be possible without the support of our partners and sponsors.
