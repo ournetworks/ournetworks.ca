@@ -6,6 +6,8 @@ title: "Sprints"
 titleDisplay: "Sprints"
 startDate: 2018-07-16
 endDate: 2018-07-18
+startTime: "10:30"
+endTime: "21:30"
 venueName: "Semaphore Demo Room"
 location: "Room 417, Claude T. Bissell, 140 St. George Street"
 locationLink: http://osm.org/go/ZX6Bw~WNh--?m=
@@ -13,10 +15,33 @@ redirect_from:
   - "/2018/sprints/"
 ---
 
+<div class="event-time-location">
+  <div class="event-meta">
+    {% include icons/ticket.svg %}
+    <p class="event-cost event-meta-item">Free entrance, <a href="#propose-a-sprint">propose a sprint below</a>
+    </p>
+  </div>
+  <div class="event-meta">
+    {% include icons/calendar-o.svg %}
+    <p class="event-time event-meta-item"><strong>{{page.startTime | date:"%-I:%M %P "}}</strong> – <strong>{{page.endTime | date:"%-I:%M %P"}}</strong></p>
+  </div>
+  <div class="event-meta">
+    {% include icons/map-marker.svg %}
+    <p class="event-location event-meta-item">
+    {% if page.locationLink %}
+      <a href="{{page.locationLink}}" target="_blank">{{ page.location }}</a> <!--_-->
+    {% else %}
+      {{ page.location }}
+    {% endif %}
+    </p>
+  </div>
+</div>
+
+***
 
 Modelled after [PyCon](https://us.pycon.org/2018/community/sprints/), we are supporting project sprints following the conference. Sprints provide an opportunity for people interested in a project to come together to learn and create in a truely Do It With Others (DIWO) environment. The goal is to make friends and build lasting relationships, working together to share knowledge, build features, hack on prototypes, and polish resources.
 
-We've secured space 10am–9:30pm Monday thru Wednesday with hi-speed internet, power bars, post-its, and markers. All you need to do is [propose a sprint topic](#propose-a-sprint) or [join a sprint](#join-a-sprint) below.
+We've secured space {{ page.startTime | date:"%-I:%M %P "}} – {{ page.endTime | date:"%-I:%M %P "}} Monday thru Wednesday with hi-speed internet, power bars, post-its, and markers. All you need to do is [propose a sprint topic](#propose-a-sprint) or [join a sprint](#join-a-sprint) below.
 
 ***
 
