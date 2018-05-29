@@ -28,6 +28,7 @@ Add your name to the list in advance by <a href="https://github.com/ournetworks/
 
 | Project Name            | Project Lead | Description and Goals | Attending |
 |:------------------------|:-------------|:----------------------|:----------|
+| Nieghbour Net Kit (NNK)  | @dcwalk      | NNK is a portable kit to investigate forming a neighbourhood network and talk to people to share your home internet. Mon-Wed we'll be sprinting (and prototyping, and walking, and talking) to think about the next phase! Existing materials live at: [github.com/dcwalk/neighbour-net-kit](https://github.com/dcwalk/neighbour-net-kit). Joining for all/part open, we'll be posting signage in the Sprint room and also updating our schedule online. Field trips likely! |           |
 |                         |              |                       |           |
 
 <br />
