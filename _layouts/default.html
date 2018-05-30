@@ -15,7 +15,7 @@
     <meta property="og:url" content="{{ site.url }}">
     <meta property="og:description" content="{{ sitedescription }}">
     <meta property="og:image" content="{{ site.social_image | prepend: site.url }}">
-    <link rel="stylesheet" href="/css/main.css?5282018">
+    <link rel="stylesheet" href="/css/main.css?{{site.time | date: '%s%N'}}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   </head>
   <body>
@@ -24,6 +24,6 @@
       {{ content }}
     </main>
     {% include footer.html %}
-    <script src="/js/main.js?4142018"></script>
+    <script src="/js/main.js?{{site.time | date: '%s%N'}}"></script>
   </body>
 </html>
