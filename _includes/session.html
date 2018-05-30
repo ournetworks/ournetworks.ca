@@ -1,0 +1,13 @@
+{% for session in site.data.sessions %}
+  {% if include.session-id == session.sessionID %}
+  <div class="session">
+    <header>
+      <h5 class="session-title heading">{{ session.title }}</h5>
+      {% if session.presenter %}<h6>{{ session.presenter }}</h6>{% endif %}
+    </header>
+    {% if include.session-type == "upcoming" %}
+    <div class="session-caption"><p>{{ session.text }}</p></div>
+    {% endif %}
+  </div>
+  {% endif %}
+{% endfor %}
