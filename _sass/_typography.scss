@@ -83,7 +83,16 @@ p {
 
 .splash-heading {
   @include rsp-font(4vw, 24px, 36px);
+  display: inline-block;
   margin-bottom: 0.1em;
+}
+
+.splash-link {
+  color: inherit;
+
+  &:hover {
+    color: inherit;
+  }
 }
 
 // Posts title
