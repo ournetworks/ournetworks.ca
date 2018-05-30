@@ -9,6 +9,9 @@ redirect_from:
   <h2>Registration Now Open!</h2>
   <p>We have <a href="/conference/#registration">sliding scale registration</a> to help support running this event.
   </p>
+  <p>
+    <a class="button button-primary compact" href="/conference/#registration">See Registration Details</a>
+  </p>
   <p>You can also apply to <a href="/yami-ichi/">vend your stuff</a> at our Internet Yami-ichi and <a href="/sprints/">host a project</a> during our Sprints.
   </p>
 
