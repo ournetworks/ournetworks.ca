@@ -28,3 +28,39 @@ tr:last-child td {
 thead th {
   border-bottom: 2px solid #e1e1e1;
 }
+
+
+// Schedule Table
+
+.schedule-table {
+  margin: 1.6em 0;
+  width: 100%;
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  th,
+  td {
+    padding: 6px 12px;
+    text-align: left;
+    vertical-align: text-top;
+    border-bottom: 1px solid #e1e1e1;
+  }
+}
+
+.schedule-time {
+  width: 4%;
+}
+
+.schedule-main {
+  width: 40%;
+}
+
+.schedule-breakout {
+  width: 25%;
+}
