@@ -176,7 +176,7 @@
 
 - sessionID: 18210
   title: "Using Qri for distributed data collaboration"
-  presenter: ""
+  presenter: "Brendan O'Brien"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/21"
   sessionType: "workshop"
   theme: ""
@@ -230,7 +230,7 @@
   length: 0.5
 
 - sessionID: 18242
-  title: "Our _stable_ networks"
+  title: "Our _stable_ networks workshop"
   presenter: "Grant Gallo"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/24"
   sessionType: "workshop"
