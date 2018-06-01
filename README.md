@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/ournetworks/ournetworks.ca.svg?branch=master)](https://travis-ci.org/ournetworks/ournetworks.ca)
 
-This repository holds the source code and static assets of [ournetworks.ca](http://ournetworks.ca), built with [Jekyll](https://jekyllrb.com/), [Normalize.css](http://necolas.github.io/normalize.css/), [Cotham Sans](https://github.com/sebsan/Cotham), [Terminal Grotesque](https://velvetyne.fr/fonts/terminal-grotesque/), and icons from [Font Awesome](http://fontawesome.io/).
+This repository holds the source code and static assets of [ournetworks.ca](http://ournetworks.ca), built with [Jekyll](https://jekyllrb.com/), [Normalize.css](http://necolas.github.io/normalize.css/), [Cotham Sans](https://github.com/TimotheeCollas/Cotham), [Terminal Grotesque](https://velvetyne.fr/fonts/terminal-grotesque/), and icons from [Font Awesome](http://fontawesome.io/).
 
 Design concept and logo by [Marlo Yarlo](http://www.marloyarlo.com/).
 
