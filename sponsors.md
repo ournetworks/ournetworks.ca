@@ -7,7 +7,7 @@ titleDisplay: "Sponsors"
 parent: "About the Event"
 ---
 
-Our Networks is a volunteer-run and would not be possible without the support of our partners and sponsors.
+Our Networks is volunteer-run and would not be possible without the support of our partners and sponsors.
 
 ## Tier 1 Network Sponsorship
 
@@ -23,7 +23,7 @@ Our Networks is a volunteer-run and would not be possible without the support of
   </div>
 </div>
 
-## Location Support
+## Venue Partners
 
 <div class="row sponsor-band">
   <div class="four columns">
