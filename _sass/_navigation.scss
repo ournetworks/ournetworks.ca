@@ -153,13 +153,19 @@ input[type="checkbox"].menu-btn {
   }
 
   a:hover,
-  a.active {
+  a:focus,
+  a.active, {
     color: rgba($black, 0.5);
   }
 }
 
-.header li:hover .nav-item-sub {
-  display: block;
+.header {
+  li:hover,
+  li.active {
+    .nav-item-sub {
+      display: block;
+    }
+  }
 }
 
 @media (max-width: $on-palm) {
