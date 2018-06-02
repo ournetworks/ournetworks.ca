@@ -37,7 +37,7 @@ redirect_from:
 </tr><tr>
   <td></td>
   <td>:30</td>
-  <td colspan="3" class="session-{% include session-type.html session-id=18992 %}">{% include session.html session-id=18992 %}</td>
+  <td colspan="3" class="session-{% include session-type.html session-id=18991 %}">{% include session.html session-id=18991 %}</td>
 </tr>
 <tr>
   <td>10</td>
@@ -70,20 +70,21 @@ redirect_from:
 <tr>
   <td>13</td>
   <td>:00</td>
-  <td rowspan="2" colspan="3" class="session-{% include session-type.html session-id=18996 %}">{% include session.html session-id=18996 %}</td>
+  <td colspan="3" class="session-{% include session-type.html session-id=18250 %}">{% include session.html session-id=18250 %}</td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
+  <td rowspan="2" colspan="3" class="session-{% include session-type.html session-id=18996 %}">{% include session.html session-id=18996 %}</td>
 </tr>
 <tr>
   <td>14</td>
   <td>:00</td>
-  <td rowspan="3" colspan="3" class="session-{% include session-type.html session-id=18130 %}">{% include session.html session-id=18130 %}</td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
+  <td rowspan="2" colspan="3" class="session-{% include session-type.html session-id=18200 %}">{% include session.html session-id=18200 %}</td>
 </tr>
 <tr>
   <td>15</td>
@@ -110,15 +111,6 @@ redirect_from:
   <td>:00</td>
   <td rowspan="2" class="session-{% include session-type.html session-id=18020 %}">{% include session.html session-id=18020 %}</td>
   <td rowspan="2" class="session-{% include session-type.html session-id=18190 %}">{% include session.html session-id=18190 %}</td>
-</tr>
-<tr>
-  <td></td>
-  <td>:30</td>
-</tr>
-<tr>
-  <td>18</td>
-  <td>:00</td>
-  <td rowspan="2" colspan="3"></td>
 </tr>
 <tr>
   <td></td>
@@ -174,7 +166,7 @@ redirect_from:
 <tr>
   <td>12</td>
   <td>:00</td>
-  <td rowspan="2" colspan="3" class="session-{% include session-type.html session-id=18200 %}">{% include session.html session-id=18200 %}</td>
+  <td rowspan="2" colspan="3" class="session-{% include session-type.html session-id=18993 %}">{% include session.html session-id=18993 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -183,44 +175,35 @@ redirect_from:
 <tr>
   <td>13</td>
   <td>:00</td>
-  <td rowspan="2" colspan="3" class="session-{% include session-type.html session-id=18994 %}">{% include session.html session-id=18994 %}</td>
+  <td colspan="3" class="session-{% include session-type.html session-id=18994 %}">{% include session.html session-id=18994 %}</td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
+  <td rowspan="2" colspan="3" class="session-{% include session-type.html session-id=18996 %}">{% include session.html session-id=18996 %}</td>
 </tr>
 <tr>
   <td>14</td>
   <td>:00</td>
-  <td rowspan="2" colspan="3" class="session-{% include session-type.html session-id=18996 %}">{% include session.html session-id=18996 %}</td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
-</tr>
-<tr>
-  <td>15</td>
-  <td>:00</td>
   <td rowspan="2" colspan="2" class="session-{% include session-type.html session-id=18160 %}">{% include session.html session-id=18160 %}</td>
   <td rowspan="4" class="session-{% include session-type.html session-id=18090 %}">{% include session.html session-id=18090 %}</td>
 </tr>
 <tr>
+  <td>15</td>
+  <td>:00</td>
+</tr>
+<tr>
   <td></td>
   <td>:30</td>
+  <td rowspan="2" colspan="2" class="session-{% include session-type.html session-id=18050 %}">{% include session.html session-id=18050 %}</td>
 </tr>
 <tr>
   <td>16</td>
   <td>:00</td>
-  <td rowspan="2" colspan="2" class="session-{% include session-type.html session-id=18050 %}">{% include session.html session-id=18050 %}</td>
-</tr>
-<tr>
-  <td></td>
-  <td>:30</td>
-</tr>
-<tr>
-  <td>17</td>
-  <td>:00</td>
-  <td colspan="3" class="session-{% include session-type.html session-id=18250 %}">{% include session.html session-id=18250 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -228,13 +211,13 @@ redirect_from:
   <td rowspan="2" colspan="3" class="session-{% include session-type.html session-id=18140 %}">{% include session.html session-id=18140 %}</td>
 </tr>
 <tr>
-  <td>18</td>
+  <td>17</td>
   <td>:00</td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
-  <td colspan="3" class="session-{% include session-type.html session-id=18993 %}">{% include session.html session-id=18993 %}</td>
+  <td rowspan="1" colspan="3" class="session-{% include session-type.html session-id=18992 %}">{% include session.html session-id=18992 %}</td>
 </tr>
 </tbody>
 </table>

@@ -97,17 +97,6 @@
   endTime: ""
   length:
 
-- sessionID: 18130
-  title: "Distributed web of care"
-  presenter: "Taeyoon Choi"
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/13"
-  sessionType: "performance"
-  theme: ""
-  date: 2018-07-14
-  startTime: ""
-  endTime: ""
-  length: 1.5
-
 - sessionID: 18140
   title: "Althea a more distributed ISP"
   presenter: "Justin Kilpatrick"
@@ -186,7 +175,7 @@
   length:
 
 - sessionID: 18220
-  title: "Cadences of connection and exchange"
+  title: "Cadences of connection and exchange: Planning and modeling activity centered networks"
   presenter: "Curtis McCord"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/22"
   sessionType: "workshop"
@@ -255,7 +244,7 @@
   title: "Registration and coffee"
   sessionType: "orga"
 
-- sessionID: 18992
+- sessionID: 18991
   title: "Opening remarks"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/"
   sessionType: "orga"
@@ -264,7 +253,7 @@
   endTime: ""
   length: 0.5
 
-- sessionID: 18993
+- sessionID: 18992
   title: "Closing"
   sessionType: "orga"
   date: 2018-07-15
@@ -272,13 +261,21 @@
   endTime: ""
   length: 0.5
 
-- sessionID: 18994
-  title: "Lightening Talks and Sprint Pitches"
-  sessionType: "lightening-talk"
+- sessionID: 18993
+  title: "Lightning Talks"
+  sessionType: "lightning-talk"
   date: 2018-07-15
   startTime: ""
   endTime: ""
   length: 1.0
+
+- sessionID: 18994
+  title: "Sprint Pitchs"
+  sessionType: "sprint-pitch"
+  date: 2018-07-15
+  startTime: ""
+  endTime: ""
+  length: 0.5
 
 - sessionID: 18995
   title: "Coffee break"
