@@ -116,6 +116,15 @@ redirect_from:
   <td></td>
   <td>:30</td>
 </tr>
+<tr>
+  <td>18</td>
+  <td>:00</td>
+  <td rowspan="2" colspan="3" class="session-{% include session-type.html session-id=18997 %}">{% include session.html session-id=18997 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+</tr>
 </tbody>
 </table>
 

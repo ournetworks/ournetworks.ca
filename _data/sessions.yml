@@ -284,3 +284,12 @@
 - sessionID: 18996
   title: "Lunch"
   sessionType: "break"
+
+- sessionID: 18997
+  title: "Keynote: To Be Announced"
+  presenter: ""
+  sessionType: "keynote"
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 1
