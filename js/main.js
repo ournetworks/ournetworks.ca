@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function(){
     }
   });
 
-  document.addEventListener('click', function(e){
+  document.addEventListener('click', function(){
     blurSubMenu();
   });
 
