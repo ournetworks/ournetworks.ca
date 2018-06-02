@@ -9,12 +9,19 @@ document.addEventListener('DOMContentLoaded', function(){
   if (window.location.search == '?signup=confirmed') {
 
     var confirmationEle = document.createElement('div');
+    var splashEle = document.querySelector('.splash');
+
     confirmationEle.className = 'announcement';
     confirmationEle.setAttribute('role', 'alert');
-    confirmationEle.innerHTML = '<div class="container"><p>Successfully signed up for updates</p></div>';
+    confirmationEle.innerHTML = '<div class="container"><p>Successfully signed up for updates</p> <button class="close-banner">×</button></div>';
 
     header.prepend(confirmationEle);
-    document.querySelector('.splash').classList.add('extended');
+    splashEle.classList.add('extended');
+
+    document.querySelector('.close-banner').addEventListener('click', function(){
+      document.querySelector('.announcement').remove();
+      splashEle.classList.remove('extended')
+    });
   }
 
   // scroll interaction

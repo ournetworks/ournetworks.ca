@@ -245,12 +245,12 @@
 
 .splash-hero {
   padding-top: 120px;
-  margin-bottom: 50px;
-  padding-bottom: 50px;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
   background: $background-accent;
   background-image: url('../images/splash-outline.svg');
   background-repeat: no-repeat;
-  background-position: 102% center;
+  background-position: 102% 70%;
 
   @media (max-width: $content-width) {
     background-image: none;
@@ -258,14 +258,14 @@
 }
 
 .feature {
-  margin-bottom: 1.6em;
+  margin-bottom: 1.25em;
+
+  p {
+    margin-bottom: 0;
+  }
 
   &:last-child {
     margin-bottom: 0;
-
-    p {
-      margin-bottom: 0;
-    }
   }
 }
 
