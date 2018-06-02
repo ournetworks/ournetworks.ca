@@ -62,11 +62,15 @@ document.addEventListener('DOMContentLoaded', function(){
       var subMenu = subMenuContainers[i];
       var lastChild = subMenu.children[subMenu.children.length - 1].firstChild;
 
+      subMenu.parentElement.setAttribute('aria-haspopup', true);
+
       subMenu.previousElementSibling.addEventListener('focus', function(){
         this.parentElement.classList.add('active');
+        this.nextElementSibling.setAttribute('aria-hidden', false);
       });
 
       lastChild.addEventListener('blur', function(){
+        this.parentElement.parentElement.setAttribute('aria-hidden', true);
         menuItems.map(function(e){
           e.classList.remove('active');
         });
