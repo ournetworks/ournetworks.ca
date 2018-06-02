@@ -318,3 +318,21 @@
     margin: 0;
   }
 }
+
+// Sponsors
+
+.sponsor-band {
+  margin: 1.6em 0 2.6em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  @media (max-width: $on-palm) {
+    justify-content: center;
+
+    img {
+      margin-bottom: 2.5em;
+    }
+  }
+}
