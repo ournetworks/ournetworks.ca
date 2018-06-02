@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
     confirmationEle.className = 'announcement';
     confirmationEle.setAttribute('role', 'alert');
-    confirmationEle.innerHTML = '<div class="container"><p>Successfully signed up for updates</p> <button class="close-banner">×</button></div>';
+    confirmationEle.innerHTML = '<div class="container"><p>Successfully signed up for updates</p> <button class="close-banner" aria-label="Close">×</button></div>';
 
     header.prepend(confirmationEle);
     splashEle.classList.add('extended');
