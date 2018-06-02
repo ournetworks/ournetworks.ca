@@ -55,27 +55,41 @@ document.addEventListener('DOMContentLoaded', function(){
   // menu tab navigation support
 
   var subMenuContainers = document.querySelectorAll('.nav-item-sub');
-  var menuItems = [].slice.call(document.querySelectorAll('.menu > li'));
+  var menuItems = document.querySelectorAll('.menu > li');
 
-  for (i = 0; i < subMenuContainers.length; ++i) {
-    if (subMenuContainers[i].childElementCount) {
-      var subMenu = subMenuContainers[i];
-      var lastChild = subMenu.children[subMenu.children.length - 1].firstChild;
+  function blurSubMenu() {
+    document.querySelectorAll('[aria-haspopup]').forEach(function(e){
+      e.classList.remove('active');
+    });
+    subMenuContainers.forEach(function(e){
+      e.setAttribute('aria-hidden', true);
+    });
+  }
 
-      subMenu.parentElement.setAttribute('aria-haspopup', true);
-
-      subMenu.previousElementSibling.addEventListener('focus', function(){
+  subMenuContainers.forEach(function(container) {
+    if (container.childElementCount) {
+      container.parentElement.setAttribute('aria-haspopup', true);
+      container.previousElementSibling.addEventListener('focus', function(){
         this.parentElement.classList.add('active');
         this.nextElementSibling.setAttribute('aria-hidden', false);
       });
+    }
+  });
 
-      lastChild.addEventListener('blur', function(){
-        this.parentElement.parentElement.setAttribute('aria-hidden', true);
-        menuItems.map(function(e){
-          e.classList.remove('active');
-        });
+  menuItems.forEach(function(e){
+    if (!e.closest('[aria-haspopup]')) {
+      e.firstElementChild.addEventListener('focus', function(){
+        blurSubMenu();
       });
     }
-  }
+  });
+
+  document.addEventListener('click', function(e){
+    blurSubMenu();
+  });
+
+  document.querySelector('.logo').addEventListener('focus', function(){
+    blurSubMenu();
+  })
 
 });
