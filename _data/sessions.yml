@@ -24,7 +24,7 @@
   title: "Peer-to-peer applications on a mesh network"
   presenter: "Ben Hy Lau"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/3"
-  sessionType: "lightening-talk"
+  sessionType: "lightning-talk"
   theme: ""
   date: 2018-07-14
   startTime: ""
@@ -79,7 +79,7 @@
   title: "Web archiving as DIY and DIWO"
   presenter: "Emily Maemura"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/11"
-  sessionType: "lightening-talk"
+  sessionType: "lightning-talk"
   theme: ""
   date: 2018-07-14
   startTime: ""
@@ -112,7 +112,7 @@
   title: "Holding Data Together: Decentralized patterns for stewardship"
   presenter: "Brendan O'Brien"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/15"
-  sessionType: "lightening-talk"
+  sessionType: "lightning-talk"
   theme: "Politics of Networks"
   date: 2018-07-14
   startTime: ""
