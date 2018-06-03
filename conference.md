@@ -6,8 +6,8 @@ title: "Conference"
 titleDisplay: "Conference"
 startDate: 2018-07-14
 endDate: 2018-07-15
-startTime: "9:00"
-endTime: "18:00"
+startTime: "9:30"
+endTime: "18:30"
 locationName: "Mozilla Community Space"
 location: "Suite 500, 366 Adelaide Street West"
 locationLink: https://osm.org/go/ZX6BjZ50h?m=
@@ -48,13 +48,13 @@ Our theme focuses on how we **Do It With Others (DIWO)** as opposed to just ours
 
 ## Program Highlights
 
-Our call for submissions closed with an overwhelming number of awesome submissions. We're just finalizing the schedule, but you can expect:
+We have a schedule full of awesome sessions, you can expect:
 
-- Talks about distributed data stewardship, migrating to peer-to-peer implementations, and the tactics used by existing protocols with a view to changing the internet
-- Discussion sessions on transitioning to decentralized projects and imagining what alternatives we want
-- Hands-on workshops strategizing outreach and organizing with local neighbours
+- Talks on distributed data stewardship, migrating to peer-to-peer implementations, and tactics used by existing protocols with a view to changing the internet
+- Discussions about transitioning to decentralized projects and imagining what alternatives we want
+- Hands-on workshops to strategize outreach and organizing tactics at the local level
 
-Check back June 1 for our conference program!
+Check out the [full conference program](/conference/program)!
 
 ***
 

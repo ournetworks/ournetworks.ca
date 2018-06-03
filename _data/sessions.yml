@@ -1,0 +1,295 @@
+- sessionID: 18010
+  title: "Wireless Toronto"
+  presenter: "Gabe Sawhney"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/1"
+  sessionType: "talk"
+  theme: ""
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 1
+
+- sessionID: 18020
+  title: "Wireless Toronto workshop"
+  presenter: "Gabe Sawhney"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/2"
+  sessionType: "workshop"
+  theme: ""
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 1
+
+- sessionID: 18030
+  title: "Peer-to-peer applications on a mesh network"
+  presenter: "Ben Hy Lau"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/3"
+  sessionType: "lightning-talk"
+  theme: ""
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 0.25
+
+- sessionID: 18050
+  title: "Money and mesh networks"
+  presenter: "Jessica Marshall and Ashoka Finley"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/5"
+  sessionType: "discussion"
+  theme: "Incentivized Networks"
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 1
+
+- sessionID: 18070
+  title: "Understanding blockchains with Scrabble"
+  presenter: "Sarah Friend and David Wolever"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/7"
+  sessionType: "workshop"
+  theme: ""
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 1
+
+- sessionID: 18090
+  title: "City of experiences: The network and the city"
+  presenter: "Department of Unusual Certainties x [Sam]"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/9"
+  sessionType: "workshop"
+  theme: ""
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 2
+
+- sessionID: 18100
+  title: "The hybrid step toward migrating to P2P: Adding P2P backend to current centralized apps"
+  presenter: "Ivan Vilata-i-Balaguer and vmon"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/10"
+  sessionType: "talk"
+  theme: ""
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 1
+
+- sessionID: 18110
+  title: "Web archiving as DIY and DIWO"
+  presenter: "Emily Maemura"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/11"
+  sessionType: "lightning-talk"
+  theme: ""
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 0.25
+
+- sessionID: 18120
+  title: "Building something together with local networks"
+  presenter: "Cecylia Bocovich and Lauren Lapidge"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/12"
+  sessionType: "demo"
+  theme: ""
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length:
+
+- sessionID: 18140
+  title: "Althea a more distributed ISP"
+  presenter: "Justin Kilpatrick"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/14"
+  sessionType: "demo"
+  theme: "Incentivized Networks"
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 1
+
+- sessionID: 18150
+  title: "Holding Data Together: Decentralized patterns for stewardship"
+  presenter: "Brendan O'Brien"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/15"
+  sessionType: "lightning-talk"
+  theme: "Politics of Networks"
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 0.25
+
+- sessionID: 18160
+  title: "Protocol tactics"
+  presenter: "Lars Gierth"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/16"
+  sessionType: "talk"
+  theme: "Politics of Networks"
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 1
+
+- sessionID: 18180
+  title: "Community networks, a perspective from freedom of expression and access to information"
+  presenter: "Vladimir Cortés Roshdestvensky and Paulina Gutiérrez"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/18"
+  sessionType: "workshop"
+  theme: ""
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 2
+
+- sessionID: 18190
+  title: "What do we want?"
+  presenter: "Justin Tracey and Cecylia Bocovich"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/19"
+  sessionType: "discussion"
+  theme: ""
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 1
+
+- sessionID: 18200
+  title: "Fandom as an alternative network"
+  presenter: "Rea McNamara, Owen G. Parry, and Maya Ben David"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/20"
+  sessionType: "panel"
+  theme: ""
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 1
+
+- sessionID: 18210
+  title: "Using Qri for distributed data collaboration"
+  presenter: "Brendan O'Brien"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/21"
+  sessionType: "workshop"
+  theme: ""
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length:
+
+- sessionID: 18220
+  title: "Cadences of connection and exchange: Planning and modeling activity centered networks"
+  presenter: "Curtis McCord"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/22"
+  sessionType: "workshop"
+  theme: ""
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 2
+
+- sessionID: 18231
+  title: "The artists network, the data-body, and the social-body"
+  presenter: "Jennifer Seaman Cook"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/23"
+  sessionType: "talk"
+  theme: ""
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 1
+
+- sessionID: 18232
+  title: "The artists network workshop"
+  presenter: "Jennifer Seaman Cook"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/23"
+  sessionType: "workshop"
+  theme: ""
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 1
+
+- sessionID: 18241
+  title: "Our _stable_ networks"
+  presenter: "Grant Gallo"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/24"
+  sessionType: "talk"
+  theme: ""
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 0.5
+
+- sessionID: 18242
+  title: "Our _stable_ networks workshop"
+  presenter: "Grant Gallo"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/24"
+  sessionType: "workshop"
+  theme: ""
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 1
+
+- sessionID: 18250
+  title: "Aether: Distributing social networks without distributed consensus"
+  presenter: "Burak Nehbit"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/25"
+  sessionType: ""
+  theme: ""
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 0.5
+
+- sessionID: 18990
+  title: "Registration and coffee"
+  sessionType: "orga"
+
+- sessionID: 18991
+  title: "Opening remarks"
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/"
+  sessionType: "orga"
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 0.5
+
+- sessionID: 18992
+  title: "Closing"
+  sessionType: "orga"
+  date: 2018-07-15
+  startTime: ""
+  endTime: ""
+  length: 0.5
+
+- sessionID: 18993
+  title: "Lightning Talks"
+  sessionType: "lightning-talk"
+  date: 2018-07-15
+  startTime: ""
+  endTime: ""
+  length: 1.0
+
+- sessionID: 18994
+  title: "Sprint Pitches"
+  sessionType: "sprint-pitch"
+  date: 2018-07-15
+  startTime: ""
+  endTime: ""
+  length: 0.5
+
+- sessionID: 18995
+  title: "Coffee break"
+  sessionType: "break"
+
+- sessionID: 18996
+  title: "Lunch"
+  sessionType: "break"
+
+- sessionID: 18997
+  title: "Keynote: To Be Announced"
+  presenter: ""
+  sessionType: "keynote"
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 1
