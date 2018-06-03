@@ -230,3 +230,13 @@ redirect_from:
 </tr>
 </tbody>
 </table>
+
+## Sessions
+
+{% assign sortedSessions = site.data.sessions | sort: 'title' %}
+
+{%- for session in sortedSessions -%}
+  {%- unless session.sessionType == "orga" -%}
+    {% include session-details.html %}
+  {%- endunless -%}
+{%- endfor -%}
