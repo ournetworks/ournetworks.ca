@@ -1,1 +1,5 @@
-{% for session in site.data.sessions %}{% if include.session-id == session.sessionID %}{{ session.sessionType }}{% endif %}{% endfor %}
+{%- for session in site.data.sessions -%}
+  {%- if include.session-id == session.sessionID -%}
+    {{ session.sessionType }}
+  {%- endif -%}
+{%- endfor -%}
