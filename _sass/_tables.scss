@@ -40,6 +40,10 @@ thead th {
     margin-bottom: 0;
   }
 
+  tr:nth-child(even) {
+    background-color: lighten($grey-color-light, 5%);
+  }
+
   th,
   td {
     padding: 6px 12px;
@@ -51,6 +55,7 @@ thead th {
 
 .session-block {
   border-left: 1px solid #e1e1e1;
+  background-color: $white;
 }
 
 .schedule-main {
@@ -59,4 +64,12 @@ thead th {
 
 .schedule-breakout {
   width: 25%;
+}
+
+.session-orga  {
+  background-color: $background-accent;
+}
+
+.session-break  {
+  background-color: $background-accent;
 }
