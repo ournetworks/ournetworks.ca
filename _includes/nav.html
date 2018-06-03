@@ -1,7 +1,7 @@
 <header class="header">
   <div class="container">
     <span class="site-title">
-      <a href="{{ site.baseurl }}/" rel="home" title="{{ site.title }}">
+      <a class="logo" href="{{ site.baseurl }}/" rel="home" title="{{ site.title }}">
         {% include logo/soon-logo.svg %}
       </a>
     </span>
@@ -20,12 +20,12 @@
                     {% if page.titleDisplay %}{{ page.titleDisplay }}{% else %}{% endif %}
                  </a>
                 {% assign sorted2_pages = site.pages | sort: "order" %}
-                 <ul class="nav-item-sub">
-                    {% for page2 in sorted2_pages %}
+                 <ul class="nav-item-sub" aria-hidden="true">
+                    {%- for page2 in sorted2_pages -%}
                       {% if page.title == page2.parent %}
                       <li><a class="{% if current != '/' %}{% if page2.url contains current %}active{% endif %}{% endif %}" href="{{ page2.url }}" aria-label="{% if page2.titleDisplay %}{{ page2.titleDisplay }}{% else %}{{ page2.title }}{% endif %}">{% if page2.titleDisplay %}{{ page2.titleDisplay }}{% else %}{{ page2.title }}{% endif %}</a></li>
                       {% endif %}
-                    {% endfor %}
+                    {%- endfor -%}
                  </ul>
                </li>
              {% endif %}
