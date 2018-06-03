@@ -3,7 +3,6 @@
   presenter: "Gabe Sawhney"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/1"
   sessionType: "talk"
-  theme: ""
   date: 2018-07-14
   startTime: ""
   endTime: ""
@@ -14,7 +13,6 @@
   presenter: "Gabe Sawhney"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/2"
   sessionType: "workshop"
-  theme: ""
   date: 2018-07-14
   startTime: ""
   endTime: ""
@@ -25,7 +23,6 @@
   presenter: "Ben Hy Lau"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/3"
   sessionType: "lightning-talk"
-  theme: ""
   date: 2018-07-14
   startTime: ""
   endTime: ""
@@ -47,7 +44,6 @@
   presenter: "Sarah Friend and David Wolever"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/7"
   sessionType: "workshop"
-  theme: ""
   date: 2018-07-14
   startTime: ""
   endTime: ""
@@ -58,7 +54,6 @@
   presenter: "Department of Unusual Certainties x [Sam]"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/9"
   sessionType: "workshop"
-  theme: ""
   date: 2018-07-14
   startTime: ""
   endTime: ""
@@ -69,7 +64,6 @@
   presenter: "Ivan Vilata-i-Balaguer and vmon"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/10"
   sessionType: "talk"
-  theme: ""
   date: 2018-07-14
   startTime: ""
   endTime: ""
@@ -80,7 +74,6 @@
   presenter: "Emily Maemura"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/11"
   sessionType: "lightning-talk"
-  theme: ""
   date: 2018-07-14
   startTime: ""
   endTime: ""
@@ -91,7 +84,6 @@
   presenter: "Cecylia Bocovich and Lauren Lapidge"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/12"
   sessionType: "demo"
-  theme: ""
   date: 2018-07-14
   startTime: ""
   endTime: ""
@@ -135,7 +127,6 @@
   presenter: "Vladimir Cortés Roshdestvensky and Paulina Gutiérrez"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/18"
   sessionType: "workshop"
-  theme: ""
   date: 2018-07-14
   startTime: ""
   endTime: ""
@@ -146,7 +137,6 @@
   presenter: "Justin Tracey and Cecylia Bocovich"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/19"
   sessionType: "discussion"
-  theme: ""
   date: 2018-07-14
   startTime: ""
   endTime: ""
@@ -157,7 +147,6 @@
   presenter: "Rea McNamara, Owen G. Parry, and Maya Ben David"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/20"
   sessionType: "panel"
-  theme: ""
   date: 2018-07-14
   startTime: ""
   endTime: ""
@@ -168,7 +157,6 @@
   presenter: "Brendan O'Brien"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/21"
   sessionType: "workshop"
-  theme: ""
   date: 2018-07-14
   startTime: ""
   endTime: ""
@@ -179,7 +167,6 @@
   presenter: "Curtis McCord"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/22"
   sessionType: "workshop"
-  theme: ""
   date: 2018-07-14
   startTime: ""
   endTime: ""
@@ -190,7 +177,6 @@
   presenter: "Jennifer Seaman Cook"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/23"
   sessionType: "talk"
-  theme: ""
   date: 2018-07-14
   startTime: ""
   endTime: ""
@@ -201,7 +187,6 @@
   presenter: "Jennifer Seaman Cook"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/23"
   sessionType: "workshop"
-  theme: ""
   date: 2018-07-14
   startTime: ""
   endTime: ""
@@ -212,7 +197,6 @@
   presenter: "Grant Gallo"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/24"
   sessionType: "talk"
-  theme: ""
   date: 2018-07-14
   startTime: ""
   endTime: ""
@@ -223,7 +207,6 @@
   presenter: "Grant Gallo"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/24"
   sessionType: "workshop"
-  theme: ""
   date: 2018-07-14
   startTime: ""
   endTime: ""
@@ -233,8 +216,7 @@
   title: "Aether: Distributing social networks without distributed consensus"
   presenter: "Burak Nehbit"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/25"
-  sessionType: ""
-  theme: ""
+  sessionType: "talk"
   date: 2018-07-14
   startTime: ""
   endTime: ""
