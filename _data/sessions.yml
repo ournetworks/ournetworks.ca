@@ -279,11 +279,11 @@
 
 - sessionID: 18995
   title: "Coffee break"
-  sessionType: "break"
+  sessionType: "orga"
 
 - sessionID: 18996
   title: "Lunch"
-  sessionType: "break"
+  sessionType: "orga"
 
 - sessionID: 18997
   title: "Keynote: To Be Announced"
