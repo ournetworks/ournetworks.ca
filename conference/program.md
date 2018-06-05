@@ -238,7 +238,7 @@ redirect_from:
 {% assign sortedSessions = site.data.sessions | sort: 'title' %}
 
 {%- for session in sortedSessions -%}
-  {%- if session.sessionType == "talk" or session.sessionType == "discussion" or session.sessionType == "panel" -%}
+  {%- if session.sessionType == "talk" or session.sessionType == "discussion" or session.sessionType == "demo" or session.sessionType == "panel" -%}
     {% include session-details.html %}
   {%- endif -%}
 {%- endfor -%}
