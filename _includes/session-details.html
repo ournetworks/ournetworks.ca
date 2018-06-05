@@ -2,9 +2,11 @@
   <header>
     <h3 class="session-title heading">{{ session.title }}</h3>
   </header>
+  {%- if session.description -%}
   <div class="session-caption">
       <p>{{ session.description | truncatewords: 75 }}<span class="read-more"><a href="{{ session.descriptionLink }}"> read more</a></span></p>
   </div>
+  {%- endif -%}
   {%- if session.presenter -%}
   <div class="session-presenter">
     <h4>{{ session.presenter }}</h4>
