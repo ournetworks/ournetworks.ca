@@ -1,10 +1,9 @@
 - sessionID: 18010
   title: "Wireless Toronto"
   presenter: "Gabe Sawhney"
-  presenterBio: "Gabe is an experience designer, civic technologist and innovation strategist. He's a founder of several community and civic tech initiatives, including Code for Canada, Civic Tech Toronto, Wireless Toronto and [murmur]."
+  presenterID: "gabe"
   link: "http://wirelesstoronto.ca/"
   linkDisplay: "wirelesstoronto.ca"
-  twitter: "gggg"
   description: "Wireless Toronto is a community wireless network run by volunteers, dedicated to the growth of no-cost wireless Internet access in Toronto's public and publicly accessible spaces. Since the group's founding in May 2005, volunteers set up almost 40 hotspots across the GTA, including some of the city's largest: St. Lawrence Market, Yonge-Dundas Square, and the York Quay Centre at Harbourfront.
     At its peak, the network served over 1000 connections per day.
     For a variety of reasons, the Wireless Toronto network has shrunk over time, and today only a handful of nodes remain active. This presentation will outline the group's history, successes and learnings."
@@ -18,8 +17,7 @@
 - sessionID: 18020
   title: "Wireless Toronto workshop"
   presenter: "Gabe Sawhney"
-  presenterBio: ""
-  description: ""
+  presenterID: "gabe"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/2"
   sessionType: "workshop"
   date: 2018-07-14
@@ -30,9 +28,7 @@
 - sessionID: 18030
   title: "Peer-to-peer applications on a mesh network"
   presenter: "Benedict Lau"
-  presenterBio: "Benedict is an engineer working on mobile software and mesh networks. He is a contributor and organizer at Toronto Mesh, currently focused on meshing with single-board computers and building deployment tools and literacy around peer-to-peer applications."
-  github: "benhylau"
-  twitter: "LauBenedict"
+  presenterID: "benedict"
   description: "In this session, I will present Mesh Orange, a Debian-based router that runs on various single-board computers (SBCs), which together form an autonomous encrypted mesh network. The operating system supports various WiFi hardware and features a configuration system that allows local mesh communities to specify custom hardware settings. After walking through the steps to form a physical mesh network with Mesh Orange, we will run peer-to-peer applications on these SBCs to show a possible internet where networked applications are serviced by distributed protocols communicating over physical nodes arranged in a mesh topology."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/3"
   sessionType: "lightning-talk"
@@ -44,8 +40,8 @@
 - sessionID: 18050
   title: "Money and mesh networks"
   presenter: "Jessica Marshall and Ashoka Finley"
-  presenterBio: "Jessica Marshall is an adopted New Yorker and critical theory nerd who likes to write code and play with antennas. She volunteers when she can with NYC mesh and is currently working on ways to use blockchain to subvert ISPs.
-    Ashoka Finley is a unicorn."
+  presenterID: "jessica"
+  presenterID-2: "ashoka"
   description: "A talk exploring the question is it possible to build/manage communal mesh infrastructure in a decentralized fashion and pay contributors fairly, all while staying true to an ethos of providing free/low-cost Internet to those who want it? and a possible answer."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/5"
   sessionType: "discussion"
@@ -58,16 +54,8 @@
 - sessionID: 18070
   title: "Understanding blockchains with Scrabble"
   presenter: "Sarah Friend and David Wolever"
-  presenterBio: "Sarah Friend is a software engineer working at a large blockchain development studio on tools for financial transparency/accounting. When not doing that, she creates games and other interactive experiences. She is a proud Recurse Center alum, and has recently presented at the Montreal International Games Showcase, the MoneyLab program by the Institute for Networked Culture in London, UK, and Transmediale Berlin.
-    David is a software developer, startup founder, and community organizer from Toronto with over 10 years dev experience. In his free time, David runs PyCon Canada and organizes the international PyCon conference."
-  link: "https://isthisa.com/"
-  linkDisplay: "isthisa.com"
-  github: "ana0"
-  twitter: "isthisanart_"
-  link-2: "https://wolever.net/"
-  linkDisplay-2: "wolever.net"
-  github-2: "wolever"
-  twitter-2: "wolever"
+  presenterID: "sarah"
+  presenterID-2: "david"
   description: "'What even is a proof-of-work based globally distributed ledger?'
     Blockchain is everywhere these days - from finance and law, to kitten-collecting, dating-apps, and ice tea companies. This workshop will explore what this technology offers, how it works, and what it can and cannot do in a friendly, playful setting. We will introduce the basics of how blockchains work in a short presentation, and then expand on them with a facilitated session of Scrabits, a modified version of scrabble based on the bitcoin blockchain. Concepts explored will be - what is a ledger, what are the unique challenges of maintaining a decentralized way, and how bitcoin solves these problems."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/7"
@@ -80,12 +68,11 @@
 - sessionID: 18090
   title: "City of experiences: The network and the city"
   presenter: "Department of Unusual Certainties x [Sam]"
-  presenterBio: "Department of Unusual Certainties (DoUC) is a Toronto-based studio who design collaborative processes for engagement, communication and education. In 2010, DoUC started as a result of a shared need to ask questions about our everyday existence. Our work is directed by exploration, information and experimentation that takes shape with a pragmatic approach to solving problems with our clients. We are dedicated to creating substantive content and experiences that people can engage with, reflect on and react to."
+  presenterID: douc
   link: "http://wearedouc.com/"
   linkDisplay: "wearedouc.com"
   instagram: "douc_to"
-  twitter: "therealitycorp"
-  other: "cristoforo_DoUC"
+  twitter: "cristoforo_DoUC"
   description: "We are living in a fluid existence between the virtual and physical worlds. The urban development models of the past are beginning to fall short in creating cities that support the reality of our current existence. Networks aren’t just nodes and links designated by code—they are accessed and used by real people over physical infrastructure that exists in physical space. How does the network interface with the city, and with the public? What are the individual and collective experiences and interactions that are enabled by these networks in practice?"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/9"
   sessionType: "workshop"
@@ -97,7 +84,7 @@
 - sessionID: 18100
   title: "The hybrid step toward migrating to P2P: Adding P2P backend to current centralized apps"
   presenter: "vmon"
-  presenterBio: ""
+  presenterID: "vmon"
   link: "https://github.com/equalitie/ouinet"
   linkDisplay: "Ouinet"
   description: "Currently, most websites and apps depend on centralized servers despite the limitations of this structure. Migration towards P2P architectures may be encouraged by solutions which support the current centralized paradigm while taking advantage of P2P architectures, making apps more resilient to interference and letting users' devices empower the underlying P2P network. For that reason we created Ouinet, a technology where an entire cooperative network helps serve HTTP requests using P2P routing and distributed cached responses, mitigating the single point of failure due to client apps not being able to connect to the server.
@@ -112,11 +99,7 @@
 - sessionID: 18110
   title: "Web archiving as DIY and DIWO"
   presenter: "Emily Maemura"
-  presenterBio: "Emily Maemura is a doctoral candidate in her fourth year of study at the University of Toronto’s Faculty of Information (iSchool). She is interested in approaches and methods for research with web archives data and collections, and in capturing diverse perspectives of the internet as an object and/or site of study."
-  link: "http://www.emilymaemura.com/"
-  linkDisplay: "emilymaemura.com"
-  github: "emilymae"
-  twitter: "emilymaemura"
+  presenterID: emily
   description: "As the internet evolves and changes, what material of the internet's past will continue to be available? What is being actively preserved for the future, and who is doing this work? In this session I'll discuss my doctoral research project that explores these questions through two cases studies of web archiving by national libraries and academic research libraries which are part of the International Internet Preservation Consortium. These cases are representative of the many web archiving initiatives and practices tied to existing centralized structures - supported by government and academic institutions, as well as methods of crawling tied to infrastructures like country code top-level domains. These institutional efforts can be seen to contrast with distributed communities like Archiveteam as well as activist and community web archives. And increasingly, individual people can also create and curate their own collections with tools like webrecorder.io that are geared towards users who are not coders."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/11"
   sessionType: "lightning-talk"
@@ -128,12 +111,10 @@
 - sessionID: 18120
   title: "Building something together with local networks"
   presenter: "Cecylia Bocovich and Lauren Lapidge"
-  presenterBio: "Cecylia is a graduate student at the University of Waterloo. Her research addresses broad issues in privacy and more narrowly focuses on censorship resistance in its many forms. She spends the majority of her time designing systems to circumvent state censorship.
-    Lauren is an artist, researcher and organiser. Her practice explores how emerging technologies interact with current social and political significance's. Currently she is researching DIY networking within unmonastery and the MAZI project."
+  presenterID: "cecylia"
+  presenterID-2: "lauren"
   link: "https://www.mazizone.eu/"
   linkDisplay: "mazizone.eu"
-  link-2: "http://unmonastery.org/"
-  linkDisplay-2: "unmonastery.org"
   description: "The Internet as it exists today is not an ideal tool for liberation or the exploration of something new. The infrastructure is largely corporation and state owned and controlled. In this demonstration, we look at working with communities to build local networks: small pockets of exploration that have the potential to become whatever we can dream up together. We will be demonstrating the MAZI zone toolkit (meaning 'together' in Greek), and the results of a pilot study by the nomadic group unMonastery and community members of the Zagori region in Greece."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/12"
   sessionType: "demo"
@@ -145,11 +126,9 @@
 - sessionID: 18140
   title: "Althea a more distributed ISP"
   presenter: "Justin Kilpatrick"
-  presenterBio: "Justin Kilpatrick is cofoudner and CTO of Althea mesh, a linux and open source enthusiast."
+  presenterID: "justin"
   link: "https://altheamesh.com/"
   linkDisplay: "altheamesh.com"
-  github: "althea-mesh"
-  twitter: "altheamesh"
   description: "Althea is a protocol that allows people to easily buy and sell bandwidth from each other. The session will cover the design choices and philosophy of Alteha's mesh networking technology. As well as setup a basic mesh network on stage to show off."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/14"
   sessionType: "demo"
@@ -162,11 +141,9 @@
 - sessionID: 18150
   title: "Holding Data Together: Decentralized patterns for stewardship"
   presenter: "Brendan O'Brien"
-  presenterBio: "Brendan is a leader in the open source software development community and open data movement. He founded Qri (pronounced “query”) to help bring the benefits of open source software to public data. He helped to launch DataTogether.org, a network of communities, data scientists and developers dedicated to promoting a culture of data collection and sharing. He is also a member of EDGI, the Environmental Data and Governance Initiative, founded to support efforts to preserve at-risk government environmental data."
-  link: "https://qri.io/"
-  linkDisplay: "qri.io"
-  github: "b5"
-  twitter: "b_fiive"
+  presenterID: "b5"
+  link: "https://datatogether.org/"
+  linkDisplay: "datatogether.org"
   description: "Formed in the wake of grassroots archiving efforts undertaken in 2017, Data Together seeks to contribute to a civic layer of the internet where communities use decentralized technologies to steward data they care about. Since July 2017, founding partners EDGI, qri.io, and Protocol Labs, have been prototyping open source and decentralized archiving of web pages and data sets using IPFS. Initiatives also include public engagement through in-person events and topical roundtable conversations through online webinars.
     This talk will speak to the tensions and successes in our early prototypes and address the values motivating our work."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/15"
@@ -180,9 +157,7 @@
 - sessionID: 18160
   title: "Protocol tactics"
   presenter: "Lars Gierth"
-  presenterBio: "Lars recently deployed his second Freifunk mesh node on a Berlin rooftop. He helps upgrade the web at Protocol Labs, a research & development & deployment lab, working on libp2p, a peer-to-peer networking stack, and IPFS, the Interplanetary Filesystem."
-  github: "lgierth"
-  twitter: "schm_rs"
+  presenterID: "lars"
   description: "The philosophers have only interpreted the internet, the point is to change it.
     IP, BGP, DNS, HTTP, and many more protocols set the boundaries of what we do on the internet. Their specifications and implementations have enabled many great advances, but some of these advances have revealed structures and mechanisms that are objectively counter to their users' needs and wants.
     Our communities are radical in many ways, and some of our shared principles are
@@ -199,13 +174,10 @@
 - sessionID: 18180
   title: "Community networks, a perspective from freedom of expression and access to information"
   presenter: "Vladimir Cortés Roshdestvensky and Paulina Gutiérrez"
-  presenterBio: "Vladimir Cortés Roshdestvensky is the deputy officer of the digital rights programme in Article 19 Mexico and Central America. He is currently supporting projects on surveillance, online harassment against journalists, and internet access in rural communities. He has worked as an international consultant specialized in human rights, freedom of expression, media and journalism in Latin America and the Caribbean. Vladimir has trained journalists and human rights defenders on international standards of journalism, multimedia production and digital security.
-    Paulina leads ARTICLE 19 Mexico and Central America’s digital rights strategy. She was the Law Programme Deputy Officer before creating a specific programme on Internet policy, technology & human rights matters at the Regional Office. She is an international human rights lawyer and freedom of expression online advocate. Her experience is based on international policy research, human rights violations legal advisory and gender issues. She is passionate about the right to internet access for social justice."
+  presenterID: "Vladimir"
+  presenterID-2: "Paulina"
   link: "https://articulo19.org/"
   linkDisplay: "articulo19.org"
-  github: "antvlax"
-  twitter: "vladyruzo"
-  twitter-2: "paulinagtzr"
   description: "The digital divide in Mexico is not just a matter of connectivity. The deployment of physical infrastructure must be coupled with a cultural, linguistic and community perspective, able to provide internet access as a way to exercise a wide range of rights. Article 19 Mexico and Central America office is doing field work in the state of Chiapas to analyze, from a broad perspective, the impact of connectivity policies and the lack to internet access on indigenous communities and the raising of local initiatives to build community networks. The project is linked to the work of the organization to promote proactive transparency that allows people, particularly women, to use access to information mechanisms to defend other rights.
     Sharing this experience is an opportunity, firstly to present preliminary results of the field work but also to generate significant links with other initiatives looking to consolidate long term projects in which communities play an active role to promote access to Internet, develop strategies for digital literacy and appropriate the use ICTs."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/18"
@@ -218,9 +190,8 @@
 - sessionID: 18190
   title: "What do we want?"
   presenter: "Justin Tracey and Cecylia Bocovich"
-  presenterBio: "Justin works as a graduate student at the University of Waterloo's CrySP lab. His research focuses on network simulation, with an emphasis on simulations of the Tor network. Previously, he worked on file system analysis at UC Santa Cruz, where he was also involved with a local community meshnet project built around CJDNS.
-    Cecylia is a graduate student at the University of Waterloo. Her research addresses broad issues in privacy and more narrowly focuses on censorship resistance in its many forms. She spends the majority of her time designing systems to circumvent state censorship."
-  twitter: "jtga_d"
+  presenterID: "justint"
+  presenterID-2: "cecylia"
   description: "In the world we live in, there is a near-universal social norm that says greater connectivity, a more global web, and more pervasive digital networks are an inherent good. We see this sentiment reflected everywhere, from the obvious manifestations in IoT devices, cellphones, and Facebook, to more implicit forms, such as in the fights for greater digital security, more censorship-resistant communication, or more distributed control of these networks. As communities involved in shaping the future of these networks, and whose futures will in turn be shaped by them, it seems worth asking: Is a more networked world really always what we want?
     Rather than try to answer this question directly, we will instead provide a short introduction to the topic, then help guide an open discussion, focusing on what it means in practice for us involved in the development of these networks."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/19"
@@ -233,12 +204,9 @@
 - sessionID: 18200
   title: "Fandom as an alternative network"
   presenter: "Rea McNamara, Owen G. Parry, and Maya Ben David"
-  presenterBio: "Rea McNamara is a Toronto-based artist, writer, curator, and public programmer. She has developed an expanded practice that includes on/offline space development, image making, performance and critical engagement with networked publics. Her works have been presented at the Whitney Museum of American Art, the Art Gallery of Ontario, Société Des Arts Technologique, Nuit Blanche Toronto, and Moogfest. McNamara currently oversees public programming at the Gardiner Museum, and serves on the Board of Directors of the Music Gallery.
-    Owen G. Parry is an artist and researcher working across live art, theatre, installation, moving image, sound and writing, exploring subjects including gay sex, biopolitics, fandoms, online cultures and Yoko Ono. With an interest in minor, colloquial and collective processes, the submersion of avant-garde aesthetics into the mainstream, and modes of sincerity within late capitalism, he uses art to ask questions, to heal, to subvert power structures, and to imagine other more-pleasurable ways of living or just being together. He is currently an associate lecturer in Fine Art at Goldsmiths, University of London, and Central Saint Martins, University of the Arts.
-    Maya Ben David (MBD) is a Toronto-based Jewish-Iranian Anthropomorphic Airplane. Working in video, installation and performance, she creates worlds and characters that aid her ongoing exploration of anthropomorphism, cosplay and performative personas. Ben David presents the origin stories of her characters in the form of video and performance, and expands on them via her online presence. They often inhabit alternate universes accompanied by nostalgia, such as the worlds of Pokémon and Spiderman."
-  link: "http://www.undervolt.co/Rea-McNamara"
-  linkDisplay: "undervolt.co/Rea-McNamara"
-  twitter: "reeraw"
+  presenterID: "rea"
+  presenterID-2: "owen"
+  presenterID-3: "maya"
   description: "The interdisciplinary creative practices of fandom — whether it be fanfiction, fanart, or cosplay — challenge our previously held notions of authorship, but also uphold the open internet’s emancipatory values. Networked-based online creations thrive within particular fandoms, and its community-based model has enabled authors to create works that bring in feminist as well as queer and critical race studies approaches, especially through genres like slash. So how are these fan methodologies reshaping the practices of artists and curators? This conversation will map out the ways in which three “fans” AKA contemporary artists/curators are bringing these so-called fan perspectives into their work, and explore how fandom cultivates alternative means of capacity-building and storytelling."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/20"
   sessionType: "panel"
@@ -250,7 +218,7 @@
 - sessionID: 18210
   title: "Using Qri for distributed data collaboration"
   presenter: "Brendan O'Brien"
-  presenterBio: ""
+  presenterID: "b5"
   description: "qri.io ('query') is an open source peer-2-peer data collaboration tool. In the spirit of 'do it with others' this workshop will engage participants to each develop their own dataset of citations they'd like to share such as books, online articles, and blog posts. Participants will then publish these datasets on the distributed web using qri, and from there we'll work together to combine the sum of these datasets into a collection of citations. We'll then render these datasets as web pages using traditional web technologies, making our collection of citations available to a broader audience, while also providing access to the raw data for others to build upon."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/21"
   sessionType: "workshop"
@@ -262,9 +230,7 @@
 - sessionID: 18220
   title: "Cadences of connection and exchange: Planning and modeling activity centered networks"
   presenter: "Curtis McCord"
-  presenterBio: "Curtis is a graduate student at the University of Toronto's Faculty of Information. His work focusses on distributed and deliberative 'political' decision-making, especially computer supported work. His approach orbits academic spheres of 'values in design' which analyses the ways that technologies can substantiate value claims, and 'critical systems thinking' which attempts to unpack and analyse those values in ways that challenge technical hierarchies and expertise and create opportunities for inclusive and productive citizenship."
-  github: "structur"
-  twitter: "cwm__"
+  presenterID: "curtis"
   description: "Although we access internet from many locations acoss our communications, our expectations for connectivity and availability of content are somewhat more static. In these moments our experience of the networked connectivity is embedded in not only files and bandwidth, but also mixes the activities of passerby and environmental features. Our ways of accessing information (i.e. files, content, etc) could be significantly diversified in networks without ubiquitous (centrally provided) broadband, where access might be linked to the physical environment or physical storage, such as in dead drops or Cuba's budding public wifi access or their 'sneakernet' style paquete semanal.
     What might happen when network connectivity works differently in shared spaces of transit, leisure and work? What are the possible benefits of challenging the expectation of ubiquitous broadband and the cadence of constant connectivity- the what ethical issues might arise? Can we create different sorts of networks that fit the constraints and character of different spaces and human activities around them?"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/22"
@@ -277,8 +243,7 @@
 - sessionID: 18231
   title: "The artists network, the data-body, and the social-body"
   presenter: "Jennifer Seaman Cook"
-  presenterBio: "Jennifer Seaman Cook (@histouroborus) is an American Studies scholar across the arts, media, technology, public culture, and transnational cultural and social movements. She specializes in emergent media history, mediations of cultural and social theory, and counterinstitutional networks. In addition to her academic scholarship, her essays have been published by 3:am Magazine, Furtherfield, PopMatters, Salon, and Verso (forthcoming). Her poetry and hybrid political writing has been published with Berfrois, Cedilla Literary Journal (archived at University of Montana), Lunch Ticket, New Binary Press, Queen Mob’s Tea House and more. Jennifer has also consulted for documentaries produced for PBS, The Science Museum of London, and The Royal Academy of Arts, and has created public culture mobile app documentaries for the Montreal Infringement Festival/ World Infringement Congress and Burchfield Penney Art Center Archives. Jennifer teaches at the State University of New York's University at Buffalo."
-  twitter: "histouroborus"
+  presenterID: "jennifer"
   description: "'Electronic art is electronic education is inter net and television for and about people. My television video electronic educational inter net art is for people, minds and bodies. Electronic art educational inter net television. Not so hard to imagine.' -Peer Bode (Experimental Television Center)
     This talk begins from a seemingly simple cultural historical premise: that the Net Art/Anti-Globalism movement theories of data-bodies, new forms of civil disobedience, and the performative matrix of artist networks between virtual and real spaces were formed under pre-digital conditions and artistic practices based in the intermedia movement. More importantly, I argue that pre-digital practices of the artist communications infrastructure as both network and counterinstitution--derived from media revolutions of the underground press, conceptual and process art practices of social sculpture, and working class progressivist artist workers movements of the 20th century--allowed for counterhegemonic deterritorializations and reterritorializations of emergent media networks and resources. These intermedia cultural movements prioritized hybrid ontologies and adapted tactically from the pre-digital to digital cusp through media ecologies of electronic globalization characterizing neoliberal mobility and modularity."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/23"
@@ -291,8 +256,7 @@
 - sessionID: 18232
   title: "The artists network workshop"
   presenter: "Jennifer Seaman Cook"
-  presenterBio: ""
-  description: ""
+  presenterID: "jennifer"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/23"
   sessionType: "workshop"
   date: 2018-07-14
@@ -303,11 +267,10 @@
 - sessionID: 18241
   title: "Our _stable_ networks"
   presenter: "Grant Gallo"
-  presenterBio: "Grant is creative techonologist and network engineer who can be found climbing rooftops in Oakland, performing visuals in Toronto, and variously installing internet all over the US."
+  presenterID: "grant"
   link: "https://peoplesopen.net/"
   linkDisplay: "peoplesopen.net"
-  github: "paidforby"
-  github-2: "sudomesh"
+  github: "sudomesh"
   description: "What does a 'stable' deployment of a community mesh network look like?
     During this session, we will look at successful community wireless projects around the world, see how they are structured, both organizationally and technologically.
     In particular, participants will learn what a stable implementation of a People's Open Network might look like directly from the people building one in Oakland, CA.
@@ -322,8 +285,7 @@
 - sessionID: 18242
   title: "Our _stable_ networks workshop"
   presenter: "Grant Gallo"
-  presenterBio: ""
-  description: ""
+  presenterID: "grant"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/24"
   sessionType: "workshop"
   date: 2018-07-14
@@ -334,11 +296,9 @@
 - sessionID: 18250
   title: "Aether: Distributing social networks without distributed consensus"
   presenter: "Burak Nehbit"
-  presenterBio: "Burak is an engineer and designer. He worked at Google for 3.5 years, and afterwards, at Facebook. His last job at FB was being a design lead in Monetisation. Since February, he's been working on Aether full time."
+  presenterID: "burak"
   link: https://getaether.net/
   linkDisplay: Aether
-  github: nehbit
-  twitter: nehbit
   description: "The ongoing discussion about decentralisation has been dominated by the talk of blockchains lately. While they do work in certain fields, in social networks the bottleneck and restrictions imposed by the distributed consensus render it challenging to build a social network on a blockchain that does not suffer from speed issues.
     This talk explores a different way of building networks that does not depend on distributed consensus. By making a small number of tradeoffs, it is possible to build a network that can scale to 10^3x the speed in inserting new data and distributing it. Aether is one such attempt, and both it and the underlying protocol is open source. This talk will focus on how it ended up coming to be, why, and how it works, and what you can build with the underlying protocol."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/25"
@@ -371,7 +331,7 @@
 
 - sessionID: 18993
   title: "Lightning Talks"
-  sessionType: "lightning-talk"
+  sessionType: "lightning"
   date: 2018-07-15
   startTime: ""
   endTime: ""

@@ -240,3 +240,12 @@ redirect_from:
     {% include session-details.html %}
   {%- endunless -%}
 {%- endfor -%}
+
+
+## Presenters
+
+{% assign sortedPresenters = site.data.presenters | sort: 'name' %}
+
+{%- for presenter in sortedPresenters -%}
+    {% include presenter-details.html %}
+{%- endfor -%}

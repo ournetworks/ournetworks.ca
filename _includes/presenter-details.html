@@ -1,0 +1,18 @@
+{%- if presenter.name -%}
+<div class="presenter">
+  <a id="{{ presenter.name | truncatewords: 3, '' | downcase | replace: ' ', '-' }}"></a>
+  <header>
+    <h3 class="presenter-name heading">{{ presenter.name }}</h3>
+  </header>
+  <div class="presenter-bio">
+    {%- if presenter.bio -%}<p>{{ presenter.bio }}</p>{%- endif -%}
+    {%- if presenter.link or presenter.twitter or presenter.github -%}
+      <ul class="bio-sm-list">
+       {%- if presenter.link and presenter.linkDisplay -%}<li class="bio-sm-list-item"><a href="{{ presenter.link }}" target="_blank">{% include icons/link.svg %}&nbsp;{{ presenter.linkDisplay }} </a></li>{%- endif -%}
+       {%- if presenter.twitter -%}<li class="bio-sm-list-item"><a href="https://twitter.com/{{ presenter.twitter }}" target="_blank">{% include icons/twitter.svg %}&nbsp;@{{ presenter.twitter }}</a></li>{%- endif -%}
+       {%- if presenter.github -%}<li class="bio-sm-list-item"><a href="https://github.com/{{ presenter.github }}" target="_blank">{% include icons/github.svg %}&nbsp;{{ presenter.github }}</a></li>{%- endif -%}
+      </ul>
+    {%- endif -%}
+  </div>
+</div>
+{%- endif -%}
