@@ -9,7 +9,7 @@ redirect_from:
   - "/2018/conference/program"
 ---
 
-## Saturday July 14
+## Saturday {% include graphics/bullet.svg %} July 14
 
 <table class="schedule-table">
 <thead>
@@ -129,7 +129,7 @@ redirect_from:
 </table>
 
 
-## Sunday July 15
+## Sunday {% include graphics/bullet.svg %} July 15
 
 <table class="schedule-table">
 <thead>
