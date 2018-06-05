@@ -1,5 +1,5 @@
 <div class="session">
-  <a id="{{ session.title | truncatewords: 6, '' | downcase | replace: ' ', '-' }}"></a>
+  <a id="{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}"></a>
   <header>
     <h3 class="session-title heading">{{ session.title }}</h3>
   </header>

@@ -1,6 +1,6 @@
 {%- if presenter.name -%}
 <div class="presenter">
-  <a id="{{ presenter.name | truncatewords: 6, '' | downcase | replace: ' ', '-' }}"></a>
+  <a id="{{ presenter.name | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}"></a>
   <header>
     <h3 class="presenter-name heading">{{ presenter.name }}</h3>
   </header>

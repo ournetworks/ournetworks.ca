@@ -233,12 +233,12 @@ redirect_from:
 
 ## Keynote: To Be Announced
 
-## Talks
+## Talks & Discussions
 
 {% assign sortedSessions = site.data.sessions | sort: 'title' %}
 
 {%- for session in sortedSessions -%}
-  {%- if session.sessionType == "talk" -%}
+  {%- if session.sessionType == "talk" or session.sessionType == "discussion" or session.sessionType == "panel" -%}
     {% include session-details.html %}
   {%- endif -%}
 {%- endfor -%}

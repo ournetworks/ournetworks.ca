@@ -3,7 +3,7 @@
   <div class="session">
     <header>
       <h5 class="session-title">
-        {%- unless session.sessionType == "orga" -%}<a href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ' ', '-' }}">{%- endunless -%}
+        {%- unless session.sessionType == "orga" -%}<a href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}">{%- endunless -%}
           {{ session.title }}
         {%- unless session.sessionType == "orga" -%}</a>{%- endunless -%}
       </h5>
