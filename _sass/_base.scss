@@ -49,6 +49,7 @@ a {
 
   &:hover {
     color: darken($accent-color, 15%);
+    text-decoration: underline;
   }
 }
 
