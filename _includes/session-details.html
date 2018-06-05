@@ -1,4 +1,5 @@
 <div class="session">
+  <a id="{{ session.title | truncatewords: 3, '' | downcase | replace: ' ', '-' }}"></a>
   <header>
     <h3 class="session-title heading">{{ session.title }}</h3>
   </header>
