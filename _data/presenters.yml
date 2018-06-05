@@ -146,6 +146,14 @@
   github: "paidforby"
   github-2: "sudomesh"
 
+- presenterID: jenny
+  name: "Jenny Ryan"
+  bio: "Over the past 7 years Jenny has lived in Oakland, CA and co-founded the Sudo Room hackerspace, Sudo Mesh / People’s Open Network, and the Omni Commons. Her mission is to work alongside existing and emerging organizations to build human and communications infrastructure, connecting grassroots communities and global initiatives rooted in the shared struggle to reclaim the commons, create public spheres through the cultivation of open spaces, and enable direct democracy through principles of federation and open source or Read/Write culture."
+  link: "https://jennyryan.net"
+  linkDisplay: "jennyryan.net"
+  github: "jnny"
+  twitter: "tunabananas"
+
 - presenterID: burak
   name: "Burak Nehbit"
   bio: "Burak is an engineer and designer. He worked at Google for 3.5 years, and afterwards, at Facebook. His last job at FB was being a design lead in Monetisation. Since February, he's been working on Aether full time."

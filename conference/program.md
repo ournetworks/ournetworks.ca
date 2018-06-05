@@ -231,16 +231,37 @@ redirect_from:
 </tbody>
 </table>
 
-## Sessions
+## Keynote: To Be Announced
+
+## Talks
 
 {% assign sortedSessions = site.data.sessions | sort: 'title' %}
 
 {%- for session in sortedSessions -%}
-  {%- unless session.sessionType == "orga" -%}
+  {%- if session.sessionType == "talk" -%}
     {% include session-details.html %}
-  {%- endunless -%}
+  {%- endif -%}
 {%- endfor -%}
 
+## Workshops
+
+{% assign sortedSessions = site.data.sessions | sort: 'title' %}
+
+{%- for session in sortedSessions -%}
+  {%- if session.sessionType == "workshop" -%}
+    {% include session-details.html %}
+  {%- endif -%}
+{%- endfor -%}
+
+## Lightning Talks
+
+{% assign sortedSessions = site.data.sessions | sort: 'title' %}
+
+{%- for session in sortedSessions -%}
+  {%- if session.sessionType == "lightning-talk" -%}
+    {% include session-details.html %}
+  {%- endif -%}
+{%- endfor -%}
 
 ## Presenters
 

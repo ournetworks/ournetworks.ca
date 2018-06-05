@@ -18,6 +18,9 @@
   title: "Wireless Toronto workshop"
   presenter: "Gabe Sawhney"
   presenterID: "gabe"
+  description: "Wireless Toronto volunteers have spent over 10 years setting up and maintaining a network of wifi hotspots -- and building and maintaining relationships with small business owners and public venue managers.
+
+While the technical side of setting up wireless networks is well-documented, the social/promotion/\"sales\" side is less so. In this workshop, we'll share what we've learned about developing and maintaining venue relationships."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/2"
   sessionType: "workshop"
   date: 2018-07-14
@@ -257,6 +260,8 @@
   title: "The artists network workshop"
   presenter: "Jennifer Seaman Cook"
   presenterID: "jennifer"
+  description: "'Electronic art is electronic education is inter net and television for and about people. My television video electronic educational inter net art is for people, minds and bodies. Electronic art educational inter net television. Not so hard to imagine.' -Peer Bode (Experimental Television Center)
+    This talk begins from a seemingly simple cultural historical premise: that the Net Art/Anti-Globalism movement theories of data-bodies, new forms of civil disobedience, and the performative matrix of artist networks between virtual and real spaces were formed under pre-digital conditions and artistic practices based in the intermedia movement. More importantly, I argue that pre-digital practices of the artist communications infrastructure as both network and counterinstitution--derived from media revolutions of the underground press, conceptual and process art practices of social sculpture, and working class progressivist artist workers movements of the 20th century--allowed for counterhegemonic deterritorializations and reterritorializations of emergent media networks and resources. These intermedia cultural movements prioritized hybrid ontologies and adapted tactically from the pre-digital to digital cusp through media ecologies of electronic globalization characterizing neoliberal mobility and modularity."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/23"
   sessionType: "workshop"
   date: 2018-07-14
@@ -266,7 +271,7 @@
 
 - sessionID: 18241
   title: "Our _stable_ networks"
-  presenter: "Grant Gallo"
+  presenter: "Grant Gallo and Jenny Ryan"
   presenterID: "grant"
   link: "https://peoplesopen.net/"
   linkDisplay: "peoplesopen.net"
@@ -284,8 +289,12 @@
 
 - sessionID: 18242
   title: "Our _stable_ networks workshop"
-  presenter: "Grant Gallo"
+  presenter: "Grant Gallo and Jenny Ryan"
   presenterID: "grant"
+  description: "What does a 'stable' deployment of a community mesh network look like?
+    During this session, we will look at successful community wireless projects around the world, see how they are structured, both organizationally and technologically.
+    In particular, participants will learn what a stable implementation of a People's Open Network might look like directly from the people building one in Oakland, CA.
+    Finally, we will facilitate an open discussion about defining network stability and organizational values that could help maintain that stability."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/24"
   sessionType: "workshop"
   date: 2018-07-14
