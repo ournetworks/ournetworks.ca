@@ -8,7 +8,7 @@ th,
 td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #e1e1e1;
+  border-bottom: 1px solid $grey-color-table-borders;
 }
 
 th:first-child,
@@ -22,20 +22,19 @@ td:last-child {
 }
 
 thead th {
-  border-bottom: 2px solid #e1e1e1;
+  border-bottom: 2px solid $grey-color-table-borders;
 }
 
 
 // Schedule Table
 
 .schedule-table {
-  margin: 1.6em 0;
+  margin: 1em 0 4em;
   width: 100%;
 
   h3,
   h4,
-  h5,
-  h6 {
+  h5 {
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -46,16 +45,40 @@ thead th {
 
   th,
   td {
-    padding: 6px 12px;
+    padding: 8px 12px;
     text-align: left;
-    vertical-align: text-top;
-    border-bottom: 1px solid #e1e1e1;
+    border-bottom: 1px solid $grey-color-table-borders;
+  }
+
+  tr {
+    td:first-child,
+    td:nth-child(2) {
+      vertical-align: top;
+      font-size: 1.7rem;
+    }
+    td:first-child {
+      text-align: right;
+      padding-right: 0;
+    }
+    td:nth-child(2) {
+      padding-left: 0;
+    }
+  }
+
+  td:nth-child(3):empty {
+    border-left: 1px solid $grey-color-table-borders;
   }
 }
 
 .session-block {
-  border-left: 1px solid #e1e1e1;
+  border-left: 1px solid $grey-color-table-borders;
   background-color: $white;
+}
+
+.session-presenter {
+  font-size: .80em;
+  margin-top: .5em;
+  margin-bottom: 0;
 }
 
 .schedule-main {
@@ -67,5 +90,5 @@ thead th {
 }
 
 .session-orga  {
-  background-color: $background-accent;
+  background-color: rgba($background-accent, 0.4);
 }
