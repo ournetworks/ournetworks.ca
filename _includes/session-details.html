@@ -2,14 +2,20 @@
   <header>
     <h3 class="session-title heading">{{ session.title }}</h3>
   </header>
-  <div class="session-caption"><p>{{ session.description | truncatewords: 75 }}<span class="read-more"><a href="{{ session.descriptionLink }}"> read more</a></span></p></div>
+  <div class="session-caption">
+      <p>{{ session.description | truncatewords: 75 }}<span class="read-more"><a href="{{ session.descriptionLink }}"> read more</a></span></p>
+  </div>
   {%- if session.presenter -%}
+  <div class="session-presenter">
     <h4>{{ session.presenter }}</h4>
-    <div class="session-presenter"><p>{{ session.presenterBio }}</p>
+    {%- if session.presenterBio -%}<p>{{ session.presenterBio }}</p>{%- endif -%}
+    {%- if session.link or session.twitter or session.github -%}
     <ul class="bio-sm-list">
-     <li class="bio-sm-list-item"><a href="{{ session.link }}" target="_blank">{% include icons/link.svg %}&nbsp;{{ session.linkName }} </a></li>
-     <li class="bio-sm-list-item"><a href="https://twitter.com/{{ session.twitter }}" target="_blank">{% include icons/twitter.svg %}&nbsp;@{{ session.twitter }}</a></li>
-     <li class="bio-sm-list-item"><a href="https://github.com/{{ session.github }}" target="_blank">{% include icons/github.svg %}&nbsp;{{ session.github }}</a></li>
+     {%- if session.link and session.linkDisplay -%}<li class="bio-sm-list-item"><a href="{{ session.link }}" target="_blank">{% include icons/link.svg %}&nbsp;{{ session.linkDisplay }} </a></li>{%- endif -%}
+     {%- if session.twitter -%}<li class="bio-sm-list-item"><a href="https://twitter.com/{{ session.twitter }}" target="_blank">{% include icons/twitter.svg %}&nbsp;@{{ session.twitter }}</a></li>{%- endif -%}
+     {%- if session.github -%}<li class="bio-sm-list-item"><a href="https://github.com/{{ session.github }}" target="_blank">{% include icons/github.svg %}&nbsp;{{ session.github }}</a></li>{%- endif -%}
     </ul>
+    {%- endif -%}
+  </div>
   {%- endif -%}
 </div>
