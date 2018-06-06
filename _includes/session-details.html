@@ -28,6 +28,7 @@
      {%- if session.link and session.linkDisplay -%}<li class="bio-sm-list-item"><a href="{{ session.link }}" target="_blank" rel="noopener">{% include icons/link.svg %}&nbsp;{{ session.linkDisplay }} </a></li>{%- endif -%}
      {%- if session.twitter -%}<li class="bio-sm-list-item"><a href="https://twitter.com/{{ session.twitter }}" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@{{ session.twitter }}</a></li>{%- endif -%}
      {%- if session.github -%}<li class="bio-sm-list-item"><a href="https://github.com/{{ session.github }}" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;{{ session.github }}</a></li>{%- endif -%}
+     {%- if session.instagram -%}<li class="bio-sm-list-item"><a href="https://instagram.com/{{ session.instagram }}" target="_blank" rel="noopener">{% include icons/instagram.svg %}&nbsp;{{ session.instagram }}</a></li>{%- endif -%}
     </ul>
     {%- endif -%}
   </div>
