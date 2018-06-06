@@ -76,7 +76,7 @@ thead th {
 }
 
 .session-presenter {
-  font-size: .80em;
+  font-size: .75em;
   margin-top: .5em;
   margin-bottom: 0;
 }
@@ -91,4 +91,69 @@ thead th {
 
 .session-orga  {
   background-color: rgba($background-accent, 0.4);
+}
+
+.program-heading {
+  font-size: 3.5rem;
+  margin-top: 1.5em;
+}
+
+.session-detail-anchor:target {
+  display: block;
+  position: relative;
+  top: -120px; 
+  visibility: hidden;
+
+  & + .session-detail-content {
+    background: rgba($background-accent, 0.3);
+  }
+}
+
+.session-detail {
+  border-bottom: 1px solid $grey-color-table-borders;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.session-detail-content {
+  padding: 1em;
+
+  .session-header {
+    margin-bottom: 1em;
+  }
+
+  .session-title {
+    margin-top: 0;
+    margin-bottom: .25em;
+  }
+
+  .session-presenter {
+    margin: 0;
+    font-size: 1em;
+  }
+
+  .bio-sm-list {
+    margin-top: .25em;
+    margin-bottom: 0;
+  }
+}
+
+.presenter {
+  padding: 1em;
+  border-bottom: 1px solid $grey-color-table-borders;
+
+  .presenter-name {
+    margin-top: 0;
+  }
+
+  .bio-sm-list {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  &:last-child {
+    border-bottom: 0;
+  }
 }

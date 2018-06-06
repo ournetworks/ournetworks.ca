@@ -231,9 +231,17 @@ redirect_from:
 </tbody>
 </table>
 
-## Keynote: To Be Announced
+## Keynote
+{:.program-heading}
+<div class="session-detail">
+  <a class="session-detail-anchor" id="keynote-to-be-announced"></a>
+  <div class="session-detail-content">
+    <p>To be announced</p>
+  </div>
+</div>
 
 ## Talks & Discussions
+{:.program-heading}
 
 {% assign sortedSessions = site.data.sessions | sort: 'title' %}
 
@@ -244,6 +252,7 @@ redirect_from:
 {%- endfor -%}
 
 ## Workshops
+{:.program-heading}
 
 {% assign sortedSessions = site.data.sessions | sort: 'title' %}
 
@@ -254,6 +263,7 @@ redirect_from:
 {%- endfor -%}
 
 ## Lightning Talks
+{:.program-heading}
 
 {% assign sortedSessions = site.data.sessions | sort: 'title' %}
 
@@ -264,6 +274,7 @@ redirect_from:
 {%- endfor -%}
 
 ## Presenters
+{:.program-heading}
 
 {% assign sortedPresenters = site.data.presenters | sort: 'name' %}
 

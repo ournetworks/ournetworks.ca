@@ -1,34 +1,34 @@
-<div class="session">
-  <a id="{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}"></a>
-  <header>
-    <h3 class="session-title heading">{{ session.title }}</h3>
-  </header>
-  {%- if session.presenter -%}
-  <div class="session-presenter">
-    <h4>{{ session.presenter }}</h4>
-  </div>
-  {%- endif -%}
-  {%- if session.sessionType == "lightning" -%}
-  <div class="session-caption">
-    {% assign lightningSessions = site.data.sessions | sort: 'title' %}
-    {%- for lightning in lightningSessions -%}
-      {%- if lightning.sessionType == "lightning-talk" -%}
-        <h4>{{ lightning.title }}</h4>
-        <h5>{{ lightning.presenter }}</h5>
+<div class="session-detail">
+  <a class="session-detail-anchor" id="{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}"></a>
+  <div class="session-detail-content">
+    <header class="session-header">
+      <h3 class="session-title heading">{{ session.title }}</h3>
+      {%- if session.presenter -%}
+        <h4 class="session-presenter">{{ session.presenter }}</h4>
       {%- endif -%}
-    {%- endfor -%}
+    </header>
+    {%- if session.sessionType == "lightning" -%}
+    <div class="session-caption">
+      {% assign lightningSessions = site.data.sessions | sort: 'title' %}
+      {%- for lightning in lightningSessions -%}
+        {%- if lightning.sessionType == "lightning-talk" -%}
+          <h4>{{ lightning.title }}</h4>
+          <h5>{{ lightning.presenter }}</h5>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+    {%- if session.description -%}
+    <div class="session-caption">
+        <p>{{ session.description | truncatewords: 75 }}<span class="read-more"><a href="{{ session.descriptionLink }}" rel="noopener"> read more</a></span></p>
+    </div>
+    {%- endif -%}
+    {%- if session.link or session.twitter or session.github -%}
+    <ul class="bio-sm-list">
+     {%- if session.link and session.linkDisplay -%}<li class="bio-sm-list-item"><a href="{{ session.link }}" target="_blank" rel="noopener">{% include icons/link.svg %}&nbsp;{{ session.linkDisplay }} </a></li>{%- endif -%}
+     {%- if session.twitter -%}<li class="bio-sm-list-item"><a href="https://twitter.com/{{ session.twitter }}" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@{{ session.twitter }}</a></li>{%- endif -%}
+     {%- if session.github -%}<li class="bio-sm-list-item"><a href="https://github.com/{{ session.github }}" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;{{ session.github }}</a></li>{%- endif -%}
+    </ul>
+    {%- endif -%}
   </div>
-  {%- endif -%}
-  {%- if session.description -%}
-  <div class="session-caption">
-      <p>{{ session.description | truncatewords: 75 }}<span class="read-more"><a href="{{ session.descriptionLink }}" rel="noopener"> read more</a></span></p>
-  </div>
-  {%- endif -%}
-  {%- if session.link or session.twitter or session.github -%}
-  <ul class="bio-sm-list">
-   {%- if session.link and session.linkDisplay -%}<li class="bio-sm-list-item"><a href="{{ session.link }}" target="_blank" rel="noopener">{% include icons/link.svg %}&nbsp;{{ session.linkDisplay }} </a></li>{%- endif -%}
-   {%- if session.twitter -%}<li class="bio-sm-list-item"><a href="https://twitter.com/{{ session.twitter }}" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@{{ session.twitter }}</a></li>{%- endif -%}
-   {%- if session.github -%}<li class="bio-sm-list-item"><a href="https://github.com/{{ session.github }}" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;{{ session.github }}</a></li>{%- endif -%}
-  </ul>
-  {%- endif -%}
 </div>
