@@ -8,7 +8,7 @@ th,
 td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #e1e1e1;
+  border-bottom: 1px solid $grey-color-table-borders;
 }
 
 th:first-child,
@@ -22,35 +22,67 @@ td:last-child {
 }
 
 thead th {
-  border-bottom: 2px solid #e1e1e1;
+  border-bottom: 2px solid $grey-color-table-borders;
 }
 
 
 // Schedule Table
 
 .schedule-table {
-  margin: 1.6em 0;
+  margin: 1em 0 4em;
   width: 100%;
 
   h3,
   h4,
-  h5,
-  h6 {
+  h5 {
     margin-top: 0;
     margin-bottom: 0;
   }
 
+  h6 {
+    margin-top: .25em;
+    font-size: 1.4rem;
+  }
+
   th,
   td {
-    padding: 6px 12px;
+    padding: 8px 12px;
     text-align: left;
-    vertical-align: text-top;
-    border-bottom: 1px solid #e1e1e1;
+    border-bottom: 1px solid $grey-color-table-borders;
+  }
+
+  tr {
+    &:nth-child(even) {
+      background-color: lighten($grey-color-light, 5%);
+    }
+    td:first-child,
+    td:nth-child(2) {
+      vertical-align: top;
+      font-size: 1.7rem;
+    }
+    td:first-child {
+      text-align: right;
+      padding-right: 0;
+    }
+    td:nth-child(2) {
+      padding-left: 0;
+    }
+  }
+
+  td:nth-child(3):empty {
+    border-left: 1px solid $grey-color-table-borders;
   }
 }
 
 .session-block {
-  border-left: 1px solid #e1e1e1;
+  border-left: 1px solid $grey-color-table-borders;
+  background-color: $white;
+}
+
+.session-presenter {
+  font-size: .75em;
+  margin-top: .5em;
+  margin-bottom: 0;
 }
 
 .schedule-main {
@@ -59,4 +91,59 @@ thead th {
 
 .schedule-breakout {
   width: 25%;
+}
+
+.session-orga {
+  background-color: rgba($background-accent, 0.4);
+}
+
+.program-heading {
+  font-size: 3.5rem;
+  margin-top: 1.5em;
+}
+
+.program-block {
+  border-bottom: 1px solid $grey-color-table-borders;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  .session-header {
+    margin-bottom: 1em;
+  }
+
+  .session-title {
+    margin-top: 0;
+    margin-bottom: .25em;
+  }
+
+  .session-presenter {
+    margin: 0;
+    font-size: 1em;
+  }
+
+  .presenter-name {
+    margin-top: 0;
+  }
+
+  .bio-sm-list {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.program-block-content {
+  padding: 1em;
+}
+
+.program-block-anchor:target {
+  display: block;
+  position: relative;
+  top: -120px; 
+  visibility: hidden;
+
+  & + .program-block-content {
+    background: rgba($background-accent, 0.3);
+  }
 }

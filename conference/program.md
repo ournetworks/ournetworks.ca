@@ -9,7 +9,7 @@ redirect_from:
   - "/2018/conference/program"
 ---
 
-## Saturday July 14
+## Saturday {% include graphics/bullet.svg %} July 14
 
 <table class="schedule-table">
 <thead>
@@ -129,7 +129,7 @@ redirect_from:
 </table>
 
 
-## Sunday July 15
+## Sunday {% include graphics/bullet.svg %} July 15
 
 <table class="schedule-table">
 <thead>
@@ -230,3 +230,55 @@ redirect_from:
 </tr>
 </tbody>
 </table>
+
+<a class="program-block-anchor" id="keynote-to-be-announced"></a>
+## Keynote
+{:.program-heading}
+<div class="session-detail program-block">
+  <div class="session-detail-content program-block-content">
+    <p>To be announced</p>
+  </div>
+</div>
+
+## Sessions
+{:.program-heading}
+
+{% assign sortedSessions = site.data.sessions | sort: 'title' %}
+
+{%- for session in sortedSessions -%}
+  {%- if session.sessionType == "talk" or session.sessionType == "discussion" or session.sessionType == "demo" or session.sessionType == "panel" or session.sessionType == "workshop" -%}
+    {% include session-details.html %}
+  {%- endif -%}
+{%- endfor -%}
+
+<a class="program-block-anchor" id="lightning-talks"></a>
+## Lightning Talks
+{:.program-heading}
+
+{% assign sortedSessions = site.data.sessions | sort: 'title' %}
+
+{%- for session in sortedSessions -%}
+  {%- if session.sessionType == "lightning-talk" -%}
+    {% include session-details.html %}
+  {%- endif -%}
+{%- endfor -%}
+
+
+<a class="program-block-anchor" id="sprint-pitches"></a>
+## Sprint Pitches
+{:.program-heading}
+
+<div class="session-detail program-block">
+  <div class="session-detail-content program-block-content">
+    <p>This is a time slot reserved for anyone to propose a <a href="/sprints/">Sprint</a>.</p>
+  </div>
+</div>
+
+## Presenters
+{:.program-heading}
+
+{% assign sortedPresenters = site.data.presenters | sort: 'name' %}
+
+{%- for presenter in sortedPresenters -%}
+    {% include presenter-details.html %}
+{%- endfor -%}
