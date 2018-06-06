@@ -7,7 +7,21 @@
           {{ session.title }}
         {%- unless session.sessionType == "orga" -%}</a>{%- endunless -%}
       </h5>
-      {% if session.presenter %}<h6 class="session-presenter">{{ session.presenter }}</h6>{% endif %}
+      {% if session.presenterID %}
+        <h6 class="session-presenterID">
+          {% assign presenters = site.data.presenters %}
+          {% assign presenterCount = session.presenterID.size %}
+          {%- for presenterID in session.presenterID -%}
+            {%- for presenter in presenters -%}
+              {%- if presenter.presenterID == presenterID -%}
+                {% assign name = presenter.name %}
+              {%- endif -%}
+            {%- endfor -%}
+            {% assign presenterCount = presenterCount | minus:1 %}
+            {{ name }}{%- if presenterCount > 1 -%}{{ ', ' }}{%- elsif presenterCount > 0 -%}{{ ' and ' }}{%- endif -%}
+          {%- endfor -%}
+        </h6>
+      {% endif %}
     </header>
   </div>
   {%- endif -%}

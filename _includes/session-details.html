@@ -3,8 +3,20 @@
   <div class="session-detail-content">
     <header class="session-header">
       <h3 class="session-title heading">{{ session.title }}</h3>
-      {%- if session.presenter -%}
-        <h4 class="session-presenter">{{ session.presenter }}</h4>
+      {%- if session.presenterID -%}
+        <h4 class="session-presenter">
+          {% assign presenters = site.data.presenters %}
+          {% assign presenterCount = session.presenterID.size %}
+          {%- for presenterID in session.presenterID -%}
+            {%- for presenter in presenters -%}
+              {%- if presenter.presenterID == presenterID -%}
+                {% assign name = presenter.name %}
+              {%- endif -%}
+            {%- endfor -%}
+            {% assign presenterCount = presenterCount | minus:1 %}
+            <a href="#{{ presenterID }}">{{ name }}</a>{%- if presenterCount > 0 -%}{{ ' / ' }}{%- endif -%}
+          {%- endfor -%}
+        </h4>
       {%- endif -%}
     </header>
     {%- if session.sessionType == "lightning" -%}

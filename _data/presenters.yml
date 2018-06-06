@@ -75,7 +75,7 @@
   github: "althea-mesh"
   twitter: "altheamesh"
 
-- presenterID: "b5"
+- presenterID: b5
   name: "Brendan O'Brien"
   bio: "Brendan is a leader in the open source software development community and open data movement. He founded Qri (pronounced “query”) to help bring the benefits of open source software to public data. He helped to launch DataTogether.org, a network of communities, data scientists and developers dedicated to promoting a culture of data collection and sharing. He is also a member of EDGI, the Environmental Data and Governance Initiative, founded to support efforts to preserve at-risk government environmental data."
   link: "https://qri.io/"

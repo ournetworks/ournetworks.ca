@@ -140,6 +140,17 @@ thead th {
   }
 }
 
+.presenter-detail-anchor:target {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+
+  & + .presenter-detail-content {
+    background: rgba($background-accent, 0.3);
+  }
+}
+
 .presenter {
   padding: 1em;
   border-bottom: 1px solid $grey-color-table-borders;

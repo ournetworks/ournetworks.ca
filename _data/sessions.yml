@@ -1,7 +1,7 @@
 - sessionID: 18010
   title: "Wireless Toronto"
-  presenter: "Gabe Sawhney"
-  presenterID: "gabe"
+  presenterID:
+    - gabe
   link: "http://wirelesstoronto.ca/"
   linkDisplay: "wirelesstoronto.ca"
   description: "Wireless Toronto is a community wireless network run by volunteers, dedicated to the growth of no-cost wireless Internet access in Toronto's public and publicly accessible spaces. Since the group's founding in May 2005, volunteers set up almost 40 hotspots across the GTA, including some of the city's largest: St. Lawrence Market, Yonge-Dundas Square, and the York Quay Centre at Harbourfront.
@@ -16,8 +16,8 @@
 
 - sessionID: 18020
   title: "Wireless Toronto workshop"
-  presenter: "Gabe Sawhney"
-  presenterID: "gabe"
+  presenterID:
+    - gabe
   description: "Wireless Toronto volunteers have spent over 10 years setting up and maintaining a network of wifi hotspots -- and building and maintaining relationships with small business owners and public venue managers.
 
 While the technical side of setting up wireless networks is well-documented, the social/promotion/\"sales\" side is less so. In this workshop, we'll share what we've learned about developing and maintaining venue relationships."
@@ -30,8 +30,8 @@ While the technical side of setting up wireless networks is well-documented, the
 
 - sessionID: 18030
   title: "Peer-to-peer applications on a mesh network"
-  presenter: "Benedict Lau"
-  presenterID: "benedict"
+  presenterID:
+    - benedict
   description: "In this session, I will present Mesh Orange, a Debian-based router that runs on various single-board computers (SBCs), which together form an autonomous encrypted mesh network. The operating system supports various WiFi hardware and features a configuration system that allows local mesh communities to specify custom hardware settings. After walking through the steps to form a physical mesh network with Mesh Orange, we will run peer-to-peer applications on these SBCs to show a possible internet where networked applications are serviced by distributed protocols communicating over physical nodes arranged in a mesh topology."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/3"
   sessionType: "lightning-talk"
@@ -42,8 +42,9 @@ While the technical side of setting up wireless networks is well-documented, the
 
 - sessionID: 18050
   title: "Money and mesh networks"
-  presenter: "Jessica Marshall and Ashoka Finley"
-  presenterID: "jessica"
+  presenterID:
+    - jessica
+    - ashoka
   presenterID-2: "ashoka"
   description: "A talk exploring the question is it possible to build/manage communal mesh infrastructure in a decentralized fashion and pay contributors fairly, all while staying true to an ethos of providing free/low-cost Internet to those who want it? and a possible answer."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/5"
@@ -56,9 +57,9 @@ While the technical side of setting up wireless networks is well-documented, the
 
 - sessionID: 18070
   title: "Understanding blockchains with Scrabble"
-  presenter: "Sarah Friend and David Wolever"
-  presenterID: "sarah"
-  presenterID-2: "david"
+  presenterID:
+    - sarah
+    - david
   description: "'What even is a proof-of-work based globally distributed ledger?'
     Blockchain is everywhere these days - from finance and law, to kitten-collecting, dating-apps, and ice tea companies. This workshop will explore what this technology offers, how it works, and what it can and cannot do in a friendly, playful setting. We will introduce the basics of how blockchains work in a short presentation, and then expand on them with a facilitated session of Scrabits, a modified version of scrabble based on the bitcoin blockchain. Concepts explored will be - what is a ledger, what are the unique challenges of maintaining a decentralized way, and how bitcoin solves these problems."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/7"
@@ -70,8 +71,8 @@ While the technical side of setting up wireless networks is well-documented, the
 
 - sessionID: 18090
   title: "City of experiences: The network and the city"
-  presenter: "Department of Unusual Certainties x [Sam]"
-  presenterID: douc
+  presenterID:
+    - douc
   link: "http://wearedouc.com/"
   linkDisplay: "wearedouc.com"
   instagram: "douc_to"
@@ -86,8 +87,8 @@ While the technical side of setting up wireless networks is well-documented, the
 
 - sessionID: 18100
   title: "The hybrid step toward migrating to P2P: Adding P2P backend to current centralized apps"
-  presenter: "vmon"
-  presenterID: "vmon"
+  presenterID:
+    - vmon
   link: "https://github.com/equalitie/ouinet"
   linkDisplay: "Ouinet"
   description: "Currently, most websites and apps depend on centralized servers despite the limitations of this structure. Migration towards P2P architectures may be encouraged by solutions which support the current centralized paradigm while taking advantage of P2P architectures, making apps more resilient to interference and letting users' devices empower the underlying P2P network. For that reason we created Ouinet, a technology where an entire cooperative network helps serve HTTP requests using P2P routing and distributed cached responses, mitigating the single point of failure due to client apps not being able to connect to the server.
@@ -101,8 +102,8 @@ While the technical side of setting up wireless networks is well-documented, the
 
 - sessionID: 18110
   title: "Web archiving as DIY and DIWO"
-  presenter: "Emily Maemura"
-  presenterID: emily
+  presenterID:
+    - emily
   description: "As the internet evolves and changes, what material of the internet's past will continue to be available? What is being actively preserved for the future, and who is doing this work? In this session I'll discuss my doctoral research project that explores these questions through two cases studies of web archiving by national libraries and academic research libraries which are part of the International Internet Preservation Consortium. These cases are representative of the many web archiving initiatives and practices tied to existing centralized structures - supported by government and academic institutions, as well as methods of crawling tied to infrastructures like country code top-level domains. These institutional efforts can be seen to contrast with distributed communities like Archiveteam as well as activist and community web archives. And increasingly, individual people can also create and curate their own collections with tools like webrecorder.io that are geared towards users who are not coders."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/11"
   sessionType: "lightning-talk"
@@ -113,9 +114,9 @@ While the technical side of setting up wireless networks is well-documented, the
 
 - sessionID: 18120
   title: "Building something together with local networks"
-  presenter: "Cecylia Bocovich and Lauren Lapidge"
-  presenterID: "cecylia"
-  presenterID-2: "lauren"
+  presenterID:
+    - cecylia
+    - lauren
   link: "https://www.mazizone.eu/"
   linkDisplay: "mazizone.eu"
   description: "The Internet as it exists today is not an ideal tool for liberation or the exploration of something new. The infrastructure is largely corporation and state owned and controlled. In this demonstration, we look at working with communities to build local networks: small pockets of exploration that have the potential to become whatever we can dream up together. We will be demonstrating the MAZI zone toolkit (meaning 'together' in Greek), and the results of a pilot study by the nomadic group unMonastery and community members of the Zagori region in Greece."
@@ -128,8 +129,8 @@ While the technical side of setting up wireless networks is well-documented, the
 
 - sessionID: 18140
   title: "Althea a more distributed ISP"
-  presenter: "Justin Kilpatrick"
-  presenterID: "justin"
+  presenterID:
+    - justin
   link: "https://altheamesh.com/"
   linkDisplay: "altheamesh.com"
   description: "Althea is a protocol that allows people to easily buy and sell bandwidth from each other. The session will cover the design choices and philosophy of Alteha's mesh networking technology. As well as setup a basic mesh network on stage to show off."
@@ -143,8 +144,8 @@ While the technical side of setting up wireless networks is well-documented, the
 
 - sessionID: 18150
   title: "Holding Data Together: Decentralized patterns for stewardship"
-  presenter: "Brendan O'Brien"
-  presenterID: "b5"
+  presenterID:
+    - b5
   link: "https://datatogether.org/"
   linkDisplay: "datatogether.org"
   description: "Formed in the wake of grassroots archiving efforts undertaken in 2017, Data Together seeks to contribute to a civic layer of the internet where communities use decentralized technologies to steward data they care about. Since July 2017, founding partners EDGI, qri.io, and Protocol Labs, have been prototyping open source and decentralized archiving of web pages and data sets using IPFS. Initiatives also include public engagement through in-person events and topical roundtable conversations through online webinars.
@@ -159,8 +160,8 @@ While the technical side of setting up wireless networks is well-documented, the
 
 - sessionID: 18160
   title: "Protocol tactics"
-  presenter: "Lars Gierth"
-  presenterID: "lars"
+  presenterID:
+    - lars
   description: "The philosophers have only interpreted the internet, the point is to change it.
     IP, BGP, DNS, HTTP, and many more protocols set the boundaries of what we do on the internet. Their specifications and implementations have enabled many great advances, but some of these advances have revealed structures and mechanisms that are objectively counter to their users' needs and wants.
     Our communities are radical in many ways, and some of our shared principles are
@@ -176,9 +177,9 @@ While the technical side of setting up wireless networks is well-documented, the
 
 - sessionID: 18180
   title: "Community networks, a perspective from freedom of expression and access to information"
-  presenter: "Vladimir Cortés Roshdestvensky and Paulina Gutiérrez"
-  presenterID: "Vladimir"
-  presenterID-2: "Paulina"
+  presenterID:
+    - vladimir
+    - paulina
   link: "https://articulo19.org/"
   linkDisplay: "articulo19.org"
   description: "The digital divide in Mexico is not just a matter of connectivity. The deployment of physical infrastructure must be coupled with a cultural, linguistic and community perspective, able to provide internet access as a way to exercise a wide range of rights. Article 19 Mexico and Central America office is doing field work in the state of Chiapas to analyze, from a broad perspective, the impact of connectivity policies and the lack to internet access on indigenous communities and the raising of local initiatives to build community networks. The project is linked to the work of the organization to promote proactive transparency that allows people, particularly women, to use access to information mechanisms to defend other rights.
@@ -192,9 +193,9 @@ While the technical side of setting up wireless networks is well-documented, the
 
 - sessionID: 18190
   title: "What do we want?"
-  presenter: "Justin Tracey and Cecylia Bocovich"
-  presenterID: "justint"
-  presenterID-2: "cecylia"
+  presenterID:
+    - justint
+    - cecylia
   description: "In the world we live in, there is a near-universal social norm that says greater connectivity, a more global web, and more pervasive digital networks are an inherent good. We see this sentiment reflected everywhere, from the obvious manifestations in IoT devices, cellphones, and Facebook, to more implicit forms, such as in the fights for greater digital security, more censorship-resistant communication, or more distributed control of these networks. As communities involved in shaping the future of these networks, and whose futures will in turn be shaped by them, it seems worth asking: Is a more networked world really always what we want?
     Rather than try to answer this question directly, we will instead provide a short introduction to the topic, then help guide an open discussion, focusing on what it means in practice for us involved in the development of these networks."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/19"
@@ -206,10 +207,10 @@ While the technical side of setting up wireless networks is well-documented, the
 
 - sessionID: 18200
   title: "Fandom as an alternative network"
-  presenter: "Rea McNamara, Owen G. Parry, and Maya Ben David"
-  presenterID: "rea"
-  presenterID-2: "owen"
-  presenterID-3: "maya"
+  presenterID:
+    - rea
+    - owen
+    - maya
   description: "The interdisciplinary creative practices of fandom — whether it be fanfiction, fanart, or cosplay — challenge our previously held notions of authorship, but also uphold the open internet’s emancipatory values. Networked-based online creations thrive within particular fandoms, and its community-based model has enabled authors to create works that bring in feminist as well as queer and critical race studies approaches, especially through genres like slash. So how are these fan methodologies reshaping the practices of artists and curators? This conversation will map out the ways in which three “fans” AKA contemporary artists/curators are bringing these so-called fan perspectives into their work, and explore how fandom cultivates alternative means of capacity-building and storytelling."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/20"
   sessionType: "panel"
@@ -220,8 +221,8 @@ While the technical side of setting up wireless networks is well-documented, the
 
 - sessionID: 18210
   title: "Using Qri for distributed data collaboration"
-  presenter: "Brendan O'Brien"
-  presenterID: "b5"
+  presenterID:
+    - b5
   description: "qri.io ('query') is an open source peer-2-peer data collaboration tool. In the spirit of 'do it with others' this workshop will engage participants to each develop their own dataset of citations they'd like to share such as books, online articles, and blog posts. Participants will then publish these datasets on the distributed web using qri, and from there we'll work together to combine the sum of these datasets into a collection of citations. We'll then render these datasets as web pages using traditional web technologies, making our collection of citations available to a broader audience, while also providing access to the raw data for others to build upon."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/21"
   sessionType: "workshop"
@@ -232,8 +233,8 @@ While the technical side of setting up wireless networks is well-documented, the
 
 - sessionID: 18220
   title: "Cadences of connection and exchange: Planning and modeling activity centered networks"
-  presenter: "Curtis McCord"
-  presenterID: "curtis"
+  presenterID:
+    - curtis
   description: "Although we access internet from many locations acoss our communications, our expectations for connectivity and availability of content are somewhat more static. In these moments our experience of the networked connectivity is embedded in not only files and bandwidth, but also mixes the activities of passerby and environmental features. Our ways of accessing information (i.e. files, content, etc) could be significantly diversified in networks without ubiquitous (centrally provided) broadband, where access might be linked to the physical environment or physical storage, such as in dead drops or Cuba's budding public wifi access or their 'sneakernet' style paquete semanal.
     What might happen when network connectivity works differently in shared spaces of transit, leisure and work? What are the possible benefits of challenging the expectation of ubiquitous broadband and the cadence of constant connectivity- the what ethical issues might arise? Can we create different sorts of networks that fit the constraints and character of different spaces and human activities around them?"
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/22"
@@ -245,8 +246,8 @@ While the technical side of setting up wireless networks is well-documented, the
 
 - sessionID: 18231
   title: "The artists network, the data-body, and the social-body"
-  presenter: "Jennifer Seaman Cook"
-  presenterID: "jennifer"
+  presenterID:
+    - jennifer
   description: "'Electronic art is electronic education is inter net and television for and about people. My television video electronic educational inter net art is for people, minds and bodies. Electronic art educational inter net television. Not so hard to imagine.' -Peer Bode (Experimental Television Center)
     This talk begins from a seemingly simple cultural historical premise: that the Net Art/Anti-Globalism movement theories of data-bodies, new forms of civil disobedience, and the performative matrix of artist networks between virtual and real spaces were formed under pre-digital conditions and artistic practices based in the intermedia movement. More importantly, I argue that pre-digital practices of the artist communications infrastructure as both network and counterinstitution--derived from media revolutions of the underground press, conceptual and process art practices of social sculpture, and working class progressivist artist workers movements of the 20th century--allowed for counterhegemonic deterritorializations and reterritorializations of emergent media networks and resources. These intermedia cultural movements prioritized hybrid ontologies and adapted tactically from the pre-digital to digital cusp through media ecologies of electronic globalization characterizing neoliberal mobility and modularity."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/23"
@@ -258,8 +259,8 @@ While the technical side of setting up wireless networks is well-documented, the
 
 - sessionID: 18232
   title: "The artists network workshop"
-  presenter: "Jennifer Seaman Cook"
-  presenterID: "jennifer"
+  presenterID:
+    - jennifer
   description: "'Electronic art is electronic education is inter net and television for and about people. My television video electronic educational inter net art is for people, minds and bodies. Electronic art educational inter net television. Not so hard to imagine.' -Peer Bode (Experimental Television Center)
     This talk begins from a seemingly simple cultural historical premise: that the Net Art/Anti-Globalism movement theories of data-bodies, new forms of civil disobedience, and the performative matrix of artist networks between virtual and real spaces were formed under pre-digital conditions and artistic practices based in the intermedia movement. More importantly, I argue that pre-digital practices of the artist communications infrastructure as both network and counterinstitution--derived from media revolutions of the underground press, conceptual and process art practices of social sculpture, and working class progressivist artist workers movements of the 20th century--allowed for counterhegemonic deterritorializations and reterritorializations of emergent media networks and resources. These intermedia cultural movements prioritized hybrid ontologies and adapted tactically from the pre-digital to digital cusp through media ecologies of electronic globalization characterizing neoliberal mobility and modularity."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/23"
@@ -271,8 +272,9 @@ While the technical side of setting up wireless networks is well-documented, the
 
 - sessionID: 18241
   title: "Our _stable_ networks"
-  presenter: "Grant Gallo and Jenny Ryan"
-  presenterID: "grant"
+  presenterID:
+    - grant
+    - jenny
   link: "https://peoplesopen.net/"
   linkDisplay: "peoplesopen.net"
   github: "sudomesh"
@@ -289,8 +291,9 @@ While the technical side of setting up wireless networks is well-documented, the
 
 - sessionID: 18242
   title: "Our _stable_ networks workshop"
-  presenter: "Grant Gallo and Jenny Ryan"
-  presenterID: "grant"
+  presenterID:
+    - grant
+    - jenny
   description: "What does a 'stable' deployment of a community mesh network look like?
     During this session, we will look at successful community wireless projects around the world, see how they are structured, both organizationally and technologically.
     In particular, participants will learn what a stable implementation of a People's Open Network might look like directly from the people building one in Oakland, CA.
@@ -304,8 +307,8 @@ While the technical side of setting up wireless networks is well-documented, the
 
 - sessionID: 18250
   title: "Aether: Distributing social networks without distributed consensus"
-  presenter: "Burak Nehbit"
-  presenterID: "burak"
+  presenterID:
+    - burak
   link: https://getaether.net/
   linkDisplay: Aether
   description: "The ongoing discussion about decentralisation has been dominated by the talk of blockchains lately. While they do work in certain fields, in social networks the bottleneck and restrictions imposed by the distributed consensus render it challenging to build a social network on a blockchain that does not suffer from speed issues.
