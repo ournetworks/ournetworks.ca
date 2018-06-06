@@ -1,6 +1,6 @@
-<div class="session-detail">
-  <a class="session-detail-anchor" id="{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}"></a>
-  <div class="session-detail-content">
+<div class="session-detail program-block">
+  <a class="program-block-anchor" id="{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}"></a>
+  <div class="program-block-content">
     <header class="session-header">
       <h3 class="session-title heading">{{ session.title }}</h3>
       {%- if session.presenterID -%}

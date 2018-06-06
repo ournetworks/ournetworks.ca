@@ -39,8 +39,9 @@ thead th {
     margin-bottom: 0;
   }
 
-  tr:nth-child(even) {
-    background-color: lighten($grey-color-light, 5%);
+  h6 {
+    margin-top: .25em;
+    font-size: 1.4rem;
   }
 
   th,
@@ -51,6 +52,9 @@ thead th {
   }
 
   tr {
+    &:nth-child(even) {
+      background-color: lighten($grey-color-light, 5%);
+    }
     td:first-child,
     td:nth-child(2) {
       vertical-align: top;
@@ -89,7 +93,7 @@ thead th {
   width: 25%;
 }
 
-.session-orga  {
+.session-orga {
   background-color: rgba($background-accent, 0.4);
 }
 
@@ -98,27 +102,12 @@ thead th {
   margin-top: 1.5em;
 }
 
-.session-detail-anchor:target {
-  display: block;
-  position: relative;
-  top: -120px; 
-  visibility: hidden;
-
-  & + .session-detail-content {
-    background: rgba($background-accent, 0.3);
-  }
-}
-
-.session-detail {
+.program-block {
   border-bottom: 1px solid $grey-color-table-borders;
 
   &:last-child {
     border-bottom: 0;
   }
-}
-
-.session-detail-content {
-  padding: 1em;
 
   .session-header {
     margin-bottom: 1em;
@@ -134,27 +123,6 @@ thead th {
     font-size: 1em;
   }
 
-  .bio-sm-list {
-    margin-top: .25em;
-    margin-bottom: 0;
-  }
-}
-
-.presenter-detail-anchor:target {
-  display: block;
-  position: relative;
-  top: -120px;
-  visibility: hidden;
-
-  & + .presenter-detail-content {
-    background: rgba($background-accent, 0.3);
-  }
-}
-
-.presenter {
-  padding: 1em;
-  border-bottom: 1px solid $grey-color-table-borders;
-
   .presenter-name {
     margin-top: 0;
   }
@@ -163,8 +131,19 @@ thead th {
     margin-top: 0;
     margin-bottom: 0;
   }
+}
 
-  &:last-child {
-    border-bottom: 0;
+.program-block-content {
+  padding: 1em;
+}
+
+.program-block-anchor:target {
+  display: block;
+  position: relative;
+  top: -120px; 
+  visibility: hidden;
+
+  & + .program-block-content {
+    background: rgba($background-accent, 0.3);
   }
 }

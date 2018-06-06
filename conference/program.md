@@ -231,11 +231,11 @@ redirect_from:
 </tbody>
 </table>
 
+<a class="program-block-anchor" id="keynote-to-be-announced"></a>
 ## Keynote
 {:.program-heading}
-<div class="session-detail">
-  <a class="session-detail-anchor" id="keynote-to-be-announced"></a>
-  <div class="session-detail-content">
+<div class="session-detail program-block">
+  <div class="session-detail-content program-block-content">
     <p>To be announced</p>
   </div>
 </div>
@@ -251,7 +251,7 @@ redirect_from:
   {%- endif -%}
 {%- endfor -%}
 
-<a class="session-detail-anchor" id="lightning-talks"></a>
+<a class="program-block-anchor" id="lightning-talks"></a>
 ## Lightning Talks
 {:.program-heading}
 
@@ -264,12 +264,12 @@ redirect_from:
 {%- endfor -%}
 
 
-<a class="session-detail-anchor" id="sprint-pitches"></a>
+<a class="program-block-anchor" id="sprint-pitches"></a>
 ## Sprint Pitches
 {:.program-heading}
 
-<div class="session-detail">
-  <div class="session-detail-content">
+<div class="session-detail program-block">
+  <div class="session-detail-content program-block-content">
     <p>This is a time slot reserved for anyone to propose a <a href="/sprints/">Sprint</a>.</p>
   </div>
 </div>
