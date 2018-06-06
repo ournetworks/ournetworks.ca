@@ -240,28 +240,18 @@ redirect_from:
   </div>
 </div>
 
-## Talks & Discussions
+## Sessions
 {:.program-heading}
 
 {% assign sortedSessions = site.data.sessions | sort: 'title' %}
 
 {%- for session in sortedSessions -%}
-  {%- if session.sessionType == "talk" or session.sessionType == "discussion" or session.sessionType == "demo" or session.sessionType == "panel" -%}
+  {%- if session.sessionType == "talk" or session.sessionType == "discussion" or session.sessionType == "demo" or session.sessionType == "panel" or session.sessionType == "workshop" -%}
     {% include session-details.html %}
   {%- endif -%}
 {%- endfor -%}
 
-## Workshops
-{:.program-heading}
-
-{% assign sortedSessions = site.data.sessions | sort: 'title' %}
-
-{%- for session in sortedSessions -%}
-  {%- if session.sessionType == "workshop" -%}
-    {% include session-details.html %}
-  {%- endif -%}
-{%- endfor -%}
-
+<a class="session-detail-anchor" id="lightning-talks"></a>
 ## Lightning Talks
 {:.program-heading}
 
@@ -272,6 +262,17 @@ redirect_from:
     {% include session-details.html %}
   {%- endif -%}
 {%- endfor -%}
+
+
+<a class="session-detail-anchor" id="sprint-pitches"></a>
+## Sprint Pitches
+{:.program-heading}
+
+<div class="session-detail">
+  <div class="session-detail-content">
+    <p>This is a time slot reserved for anyone to propose a <a href="/sprints/">Sprint</a>.</p>
+  </div>
+</div>
 
 ## Presenters
 {:.program-heading}
