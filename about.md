@@ -63,6 +63,7 @@ Our Networks organizers have hosted civic tech events and community networks wor
 Design concept and logo by [Marlo Yarlo](http://www.marloyarlo.com/).
 
 <ul class="bio-sm-list">
+  <li class="bio-sm-list-item"><a href="https://www.instagram.com/marloyarlo/" target="_blank" rel="noopener">{% include icons/instagram.svg %}&nbsp;marloyarlo</a></li>
   <li class="bio-sm-list-item"><a href="http://www.marloyarlo.com/" target="_blank" rel="noopener">{% include icons/link.svg %}&nbsp;marloyarlo.com</a></li>
 </ul>
 
