@@ -16,12 +16,12 @@ What better way to celebrate Doing It With Others than by buying [t-shirts](#t-s
 ## T-Shirts - $20
 {:#t-shirts}
 
-We have 4 shirt designs available for purchase during [registration](/conference/#registration) (also for sale at the conference). Available S-XL in straight cut and fitted options. Printed locally on Bella+Canvas [3001](https://www.bellacanvas.com/product/3001/Unisex-Jersey-Short-Sleeve-Tee.html) or [6004](https://www.bellacanvas.com/product/6004/Womens-The-Favorite-Tee.html).
+We have 4 shirt designs available for purchase during [registration](/conference/#registration) and also for sale at the conference. Available S-XL in straight cut and fitted options. Printed locally on Bella+Canvas [3001](https://www.bellacanvas.com/product/3001/Unisex-Jersey-Short-Sleeve-Tee.html) (straight cut) or [6004](https://www.bellacanvas.com/product/6004/Womens-The-Favorite-Tee.html) (fitted).
 
 <div class="row">
   <div class="four columns">
     <h3>Design #1 2018</h3>
-    <p>Limited-run 2018 edition print in "accent"-uated mint green.</p>
+    <p>Limited-run 2018 edition print in "accent"-uated mint green, only available in straight cut.</p>
     <p>Printed front and back with shoutouts to our wonderful sponsors.</p>
   </div>
   <div class="eight columns">
