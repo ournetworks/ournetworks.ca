@@ -40,6 +40,18 @@ While the technical side of setting up wireless networks is well-documented, the
   endTime: ""
   length: 0.25
 
+- sessionID: 18040
+  title: "Live Streaming over IPFS"
+  presenterID:
+    - yurko
+  description: "In this session, I will present how IPFS and HLS came together to allow us to build a distributed live stream for this conference."
+  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/17"
+  sessionType: "lightning-talk"
+  date: 2018-07-14
+  startTime: ""
+  endTime: ""
+  length: 0.25
+
 - sessionID: 18050
   title: "Money and mesh networks"
   presenterID:
