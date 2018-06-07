@@ -236,13 +236,15 @@ redirect_from:
 {:.program-heading}
 <div class="session-detail program-block">
   <div class="session-detail-content program-block-content">
-    <h3>Nasma Ahmed, Founder and Executive Director of <a href="https://digitaljusticelab.ca/" target="_blank" rel="noopener">Digital Justice Lab</a></h3>
-    <br />
+    <header class="session-header">
+      <h3 class="session-title">Nasma Ahmed, Founder and Executive Director of <a href="https://digitaljusticelab.ca/" target="_blank" rel="noopener">Digital Justice Lab</a></h3>
+    </header>
     <div class="row">
-      <div class="offset-by-three six columns">
-        <a href="https://digitaljusticelab.ca/" rel="noopener"><img src="/images/digital-justice-lab-logo.svg" width="100%" alt="Digital Justice Lab logo" /></a>
+      <div class="five columns">
+        <a href="https://digitaljusticelab.ca/"><img src="/images/digital-justice-lab-logo.svg" alt="Digital Justice Lab logo" /></a>
       </div>
     </div>
+    <br />
   </div>
 </div>
 
