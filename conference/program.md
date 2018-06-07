@@ -231,12 +231,20 @@ redirect_from:
 </tbody>
 </table>
 
-<a class="program-block-anchor" id="keynote-to-be-announced"></a>
+<a class="program-block-anchor" id="keynote-nasma-ahmed,-digital-justice-lab"></a>
 ## Keynote
 {:.program-heading}
 <div class="session-detail program-block">
   <div class="session-detail-content program-block-content">
-    <p>To be announced</p>
+    <header class="session-header">
+      <h3 class="session-title">Nasma Ahmed, Founder and Executive Director of <a href="https://digitaljusticelab.ca/" target="_blank" rel="noopener">Digital Justice Lab</a></h3>
+    </header>
+    <div class="row">
+      <div class="five columns">
+        <a href="https://digitaljusticelab.ca/"><img src="/images/digital-justice-lab-logo.svg" alt="Digital Justice Lab logo" /></a>
+      </div>
+    </div>
+    <br />
   </div>
 </div>
 

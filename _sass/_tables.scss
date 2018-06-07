@@ -72,6 +72,18 @@ thead th {
   td:nth-child(3):empty {
     border-left: 1px solid $grey-color-table-borders;
   }
+
+  @media (max-width: $on-palm) {
+    width: 100vw;
+    margin-left: -8%;
+    
+    tr {
+      td:first-child,
+      td:nth-child(2) {
+        font-size: 1.5rem;
+      }
+    }
+  }
 }
 
 .session-block {
