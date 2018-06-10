@@ -8,8 +8,8 @@ startDate: 2018-07-16
 endDate: 2018-07-18
 startTime: "10:30"
 endTime: "21:30"
-venueName: "Semaphore Demo Room"
-location: "Room 417, Claude T. Bissell, 140 St. George Street"
+locationName: "Semaphore Demo Room"
+location: "Room 417, Claude T. Bissell building, 140 St. George Street"
 locationLink: http://osm.org/go/ZX6Bw~WNh--?m=
 redirect_from:
   - "/2018/sprints/"
@@ -28,6 +28,9 @@ redirect_from:
   <div class="event-meta">
     {% include icons/map-marker.svg %}
     <p class="event-location event-meta-item">
+    {% if page.locationName %}
+      {{ page.locationName }},
+    {% endif %}    
     {% if page.locationLink %}
       <a href="{{page.locationLink}}" target="_blank">{{ page.location }}</a> <!--_-->
     {% else %}
