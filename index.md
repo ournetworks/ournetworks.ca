@@ -26,7 +26,7 @@ Our theme focuses on how we can **Do It With Others (DIWO)** as opposed to just 
 
 ### Updates
 
-Want to receive an update when the conference program launches?
+Want to receive updates as we announce more details?
 
 <form action="https://formspree.io/orga@ournetworks.ca" method="POST">
   <div class="row form-group">
