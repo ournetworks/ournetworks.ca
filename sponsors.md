@@ -9,7 +9,7 @@ parent: "About the Event"
 
 Our Networks is volunteer-run and would not be possible without the support of our partners and sponsors.
 
-## Tier 1 Network Sponsorship
+## Tier 1 Network Sponsors
 
 <div class="row sponsor-band">
   <div class="four columns">
@@ -20,6 +20,14 @@ Our Networks is volunteer-run and would not be possible without the support of o
   </div>
   <div class="four columns">
     <a href="https://dapphub.com/" rel="noopener"><img src="/images/sponsors/dapp-logo.svg" width="130" alt="Dapp.Org logo" /></a>
+  </div>
+</div>
+
+## In-Kind Sponsors
+
+<div class="row sponsor-band">
+  <div class="four columns">
+    <a href="https://www.stickermule.com/supports/opensource" rel="noopener"><img src="/images/sponsors/sticker-mule-logo.svg" width="260" alt="Sticker Mule logo" /></a>
   </div>
 </div>
 
