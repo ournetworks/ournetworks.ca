@@ -173,6 +173,13 @@ input[type="checkbox"].menu-btn {
 }
 
 @media (max-width: $on-palm) {
+  .header {
+    li:hover {
+      .nav-item-sub:empty {
+        display: none;
+      }
+    }
+  }
   .nav-item-sub {
     display: block;
     position: inherit;

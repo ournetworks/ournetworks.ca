@@ -2,6 +2,7 @@
 
 table {
   border-spacing: 0;
+  margin: 1em 0;
 }
 
 th,
@@ -29,7 +30,7 @@ thead th {
 // Schedule Table
 
 .schedule-table {
-  margin: 1em 0 4em;
+  margin-bottom: 4em;
   width: 100%;
 
   h3,
