@@ -23,7 +23,7 @@ Our Networks is volunteer-run and would not be possible without the support of o
   </div>
 </div>
 
-## In-kind Sponsors
+## In-Kind Sponsors
 
 <div class="row sponsor-band">
   <div class="four columns">
