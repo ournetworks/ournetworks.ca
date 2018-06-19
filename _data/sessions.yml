@@ -129,7 +129,7 @@ While the technical side of setting up wireless networks is well-documented, the
   presenterID:
     - cecylia
     - lauren
-  link: "https://www.mazizone.eu/"
+  link: "http://www.mazizone.eu/"
   linkDisplay: "mazizone.eu"
   description: "The Internet as it exists today is not an ideal tool for liberation or the exploration of something new. The infrastructure is largely corporation and state owned and controlled. In this demonstration, we look at working with communities to build local networks: small pockets of exploration that have the potential to become whatever we can dream up together. We will be demonstrating the MAZI zone toolkit (meaning 'together' in Greek), and the results of a pilot study by the nomadic group unMonastery and community members of the Zagori region in Greece."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/12"
