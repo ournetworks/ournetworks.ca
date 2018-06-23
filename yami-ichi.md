@@ -69,6 +69,6 @@ This year we're thrilled to be collaborating with our friends from Bit Bazaar, T
 
 ## Apply to Vend at Bit Bazaar × Yami-Ichi
 
-Applications are open until June 21 and exhibitors will be selected and notified on a rolling basis.
+Applications are open until July 1 and exhibitors will be selected and notified on a rolling basis.
 
 <a href="https://2018.bitbazaar.world/" class="button button-primary" target="_blank">Apply to Vend</a>
