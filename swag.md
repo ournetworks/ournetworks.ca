@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 2
+order: 3
 section: "2018"
 title: "Swag"
 titleDisplay: "Swag"
