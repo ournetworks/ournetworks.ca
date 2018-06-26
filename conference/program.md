@@ -231,15 +231,19 @@ redirect_from:
 </tbody>
 </table>
 
-<a class="program-block-anchor" id="keynote-nasma-ahmed,-digital-justice-lab"></a>
-## Keynote
+<a class="program-block-anchor" id="keynote-nasma-ahmed,-navigating-digital-futures"></a>
+## Keynote: Navigating Digital Futures
 {:.program-heading}
 <div class="session-detail program-block">
   <div class="session-detail-content program-block-content">
     <header class="session-header">
       <h3 class="session-title">Nasma Ahmed, Founder and Executive Director of <a href="https://digitaljusticelab.ca/" target="_blank" rel="noopener">Digital Justice Lab</a></h3>
+      <p>Nasma Ahmed is a black muslimah working within the intersections of social justice, technology and policy. She is a technologist and capacity builder based in Toronto. She is the Executive Director of the Digital Justice Lab a national organization focusing on building a more just and equitable digital future in Canada.</p>
     </header>
     <div class="row">
+      <div class="three columns">
+        <a href="https://digitaljusticelab.ca/"><img src="/images/nasma-headshot.png" alt="Nasma Ahmed illustrated headshot" /></a>
+      </div>
       <div class="five columns">
         <a href="https://digitaljusticelab.ca/"><img src="/images/digital-justice-lab-logo.svg" alt="Digital Justice Lab logo" /></a>
       </div>
