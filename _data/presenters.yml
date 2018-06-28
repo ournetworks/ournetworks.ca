@@ -106,11 +106,8 @@
 
 - presenterID: justint
   name: "Justin Tracey"
-  bio: "Justin works as a graduate student at the University of Waterloo's CrySP lab. His research focuses on network simulation, with an emphasis on simulations of the Tor network. Previously, he worked on file system analysis at UC Santa Cruz, where he was also involved with a local community meshnet project built around CJDNS.
-    Cecylia is a graduate student at the University of Waterloo. Her research addresses broad issues in privacy and more narrowly focuses on censorship resistance in its many forms. She spends the majority of her time designing systems to circumvent state censorship."
+  bio: "Justin works as a graduate student at the University of Waterloo's CrySP lab. His research focuses on network simulation, with an emphasis on simulations of the Tor network. Previously, he worked on file system analysis at UC Santa Cruz, where he was also involved with a local community meshnet project built around CJDNS."
   twitter: "jtga_d"
-  link: "http://www.mazizone.eu/"
-  linkDisplay: "mazizone.eu"
 
 - presenterID: rea
   name: "Rea McNamara"
