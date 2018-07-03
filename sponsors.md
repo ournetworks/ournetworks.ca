@@ -23,6 +23,14 @@ Our Networks is volunteer-run and would not be possible without the support of o
   </div>
 </div>
 
+## Tier 3 Network Sponsors
+
+<div class="row sponsor-band">
+  <div class="four columns">
+    <a href="https://new.consensys.net/" rel="noopener"><img src="/images/sponsors/consensys-logo.svg" width="260" alt="Consensys logo" /></a>
+  </div>
+</div>
+
 ## In-Kind Sponsors
 
 <div class="row sponsor-band">
