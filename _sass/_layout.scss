@@ -332,3 +332,34 @@
     }
   }
 }
+
+// Live Stream Container
+
+.stream-container {
+  position: relative;
+}
+
+.stream-selector {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: $background-color;
+  left: 0;
+  text-align: center;
+}
+
+.stream-selector-options {
+  display: flex;
+}
+
+.stream-option {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
