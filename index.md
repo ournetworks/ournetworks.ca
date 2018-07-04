@@ -26,7 +26,7 @@ Our theme focuses on how we can **Do It With Others (DIWO)** as opposed to just 
 
 ### Updates
 
-Want to receive updates as we announce livestream details and more?
+Want to receive updates as we announce live stream details and more?
 
 <form action="https://formspree.io/orga@ournetworks.ca" method="POST">
   <div class="row form-group">
