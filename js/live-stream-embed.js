@@ -26,7 +26,7 @@ function ipfsStream() {
     // Replace IPFS gateway of origin with that of this node
     options.uri = options.uri.replace(ipfs_gateway_origin, ipfs_gateway_self);
     if (options.uri.indexOf('/ipfs/')) {
-      document.getElementById('loadingTitle').innerHTML='Located stream via IPNS'
+      document.getElementById('loadingTitle').innerHTML='Located stream via IPFS'
       document.getElementById('msg').innerHTML='Downloading video content...'
     }
     console.debug(options.uri);

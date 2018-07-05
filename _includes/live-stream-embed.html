@@ -6,24 +6,24 @@
 
   <div class="stream-selector" id="StreamSelecter">
     <div id="SelectStream">
-      <h2>Select Source</h2>
+      <h2>Select Live Stream Source</h2>
       <div class="stream-selector-options">
         <div id="ipfsStream">
-          <button class="stream-option ipfs-stream">
-            <span class="button-label">IPFS</span><br>
-            <img src="/images/video/ipfs-logo.svg" width="125" alt="IPFS logo" />
+          <button class="stream-option ipfs-stream" title="Play the live stream on through a peer-to-peer hypermedia protocol. More at ipfs.io">
+            {% include graphics/video/ipfs-icon.svg %}
+            <span class="button-label">IPFS</span>
           </button>
         </div>
         <div id="httpStream">
-          <button class="stream-option http-stream">
-            <span class="button-label">HTTP</span><br>
-            <img src="/images/video/internet.svg" width="125" alt="Internet graphic" />
+          <button class="stream-option http-stream" title="Play the live stream on through a media server over HTTP.">
+            {% include graphics/video/http-icon.svg %}
+            <span class="button-label">HTTP</span>
           </button>
         </div>
       </div>
     </div>
     <div id="LoadingStream" style="display:none;">
-      {% include graphics/loader-animation.svg %}
+      {% include graphics/video/loader-animation.svg %}
       <h3 id="loadingTitle">Locating stream...</h3>
       <div class="stream-message" id="msg"></div>
     </div>

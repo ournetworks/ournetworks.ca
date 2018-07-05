@@ -338,6 +338,7 @@
 .stream-container {
   position: relative;
   min-height: 350px;
+  margin-bottom: 1em;
 }
 
 .stream-selector {
@@ -363,11 +364,24 @@
   justify-content: center;
   align-items: center;
   margin: 0 10px;
-  padding: 1em;
-  border-width: 2px;
+  padding: 0.75em;
+  border-width: 0;
 
-  &:hover {
+  &:hover,
+  &:focus {
     border-color: $black;
+
+    svg {
+      filter: none;
+    }
+  }
+
+  svg {
+    pointer-events: none;
+    width: 100px;
+    transition: 200ms filter ease-in-out;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
   }
 }
 
@@ -379,9 +393,7 @@
 
 .button-label {
   color: $black;
-  border-bottom: 2px solid $black;
-  padding: 0 1em 0.5em;
-  display: inline-block;
+  margin-top: 1em;
 }
 
 #loadingTitle {
