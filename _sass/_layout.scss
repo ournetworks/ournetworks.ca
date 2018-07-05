@@ -337,6 +337,7 @@
 
 .stream-container {
   position: relative;
+  min-height: 350px;
 }
 
 .stream-selector {
@@ -362,12 +363,25 @@
   justify-content: center;
   align-items: center;
   margin: 0 10px;
+  padding: 1em;
+  border-width: 2px;
+
+  &:hover {
+    border-color: $black;
+  }
 }
 
 .stream-message {
   margin: 0 auto;
   max-width: 75%;
   font-size: 0.85em;
+}
+
+.button-label {
+  color: $black;
+  border-bottom: 2px solid $black;
+  padding: 0 1em 0.5em;
+  display: inline-block;
 }
 
 #loadingTitle {
