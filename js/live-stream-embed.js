@@ -40,11 +40,11 @@ function loadStream() {
 }
 
 document.querySelector('.ipfs-stream').addEventListener('click', function(event){
-    ipfsStream();
+  ipfsStream();
 });
 
 document.querySelector('.http-stream').addEventListener('click', function(event){
-    httpStream();
+  httpStream();
 });
 
 live.metadata='none';
@@ -59,9 +59,11 @@ live.on('loadeddata', function(event) {
 
 live.on('error', function(event) {
   console.debug(this.error());
-  document.getElementById('msg').innerHTML=this.error().message;
+  document.getElementById('loadingTitle').innerHTML = 'Unable to load live stream'
+  document.querySelector('.loader-animation').style.display = 'none';
+  document.getElementById('msg').innerHTML = this.error().message;
 });
 
 if (!m3u8_http_urls || !Array.isArray(m3u8_http_urls) || (m3u8_http_urls.length==0)) {
-  document.getElementById('httpStream').style.display='none';
+  document.getElementById('httpStream').style.display = 'none';
 }
