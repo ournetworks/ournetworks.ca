@@ -50,7 +50,7 @@ document.querySelector('.http-stream').addEventListener('click', function(event)
 live.metadata='none';
 
 live.on('loadedmetadata', function() {
-  document.getElementById('StreamSelecter').style.display = 'none';
+  document.getElementById('StreamSelector').style.display = 'none';
 });
 
 live.on('loadeddata', function(event) {
