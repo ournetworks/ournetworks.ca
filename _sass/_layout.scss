@@ -371,17 +371,29 @@
 
   &:hover,
   &:focus {
-    border-color: $black;
-
-    svg {
-      filter: none;
+    .button-label {
+      text-decoration: underline;
     }
   }
 
   svg {
     pointer-events: none;
     width: 130px;
-    transition: 200ms filter ease-in-out;
+  }
+}
+
+.stream-option[disabled] {
+  cursor: not-allowed;
+  opacity: 0.25;
+
+  &:hover,
+  &:focus {
+    .button-label {
+      text-decoration: none;
+    }
+  }
+
+  svg {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
   }
