@@ -8,6 +8,11 @@ var m3u8_http_urls = ['http://ipfs-mirror-0.mesh.world/live.m3u8'];  // Optional
 
 var live = videojs('live');
 
+// Override native player for platform and browser consistency
+videojs.options.html5.nativeAudioTracks = false;
+videojs.options.html5.nativeVideoTracks = false;
+videojs.options.hls.overrideNative = true;
+
 function httpStream() {
   live.src({
     src: m3u8_http_urls[Math.floor(Math.random() * m3u8_http_urls.length)],
@@ -26,8 +31,8 @@ function ipfsStream() {
     // Replace IPFS gateway of origin with that of this node
     options.uri = options.uri.replace(ipfs_gateway_origin, ipfs_gateway_self);
     if (options.uri.indexOf('/ipfs/')) {
-      document.getElementById('loadingTitle').innerHTML='Located stream via IPFS'
-      document.getElementById('msg').innerHTML='Downloading video content...'
+      document.getElementById('loadingTitle').innerHTML = 'Located stream via IPFS'
+      document.getElementById('msg').innerHTML = 'Downloading video content...'
     }
     console.debug(options.uri);
     return options;
@@ -36,7 +41,7 @@ function ipfsStream() {
 
 function loadStream() {
   document.getElementById('LoadingStream').style.display = 'block';
-  document.getElementById('SelectStream').style.display='none';
+  document.getElementById('SelectStream').style.display = 'none';
 }
 
 document.querySelector('.ipfs-stream').addEventListener('click', function(event){
@@ -64,6 +69,6 @@ live.on('error', function(event) {
   document.getElementById('msg').innerHTML = this.error().message;
 });
 
-if (!m3u8_http_urls || !Array.isArray(m3u8_http_urls) || (m3u8_http_urls.length==0)) {
+if (!m3u8_http_urls || !Array.isArray(m3u8_http_urls) || (m3u8_http_urls.length == 0)) {
   document.querySelector('.http-stream').setAttribute('disabled', 'disabled');
 }
