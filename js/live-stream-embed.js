@@ -8,10 +8,13 @@ var m3u8_http_urls = ['http://ipfs-mirror-0.mesh.world/live.m3u8'];  // Optional
 
 var live = videojs('live');
 
-// Override native player for platform and browser consistency
-videojs.options.html5.nativeAudioTracks = false;
-videojs.options.html5.nativeVideoTracks = false;
-videojs.options.hls.overrideNative = true;
+// For any browser except Safari
+if (/^((?!chrome|android).)*safari/i.test(navigator.userAgent) == false) {
+  // Override native player for platform and browser consistency
+  videojs.options.html5.nativeAudioTracks = false;
+  videojs.options.html5.nativeVideoTracks = false;
+  videojs.options.hls.overrideNative = true;
+}
 
 function httpStream() {
   live.src({
