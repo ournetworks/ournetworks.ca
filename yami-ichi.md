@@ -17,8 +17,7 @@ redirect_from:
 <div class="event-time-location">
   <div class="event-meta">
     {% include icons/ticket.svg %}
-    <p class="event-cost event-meta-item">Free entrance, <a href="#vend">apply to vend below</a>
-    </p>
+    <p class="event-cost event-meta-item">Free entrance!</p>
   </div>
   <div class="event-meta">
     {% include icons/calendar-o.svg %}
