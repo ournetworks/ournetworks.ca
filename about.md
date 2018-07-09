@@ -69,4 +69,4 @@ Design concept and logo by [Marlo Yarlo](http://www.marloyarlo.com/).
 
 ### I want to make this event better, how can I help?
 
-You should consider [tabling at our Yami-ichi](/yami-ichi/) or [pitching a project for our Sprints](/sprints/). We are [planning this event openly](https://github.com/ournetworks/2018) so you can also check tasks we are working on. If those activities don't appeal to you, we will need volunteers to help the event run smoothly--reach out to us at <a href="mailto:{{ site.email }}">{{ site.email }}</a> to be added to the volunteer list.
+Coming to our free kickoff party [Yami-ichi](/yami-ichi/) or [pitching a project for our Sprints](/sprints/). We are [planning this event openly](https://github.com/ournetworks/2018) so you can also check tasks we are working on. If those activities don't appeal to you, we will need volunteers to help the event run smoothly--reach out to us at <a href="mailto:{{ site.email }}">{{ site.email }}</a> to be added to the volunteer list.
