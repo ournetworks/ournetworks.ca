@@ -12,7 +12,7 @@ redirect_from:
   <p>
     <a class="button button-primary compact" href="/conference/#registration">See Registration Details</a>
   </p>
-  <p>You can also apply to <a href="/yami-ichi/">vend your stuff</a> at our Internet Yami-ichi and <a href="/sprints/">host a project</a> during our Sprints.
+  <p>Around for longer than the weekend? <a href="/yami-ichi/">Stop by</a> the Bit Bazaar x Internet Yami-ichi and our kickoff party (both free!) or <a href="/sprints/">host a project</a> during our Sprints.
   </p>
 
 </div>
