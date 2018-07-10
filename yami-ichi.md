@@ -9,7 +9,7 @@ location: "32 Lisgar Street"
 locationLink: https://osm.org/go/ZX6BIz1xQ?m=&way=66233699
 startDate: 2018-07-13
 startTime: "15:00"
-endTime: "12:00"
+endTime: "24:00"
 redirect_from:
   - "/2018/kickoff-yami-ichi/"
 ---
