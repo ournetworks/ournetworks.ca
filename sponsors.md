@@ -40,6 +40,9 @@ Our Networks is volunteer-run and would not be possible without the support of o
   <div class="four columns">
     <a href="https://www.stickermule.com/supports/opensource" rel="noopener"><img src="/images/sponsors/sticker-mule-logo.svg" width="260" alt="Sticker Mule logo" /></a>
   </div>
+  <div class="four columns">
+    <a href="https://www.quantumcoffee.io/" rel="noopener"><img style="display:flex; align-self: flex-end;" src="/images/sponsors/quantumcoffee-logo.png" width="85" alt="Quantum Coffee logo" /></a>
+  </div>
 </div>
 
 ## Venue Partners
