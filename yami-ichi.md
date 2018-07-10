@@ -9,7 +9,7 @@ location: "32 Lisgar Street"
 locationLink: https://osm.org/go/ZX6BIz1xQ?m=&way=66233699
 startDate: 2018-07-13
 startTime: "15:00"
-endTime: "21:00"
+endTime: "24:00"
 redirect_from:
   - "/2018/kickoff-yami-ichi/"
 ---
@@ -17,12 +17,11 @@ redirect_from:
 <div class="event-time-location">
   <div class="event-meta">
     {% include icons/ticket.svg %}
-    <p class="event-cost event-meta-item">Free entrance, <a href="#vend">apply to vend below</a>
-    </p>
+    <p class="event-cost event-meta-item">Free entrance!</p>
   </div>
   <div class="event-meta">
     {% include icons/calendar-o.svg %}
-    <p class="event-time event-meta-item"><strong>{{page.startTime | date:"%-I:%M %P "}}</strong> – <strong>{{page.endTime | date:"%-I:%M %P"}}</strong>, party until late</p>
+    <p class="event-time event-meta-item"><strong>{{page.startTime | date:"%-I:%M %P "}}</strong> – <strong>{{page.endTime | date:"%-I:%M %P"}}</strong></p>
   </div>
   <div class="event-meta">
     {% include icons/map-marker.svg %}
@@ -41,7 +40,9 @@ redirect_from:
 
 ***
 
-Calling all vendors of internet-ish things— be prepared to gather and exchange goods from the backstreets of the Internet on {{ page.startDate | date: '%B %d, %Y' }} afternoon into evening. What's a Yami-ichi you ask?
+In town early?  We're joined forces with our friends from Bit Bazaar, Toronto's 🎮 video game flea market, 📚 pop up zine shop, and  🌮 food celebration, and are throwing Toronto's first Internet Yami-ichi! 
+
+What's a yami-ichi you ask?
 
 <blockquote>
   S*%t happens. Didn't used to. Like when some small off-handed private comment
@@ -61,14 +62,10 @@ Calling all vendors of internet-ish things— be prepared to gather and exchange
 
 <p style="text-align: right;"> — <a href="http://yami-ichi.biz/">IDPW, a secret society on the internet that goes back more than 100 years</a></p>
 
-This year we're thrilled to be collaborating with our friends from Bit Bazaar, Toronto's 🎮 video game flea market, 📚 pop up zine shop, and  🌮 food celebration.  Think of it like a supergroup of weird, wonderful, digital artefacts brought to one physical location: one-of-a-kind, limited-edition and handmade/DIY items—pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys, + party!
+On 🎃 Friday the 13th 🎃 from 3:00 to 9:00 we'll have vendors tabling all kinds of weird, wonderful, digital artefacts in one physical location: one-of-a-kind, limited-edition and handmade/DIY items—pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys
+
+... followed 9:00-12:00 by our kickoff party at the Toronto Media Arts Centre with DJ <a href="https://soundcloud.com/the-loving-echo">Julia Dickens</a>
 
 ***
 
-<a id="vend">
-
-## Apply to Vend at Bit Bazaar × Yami-Ichi
-
-Applications are open until July 1 and exhibitors will be selected and notified on a rolling basis.
-
-<a href="https://2018.bitbazaar.world/" class="button button-primary" target="_blank">Apply to Vend</a>
+<a href="https://bitbazaar.world/" class="button button-primary" target="_blank">Check out the full list of vendors! </a>
