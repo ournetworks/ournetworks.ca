@@ -4,7 +4,7 @@ var ipfs_gateway_self = 'http://ipfs-mirror-0.mesh.world:8080'; // IPFS gateway 
 var ipfs_gateway_origin = 'http://ipfs-mirror-0.mesh.world:8080'; // IPFS gateway of origin stream
 var m3u8_ipfs = 'http://ipfs-mirror-0.mesh.world/live.m3u8'; // File path to m3u8 with IPFS content via HTTP server
 // var m3u8_ipfs='__IPFS_GATEWAY_ORIGIN__/ipns/__IPFS_ID_ORIGIN__'; // URL to m3u8 via IPNS (uncomment to enable)
-var m3u8_http_urls = ['http://ipfs-mirror-0.mesh.world/live.m3u8']; // Optional list of URLs to m3u8 over HTTP
+var m3u8_http_urls = ['https://stream.aseriesoftubez.com/hls/tomesh/ournetworks.m3u8']; // Optional list of URLs to m3u8 over HTTP
 
 var live = videojs('live');
 
