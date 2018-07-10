@@ -12,6 +12,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 10;
   display: flex;
   width: 100%;
   height: 100%;
@@ -26,6 +27,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.stream-option-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .stream-option {
@@ -70,6 +77,25 @@
   max-width: 75%;
   margin: 0 auto;
   font-size: 0.85em;
+}
+
+.stream-option-title-helper {
+  position: absolute;
+  top: 100%;
+  display: none;
+  width: 225px;
+  font-size: 0.85em;
+  line-height: 1.2em;
+  color: #555;
+  white-space: normal;
+}
+
+.stream-option-wrapper:hover .stream-option-title-helper {
+  display: block;
+}
+
+.stream-refresh {
+  margin-top: 1em;
 }
 
 .button-label {

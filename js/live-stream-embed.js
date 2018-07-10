@@ -65,11 +65,19 @@ live.on('loadeddata', function(event) {
   console.debug(event);
 });
 
+var refreshButton = document.createElement('button');
+refreshButton.className = 'button button-primary compact stream-refresh';
+refreshButton.innerHTML = 'Refresh Page and Try Again';
+refreshButton.addEventListener('click', function() {
+  window.location.reload(true);
+});
+
 live.on('error', function(event) {
   console.debug(this.error());
   document.getElementById('loadingTitle').innerHTML = 'Unable to load live stream';
   document.querySelector('.loader-animation').style.display = 'none';
   document.getElementById('msg').innerHTML = this.error().message;
+  document.getElementById('LoadingStream').appendChild(refreshButton);
 });
 
 if (!m3u8_http_urls || !Array.isArray(m3u8_http_urls) || (m3u8_http_urls.length === 0)) {
