@@ -1,0 +1,40 @@
+<div class="stream-container">
+  <video id="live" class="video-js vjs-default-skin vjs-big-play-centered" data-setup='{"fluid": true}'
+   controls preload autoplay loop>
+    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
+  </video>
+
+  <div class="stream-selector" id="StreamSelector">
+    <div id="SelectStream">
+      <h2>Select Source</h2>
+      <div class="stream-selector-options">
+        <div class="stream-option-wrapper" id="ipfsStream">
+          <button class="stream-option ipfs-stream">
+            {% include graphics/video/ipfs-icon.svg %}
+            <span class="button-label">IPFS</span>
+          </button>
+          <div class="stream-option-title-helper">
+            <p>Play the live stream on through a peer-to-peer hypermedia protocol. More at <a href="https://ipfs.io" target="_blank">ipfs.io</a></p>
+          </div>
+        </div>
+        <div class="stream-option-wrapper" id="httpStream">
+          <button class="stream-option http-stream">
+            {% include graphics/video/http-icon.svg %}
+            <span class="button-label">HTTP</span>
+          </button>
+          <div class="stream-option-title-helper">
+            <p>Play the live stream on through a media server over HTTP</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="LoadingStream" style="display:none;">
+      {% include graphics/video/loader-animation.svg %}
+      <h3 id="loadingTitle">Locating stream...</h3>
+      <div class="stream-message" id="msg"></div>
+    </div>
+  </div>
+</div>
+
+<script src="/js/vendor/video.min.js?{{site.time | date: '%s%N'}}"></script>
+<script src="/js/live-stream-embed.js?{{site.time | date: '%s%N'}}"></script>
