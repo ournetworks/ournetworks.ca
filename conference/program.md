@@ -10,30 +10,29 @@ redirect_from:
 ---
 
 <div class="row">
-  <p>
-    <a class="button button-primary compact" href="https://calendar.google.com/calendar/ical/aers7atolh0uurlfmkoki9kikg%40group.calendar.google.com/public/basic.ics">Program .ics</a>
-    <a class="button button-primary compact" href="https://calendar.google.com/calendar/embed?src=aers7atolh0uurlfmkoki9kikg%40group.calendar.google.com&ctz=America%2FToronto">Program Calendar</a>
-  </p>
+  <a class="button button-primary compact" href="https://calendar.google.com/calendar/ical/aers7atolh0uurlfmkoki9kikg%40group.calendar.google.com/public/basic.ics">{% include icons/calendar-plus-o.svg %}&nbsp;&nbsp; Program .ics</a>
+  <a class="button button-primary compact" href="https://calendar.google.com/calendar/embed?src=aers7atolh0uurlfmkoki9kikg%40group.calendar.google.com&ctz=America%2FToronto">{% include icons/calendar.svg %}&nbsp;&nbsp; Program Calendar</a>
 </div>
 
-
 ## Friday {% include graphics/bullet.svg %} July 13
+{: .schedule-spacer}
 
 ### [Kickoff: Morning Field Trip, Bit Bazaar × Internet Yami-ichi, and Party](/yami-ichi/)
 
-Network Field Trip 10:00 am - 11:00 am  
+#### Network Field Trip
+{: .schedule-spacer-small}
+10:00 am - 11:00 am  
 [University Ave and Queen St   intersection](https://osm.org/go/ZX6BsFiXX?m=) (Osgoode TTC Stop)  
 In front of the Four Seasons Centre for the Performing Arts  
 
-Bit Bazaar × Internet Yami-ichi 3:00 pm – 9:00 pm, Party 9:00 – midnight  
+#### Bit Bazaar × Internet Yami-ichi
+{: .schedule-spacer-small}
+3:00 pm – 9:00 pm, Party 9:00 – midnight  
 Toronto Media Arts Centre  
 [32 Lisgar Street](https://osm.org/go/ZX6BIz1xQ?m=)
 
-
-
-
-
 ## Saturday {% include graphics/bullet.svg %} July 14
+{: .schedule-spacer}
 
 <table class="schedule-table">
 <thead>
@@ -258,7 +257,6 @@ Toronto Media Arts Centre
 ## Monday–Wednesday {% include graphics/bullet.svg %} July 16–18
 
 ### [Sprints](/sprints/)
-
 10:30 am – 9:30 pm  
 Semaphore Demo Room, Room 417  
 [Claude T. Bissell Building  
