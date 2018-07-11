@@ -22,13 +22,15 @@ redirect_from:
 <div class="row event-band">
   <div class="six columns">
     <h4 class="schedule-spacer-small">Network Field Trip</h4>
-    <p>10:00 am - 11:00 am<br />
+    <p>Free!<br />
+    10:00 am - 11:00 am<br />
     In front of the Four Seasons Centre of Performing Arts<br />
     <a href="https://osm.org/go/ZX6BsFiXX?m=" target="_blank" rel="nofollow noopener">University Ave and Queen St intersection</a></p>
   </div>
   <div class="six columns">
     <h4 class="schedule-spacer-small">Bit Bazaar × Internet Yami-ichi</h4>
-    <p>3:00 pm – 9:00 pm, Party 9:00 – midnight<br />
+    <p>Free!<br />
+    3:00 pm – 9:00 pm, Party 9:00 – midnight<br />
     Toronto Media Arts Centre<br />
     <a href="https://osm.org/go/ZX6BIz1xQ?m=" target="_blank" rel="nofollow noopener">32 Lisgar Street</a></p>
   </div>
