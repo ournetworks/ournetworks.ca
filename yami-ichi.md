@@ -76,5 +76,5 @@ If you are the morning type, we'll have a walking Network Field Trip around down
 
 Free!  
 10:00 am - 11:00 am  
-[University Ave and Queen St   intersection](https://osm.org/go/ZX6BsFiXX?m=) (Osgoode TTC Stop)  
-In front of the Four Seasons Centre for the Performing Arts  
+In front of the Four Seasons Centre of Performing Arts  
+[University Ave and Queen St intersection](https://osm.org/go/ZX6BsFiXX?m=) (Osgoode TTC Stop)  

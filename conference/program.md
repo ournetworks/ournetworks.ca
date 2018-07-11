@@ -19,17 +19,20 @@ redirect_from:
 
 ### [Kickoff: Morning Field Trip, Bit Bazaar × Internet Yami-ichi, and Party](/yami-ichi/)
 
-#### Network Field Trip
-{: .schedule-spacer-small}
-10:00 am - 11:00 am  
-[University Ave and Queen St   intersection](https://osm.org/go/ZX6BsFiXX?m=) (Osgoode TTC Stop)  
-In front of the Four Seasons Centre for the Performing Arts  
-
-#### Bit Bazaar × Internet Yami-ichi
-{: .schedule-spacer-small}
-3:00 pm – 9:00 pm, Party 9:00 – midnight  
-Toronto Media Arts Centre  
-[32 Lisgar Street](https://osm.org/go/ZX6BIz1xQ?m=)
+<div class="row event-band">
+  <div class="six columns">
+    <h4 class="schedule-spacer-small">Network Field Trip</h4>
+    <p>10:00 am - 11:00 am<br />
+    In front of the Four Seasons Centre of Performing Arts<br />
+    <a href="https://osm.org/go/ZX6BsFiXX?m=" target="_blank" rel="nofollow noopener">University Ave and Queen St intersection</a></p>
+  </div>
+  <div class="six columns">
+    <h4 class="schedule-spacer-small">Bit Bazaar × Internet Yami-ichi</h4>
+    <p>3:00 pm – 9:00 pm, Party 9:00 – midnight<br />
+    Toronto Media Arts Centre<br />
+    <a href="https://osm.org/go/ZX6BIz1xQ?m=" target="_blank" rel="nofollow noopener">32 Lisgar Street</a></p>
+  </div>
+</div>
 
 ## Saturday {% include graphics/bullet.svg %} July 14
 {: .schedule-spacer}
