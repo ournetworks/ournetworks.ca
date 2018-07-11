@@ -66,14 +66,15 @@ On 🎃 Friday the 13th 🎃 from 3:00 to 9:00 we'll have vendors tabling all ki
 
 ... followed 9:00-12:00 by our kickoff party at the Toronto Media Arts Centre with DJ <a href="https://soundcloud.com/the-loving-echo">Julia Dickens</a>
 
-<a href="https://bitbazaar.world/" class="button button-primary" target="_blank">Check out the full list of vendors! </a>
-
+<a href="https://bitbazaar.world/" class="button button-primary" target="_blank">Check out the full list of vendors!</a>
 
 ***
 
-If you are the morning type, we'll have a walking Network Field Trip around downtown Toronto visiting some network and broadcast landmarks
+### Network Field Trip
+
+If you are the morning type, we'll have a walking Network Field Trip around downtown Toronto visiting some network and broadcast landmarks.
 
 Free!  
-Network Field Trip 10:00 am - 11:00 am  
+10:00 am - 11:00 am  
 [University Ave and Queen St   intersection](https://osm.org/go/ZX6BsFiXX?m=) (Osgoode TTC Stop)  
 In front of the Four Seasons Centre for the Performing Arts  
