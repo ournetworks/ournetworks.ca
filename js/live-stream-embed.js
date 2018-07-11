@@ -1,6 +1,6 @@
 // Live Stream Video
 
-var ipfs_gateway_self = 'http://ipfs01.vz.jgndata.biz:8080'; // IPFS gateway of this node
+var ipfs_gateway_self = 'https://ipfs.io'; // IPFS gateway of this node
 var ipfs_gateway_origin = 'http://ipfs-server.mesh.world:8080'; // IPFS gateway of origin stream
 var m3u8_ipfs = 'http://ipfs-mirror-0.mesh.world/live.m3u8'; // File path to m3u8 with IPFS content via HTTP server
 // var m3u8_ipfs='__IPFS_GATEWAY_ORIGIN__/ipns/__IPFS_ID_ORIGIN__'; // URL to m3u8 via IPNS (uncomment to enable)
