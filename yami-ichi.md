@@ -119,7 +119,7 @@ redirect_from:
 
 <img src="/images/yami-ichi/Bloodbar.gif" alt="dripping blood gif" />
 
-In town early?  We're joined forces with our friends from Bit Bazaar, Toronto's 🎮 video game flea market, 📚 pop up zine shop, and  🌮 food celebration, and are throwing Toronto's first Internet Yami-ichi! 
+In town early?  We're joined forces with our friends from Bit Bazaar, Toronto's 🎮 video game flea market, 📚 pop up zine shop, and  🌮 food celebration, and are throwing Toronto's first Internet Yami-ichi!
 
 What's a yami-ichi you ask?
 
@@ -160,4 +160,6 @@ Free!
 In front of the Four Seasons Centre of Performing Arts  
 [University Ave and Queen St intersection](https://osm.org/go/ZX6BsFiXX?m=) (Osgoode TTC Stop)  
 
+
 <img src="/images/yami-ichi/Starline.gif" alt="rainbow line with star" />
+

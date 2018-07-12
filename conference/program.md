@@ -9,7 +9,35 @@ redirect_from:
   - "/2018/conference/program"
 ---
 
+<div class="row">
+  <a class="button button-primary compact" href="https://calendar.google.com/calendar/ical/aers7atolh0uurlfmkoki9kikg%40group.calendar.google.com/public/basic.ics">{% include icons/calendar-plus-o.svg %}&nbsp;&nbsp; Download Program (.ics)</a>
+  <a class="button button-primary compact" href="https://calendar.google.com/calendar/embed?src=aers7atolh0uurlfmkoki9kikg%40group.calendar.google.com&ctz=America%2FToronto">{% include icons/calendar.svg %}&nbsp;&nbsp; View Program Calendar</a>
+</div>
+
+## Friday {% include graphics/bullet.svg %} July 13
+{: .schedule-spacer}
+
+### [Kickoff: Network Field Trip, Bit Bazaar × Internet Yami-ichi, and Party](/yami-ichi/)
+
+<div class="row">
+  <div class="six columns">
+    <h4 class="schedule-spacer-small">Network Field Trip</h4>
+    <p>Free!<br />
+    10:00 am - 11:00 am<br />
+    In front of the Four Seasons Centre of Performing Arts<br />
+    <a href="https://osm.org/go/ZX6BsFiXX?m=" target="_blank" rel="nofollow noopener">University Ave and Queen St intersection</a></p>
+  </div>
+  <div class="six columns">
+    <h4 class="schedule-spacer-small">Bit Bazaar × Internet Yami-ichi</h4>
+    <p>Free!<br />
+    3:00 pm – 9:00 pm, Party 9:00 – midnight<br />
+    Toronto Media Arts Centre<br />
+    <a href="https://osm.org/go/ZX6BIz1xQ?m=" target="_blank" rel="nofollow noopener">32 Lisgar Street</a></p>
+  </div>
+</div>
+
 ## Saturday {% include graphics/bullet.svg %} July 14
+{: .schedule-spacer}
 
 <table class="schedule-table">
 <thead>
@@ -230,6 +258,16 @@ redirect_from:
 </tr>
 </tbody>
 </table>
+
+## Monday–Wednesday {% include graphics/bullet.svg %} July 16–18
+
+### [Sprints](/sprints/)
+10:30 am – 9:30 pm  
+Semaphore Demo Room, Room 417  
+[Claude T. Bissell Building  
+140 St. George Street](http://osm.org/go/ZX6Bw~WNh--?m=)
+
+---
 
 <a class="program-block-anchor" id="keynote-nasma-ahmed,-navigating-digital-futures"></a>
 ## Keynote: Navigating Digital Futures
