@@ -9,7 +9,7 @@ location: "32 Lisgar Street"
 locationLink: https://osm.org/go/ZX6BIz1xQ?m=&way=66233699
 startDate: 2018-07-13
 startTime: "15:00"
-endTime: "12:00"
+endTime: "24:00"
 redirect_from:
   - "/2018/kickoff-yami-ichi/"
 ---
@@ -141,9 +141,9 @@ What's a yami-ichi you ask?
 
 <p style="text-align: right;"> — <a href="http://yami-ichi.biz/">IDPW, a secret society on the internet that goes back more than 100 years</a></p>
 
-On 🎃 Friday the 13th 🎃 from 3:00 to 9:00 we'll have vendors tabling all kinds of weird, wonderful, digital artefacts in one physical location: one-of-a-kind, limited-edition and handmade/DIY items—pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys 
+On 🎃 Friday the 13th 🎃 from 3:00 to 9:00 we'll have vendors tabling all kinds of weird, wonderful, digital artefacts in one physical location: one-of-a-kind, limited-edition and handmade/DIY items—pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys
 
-... followed 9:00-12:00 by our kickoff party at the Toronto Media Art Centre with DJ <a hred="https://soundcloud.com/the-loving-echo">Julia Dickens</a>
+... followed 9:00-12:00 by our kickoff party at the Toronto Media Arts Centre with DJ <a href="https://soundcloud.com/the-loving-echo">Julia Dickens</a>
 
 <img src="/images/yami-ichi/Bloodbar.gif" alt="dripping blood gif" />
 
