@@ -150,3 +150,14 @@ On 🎃 Friday the 13th 🎃 from 3:00 to 9:00 we'll have vendors tabling all ki
 <a href="https://bitbazaar.world/" class="button button-primary" target="_blank">Check out the full list of vendors! </a>
 
 <img src="/images/yami-ichi/Starline.gif" alt="rainbow line with star" />
+
+### Network Field Trip
+
+If you are the morning type, we'll have a walking Network Field Trip around downtown Toronto visiting some network and broadcast landmarks.
+
+Free!  
+10:00 am - 11:00 am  
+In front of the Four Seasons Centre of Performing Arts  
+[University Ave and Queen St intersection](https://osm.org/go/ZX6BsFiXX?m=) (Osgoode TTC Stop)  
+
+<img src="/images/yami-ichi/Starline.gif" alt="rainbow line with star" />
