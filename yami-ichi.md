@@ -49,7 +49,7 @@ redirect_from:
   }
 
   const animateLeft = () => {
-    if (leftPos > window.innerWidth - 250 || leftPos < -250) {
+    if (leftPos > window.innerWidth - 50 || leftPos < -50) {
       const temp = lastLeftPos;
       lastLeftPos = leftPos;
       leftPos = temp;
