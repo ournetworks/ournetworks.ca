@@ -18,7 +18,7 @@ redirect_from:
 
 <style type="text/css">
   #globe {
-    position: absolute;
+    position: fixed;
     z-index: 100
   }
 
