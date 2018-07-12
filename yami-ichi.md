@@ -163,3 +163,4 @@ In front of the Four Seasons Centre of Performing Arts
 
 <img src="/images/yami-ichi/Starline.gif" alt="rainbow line with star" />
 
+<img src="https://user-images.githubusercontent.com/227587/42612595-2caa7188-856a-11e8-8bee-86e2d32c85a2.gif" alt="zooming doge meme">
