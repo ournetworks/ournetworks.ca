@@ -1,4 +1,13 @@
 <header class="header">
+  {% if page.url == '/' or page.url == '/conference/' %}
+  <div class="announcement" role="alert">
+    <div >
+      <p>
+        <a href="/livestream/" class="container live-stream-link">Watch the 2018 conference live stream</a>
+      </p>
+    </div>
+  </div>
+  {% endif %}
   <div class="container">
     <span class="site-title">
       <a class="logo" href="{{ site.baseurl }}/" rel="home" title="{{ site.title }}">
