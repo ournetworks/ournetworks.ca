@@ -10,16 +10,16 @@ redirect_from:
 ---
 
 <div class="row">
-  <a class="button button-primary compact" href="https://calendar.google.com/calendar/ical/aers7atolh0uurlfmkoki9kikg%40group.calendar.google.com/public/basic.ics">{% include icons/calendar-plus-o.svg %}&nbsp;&nbsp; Program .ics</a>
-  <a class="button button-primary compact" href="https://calendar.google.com/calendar/embed?src=aers7atolh0uurlfmkoki9kikg%40group.calendar.google.com&ctz=America%2FToronto">{% include icons/calendar.svg %}&nbsp;&nbsp; Program Calendar</a>
+  <a class="button button-primary compact" href="https://calendar.google.com/calendar/ical/aers7atolh0uurlfmkoki9kikg%40group.calendar.google.com/public/basic.ics">{% include icons/calendar-plus-o.svg %}&nbsp;&nbsp; Download Program (.ics)</a>
+  <a class="button button-primary compact" href="https://calendar.google.com/calendar/embed?src=aers7atolh0uurlfmkoki9kikg%40group.calendar.google.com&ctz=America%2FToronto">{% include icons/calendar.svg %}&nbsp;&nbsp; View Program Calendar</a>
 </div>
 
 ## Friday {% include graphics/bullet.svg %} July 13
 {: .schedule-spacer}
 
-### [Kickoff: Morning Field Trip, Bit Bazaar × Internet Yami-ichi, and Party](/yami-ichi/)
+### [Kickoff: Network Field Trip, Bit Bazaar × Internet Yami-ichi, and Party](/yami-ichi/)
 
-<div class="row event-band">
+<div class="row">
   <div class="six columns">
     <h4 class="schedule-spacer-small">Network Field Trip</h4>
     <p>Free!<br />
