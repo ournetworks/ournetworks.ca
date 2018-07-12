@@ -14,6 +14,85 @@ redirect_from:
   - "/2018/kickoff-yami-ichi/"
 ---
 
+<style type="text/css">* {cursor: url(http://cur.cursors-4u.net/anime/ani-12/ani1136.ani), url(http://cur.cursors-4u.net/anime/ani-12/ani1136.gif), auto !important;}</style>
+
+<style type="text/css">
+  #globe {
+    position: fixed;
+    z-index: 100
+  }
+
+  .email {
+    position: absolute;
+    z-index: 90
+  }
+</style>
+
+<script type="text/javascript">
+  let topPos = 100;
+  let lastTopPos = 95;
+  let leftPos = 100;
+  let lastLeftPos = 95;
+
+  const animateTop = () => {
+    if (topPos > window.innerHeight || topPos < 0) {
+      const temp = lastTopPos;
+      lastTopPos = topPos;
+      topPos = temp;
+    } else if (lastTopPos > topPos) {
+      lastTopPos = topPos;
+      topPos -= 5;
+    } else {
+      lastTopPos = topPos;
+      topPos += 5;
+    }
+  }
+
+  const animateLeft = () => {
+    if (leftPos > window.innerWidth - 250 || leftPos < -250) {
+      const temp = lastLeftPos;
+      lastLeftPos = leftPos;
+      leftPos = temp;
+    } else if (lastLeftPos > leftPos) {
+      lastLeftPos = leftPos
+      leftPos -= 5;
+    } else {
+      lastLeftPos = leftPos
+      leftPos += 5;
+    }
+  }
+
+  const bounce = () => {
+    setTimeout(() => {
+      const globe = document.getElementById("globe");
+      globe.style.top = `${topPos}px`;
+      globe.style.left = `${leftPos}px`;
+      animateTop();
+      animateLeft();
+      bounce();
+    }, 10);
+  }
+
+  const placeEmails = () => {
+    const amount = Math.floor(Math.random() * 10); 
+    for (let i = 0; i < amount; i++) {
+      const email = document.createElement("img");
+      email.src = "/images/yami-ichi/email.gif";
+      email.className = "email";
+      email.style.top = `${Math.floor(Math.random() * window.innerHeight)}px`;
+      email.style.right = `${Math.floor(Math.random() * window.innerWidth)}px`;
+      document.body.appendChild(email);
+    }
+  }
+
+  placeEmails();
+  bounce();
+</script>
+
+<img src="/images/yami-ichi/globe.gif" alt="globe" id="globe" />
+
+<img src="/images/yami-ichi/Starline.gif" alt="rainbow line with star" />
+
 <div class="event-time-location">
   <div class="event-meta">
     {% include icons/ticket.svg %}
@@ -38,7 +117,7 @@ redirect_from:
   </div>
 </div>
 
-***
+<img src="/images/yami-ichi/Bloodbar.gif" alt="dripping blood gif" />
 
 In town early?  We're joined forces with our friends from Bit Bazaar, Toronto's 🎮 video game flea market, 📚 pop up zine shop, and  🌮 food celebration, and are throwing Toronto's first Internet Yami-ichi!
 
@@ -66,9 +145,11 @@ On 🎃 Friday the 13th 🎃 from 3:00 to 9:00 we'll have vendors tabling all ki
 
 ... followed 9:00-12:00 by our kickoff party at the Toronto Media Arts Centre with DJ <a href="https://soundcloud.com/the-loving-echo">Julia Dickens</a>
 
-<a href="https://bitbazaar.world/" class="button button-primary" target="_blank">Check out the full list of vendors!</a>
+<img src="/images/yami-ichi/Bloodbar.gif" alt="dripping blood gif" />
 
-***
+<a href="https://bitbazaar.world/" class="button button-primary" target="_blank">Check out the full list of vendors! </a>
+
+<img src="/images/yami-ichi/Starline.gif" alt="rainbow line with star" />
 
 ### Network Field Trip
 
@@ -78,3 +159,8 @@ Free!
 10:00 am - 11:00 am  
 In front of the Four Seasons Centre of Performing Arts  
 [University Ave and Queen St intersection](https://osm.org/go/ZX6BsFiXX?m=) (Osgoode TTC Stop)  
+
+
+<img src="/images/yami-ichi/Starline.gif" alt="rainbow line with star" />
+
+<img src="https://user-images.githubusercontent.com/227587/42612595-2caa7188-856a-11e8-8bee-86e2d32c85a2.gif" alt="zooming doge meme">
