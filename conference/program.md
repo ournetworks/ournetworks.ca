@@ -127,7 +127,7 @@ redirect_from:
   <td>16</td>
   <td>:00</td>
   <td rowspan="4" class="session-block session-{% include session-type.html session-id=18242 %}">{% include session.html session-id=18242 %}</td>
-  <td rowspan="2" class="session-block session-{% include session-type.html session-id=18210 %}">{% include session.html session-id=18210 %}</td>
+  <td rowspan="4" class="session-block session-{% include session-type.html session-id=18210 %}">{% include session.html session-id=18210 %}</td>
   <td rowspan="4" class="session-block session-{% include session-type.html session-id=18180 %}">{% include session.html session-id=18180 %}</td>
 </tr>
 <tr>
@@ -137,7 +137,6 @@ redirect_from:
 <tr>
   <td>17</td>
   <td>:00</td>
-  <td rowspan="2" class="session-block session-{% include session-type.html session-id=18190 %}">{% include session.html session-id=18190 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -244,7 +243,8 @@ redirect_from:
 <tr>
   <td></td>
   <td>:30</td>
-  <td rowspan="2" colspan="3" class="session-block session-{% include session-type.html session-id=18140 %}">{% include session.html session-id=18140 %}</td>
+  <td rowspan="2" class="session-block session-{% include session-type.html session-id=18140 %}">{% include session.html session-id=18140 %}</td>
+  <td rowspan="2" class="session-block session-{% include session-type.html session-id=18190 %}">{% include session.html session-id=18190 %}</td>
 </tr>
 <tr>
   <td>17</td>
