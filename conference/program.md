@@ -126,7 +126,7 @@ redirect_from:
 <tr>
   <td>16</td>
   <td>:00</td>
-  <td rowspan="2" class="session-block session-{% include session-type.html session-id=18242 %}">{% include session.html session-id=18242 %}</td>
+  <td rowspan="4" class="session-block session-{% include session-type.html session-id=18242 %}">{% include session.html session-id=18242 %}</td>
   <td rowspan="2" class="session-block session-{% include session-type.html session-id=18210 %}">{% include session.html session-id=18210 %}</td>
   <td rowspan="4" class="session-block session-{% include session-type.html session-id=18180 %}">{% include session.html session-id=18180 %}</td>
 </tr>
@@ -137,7 +137,6 @@ redirect_from:
 <tr>
   <td>17</td>
   <td>:00</td>
-  <td rowspan="2" class="session-block session-{% include session-type.html session-id=18020 %}">{% include session.html session-id=18020 %}</td>
   <td rowspan="2" class="session-block session-{% include session-type.html session-id=18190 %}">{% include session.html session-id=18190 %}</td>
 </tr>
 <tr>
