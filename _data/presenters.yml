@@ -97,13 +97,6 @@
   github: "antvlax"
   twitter: "vladyruzo"
 
-- presenterID: paulina
-  name: "Paulina Gutiérrez"
-  bio: "Paulina leads ARTICLE 19 Mexico and Central America’s digital rights strategy. She was the Law Programme Deputy Officer before creating a specific programme on Internet policy, technology & human rights matters at the Regional Office. She is an international human rights lawyer and freedom of expression online advocate. Her experience is based on international policy research, human rights violations legal advisory and gender issues. She is passionate about the right to internet access for social justice."
-  link: "https://articulo19.org/"
-  linkDisplay: "articulo19.org"
-  twitter: "paulinagtzr"
-
 - presenterID: justint
   name: "Justin Tracey"
   bio: "Justin works as a graduate student at the University of Waterloo's CrySP lab. His research focuses on network simulation, with an emphasis on simulations of the Tor network. Previously, he worked on file system analysis at UC Santa Cruz, where he was also involved with a local community meshnet project built around CJDNS."

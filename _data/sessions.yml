@@ -14,20 +14,6 @@
   endTime: ""
   length: 1
 
-- sessionID: 18020
-  title: "Wireless Toronto workshop"
-  presenterID:
-    - gabe
-  description: "Wireless Toronto volunteers have spent over 10 years setting up and maintaining a network of wifi hotspots -- and building and maintaining relationships with small business owners and public venue managers.
-
-While the technical side of setting up wireless networks is well-documented, the social/promotion/\"sales\" side is less so. In this workshop, we'll share what we've learned about developing and maintaining venue relationships."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/2"
-  sessionType: "workshop"
-  date: 2018-07-14
-  startTime: ""
-  endTime: ""
-  length: 1
-
 - sessionID: 18030
   title: "Peer-to-peer applications on a mesh network"
   presenterID:
@@ -191,7 +177,6 @@ While the technical side of setting up wireless networks is well-documented, the
   title: "Community networks, a perspective from freedom of expression and access to information"
   presenterID:
     - vladimir
-    - paulina
   link: "https://articulo19.org/"
   linkDisplay: "articulo19.org"
   description: "The digital divide in Mexico is not just a matter of connectivity. The deployment of physical infrastructure must be coupled with a cultural, linguistic and community perspective, able to provide internet access as a way to exercise a wide range of rights. Article 19 Mexico and Central America office is doing field work in the state of Chiapas to analyze, from a broad perspective, the impact of connectivity policies and the lack to internet access on indigenous communities and the raising of local initiatives to build community networks. The project is linked to the work of the organization to promote proactive transparency that allows people, particularly women, to use access to information mechanisms to defend other rights.
@@ -315,7 +300,7 @@ While the technical side of setting up wireless networks is well-documented, the
   date: 2018-07-14
   startTime: ""
   endTime: ""
-  length: 1
+  length: 2
 
 - sessionID: 18250
   title: "Aether: Distributing social networks without distributed consensus"
