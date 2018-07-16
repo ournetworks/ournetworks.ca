@@ -6,4 +6,8 @@ titleDisplay: "Live Stream"
 parent: "Conference"
 ---
 
-{% include live-stream-embed.html %}
+
+<div class="container notice">
+  <h1>Live stream is now over</h1>
+  <p>We will be posting the videos from the conference in the near future.</p>
+</div>
