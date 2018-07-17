@@ -203,10 +203,6 @@
 .post {
   padding: 120px 0 0;
 
-  &.extended {
-    padding-top: 180px;
-  }
-
   @media (max-width: $on-palm) {
     padding-top: 100px;
   }
