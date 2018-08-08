@@ -16,11 +16,11 @@ document.addEventListener('DOMContentLoaded', function(){
     confirmationEle.innerHTML = '<div class="container"><p>Successfully signed up for updates</p> <button class="close-banner" aria-label="Close">×</button></div>';
 
     header.prepend(confirmationEle);
-    splashEle.classList.add('extended');
+    splashEle.classList.add('extended-stacked');
 
     document.querySelector('.close-banner').addEventListener('click', function(){
       document.querySelector('.announcement').remove();
-      splashEle.classList.remove('extended');
+      splashEle.classList.remove('extended-stacked');
     });
   }
 

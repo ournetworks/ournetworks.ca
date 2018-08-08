@@ -5,28 +5,16 @@ redirect_from:
   - "/2018/"
 ---
 
-<div class="row">
-  <h2>Registration Now Open!</h2>
-  <p>We have <a href="/conference/#registration">sliding scale registration</a> to help support running this event.
-  </p>
-  <p>
-    <a class="button button-primary compact" href="/conference/#registration">See Registration Details</a>
-  </p>
-  <p>Around for more than the weekend? Stop by the <a href="/yami-ichi/">Bit Bazaar x Internet Yami-ichi</a> and our kickoff party or <a href="/sprints/">host a project</a> during our Sprints.
-  </p>
-
-</div>
-
-{% include graphics/asterisk-outline.svg %}
-{% include graphics/stairs-outline.svg %}
-
 This year we ask: What kinds of creative and critical engagement with technology practices can enable meaningful change when we do it with others?
 
 Our theme focuses on how we can **Do It With Others (DIWO)** as opposed to just ourselves as we build new network infrastructures and draws on the distributed campaign for emancipatory, networked art practices, instigated by UK-based Furtherfield (2006) as a response to the Do It Yourself (DIY) movement. We have seen a growing number of peer-to-peer, inclusive, and privacy-respecting projects mobilizing in favour of resilient, accessible, equitable communications over the internet in 2017. And yet many open questions remain. In the face of threats to the open internet, which tools and tactics will help us recognize the opportunities and challenges of this moment?
 
+{% include graphics/asterisk-outline.svg %}
+{% include graphics/stairs-outline.svg %}
+
 ### Updates
 
-Want to receive updates as we announce live stream details and more?
+Want to receive updates once videos are posted?
 
 <form action="https://formspree.io/orga@ournetworks.ca" method="POST">
   <div class="row form-group">
