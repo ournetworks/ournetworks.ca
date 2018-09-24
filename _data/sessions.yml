@@ -10,9 +10,8 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/1"
   sessionType: "talk"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
+
 
 - sessionID: 18030
   title: "Peer-to-peer applications on a mesh network"
@@ -22,8 +21,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/3"
   sessionType: "lightning-talk"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 0.25
 
 - sessionID: 18040
@@ -34,8 +31,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/17"
   sessionType: "lightning-talk"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 0.25
 
 - sessionID: 18050
@@ -49,8 +44,6 @@
   sessionType: "discussion"
   theme: "Incentivized Networks"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
 
 - sessionID: 18070
@@ -63,8 +56,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/7"
   sessionType: "workshop"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
 
 - sessionID: 18090
@@ -79,8 +70,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/9"
   sessionType: "workshop"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 2
 
 - sessionID: 18100
@@ -94,8 +83,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/10"
   sessionType: "talk"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
 
 - sessionID: 18110
@@ -106,8 +93,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/11"
   sessionType: "lightning-talk"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 0.25
 
 - sessionID: 18120
@@ -121,8 +106,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/12"
   sessionType: "demo"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length:
 
 - sessionID: 18140
@@ -136,8 +119,6 @@
   sessionType: "demo"
   theme: "Incentivized Networks"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
 
 - sessionID: 18150
@@ -152,8 +133,6 @@
   sessionType: "lightning-talk"
   theme: "Politics of Networks"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 0.25
 
 - sessionID: 18160
@@ -169,8 +148,6 @@
   sessionType: "talk"
   theme: "Politics of Networks"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
 
 - sessionID: 18180
@@ -184,8 +161,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/18"
   sessionType: "workshop"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 2
 
 - sessionID: 18190
@@ -198,8 +173,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/19"
   sessionType: "discussion"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
 
 - sessionID: 18200
@@ -212,8 +185,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/20"
   sessionType: "panel"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
 
 - sessionID: 18210
@@ -224,8 +195,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/21"
   sessionType: "workshop"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length:
 
 - sessionID: 18220
@@ -237,8 +206,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/22"
   sessionType: "workshop"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 2
 
 - sessionID: 18231
@@ -250,8 +217,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/23"
   sessionType: "talk"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
 
 - sessionID: 18232
@@ -263,8 +228,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/23"
   sessionType: "workshop"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
 
 - sessionID: 18241
@@ -282,8 +245,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/24"
   sessionType: "talk"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 0.5
 
 - sessionID: 18242
@@ -298,8 +259,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/24"
   sessionType: "workshop"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 2
 
 - sessionID: 18250
@@ -313,8 +272,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/25"
   sessionType: "talk"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 0.5
 
 - sessionID: 18990
@@ -326,32 +283,24 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/"
   sessionType: "orga"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 0.5
 
 - sessionID: 18992
   title: "Closing"
   sessionType: "orga"
   date: 2018-07-15
-  startTime: ""
-  endTime: ""
   length: 0.5
 
 - sessionID: 18993
   title: "Lightning Talks"
   sessionType: "lightning"
   date: 2018-07-15
-  startTime: ""
-  endTime: ""
   length: 1.0
 
 - sessionID: 18994
   title: "Sprint Pitches"
   sessionType: "sprint-pitch"
   date: 2018-07-15
-  startTime: ""
-  endTime: ""
   length: 0.5
 
 - sessionID: 18995
@@ -366,6 +315,4 @@
   title: "Keynote: Nasma Ahmed, Navigating Digital Futures"
   sessionType: "keynote"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
