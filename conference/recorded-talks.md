@@ -17,6 +17,8 @@ or at Internet Archive: <LINK>
 ## Videos
 {:.program-heading}
 
+{% include vod-stream-embed.html %}
+
 {% assign sortedSessions = site.data.sessions | sort: 'title' %}
 
 {%- for session in sortedSessions -%}
