@@ -17,24 +17,17 @@ Thank you &lt;3
 <form action="https://formspree.io/orga@ournetworks.ca" method="POST">
   <div class="row form-group">
     <div class="ten columns">
-      <label for="recommend">How likely is it that you'd recommend Our Networks to a friend or family member?</label>
       <fieldset id="recommend">
-        <input type="radio" name="recommend" value="0">
-        <input type="radio" name="recommend" value="1">
-        <input type="radio" name="recommend" value="2">
-        <input type="radio" name="recommend" value="3">
-        <input type="radio" name="recommend" value="4">
-        <input type="radio" name="recommend" value="5">
-        <input type="radio" name="recommend" value="6">
-        <input type="radio" name="recommend" value="7">
-        <input type="radio" name="recommend" value="8">
-        <input type="radio" name="recommend" value="9">
-        <input type="radio" name="recommend" value="10">
+        <legend>How likely is it that you'd recommend Our Networks to a friend or family member?</legend>
+        <div class="form-radio-range">
+          {% include forms/form-radio-scale.html name="recommend" start=0 end=10 %}
+          <div class="form-radio-range-label">
+            <div class="range-left">Not likely at all</div>
+            <div class="range-right">Extremely likely</div>
+          </div>
+        </div>
+
       </fieldset>
-    </div>
-    <div class="ten columns">
-      0 - 10 <br />
-      Not likely at all  Extremely likely
     </div>
   </div>
   <div class="row form-group">
@@ -51,17 +44,17 @@ Thank you &lt;3
   </div>
   <div class="row form-group">
     <div class="ten columns">
-      <label for="expectations">Overall, how well did Our Networks meet your expectations?</label>
       <fieldset id="expectations">
-        <input type="radio" name="expectations" value="1">
-        <input type="radio" name="expectations" value="2">
-        <input type="radio" name="expectations" value="3">
-        <input type="radio" name="expectations" value="4">
-        <input type="radio" name="expectations" value="5">
+        <legend>Overall, how well did Our Networks meet your expectations?</legend>
+        <div class="form-radio-range six columns">
+          {% include forms/form-radio-scale.html name="expectations" start=1 end=5 %}
+          <div class="form-radio-range-label">
+            <div class="range-left">Not well at all</div>
+            <div class="range-right">Extremely well</div>
+          </div>
+        </div>
+
       </fieldset>
-    </div>
-    <div class="ten columns">
-      1 (Not well at all) - 5 (Extremely well)
     </div>
   </div>
   <div class="row form-group">
@@ -85,51 +78,45 @@ Thank you &lt;3
   </div>
   <div class="row form-group">
     <div class="ten columns">
-      <label for="future">How likely do you see yourself engaging in another Our Networks event in the future?
-      </label>
       <fieldset id="future">
-        <input type="radio" name="future" value="1">
-        <input type="radio" name="future" value="2">
-        <input type="radio" name="future" value="3">
-        <input type="radio" name="future" value="4">
-        <input type="radio" name="future" value="5">
+        <legend>How likely do you see yourself engaging in another Our Networks event in the future?</legend>
+        <div class="form-radio-range six columns">
+          {% include forms/form-radio-scale.html name="future" start=1 end=5 %}
+          <div class="form-radio-range-label">
+            <div class="range-left">Not well at all</div>
+            <div class="range-right">Extremely well</div>
+          </div>
+        </div>
       </fieldset>
-    </div>
-    <div class="ten columns">
-      1 (Not well at all) - 5 (Extremely well)
     </div>
   </div>
   <div class="row form-group">
     <div class="ten columns">
-      <label for="future-notus">How likely do you see yourself engaging in a similar event with another organization in the future?
-      </label>
       <fieldset id="future-notus">
-        <input type="radio" name="future-notus" value="1">
-        <input type="radio" name="future-notus" value="2">
-        <input type="radio" name="future-notus" value="3">
-        <input type="radio" name="future-notus" value="4">
-        <input type="radio" name="future-notus" value="5">
+        <legend>How likely do you see yourself engaging in a similar event with another organization in the future?</legend>
+        <div class="form-radio-range six columns">
+          {% include forms/form-radio-scale.html name="future-notus" start=1 end=5 %}
+          <div class="form-radio-range-label">
+            <div class="range-left">Not well at all</div>
+            <div class="range-right">Extremely well</div>
+          </div>
+        </div>
       </fieldset>
-    </div>
-    <div class="ten columns">
-      1 (Not well at all) - 5 (Extremely well)
     </div>
   </div>
 
   <div class="row form-group">
     <div class="ten columns">
-      <label for="future-work">How likely do you see yourself working independently on the same topics?
-      </label>
       <fieldset id="future-work">
-        <input type="radio" name="future-work" value="1">
-        <input type="radio" name="future-work" value="2">
-        <input type="radio" name="future-work" value="3">
-        <input type="radio" name="future-work" value="4">
-        <input type="radio" name="future-work" value="5">
+        <legend>How likely do you see yourself working independently on the same topics?</legend>
+        <div class="form-radio-range six columns">
+          {% include forms/form-radio-scale.html name="future-work" start=1 end=5 %}
+          <div class="form-radio-range-label">
+            <div class="range-left">Not well at all</div>
+            <div class="range-right">Extremely well</div>
+          </div>
+        </div>
       </fieldset>
-    </div>
-    <div class="ten columns">
-      1 (Not well at all) - 5 (Extremely well)
     </div>
   </div>
   <div class="row form-group">
