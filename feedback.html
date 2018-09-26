@@ -15,21 +15,22 @@ Thank you <3
 <hr />
 
 <form action="https://formspree.io/orga@ournetworks.ca" method="POST">
-
   <div class="row form-group">
     <div class="ten columns">
       <label for="recommend">How likely is it that you'd recommend Our Networks to a friend or family member?</label>
-      <input type="radio" name="recommend" value="0">
-      <input type="radio" name="recommend" value="1">
-      <input type="radio" name="recommend" value="2">
-      <input type="radio" name="recommend" value="3">
-      <input type="radio" name="recommend" value="4">
-      <input type="radio" name="recommend" value="5">
-      <input type="radio" name="recommend" value="6">
-      <input type="radio" name="recommend" value="7">
-      <input type="radio" name="recommend" value="8">
-      <input type="radio" name="recommend" value="9">
-      <input type="radio" name="recommend" value="10">
+      <fieldset id="recommend">
+        <input type="radio" name="recommend" value="0">
+        <input type="radio" name="recommend" value="1">
+        <input type="radio" name="recommend" value="2">
+        <input type="radio" name="recommend" value="3">
+        <input type="radio" name="recommend" value="4">
+        <input type="radio" name="recommend" value="5">
+        <input type="radio" name="recommend" value="6">
+        <input type="radio" name="recommend" value="7">
+        <input type="radio" name="recommend" value="8">
+        <input type="radio" name="recommend" value="9">
+        <input type="radio" name="recommend" value="10">
+      </fieldset>
     </div>
     <div class="ten columns">
       0 - 10 <br />
@@ -48,19 +49,19 @@ Thank you <3
       <input type="text" id="do-better" class="input-text" name="do-better">
     </div>
   </div>
-
   <div class="row form-group">
     <div class="ten columns">
-      <label for="expectations">Overall, how well did Our Networks meet your expectations?
-      </label>
-      <input type="radio" name="expectations" value="1">
-      <input type="radio" name="expectations" value="2">
-      <input type="radio" name="expectations" value="3">
-      <input type="radio" name="expectations" value="4">
-      <input type="radio" name="expectations" value="5">
+      <label for="expectations">Overall, how well did Our Networks meet your expectations?</label>
+      <fieldset id="expectations">
+        <input type="radio" name="expectations" value="1">
+        <input type="radio" name="expectations" value="2">
+        <input type="radio" name="expectations" value="3">
+        <input type="radio" name="expectations" value="4">
+        <input type="radio" name="expectations" value="5">
+      </fieldset>
     </div>
     <div class="ten columns">
-          1 (Not well at all) - 5 (Extremely well)
+      1 (Not well at all) - 5 (Extremely well)
     </div>
   </div>
   <div class="row form-group">
@@ -86,28 +87,32 @@ Thank you <3
     <div class="ten columns">
       <label for="future">How likely do you see yourself engaging in another Our Networks event in the future?
       </label>
-      <input type="radio" name="future" value="1">
-      <input type="radio" name="future" value="2">
-      <input type="radio" name="future" value="3">
-      <input type="radio" name="future" value="4">
-      <input type="radio" name="future" value="5">
+      <fieldset id="future">
+        <input type="radio" name="future" value="1">
+        <input type="radio" name="future" value="2">
+        <input type="radio" name="future" value="3">
+        <input type="radio" name="future" value="4">
+        <input type="radio" name="future" value="5">
+      </fieldset>
     </div>
     <div class="ten columns">
-          1 (Not well at all) - 5 (Extremely well)
+      1 (Not well at all) - 5 (Extremely well)
     </div>
   </div>
   <div class="row form-group">
     <div class="ten columns">
       <label for="future-notus">How likely do you see yourself engaging in a similar event with another organization in the future?
       </label>
-      <input type="radio" name="future-notus" value="1">
-      <input type="radio" name="future-notus" value="2">
-      <input type="radio" name="future-notus" value="3">
-      <input type="radio" name="future-notus" value="4">
-      <input type="radio" name="future-notus" value="5">
+      <fieldset id="future-notus">
+        <input type="radio" name="future-notus" value="1">
+        <input type="radio" name="future-notus" value="2">
+        <input type="radio" name="future-notus" value="3">
+        <input type="radio" name="future-notus" value="4">
+        <input type="radio" name="future-notus" value="5">
+      </fieldset>
     </div>
     <div class="ten columns">
-          1 (Not well at all) - 5 (Extremely well)
+      1 (Not well at all) - 5 (Extremely well)
     </div>
   </div>
 
@@ -115,17 +120,18 @@ Thank you <3
     <div class="ten columns">
       <label for="future-work">How likely do you see yourself working independently on the same topics?
       </label>
-      <input type="radio" name="future-work" value="1">
-      <input type="radio" name="future-work" value="2">
-      <input type="radio" name="future-work" value="3">
-      <input type="radio" name="future-work" value="4">
-      <input type="radio" name="future-work" value="5">
+      <fieldset id="future-work">
+        <input type="radio" name="future-work" value="1">
+        <input type="radio" name="future-work" value="2">
+        <input type="radio" name="future-work" value="3">
+        <input type="radio" name="future-work" value="4">
+        <input type="radio" name="future-work" value="5">
+      </fieldset>
     </div>
     <div class="ten columns">
-          1 (Not well at all) - 5 (Extremely well)
+      1 (Not well at all) - 5 (Extremely well)
     </div>
   </div>
-
   <div class="row form-group">
     <div class="ten columns">
     <label for="demo-age">What is your age?</label>
@@ -143,7 +149,6 @@ Thank you <3
     </datalist>
     </div>
   </div>
-
   <div class="row form-group">
     <div class="ten columns">
     <label for="demo-gender">What is your gender?</label>
@@ -157,7 +162,6 @@ Thank you <3
     </datalist>
     </div>
   </div>
-
   <div class="row form-group">
     <div class="ten columns">
     <label for="demo-equity-group">Do you identify as a member of an equity-seeking group?</label>
@@ -171,7 +175,6 @@ Thank you <3
     </datalist>
     </div>
   </div>
-
   <input type="submit" name="submit" value="Submit Feedback" class="button button-primary">
   <input type="hidden" name="_format" value="plain">
   <input type="hidden" name="_subject" value="feedback submitted">
