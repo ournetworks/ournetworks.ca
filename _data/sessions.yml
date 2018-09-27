@@ -11,7 +11,7 @@
   sessionType: "talk"
   date: 2018-07-14
   length: 1
-  linkYoutube: "https://youtu.be/VCLhODLwddw"
+  linkYoutube: "VCLhODLwddw"
   linkIPFS:
 
 
@@ -24,7 +24,7 @@
   sessionType: "lightning-talk"
   date: 2018-07-14
   length: 0.25
-  linkYoutube: "https://youtu.be/QtIqtd0YOvw"
+  linkYoutube: "QtIqtd0YOvw"
   linkIPFS:
 
 
@@ -37,7 +37,7 @@
   sessionType: "lightning-talk"
   date: 2018-07-14
   length: 0.25
-  linkYoutube: "https://youtu.be/ZYm7cexgSpY"
+  linkYoutube: "ZYm7cexgSpY"
   linkIPFS:
 
 - sessionID: 18050
@@ -52,7 +52,7 @@
   theme: "Incentivized Networks"
   date: 2018-07-14
   length: 1
-  linkYoutube: "https://youtu.be/hxq2SKoVzTA"
+  linkYoutube: "hxq2SKoVzTA"
   linkIPFS:
 
 - sessionID: 18070
@@ -93,7 +93,7 @@
   sessionType: "talk"
   date: 2018-07-14
   length: 1
-  linkYoutube: "https://youtu.be/i6Frd75wPIE"
+  linkYoutube: "i6Frd75wPIE"
   linkIPFS:
 
 - sessionID: 18110
@@ -105,7 +105,7 @@
   sessionType: "lightning-talk"
   date: 2018-07-14
   length: 0.25
-  linkYoutube: "https://youtu.be/ZQmTCPsafkw"
+  linkYoutube: "ZQmTCPsafkw"
   linkIPFS:
 
 - sessionID: 18120
@@ -120,7 +120,7 @@
   sessionType: "demo"
   date: 2018-07-14
   length:
-  linkYoutube: "https://youtu.be/eaNBUBV0aKQ"
+  linkYoutube: "eaNBUBV0aKQ"
   linkIPFS:
 
 - sessionID: 18140
@@ -135,7 +135,7 @@
   theme: "Incentivized Networks"
   date: 2018-07-14
   length: 1
-  linkYoutube: "https://youtu.be/cUzdthZpjQY"
+  linkYoutube: "cUzdthZpjQY"
   linkIPFS:
 
 - sessionID: 18150
@@ -151,7 +151,7 @@
   theme: "Politics of Networks"
   date: 2018-07-14
   length: 0.25
-  linkYoutube: "https://youtu.be/4mIeV890ymg"
+  linkYoutube: "4mIeV890ymg"
   linkIPFS:
 
 - sessionID: 18160
@@ -168,7 +168,7 @@
   theme: "Politics of Networks"
   date: 2018-07-14
   length: 1
-  linkYoutube: "https://youtu.be/v3WSU_W9xkE"
+  linkYoutube: "v3WSU_W9xkE"
   linkIPFS:
 
 
@@ -208,7 +208,7 @@
   sessionType: "panel"
   date: 2018-07-14
   length: 1
-  linkYoutube: "https://youtu.be/ptxzxEy-goI"
+  linkYoutube: "ptxzxEy-goI"
   linkIPFS:
 
 - sessionID: 18210
@@ -272,7 +272,7 @@
   sessionType: "talk"
   date: 2018-07-14
   length: 0.5
-  linkYoutube: "https://youtu.be/gDtO0qRAuTA"
+  linkYoutube: "gDtO0qRAuTA"
   linkIPFS:
 
 - sessionID: 18242
@@ -301,7 +301,7 @@
   sessionType: "talk"
   date: 2018-07-14
   length: 0.5
-  linkYoutube: "https://youtu.be/A9zL2csO7t8"
+  linkYoutube: "A9zL2csO7t8"
   linkIPFS:
 
 - sessionID: 18990
@@ -314,7 +314,7 @@
   sessionType: "orga"
   date: 2018-07-14
   length: 0.5
-  linkYoutube: "https://youtu.be/0X95Nybu2g8"
+  linkYoutube: "0X95Nybu2g8"
   linkIPFS:
 
 - sessionID: 18992
@@ -322,7 +322,7 @@
   sessionType: "orga"
   date: 2018-07-15
   length: 0.5
-  linkYoutube: "https://youtu.be/hwjeNX-9K58"
+  linkYoutube: "hwjeNX-9K58"
   linkIPFS:
 
 - sessionID: 18993
