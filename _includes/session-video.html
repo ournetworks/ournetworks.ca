@@ -18,18 +18,16 @@
         </h4>
       {%- endif -%}
     </header>
-    {% session.linkYoutube %}
-    {% session.linkIPFS %}
-    <div class="session-caption">
-        <p>{{ session.description | truncatewords: 10 }}<span class="read-more"><a href="{{ session.descriptionLink }}" rel="noopener"> read more</a></span></p>
+    <div class="video-thumbnail">
+      <p>THUMBNAIL I'd like to do something with the thumbnail from the ipfs player?</p>
     </div>
-    {%- endif -%}
-    {%- if session.link or session.twitter or session.github -%}
+    <div class="video-caption">
+        <p>{{ session.description | truncatewords: 15 }}<span class="read-more"><a href="/conference/program/#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}" rel="noopener"> see session description</a></span></p>
+    </div>
+    {%- if session.linkIPFS or session.linkYoutube -%}
     <ul class="bio-sm-list">
-     {%- if session.link and session.linkDisplay -%}<li class="bio-sm-list-item"><a href="{{ session.link }}" target="_blank" rel="noopener">{% include icons/link.svg %}&nbsp;{{ session.linkDisplay }} </a></li>{%- endif -%}
-     {%- if session.twitter -%}<li class="bio-sm-list-item"><a href="https://twitter.com/{{ session.twitter }}" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@{{ session.twitter }}</a></li>{%- endif -%}
-     {%- if session.github -%}<li class="bio-sm-list-item"><a href="https://github.com/{{ session.github }}" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;{{ session.github }}</a></li>{%- endif -%}
-     {%- if session.instagram -%}<li class="bio-sm-list-item"><a href="https://instagram.com/{{ session.instagram }}" target="_blank" rel="noopener">{% include icons/instagram.svg %}&nbsp;{{ session.instagram }}</a></li>{%- endif -%}
+     {%- if session.linkIPFS -%}<li class="bio-sm-list-item"><a href="{{ session.link }}" target="_blank" rel="noopener">{% include icons/link.svg %}&nbsp;{{ session.linkIPFS }} </a></li>{%- endif -%}
+     {%- if session.linkYoutube -%}<li class="bio-sm-list-item"><a href="https://youtu.be/{{ session.linkYoutube }}" target="_blank" rel="noopener">&nbsp;youtu.be/{{ session.linkYoutube }}</a></li>{%- endif -%}
     </ul>
     {%- endif -%}
   </div>

@@ -9,10 +9,12 @@ redirect_from:
   - "/2018/conference/recorded-talks"
 ---
 
-Watch the recorded talks from the Our Networks 2018 below! Also available at the ipfs archive is:
-<LINK>
+Watch the recorded talks from Our Networks 2018 below! We want to again thank our A/V volunteers, without whom sharing these videos would not have been possible, Yurko, Elon, Benedict, and Hank.
 
-or at Internet Archive: <LINK>
+Full archive of videos are available:
+
+On ipfs: [QmWmyoMoctfbAaiEs2G46gpeUmhqFRDW6KWo64y5r5sdVz](#)  
+Internet Archive: [temp](#)
 
 ## Videos
 {:.program-heading}
@@ -21,7 +23,6 @@ or at Internet Archive: <LINK>
 
 {%- for session in sortedSessions -%}
   {%- if session.linkYoutube -%}
-    {% include session-details.html %}
-    
+    {% include session-video.html %}
   {%- endif -%}
 {%- endfor -%}
