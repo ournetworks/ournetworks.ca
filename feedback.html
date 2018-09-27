@@ -14,11 +14,11 @@ redirect_from:
 
 <hr />
 
-<form action="https://formspree.io/orga@ournetworks.ca" method="POST">
+<form action="https://formspree.io/orga@ournetworks.ca" class="form-container" method="POST">
   <div class="row form-group">
     <div class="ten columns">
       <fieldset id="recommend">
-        <legend>How likely is it that you'd recommend Our Networks to a friend or family member?</legend>
+        <legend>How likely is it that you’d recommend Our Networks to a friend or family member?</legend>
         <div class="form-radio-range">
           {% include forms/form-radio-scale.html name="recommend" start=0 end=10 %}
           <div class="form-radio-range-label">
@@ -60,7 +60,9 @@ redirect_from:
   <div class="row form-group">
     <div class="ten columns">
       <label for="reason">What best describes your reason for attending Our Networks 2018?</label>
-      <input list="reasons" id="reason" name="reason">
+      <div class="row">
+        <input list="reasons" class="input-datalist seven columns" id="reason" name="reason">
+      </div>
       <datalist id="reasons">
         <option value="The topic interested me">
         <option value="I wanted to contribute my skills to to a meaningful effort">
@@ -122,7 +124,9 @@ redirect_from:
   <div class="row form-group">
     <div class="ten columns">
     <label for="demo-age">What is your age?</label>
-    <input list="ages" id="demo-age" name="demo-age">
+    <div class="row">
+      <input list="ages" id="demo-age" class="input-datalist four columns" name="demo-age">
+    </div>
     <datalist id="ages">
       <option value="Under 13 years old">
       <option value="13 – 17 years old">
@@ -139,7 +143,9 @@ redirect_from:
   <div class="row form-group">
     <div class="ten columns">
     <label for="demo-gender">What is your gender?</label>
-    <input list="genders" id="demo-gender" name="demo-gender">
+    <div class="row">
+      <input list="genders" id="demo-gender" class="input-datalist four columns" name="demo-gender">
+    </div>
     <datalist id="genders">
       <option value="Prefer not to say">
       <option value="Non-binary">
@@ -152,7 +158,9 @@ redirect_from:
   <div class="row form-group">
     <div class="ten columns">
     <label for="demo-equity-group">Do you identify as a member of an equity-seeking group?</label>
-    <input list="equity-groups" id="demo-equity-group" name="demo-equity-group">
+    <div class="row">
+      <input list="equity-groups" id="demo-equity-group" class="input-datalist four columns" name="demo-equity-group">
+    </div>
     <datalist id="equity-groups">
       <option value="Persons of Colour">
       <option value="Persons with Disabilities and Persons living with Mental Illness">
@@ -162,7 +170,9 @@ redirect_from:
     </datalist>
     </div>
   </div>
-  <input type="submit" name="submit" value="Submit Feedback" class="button button-primary">
+  <div class="row form-group last">
+    <input type="submit" name="submit" value="Submit Feedback" class="button button-primary">
+  </div>
   <input type="hidden" name="_format" value="plain">
   <input type="hidden" name="_subject" value="feedback submitted">
   <input type="hidden" name="_next" value="//ournetworks.ca/feedback?submit=confirmed">
