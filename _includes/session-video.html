@@ -21,8 +21,14 @@
     <div class="video-thumbnail">
       <p>THUMBNAIL I'd like to do something with the thumbnail from the ipfs player?</p>
     </div>
+
     <div class="video-caption">
-        <p>{{ session.description | truncatewords: 15 }}<span class="read-more"><a href="/conference/program/#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}" rel="noopener"> see session description</a></span></p>
+        <p>{{ session.description | truncatewords: 15 }}
+          {%- unless session.sessionType == "orga" -%}
+            <span class="read-more">
+            <a href="/conference/program/#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}" rel="noopener"> see session description</a></span>
+          {%- endunless -%}
+        </p>
     </div>
     {%- if session.linkIPFS or session.linkYoutube -%}
     <ul class="bio-sm-list">
