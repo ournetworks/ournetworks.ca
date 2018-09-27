@@ -11,7 +11,7 @@
   sessionType: "talk"
   date: 2018-07-14
   length: 1
-  linkYoutube: 
+  linkYoutube: "https://youtu.be/VCLhODLwddw"
   linkIPFS:
 
 
@@ -24,6 +24,9 @@
   sessionType: "lightning-talk"
   date: 2018-07-14
   length: 0.25
+  linkYoutube: "https://youtu.be/QtIqtd0YOvw"
+  linkIPFS:
+
 
 - sessionID: 18040
   title: "Live Streaming over IPFS"
@@ -34,6 +37,8 @@
   sessionType: "lightning-talk"
   date: 2018-07-14
   length: 0.25
+  linkYoutube: "https://youtu.be/ZYm7cexgSpY"
+  linkIPFS:
 
 - sessionID: 18050
   title: "Money and mesh networks"
@@ -47,6 +52,8 @@
   theme: "Incentivized Networks"
   date: 2018-07-14
   length: 1
+  linkYoutube: "https://youtu.be/hxq2SKoVzTA"
+  linkIPFS:
 
 - sessionID: 18070
   title: "Understanding blockchains with Scrabble"
@@ -86,6 +93,8 @@
   sessionType: "talk"
   date: 2018-07-14
   length: 1
+  linkYoutube: "https://youtu.be/i6Frd75wPIE"
+  linkIPFS:
 
 - sessionID: 18110
   title: "Web archiving as DIY and DIWO"
@@ -96,6 +105,8 @@
   sessionType: "lightning-talk"
   date: 2018-07-14
   length: 0.25
+  linkYoutube: "https://youtu.be/ZQmTCPsafkw"
+  linkIPFS:
 
 - sessionID: 18120
   title: "Building something together with local networks"
@@ -109,6 +120,8 @@
   sessionType: "demo"
   date: 2018-07-14
   length:
+  linkYoutube: "https://youtu.be/eaNBUBV0aKQ"
+  linkIPFS:
 
 - sessionID: 18140
   title: "Althea a more distributed ISP"
@@ -122,6 +135,8 @@
   theme: "Incentivized Networks"
   date: 2018-07-14
   length: 1
+  linkYoutube: "https://youtu.be/cUzdthZpjQY"
+  linkIPFS:
 
 - sessionID: 18150
   title: "Holding Data Together: Decentralized patterns for stewardship"
@@ -136,6 +151,8 @@
   theme: "Politics of Networks"
   date: 2018-07-14
   length: 0.25
+  linkYoutube: "https://youtu.be/4mIeV890ymg"
+  linkIPFS:
 
 - sessionID: 18160
   title: "Protocol tactics"
@@ -151,6 +168,9 @@
   theme: "Politics of Networks"
   date: 2018-07-14
   length: 1
+  linkYoutube: "https://youtu.be/v3WSU_W9xkE"
+  linkIPFS:
+
 
 - sessionID: 18180
   title: "Community networks, a perspective from freedom of expression and access to information"
@@ -188,6 +208,8 @@
   sessionType: "panel"
   date: 2018-07-14
   length: 1
+  linkYoutube: "https://youtu.be/ptxzxEy-goI"
+  linkIPFS:
 
 - sessionID: 18210
   title: "Using Qri for distributed data collaboration"
@@ -197,7 +219,7 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/21"
   sessionType: "workshop"
   date: 2018-07-14
-  length:
+  length: 1
 
 - sessionID: 18220
   title: "Cadences of connection and exchange: Planning and modeling activity centered networks"
@@ -220,6 +242,8 @@
   sessionType: "talk"
   date: 2018-07-14
   length: 1
+  linkYoutube:
+  linkIPFS:
 
 - sessionID: 18232
   title: "The artists network workshop"
@@ -248,6 +272,8 @@
   sessionType: "talk"
   date: 2018-07-14
   length: 0.5
+  linkYoutube: "https://youtu.be/gDtO0qRAuTA"
+  linkIPFS:
 
 - sessionID: 18242
   title: "Our _stable_ networks workshop"
@@ -275,6 +301,8 @@
   sessionType: "talk"
   date: 2018-07-14
   length: 0.5
+  linkYoutube: "https://youtu.be/A9zL2csO7t8"
+  linkIPFS:
 
 - sessionID: 18990
   title: "Registration and coffee"
@@ -286,12 +314,16 @@
   sessionType: "orga"
   date: 2018-07-14
   length: 0.5
+  linkYoutube: "https://youtu.be/0X95Nybu2g8"
+  linkIPFS:
 
 - sessionID: 18992
   title: "Closing"
   sessionType: "orga"
   date: 2018-07-15
   length: 0.5
+  linkYoutube: "https://youtu.be/hwjeNX-9K58"
+  linkIPFS:
 
 - sessionID: 18993
   title: "Lightning Talks"
