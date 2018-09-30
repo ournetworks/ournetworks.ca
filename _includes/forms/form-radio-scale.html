@@ -1,0 +1,7 @@
+{% assign startnum = include.start | plus: 0 %}
+{% assign endnum = include.end | plus: 0 %}
+{% for i in ({{startnum}}..{{endnum}}) %}
+  <div class="form-item">
+    <input id="{{ include.name }}-{{ i }}" type="radio" name="{{ include.name }}" value="{{ i }}"><label class="form-check-label" for="{{ include.name }}-{{ i }}">{{ i }}</label>
+  </div>
+{% endfor %}
