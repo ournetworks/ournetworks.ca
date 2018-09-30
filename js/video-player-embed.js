@@ -66,7 +66,11 @@ refreshButton.addEventListener('click', function() {
 
 live.on('error', function(event) {
   console.debug(this.error());
-  document.getElementById('loadingTitle').innerHTML = 'Unable to load live stream';
+  if (window.location.href.indexOf('livestream') > -1) {
+    document.getElementById('loadingTitle').innerHTML = 'Unable to load live stream';
+  } else {
+    document.getElementById('loadingTitle').innerHTML = 'Unable to load video';
+  }
   document.querySelector('.loader-animation').style.display = 'none';
   document.getElementById('msg').innerHTML = this.error().message;
   document.getElementById('LoadingStream').appendChild(refreshButton);

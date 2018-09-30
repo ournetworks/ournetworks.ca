@@ -1,8 +1,8 @@
 ---
 layout: page
 order: 0
-title: "Stream"
-titleDisplay: "Stream"
+title: "Video Player"
+titleDisplay: "Video Player"
 ---
 
 {% include vod-stream-embed.html %}
