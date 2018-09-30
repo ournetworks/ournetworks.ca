@@ -9,7 +9,7 @@ redirect_from:
   - "/2018/conference/recorded-talks"
 ---
 
-Watch the recorded talks from Our Networks 2018 below! We want to again thank our A/V volunteers, without whom sharing these videos would not have been possible, Yurko, Elon, Benedict, and Hank.
+Watch the recorded talks from Our Networks 2018 below! We want to again thank our A/V volunteers, without whom sharing these videos would not have been possible: [Yurko Jaremko](https://github.com/darkdrgn2k), [Henry Wilkinson](https://github.com/Shrinks99), [Elon Li](https://github.com/ASoTNetworks), and [Benedict Lau](https://github.com/benhylau).
 
 Full archive of videos are available:
 
