@@ -1,6 +1,8 @@
 <div class="session-video-detail six columns">
   <div class="video-thumbnail">
-    <img src="https://img.youtube.com/vi/{{ session.youtube }}/maxresdefault.jpg" alt="Video thumbnail for {{ session.title }}" width="96%" />
+    <a href="/video/?ipfs={{ session.ipfs720 }}" title="View {{ session.title }}">
+      <img src="https://img.youtube.com/vi/{{ session.youtube }}/maxresdefault.jpg" alt="Video thumbnail for {{ session.title }}" />
+    </a>
   </div>
   <header class="session-header">
     <h3 class="session-title heading">{{ session.title }}</h3>
@@ -21,17 +23,17 @@
     {%- endif -%}
   </header>
   <div class="video-caption">
-      <p>{{ session.description | truncatewords: 15 }}
-        {%- unless session.sessionType == "orga" -%}
-          <span class="read-more">
-          <a href="/conference/program/#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}" rel="noopener"> see session description</a></span>
-        {%- endunless -%}
-      </p>
+    <p>{{ session.description | truncatewords: 24 }}
+      {%- unless session.sessionType == "orga" -%}
+        <span class="read-more">
+        <a href="/conference/program/#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}" rel="noopener">See session description</a></span>
+      {%- endunless -%}
+    </p>
+    {%- if session.ipfs720 or session.ipfs1080 or session.youtube -%}
+      <ul class="video-links">
+       {%- if session.ipfs720 or session.ipfs1080 -%}<li class="video-links-item"><a href="/video/?ipfs={{ session.ipfs720 }}" target="_blank" rel="noopener">{% include icons/link.svg %}&nbsp;ipfs/{{ session.ipfs720 }} </a></li>{%- endif -%}
+       {%- if session.youtube -%}<li class="video-links-item"><a href="https://youtu.be/{{ session.youtube }}" target="_blank" rel="noopener">{% include icons/youtube.svg %}&nbsp;youtu.be/{{ session.youtube }}</a></li>{%- endif -%}
+      </ul>
+    {%- endif -%}
   </div>
-  {%- if session.ipfs720 or session.ipfs1080 or session.youtube -%}
-  <ul class="bio-sm-list">
-   {%- if session.ipfs720 or session.ipfs1080 -%}<li class="bio-sm-list-item"><a href="https://ipfs.io/ipfs/{{ session.ipfs720 }}" target="_blank" rel="noopener">{% include icons/link.svg %}&nbsp;ipfs/{{ session.ipfs720 }} </a></li>{%- endif -%}
-   {%- if session.youtube -%}<li class="bio-sm-list-item"><a href="https://youtu.be/{{ session.youtube }}" target="_blank" rel="noopener">{% include icons/youtube.svg %}&nbsp;youtu.be/{{ session.youtube }}</a></li>{%- endif -%}
-  </ul>
-  {%- endif -%}
 </div>

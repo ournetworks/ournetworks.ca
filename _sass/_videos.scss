@@ -8,14 +8,35 @@
 .session-video-detail {
   margin-left: 0%;
   margin-right: 2%;
+  margin-bottom: 2%;
+  border: 1px solid $grey-color-table-borders;
+
+  .session-header {
+    margin: 1em;
+  }
+
+  .session-title {
+    margin: 0;
+  }
+
+  .session-presenter {
+    font-size: $small-font-size;
+  }
 }
 
 .video-caption {
   font-size: $small-font-size;
-  margin-bottom: 1.35em;
+  margin: 1em;
 }
 
-.video-thumbnail {
-  margin-top: 1.35em;
-  margin-bottom: 1.35em;
+.video-links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.video-links-item {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
