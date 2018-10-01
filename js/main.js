@@ -6,22 +6,39 @@ document.addEventListener('DOMContentLoaded', function(){
   // header signup notification
 
   var header = document.querySelector('.header');
-  if (window.location.search == '?signup=confirmed') {
 
+  function formSubmitCallback(formContextMsg) {
     var confirmationEle = document.createElement('div');
     var splashEle = document.querySelector('.splash');
+    var postEle = document.querySelector('.post');
 
     confirmationEle.className = 'announcement';
     confirmationEle.setAttribute('role', 'alert');
-    confirmationEle.innerHTML = '<div class="container"><p>Successfully signed up for updates</p> <button class="close-banner" aria-label="Close">×</button></div>';
+    confirmationEle.innerHTML = '<div class="container"><p>' + formContextMsg + '</p> <button class="close-banner" aria-label="Close">×</button></div>';
 
     header.prepend(confirmationEle);
-    splashEle.classList.add('extended-stacked');
+    if (splashEle) {
+      splashEle.classList.add('extended-stacked');
+    }
 
     document.querySelector('.close-banner').addEventListener('click', function(){
       document.querySelector('.announcement').remove();
-      splashEle.classList.remove('extended-stacked');
+      if (postEle) {
+        postEle.classList.remove('extended');
+      }
+      if (splashEle) {
+        splashEle.classList.remove('extended-stacked');
+      }
     });
+  }
+
+  if (window.location.search == '?signup=confirmed') {
+    formSubmitCallback('Successfully signed up for updates');
+  }
+
+  if (window.location.search == '?feedback=confirmed') {
+    document.querySelector('.announcement').style.display = 'none';
+    formSubmitCallback('Successfully submitted your feedback!');
   }
 
   // scroll interaction
