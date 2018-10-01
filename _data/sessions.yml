@@ -31,7 +31,7 @@
 
 
 - sessionID: 18040
-  title: "Live Streaming over IPFS"
+  title: "Live streaming over IPFS"
   presenterID:
     - yurko
   description: "In this session, I will present how IPFS and HLS came together to allow us to build a distributed live stream for this conference."
@@ -333,7 +333,7 @@
   ipfs1080: "QmZJ5ZbJTfhQXM57PSWYy1VsHRDfL5AckjXy6W7RmP89AX"
 
 - sessionID: 18992
-  title: "Closing"
+  title: "Closing remarks"
   sessionType: "orga"
   date: 2018-07-15
   length: 0.5
@@ -362,7 +362,7 @@
   sessionType: "orga"
 
 - sessionID: 18997
-  title: "Keynote: Nasma Ahmed, Navigating Digital Futures"
+  title: "Keynote: Nasma Ahmed, Navigating digital futures"
   sessionType: "keynote"
   date: 2018-07-14
   length: 1
