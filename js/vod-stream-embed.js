@@ -1,6 +1,6 @@
 // Video-on-demand Stream Video
 
-var ipfs_gateway_self = 'https://ipfs.io'; // IPFS gateway of this node
+var ipfs_gateway_self = 'https://ipfs.infura.io'; // IPFS gateway of this node
 var ipfs_gateway_origin = 'https://ipfs.io'; // IPFS gateway of origin stream
 
 var stream_type = 'video/mp4'; // Type of video stream
