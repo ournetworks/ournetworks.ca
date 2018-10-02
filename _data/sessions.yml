@@ -10,9 +10,11 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/1"
   sessionType: "talk"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
+  youtube: "VCLhODLwddw"
+  ipfs720: "Qme8TaDvDX9eduymzDw5DFdpuqx11xq967PGMNafXawdpM"
+  ipfs1080: "QmS1PB42fYmBJbdhyyJXKzhrYKo3sy4XvqUQWJtQJQeqhg"
+
 
 - sessionID: 18030
   title: "Peer-to-peer applications on a mesh network"
@@ -22,21 +24,24 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/3"
   sessionType: "lightning-talk"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 0.25
+  youtube: "QtIqtd0YOvw"
+  ipfs720: "QmePW5VKnpM44X2pTcFEgJ8mbTc5bgaYy6qkismZeYkMZo"
+  ipfs1080: "QmbkBmVziTnQyEaCjaZtT8ucth2cwX2VsTFip5YHrebFCS"
+
 
 - sessionID: 18040
-  title: "Live Streaming over IPFS"
+  title: "Live streaming over IPFS"
   presenterID:
     - yurko
   description: "In this session, I will present how IPFS and HLS came together to allow us to build a distributed live stream for this conference."
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/17"
   sessionType: "lightning-talk"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 0.25
+  youtube: "ZYm7cexgSpY"
+  ipfs720: "QmNtSy8JxmURQzFmW5r44JV6T3KfatLbEFFvePG1a1xK8i"
+  ipfs1080: "QmT9aFwHo5Sh197ubcDC6zprNkDdb6hkh1uEf2PNqnDLkF"
 
 - sessionID: 18050
   title: "Money and mesh networks"
@@ -49,9 +54,10 @@
   sessionType: "discussion"
   theme: "Incentivized Networks"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
+  youtube: "hxq2SKoVzTA"
+  ipfs720: "QmSVYASXXnhK3vF4qPraK4jfgBp1ZzMwDXX2xii2FhhrzB"
+  ipfs1080: "QmdXZXwWQzTv8CHA66HowLcysjsfepVNGr9vcnRTDzTphb"
 
 - sessionID: 18070
   title: "Understanding blockchains with Scrabble"
@@ -63,8 +69,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/7"
   sessionType: "workshop"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
 
 - sessionID: 18090
@@ -79,8 +83,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/9"
   sessionType: "workshop"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 2
 
 - sessionID: 18100
@@ -94,9 +96,10 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/10"
   sessionType: "talk"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
+  youtube: "i6Frd75wPIE"
+  ipfs720: "QmVYB1VFRKfG3ioGL7Lv4FHDRjeygwW59WPXCsBpsxb2Gc"
+  ipfs1080: "QmVMhYj3QzStSPw6PvPdUW1Xd5FguNnq5Btp9kC2EyrNrd"
 
 - sessionID: 18110
   title: "Web archiving as DIY and DIWO"
@@ -106,9 +109,10 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/11"
   sessionType: "lightning-talk"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 0.25
+  youtube: "ZQmTCPsafkw"
+  ipfs720: "QmPtKBecxWWNP3frvSi9hUZocpgj8Ea1DWQx6qtFoqvitM"
+  ipfs1080: "Qmbn2Jy5Jyw9f4Xcjk3AJKmEVE1xiA4ZMjhpeGvi6LQgVQ"
 
 - sessionID: 18120
   title: "Building something together with local networks"
@@ -121,9 +125,10 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/12"
   sessionType: "demo"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length:
+  youtube: "eaNBUBV0aKQ"
+  ipfs720: "QmZzHGkci41xWkS6VPGmpEBoKWJzYXZNJGepyrcwvMRYad"
+  ipfs1080: "QmRC5i25CJAkKCTq22mPr19yYfykbtMug9NbhCUrseWtkF"
 
 - sessionID: 18140
   title: "Althea a more distributed ISP"
@@ -136,9 +141,10 @@
   sessionType: "demo"
   theme: "Incentivized Networks"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
+  youtube: "cUzdthZpjQY"
+  ipfs720: "QmeDdoqpScv1Pm4zDWMeiAxkhmKnCUevDL7LjbZm2LvttD"
+  ipfs1080: "QmfZaho2FZgz3us8vbyK5ueYtQjMx174CASYLaReXsUP6d"
 
 - sessionID: 18150
   title: "Holding Data Together: Decentralized patterns for stewardship"
@@ -152,9 +158,10 @@
   sessionType: "lightning-talk"
   theme: "Politics of Networks"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 0.25
+  youtube: "4mIeV890ymg"
+  ipfs720: "QmXDLFpTce1A5vuTssrcjwNTFCC8TKqRHkicGy6C3i5PGY"
+  ipfs1080: "QmXAfHZtPGGskDZPGSQ11eGo3Ac6T72YWNiftgjJXH6qHD"
 
 - sessionID: 18160
   title: "Protocol tactics"
@@ -169,9 +176,11 @@
   sessionType: "talk"
   theme: "Politics of Networks"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
+  youtube: "v3WSU_W9xkE"
+  ipfs720: "QmRteJr9TSyLoWgki5ZVnYikmBfCrKE2L2XvaY128egGPh"
+  ipfs1080: "QmexHoTeJykKxcs1TuoXSvzqiuQ6tB8n1iKcywFudkmV3E"
+
 
 - sessionID: 18180
   title: "Community networks, a perspective from freedom of expression and access to information"
@@ -184,8 +193,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/18"
   sessionType: "workshop"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 2
 
 - sessionID: 18190
@@ -198,8 +205,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/19"
   sessionType: "discussion"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
 
 - sessionID: 18200
@@ -212,9 +217,10 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/20"
   sessionType: "panel"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
+  youtube: "ptxzxEy-goI"
+  ipfs720: "Qmdz1mMaC9Urpf7tqsk8TatFwCAwmPrrRD88Zcq2wLF4Ze"
+  ipfs1080: "QmWvJ8HbTpaDTYAYtZFNwomyZr21YEwTp1bfQGT7Vxjz8w"
 
 - sessionID: 18210
   title: "Using Qri for distributed data collaboration"
@@ -224,9 +230,7 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/21"
   sessionType: "workshop"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
-  length:
+  length: 1
 
 - sessionID: 18220
   title: "Cadences of connection and exchange: Planning and modeling activity centered networks"
@@ -237,8 +241,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/22"
   sessionType: "workshop"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 2
 
 - sessionID: 18231
@@ -250,9 +252,10 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/23"
   sessionType: "talk"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
+  youtube: "_iP1mZ2cceg"
+  ipfs720: "Qmcbzn27ULvDj2ToLqGVq2UaBNHTaPZ3Ghe524UmKetScj"
+  ipfs1080: "QmfNNccv1rv1kgJaABPncUvaiXrmLq26BDieS55P1beozD"
 
 - sessionID: 18232
   title: "The artists network workshop"
@@ -263,8 +266,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/23"
   sessionType: "workshop"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
 
 - sessionID: 18241
@@ -282,9 +283,10 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/24"
   sessionType: "talk"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 0.5
+  youtube: "gDtO0qRAuTA"
+  ipfs720: "QmXjZLx83VMnJUQd4KAGZn5uZSpowLvfhsKKcX7qgu46kP"
+  ipfs1080: "QmR68beLDqPARyqDNHyAU4cnV77gmm83xrbEQhaQXXYd2c"
 
 - sessionID: 18242
   title: "Our _stable_ networks workshop"
@@ -298,8 +300,6 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/24"
   sessionType: "workshop"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 2
 
 - sessionID: 18250
@@ -313,9 +313,10 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/25"
   sessionType: "talk"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 0.5
+  youtube: "A9zL2csO7t8"
+  ipfs720: "QmRvHxC16K1hqeWdmtGNQQ6jnogq9pfmbVo4VSZqeET8dE"
+  ipfs1080: "QmPk33q8z8GHhJoDKXGDGn5CWFu61TzTprgupfGe4VNwho"
 
 - sessionID: 18990
   title: "Registration and coffee"
@@ -326,32 +327,30 @@
   descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/"
   sessionType: "orga"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 0.5
+  youtube: "0X95Nybu2g8"
+  ipfs720: "QmcCXAbjDwnkhzL8qfrbJLH6DqEbrkBvaF8AiXsdXNLiDL"
+  ipfs1080: "QmZJ5ZbJTfhQXM57PSWYy1VsHRDfL5AckjXy6W7RmP89AX"
 
 - sessionID: 18992
-  title: "Closing"
+  title: "Closing remarks"
   sessionType: "orga"
   date: 2018-07-15
-  startTime: ""
-  endTime: ""
   length: 0.5
+  youtube: "hwjeNX-9K58"
+  ipfs720: "QmRmJip9agFXbckr8ZPFb4Fdwn54Xi9iyWh1NdT1D7cmtS"
+  ipfs1080: "QmRVhwmQEGdxeLNUq41exH8GJTXY4ZPV45Ktto8VxJRhi7"
 
 - sessionID: 18993
   title: "Lightning Talks"
   sessionType: "lightning"
   date: 2018-07-15
-  startTime: ""
-  endTime: ""
   length: 1.0
 
 - sessionID: 18994
   title: "Sprint Pitches"
   sessionType: "sprint-pitch"
   date: 2018-07-15
-  startTime: ""
-  endTime: ""
   length: 0.5
 
 - sessionID: 18995
@@ -363,9 +362,7 @@
   sessionType: "orga"
 
 - sessionID: 18997
-  title: "Keynote: Nasma Ahmed, Navigating Digital Futures"
+  title: "Keynote: Nasma Ahmed, Navigating digital futures"
   sessionType: "keynote"
   date: 2018-07-14
-  startTime: ""
-  endTime: ""
   length: 1
