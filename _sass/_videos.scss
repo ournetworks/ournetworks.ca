@@ -6,9 +6,9 @@
 }
 
 .session-video-detail {
-  margin-left: 0%;
   margin-right: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
+  margin-left: 0%;
   border: 1px solid $grey-color-table-borders;
 
   .session-header {
@@ -17,26 +17,53 @@
 
   .session-title {
     margin: 0;
+    font-size: 1.25em;
   }
 
-  .session-presenter {
+  .session-heading-small {
     font-size: $small-font-size;
   }
 }
 
+.video-thumbnail {
+  position: relative;
+
+  .video-overlay {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(#000, 0.3);
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+  }
+
+  .video-play-graphic {
+    width: 32px;
+  }
+
+  &:hover .video-overlay {
+    opacity: 1;
+  }
+}
+
 .video-caption {
-  font-size: $small-font-size;
   margin: 1em;
+  font-size: $small-font-size;
 }
 
 .video-links {
   padding: 0;
-  margin: 0;
+  margin: 0.75em 0 0;
   list-style: none;
 }
 
 .video-links-item {
-  white-space: nowrap;
+  margin-bottom: 0.65em;
   overflow: hidden;
+  color: $accent-color;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
