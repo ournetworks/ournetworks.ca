@@ -170,7 +170,3 @@ Conceived in 1996, **TAO Collective**{:#tao}, or OAT ("Organizing Autonomous Tel
   <li class="bio-sm-list-item"><a href="http://www.cse.yorku.ca/~zbigniew/" target="_blank">{% include icons/link.svg %}&nbsp;cse.yorku.ca/~zbigniew/</a></li>
   <li class="bio-sm-list-item"><a href="http://www.cs.yorku.ca/museum/" target="_blank">{% include icons/link.svg %}&nbsp;cs.yorku.ca/museum/ (YUCoM)</a></li>
 </ul>
-
-***
-
-For more information, or if you are interested in volunteering, email us at [{{ site.email }}](mailto:{{ site.email }})!
