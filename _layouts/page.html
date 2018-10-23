@@ -1,15 +1,22 @@
 ---
 layout: default
 ---
+<header class="header">
+  <div class="announcement" role="alert">
+    <div class="container">
+      <p>
+        Our Networks 2017 has ended! Check out what <a href="https://ournetworks.ca">we've been up to since</a>.
+      </p>
+    </div>
+  </div>
+</header>
 <div class="container">
   <article class="post">
     <header class="post-header">
       <h1 class="post-title">{% if page.titleDisplay %}{{ page.titleDisplay }}{% else %}{{ page.title }}{% endif%}</h1>
     </header>
-
     <div class="post-content">
       {{ content }}
     </div>
-
   </article>
 </div>

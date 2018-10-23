@@ -1,4 +1,4 @@
-// Basic Styling
+// Base Styling
 
 html {
   box-sizing: border-box;
@@ -15,11 +15,9 @@ body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-
-::-moz-selection { background: $yellow; }
-::selection { background: $yellow; }
-
 
 // Images
 
