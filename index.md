@@ -17,7 +17,7 @@ Our theme focuses on how we can **Do It With Others (DIWO)** as opposed to just 
 Want to receive updates once videos are posted?
 
 <form action="https://lists.mayfirst.org/mailman/subscribe/ournetworks" method="POST">
-  <div class="row form-group-email">
+  <div class="row">
     <div class="four columns">
       <label for="name">Name</label>
       <input type="text" id="name" class="input-text" name="fullname" placeholder="Your name">
