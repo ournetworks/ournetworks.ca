@@ -1,7 +1,7 @@
 // Announcements
 .announcement {
   background-color: $black;
-  color: $accent-color;
+  color: $white;
   font-size: 1.1em;
 
   .container {
@@ -13,7 +13,7 @@
   }
 
   a {
-    color: $accent-color;
+    color: $white;
     text-decoration: underline;
 
     &:hover {
