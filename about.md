@@ -23,7 +23,7 @@ Our Networks organizers have hosted civic tech events and community networks wor
 **Benedict Lau**{:#benhylau} is an engineer working on mobile software and mesh networks. He is a contributor and organizer at [Toronto Mesh](https://tomesh.net/), currently focused on meshing with single-board computers and building deployment tools and literacy around peer-to-peer applications.
 
 <ul class="bio-sm-list">
- <li class="bio-sm-list-item"><a href="http://www.groundupworks.com/" target="_blank" rel="noopener">{% include icons/link.svg %}&nbsp;groundupworks.com </a></li>
+ <li class="bio-sm-list-item"><a href="http://www.groundupworks.com/" target="_blank" rel="noopener" data-proofer-ignore>{% include icons/link.svg %}&nbsp;groundupworks.com </a></li>
  <li class="bio-sm-list-item"><a href="https://twitter.com/LauBenedict" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@LauBenedict</a></li>
  <li class="bio-sm-list-item"><a href="https://github.com/benhylau" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;benhylau</a></li>
 </ul>
