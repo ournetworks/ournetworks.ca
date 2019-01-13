@@ -1,7 +1,6 @@
 ---
 layout: page
 order: 1
-section: "2018"
 title: "About the Event"
 titleDisplay: "About"
 redirect_from:
@@ -57,16 +56,3 @@ Our Networks organizers have hosted civic tech events and community networks wor
   <li class="bio-sm-list-item"><a href="https://twitter.com/isthisanart_" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@isthisanart_</a></li>
   <li class="bio-sm-list-item"><a href="https://github.com/ana0" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;ana0</a></li>
 </ul>
-
-###  Design
-
-Design concept and logo by [Marlo Yarlo](http://www.marloyarlo.com/).
-
-<ul class="bio-sm-list">
-  <li class="bio-sm-list-item"><a href="https://www.instagram.com/marloyarlo/" target="_blank" rel="noopener">{% include icons/instagram.svg %}&nbsp;marloyarlo</a></li>
-  <li class="bio-sm-list-item"><a href="http://www.marloyarlo.com/" target="_blank" rel="noopener">{% include icons/link.svg %}&nbsp;marloyarlo.com</a></li>
-</ul>
-
-### I want to make this event better, how can I help?
-
-Coming to our free kickoff party [Yami-ichi](/yami-ichi/) or [pitching a project for our Sprints](/sprints/). We are [planning this event openly](https://github.com/ournetworks/2018) so you can also check tasks we are working on. If those activities don't appeal to you, we will need volunteers to help the event run smoothly--reach out to us at <a href="mailto:{{ site.email }}">{{ site.email }}</a> to be added to the volunteer list.

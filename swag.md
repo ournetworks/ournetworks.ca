@@ -1,7 +1,6 @@
 ---
 layout: page
-order: 3
-section: "2018"
+order: 0
 title: "Swag"
 titleDisplay: "Swag"
 parent: "Conference"
