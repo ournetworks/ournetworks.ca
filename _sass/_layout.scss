@@ -252,9 +252,6 @@
   margin-bottom: 2em;
   padding-bottom: 2em;
   background: $background-accent;
-  background-image: url('../images/splash-outline.svg');
-  background-repeat: no-repeat;
-  background-position: 102% 70%;
 
   @media (max-width: $content-width) {
     background-image: none;
