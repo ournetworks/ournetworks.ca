@@ -20,7 +20,7 @@
             {%- endif -%}
           {%- endfor -%}
           {% assign presenterCount = presenterCount | minus:1 %}
-          <a href="/conference/program/#{{ presenterID }}">{{ name }}</a>{%- if presenterCount > 0 -%}{{ ' / ' }}{%- endif -%}
+          <a href="https://2018.ournetworks.ca/conference/program/#{{ presenterID }}">{{ name }}</a>{%- if presenterCount > 0 -%}{{ ' / ' }}{%- endif -%}
         {%- endfor -%}
       </h4>
     {%- endif -%}
@@ -29,7 +29,7 @@
     <p>{{ session.description | truncatewords: 20 }}
       {%- unless session.sessionType == "orga" -%}
         <span class="read-more">
-        <a href="/conference/program/#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}" rel="noopener">See session description</a></span>
+        <a href="https://2018.ournetworks.ca/conference/program/#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}" rel="noopener">See session description</a></span>
       {%- endunless -%}
     </p>
     <div class="video-links-container">
