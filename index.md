@@ -5,9 +5,12 @@ redirect_from:
   - "/2019/"
 ---
 
+Our Networks is a conference about the past, present, and future of building our own network infrastructures. Now in its third year, we are hard at work planning for 2019.
+
+
 ### Updates
 
-Want to receive updates once the 2019 call is posted?
+Want to receive an email once the 2019 call for proposals is released?
 
 <form action="https://lists.mayfirst.org/mailman/subscribe/ournetworks" method="POST">
   <div class="row">
