@@ -3,7 +3,6 @@ layout: page
 order: 3
 title: "Recorded Talks"
 titleDisplay: "Recorded Talks"
-parent: "Conference"
 redirect_from:
   - "/2018/conference/recorded-talks"
   - "/conference/recorded-talks"
