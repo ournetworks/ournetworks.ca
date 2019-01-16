@@ -8,15 +8,17 @@ redirect_from:
   - "/conference/recorded-talks"
 ---
 
-Watch the recorded talks from Our Networks 2018 below! We want to again thank our A/V volunteers, without whom sharing these videos would not have been possible: [Yurko](https://github.com/darkdrgn2k), [Henry Wilkinson](https://github.com/Shrinks99), [Elon Li](https://github.com/ASoTNetworks), and [Benedict Lau](https://github.com/benhylau).
+## Our Networks 2018 Archive
 
-Full archives of videos are available:
+Full archives of 2018 videos are available:
 
 - IPFS: [ipfs://QmQQfD1ztg1aG82VmUmutusbxn7tL4c2o1qHv1ivyWbNj6](https://ipfs.io/ipfs/QmQQfD1ztg1aG82VmUmutusbxn7tL4c2o1qHv1ivyWbNj6/)
 - Internet Archive: [Our Networks 2018 Talks](https://archive.org/details/ournetworks2018) (torrent available)
 - YouTube playlist: [Our Networks 2018 Beyond DIY: Do It With Others](https://www.youtube.com/playlist?list=PLx7_J32Ys60ey2bgSn2soAoBy0v9bBUbT)
 
-## Videos
+ We want to thank our A/V volunteers again, without whom the sharing of these videos would have been impossible: [Yurko](https://github.com/darkdrgn2k), [Henry Wilkinson](https://github.com/Shrinks99), [Elon Li](https://github.com/ASoTNetworks), and [Benedict Lau](https://github.com/benhylau).
+
+## Our Networks 2018 Videos
 {:.program-heading}
 
 {% assign sortedSessions = site.data.sessions | sort: 'title' %}
