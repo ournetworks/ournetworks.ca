@@ -2,11 +2,11 @@
 layout: splash
 redirect_from:
   - "/cfp/"
+  - "/conference/"
   - "/2019/"
 ---
 
 Our Networks is a conference about the past, present, and future of building our own network infrastructures. Now in its third year, we are hard at work planning for 2019.
-
 
 ### Updates
 
