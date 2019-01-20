@@ -224,15 +224,11 @@
 
 .splash {
   &.extended {
-    padding-top: 0px;
+    padding-top: 61px;
 
     @media (max-width: $on-palm) {
       padding-top: 53px;
     }
-  }
-
-  &.extended-stacked {
-    padding-top: 120px;
   }
 
   > .container {

@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
     header.prepend(confirmationEle);
     if (splashEle) {
-      splashEle.classList.add('extended-stacked');
+      splashEle.classList.add('extended');
     }
 
     document.querySelector('.close-banner').addEventListener('click', function(){
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function(){
         postEle.classList.remove('extended');
       }
       if (splashEle) {
-        splashEle.classList.remove('extended-stacked');
+        splashEle.classList.remove('extended');
       }
     });
   }
