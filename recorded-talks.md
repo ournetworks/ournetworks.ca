@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 3
+order: 2
 title: "Recorded Talks"
 titleDisplay: "Recorded Talks"
 redirect_from:
