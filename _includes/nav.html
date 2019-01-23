@@ -16,7 +16,7 @@
              {% if page.order > 0 and page.parent == nil %}
                <li>
                  <a class= "nav-item {% if current != '/' %}{% if page.url == current %}active{% endif %}{% endif %}"
-                    href="{{ page.url }}" aria-label="{{ page.title }}">
+                    href="{% if page.content.size > 0 %}{{ page.url }}{% else %}#{% endif %}" aria-label="{{ page.title }}">
                     {% if page.titleDisplay %}{{ page.titleDisplay }}{% else %}{% endif %}
                  </a>
                 {% assign sorted2_pages = site.pages | sort: "order" %}
