@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.4.3
+  - 2.6.0
 
 before_install:
   # Here, we decrypt a passwordless ssh key for acting as a user on the server named "travis"
@@ -18,6 +18,8 @@ addons:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+cache: bundler
 
 script: travis_retry bundle exec htmlproofer --check-html --allow-hash-href --internal_domains "/www.ournetworks.ca/,/ournetworks.ca/" ./_site
 

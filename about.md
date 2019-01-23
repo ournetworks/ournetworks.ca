@@ -1,14 +1,13 @@
 ---
 layout: page
 order: 1
-section: "2018"
 title: "About the Event"
 titleDisplay: "About"
 redirect_from:
   - "/2018/about"
 ---
 
-Our Networks is a conference about the past, present, and future of building our own network infrastructures. Now in its second year, the event brings together enthusiasts, hardware and software hackers, researchers, organizers and more to collectively explore creative and critical engagements with the Internet and alternative infrastructures.
+Our Networks is a conference about the past, present, and future of building our own network infrastructures. The event brings together enthusiasts, hardware and software hackers, researchers, organizers and more to collectively explore creative and critical engagements with the Internet and alternative infrastructures.
 
 The event has a <a href="/code-of-conduct/">Code of Conduct</a> in order to foster an environment where we can all work together. During the event if you are being harassed, notice that someone else is being harassed, or have any other concerns, we ask you to contact an organizer immediately. Those who wish to do so but don’t feel comfortable talking to the organizers in-person can email [coc@ournetworks.ca](mailto:coc@ournetworks.ca).
 
@@ -44,12 +43,6 @@ Our Networks organizers have hosted civic tech events and community networks wor
   <li class="bio-sm-list-item"><a href="https://github.com/garrying" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;garrying</a></li>
 </ul>
 
-**Patrick Connolly**{:#patcon} is a failed biochemist, a computer programmer, a co-organizer of [CivicTech Toronto](http://civictech.ca/), and an anarchist sympathizer. He is interested in liquid democracy, the changing nature of work, and how we can build communities and organizations that are more open, inclusive, and resilient.
-
-<ul class="bio-sm-list">
-  <li class="bio-sm-list-item"><a href="https://twitter.com/patconnolly" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@patconnolly</a></li>
-</ul>
-
 **Sarah Friend**{:#sarah} is an artist and software engineer working at a large blockchain development studio. When not doing that, she creates games and other interactive experiences. Her practice more broadly explores the polar concerns of privacy and transparency and the political/environmental implications of technology. She is a proud Recurse Center alum, and has recently presented at the Montreal International Games Showcase, the MoneyLab program by the Institute for Networked Culture in London, and Transmediale Berlin.
 
 <ul class="bio-sm-list">
@@ -57,16 +50,3 @@ Our Networks organizers have hosted civic tech events and community networks wor
   <li class="bio-sm-list-item"><a href="https://twitter.com/isthisanart_" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@isthisanart_</a></li>
   <li class="bio-sm-list-item"><a href="https://github.com/ana0" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;ana0</a></li>
 </ul>
-
-###  Design
-
-Design concept and logo by [Marlo Yarlo](http://www.marloyarlo.com/).
-
-<ul class="bio-sm-list">
-  <li class="bio-sm-list-item"><a href="https://www.instagram.com/marloyarlo/" target="_blank" rel="noopener">{% include icons/instagram.svg %}&nbsp;marloyarlo</a></li>
-  <li class="bio-sm-list-item"><a href="http://www.marloyarlo.com/" target="_blank" rel="noopener">{% include icons/link.svg %}&nbsp;marloyarlo.com</a></li>
-</ul>
-
-### I want to make this event better, how can I help?
-
-Coming to our free kickoff party [Yami-ichi](/yami-ichi/) or [pitching a project for our Sprints](/sprints/). We are [planning this event openly](https://github.com/ournetworks/2018) so you can also check tasks we are working on. If those activities don't appeal to you, we will need volunteers to help the event run smoothly--reach out to us at <a href="mailto:{{ site.email }}">{{ site.email }}</a> to be added to the volunteer list.

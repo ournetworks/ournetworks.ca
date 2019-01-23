@@ -2,12 +2,26 @@
 layout: splash
 redirect_from:
   - "/cfp/"
-  - "/2018/"
+  - "/conference/"
+  - "/2019/"
 ---
 
-This year we ask: What kinds of creative and critical engagement with technology practices can enable meaningful change when we do it with others?
+Our Networks is a conference about the past, present, and future of building our own network infrastructures. Now in its third year, we are hard at work planning for 2019.
 
-Our theme focuses on how we can **Do It With Others (DIWO)** as opposed to just ourselves as we build new network infrastructures and draws on the distributed campaign for emancipatory, networked art practices, instigated by UK-based Furtherfield (2006) as a response to the Do It Yourself (DIY) movement. We have seen a growing number of peer-to-peer, inclusive, and privacy-respecting projects mobilizing in favour of resilient, accessible, equitable communications over the internet in 2017. And yet many open questions remain. In the face of threats to the open internet, which tools and tactics will help us recognize the opportunities and challenges of this moment?
+### Updates
 
-{% include graphics/asterisk-outline.svg %}
-{% include graphics/stairs-outline.svg %}
+Want to receive an email once the 2019 call for proposals is released?
+
+<form action="https://lists.mayfirst.org/mailman/subscribe/ournetworks" method="POST">
+  <div class="row">
+    <div class="four columns">
+      <label for="name">Name</label>
+      <input type="text" id="name" class="input-text" name="fullname" placeholder="Your name">
+    </div>
+    <div class="four columns">
+      <label for="email">Email</label>
+      <input type="email" id="email" class="input-text" name="email" placeholder="Email address" aria-required="true" required>
+    </div>
+  </div>
+  <input type="submit" name="submit" value="Sign up for Updates" class="button button-primary">
+</form>
