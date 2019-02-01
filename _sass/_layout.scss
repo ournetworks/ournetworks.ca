@@ -181,9 +181,14 @@
 }
 
 // Events
+.event {
+  margin-left: 0;
+  margin-bottom: 3em;
+  padding-right: 4%;
+}
 
 .event-time-location {
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 
   .icon {
     min-width: 1.75em;
@@ -212,12 +217,20 @@
   }
 }
 
-.featurette-events-row {
+.events-grid {
   margin-bottom: 2em;
+  display: flex;
+  flex-wrap: wrap;
 
   .compact + .compact {
     margin-top: 0.75em;
   }
+}
+
+.event-add {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 // Splash
