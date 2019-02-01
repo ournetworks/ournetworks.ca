@@ -181,6 +181,9 @@
 }
 
 // Events
+.event {
+  margin-bottom: 1.5em;
+}
 
 .event-time-location {
   margin-bottom: 1.5em;
@@ -212,8 +215,10 @@
   }
 }
 
-.featurette-events-row {
+.events-grid {
   margin-bottom: 2em;
+  display: flex;
+  flex-wrap: wrap;
 
   .compact + .compact {
     margin-top: 0.75em;

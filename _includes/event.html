@@ -6,8 +6,7 @@
         <p class="event-meta-item">{{ include.event.date | date: "%-d %B %Y" }}, {% if include.event-type == "upcoming" %}<strong>{% endif %}{{ include.event.startTime | date:"%-I:%M%P" }} – {{include.event.endTime | date:"%-I:%M%P"}}{% if include.event-type == "upcoming" %}</strong>{% endif %}</p></div>
       <div class="event-meta">
         {% include icons/map-marker.svg %}
-        <p class="event-meta-item">{% if include.event.locationLink %}<a href="{{ include.event.locationLink }}">{% endif %}{{ include.event.location }}{% if include.event.locationLink %}</a>{% endif %}</p>
-      </div>
+        <p class="event-meta-item">{% if include.event.locationLink %}<a href="{{ include.event.locationLink }}">{% endif %}{{ include.event.location }}{% if include.event.locationLink %}</a>{% endif %}</p></div>
     </div>
   </header>
   <div class="event-add">
@@ -19,6 +18,9 @@
 
     {% capture googleCalendarLink %}text={{ event_title | url_encode }}&location={{ event_location | url_encode }}&dates={{ event_start }}/{{ event_end }}&details={{ event_description | url_encode }}&ctz=America/Toronto&sf=true&output=xml{% endcapture %}
 
+    {% if include.event.meetupLink %}<a class="button compact" target="_blank" rel="noopener" href="{{ include.event.meetupLink }}">
+      {% include icons/meetup.svg %}&nbsp;&nbsp;RSVP on Meetup
+    </a>{% endif %}
     <button download="event.ics" class="compact event-add-button" data-location="{{ event_location }}" data-summary="{{ event_title }}" data-description="{{ event_description }}" data-dtstart="{{ event_start }}" data-dtend="{{ event_end }}">{% include icons/calendar-plus-o.svg %}&nbsp;&nbsp;Add to Calendar (.ics)</button>
     <a class="button compact" target="_blank" rel="noopener" href="https://www.google.com/calendar/render?action=TEMPLATE&{{ googleCalendarLink }}">
       {% include icons/google_calendar.svg %}&nbsp;&nbsp;Add to Google Calendar
