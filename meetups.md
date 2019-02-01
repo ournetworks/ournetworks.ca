@@ -13,17 +13,11 @@ Technologists welcome, but you don't have to be one to attend. Come and join us!
 
 <!-- Call section -->
 <section class="sections">
-  <div class="container">
-    <div class="row events-grid">
-      {% for call in site.data.meetups %}
-      <div class="six columns event">
-        {% include event.html event=call %}
-      </div>
-      {% endfor %}
+  <div class="row events-grid">
+    {% for call in site.data.meetups %}
+    <div class="six columns event">
+      {% include event.html event=call %}
     </div>
+    {% endfor %}
   </div>
 </section>
-
-<br />
-
-***
