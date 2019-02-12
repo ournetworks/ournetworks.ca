@@ -6,40 +6,34 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: normal;
   margin-top: 0;
   margin-bottom: 0.35em;
+  line-height: $base-heading-line-height;
 }
 
 h1 {
   font-size: 3rem;
-  line-height: $base-heading-line-height;
 }
 
 h2 {
   font-size: 2.7rem;
-  line-height: $base-heading-line-height;
 }
 
 h3 {
   margin-top: 1em;
   font-size: 2.5rem;
-  line-height: $base-heading-line-height;
 }
 
 h4 {
   font-size: 2rem;
-  line-height: $base-heading-line-height;
 }
 
 h5 {
   font-size: 1.5rem;
-  line-height: $base-heading-line-height;
 }
 
 h6 {
   font-size: 1.1rem;
-  line-height: $base-heading-line-height;
 }
 
 // Headings - Larger than phablet (adjusted from skeleton)
@@ -107,12 +101,6 @@ p {
 
 .post-subtitle {
   margin-bottom: 0.35em;
-}
-
-// Terminal Font helper
-
-.terminal {
-  font-family: 'Terminal Grotesque';
 }
 
 // Bullets
