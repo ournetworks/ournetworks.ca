@@ -238,10 +238,10 @@
 
 .splash {
   &.extended {
-    padding-top: 61px;
+    padding-top: 3em;
 
     @media (max-width: $on-palm) {
-      padding-top: 53px;
+      padding-top: 56px;
     }
   }
 
