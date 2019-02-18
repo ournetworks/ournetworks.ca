@@ -16,8 +16,8 @@
   box-sizing: border-box;
 }
 
-/* For devices larger than 400px */
-@media (min-width: 400px) {
+/* For devices larger than 320px */
+@media (min-width: 320px) {
   .container {
     width: 85%;
     padding: 0;
