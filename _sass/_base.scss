@@ -15,12 +15,6 @@ body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  @media (max-width: $content-width) {
-    font-size: #{$base-font-size - 2px};
-  }
 }
 
 // Images
