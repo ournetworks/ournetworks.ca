@@ -69,55 +69,55 @@ p {
 }
 
 // Typewriter theme effect
-.typing {
-  line-height: 1em;
-}
 
-.typing p {
-  color: $text-color;
+.typing {
+  color: rgba($text-color, 0.8);
   font-family: $mono-font-family;
   font-size: $small-font-size;
-  text-align: left;
-  display: inline-block;
-  white-space: nowrap;
-  overflow: hidden;
-  margin: 0; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .05em; /* Adjust as needed */
-  animation:
-    typing 4s steps(40, end),
-    blink-caret 500ms step-end infinite;
+  line-height: 1.25em;
+  padding: 1em;
+  margin: 2em 0;
+  width: 75%;
+  background: rgba(0,0,0,.05);
+  height: 18em;
+  overflow: scroll;
+
+  @media (max-width: $content-width) {
+    width: 100%;
+  }
+
+  @media (max-width: $on-palm) {
+    width: 115%;
+    margin-left: -7%;
+    margin-right: -8%;
+  }
+
+  p {
+    display: none;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+    animation: typing 3s steps(40, end);
+    animation-fill-mode: forwards;
+
+    &.visible {
+      max-width: unset;
+      display: inline-block;
+    }
+
+    @media (max-width: $on-palm) {
+      display: block;
+      width: auto;
+      overflow: visible;
+      animation: unset;
+    }
+
+  }
 }
 
-.typing p:nth-child(n) {
-  animation-delay: 5s;
-  animation:
-    typing 4s steps(40, end);
-  animation-fill-mode:
-    forwards;
-}
+// The typing effect
 
-.typing span {
-  color: $text-color;
-  text-align: left;
-  display: inline-block;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /* Keeps the content on a single line */
-  border-right: .15em solid $accent-color; /* The typwriter cursor */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .10em; /* Adjust as needed */
-  animation:
-    typing 4s steps(40, end),
-    blink-caret 500ms step-end infinite;
-}
-
-/* The typing effect */
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: $accent-color }
 }
