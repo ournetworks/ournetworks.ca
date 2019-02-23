@@ -49,6 +49,6 @@ function blockTyping () {
   });
 }
 
-blockTyping()\
+blockTyping()
 
 typingEffect()
