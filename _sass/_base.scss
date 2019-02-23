@@ -42,7 +42,7 @@ a {
 
   &:hover,
   &:focus {
-    color: darken($accent-color, 15%);
+    color: darken($accent-color, 10%);
     text-decoration: underline;
   }
 }
