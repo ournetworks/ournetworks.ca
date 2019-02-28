@@ -67,3 +67,57 @@ p {
   width: 1em;
   height: 1em;
 }
+
+// Typewriter theme effect
+
+.typing {
+  color: rgba($text-color, 0.8);
+  font-family: $mono-font-family;
+  font-size: $small-font-size;
+  line-height: 1.25em;
+  padding: 1em;
+  margin: 2em 0;
+  width: 75%;
+  background: rgba(0,0,0,.05);
+  height: 18em;
+  overflow: scroll;
+
+  @media (max-width: $content-width) {
+    width: 100%;
+  }
+
+  @media (max-width: $on-palm) {
+    width: 115%;
+    margin-left: -7%;
+    margin-right: -8%;
+  }
+
+  p {
+    display: none;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+    animation: typing 3s steps(40, end);
+    animation-fill-mode: forwards;
+
+    &.visible {
+      max-width: unset;
+      display: inline-block;
+    }
+
+    @media (max-width: $on-palm) {
+      display: block;
+      width: auto;
+      overflow: visible;
+      animation: unset;
+    }
+
+  }
+}
+
+// The typing effect
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
