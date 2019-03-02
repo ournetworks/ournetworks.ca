@@ -19,4 +19,4 @@ scp -r \
   -i $IDENTITY_FILE \
   -o StrictHostKeyChecking=no \
   -o UserKnownHostsFile=/dev/null \
-  _site/. $USER@$SERVER:$SITE_DIR
+  _site/* $USER@$SERVER:$SITE_DIR
