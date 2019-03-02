@@ -111,7 +111,12 @@ p {
       overflow: visible;
       animation: unset;
     }
+  }
 
+  &:after {
+    content: "";
+    height: 2em;
+    display: block;
   }
 }
 

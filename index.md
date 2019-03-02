@@ -13,7 +13,7 @@ radically different futures, resist easy co-option by the forces of late-stage c
 
 {% include 2019-quotes.html %}
 
-### Updates
+## Updates
 
 Want to receive an email once the 2019 call for proposals is released?
 
