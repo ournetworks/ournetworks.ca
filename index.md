@@ -16,18 +16,6 @@ How can these emerging **Infrastructures of <span id="word"></span>** provide sp
 
 Want to receive an email once the 2019 call for proposals is released?
 
-<form action="https://lists.mayfirst.org/mailman/subscribe/ournetworks" method="POST">
-  <div class="row">
-    <div class="four columns">
-      <label for="name">Name</label>
-      <input type="text" id="name" class="input-text" name="fullname" placeholder="Your name">
-    </div>
-    <div class="four columns">
-      <label for="email">Email</label>
-      <input type="email" id="email" class="input-text" name="email" placeholder="Email address" aria-required="true" required>
-    </div>
-  </div>
-  <input type="submit" name="submit" value="Sign up for Updates" class="button button-primary">
-</form>
+[Subscribe to our mailing list](https://lists.mayfirst.org/mailman/listinfo/ournetworks){:.button.button-primary}{:target="_blank"}
 
 <script async src="/js/typing.js"></script>
