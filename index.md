@@ -17,6 +17,6 @@ radically different futures, resist easy co-option by the forces of late-stage c
 
 Want to receive an email once the 2019 call for proposals is released?
 
-[Subscribe to our mailing list](https://lists.mayfirst.org/mailman/listinfo/ournetworks){:.button.button-primary}{:target="_blank"}
+[Subscribe to our mailing list](https://lists.mayfirst.org/mailman/listinfo/ournetworks){:.button.button-primary}{:target="_blank"}{:rel="noopener"}
 
 <script async src="/js/typing.js"></script>
