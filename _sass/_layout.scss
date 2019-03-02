@@ -16,8 +16,8 @@
   box-sizing: border-box;
 }
 
-/* For devices larger than 400px */
-@media (min-width: 400px) {
+/* For devices larger than 320px */
+@media (min-width: 320px) {
   .container {
     width: 85%;
     padding: 0;
@@ -198,6 +198,7 @@
 
 .event-meta {
   display: flex;
+  align-items: baseline;
   margin-bottom: 0.5em;
 
   .event-meta-item {
@@ -237,10 +238,10 @@
 
 .splash {
   &.extended {
-    padding-top: 61px;
+    padding-top: 3em;
 
     @media (max-width: $on-palm) {
-      padding-top: 53px;
+      padding-top: 56px;
     }
   }
 
@@ -326,25 +327,5 @@
   @media (max-width: $content-width) {
     flex-basis: 50%;
     margin: 0;
-  }
-}
-
-// Sponsors
-
-.sponsor-band {
-  margin: 1.6em 0 2.6em;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-
-  @media (max-width: $on-palm) {
-    justify-content: center;
-
-    img {
-      margin-left: 0 !important;
-      display: inline !important;
-      margin-bottom: 2.5em;
-    }
   }
 }

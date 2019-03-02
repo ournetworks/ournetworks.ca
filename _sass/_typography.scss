@@ -6,68 +6,34 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: normal;
   margin-top: 0;
   margin-bottom: 0.35em;
+  line-height: $base-heading-line-height;
 }
 
 h1 {
-  font-size: 3rem;
-  line-height: $base-heading-line-height;
+  font-size: 2.18rem;
 }
 
 h2 {
-  font-size: 2.7rem;
-  line-height: $base-heading-line-height;
+  font-size: 1.81rem;
 }
 
 h3 {
   margin-top: 1em;
-  font-size: 2.5rem;
-  line-height: $base-heading-line-height;
+  font-size: 1.56rem;
 }
 
 h4 {
-  font-size: 2rem;
-  line-height: $base-heading-line-height;
+  font-size: 1.37rem;
 }
 
 h5 {
-  font-size: 1.5rem;
-  line-height: $base-heading-line-height;
+  font-size: 1.2rem;
 }
 
 h6 {
   font-size: 1.1rem;
-  line-height: $base-heading-line-height;
-}
-
-// Headings - Larger than phablet (adjusted from skeleton)
-
-@media (min-width: $on-palm) {
-  h1 {
-    font-size: 3.5rem;
-  }
-
-  h2 {
-    font-size: 2.9rem;
-  }
-
-  h3 {
-    font-size: 2.5rem;
-  }
-
-  h4 {
-    font-size: 2.2rem;
-  }
-
-  h5 {
-    font-size: 1.7rem;
-  }
-
-  h6 {
-    font-size: 1.2rem;
-  }
 }
 
 p {
@@ -79,20 +45,6 @@ p {
 
 .heading {
   line-height: 1.2em;
-}
-
-.splash-heading {
-  @include rsp-font(4vw, 24px, 36px);
-  display: inline-block;
-  margin-bottom: 0;
-}
-
-.splash-link {
-  color: inherit;
-
-  &:hover {
-    color: inherit;
-  }
 }
 
 // Posts title
@@ -109,15 +61,68 @@ p {
   margin-bottom: 0.35em;
 }
 
-// Terminal Font helper
-
-.terminal {
-  font-family: 'Terminal Grotesque';
-}
-
 // Bullets
 
 .bullet {
   width: 1em;
   height: 1em;
+}
+
+// Typewriter theme effect
+
+.typing {
+  color: rgba($text-color, 0.8);
+  font-family: $mono-font-family;
+  font-size: $small-font-size;
+  line-height: 1.25em;
+  padding: 1em;
+  margin: 2em 0;
+  width: 75%;
+  background: rgba(0,0,0,.05);
+  height: 18em;
+  overflow: auto;
+
+  @media (max-width: $content-width) {
+    width: 100%;
+  }
+
+  @media (max-width: $on-palm) {
+    width: 115%;
+    margin-left: -7%;
+    margin-right: -8%;
+  }
+
+  p {
+    display: none;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+    animation: typing 3s steps(40, end);
+    animation-fill-mode: forwards;
+
+    &.visible {
+      max-width: unset;
+      display: inline-block;
+    }
+
+    @media (max-width: $on-palm) {
+      display: block;
+      width: auto;
+      overflow: visible;
+      animation: unset;
+    }
+  }
+
+  &:after {
+    content: "";
+    height: 2em;
+    display: block;
+  }
+}
+
+// The typing effect
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }

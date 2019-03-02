@@ -4,7 +4,7 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: State of Our Networks
+title: Our Networks
 email: orga@ournetworks.ca
 description: >- # this means to ignore newlines until "baseurl:"
   Conference about the past, present, and future of building our own network infrastructures.

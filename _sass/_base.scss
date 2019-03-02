@@ -2,7 +2,6 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
 }
 
 *,
@@ -15,12 +14,6 @@ body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  @media (max-width: $content-width) {
-    font-size: #{$base-font-size - 2px};
-  }
 }
 
 // Images
@@ -49,7 +42,7 @@ a {
 
   &:hover,
   &:focus {
-    color: darken($accent-color, 15%);
+    color: darken($accent-color, 10%);
     text-decoration: underline;
   }
 }

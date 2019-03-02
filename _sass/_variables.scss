@@ -1,21 +1,23 @@
 // Typography Variables
 
-$base-font-family: "Cotham Sans", Helvetica, Arial, sans-serif;
-$base-font-size: 18px;
+$base-font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+$base-font-size: 16px;
 $base-font-weight: normal;
 $small-font-size: $base-font-size * 0.875;
-$base-line-height: 1.4;
+$base-line-height: 1.5;
 $base-heading-line-height: 1.2;
 $base-margin-bottom: 1em;
 
 $spacing-unit: 2em;
 
+$mono-font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+
 // Color Variables
 
 $text-color: #111;
 $background-color: #fff;
-$background-accent: #d1e9e3;
-$accent-color: darken($background-accent, 50%);
+$background-accent: #eee;
+$accent-color: #4285f4;
 
 $white: #fff;
 $black: #000;
@@ -27,4 +29,4 @@ $grey-color-table-borders: rgba($black, 0.1);
 // Content Layout Variables
 
 $content-width: 900px;
-$on-palm: 667px;
+$on-palm: 736px;

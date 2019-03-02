@@ -14,6 +14,8 @@
   @media (max-width: $on-palm) {
     background: $white;
     box-shadow: 0 3px 0 0 rgba($black, 0.1);
+    max-height: 100vh;
+    overflow: scroll;
   }
 
   > .container {
@@ -25,7 +27,6 @@
     transition: padding 200ms ease-in-out;
 
     @media (max-width: $on-palm) {
-      width: 85%;
       padding: 1em 0;
       display: block;
     }
@@ -43,8 +44,8 @@
 
     @media (max-width: $on-palm) {
       display: block;
-      text-align:center;
-      padding: 0.5em 0 0.5em;
+      border-top: 1px solid rgba($black,0.1);
+      padding: 0.75em 0 0.75em;
     }
   }
 
@@ -80,6 +81,13 @@
       padding: 1em 0;
     }
   }
+
+  li:hover,
+  li.active {
+    .nav-item-sub {
+      display: block;
+    }
+  }
 }
 
 // Mobile Menu Trigger
@@ -101,17 +109,26 @@ input[type="checkbox"].menu-btn {
     background: $black;
     color: $white;
   }
+
+  &:checked ~ .menu-icon:after {
+    content: 'Close';
+  }
+
+  &:checked ~ .menu-icon span {
+    display: none;
+  }
 }
 
 .menu-icon {
   display: none;
   position: absolute;
-  top: 1.2em;
+  top: 0.75em;
   right: 0;
-  border: 1px solid #e1e1e1;
-  padding: 0.8em 1em 0.6em 1em;
-  line-height: 1em;
-  font-size: 0.75em;
+  border: 1px solid #d1d1d1;
+  padding: 0.5em 1em 0.5em 1em;
+  font-size: 0.85em;
+  margin: 0;
+  cursor: pointer;
 
   @media (max-width: $on-palm) {
     display: block;
@@ -163,15 +180,6 @@ input[type="checkbox"].menu-btn {
   }
 }
 
-.header {
-  li:hover,
-  li.active {
-    .nav-item-sub {
-      display: block;
-    }
-  }
-}
-
 @media (max-width: $on-palm) {
   .header {
     li:hover {
@@ -185,34 +193,15 @@ input[type="checkbox"].menu-btn {
     position: inherit;
     width: 100%;
     float: none;
-    text-align: center;
-    box-shadow: inset 0 0 0px 1px rgba($black,0.1);
-    margin-bottom: 1em;
+    box-shadow: none;
+    margin-bottom: 0;
 
-    &:before {
-      content: '';
-      position: absolute;
-      top: -7px;
-      left: calc(50% - 4px);
-      display: block;
-      width: 0;
-      height: 0;
-      border-left: 7px solid transparent;
-      border-right: 7px solid transparent;
-      border-bottom: 7px solid rgba($black,0.1);
+    li:first-child {
+      padding-top: 0;
     }
 
-    &:after {
-      content: '';
-      position: absolute;
-      top: -5px;
-      left: calc(50% - 4px);
-      display: block;
-      width: 0;
-      height: 0;
-      border-left: 7px solid transparent;
-      border-right: 7px solid transparent;
-      border-bottom: 7px solid $white;
+    a {
+      padding: 0.75em 1em;
     }
   }
 }
