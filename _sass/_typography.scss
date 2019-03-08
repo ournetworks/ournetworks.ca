@@ -70,6 +70,12 @@ p {
 
 // Typewriter theme effect
 
+.word-spacer + br {
+  @media (max-width: $on-palm) {
+    display: none;
+  }
+}
+
 .typing {
   color: rgba($text-color, 0.8);
   font-family: $mono-font-family;
