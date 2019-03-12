@@ -87,6 +87,16 @@ p {
   background: rgba(0,0,0,.05);
   height: 18em;
   overflow: auto;
+  border-radius: 5px;
+  &::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgba($text-color, 0.03);
+  }
+  scrollbar-width: thin;
+  scrollbar-color: rgba($text-color, 0.03) transparent;
 
   @media (max-width: $content-width) {
     width: 100%;
