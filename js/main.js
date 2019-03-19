@@ -17,6 +17,8 @@ function formSubmitCallback(formContextMsg) {
   header.prepend(confirmationEle);
   if (splashEle) {
     splashEle.classList.add('extended');
+  } else {
+    postEle.classList.add('extended');
   }
 
   document.querySelector('.close-banner').addEventListener('click', function(){
