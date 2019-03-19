@@ -26,11 +26,17 @@ img {
 
 // Figures
 
+figure {
+  margin: 0;
+}
+
 figure > img {
   display: block;
+  margin-bottom: 1em;
 }
 
 figcaption {
+  color: $grey-color;
   font-size: $small-font-size;
 }
 

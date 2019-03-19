@@ -8,7 +8,7 @@ function typingEffect () {
     if (word.length > 0) {
       document.getElementById('word').innerHTML += word.shift()
     } else {
-      setTimeout(deletingEffect, 4000)
+      setTimeout(deletingEffect, 5500)
       return false
     };
     timer = setTimeout(loopTyping, 200)

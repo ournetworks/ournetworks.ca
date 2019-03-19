@@ -17,6 +17,8 @@ function formSubmitCallback(formContextMsg) {
   header.prepend(confirmationEle);
   if (splashEle) {
     splashEle.classList.add('extended');
+  } else {
+    postEle.classList.add('extended');
   }
 
   document.querySelector('.close-banner').addEventListener('click', function(){
@@ -37,6 +39,10 @@ if (window.location.search == '?signup=confirmed') {
 if (window.location.search == '?feedback=confirmed') {
   document.querySelector('.announcement').style.display = 'none';
   formSubmitCallback('Successfully submitted your feedback!');
+}
+
+if (window.location.search == '?donation=confirmed') {
+  formSubmitCallback('Thanks for your support!');
 }
 
 // scroll interaction
@@ -115,4 +121,3 @@ document.addEventListener('click', function(){
 document.querySelector('.logo').addEventListener('focus', function(){
   blurSubMenu();
 })
-
