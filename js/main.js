@@ -40,7 +40,6 @@ if (window.location.search == '?feedback=confirmed') {
 }
 
 if (window.location.search == '?donation=confirmed') {
-  document.querySelector('.announcement').style.display = 'none';
   formSubmitCallback('Thanks for your support!');
 }
 
@@ -120,4 +119,3 @@ document.addEventListener('click', function(){
 document.querySelector('.logo').addEventListener('focus', function(){
   blurSubMenu();
 })
-
