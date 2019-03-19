@@ -22,7 +22,7 @@ We are a community-based and independently-organized event. As such, every littl
   <div class="six columns">
     <figure>
       <img src="/images/swag/tote-design.png" alt="Front of 2018 Our Networks Tote">
-      <figcaption><p>Totes printed front and back with shoutouts to our wonderful sponsors.</p></figcaption>
+      <figcaption><p>Totes printed front and back with shoutouts to our sponsors.</p></figcaption>
     </figure>
   </div>
 </div>
