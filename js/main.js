@@ -39,6 +39,11 @@ if (window.location.search == '?feedback=confirmed') {
   formSubmitCallback('Successfully submitted your feedback!');
 }
 
+if (window.location.search == '?donation=confirmed') {
+  document.querySelector('.announcement').style.display = 'none';
+  formSubmitCallback('Thanks for your support!');
+}
+
 // scroll interaction
 
 var scrollEvent = false;
