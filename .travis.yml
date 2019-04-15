@@ -30,7 +30,7 @@ addons:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  - DATHASH="dat://0b658ddf53463118ded55ff7b1204fe32f1d10f4b679ef859c7d9d06725e8f3b"
+  - DATHASH="dat://b568db0b4d348f4ac3825b199fd89f7808dbcc88cf4a8047045f8995aa2e25ad"
   # TODO: Replace with Dat key secure
   # - secure: ""
 
