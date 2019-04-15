@@ -7,8 +7,21 @@ before_install:
   # See: https://docs.travis-ci.com/user/encrypting-files/#Automated-Encryption
   - if [ "$TRAVIS_SECURE_ENV_VARS" == true ]; then openssl aes-256-cbc -K $encrypted_a3d58fa41b45_key -iv $encrypted_a3d58fa41b45_iv -in scripts/id_rsa.enc -out scripts/id_rsa -d; fi
   - if [ "$TRAVIS_SECURE_ENV_VARS" == true ]; then chmod 400 scripts/id_rsa; fi
+  # Bundler 2.0 support
+  # See: https://docs.travis-ci.com/user/languages/ruby/#bundler-20
+  - gem update --system
+  - gem install bundler
+  # Install NVM with Dat via npm on Master
+  if: branch = master
+  - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+  - nvm install 10.15.3
+  - npm i -g dat
 
-before_script: bundle exec jekyll build
+before_script:
+  # Clone/Initialize Dat archive
+  - travis_wait 1 dat clone $DATHASH ./_site --exit
+  # Build Jekyll site
+  - bundle exec jekyll build
 
 addons:
   apt:
@@ -18,6 +31,9 @@ addons:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - DATHASH="dat://0b658ddf53463118ded55ff7b1204fe32f1d10f4b679ef859c7d9d06725e8f3b"
+  # TODO: Replace with Dat key secure
+  # - secure: ""
 
 cache: bundler
 
@@ -32,6 +48,11 @@ deploy:
   on:
     branch:
       - master
+
+after_deploy:
+  - cd _site
+  - echo $DATKEY | dat keys import
+  - travis_wait 1 dat sync --no-watch || travis_terminate 0
 
 notifications:
   email:
