@@ -18,7 +18,7 @@ before_install:
 
 before_script:
   # Clone/Initialize Dat archive
-  - travis_wait 1 dat clone $DATHASH ./_site --exit
+  - travis_wait 1 dat clone $(head -n 1 .well-known/dat) ./_site --exit
   # Build Jekyll site
   - bundle exec jekyll build
 
@@ -30,7 +30,6 @@ addons:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  - DATHASH="dat://b568db0b4d348f4ac3825b199fd89f7808dbcc88cf4a8047045f8995aa2e25ad"
   # TODO: Replace with Dat key secure
   # - secure: ""
 
