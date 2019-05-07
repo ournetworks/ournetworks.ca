@@ -46,15 +46,17 @@ We want to provide a welcoming space for those speaking for the first time and t
 We have four open hours for people to ask questions and workshop potential proposals and discuss the conference. No prior registration needed, just visit: [https://meet.jit.si/ournetworks](https://meet.jit.si/ournetworks).
 
 <!-- Call section -->
-<section class="sections row featurette-events-row">
+<section class="sections row events-grid">
   {% for call in site.data.calls %}
-  <div class="eight columns event">
+  <div class="five columns event">
     {% include openhour.html event="openhour" %}
   </div>
   {% endfor %}
 </section>
 
 If you have any additional questions let us know at [orga@ournetworks.ca](mailto:orga@ournetworks.ca)!
+
+---
 
 ## Updates
 

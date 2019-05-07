@@ -15,6 +15,7 @@ button {
   border: 1px solid #bbb;
   cursor: pointer;
   line-height: 1em;
+  border-radius: .25em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: background 200ms ease-in-out, border-color 200ms ease-in-out;
@@ -47,7 +48,7 @@ button.button-primary:focus {
 
 .compact {
   font-size: 0.85em;
-  padding: 10px 20px;
+  padding: 5px 10px;
   vertical-align: top;
 
   @media screen and (max-width: $on-palm) {

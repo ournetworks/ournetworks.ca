@@ -10,11 +10,12 @@
   <h4 class="event-title heading">{% if call.url %}<a href="{% if call.redirect_to %}{{ call.redirect_to }}{% else %}{{ call.url }}{% endif %}">{% endif %}{{ call.title }}{% if call.url %}</a>{% endif %}</h4>
   <div class="event-time-location">
     <div class="event-meta">
-      {% include icons/calendar-o.svg %}
-      <p class="event-meta-item">{{ call.date | date: "%-d %B %Y" }}, <strong>{{ call.startTime | date:"%-I:%M%P" }} – {{call.endTime | date:"%-I:%M%P"}}</strong></p></div>
-    <button download="call.ics" class="compact event-add-button" data-location="{{ event_location }}" data-summary="{{ event_title }}" data-description="{{ event_description }}" data-dtstart="{{ event_start }}" data-dtend="{{ event_end }}">{% include icons/calendar-plus-o.svg %}&nbsp;&nbsp;Add to Calendar (.ics)</button>
-    <a class="button compact" target="_blank" rel="noopener" href="https://www.google.com/calendar/render?action=TEMPLATE&{{ googleCalendarLink }}">
-      {% include icons/google_calendar.svg %}&nbsp;&nbsp;Add to Google Calendar
-    </a>
+      <p class="event-meta-item">{{ call.date | date: "%-d %B %Y" }}, <strong>{{ call.startTime | date:"%-I:%M%P" }} – {{call.endTime | date:"%-I:%M%P"}} EDT</strong></p>
+    </div>
+    <div class="event-add">
+      <button download="call.ics" class="compact event-add-button" data-location="{{ event_location }}" data-summary="{{ event_title }}" data-description="{{ event_description }}" data-dtstart="{{ event_start }}" data-dtend="{{ event_end }}">{% include icons/calendar-plus-o.svg %}&nbsp;&nbsp;Add to Calendar (.ics)</button>
+      <a class="button compact" target="_blank" rel="noopener" href="https://www.google.com/calendar/render?action=TEMPLATE&{{ googleCalendarLink }}">
+      {% include icons/google_calendar.svg %}&nbsp;&nbsp;Add to Google Calendar</a>
+    </div>
   </div>
 </header>

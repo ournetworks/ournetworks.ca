@@ -247,7 +247,7 @@
 
   > .container {
 
-    p {
+    > p {
       max-width: 75%;
 
       @media (max-width: $content-width) {
