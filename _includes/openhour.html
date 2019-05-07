@@ -1,0 +1,20 @@
+{% capture event_title %}{{ call.title }}{% endcapture %}
+{% capture event_start %}{{ call.date | date: "%Y%m%d" }}T{{ call.startTime | date:"%H%M%S" }}{% endcapture %}
+{% capture event_end %}{{ call.date | date: "%Y%m%d" }}T{{ call.endTime | date:"%H%M%S" }}{% endcapture %}
+{% capture event_location %}{{ call.location }}{% endcapture %}
+{% capture event_description %}{{ call.text | strip }} For details: {{ call.url|strip | prepend: site.url }}{% endcapture %}
+
+{% capture googleCalendarLink %}text={{ event_title | url_encode }}&location={{ event_location | url_encode }}&dates={{ event_start }}/{{ event_end }}&details={{ event_description | url_encode }}&ctz=America/Toronto&sf=true&output=xml{% endcapture %}
+
+<header>
+  <h4 class="event-title heading">{% if call.url %}<a href="{% if call.redirect_to %}{{ call.redirect_to }}{% else %}{{ call.url }}{% endif %}">{% endif %}{{ call.title }}{% if call.url %}</a>{% endif %}</h4>
+  <div class="event-time-location">
+    <div class="event-meta">
+      {% include icons/calendar-o.svg %}
+      <p class="event-meta-item">{{ call.date | date: "%-d %B %Y" }}, <strong>{{ call.startTime | date:"%-I:%M%P" }} – {{call.endTime | date:"%-I:%M%P"}}</strong></p></div>
+    <button download="call.ics" class="compact event-add-button" data-location="{{ event_location }}" data-summary="{{ event_title }}" data-description="{{ event_description }}" data-dtstart="{{ event_start }}" data-dtend="{{ event_end }}">{% include icons/calendar-plus-o.svg %}&nbsp;&nbsp;Add to Calendar (.ics)</button>
+    <a class="button compact" target="_blank" rel="noopener" href="https://www.google.com/calendar/render?action=TEMPLATE&{{ googleCalendarLink }}">
+      {% include icons/google_calendar.svg %}&nbsp;&nbsp;Add to Google Calendar
+    </a>
+  </div>
+</header>
