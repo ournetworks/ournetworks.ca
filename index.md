@@ -35,7 +35,11 @@ _Please note: first time GitHub users will need to [create a free account](https
 
 ### Who can submit?
 
-Anyone interested in how we can build emancipatory communications infrastructures! Our Networks is excited for sessions that centre the voices of those that are marginalized or less often heard at technical events. We especially encourage those speaking for the first time to submit and we are happy to help you workshop a proposal in one of our open hours or by email.
+Anyone interested in how we can build better online futures!
+
+Our Networks is excited for sessions that centre the voices of those less often heard at technical events. We encourage BIPOC and LGBTQ2S folks to lead sessions and acknowledge the multiple marginalizations those with intersecting identities face. For 2019 we are also seeking to support those voices ~~in their preferred language~~ if you are interested in leading a session in a language other than English please indicate so in your submission.
+
+We want to provide a welcoming space for those speaking for the first time and the co-organizers are happy to help workshop a proposal during an open hour or by email.
 
 ### Not sure? Ask us!
 
