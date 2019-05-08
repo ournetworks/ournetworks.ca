@@ -12,7 +12,7 @@
     <div class="event-meta">
       <p class="event-meta-item">
         {{ call.date | date: "%-d %B %Y" }}<br>
-        <strong>{{ call.startTime | date:"%-I:%M%P" }} – {{call.endTime | date:"%-I:%M%P"}} EDT</strong>
+        {{ call.startTime | date:"%-I:%M%P" }} – {{call.endTime | date:"%-I:%M%P"}} EDT
       </p>
     </div>
     <div class="event-add">
