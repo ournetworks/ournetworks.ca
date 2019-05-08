@@ -1,6 +1,5 @@
 // Lists
 
-ol,
 ul {
   margin-top: 0;
   list-style-type: disc;
@@ -9,13 +8,9 @@ ul {
   margin-bottom: $base-margin-bottom;
 }
 
-ol {
-  list-style: decimal;
-}
 
 li {
-  > ul,
-  > ol {
+  > ul {
     margin: 0 0 $base-margin-bottom;
     padding-left: $spacing-unit;
   }
