@@ -1,4 +1,4 @@
-{% capture event_title %}{{ call.title }}{% endcapture %}
+{% capture event_title %}{{ call.title }} ({{ site.title }}){% endcapture %}
 {% capture event_start %}{{ call.date | date: "%Y%m%d" }}T{{ call.startTime | date:"%H%M%S" }}{% endcapture %}
 {% capture event_end %}{{ call.date | date: "%Y%m%d" }}T{{ call.endTime | date:"%H%M%S" }}{% endcapture %}
 {% capture event_location %}{{ call.location }}{% endcapture %}
