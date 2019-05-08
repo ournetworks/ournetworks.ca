@@ -48,8 +48,8 @@ button.button-primary:focus {
 
 .compact {
   font-size: 0.85em;
+  line-height: 1.5em;
   padding: 5px 10px;
-  vertical-align: top;
 
   @media screen and (max-width: $on-palm) {
     margin: 0 0 10px;

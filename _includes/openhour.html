@@ -10,7 +10,10 @@
   <h4 class="event-title heading">{% if call.url %}<a href="{% if call.redirect_to %}{{ call.redirect_to }}{% else %}{{ call.url }}{% endif %}">{% endif %}{{ call.title }}{% if call.url %}</a>{% endif %}</h4>
   <div class="event-time-location">
     <div class="event-meta">
-      <p class="event-meta-item">{{ call.date | date: "%-d %B %Y" }}, <strong>{{ call.startTime | date:"%-I:%M%P" }} – {{call.endTime | date:"%-I:%M%P"}} EDT</strong></p>
+      <p class="event-meta-item">
+        {{ call.date | date: "%-d %B %Y" }}<br>
+        <strong>{{ call.startTime | date:"%-I:%M%P" }} – {{call.endTime | date:"%-I:%M%P"}} EDT</strong>
+      </p>
     </div>
     <div class="event-add">
       <button download="call.ics" class="compact event-add-button" data-location="{{ event_location }}" data-summary="{{ event_title }}" data-description="{{ event_description }}" data-dtstart="{{ event_start }}" data-dtend="{{ event_end }}">{% include icons/calendar-plus-o.svg %}&nbsp;&nbsp;Add to Calendar (.ics)</button>

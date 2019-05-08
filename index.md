@@ -23,7 +23,7 @@ We are inviting proposals for talks, workshops, discussions, demonstrations, art
 
 ### Format
 
-This year will have a mix of scheduled and open space, as well as room for screenings, a zine library, and an art exhibition. We are inviting proposals to give a talk, lead a discussion, facilitate a workshop, or exhibit artwork that responds to the theme of RE: Infrastructures—we also encourage experimental proposals that don’t fit cleanly into these categories or may use the space in unexpected, or durational ways.
+This year will have a mix of scheduled and open space, as well as room for screenings, a zine library, and an art exhibition. We are inviting proposals to give a talk, lead a discussion, facilitate a workshop, or exhibit artwork that responds to the theme of _RE: Infrastructures_—we also encourage experimental proposals that don’t fit cleanly into these categories or may use the space in unexpected, or durational ways.
 
 ### Submission Deadlines
 
@@ -35,7 +35,7 @@ Submissions should follow our [template](https://github.com/ournetworks/2019-sub
 
 <small>_Please note: first time GitHub users will need to [create a free account](https://github.com/join) before they can [open an issue](https://help.github.com/articles/creating-an-issue/)._</small>
 
-### Who can submit?
+### Who Can Submit?
 
 Anyone interested in how we can build better online futures!
 
@@ -43,7 +43,7 @@ Our Networks is excited for sessions that centre the voices of those less often 
 
 We want to provide a welcoming space for those speaking for the first time and the co-organizers are happy to help workshop a proposal during an open hour or by email.
 
-### Not sure? Ask us!
+### Not Sure? Ask Us!
 
 We have four open hours for people to ask questions and workshop potential proposals and discuss the conference. No prior registration needed, just visit: [https://meet.jit.si/ournetworks](https://meet.jit.si/ournetworks).
 
