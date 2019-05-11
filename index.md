@@ -29,9 +29,9 @@ This year will have a mix of scheduled and open space, as well as room for scree
 
 The deadline for proposals is **July 1, 2019**.
 
-Submissions should follow our [template](https://github.com/ournetworks/2019-submissions/blob/master/.github/ISSUE_TEMPLATE/submission.md) and be [**submitted as a GitHub issue**](https://github.com/ournetworks/2019-submissions/issues/new) in our submissions repository. There will be additional opportunities closer to the event to sign up for short talks and to help shape activities, we encourage you to sign up for updates in order to keep in the loop.
+Submissions should follow our template and be [**submitted as a GitHub issue**](https://github.com/ournetworks/2019-submissions/issues/new/choose) in our submissions repository. There will be additional opportunities closer to the event to sign up for short talks and to help shape activities, we encourage you to sign up for updates in order to keep in the loop.
 
-[Submit Your Proposal](https://github.com/ournetworks/2019-submissions/issues/new){:.button.button-primary}
+[Submit Your Proposal](https://github.com/ournetworks/2019-submissions/issues/new/choose){:.button.button-primary}
 
 <small>_Please note: first time GitHub users will need to [create a free account](https://github.com/join) before they can [open an issue](https://help.github.com/articles/creating-an-issue/)._</small>
 
