@@ -39,7 +39,7 @@ Submissions should follow our [template](https://github.com/ournetworks/2019-sub
 
 Anyone interested in how we can build better online futures!
 
-Our Networks is excited for sessions that centre the voices of those less often heard at technical events. We encourage BIPOC and LGBTQ2S folks to lead sessions and acknowledge the multiple marginalizations those with intersecting identities face. For 2019 we are also seeking to support those voices ~~in their preferred language~~ if you are interested in leading a session in a language other than English please indicate so in your submission.
+Our Networks is excited for sessions that centre the voices of those less often heard at technical events. We encourage BIPOC and LGBTQ2S folks to lead sessions and acknowledge the multiple marginalizations those with intersecting identities face. For 2019 we are also seeking to support people in their preferred language. If you are interested in leading a session in a language other than English please indicate so in your submission.
 
 We want to provide a welcoming space for those speaking for the first time and the co-organizers are happy to help workshop a proposal during an open hour or by email.
 
