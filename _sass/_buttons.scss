@@ -5,7 +5,7 @@ button {
   display: inline-flex;
   align-items: baseline;
   padding: 1em 2em 1em;
-  color: #555;
+  color: #222;
   text-align: center;
   font-family: $base-font-family;
   font-weight: normal;
@@ -15,6 +15,7 @@ button {
   border: 1px solid #bbb;
   cursor: pointer;
   line-height: 1em;
+  border-radius: .25em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: background 200ms ease-in-out, border-color 200ms ease-in-out;
@@ -24,7 +25,7 @@ button {
 button:hover,
 .button:focus,
 button:focus {
-  color: #333;
+  color: #000;
   border-color: #888;
   text-decoration: none;
 }
@@ -47,8 +48,8 @@ button.button-primary:focus {
 
 .compact {
   font-size: 0.85em;
-  padding: 10px 20px;
-  vertical-align: top;
+  line-height: 1.5em;
+  padding: 5px 10px;
 
   @media screen and (max-width: $on-palm) {
     margin: 0 0 10px;

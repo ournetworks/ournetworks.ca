@@ -1,13 +1,23 @@
-- title: "Submission Open Hour #1"
-  location: appear.in/ournetworks
-  locationLink: https://appear.in/ournetworks
-  date: 2018-03-24
+- title: "Open Hour #1"
+  location: https://meet.jit.si/ournetworks
+  date: 2019-05-21
+  startTime: '16:00'
+  endTime: '17:00'
+
+- title: "Open Hour #2"
+  location: https://meet.jit.si/ournetworks
+  date: 2019-06-01
   startTime: '12:00'
   endTime: '13:00'
 
-- title: "Submission Open Hour #2"
-  location: appear.in/ournetworks
-  locationLink: https://appear.in/ournetworks
-  date: 2018-04-17
+- title: "Open Hour #3"
+  location: https://meet.jit.si/ournetworks
+  date: 2019-09-03
   startTime: '20:00'
   endTime: '21:00'
+
+- title: "Open Hour #4"
+  location: https://meet.jit.si/ournetworks
+  date: 2019-09-09
+  startTime: '11:00'
+  endTime: '12:00'
