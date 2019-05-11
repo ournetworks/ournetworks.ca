@@ -18,7 +18,7 @@ We are inviting proposals for talks, workshops, discussions, demonstrations, art
 - Practices of reparative networking
 - Remediation practices for communication infrastructures
 - Uncooptable computing reconfigurations
-- New relations while refusing bad ones
+- Reconstructing technology after refusal
 - Regenerative approaches that resist status quo tech
 
 ### Format
