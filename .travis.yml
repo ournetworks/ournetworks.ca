@@ -7,8 +7,20 @@ before_install:
   # See: https://docs.travis-ci.com/user/encrypting-files/#Automated-Encryption
   - if [ "$TRAVIS_SECURE_ENV_VARS" == true ]; then openssl aes-256-cbc -K $encrypted_a3d58fa41b45_key -iv $encrypted_a3d58fa41b45_iv -in scripts/id_rsa.enc -out scripts/id_rsa -d; fi
   - if [ "$TRAVIS_SECURE_ENV_VARS" == true ]; then chmod 400 scripts/id_rsa; fi
+  # Bundler 2.0 support
+  # See: https://docs.travis-ci.com/user/languages/ruby/#bundler-20
+  - gem update --system
+  - gem install bundler
+  # Install NVM with Dat via npm
+  - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+  - nvm install 10.15.3
+  - npm i -g dat
 
-before_script: bundle exec jekyll build
+before_script:
+  # Clone/Initialize Dat archive
+  - travis_wait 1 dat clone $(head -n 1 .well-known/dat) ./_site --exit
+  # Build Jekyll site
+  - bundle exec jekyll build
 
 addons:
   apt:
@@ -18,6 +30,7 @@ addons:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - secure: W+efUYD4tc4FTUQSVquUtUkdFjjfXUQ0OPal9MEPJyW98VepzxGz7wtdSlmK+c+fGmrAiiDl42hMMFMbw53SEeCRym9pp/hntVWzsPsyJNwKn6id/IJpCExiMksfkFnVsVrIb7MdskXFUv0NU3pK87vsojrMs3ya6YtKWRtDcIM15qWgMNydA6OcAO5loxQwhPTDpGuZ/toNqyuru1atD30HpdVQS6FKuR4ZQ8uqhITHZ42OS4P2693JX7IdR+jWDPJcAL6MiAI1OOnbFlPgcnCsXH8RU3lSdK2qFPqeeeS5pVeP3Swp+fyxxT3bVD75HbXuDZW4GIBMNBVI7zDxn52eZHIfEhjJfuclysAeWmlPUPl1dkzXOva1ERglIQQvvMAxGZdcP2gbHMu3dQJnEqelSAZvLbG11ylhP5ZvGqZe+AQA7P8KzDBxH24fg482U1D1pq26OQIajXSVzuHGjXTI2bLPi5cbv6T7f+XevYcWeakH1jzsEv4mBy32WmA0vZU+22d8ROzK3syM0tnedXqHU64vh77zA1iDSGEGPsfyX1Tcp8Y+btelGniFq4iSZcmAfbxZBYravlwPnmbC27HKTZl17hPUfe81aSWrzi5r4FBjOrm5FBplImxUQfMJpQm/YQKqXXAZknVGG3B3PP5FcDr0ZyLMAjmuQ/ClAX0=
 
 cache: bundler
 
@@ -32,6 +45,11 @@ deploy:
   on:
     branch:
       - master
+
+after_deploy:
+  - cd _site
+  - echo $DATKEY | dat keys import
+  - travis_wait 1 dat sync --no-watch || travis_terminate 0
 
 notifications:
   email:
