@@ -1,10 +1,10 @@
 // Typography Variables
 
-$base-font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+$base-font-family: nimbus sans l,helvetica neue,arial,sans-serif;
 $base-font-size: 16px;
 $base-font-weight: normal;
 $small-font-size: $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.45;
 $base-heading-line-height: 1.2;
 $base-margin-bottom: 1em;
 
@@ -16,13 +16,19 @@ $mono-font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospa
 
 $text-color: #111;
 $background-color: #fff;
-$background-accent: #eee;
-$accent-color: #4285f4;
+$background-accent: #fff;
+
+// Safety Orange
+
+$accent-color: #FF3F00;
+
+// RGB Yellow
+
+$yellow: #FFE100;
 
 $white: #fff;
 $black: #000;
 $grey-color: #666;
-$grey-color-light: lighten($grey-color, 50%);
 
 $grey-color-table-borders: rgba($black, 0.1);
 

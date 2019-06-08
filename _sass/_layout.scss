@@ -1,10 +1,8 @@
 // Grid
 
 .container {
-  position: relative;
-  width: 100%;
   max-width: $content-width;
-  margin: 0 auto;
+  margin: 0 40px;
   padding: 0 20px;
   box-sizing: border-box;
 }
@@ -18,7 +16,6 @@
 /* For devices larger than 320px */
 @media (min-width: 320px) {
   .container {
-    width: 85%;
     padding: 0;
   }
 }

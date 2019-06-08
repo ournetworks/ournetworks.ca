@@ -5,17 +5,16 @@ button {
   display: inline-flex;
   align-items: baseline;
   padding: 1em 2em 1em;
-  color: #222;
+  color: $black;
   text-align: center;
   font-family: $base-font-family;
-  font-weight: normal;
+  font-weight: bold;
   text-decoration: none;
   white-space: nowrap;
-  background-color: transparent;
-  border: 1px solid #bbb;
+  background-color: $yellow;
+  border: 3px solid $accent-color;
   cursor: pointer;
   line-height: 1em;
-  border-radius: .25em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: background 200ms ease-in-out, border-color 200ms ease-in-out;
@@ -26,15 +25,13 @@ button:hover,
 .button:focus,
 button:focus {
   color: #000;
-  border-color: #888;
   text-decoration: none;
 }
 
 .button.button-primary,
 button.button-primary {
-  color: $white;
-  background-color: $black;
-  border-color: $black;
+  border-width: 7px;
+  background-color: $yellow;
 }
 
 .button.button-primary:hover,

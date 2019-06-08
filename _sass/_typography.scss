@@ -12,16 +12,17 @@ h6 {
 }
 
 h1 {
-  font-size: 2.18rem;
+  font-size: 10rem;
+  line-height: 1em;
 }
 
 h2 {
-  font-size: 1.81rem;
+  font-size: 5rem;
 }
 
 h3 {
   margin-top: 1em;
-  font-size: 1.56rem;
+  font-size: 2rem;
 }
 
 h4 {
@@ -76,7 +77,6 @@ p {
   background: $background-accent;
   height: 18em;
   overflow: auto;
-  border-radius: 5px;
   &::-webkit-scrollbar {
     width: 5px;
     background-color: transparent;

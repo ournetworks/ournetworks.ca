@@ -9,7 +9,6 @@
   position: fixed;
   z-index: 100;
   top: 0;
-  transition: background 100ms ease-in-out;
 
   @media (max-width: $on-palm) {
     background: $white;
@@ -20,11 +19,13 @@
 
   > .container {
     display: flex;
-    padding: 1.75em 0 1em;
+    width: 100%;
+    max-width: unset;
+    padding: 1.75em 40px 1em;
+    margin: 0;
     align-items: center;
     flex-wrap: wrap;
     position: relative;
-    transition: padding 200ms ease-in-out;
 
     @media (max-width: $on-palm) {
       padding: 1em 0;
@@ -79,7 +80,7 @@
     box-shadow: 0 2px 0 0 rgba($black, 0.05);
 
     > .container {
-      padding: 1em 0;
+      padding: 1em inherit;
     }
   }
 
@@ -126,7 +127,6 @@ input[type="checkbox"].menu-btn {
   top: 0.75em;
   right: 0;
   border: 1px solid #d1d1d1;
-  border-radius: .25em;
   padding: 0.5em 1em 0.5em 1em;
   font-size: 0.85em;
   margin: 0;
@@ -141,7 +141,7 @@ input[type="checkbox"].menu-btn {
 
 .logo {
   display: block;
-  width: 156px;
+  width: 120px;
   height: auto;
 
   @media (max-width: $on-palm) {
@@ -160,10 +160,6 @@ input[type="checkbox"].menu-btn {
   list-style: none;
   background: $white;
   box-shadow: 0 3px 0 0 rgba($black, 0.1);
-
-  li:first-child {
-    padding-top: 5px;
-  }
 
   a {
     display: block;
