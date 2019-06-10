@@ -36,8 +36,8 @@
       <h5 class="session-heading-small">Watch elsewhere:</h5>
       {%- if session.ipfs720 or session.ipfs1080 or session.youtube -%}
         <ul class="video-links">
-         {%- if session.ipfs720 -%}<li class="video-links-item"><a href="https://ipfs.infura.io/ipfs/{{ session.ipfs720 }}" target="_blank" rel="noopener">{% include icons/ipfs.svg %}&nbsp;<code>[&nbsp;720p]</code>ipfs://{{ session.ipfs720 }}</a></li>{%- endif -%}
-         {%- if session.ipfs1080 -%}<li class="video-links-item"><a href="https://ipfs.infura.io/ipfs/{{ session.ipfs1080 }}" target="_blank" rel="noopener">{% include icons/ipfs.svg %}&nbsp;<code>[1080p]</code>ipfs://{{ session.ipfs1080 }}</a></li>{%- endif -%}
+         {%- if session.ipfs720 -%}<li class="video-links-item"><a href="{{ site.ipfs_gateway }}/{{ session.ipfs720 }}" target="_blank" rel="noopener">{% include icons/ipfs.svg %}&nbsp;<code>[&nbsp;720p]</code>ipfs://{{ session.ipfs720 }}</a></li>{%- endif -%}
+         {%- if session.ipfs1080 -%}<li class="video-links-item"><a href="{{ site.ipfs_gateway }}/{{ session.ipfs1080 }}" target="_blank" rel="noopener">{% include icons/ipfs.svg %}&nbsp;<code>[1080p]</code>ipfs://{{ session.ipfs1080 }}</a></li>{%- endif -%}
          {%- if session.youtube -%}<li class="video-links-item"><a href="https://youtu.be/{{ session.youtube }}" target="_blank" rel="noopener">{% include icons/youtube.svg %}&nbsp;youtu.be/{{ session.youtube }}</a></li>{%- endif -%}
         </ul>
       {%- endif -%}
