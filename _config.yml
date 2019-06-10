@@ -14,6 +14,7 @@ permalink: pretty
 twitter_username:
 github_username: ournetworks
 social_image: /images/social.png
+ipfs_gateway: https://ipfs.infura.io/ipfs
 
 # Build settings
 sass:
