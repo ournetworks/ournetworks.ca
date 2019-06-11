@@ -4,6 +4,7 @@
 
 @import "vendor/normalize";
 @import "vendor/video_js";
+@import "mixins";
 @import "fonts";
 @import "variables";
 @import "base";
@@ -14,6 +15,5 @@
 @import "icons";
 @import "lists";
 @import "announcements";
-@import "footer";
 @import "videos";
 @import "live_stream_embed";

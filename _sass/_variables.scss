@@ -22,6 +22,14 @@ $background-accent: #fff;
 
 $accent-color: #FF3F00;
 
+.color-safety-orange {
+  color: $accent-color;
+}
+
+.bg-safety-orange {
+  background: $accent-color;
+}
+
 // RGB Yellow
 
 $yellow: #FFE100;

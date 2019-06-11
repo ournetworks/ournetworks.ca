@@ -29,6 +29,8 @@
 
     @media (max-width: $on-palm) {
       padding: 1em 0;
+      width: unset;
+      margin: 0 40px;
       display: block;
     }
   }
