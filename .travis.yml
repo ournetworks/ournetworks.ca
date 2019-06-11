@@ -51,7 +51,7 @@ after_deploy:
   - bundle exec jekyll build
   - cd _site
   - echo $DATKEY | dat keys import
-  - travis_wait 1 dat sync || travis_terminate 0
+  - travis_wait 1 dat sync &> /dev/null || travis_terminate 0
 
 notifications:
   email:
