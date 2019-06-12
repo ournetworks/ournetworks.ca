@@ -28,3 +28,17 @@ Unless otherwise indicated, State of Our Networks **content and documentation** 
 - We auto-deploy `master` branch to
   [`ournetworks.ca`](https://ournetworks.ca) via Travis CI.
   (See [`.travis.yml`](https://github.com/ournetworks/ournetworks.ca/blob/master/.travis.yml#L22-L30))
+
+### Deploying to Dat
+
+Ournetworks.ca is avaliable on [Dat](https://dat.foundation/) and can be visited via [Beaker Browser](https://beakerbrowser.com/):
+- `dat://60dc69e10f16dcf395d07491e62ad1eb9fd6f4a7954850b6c31d27076bb1598f/`
+- `dat://ournetworks.ca/`
+
+Generally, the following steps occur in Travis CI as updates are commited, or merged, into `master` branch:
+- Install Dat command line tool: `npm install -g dat`
+- Clone Dat archive: `dat clone [dat address] [destination folder] --exit`
+- Build site (via Jekyll): `bundle exec jekyll build`
+- `cd [destination folder]`
+- Import the archive's secret key: `dat keys import`
+- Update archive: `dat sync`
