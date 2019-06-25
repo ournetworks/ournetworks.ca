@@ -4,7 +4,6 @@
   max-width: $content-width;
   margin: 0 40px;
   padding: 0 20px;
-  box-sizing: border-box;
 }
 
 .container-full-width {
@@ -12,13 +11,22 @@
 }
 
 .columns {
-  width: 100%;
   float: left;
-  box-sizing: border-box;
 }
 
 // Spacing helper classes
 
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-25 {
+  width: 25%;
+}
 
 // Padding
 

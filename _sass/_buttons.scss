@@ -12,7 +12,7 @@ button {
   text-decoration: none;
   white-space: nowrap;
   background-color: $yellow;
-  border: 3px solid $accent-color;
+  border: 0;
   cursor: pointer;
   line-height: 1em;
   -webkit-font-smoothing: antialiased;
@@ -32,7 +32,7 @@ button:focus {
 
 .button.button-primary,
 button.button-primary {
-  border-width: 7px;
+  border: 7px solid $accent-color;
   background-color: $yellow;
 }
 
