@@ -73,6 +73,19 @@ p {
   @include fluid-type(320px,1980px,16px,30px);
 }
 
+// Footer
+
+.footer {
+  a {
+    color: $black;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+}
+
 // Posts title
 
 .post-header {

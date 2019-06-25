@@ -17,14 +17,16 @@ button {
   line-height: 1em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  transition: background 200ms ease-in-out, border-color 200ms ease-in-out;
+  transition: background 150ms ease-in-out, border-color 150ms ease-in-out, color 150ms ease-in-out;
 }
 
 .button:hover,
 button:hover,
 .button:focus,
 button:focus {
-  color: #000;
+  color: $white;
+  background-color: $accent-color;
+  border-color: $accent-color;
   text-decoration: none;
 }
 
@@ -39,8 +41,8 @@ button.button-primary:hover,
 .button.button-primary:focus,
 button.button-primary:focus {
   color: $white;
-  background-color: lighten($black, 20%);
-  border-color: lighten($black, 20%);
+  background-color: $accent-color;
+  border-color: $accent-color;
 }
 
 .compact {

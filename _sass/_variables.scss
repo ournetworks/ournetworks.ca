@@ -22,11 +22,11 @@ $background-accent: #fff;
 
 $accent-color: #FF3F00;
 
-.color-safety-orange {
+.color-accent {
   color: $accent-color;
 }
 
-.bg-safety-orange {
+.bg-accent {
   background: $accent-color;
 }
 
@@ -34,11 +34,31 @@ $accent-color: #FF3F00;
 
 $yellow: #FFE100;
 
-$white: #fff;
-$black: #000;
-$grey-color: #666;
+// White
 
-$grey-color-table-borders: rgba($black, 0.1);
+$white: #fff;
+
+.color-white {
+  color: $white;
+}
+
+// Black
+
+$black: #000;
+
+.color-black {
+  color: $black;
+}
+
+// Grey
+
+$grey: #666;
+
+.color-grey {
+  color: $grey;
+}
+
+$grey-table-borders: rgba($black, 0.1);
 
 // Content Layout Variables
 

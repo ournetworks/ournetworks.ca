@@ -22,6 +22,10 @@
 
 // Padding
 
+.pt-m {
+  padding-top: 3em;
+}
+
 .pb-m {
   padding-bottom: 3em;
 }
@@ -152,7 +156,6 @@
   padding-top: 120px;
   margin-bottom: 2em;
   padding-bottom: 2em;
-  background: $background-accent;
 }
 
 // Notices
