@@ -21,7 +21,7 @@ Our Networks organizers have hosted civic tech events and community networks wor
 
 **Benedict Lau**{:#benhylau} is an engineer working on mobile software and mesh networks. He is a contributor and organizer at [Toronto Mesh](https://tomesh.net/), currently focused on meshing with single-board computers and building deployment tools and literacy around peer-to-peer applications.
 
-<ul class="bio-sm-list">
+<ul class="flex flex-wrap p-0 bio-sm-list">
  <li class="bio-sm-list-item"><a href="http://www.groundupworks.com/" target="_blank" rel="noopener" data-proofer-ignore>{% include icons/link.svg %}&nbsp;groundupworks.com </a></li>
  <li class="bio-sm-list-item"><a href="https://twitter.com/LauBenedict" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@LauBenedict</a></li>
  <li class="bio-sm-list-item"><a href="https://github.com/benhylau" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;benhylau</a></li>
@@ -29,7 +29,7 @@ Our Networks organizers have hosted civic tech events and community networks wor
 
 **Dawn Walker**{:#dawn} is a researcher and PhD student at the University of Toronto focused on participatory design tactics for building environmental civic technologies. She also imagines possibilities for grassroots and decentralized (environmental) data with [EDGI](https://envirodatagov.org/) and [Data Together](https://datatogether.org/){:data-proofer-ignore=''}. A keen urban agriculturalist, Dawn would rather be in the garden.
 
-<ul class="bio-sm-list">
+<ul class="flex flex-wrap p-0 bio-sm-list">
   <li class="bio-sm-list-item"><a href="http://dcwalker.ca" target="_blank" rel="noopener">{% include icons/link.svg %}&nbsp;dcwalker.ca</a></li>
   <li class="bio-sm-list-item"><a href="https://twitter.com/dcwalk_" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@dcwalk_</a></li>
   <li class="bio-sm-list-item"><a href="https://github.com/dcwalk" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;dcwalk</a></li>
@@ -37,7 +37,7 @@ Our Networks organizers have hosted civic tech events and community networks wor
 
 **Garry Ing**{:#garry} is a designer and technologist residing in Toronto, contributing to [Toronto Mesh](https://tomesh.net/). His previous work and collaborations has been with the Strategic Innovation Lab (sLab) at OCAD University, the Technologies for Aging Gracefully Lab at the University of Toronto, and Normative. He is a graduate of OCAD University, with a background in graphic design.
 
-<ul class="bio-sm-list">
+<ul class="flex flex-wrap p-0 bio-sm-list">
   <li class="bio-sm-list-item"><a href="https://garrying.com/" target="_blank" rel="noopener" data-proofer-ignore>{% include icons/link.svg %}&nbsp;garrying.com</a></li>
   <li class="bio-sm-list-item"><a href="https://twitter.com/garrying" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@garrying</a></li>
   <li class="bio-sm-list-item"><a href="https://github.com/garrying" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;garrying</a></li>
@@ -45,7 +45,7 @@ Our Networks organizers have hosted civic tech events and community networks wor
 
 **Sarah Friend**{:#sarah} is an artist and software engineer working at a large blockchain development studio. When not doing that, she creates games and other interactive experiences. Her practice more broadly explores the polar concerns of privacy and transparency and the political/environmental implications of technology. She is a proud Recurse Center alum, and has recently presented at the Montreal International Games Showcase, the MoneyLab program by the Institute for Networked Culture in London, and Transmediale Berlin.
 
-<ul class="bio-sm-list">
+<ul class="flex flex-wrap p-0 bio-sm-list">
   <li class="bio-sm-list-item"><a href="https://isthisa.com/" target="_blank" rel="noopener">{% include icons/link.svg %}&nbsp;isthisa.com</a></li>
   <li class="bio-sm-list-item"><a href="https://twitter.com/isthisanart_" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@isthisanart_</a></li>
   <li class="bio-sm-list-item"><a href="https://github.com/ana0" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;ana0</a></li>

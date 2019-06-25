@@ -23,7 +23,7 @@ Full archives of 2018 videos are available:
 
 {% assign sortedSessions = site.data.sessions | sort: 'title' %}
 
-<div class="row video-grid">
+<div class="row flex flex-wrap">
 {%- for session in sortedSessions -%}
   {%- if session.ipfs720 or session.ipfs1080 or session.youtube -%}
     {% include session-video.html %}

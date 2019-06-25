@@ -46,7 +46,7 @@ We want to provide a welcoming space for those speaking for the first time and t
 We have four open hours for people to ask questions and workshop potential proposals and discuss the conference. No prior registration needed, just visit: [https://meet.jit.si/ournetworks](https://meet.jit.si/ournetworks).
 
 <!-- Call section -->
-<section class="sections row events-grid">
+<section class="sections row events-grid flex flex-wrap">
   {% for call in site.data.calls %}
   <div class="five columns event">
     {% include openhour.html event="openhour" %}
