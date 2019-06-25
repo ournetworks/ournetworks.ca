@@ -11,8 +11,6 @@ redirect_from:
 How can these emerging **Infrastructures of ...** provide spaces to imagine<span class="word-spacer"></span>
 radically different futures, resist easy co-option by the forces of late-stage capitalism, and work in solidarity as plural networks seeking emancipatory change? To answer this we draw on insights from organizers, technologists, artists, and scholars to ensure the focus is not only on the technical aspects of infrastructure, but also the social and cultural. Their diverse perspectives suggest ways we can make space for livelihoods, solidarity, and survival; draw on history and place to bring our fullest imaginations to this moment; and open ways to think these questions together as we build transitional forms.
 
-{% include 2019-quotes.html %}
-
 We are inviting proposals for talks, workshops, discussions, demonstrations, art pieces, and interventions to explore this theme. Topics could include, but are in no way limited to:
 
 - Practices of reparative networking
