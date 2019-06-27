@@ -7,7 +7,6 @@
 .header {
   font-size: 0.85em;
   width: 100%;
-  position: fixed;
   z-index: 100;
   top: 0;
 
@@ -43,7 +42,7 @@
 
     &.active,
     &:hover {
-      color: rgba($black, 0.5);
+      color: $accent-color;
     }
 
     @media (max-width: $on-palm) {

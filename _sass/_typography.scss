@@ -34,7 +34,7 @@ h5 {
 }
 
 h6 {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 p {
@@ -71,6 +71,12 @@ p {
 
 .heading-3 {
   @include fluid-type(320px,1980px,16px,30px);
+}
+
+// Font-weight helpers
+
+.fw-bold {
+  font-weight: bold;
 }
 
 // Footer
