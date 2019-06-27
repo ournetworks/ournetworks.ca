@@ -1,0 +1,19 @@
+<div class="nav-vertical fixed">
+  <nav class="nav">
+    <ul class="menu flex">
+      {% assign currentTitle = page.title %}
+      {% assign current = page.url %}
+      {% assign sorted_pages = site.pages | sort: "order" %}
+        {% for page in sorted_pages %}
+           {% if page.order > 0 and page.parent == nil %}
+             <li class="nav-item-wrapper">
+               <a class="color-white flex fw-bold nav-item {% if current != '/' %}{% if page.url == current %}active{% endif %}{% endif %}"
+                  href="{% if page.content.size > 1 %}{{ page.url }}{% else %}#{% endif %}" aria-label="{{ page.title }}">
+                  {% if page.titleDisplay %}{{ page.titleDisplay }}{% else %}{% endif %}
+               </a>
+             </li>
+           {% endif %}
+      {% endfor %}
+    </ul> <!-- .nav -->
+  </nav>
+</div>

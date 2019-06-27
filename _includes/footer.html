@@ -1,5 +1,21 @@
+{% include nav-vertical.html %}
+
 <footer class="footer bg-accent pt-m pb-m fs-small">
   <div class="container container-full-width">
+
+    <div class="previous-editions flex flex-align-baseline">
+      <h6 class="mr-1">Previous Years:</h6>
+      <ul class="m-0 p-0 ls-none flex">
+        {% assign sorted_pages = site.pages | sort: "order" %}
+        {% for page in sorted_pages %}
+          {% if page.parent == "Previous Years" %}
+            <li class="m-0 mr-1"><a href="{% if page.redirect_to %}{{ page.redirect_to }}{% else %}{{ page.url }}{% endif %}" aria-label="{% if page.titleDisplay %}{{ page.titleDisplay }}{% else %}{{ page.title }}{% endif %}">{% if page.titleDisplay %}{{ page.titleDisplay }}{% else %}{{ page.title }}{% endif %}</a></li>
+          {% endif %}
+        {%- endfor -%}
+      </ul>
+    </div>
+
+    <hr class="dark mt-1 mb-1" />
 
     <p>Twitter > <a href="https://twitter.com/_ournetworks" target="_blank">@_ournetworks</a></p>
 
