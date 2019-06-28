@@ -62,11 +62,11 @@ p {
 }
 
 .heading-1 {
-  @include fluid-type(320px,1980px,18px,200px);
+  @include fluid-type(320px,1980px,30px,200px);
 }
 
 .heading-2 {
-  @include fluid-type(320px,1980px,18px,150px);
+  @include fluid-type(320px,1980px,30px,150px);
 }
 
 .heading-3 {
@@ -77,6 +77,10 @@ p {
 
 .fw-bold {
   font-weight: bold;
+}
+
+.fw-normal {
+  font-weight: normal;
 }
 
 // Footer
@@ -96,10 +100,6 @@ p {
 
 .post-header {
   margin-bottom: 1.2em;
-}
-
-.post-title {
-  margin-bottom: 0.25em;
 }
 
 // Typewriter theme effect
