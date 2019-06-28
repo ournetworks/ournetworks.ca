@@ -1,7 +1,5 @@
 // Announcements
 .announcement {
-  background-color: $black;
-  color: $background-accent;
 
   .container {
     padding-top: 1em;
@@ -24,7 +22,6 @@
   .close-banner {
     font-size: 1.5em;
     position: absolute;
-    color: $background-accent;
     border: 0;
     padding: 0;
     right: 0;
