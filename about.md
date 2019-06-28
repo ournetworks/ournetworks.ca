@@ -50,3 +50,7 @@ Our Networks organizers have hosted civic tech events and community networks wor
   <li class="bio-sm-list-item"><a href="https://twitter.com/isthisanart_" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@isthisanart_</a></li>
   <li class="bio-sm-list-item"><a href="https://github.com/ana0" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;ana0</a></li>
 </ul>
+
+###  Design
+
+Logo by [Marlo Yarlo](https://www.instagram.com/marloyarlo/). 2019 design concept by Amelia Zhang.
