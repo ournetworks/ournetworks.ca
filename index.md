@@ -56,12 +56,4 @@ We have four open hours for people to ask questions and workshop potential propo
 
 If you have any additional questions let us know at [orga@ournetworks.ca](mailto:orga@ournetworks.ca)!
 
----
-
-## Updates
-
-Want to receive an update when the conference program and registration launches?
-
-[Subscribe to our mailing list](https://lists.mayfirst.org/mailman/listinfo/ournetworks){:.button}{:target="_blank"}{:rel="noopener"}
-
 <script async src="/js/typing.js"></script>
