@@ -11,7 +11,7 @@
   }
 
   a {
-    color: $background-accent;
+    color: $color-black;
     text-decoration: underline;
 
     &:hover {
@@ -32,6 +32,6 @@
   }
 
   & + & {
-    box-shadow: inset 0 1px 0 0 $background-accent;
+    box-shadow: inset 0 1px 0 0 $color-black;
   }
 }
