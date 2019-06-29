@@ -121,3 +121,25 @@ document.addEventListener('click', function(){
 document.querySelector('.logo').addEventListener('focus', function(){
   blurSubMenu();
 })
+
+// text-mix
+
+const words = ['Regeneration', 'Renewal', 'Remediation', 'Repair', 'Refusal', 'Relation', 'Reproduction', 'Reenchantment', 'Resistance']
+
+function getRandomInt() {
+  return Math.floor(Math.random() * Math.floor(words.length));
+}
+
+let word1 = words[getRandomInt()]
+
+function getRandomWord() {
+  let word2 = getRandomInt()
+  if (word1 == word2) {
+    word2 = getRandomInt()
+  } else {
+    return word2
+  }
+}
+
+$("#word").textMix(word1, getRandomWord(), 0.5)
+

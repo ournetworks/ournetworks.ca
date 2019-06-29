@@ -56,4 +56,8 @@ We have four open hours for people to ask questions and workshop potential propo
 
 If you have any additional questions let us know at [orga@ournetworks.ca](mailto:orga@ournetworks.ca)!
 
-<script async src="/js/typing.js"></script>
+<script src="/js/jquery-3.4.1.min.js"></script>
+<script src="/js/jquery-ui.min.js"></script>
+<script src="/js/levenshtein.js"></script>
+<script src="/js/text-mix.min.js"></script>
+<script src="/js/jquery-text-mix.min.js"></script>
