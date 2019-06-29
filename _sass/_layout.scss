@@ -106,6 +106,10 @@
   margin-top: 1em;
 }
 
+.mt-2 {
+  margin-top: 2em;
+}
+
 .mb-1 {
   margin-bottom: 1em;
 }
@@ -118,6 +122,10 @@
   margin-right: 2em;
 }
 
+.ml-1 {
+  margin-left: 1em;
+}
+
 // For devices larger than 320px
 
 @media (min-width: 320px) {
@@ -125,7 +133,6 @@
     padding: 0;
   }
 }
-
 
 // Events
 .event {

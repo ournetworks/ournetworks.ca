@@ -42,6 +42,12 @@ p {
   margin-bottom: $base-margin-bottom;
 }
 
+// Font-family
+
+.mono {
+  font-family: $mono-font-family;
+}
+
 // Typography helper classes
 
 .fs-small {
@@ -111,13 +117,12 @@ p {
 }
 
 .typing {
-  color: rgba($text-color, 0.8);
-  font-family: $mono-font-family;
-  font-size: $small-font-size;
   line-height: 1.25em;
   background: transparent;
   height: 10em;
   overflow: auto;
+  max-width: $content-width;
+  border-bottom: 1px solid rgba($black, 0.1);
   &::-webkit-scrollbar {
     width: 5px;
     background-color: transparent;

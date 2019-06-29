@@ -1,26 +1,26 @@
 {% include nav-vertical.html %}
 
-<footer class="footer bg-accent pt-0 pb-m fs-small">
+<footer class="footer mono bg-accent pt-0 pb-m fs-small">
   <div class="container container-full-width">
     {% include 2019-quotes.html %}
 
-    <hr class="dark mt-0 mb-1" />
 
-    <div class="previous-editions flex flex-align-baseline">
-      <h6 class="mb-0 mr-1">Previous Years &gt;</h6>
+    <div class="previous-editions flex flex-align-baseline mt-1 mb-1">
+      <p class="mb-0 fw-normal">&gt;&gt; Previous Years &gt; </p>
       <ul class="m-0 p-0 ls-none flex">
         {% assign sorted_pages = site.pages | sort: "order" %}
         {% for page in sorted_pages %}
           {% if page.parent == "Previous Years" %}
-            <li class="m-0 mr-1"><a href="{% if page.redirect_to %}{{ page.redirect_to }}{% else %}{{ page.url }}{% endif %}" aria-label="{% if page.titleDisplay %}{{ page.titleDisplay }}{% else %}{{ page.title }}{% endif %}">{% if page.titleDisplay %}{{ page.titleDisplay }}{% else %}{{ page.title }}{% endif %}</a></li>
+            <li class="m-0 ml-1"><a href="{% if page.redirect_to %}{{ page.redirect_to }}{% else %}{{ page.url }}{% endif %}" aria-label="{% if page.titleDisplay %}{{ page.titleDisplay }}{% else %}{{ page.title }}{% endif %}">{% if page.titleDisplay %}{{ page.titleDisplay }}{% else %}{{ page.title }}{% endif %}</a></li>
           {% endif %}
         {%- endfor -%}
       </ul>
     </div>
 
-    <hr class="dark mt-1 mb-1" />
+    <p>&gt;&gt; Twitter &gt; <a href="https://twitter.com/_ournetworks" target="_blank">@_ournetworks</a></p>
 
-    <p>Twitter &gt; <a href="https://twitter.com/_ournetworks" target="_blank">@_ournetworks</a></p>
+        <p>&gt;&gt; Meetup &gt; <a href="https://www.meetup.com/p2p-and-dweb-toronto" target="_blank">Peer-to-peer and Decentralized Web Toronto</a></p>
+
 
     <p>Our Networks has a <a href="/code-of-conduct/">Code of Conduct</a>, for any conduct reports or concerns please email <a href="mailto:coc@ournetworks.ca">coc@ournetworks.ca</a>.</p>
 

@@ -18,8 +18,8 @@ Full archives of 2018 videos are available:
 
  We want to thank our A/V volunteers again, without whom the sharing of these videos would have been impossible: [Yurko](https://github.com/YurkoWasHere), [Henry Wilkinson](https://github.com/Shrinks99), [Elon Li](https://github.com/ASoTNetworks), and [Benedict Lau](https://github.com/benhylau).
 
-## Our Networks 2018 Videos
-{:.program-heading}
+### Our Networks 2018 Videos
+{:.mb-1.mt-2}
 
 {% assign sortedSessions = site.data.sessions | sort: 'title' %}
 
