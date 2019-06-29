@@ -13,8 +13,10 @@ function typingEffect () {
     };
     timer = setTimeout(loopTyping, 200)
   }
-  loopTyping()
-};
+  if (document.getElementById('word') != null) {
+    loopTyping()    
+  }
+}
 
 function deletingEffect () {
   let word = words[i].split("")
@@ -27,14 +29,14 @@ function deletingEffect () {
         i++
       } else {
         i = 0
-      };
+      }
       setTimeout(typingEffect, 1000)
       return false
-    };
+    }
     timer = setTimeout(loopDeleting, 150)
   }
   loopDeleting()
-};
+}
 
 function blockTyping () {
   const paragraphBlock = document.getElementsByClassName('typing')
@@ -46,9 +48,9 @@ function blockTyping () {
          paragraphBlock[0].scrollTop = i.offsetTop
       }
     }, 3100 * int)
-  });
+  })
 }
 
-// blockTyping()
+blockTyping()
 
 typingEffect()

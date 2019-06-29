@@ -115,11 +115,8 @@ p {
   font-family: $mono-font-family;
   font-size: $small-font-size;
   line-height: 1.25em;
-  padding: 1em;
-  margin: 2em 0;
-  width: 75%;
-  background: $background-accent;
-  height: 18em;
+  background: transparent;
+  height: 10em;
   overflow: auto;
   &::-webkit-scrollbar {
     width: 5px;
@@ -135,11 +132,6 @@ p {
     width: 100%;
   }
 
-  @media (max-width: $on-palm) {
-    width: 115%;
-    margin-left: -7%;
-    margin-right: -8%;
-  }
 
   p {
     display: none;
@@ -164,7 +156,7 @@ p {
 
   &:after {
     content: "";
-    height: 2em;
+    height: 1em;
     display: block;
   }
 }
