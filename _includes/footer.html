@@ -1,10 +1,13 @@
 {% include nav-vertical.html %}
 
-<footer class="footer bg-accent pt-m pb-m fs-small">
+<footer class="footer bg-accent pt-0 pb-m fs-small">
   <div class="container container-full-width">
+    {% include 2019-quotes.html %}
+
+    <hr class="dark mt-0 mb-1" />
 
     <div class="previous-editions flex flex-align-baseline">
-      <h6 class="mr-1">Previous Years:</h6>
+      <h6 class="mb-0 mr-1">Previous Years &gt;</h6>
       <ul class="m-0 p-0 ls-none flex">
         {% assign sorted_pages = site.pages | sort: "order" %}
         {% for page in sorted_pages %}
@@ -17,10 +20,11 @@
 
     <hr class="dark mt-1 mb-1" />
 
-    <p>Twitter > <a href="https://twitter.com/_ournetworks" target="_blank">@_ournetworks</a></p>
+    <p>Twitter &gt; <a href="https://twitter.com/_ournetworks" target="_blank">@_ournetworks</a></p>
 
     <p>Our Networks has a <a href="/code-of-conduct/">Code of Conduct</a>, for any conduct reports or concerns please email <a href="mailto:coc@ournetworks.ca">coc@ournetworks.ca</a>.</p>
 
     <p>This website content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a> license.</p>
   </div>
 </footer>
+<div class="striped-bg"></div>

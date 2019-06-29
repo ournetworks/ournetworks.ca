@@ -122,6 +122,23 @@ document.querySelector('.logo').addEventListener('focus', function(){
   blurSubMenu();
 })
 
+// block typing
+
+function blockTyping () {
+  const paragraphBlock = document.getElementsByClassName('typing')
+  const paragraphBlockEl = [...paragraphBlock[0].children]
+  paragraphBlockEl.map(function(i, int){
+    setTimeout(function(){
+      i.classList.add('visible')
+      if (window.matchMedia('(min-width: 736px)').matches) {
+        paragraphBlock[0].scrollTop = i.offsetTop
+      }
+    }, 3100 * int)
+  })
+}
+
+blockTyping()
+
 // text-mix
 
 const words = ['Regeneration', 'Renewal', 'Remediation', 'Repair', 'Refusal', 'Relation', 'Reproduction', 'Reenchantment', 'Resistance']

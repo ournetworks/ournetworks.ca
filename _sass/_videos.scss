@@ -1,18 +1,10 @@
 // Recorded talks videos
 
 .session-video-detail {
-  margin-right: 2%;
-  margin-bottom: 3%;
-  margin-left: 0%;
   border: 1px solid $grey-table-borders;
 
   .session-header {
     margin: 1em;
-  }
-
-  .session-title {
-    margin: 0;
-    font-size: 1.25em;
   }
 
   .session-heading-small {
@@ -25,7 +17,6 @@
 
   .video-overlay {
     position: absolute;
-    display: flex;
     width: 100%;
     height: 100%;
     justify-content: center;
@@ -52,10 +43,6 @@
 .video-links-container {
   padding-top: 1em;
   border-top: 1px solid $grey-table-borders;
-
-  .session-heading-small {
-    color: #757575;
-  }
 }
 
 .video-links {
