@@ -52,6 +52,10 @@
   justify-content: center;
 }
 
+.flex-justify-space-between {
+  justify-content: space-between;
+}
+
 // Spacing helper classes
 
 .w-100 {
@@ -59,11 +63,15 @@
 }
 
 .w-50 {
-  width: 50%;
+  width: calc(50% - 0.5em);
 }
 
 .w-25 {
   width: 25%;
+}
+
+.w-33 {
+  width: 33.3333333%;
 }
 
 // Padding
@@ -119,26 +127,6 @@
 @media (min-width: 320px) {
   .container {
     padding: 0;
-  }
-}
-
-// For devices larger than 550px
-
-@media (min-width: 550px) {
-  .columns {
-    margin-left: 4%;
-  }
-
-  .columns:first-child {
-    margin-left: 0;
-  }
-
-  .five.columns {
-    width: 39.3333333333%;
-  }
-
-  .six.columns {
-    width: 48%;
   }
 }
 
