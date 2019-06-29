@@ -4,6 +4,7 @@
   left: 0;
   background: $white;
   text-transform: uppercase;
+  z-index: 11;
   position: sticky;
 
   .nav-item {
@@ -13,13 +14,10 @@
     letter-spacing: 1px;
     transition: color 150ms ease-in-out;
 
+    &.active,
     &:hover {
       color: $accent-color;
       text-decoration: none;
-    }
-
-    &.active {
-      color: $accent-color;
     }
   }
 

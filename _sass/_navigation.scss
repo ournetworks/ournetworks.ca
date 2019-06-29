@@ -19,13 +19,11 @@
   }
 
   > .container {
-    display: flex;
     width: 100%;
     max-width: unset;
     padding: 1em 40px;
     margin: 0;
     align-items: center;
-    flex-wrap: wrap;
     position: relative;
 
     @media (max-width: $on-palm) {

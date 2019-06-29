@@ -1,7 +1,7 @@
   <header>
     <h4 class="event-title heading">{% if include.event.url %}<a href="{% if include.event.redirect_to %}{{ include.event.redirect_to }}{% else %}{{ include.event.url }}{% endif %}">{% endif %}{{ include.event.title }}{% if include.event.url %}</a>{% endif %}</h4>
     <div class="event-time-location">
-      <div class="event-meta">
+      <div class="event-meta flex">
         {% include icons/calendar-o.svg %}
         <p class="event-meta-item">{{ include.event.date | date: "%-d %B %Y" }}, {% if include.event-type == "upcoming" %}<strong>{% endif %}{{ include.event.startTime | date:"%-I:%M%P" }} – {{include.event.endTime | date:"%-I:%M%P"}}{% if include.event-type == "upcoming" %}</strong>{% endif %}</p></div>
       <div class="event-meta">
@@ -9,7 +9,7 @@
         <p class="event-meta-item">{% if include.event.locationLink %}<a href="{{ include.event.locationLink }}">{% endif %}{{ include.event.location }}{% if include.event.locationLink %}</a>{% endif %}</p></div>
     </div>
   </header>
-  <div class="event-add">
+  <div class="event-add flex">
     {% capture event_title %}{{ include.event.title }}{% endcapture %}
     {% capture event_start %}{{ include.event.date | date: "%Y%m%d" }}T{{ include.event.startTime | date:"%H%M%S" }}{% endcapture %}
     {% capture event_end %}{{ include.event.date | date: "%Y%m%d" }}T{{ include.event.endTime | date:"%H%M%S" }}{% endcapture %}
