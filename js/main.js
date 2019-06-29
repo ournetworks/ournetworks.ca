@@ -141,5 +141,9 @@ function getRandomWord() {
   }
 }
 
-$("#word").textMix(word1, getRandomWord(), 0.5)
+// textMix(newText, duration, easing, callback)
+
+$('#word').textMix(word1, 1000, 'linear', function(){
+  $('#word').textMix(words[getRandomWord()], 1000, 'linear')
+})
 
