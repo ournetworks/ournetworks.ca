@@ -12,14 +12,14 @@ We are a community-based and independently-organized event. As such, every littl
 - Any donations over $15<sup>*</sup> will receive buttons and stickers as a sign of our appreciation.
 - Donations over $30<sup>*</sup> will receive one of our 2018 Beyond DIY totes as well as other goodies.
 
-<div class="row">
-  <div class="six columns">
+<div class="flex flex-justify-space-between">
+  <div class="w-50">
     <figure>
       <img src="/images/swag/pins-stickers.png" alt="Buttons and stickers from 2018 Our Networks">
       <figcaption><p>Our Networks buttons and stickers.</p></figcaption>
     </figure>
   </div>
-  <div class="six columns">
+  <div class="w-50">
     <figure>
       <img src="/images/swag/tote-design.png" alt="Front of 2018 Our Networks Tote">
       <figcaption><p>Totes printed front and back with shoutouts to our sponsors.</p></figcaption>
