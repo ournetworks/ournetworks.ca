@@ -14,7 +14,7 @@ function typingEffect () {
     timer = setTimeout(loopTyping, 200)
   }
   if (document.getElementById('word') != null) {
-    loopTyping()    
+    loopTyping()
   }
 }
 
@@ -45,7 +45,7 @@ function blockTyping () {
     setTimeout(function(){
       i.classList.add('visible')
       if (window.matchMedia('(min-width: 736px)').matches) {
-         paragraphBlock[0].scrollTop = i.offsetTop
+        paragraphBlock[0].scrollTop = i.offsetTop
       }
     }, 3100 * int)
   })
