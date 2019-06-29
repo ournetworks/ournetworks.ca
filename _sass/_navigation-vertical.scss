@@ -2,24 +2,23 @@
   bottom: 0;
   right: 0;
   left: 0;
+  border-top: 1px solid rgba($black, 0.05);
   background: $white;
   text-transform: uppercase;
+  z-index: 11;
   position: sticky;
 
   .nav-item {
     position: relative;
-    color: #D6D6D6;
+    color: #666;
     padding: 0.5em 15px 0.5em 40px;
     letter-spacing: 1px;
     transition: color 150ms ease-in-out;
 
+    &.active,
     &:hover {
       color: $accent-color;
       text-decoration: none;
-    }
-
-    &.active {
-      color: $accent-color;
     }
   }
 

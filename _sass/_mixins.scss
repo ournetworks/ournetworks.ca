@@ -38,3 +38,18 @@
     -moz-text-stroke-width: .5px;
   }
 }
+
+// Stripe Gradient Mixin
+// Source: https://css-tricks.com/stripes-css/
+
+@mixin striped-bg($color, $color-secondary, $stripe-size) {
+    background: repeating-linear-gradient(
+      45deg,
+      $color,
+      $color 25%,
+      $color-secondary 25%,
+      $color-secondary 50%,
+      $color 50%
+    ) top left fixed;
+    background-size: $stripe-size $stripe-size;
+}
