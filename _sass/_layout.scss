@@ -228,6 +228,13 @@
   min-height: calc(100% - 8em - 172px);
 }
 
+// Stripe
+
+.striped-bg {
+  @include striped-bg($accent-color, $yellow, 20px);
+  height: 10px;
+}
+
 // Social Media Biography
 
 .bio-sm-list {
