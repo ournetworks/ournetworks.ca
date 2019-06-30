@@ -28,8 +28,8 @@
 // Source: a-b-z.co
 
 @mixin outline-text($color, $moz-fallback: $color) {
-  -webkit-text-stroke-width: 1px;
-  -moz-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1.5px;
+  -moz-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: $color;
   -moz-text-stroke-color: $color;
 
