@@ -147,7 +147,6 @@ function getRandomInt() {
   return Math.floor(Math.random() * Math.floor(words.length));
 }
 
-$('#word').innerHTML += 'Re'
 let word1 = words[getRandomInt()]
 $('#word').innerHTML += word1
 
@@ -164,4 +163,4 @@ function getRandomWord(word1) {
 
 window.setInterval(function() {
   $('#word').textMix(words[getRandomWord(word1)], 1000, 'linear')
-}, 2000);
+}, 2000)
