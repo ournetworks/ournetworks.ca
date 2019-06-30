@@ -5,7 +5,6 @@
 }
 
 .header {
-  font-size: 0.85em;
   width: 100%;
   z-index: 100;
   top: 0;
@@ -105,12 +104,12 @@ input[type="checkbox"].menu-btn {
   }
 
   &:checked ~ .menu-icon {
-    background: $black;
-    color: $white;
+    background: $accent-color;
+    border-color: $accent-color;
   }
 
   &:checked ~ .menu-icon:after {
-    content: 'Close';
+    content: 'CLOSE';
   }
 
   &:checked ~ .menu-icon span {
@@ -121,7 +120,7 @@ input[type="checkbox"].menu-btn {
 .menu-icon {
   display: none;
   position: absolute;
-  top: 0.75em;
+  top: 0.85em;
   right: 0;
   border: 1px solid #d1d1d1;
   padding: 0.5em 1em 0.5em 1em;

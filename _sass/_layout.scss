@@ -14,6 +14,10 @@
 
 // Grid
 
+.content-width {
+  max-width: $content-width; 
+}
+
 .container {
   max-width: $content-width;
   margin: 0 40px;
@@ -67,7 +71,11 @@
 }
 
 .w-33 {
-  width: 33.3333333%;
+  width: calc(33.3333333% - 0.5em);
+
+  @media (max-width: $on-palm) {
+    width: 100%;
+  }
 }
 
 // Padding
