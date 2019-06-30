@@ -19,10 +19,10 @@ _We are grateful to the [First Nations House](https://www.studentlife.utoronto.c
 
 Our Networks organizers have hosted civic tech events and community networks workshops, created network literacy materials, and built mesh networking software for the past two years.
 
-**Benedict Lau**{:#benhylau} is an engineer working on mobile software and mesh networks. He is a contributor and organizer at [Toronto Mesh](https://tomesh.net/), currently focused on meshing with single-board computers and building deployment tools and literacy around peer-to-peer applications.
+**Benedict Lau**{:#benhylau} is an engineer telling stories of technology practices that bring communities together. He studies distributed protocols and collective governance of digital infrastructures. When he isn't "on emails", he builds passable open source tools and facilitates activities about building peer-to-peer local networks as a way to co-imagine a future equitable web. He is a member of the Hypha Worker Co-operative and core contributor at [Toronto Mesh](https://tomesh.net).
 
 <ul class="flex flex-wrap p-0 bio-sm-list">
- <li class="bio-sm-list-item"><a href="http://www.groundupworks.com/" target="_blank" rel="noopener" data-proofer-ignore>{% include icons/link.svg %}&nbsp;groundupworks.com </a></li>
+ <li class="bio-sm-list-item"><a href="https://deprecated.systems" target="_blank" rel="noopener" data-proofer-ignore>{% include icons/link.svg %}&nbsp;deprecated.systems</a></li>
  <li class="bio-sm-list-item"><a href="https://twitter.com/LauBenedict" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@LauBenedict</a></li>
  <li class="bio-sm-list-item"><a href="https://github.com/benhylau" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;benhylau</a></li>
 </ul>
