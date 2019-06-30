@@ -6,11 +6,11 @@ This repository holds the source code and static assets of [ournetworks.ca](http
 
 Design concept and logo by [Marlo Yarlo](http://www.marloyarlo.com/).
 
-**State of Our Networks 2018** organizing materials and planning can be found in the [2018 planning repository](https://github.com/ournetworks/2018).
+**State of Our Networks 2019** organizing materials and planning can be found in the [2019 planning repository](https://github.com/ournetworks/2019).
 
 ## License & Copyright
 
-Copyright (C) 2018 garrying, dcwalk, patcon, sarah, benhylau
+Copyright (C) 2019 garrying, dcwalk, patcon, sarah, benhylau, eloisa
 
 Ournetworks.ca **code** at [ournetworks/ournetworks.ca](https://github.com/ournetworks/ournetworks.ca/) is licensed under a [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl.html). This program is free software: you can redistribute it and/or modify it under the terms of the [GNU General Public License](https://www.gnu.org/licenses/gpl.html) as published by the Free Software Foundation, version 3.0. A copy is distributed with the code at [`LICENSE.md`](./LICENSE.md).
 
