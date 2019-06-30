@@ -34,8 +34,8 @@
   -moz-text-stroke-color: $color;
 
   @media (max-width: $on-palm) {
-    -webkit-text-stroke-width: .5px;
-    -moz-text-stroke-width: .5px;
+    -webkit-text-stroke-width: 1px;
+    -moz-text-stroke-width: 1px;
   }
 }
 
