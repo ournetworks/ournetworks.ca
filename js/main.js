@@ -147,9 +147,11 @@ function getRandomInt() {
   return Math.floor(Math.random() * Math.floor(words.length));
 }
 
+$('#word').innerHTML += 'Re'
 let word1 = words[getRandomInt()]
+$('#word').innerHTML += word1
 
-function getRandomWord() {
+function getRandomWord(word1) {
   let word2 = getRandomInt()
   if (word1 == word2) {
     word2 = getRandomInt()
@@ -160,7 +162,6 @@ function getRandomWord() {
 
 // textMix(newText, duration, easing, callback)
 
-$('#word').textMix(word1, 1000, 'linear', function(){
-  $('#word').textMix(words[getRandomWord()], 1000, 'linear')
-})
-
+window.setInterval(function() {
+  $('#word').textMix(words[getRandomWord(word1)], 1000, 'linear')
+}, 2000);
