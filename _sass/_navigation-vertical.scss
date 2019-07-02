@@ -1,0 +1,49 @@
+.nav-vertical {
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-top: 1px solid rgba($black, 0.05);
+  background: $white;
+  text-transform: uppercase;
+  z-index: 11;
+  position: sticky;
+
+  .nav-item {
+    position: relative;
+    color: #444;
+    padding: 0.5em 15px 0.5em 40px;
+    letter-spacing: 1px;
+    transition: color 150ms ease-in-out;
+
+    &.active,
+    &:hover {
+      color: $accent-color;
+      text-decoration: none;
+    }
+  }
+
+  .nav-item-wrapper {
+    box-shadow: 0px 5px 16px 0 rgba($black, 0.1);
+    margin: 0;
+  }
+
+  ul ul .nav-item {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  ul ul .nav-item:after {
+    content: '>';
+    position: absolute;
+    left: -0.25em;
+    top: 5px;
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

@@ -42,9 +42,11 @@
   justify-content: center;
   align-items: center;
   border-width: 0;
+  background: transparent;
 
   &:hover,
   &:focus {
+    background: transparent;
     .button-label {
       text-decoration: underline;
     }

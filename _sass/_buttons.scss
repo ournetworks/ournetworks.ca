@@ -5,36 +5,35 @@ button {
   display: inline-flex;
   align-items: baseline;
   padding: 1em 2em 1em;
-  color: #222;
+  color: $black;
   text-align: center;
   font-family: $base-font-family;
-  font-weight: normal;
+  font-weight: bold;
   text-decoration: none;
   white-space: nowrap;
-  background-color: transparent;
-  border: 1px solid #bbb;
+  background-color: $yellow;
+  border: 0;
   cursor: pointer;
   line-height: 1em;
-  border-radius: .25em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  transition: background 200ms ease-in-out, border-color 200ms ease-in-out;
+  transition: background 150ms ease-in-out, border-color 150ms ease-in-out, color 150ms ease-in-out;
 }
 
 .button:hover,
 button:hover,
 .button:focus,
 button:focus {
-  color: #000;
-  border-color: #888;
+  color: $white;
+  background-color: $accent-color;
+  border-color: $accent-color;
   text-decoration: none;
 }
 
 .button.button-primary,
 button.button-primary {
-  color: $white;
-  background-color: $black;
-  border-color: $black;
+  border: 7px solid $accent-color;
+  background-color: $yellow;
 }
 
 .button.button-primary:hover,
@@ -42,8 +41,8 @@ button.button-primary:hover,
 .button.button-primary:focus,
 button.button-primary:focus {
   color: $white;
-  background-color: lighten($black, 20%);
-  border-color: lighten($black, 20%);
+  background-color: $accent-color;
+  border-color: $accent-color;
 }
 
 .compact {

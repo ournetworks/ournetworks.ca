@@ -10,7 +10,7 @@ function formSubmitCallback(formContextMsg) {
   var splashEle = document.querySelector('.splash');
   var postEle = document.querySelector('.post');
 
-  confirmationEle.className = 'announcement';
+  confirmationEle.className = 'announcement relative bg-yellow color-black';
   confirmationEle.setAttribute('role', 'alert');
   confirmationEle.innerHTML = '<div class="container"><p>' + formContextMsg + '</p> <button class="close-banner" aria-label="Close">×</button></div>';
 
@@ -121,3 +121,44 @@ document.addEventListener('click', function(){
 document.querySelector('.logo').addEventListener('focus', function(){
   blurSubMenu();
 })
+
+// block typing
+
+function blockTyping () {
+  const paragraphBlock = document.getElementsByClassName('typing')
+  const paragraphBlockEl = [...paragraphBlock[0].children]
+  paragraphBlockEl.map(function(i, int){
+    setTimeout(function(){
+      i.classList.add('visible')
+      if (window.matchMedia('(min-width: 736px)').matches) {
+        paragraphBlock[0].scrollTop = i.offsetTop
+      }
+    }, 3100 * int)
+  })
+}
+
+blockTyping()
+
+// text-mix
+
+const words = ['Regeneration', 'Renewal', 'Remediation', 'Repair', 'Refusal', 'Relation', 'Reproduction', 'Reenchantment', 'Resistance']
+
+function getRandomInt() {
+  return Math.floor(Math.random() * Math.floor(words.length));
+}
+
+let word1 = words[getRandomInt()]
+$('#word').html(word1) 
+
+function getRandomWord(word1) {
+  let word2 = getRandomInt()
+  if (word1 == word2) {
+    word2 = getRandomInt()
+  } else {
+    return word2
+  }
+}
+
+window.setInterval(function() {
+  $('#word').textMix(words[getRandomWord(word1)], 1000, 'linear')
+}, 2000)

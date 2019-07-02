@@ -8,10 +8,8 @@ redirect_from:
 
 **RE: Infrastructures** explores the collective care and maintenance of alternative networking practices—new protocols, peer-to-peer connections, offline-first computing, and community-based governance. 
 
-How can these emerging **Infrastructures of <span id="word"></span>** provide spaces to imagine<span class="word-spacer"></span>
+How can these emerging **Infrastructures of ...** provide spaces to imagine<span class="word-spacer"></span>
 radically different futures, resist easy co-option by the forces of late-stage capitalism, and work in solidarity as plural networks seeking emancipatory change? To answer this we draw on insights from organizers, technologists, artists, and scholars to ensure the focus is not only on the technical aspects of infrastructure, but also the social and cultural. Their diverse perspectives suggest ways we can make space for livelihoods, solidarity, and survival; draw on history and place to bring our fullest imaginations to this moment; and open ways to think these questions together as we build transitional forms.
-
-{% include 2019-quotes.html %}
 
 We are inviting proposals for talks, workshops, discussions, demonstrations, art pieces, and interventions to explore this theme. Topics could include, but are in no way limited to:
 
@@ -48,20 +46,12 @@ We want to provide a welcoming space for those speaking for the first time and t
 We have four open hours for people to ask questions and workshop potential proposals and discuss the conference. No prior registration needed, just visit: [https://meet.jit.si/ournetworks](https://meet.jit.si/ournetworks).
 
 <!-- Call section -->
-<section class="sections row events-grid">
+<section class="sections events-grid flex flex-wrap">
   {% for call in site.data.calls %}
-  <div class="five columns event">
+  <div class="w-50 event">
     {% include openhour.html event="openhour" %}
   </div>
   {% endfor %}
 </section>
 
 If you have any additional questions let us know at [orga@ournetworks.ca](mailto:orga@ournetworks.ca)!
-
----
-
-## Updates
-
-[Subscribe to our mailing list](https://lists.mayfirst.org/mailman/listinfo/ournetworks){:.button}{:target="_blank"}{:rel="noopener"}
-
-<script async src="/js/typing.js"></script>

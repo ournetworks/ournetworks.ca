@@ -1,53 +1,145 @@
+// Positioning
+
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
 // Grid
 
+.content-width {
+  max-width: $content-width; 
+}
+
 .container {
-  position: relative;
-  width: 100%;
   max-width: $content-width;
-  margin: 0 auto;
+  margin: 0 40px;
   padding: 0 20px;
-  box-sizing: border-box;
+
+  @media (max-width: $content-width) {
+    margin: 0 20px;
+  }
 }
 
-.columns {
+.container-full-width {
+  max-width: unset;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-align-baseline {
+  align-items: baseline;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+
+.flex-justify-space-between {
+  justify-content: space-between;
+}
+
+// Spacing helper classes
+
+.w-100 {
   width: 100%;
-  float: left;
-  box-sizing: border-box;
 }
 
-/* For devices larger than 320px */
+.w-50 {
+  width: calc(50% - 0.5em);
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-33 {
+  width: calc(33.3333333% - 0.5em);
+
+  @media (max-width: $on-palm) {
+    width: 100%;
+  }
+}
+
+// Padding
+
+.p-0 {
+  padding: 0;
+}
+
+.pt-s {
+  padding-top: 1em;
+}
+
+.pt-m {
+  padding-top: 3em;
+}
+
+.pb-m {
+  padding-bottom: 3em;
+}
+
+// Margin
+
+.m-0 {
+  margin: 0;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-1 {
+  margin-top: 1em;
+}
+
+.mt-2 {
+  margin-top: 2em;
+}
+
+.mb-1 {
+  margin-bottom: 1em;
+}
+
+.mr-1 {
+  margin-right: 1em;
+}
+
+.mr-2 {
+  margin-right: 2em;
+}
+
+.ml-1 {
+  margin-left: 1em;
+}
+
+// For devices larger than 320px
+
 @media (min-width: 320px) {
   .container {
-    width: 85%;
     padding: 0;
   }
-}
-
-/* For devices larger than 550px */
-@media (min-width: 550px) {
-  .columns {
-    margin-left: 4%;
-  }
-
-  .columns:first-child {
-    margin-left: 0;
-  }
-
-  .five.columns {
-    width: 39.3333333333%;
-  }
-
-  .six.columns {
-    width: 48%;
-  }
-}
-
-// Clearing
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 // Events
@@ -67,8 +159,6 @@
 }
 
 .event-meta {
-  display: flex;
-  align-items: baseline;
   margin-bottom: 0.5em;
 
   .event-meta-item {
@@ -77,7 +167,7 @@
 }
 
 .post {
-  padding: 120px 0 0;
+  padding: 80px 0 40px;
 
   &.extended {
     padding-top: 180px;
@@ -89,16 +179,12 @@
 }
 
 .events-grid {
-  display: flex;
-  flex-wrap: wrap;
-
   .compact + .compact {
     margin-top: 0.75em;
   }
 }
 
 .event-add {
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -106,6 +192,8 @@
 // Splash
 
 .splash {
+  margin-bottom: 40px;
+
   &.extended {
     padding-top: 3em;
 
@@ -130,16 +218,28 @@
   padding-top: 120px;
   margin-bottom: 2em;
   padding-bottom: 2em;
-  background: $background-accent;
 }
 
 // Notices
 
 .notice {
-  margin-top: 55px;
-  padding-top: 4em;
-  padding-bottom: 4em;
-  min-height: calc(100% - 8em - 172px);
+  min-height: 50vh;
+}
+
+// Stripe
+
+.striped-bg {
+  @include striped-bg($accent-color, $yellow, 20px);
+  height: 10px;
+}
+
+// Footer
+
+.footer {
+  background-image: url('../images/vector-art/brick-wall-frame-destroyed.svg');
+  background-repeat: no-repeat;
+  background-position-x: 71vw;
+  background-size: 40vw;
 }
 
 // Social Media Biography
@@ -147,10 +247,7 @@
 .bio-sm-list {
   margin-top: -$base-margin-bottom;
   margin-bottom: $base-margin-bottom;
-  padding: 0;
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .bio-sm-list-item {
