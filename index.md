@@ -27,10 +27,20 @@ We have more open hours for people to ask questions and discuss activities for t
 
 <!-- Call section -->
 <section class="sections events-grid flex flex-wrap">
-  {% for call in site.data.calls %}
-  <div class="w-50 event">
-    {% include openhour.html event="openhour" %}
-  </div>
+  {% comment %} initialize 'now_day' for displaying posts {% endcomment %}
+
+  {% capture now_year %}{{'now' | date: '%Y'}}{% endcapture %}
+  {% capture now_day %}{{'now' | date: '%j'}}{% endcapture %}
+  {% assign now_day = now_day | minus: 0 %}
+  {% for call in site.data.calls %}      
+    {% capture call_year %}{{call.date | date: '%Y'}}{% endcapture %}
+    {% capture call_day %}{{call.date | date: '%j'}}{% endcapture %}
+    {% assign call_day = call_day | plus: 0 %}
+    {% if call_year > now_year or call_day >= now_day and call_year >= now_year %}
+    <div class="w-50 event">
+      {% include openhour.html event="openhour" %}
+    </div>
+    {% endif %}
   {% endfor %}
 </section>
 
