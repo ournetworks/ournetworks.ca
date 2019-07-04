@@ -148,7 +148,7 @@ function getRandomInt() {
 }
 
 let word1 = words[getRandomInt()]
-$('#word').html(word1) 
+$('.word').html(word1) 
 
 function getRandomWord(word1) {
   let word2 = getRandomInt()
@@ -160,5 +160,5 @@ function getRandomWord(word1) {
 }
 
 window.setInterval(function() {
-  $('#word').textMix(words[getRandomWord(word1)], 1000, 'linear')
+  $('.word').textMix(words[getRandomWord(word1)], 1000, 'linear')
 }, 2000)
