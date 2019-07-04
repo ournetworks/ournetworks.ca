@@ -43,7 +43,7 @@ Our Networks organizers have hosted civic tech events and community networks wor
   <li class="bio-sm-list-item"><a href="https://github.com/garrying" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;garrying</a></li>
 </ul>
 
-**Sarah Friend**{:#sarah} is an artist and software engineer, with special interest in blockchain and the p2p web. When not doing that, she creates games and other interactive experiences. Her practice investigates murky dichotomies - like those between privacy and transparency, centralization and decentralization, and the environment and technology - with playfulness and absurdist humour. She is a proud Recurse Centre alum, and has recently exhibited work at NEoN Festival in Scotland, Moneylab in London, Gray Area Festival in San Francisco, Microwave Festival in Hong Kong, the Athens Biennale, and the ZKM Center for Art and Media In Germany.  
+**Sarah Friend**{:#sarah} is an artist and software engineer, with special interest in blockchain and the p2p web. When not doing that, she creates games and other interactive experiences. Her practice investigates murky dichotomies &mdash; like those between privacy and transparency, centralization and decentralization, and the environment and technology &mdash; with playfulness and absurdist humour. She is a proud Recurse Centre alum, and has recently exhibited work at NEoN Festival in Scotland, Moneylab in London, Gray Area Festival in San Francisco, Microwave Festival in Hong Kong, the Athens Biennale, and the ZKM Center for Art and Media In Germany.  
 
 <ul class="bio-sm-list">
   <li class="bio-sm-list-item"><a href="https://isthisa.com/" target="_blank" rel="noopener">{% include icons/link.svg %}&nbsp;isthisa.com</a></li>
