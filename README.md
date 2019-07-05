@@ -32,7 +32,7 @@ Unless otherwise indicated, State of Our Networks **content and documentation** 
 ### Deploying to Dat
 
 Ournetworks.ca is avaliable on [Dat](https://dat.foundation/) and can be visited via [Beaker Browser](https://beakerbrowser.com/):
-- `dat://971d32dc8b56f94f35be7ede0bc1b09e9efed94c2ec9d1e8e6fdb21fc7be3f29/`
+- `dat://5dede7957401efd5c8a5930181cb5c2ceafc90833210cd27532fc7cf8af10fdc/`
 - `dat://ournetworks.ca/`
 
 Generally, the following steps occur in Travis CI as updates are commited, or merged, into `master` branch:
