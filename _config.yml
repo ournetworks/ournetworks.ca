@@ -36,8 +36,5 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# Keep files (Dat files)
-keep_files: [.dat]
-
 # Include files (Dat files)
 include: [.well-known]
