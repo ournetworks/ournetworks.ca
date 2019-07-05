@@ -35,7 +35,7 @@ Our Networks organizers have hosted civic tech events and community networks wor
   <li class="bio-sm-list-item"><a href="https://github.com/dcwalk" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;dcwalk</a></li>
 </ul>
 
-**Garry Ing**{:#garry} is a designer and technologist residing in Toronto, contributing to [Toronto Mesh](https://tomesh.net/). His previous work and collaborations has been with the Strategic Innovation Lab (sLab) at OCAD University, the Technologies for Aging Gracefully Lab at the University of Toronto, and Normative. He is a graduate of OCAD University, with a background in graphic design.
+**Garry Ing**{:#garry} is a designer and researcher centred around the overlap of technology and critical practice. His previous work and collaborations has been with the Strategic Innovation Lab (sLab) at OCAD University, the Technologies for Aging Gracefully Lab at the University of Toronto, Normative, and Format.
 
 <ul class="flex flex-wrap p-0 bio-sm-list">
   <li class="bio-sm-list-item"><a href="https://garrying.com/" target="_blank" rel="noopener" data-proofer-ignore>{% include icons/link.svg %}&nbsp;garrying.com</a></li>
