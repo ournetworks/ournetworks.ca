@@ -13,12 +13,10 @@ before_install:
   - gem install bundler
   # Install NVM with Dat via npm
   - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
-  - nvm install 10.15.3
+  - nvm install 10.16.0
   - npm i -g dat
 
 before_script:
-  # Clone/Initialize Dat archive
-  - travis_wait 1 dat clone $(head -n 1 .well-known/dat) ./_site --exit
   # Build Jekyll site
   - bundle exec jekyll build
 
@@ -30,7 +28,7 @@ addons:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  - secure: hKIRaB9s5gAccQcC5PPNgD6NTwph5YDYqZpf9V2KeWVyJoc1G5+jeD6QymceKPmNlzaLJnHqfAIGDugjcdPfcxiWLqwGHHabHwWaZ5vyM6pJmoZZQ2nPJQ2wYdEMXzmd+z0w7OclQ1ftwjzalUNQzrGwTxw8FEQSvb/HNGWJh+Oyol4VGP4WD+gNVEsHor55mWdLVbytCpzsSOur+GPIUmICAhQQvoOne8ItfaH1CDZHjWxvNjIoKsrBtBNJx038KZrwYbESneBnN+whwVv6X6q/4YJY1aVvF1lyPkJGcoYYwx6vqa1Y4Rk2aWu4I6aLf+fH5MI71YWXaKWzx+S6ZhrohsvjqX5Jo0/LcwqS98pJiRbcX+SVijayBhPHEYYaUR7fgT9niFZj1KgDpxFBlU6mXIZ0ICIwiO+wMwsNY5fhqhdc2IDb4ku/NKO6jXOcMTNcVMl/vv0mm0JpDUBeeg/RUrIitQhGugiOe0FxOXMBAZEuTiht7wem3qKqByp30jeNb8/mVYjDMSXfW6UdyQMGMchNSQV6EyVCaJdlu+v6Rt7taw3gdeSa/q8VC3xF8nTcCD+PDlsaDNevhR1BewTZMfEBfLgRmkQfUZkkiXrhhEcqeqFMgRuotzkS2YiuER/rWxVP0jfBIVkxRmAGwgz4Q5N/tgwY7+jXIceOwss=
+  - secure: aibwG/rj/c95IXvkol9CCdmWlIllwfZWsXg0omwdH9TQc1SC2bGrO6Qm7EY6ER1bDL5Y84K6wW9UIcvWifnuLqaEUUkCb5TQS8j0tPgNlZepxgptj6XNdi8aD99VE/HUQvTjGJoPaYetQ4hcxVUeMhdqjcR6CGK0Uu+Jj9Rb9bPUS/mIpuwfkMJ0Rpi7p7O5UZCo+yQA3qMVKTCJdLFrMJCxXMONvOHxXyd3nGaPoHFIVA6lp5jz+RSJhtPuG7tfyfG7t2yDsh3Jlod8IGCxg0mCsDWW/OJKO8oddjiZ7VHgj28TlfRpBFU27mv2Xd7zapAZWbgB7Rc/ElN/L8BF2gEAfO08ub0/jqUUlCDtOXEGDbfXmu/LUMGbcvLaSZYzlX4ITcUemRTibzNhcGWN3KaoZKLVqV3WLsodx8pJtfDpRMXF/RWOhYs9dUcPq5ImQ6mKC2x97ItEVMXRUlCEBWrQ3XBafOHSJmDFXk0GG10k7r8PY05mkv4d2886JYHv6ZmspnorlWG5H/aHG1P5ffv7UXiLAlXR13Hjuy10x3nUfaOUTaOIryzP0zdhT6dOBt2ikS+Bo7lkeKw42qPsGf6HZUntQXMEtBO+cMsLl6Y0o4SP4+4im7P/lp3Y2vpKkIMuFnpJUAyWzL0eY4iPnG3mZrE2xDi8dGpE1W4TThs=
 
 cache: bundler
 
@@ -47,9 +45,13 @@ deploy:
       - master
 
 after_deploy:
+  # Clone/Initialize Dat archive
+  - dat clone $(head -n 1 .well-known/dat) ./_site --exit
+  # Build Jekyll site
+  - bundle exec jekyll build
   - cd _site
   - echo $DATKEY | dat keys import
-  - travis_wait 1 dat sync --no-watch || travis_terminate 0
+  - travis_wait 1 dat sync &> /dev/null || travis_terminate 0
 
 notifications:
   email:
