@@ -1,23 +1,10 @@
 // Recorded talks videos
 
-.video-grid {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .session-video-detail {
-  margin-right: 2%;
-  margin-bottom: 3%;
-  margin-left: 0%;
-  border: 1px solid $grey-color-table-borders;
+  border: 1px solid $grey-table-borders;
 
   .session-header {
     margin: 1em;
-  }
-
-  .session-title {
-    margin: 0;
-    font-size: 1.25em;
   }
 
   .session-heading-small {
@@ -30,12 +17,11 @@
 
   .video-overlay {
     position: absolute;
-    display: flex;
     width: 100%;
     height: 100%;
     justify-content: center;
     align-items: center;
-    background: rgba(#000, 0.3);
+    background: rgba($accent-color, 0.8);
     opacity: 0.75;
     transition: opacity 200ms ease-in-out;
   }
@@ -56,11 +42,7 @@
 
 .video-links-container {
   padding-top: 1em;
-  border-top: 1px solid $grey-color-table-borders;
-
-  .session-heading-small {
-    color: #757575;
-  }
+  border-top: 1px solid $grey-table-borders;
 }
 
 .video-links {

@@ -6,40 +6,48 @@
 
 .header {
   width: 100%;
-  position: fixed;
   z-index: 100;
   top: 0;
-  transition: background 100ms ease-in-out;
 
   @media (max-width: $on-palm) {
     background: $white;
-    box-shadow: 0 3px 0 0 rgba($black, 0.1);
+    position: fixed;
+    box-shadow: 0 1px 0 0 rgba($black, 0.1);
     max-height: 100vh;
     overflow: scroll;
   }
 
   > .container {
-    display: flex;
-    padding: 1.75em 0 1em;
+    width: 100%;
+    max-width: unset;
+    padding: 1em 40px;
+    margin: 0;
     align-items: center;
-    flex-wrap: wrap;
     position: relative;
-    transition: padding 200ms ease-in-out;
 
     @media (max-width: $on-palm) {
       padding: 1em 0;
+      width: unset;
+      margin: 0 20px;
       display: block;
     }
+  }
+
+  &:hover .nav-item {
+    opacity: 1;
   }
 
   .nav-item {
     padding: 0 15px;
     display: inline-flex;
     white-space: nowrap;
+    opacity: 0.35;
+    transition: opacity 150ms ease-in-out;
 
     &.active,
+    &:focus,
     &:hover {
-      color: rgba($black, 0.5);
+      color: $accent-color;
     }
 
     @media (max-width: $on-palm) {
@@ -65,21 +73,16 @@
     }
 
     a {
-      color: $black;
+      color: rgba($black,0.25);
     }
 
     @media (max-width: $on-palm) {
       display: block;
       margin-top: 1em;
-    }
-  }
 
-  &.active-bg {
-    background: $white;
-    box-shadow: 0 2px 0 0 rgba($black, 0.05);
-
-    > .container {
-      padding: 1em 0;
+      a {
+        color: $black;
+      }
     }
   }
 
@@ -107,12 +110,12 @@ input[type="checkbox"].menu-btn {
   }
 
   &:checked ~ .menu-icon {
-    background: $black;
-    color: $white;
+    background: $accent-color;
+    border-color: $accent-color;
   }
 
   &:checked ~ .menu-icon:after {
-    content: 'Close';
+    content: 'CLOSE';
   }
 
   &:checked ~ .menu-icon span {
@@ -123,10 +126,9 @@ input[type="checkbox"].menu-btn {
 .menu-icon {
   display: none;
   position: absolute;
-  top: 0.75em;
+  top: 0.85em;
   right: 0;
   border: 1px solid #d1d1d1;
-  border-radius: .25em;
   padding: 0.5em 1em 0.5em 1em;
   font-size: 0.85em;
   margin: 0;
@@ -141,7 +143,7 @@ input[type="checkbox"].menu-btn {
 
 .logo {
   display: block;
-  width: 156px;
+  width: 100px;
   height: auto;
 
   @media (max-width: $on-palm) {
@@ -159,11 +161,6 @@ input[type="checkbox"].menu-btn {
   padding: 0;
   list-style: none;
   background: $white;
-  box-shadow: 0 3px 0 0 rgba($black, 0.1);
-
-  li:first-child {
-    padding-top: 5px;
-  }
 
   a {
     display: block;
@@ -174,7 +171,7 @@ input[type="checkbox"].menu-btn {
   a:hover,
   a:focus,
   a.active, {
-    color: rgba($black, 0.5);
+    color: $accent-color;
   }
 
   &:empty {

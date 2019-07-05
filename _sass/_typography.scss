@@ -13,6 +13,7 @@ h6 {
 
 h1 {
   font-size: 2.18rem;
+  line-height: 1em;
 }
 
 h2 {
@@ -33,7 +34,7 @@ h5 {
 }
 
 h6 {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 p {
@@ -41,20 +42,74 @@ p {
   margin-bottom: $base-margin-bottom;
 }
 
-// Heading helper
+// Font-family
+
+.mono {
+  font-family: $mono-font-family;
+}
+
+// Typography helper classes
+
+.fs-small {
+  font-size: $small-font-size;
+}
+
+.ls-narrow {
+  letter-spacing: -3px;
+}
+
+// Outline helper
+
+.outline {
+  color: transparent;
+  @include outline-text($accent-color);
+}
+
+// Heading helpers
 
 .heading {
   line-height: 1.2em;
+}
+
+.heading-1 {
+  @include fluid-type(320px,1980px,30px,200px);
+}
+
+.heading-2 {
+  @include fluid-type(320px,1980px,30px,150px);
+}
+
+.heading-3 {
+  @include fluid-type(320px,1980px,18px,30px);
+}
+
+// Font-weight helpers
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.fw-normal {
+  font-weight: normal;
+}
+
+// Footer
+
+.footer {
+  a {
+    color: $black;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
 }
 
 // Posts title
 
 .post-header {
   margin-bottom: 1.2em;
-}
-
-.post-title {
-  margin-bottom: 0.25em;
 }
 
 // Typewriter theme effect
@@ -66,17 +121,12 @@ p {
 }
 
 .typing {
-  color: rgba($text-color, 0.8);
-  font-family: $mono-font-family;
-  font-size: $small-font-size;
   line-height: 1.25em;
-  padding: 1em;
-  margin: 2em 0;
-  width: 75%;
-  background: $background-accent;
-  height: 18em;
+  background: transparent;
+  height: 10em;
   overflow: auto;
-  border-radius: 5px;
+  max-width: $content-width;
+  border-bottom: 1px solid rgba($black, 0.1);
   &::-webkit-scrollbar {
     width: 5px;
     background-color: transparent;
@@ -91,11 +141,6 @@ p {
     width: 100%;
   }
 
-  @media (max-width: $on-palm) {
-    width: 115%;
-    margin-left: -7%;
-    margin-right: -8%;
-  }
 
   p {
     display: none;
@@ -120,7 +165,7 @@ p {
 
   &:after {
     content: "";
-    height: 2em;
+    height: 1em;
     display: block;
   }
 }

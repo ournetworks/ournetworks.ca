@@ -1,16 +1,16 @@
-<div class="session-video-detail six columns">
+<div class="session-video-detail w-33 mb-1">
   <div class="video-thumbnail">
     <a href="/video/?ipfs={{ session.ipfs720 }}" title="View {{ session.title }}">
-      <div class="video-overlay">
+      <div class="video-overlay flex">
         {% include graphics/video/play-graphic.svg %}
       </div>
       <img src="https://img.youtube.com/vi/{{ session.youtube }}/maxresdefault.jpg" alt="Video thumbnail for {{ session.title }}" />
     </a>
   </div>
   <header class="session-header">
-    <h3 class="session-title heading">{{ session.title }}</h3>
+    <h3 class="session-title heading fw-normal">{{ session.title }}</h3>
     {%- if session.presenterID -%}
-      <h4 class="session-presenter session-heading-small">
+      <h4 class="session-presenter session-heading-small fw-normal">
         {% assign presenters = site.data.presenters %}
         {% assign presenterCount = session.presenterID.size %}
         {%- for presenterID in session.presenterID -%}
@@ -33,7 +33,7 @@
       {%- endunless -%}
     </p>
     <div class="video-links-container">
-      <h5 class="session-heading-small">Watch elsewhere:</h5>
+      <h5 class="session-heading-small fw-normal">Watch elsewhere:</h5>
       {%- if session.ipfs720 or session.ipfs1080 or session.youtube -%}
         <ul class="video-links">
          {%- if session.ipfs720 -%}<li class="video-links-item"><a href="{{ site.ipfs_gateway }}/{{ session.ipfs720 }}" target="_blank" rel="noopener">{% include icons/ipfs.svg %}&nbsp;<code>[&nbsp;720p]</code>ipfs://{{ session.ipfs720 }}</a></li>{%- endif -%}

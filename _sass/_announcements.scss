@@ -1,7 +1,5 @@
 // Announcements
 .announcement {
-  background-color: $black;
-  color: $background-accent;
 
   .container {
     padding-top: 1em;
@@ -13,7 +11,7 @@
   }
 
   a {
-    color: $background-accent;
+    color: $black;
     text-decoration: underline;
 
     &:hover {
@@ -24,7 +22,6 @@
   .close-banner {
     font-size: 1.5em;
     position: absolute;
-    color: $background-accent;
     border: 0;
     padding: 0;
     right: 0;
@@ -35,6 +32,6 @@
   }
 
   & + & {
-    box-shadow: inset 0 1px 0 0 $background-accent;
+    box-shadow: inset 0 1px 0 0 $black;
   }
 }

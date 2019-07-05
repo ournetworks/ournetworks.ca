@@ -1,13 +1,13 @@
 <header class="header">
-  <div class="container">
+  <div class="container container-full-width flex flex-wrap">
     <span class="site-title">
       <a class="logo" href="{{ site.baseurl }}/" rel="home" title="{{ site.title }}">
         {% include logo/soon-logo.svg %}
       </a>
     </span>
     <input class="menu-btn" type="checkbox" id="menu-btn" />
-    <label class="menu-icon" for="menu-btn"><span>Menu</span></label>
-    <nav class="nav" aria-label="Primary Menu">
+    <label class="menu-icon" for="menu-btn"><span>MENU</span></label>
+    <nav class="nav fs-small" aria-label="Primary Menu">
       <ul class="menu">
         {% assign currentTitle = page.title %}
         {% assign current = page.url %}
