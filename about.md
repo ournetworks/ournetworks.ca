@@ -19,7 +19,7 @@ _We are grateful to the [First Nations House](https://www.studentlife.utoronto.c
 
 Our Networks organizers have hosted civic tech events and community networks workshops, created network literacy materials, and built mesh networking software for the past two years.
 
-**Benedict Lau**{:#benhylau} is an engineer telling stories of technology practices that bring communities together. He studies distributed protocols and collective governance of digital infrastructures. When he isn't "on emails", he builds passable open source tools and facilitates activities about building peer-to-peer local networks as a way to co-imagine a future equitable web. He is a member of the Hypha Worker Co-operative and core contributor at [Toronto Mesh](https://tomesh.net).
+**Benedict Lau**{:#benhylau} is an engineer who tells stories of technology practices that bring communities together. He studies distributed protocols and collective governance of digital infrastructures. When not "on email", he builds passable open source tools and facilitates activities about peer-to-peer local networks as a way to co-imagine a future equitable web. He is a member of the Hypha Worker Co-operative and a core contributor at [Toronto Mesh](https://tomesh.net).
 
 <ul class="flex flex-wrap p-0 bio-sm-list">
  <li class="bio-sm-list-item"><a href="https://deprecated.systems" target="_blank" rel="noopener" data-proofer-ignore>{% include icons/link.svg %}&nbsp;deprecated.systems</a></li>
