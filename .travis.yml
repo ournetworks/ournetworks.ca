@@ -46,7 +46,7 @@ deploy:
 
 after_deploy:
   # Clone/Initialize Dat archive
-  - dat clone $(head -n 1 .well-known/dat) ./_site --exit
+  - dat $(head -n 1 .well-known/dat) ./_site --exit
   # Build Jekyll site
   - bundle exec jekyll build
   - cd _site
