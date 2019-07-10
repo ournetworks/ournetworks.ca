@@ -15,6 +15,8 @@ before_install:
   - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
   - nvm install 10.16.0
   - npm i -g dat
+  # Clone/Initialize Dat archive
+  - dat $(head -n 1 .well-known/dat) ./_site --exit
 
 before_script:
   # Build Jekyll site
@@ -45,10 +47,6 @@ deploy:
       - master
 
 after_deploy:
-  # Clone/Initialize Dat archive
-  - dat $(head -n 1 .well-known/dat) ./_site --exit
-  # Build Jekyll site
-  - bundle exec jekyll build
   - cd _site
   - echo $DATKEY | dat keys import
   - travis_wait 1 dat sync &> /dev/null || travis_terminate 0
