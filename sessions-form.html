@@ -11,48 +11,47 @@ titleDisplay: "Sessions"
 
 <form action="https://formspree.io/orga@ournetworks.ca" class="form-container container container-full-width" method="POST">
   <div class="form-group">
+    <div class="w-100">
+      <div class="row">
+        <input list="sessions" id="session" class="input-datalist four columns" name="session" required>
+      </div>
+      <datalist id="sessions">
+        {% include forms/sessions-datalist.html %}
+      </datalist>
+      <input type="checkbox" id="description" value="reviewed"> <label for="description">The presentation description has been reviewed</label>
+    </div>
     <div class="w-50">
       <h3>Participation</h3>
-      <input type="radio" id="participation1" name="participation" value="will present"><label for="participation1">I/we will be presenting</label>
-      <input type="radio" id="participation2" name="participation" value="no longer presenting"><label for="participatio2">I/we can no longer present</label>
+      <p>Let us know if you can attend:</p>
+      <input type="radio" id="participation1" name="participation" value="will present" required><label for="participation1">I/we will be presenting</label>
+      <input type="radio" id="participation2" name="participation" value="no longer presenting" required><label for="participatio2">I/we can no longer present</label>
     </div>
   </div>
   <div class="form-group">
-    <div class="ten columns">
-    <label for="session">Session</label>
-    <div class="row">
-      <input list="sessions" id="session" class="input-datalist four columns" name="session">
+    <h3>Recording</h3>
+    <p>Let us know if we can livestream and record your presentation:</p>
+    <div class="w-100">
+      <input type="checkbox" id="recording1" name="recording" value="live stream"><label for="recording1">The presentation can be live streamed</label> 
+      <input type="checkbox" id="recording2" name="recording" value="record"><label for="recording2">The presentation can be recorded and posted on the Our Networks website under a Creative Commons License</label> 
     </div>
-    <datalist id="sessions">
-      <option value="">
-      <option value="">
-      <option value="">
-    </datalist>
-    </div>
-    <div class="w-50">
-      <input type="checkbox" id="description" name="The presentation description has been reviewed"> 
-    </div>
+    <small>You have the right to withdraw consent for posting after the video is recorded. You can see an example of the previous recorded talks at: <a href="https://ournetworks.ca/recorded-talks/">https://ournetworks.ca/recorded-talks/</a></small>
   </div>
   <div class="form-group">
     <h3>Presenter Details</h3>
-    <label for="session">Let us know if we can livestream and record your presentation:</label>
+    <p>Please confirm you preferred pronunciation and pronouns as presenter(s):</p>
     <div class="w-50">
-      <input type="checkbox" id="recording" name="The presentation can be live streamed"> 
-      <input type="checkbox" id="recording" name="The presentation can be recorded and posted on the Our Networks website under a Creative Commons License"> 
-    </div>
-    You have the right to withdraw consent for posting after the video is recorded. You can see an example of the previous recorded talks at: <a href="https://ournetworks.ca/recorded-talks/">https://ournetworks.ca/recorded-talks/</a>
-  </div>
-  <div class="form-group">
-    <h3>Presenter Details</h3>
-    <div class="ten columns">
-      <label for="pronunciation">Please confirm you preferred pronunciation and pronouns as presenter(s):</label>
+      <label for="presenters">Presenter:</label>
+      <datalist id="presenters">
+        {% include forms/presenters-datalist.html %}
+      </datalist>
+      <label for="pronunciation">Pronunciation notes</label>
       <input type="text" id="pronunciation" class="input-text" name="pronunciation">
     </div>
   </div>
   <div class="form-group">
-    <div class="ten columns">
+    <div class="w-50">
       <label for="pronouns">Preferred pronouns</label>
-      <input type="text" id="pronouns" class="input-text" name="pronouns">
+      <input type="text" id="pronouns" class="input-text" name="pronouns" placeholder="e.g., they/them, she/her, he/him, ze/zir">
     </div>
   </div>
   <div class="form-group">
@@ -62,10 +61,10 @@ titleDisplay: "Sessions"
       <input type="radio" id="honoraria" name="Here is my preferred payment:"> 
         <input onclick='document.getElmentById("payment_options").style.display="block"' type="radio" />
         <div id="payment_options" style="display: none;" >
-          <input type="radio" id="honoraria" name="Interac"> 
-          <input type="radio" id="honoraria" name="PayPal"> 
-          <input type="radio" id="honoraria" name="Cryptocurrency (BTC/ETH)"> 
-          <input type="radio" id="honoraria" name="Cash (have to be based in Toronto)"> 
+          <input type="radio" id="payment_options1" name="payment_options" value="Interac"> <label for="payment_options1">Interac</label>
+          <input type="radio" id="payment_options2" name="payment_options" value="PayPal"> <label for="payment_options2">Paypal</label>
+          <input type="radio" id="payment_options3" name="payment_options" value="Cryptocurrency"> <label for="payment_options3">Cryptocurrency (BTC/ETH)</label>
+          <input type="radio" id="payment_options4" name="payment_options" value="Cash"> <label for="payment_options4">Cash (have to be based in Toronto)</label>
         </div>
         <div id="payment_address">
           <label for="pronouns">Address (Cryptocurrency/Paypal/Interac)</label>
