@@ -22,9 +22,9 @@ Billeting is a way of supporting participants to attend within their budget and 
 
 We anticipate securing a limited number of spots with people based in Toronto. If you indicated you were interested in hosting or staying in a community billet check out the [community billets list](https://ethercalc.org/s0r2i3dsfznl) and add your info or email billets@ournetworks.ca and we’ll help coordinate!
 
-### Small-business and BIPOC-owned 
+### Small-businesses and BIPOC-owned hotels
 
-
+- [Baldwin Village Inn](https://www.urbannorthinns.com/baldwin-village-inn/) and [Urban North Inns](https://www.urbannorthinns.com/), 9 Baldwin Street
 
 We searched and could not confirm a directory of BIPOC-owned accomodations, if you know of any, please contact us. 
 
@@ -47,15 +47,7 @@ Additional care to take if engaging in a short-term rental in Toronto:
 1. Avoid AirBnB rentals in the following neighbourhoods:
   - Parkdale
 1. Avoid these hosts identified by a local nonprofit as AirBnB "ghost hotel" landlords.
-
-Alternatives:
-
-1. Locally-owned
-
-
     
-
-
 Please feel free to use this text for your conference in Toronto.
 
 ---
