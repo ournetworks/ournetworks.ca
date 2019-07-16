@@ -37,7 +37,7 @@ We have more open hours for people to ask questions and discuss activities for t
     {% capture call_day %}{{call.date | date: '%j'}}{% endcapture %}
     {% assign call_day = call_day | plus: 0 %}
     {% if call_year > now_year or call_day >= now_day and call_year >= now_year %}
-    <div class="w-50 event">
+    <div class="w-50 event mb-2">
       {% include openhour.html event="openhour" %}
     </div>
     {% endif %}
