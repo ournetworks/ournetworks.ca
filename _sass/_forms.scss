@@ -4,105 +4,15 @@
 .input-datalist,
 textarea,
 select {
-  width: 100%;
   margin-bottom: 1em;
   font-family: $base-font-family;
   font-weight: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  padding: 1em 0.85em 0.85em;
-  background-color: #fff;
+  padding: 0.75em;
   border: 1px solid #d1d1d1;
   box-shadow: none;
   box-sizing: border-box;
-  line-height: 1em;
-
-  @media (max-width: $on-palm) {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  }
 }
 
-textarea {
-  min-height: 65px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
-
-.input-text:focus,
-textarea:focus,
-select:focus {
-  border: 1px solid $accent-color;
-}
-
-label,
-legend {
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
-fieldset {
-  padding: 0;
-  border-width: 0;
-}
-
-label > .label-body {
-  display: inline-block;
-  margin-left: 0.5rem;
-  font-weight: normal;
-}
-
-.form-container {
-  border: 0px;
-}
-
-.form-group {
-  padding: 0 1em;
-  margin-top: 2rem;
-
-  &.last {
-    padding: 1em;
-    margin: 0;
-  }
-}
-
-.form-radio-range {
+input[type="radio"]:checked ~ .input-condition-group {
   display: flex;
-  padding: 0 1em;
-  margin: 0.5em 0 1em;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: space-between;
-
-  .form-item {
-    flex-grow: 1;
-    position: relative;
-
-    &:hover {
-      background: $accent-color;
-    }
-
-    &:nth-child(even) {
-      border-right: 1px solid $accent-color;
-      border-left: 1px solid $accent-color;
-    }
-  }
-
-  label {
-    padding-top: 1.75em;
-    margin: -1.5em 0 0;
-  }
-
-  @media (max-width: $on-palm) {
-    padding: 0;
-  }
-}
-
-.form-radio-range-label {
-  display: flex;
-  margin-top: 0.5em;
-  font-size: 0.75em;
-  width: 100%;
-  justify-content: space-between;
 }
