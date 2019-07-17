@@ -1,18 +1,11 @@
 // Forms
 
-.input-text,
-.input-datalist,
-textarea,
-select {
-  margin-bottom: 1em;
+.input {
   font-family: $base-font-family;
-  font-weight: normal;
   padding: 0.75em;
   border: 1px solid #d1d1d1;
-  box-shadow: none;
-  box-sizing: border-box;
 }
 
-input[type="radio"]:checked ~ .input-condition-group {
+.input-condition:checked ~ .input-condition-group {
   display: flex;
 }
