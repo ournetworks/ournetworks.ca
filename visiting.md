@@ -43,7 +43,7 @@ We searched and could not confirm a directory of BIPOC-owned accommodations in T
 We checked [Fair Hotels](https://www.fairhotel.org/) and called [UNITE HERE 75](https://www.uniteherelocal75.org/) for leads and updates. As of May 2019, these hotels are still unionized with them, roughly sorted by lowest price and distance:
 
 - [Chelsea Hotel Toronto](http://www.chelseatoronto.com/en/), 33 Gerrard Street West
-- [Kimpton Saint George Hotel](https://www.ihg.com/kimptonhotels/hotels/us/en/saint-george-hotel-toronto-on/yyzbs/hoteldetail), 280 Bloor Street West
+- [Kimpton Saint George Hotel](https://www.kimptonsaintgeorge.com/), 280 Bloor Street West
 - [One King West Hotel & Residence](https://www.onekingwest.com/), 1 King Stree West
 - [The Omni King Edward Hotel](https://www.guestreservations.com/the-omni-king-edward-hotel/booking), 37 King Street East
 - [Marriott St. Regis](https://www.marriott.com/hotels/travel/yyzxr-the-st-regis-toronto/), 325 Bay Street
