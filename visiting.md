@@ -20,7 +20,7 @@ To support folks attending the conference, we have a [community billets](#commun
 
 Billeting is a way of supporting participants to attend within their budget and at the same time, welcome them into our community. 
 
-We anticipate securing a limited number of spots with people based in Toronto. If you indicated you were interested in hosting or staying in a community billet check out the [community billets list](https://ethercalc.org/s0r2i3dsfznl) and add your info or email billets@ournetworks.ca and we’ll help coordinate!
+We anticipate securing a limited number of spots with people based in Toronto. If you indicated you were interested in hosting or staying in a community billet check out the [community billets list](https://ethercalc.org/s0r2i3dsfznl) and add your info or email [billets@ournetworks.ca](mailto:billets@ournetworks.ca) and we’ll help coordinate!
 
 ### Small-businesses and BIPOC-owned hotels
 
