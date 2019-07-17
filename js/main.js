@@ -45,6 +45,10 @@ if (window.location.search == '?donation=confirmed') {
   formSubmitCallback('Thanks for your support!');
 }
 
+if (window.location.search == '?update=confirmed') {
+  formSubmitCallback('Successfully confirmed your session!');
+}
+
 // scroll interaction
 
 var scrollEvent = false;
