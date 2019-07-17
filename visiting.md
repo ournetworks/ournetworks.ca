@@ -26,7 +26,7 @@ We anticipate securing a limited number of spots with people based in Toronto. I
 
 - [Baldwin Village Inn](https://www.urbannorthinns.com/baldwin-village-inn/) and [Urban North Inns](https://www.urbannorthinns.com/), 9 Baldwin Street
 
-We searched and could not confirm a directory of BIPOC-owned accomodations, if you know of any, please contact us. 
+We searched and could not confirm a directory of BIPOC-owned accommodations, if you know of any, please contact us. 
 
 ### Unionized hotels
 
