@@ -32,6 +32,14 @@
   max-width: unset;
 }
 
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -60,6 +68,14 @@
 
 .w-100 {
   width: 100%;
+}
+
+.w-75 {
+  width: 75%;
+
+  @media (max-width: $on-palm) {
+    width: 100%;
+  }
 }
 
 .w-50 {
@@ -115,7 +131,7 @@
 }
 
 .mb-2 {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .mt-0 {
@@ -128,6 +144,18 @@
 
 .mt-2 {
   margin-top: 2em;
+}
+
+.mb-05 {
+  margin-bottom: 0.5em;
+}
+
+.mb-1 {
+  margin-bottom: 1em;
+}
+
+.mr-05 {
+  margin-right: 0.5em;
 }
 
 .mr-1 {
