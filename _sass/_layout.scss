@@ -80,6 +80,10 @@
 
 .w-50 {
   width: calc(50% - 0.5em);
+
+  @media (max-width: $on-palm) {
+    width: 100%;
+  }
 }
 
 .w-25 {
@@ -177,7 +181,6 @@
 // Events
 .event {
   margin-left: 0;
-  margin-bottom: 2em;
   padding-right: 4%;
 }
 

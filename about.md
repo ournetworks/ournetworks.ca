@@ -17,47 +17,33 @@ _We are grateful to the [First Nations House](https://www.studentlife.utoronto.c
 
 ###  Organizers
 
-Our Networks organizers have hosted civic tech events and community networks workshops, created network literacy materials, and built mesh networking software for the past two years.
+<!-- choose random first organizer and have that set the order -->
+{% assign min = 1 %}
+{% assign max = site.data.organizers.size %}
+{% assign diff = max | minus: min %}
+{% assign random_number = "now" | date: "%s" | modulo: diff | plus: min %}
 
-**Benedict Lau**{:#benhylau} is an engineer who tells stories of technology practices that bring communities together. He studies distributed protocols and collective governance of digital infrastructures. When not "on email", he builds passable open source tools and facilitates activities about peer-to-peer local networks as a way to co-imagine a future equitable web. He is a member of the Hypha Worker Co-operative and a core contributor at [Toronto Mesh](https://tomesh.net).
+{% assign organizers = site.data.organizers %}
+{% assign sorted_organizers = '' | split: '' %}
+{% assign organizer_count = random_number %}
 
-<ul class="flex flex-wrap p-0 bio-sm-list">
- <li class="bio-sm-list-item"><a href="https://deprecated.systems" target="_blank" rel="noopener" data-proofer-ignore>{% include icons/link.svg %}&nbsp;deprecated.systems</a></li>
- <li class="bio-sm-list-item"><a href="https://twitter.com/LauBenedict" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@LauBenedict</a></li>
- <li class="bio-sm-list-item"><a href="https://github.com/benhylau" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;benhylau</a></li>
-</ul>
+{% for counter in (min..max) %}
+  {% assign array_end = organizer_count | modulo: 4 %}
+  {% if array_end == 0 %}
+    {% if organizer_count == 0 %}
+      {% assign organizer_count = organizer_count | plus: 1 %}
+    {% else %}
+      {% assign organizer_count = organizer_count | minus: 4 %}
+    {% endif %}
+  {% else %}
+    {% assign organizer_count = organizer_count | plus: 1 %}
+  {% endif %}
+  {% assign sorted_organizers = sorted_organizers | push: organizers[organizer_count] %}
+{% endfor %}
 
-**Dawn Walker**{:#dawn} is a researcher and PhD candidate at the University of Toronto. Her research focuses on values and social transformation in the design of decentralization projects. Her previous research included co-design to investigate how community mapping increases participation in urban agriculture. She also works on grassroots and community infrastructure with groups including [EDGI](https://envirodatagov.org/) and [Data Together](https://datatogether.org/){:data-proofer-ignore=''}. A keen amateur agriculturalist, Dawn would rather be in the garden.
-
-<ul class="flex flex-wrap p-0 bio-sm-list">
-  <li class="bio-sm-list-item"><a href="http://dcwalker.ca" target="_blank" rel="noopener">{% include icons/link.svg %}&nbsp;dcwalker.ca</a></li>
-  <li class="bio-sm-list-item"><a href="https://twitter.com/dcwalk_" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@dcwalk_</a></li>
-  <li class="bio-sm-list-item"><a href="https://github.com/dcwalk" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;dcwalk</a></li>
-</ul>
-
-**Garry Ing**{:#garry} is a designer and researcher centred around the overlap of technology and critical practice. His previous work and collaborations has been with the Strategic Innovation Lab (sLab) at OCAD University, the Technologies for Aging Gracefully Lab at the University of Toronto, Normative, and Format.
-
-<ul class="flex flex-wrap p-0 bio-sm-list">
-  <li class="bio-sm-list-item"><a href="https://garrying.com/" target="_blank" rel="noopener" data-proofer-ignore>{% include icons/link.svg %}&nbsp;garrying.com</a></li>
-  <li class="bio-sm-list-item"><a href="https://twitter.com/garrying" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@garrying</a></li>
-  <li class="bio-sm-list-item"><a href="https://github.com/garrying" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;garrying</a></li>
-</ul>
-
-**Sarah Friend**{:#sarah} is an artist and software engineer, with special interest in blockchain and the p2p web. When not doing that, she creates games and other interactive experiences. Her practice investigates murky dichotomies&mdash;like those between privacy and transparency, centralization and decentralization, and the environment and technology&mdash;with playfulness and absurdist humour. She is a proud Recurse Center alum, and has recently exhibited work at NEoN Festival in Scotland, Moneylab in London, Gray Area Festival in San Francisco, Microwave Festival in Hong Kong, the Athens Biennale, and the ZKM Center for Art and Media In Germany.  
-
-<ul class="flex flex-wrap p-0 bio-sm-list">
-  <li class="bio-sm-list-item"><a href="https://isthisa.com/" target="_blank" rel="noopener">{% include icons/link.svg %}&nbsp;isthisa.com</a></li>
-  <li class="bio-sm-list-item"><a href="https://twitter.com/isthisanart_" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@isthisanart_</a></li>
-  <li class="bio-sm-list-item"><a href="https://github.com/ana0" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;ana0</a></li>
-</ul>
-
-**E.L. Guerrero**{:#eloisa} is a software developer at the Public Knowledge Project and a new media artist who is interested in open access, inclusive design, and decentralized networks. She is also currently thinking about how Philippine indigenous teachings can be applied to how we treat and engage with technology.
-
-<ul class="flex flex-wrap p-0 bio-sm-list">
-  <li class="bio-sm-list-item"><a href="https://guerrero.sh/" target="_blank" rel="noopener">{% include icons/link.svg %}&nbsp;guerrero.sh</a></li>
-  <li class="bio-sm-list-item"><a href="https://twitter.com/thinkbulecount2" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@thinkbulecount2</a></li>
-  <li class="bio-sm-list-item"><a href="https://github.com/thinkbulecount2" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;thinkbulecount2</a></li>
-</ul>
+{% for organizer in sorted_organizers %}
+  {% include organizer-bio.html %}  
+{% endfor %}
 
 ###  Design
 

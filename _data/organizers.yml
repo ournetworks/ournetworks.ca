@@ -1,0 +1,39 @@
+- organizerID: benhylau
+  name: "Benedict Lau"
+  bio: >-
+    is an engineer who tells stories of technology practices that bring communities together. He studies distributed protocols and collective governance of digital infrastructures. When not "on email", he builds passable open source tools and facilitates activities about peer-to-peer local networks as a way to co-imagine a future equitable web. He is a member of the Hypha Worker Co-operative and a core contributor at <a href="https://tomesh.net" target="_blank"  rel="noopener">Toronto Mesh</a>.
+  link: "deprecated.systems"
+  twitter: LauBenedict
+  github: benhylau
+
+- organizerID: eloisa
+  name: "E.L. Guerrero"
+  bio: >-
+    is a software developer at the Public Knowledge Project and a new media artist who is interested in open access, inclusive design, and decentralized networks. She is also currently thinking about how Philippine indigenous teachings can be applied to how we treat and engage with technology.
+  link: "guerrero.sh"
+  twitter: thinkbulecount2
+  github: thinkbulecount2
+    
+- organizerID: garry
+  name: "Garry Ing"
+  bio: >-
+    is a designer and researcher centred around the overlap of technology and critical practice. His previous work and collaborations has been with the Strategic Innovation Lab (sLab) at OCAD University, the Technologies for Aging Gracefully Lab at the University of Toronto, Normative, and Format.
+  link: "garrying.com"
+  twitter: garrying
+  github: garrying
+    
+- organizerID: sarah
+  name: "Sarah Friend"
+  bio: >-
+    is an artist and software engineer, with special interest in blockchain and the p2p web. When not doing that, she creates games and other interactive experiences. Her practice investigates murky dichotomies&mdash;like those between privacy and transparency, centralization and decentralization, and the environment and technology&mdash;with playfulness and absurdist humour. She is a proud Recurse Center alum, and has recently exhibited work at NEoN Festival in Scotland, Moneylab in London, Gray Area Festival in San Francisco, Microwave Festival in Hong Kong, the Athens Biennale, and the ZKM Center for Art and Media In Germany.
+  link: "isthisa.com"
+  twitter: isthisanart_
+  github: ana0
+    
+- organizerID: dawn
+  name: "Dawn Walker"
+  bio: >-
+    is a researcher and PhD candidate at the University of Toronto. Her research focuses on values and social transformation in the design of decentralization projects. Her previous research included co-design to investigate how community mapping increases participation in urban agriculture. She also works on grassroots and community infrastructure with groups including <a href="https://envirodatagov.org/" target="_blank" rel="noopener">EDGI</a>. A keen amateur agriculturalist, Dawn would rather be in the garden.
+  link: "dcwalker.ca"
+  twitter: dcwalk_
+  github: dcwalk  

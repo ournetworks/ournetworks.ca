@@ -19,7 +19,7 @@ This year will have a mix of scheduled talks and workshops alongside open space,
 - Reconstructing technology after refusal
 - Regenerative approaches that resist status quo tech
 
-The deadline for proposals was on **July 1, 2019**. We're busy reviewing and will contact submitters before August.
+Registration will be launching shortly!
 
 ### Not Sure? Ask Us!
 
@@ -37,7 +37,7 @@ We have more open hours for people to ask questions and discuss activities for t
     {% capture call_day %}{{call.date | date: '%j'}}{% endcapture %}
     {% assign call_day = call_day | plus: 0 %}
     {% if call_year > now_year or call_day >= now_day and call_year >= now_year %}
-    <div class="w-50 event">
+    <div class="w-50 event mb-2">
       {% include openhour.html event="openhour" %}
     </div>
     {% endif %}
