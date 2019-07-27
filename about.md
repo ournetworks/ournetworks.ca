@@ -21,7 +21,7 @@ _We are grateful to the [First Nations House](https://www.studentlife.utoronto.c
 {% assign min = 1 %}
 {% assign max = site.data.organizers.size %}
 {% assign diff = max | minus: min %}
-{% assign random_number = "now" | date: "%N" | modulo: diff | plus: min %}
+{% assign random_number = "now" | date: "%s" | modulo: diff | plus: min %}
 
 {% assign organizers = site.data.organizers %}
 {% assign sorted_organizers = '' | split: '' %}
