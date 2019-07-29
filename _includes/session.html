@@ -1,4 +1,4 @@
-{%- for session in site.data.sessions -%}
+{%- for session in site.data.sessions[include.year] -%}
   {%- if include.session-id == session.sessionID -%}
   <div class="session">
     <header>
