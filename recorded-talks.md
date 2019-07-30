@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 3
+order: 0
 fullWidth: true
 title: "Recorded Talks"
 titleDisplay: "Recorded Talks"
