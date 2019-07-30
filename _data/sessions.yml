@@ -78,7 +78,7 @@
     linkDisplay: "wearedouc.com"
     instagram: "douc_to"
     twitter: "cristoforo_DoUC"
-    description: "We are living in a fluid existence between the virtual and physical worlds. The urban development models of the past are beginning to fall short in creating cities that support the reality of our current existence. Networks aren’t just nodes and links designated by code—they are accessed and used by real people over physical infrastructure that exists in physical space. How does the network interface with the city, and with the public? What are the individual and collective experiences and interactions that are enabled by these networks in practice?"
+    description: "We are living in a fluid existence between the virtual and physical worlds. The urban development models of the past are beginning to fall short in creating cities that support the reality of our current existence. Networks aren't just nodes and links designated by code—they are accessed and used by real people over physical infrastructure that exists in physical space. How does the network interface with the city, and with the public? What are the individual and collective experiences and interactions that are enabled by these networks in practice?"
     descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/9"
     sessionType: "workshop"
     date: 2018-07-14
@@ -211,7 +211,7 @@
       - rea
       - owen
       - maya
-    description: "The interdisciplinary creative practices of fandom — whether it be fanfiction, fanart, or cosplay — challenge our previously held notions of authorship, but also uphold the open internet’s emancipatory values. Networked-based online creations thrive within particular fandoms, and its community-based model has enabled authors to create works that bring in feminist as well as queer and critical race studies approaches, especially through genres like slash. So how are these fan methodologies reshaping the practices of artists and curators? This conversation will map out the ways in which three “fans” AKA contemporary artists/curators are bringing these so-called fan perspectives into their work, and explore how fandom cultivates alternative means of capacity-building and storytelling."
+    description: "The interdisciplinary creative practices of fandom — whether it be fanfiction, fanart, or cosplay — challenge our previously held notions of authorship, but also uphold the open internet's emancipatory values. Networked-based online creations thrive within particular fandoms, and its community-based model has enabled authors to create works that bring in feminist as well as queer and critical race studies approaches, especially through genres like slash. So how are these fan methodologies reshaping the practices of artists and curators? This conversation will map out the ways in which three 'fans' AKA contemporary artists/curators are bringing these so-called fan perspectives into their work, and explore how fandom cultivates alternative means of capacity-building and storytelling."
     descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/20"
     sessionType: "panel"
     date: 2018-07-14
@@ -387,7 +387,7 @@
     presenterID:
       - hiba
     description: > 
-      "Workers' rights are losing respect, the power of technology is not fully understood – gone are the eras of strength of 1940s US labor unions. A financial environment cushioned by unregulated laws created an orange-coloured disease, Amazon, that systemically targets poor people, Black communities and communities of color. It spreads precarity as a contagion, strengthens digital redlining, and produces predatory surveillance: Amazon, the company, has changed the world. Also, it has changed the word. Amazon will come to solely signify the company and not the Brazilian rainforest. I will speak on the 'Amazonification' of the world and its role in spreading neoliberal ecoterrorism by remapping environmental scarcity as precarity onto vulnerable populations. I will connect this to the company’s predatory system of surveillance through its in-house facial recognition software and serving as the tech-backbone of ICE. Through the innocuous frame of consumption, this talk and screening decrypts the 'success' behind corporate rendering of workers' labor as invisible and through its AI algorithms extending the carceral state."
+      "Workers' rights are losing respect, the power of technology is not fully understood – gone are the eras of strength of 1940s US labor unions. A financial environment cushioned by unregulated laws created an orange-coloured disease, Amazon, that systemically targets poor people, Black communities and communities of color. It spreads precarity as a contagion, strengthens digital redlining, and produces predatory surveillance: Amazon, the company, has changed the world. Also, it has changed the word. Amazon will come to solely signify the company and not the Brazilian rainforest. I will speak on the 'Amazonification' of the world and its role in spreading neoliberal ecoterrorism by remapping environmental scarcity as precarity onto vulnerable populations. I will connect this to the company's predatory system of surveillance through its in-house facial recognition software and serving as the tech-backbone of ICE. Through the innocuous frame of consumption, this talk and screening decrypts the 'success' behind corporate rendering of workers' labor as invisible and through its AI algorithms extending the carceral state."
     sessionType: "talk"
     date: 2019-09-20
     length: 0.75
@@ -409,7 +409,7 @@
     presenterID:
       - cade
     description: > 
-      "Will design ethics save design? As the broader design community becomes increasingly uncomfortable with the structures and clients it serves, a growing movement seeks to integrate ethics into design practice. But this prioritises individual decisions and values over critical analysis of socio-political and economic outcomes. The pop discourse that calls for ethics indemnifies designers and obfuscates the inherent problems of their work, resulting in the celebration of projects that at their core problematic, such as digital wellness, decentralised systems, autonomous cars and inclusive facial recognition. Building on the essay “On Weaponised Design,” and an ongoing multi-year research and practice project with Tactical Tech and others, Design Ethics? No Thanks explores how design has enabled a decade of absurdity and examine how design ethics threatens to neutralise both the critique of outcomes and the potential contribution of design to a radically reimagined world."
+      "Will design ethics save design? As the broader design community becomes increasingly uncomfortable with the structures and clients it serves, a growing movement seeks to integrate ethics into design practice. But this prioritises individual decisions and values over critical analysis of socio-political and economic outcomes. The pop discourse that calls for ethics indemnifies designers and obfuscates the inherent problems of their work, resulting in the celebration of projects that at their core problematic, such as digital wellness, decentralised systems, autonomous cars and inclusive facial recognition. Building on the essay 'On Weaponised Design,' and an ongoing multi-year research and practice project with Tactical Tech and others, Design Ethics? No Thanks explores how design has enabled a decade of absurdity and examine how design ethics threatens to neutralise both the critique of outcomes and the potential contribution of design to a radically reimagined world."
     sessionType: "talk"
     date: 2019-09-XX
     length: 0.75
@@ -464,7 +464,7 @@
     presenterID:
       - sphere
     description: >
-      "'Currency' is an electronic game and custom game console constructed from an obsolete 1917 Burroughs adding machine and a microcontroller. The console monitors the exchange rate of bitcoins to US dollars and uses this data to generate a game level that prints out on a roll of receipt paper. Using the adding machine’s grid of numeric buttons, players attempt to pull two columns of printed ASCII symbols together while being either aided or impeded by the current Bitcoin value."
+      "'Currency' is an electronic game and custom game console constructed from an obsolete 1917 Burroughs adding machine and a microcontroller. The console monitors the exchange rate of bitcoins to US dollars and uses this data to generate a game level that prints out on a roll of receipt paper. Using the adding machine's grid of numeric buttons, players attempt to pull two columns of printed ASCII symbols together while being either aided or impeded by the current Bitcoin value."
     sessionType: "exhibit" 
     date: 2019-09-20
 
@@ -484,7 +484,7 @@
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/13"
     presenterID:
       - renee 
-    description: "This paper proposes information technology (IT) infrastructure is formulating a universal language. It dips into historic efforts to create a universal language via avant garde filmmaking and Gottfried Leibniz’s characteristica universalis. It then explains how international standardization organizations are developing the globally unified infrastructural language through their regulations. The paper weighs the benefits and consequences of a universal language by looking into who IT infrastructure serves and who is excluded. As Marshall McLuhan inferred in his 1964 essay, “The Medium is the Message,” technology becomes inseparable from the messages it transmits, adding another layer of meaning to what is communicated; language, in turn, starts to be shaped around the tools that facilitate it. Thus, IT infrastructure is not just a tool to communicate, but is part of language itself."
+    description: "This paper proposes information technology (IT) infrastructure is formulating a universal language. It dips into historic efforts to create a universal language via avant garde filmmaking and Gottfried Leibniz's characteristica universalis. It then explains how international standardization organizations are developing the globally unified infrastructural language through their regulations. The paper weighs the benefits and consequences of a universal language by looking into who IT infrastructure serves and who is excluded. As Marshall McLuhan inferred in his 1964 essay, 'The Medium is the Message,' technology becomes inseparable from the messages it transmits, adding another layer of meaning to what is communicated; language, in turn, starts to be shaped around the tools that facilitate it. Thus, IT infrastructure is not just a tool to communicate, but is part of language itself."
     sessionType: "talk"
     date: 2019-09-XX
     length: X
@@ -526,7 +526,7 @@
     presenterID:
       - corey
     description: > 
-      "The following talk will address the recent calls for regulation of digital content on social media platforms alongside the digital emancipation movements of the 90's, and how this informs, or rather, elucidates issues in digital ethics. And by this I mean the way in which various normative claims exist, and persist online, and how such ethical conventions interact with us user-subjects. Ultimately, my plan is to show that there is a fundamental error in how digital ethics are understood, and that normative claims such as ‘free speech’ appear to operate in a very distinct way online. This is the beginning of a greater project regarding the nature of ‘the digital self’, and my plan is for this presentation to function as means of clarification, and identification of a problem. A problem which, I think can be attended to by social sciences, cultural theory & psychoanalysis."
+      "The following talk will address the recent calls for regulation of digital content on social media platforms alongside the digital emancipation movements of the 90's, and how this informs, or rather, elucidates issues in digital ethics. And by this I mean the way in which various normative claims exist, and persist online, and how such ethical conventions interact with us user-subjects. Ultimately, my plan is to show that there is a fundamental error in how digital ethics are understood, and that normative claims such as ‘free speech' appear to operate in a very distinct way online. This is the beginning of a greater project regarding the nature of ‘the digital self', and my plan is for this presentation to function as means of clarification, and identification of a problem. A problem which, I think can be attended to by social sciences, cultural theory & psychoanalysis."
     sessionType: "talk"
     date: 2019-09-XX
     length: X
@@ -548,7 +548,7 @@
     presenterID:
       - sam
     description: > 
-      "Relationships are fundamental to networked activity—as a kind of interpersonal infrastructure, feedback allows us to communicate our expectations and observations. Even with the proliferation of organizational frameworks to help us consider giving and receiving, our intentions can be clouded by biases, misaligned goals, and fraught relationships. If the only variable we can control is ourselves, how can we consciously act to depersonalize feedback and guide our colleagues to coach / evaluate us on the areas in which we need or hope to grow? What relevant methods or approaches could we borrow from design research? This workshop will open with a primer on existing feedback frameworks and models, then participants will work individually and collaboratively through a semi-structured activity to answer “what could it look like to frame feedback as exploratory research into ourselves?"
+      "Relationships are fundamental to networked activity—as a kind of interpersonal infrastructure, feedback allows us to communicate our expectations and observations. Even with the proliferation of organizational frameworks to help us consider giving and receiving, our intentions can be clouded by biases, misaligned goals, and fraught relationships. If the only variable we can control is ourselves, how can we consciously act to depersonalize feedback and guide our colleagues to coach / evaluate us on the areas in which we need or hope to grow? What relevant methods or approaches could we borrow from design research? This workshop will open with a primer on existing feedback frameworks and models, then participants will work individually and collaboratively through a semi-structured activity to answer 'what could it look like to frame feedback as exploratory research into ourselves?"
     sessionType: "workshop"
     date: 2019-09-XX
     length: X
@@ -588,7 +588,7 @@
     presenterID:
       - brettw
     description: > 
-      "A public roundtable discussion with artist Brett Wallace focusing on the challenge of working conditions in the digital age. By examining ideas or labor, technology and the greater economy in Wallace’s recent work as a jumping off point, we will hold a group discussion on building coalitions and reclaiming autonomy and dignity in workplaces today. What are the internal contradictions workers face in the gig economy at large, and in the field of contemporary art? How do we reclaim forms of autonomy and worker power? How can new forms of technology support worker power?"
+      "A public roundtable discussion with artist Brett Wallace focusing on the challenge of working conditions in the digital age. By examining ideas or labor, technology and the greater economy in Wallace's recent work as a jumping off point, we will hold a group discussion on building coalitions and reclaiming autonomy and dignity in workplaces today. What are the internal contradictions workers face in the gig economy at large, and in the field of contemporary art? How do we reclaim forms of autonomy and worker power? How can new forms of technology support worker power?"
     sessionType: "workshop"
     date: 2019-09-XX
     length: X
@@ -610,7 +610,8 @@
     presenterID:
       - jaya 
       - dan
-    description: ""
+    description: > 
+      "CoBox is a project to enable p2p cloud infrastructures with different trust-settings. The project emphasises privacy by design and easy data governance. The aim is to enable data commons, while protecting against the worst societal effects of dataification and data extraction. Many of the worst effects of Web 2.0 can be traced to the business models of the corporations that dominate the Internet: add-based and financialised businesses where services are paid through people's attention and click rate. This creates a number of devastating knock-on effects, including mass surveillance, design and development efforts aimed at creating addictive behaviours as well as information echo-chambers, phycological and emotional feedback loops. The consequences are ripping through the social fabric of societies and scorching the nervous systems of our bodies. Instead of a drive towards incorporating all interactions and behaviours into data centres for commercial exploitation, the emphasis of CoBox is to enable easy, yet conscious data governance where only the minimal necessary data is created and stored. What might be the new forms of organisations that would emerge from such an infrastructure? And conversely, which existing forms of organisations, networks and companies might benefit from such infrastructures? And critically - through which kinds of economic arrangements might a cooperative p2p cloud sustain itself in the long term?"
     sessionType: "talk"
     date: 2019-09-XX
     length: X
@@ -620,7 +621,8 @@
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/27"
     presenterID:
       - andrew
-    description: ""
+    description: > 
+      "Bret Victor posed an important question: over a long time horizon, what strategy for preserving information has been most successful? Redundant copies stored in a distributed way (for example, each of us storing a full copy of the human genome) or a centralized repository (like the Library of Alexandria)? For the last few years, I've been working on a project to pull a copy of my personal history from across all the platforms and tools I use and make it available for archiving, search, and computation. I'd like to go over the historical project that inspired this project (the Memex of 1945) as well as giving a demo of the system I've built."
     sessionType: "talk"
     date: 2019-09-XX
     length: X
@@ -630,7 +632,8 @@
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/28"
     presenterID:
       - elisabetta
-    description: ""
+    description: > 
+      "A collaborative drawing-based discussion between activists, hackers, technologists and researchers on how we can imagine a radically different, better, internet. Participants will be encouraged to produce drawings (individually and in groups) that represent how they imagine the internet to be now and how they would like the internet to be in the future. The drawings will support a discussion on how to imagine radically different technological futures. The unusual format of the discussion allows for the inclusion of people with different types of expertise and experiences of technology, thus helping to break down the technical barriers that are often involved in talking about infrastructures."
     sessionType: "workshop"
     date: 2019-09-XX
     length: X
@@ -640,7 +643,8 @@
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/30"
     presenterID:
       - lai
-    description: ""
+    description: >
+      "As an artist and tech worker, I have often utilized oral history interview techniques to better understand the technology I work with or am building--it turns out, behind every technology there's at least one technologist. I will use these techniques to take the oral histories of five different tech workers who work on a proposal for an alternative network of some kind. Spanning between individuals within the Internet Freedom, Silicon Valley and New Media fields with same but different goals, I am learning from these people's lives: what do we mean by "our" and what do we mean by "network," both currently and potentially. What led each of these people to look at the current state of networks and think, "We can do something better"? During 'Our Network Our History: alternative archives', I will first present each interview, both individually and in relation to each other. The remainder of the time will be spent discussing ways we can utilize the tools each individual is contributing to to archive their history. For example, if I were to interview an IPFS developer, how could we use IPFS to store their story? This portion of the session isn't expected to be anything more than a brainstorm, but I hope to tap into the potential for alternative networks to produce alternative archives."
     sessionType: "workshop"
     date: 2019-09-XX
     length: X
@@ -656,7 +660,8 @@
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/32"
     presenterID:
       - melanie
-    description: ""
+    description: > 
+      "What if we could create and inhabit a new kind of digital city that transforms our online networks from an ordained protocol to an expressive medium of shared placemaking? In this workshop we will collectively create a peer-to-peer city using the structure of nested folders and DAT. Taking up after Italo Calvino’s Invisible Cities and the common practice of digital organization, through lecture, examples, and hands on making, we will explore folder structures as a new kind of poetic meter and DAT as a way to build digital spaces with and for our networks. This workshop assumes no coding experience and simultaneously takes the position that everyone who interacts with computers in some way is already a programmer."
     sessionType: "workshop"
     date: 2019-09-XX
     length: X
@@ -666,7 +671,7 @@
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/33"
     presenterID:
       - jennifer
-    description: ""
+    description: "Reterritorializing Hybrid Space from Avant-Garde to Avantpop, A Media Archaeology of Process-Based Platforms of the Artist-Run Counter-Institution"
     sessionType: "talk"
     date: 2019-09-XX
     length: X
@@ -676,7 +681,8 @@
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/34"
     presenterID:
       - jack
-    description: ""
+    description: > 
+      "'Decentralization' has emerged as a rallying cry to build a web where control is delegated away from central authorities and toward individuals. However, among the multitude of efforts to decentralize the web, there is a lack of consensus on how it should occur and what new centres of power will be cultivated in the process. This talk traces decentralization through historical accounts of the development of the Internet, highlighting how architectural decentralization has served multiple dimensions of social and cultural power. It then discusses how two recent projects reimagine web culture and inscribe new values through the design of socio-technical systems. This analysis offers tools for researchers and designers to think beyond mere decentralization and more substantively engage with their social and epistemic commitments in the design of future internets."
     sessionType: "talk"
     date: 2019-09-XX
     length: X
@@ -686,7 +692,8 @@
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/35"
     presenterID:
       - danny
-    description: ""
+    description: > 
+      "How can we as users and workers imagine ways to own our technology? On the path towards full cooperative takeover like turning Twitter into a public utility, we have to get fairly compensated for our labor - which is why volunteers with Tech Workers Coalition developed Get Back Lost Wages, a simple platform for all gig workers in California to file claims for minimum wage and overtime pay. This session introduces strategies for building power in the tech industry. We will talk about our opportunities to organize, get mutual aid and ideas, and will co-design real tools for the job."
     sessionType: "workshop"
     date: 2019-09-XX
     length: X
