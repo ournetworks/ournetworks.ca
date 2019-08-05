@@ -1,3 +1,4 @@
+{%- if session.title -%}
 <div class="session-detail program-block">
   <a class="program-block-anchor" id="{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}"></a>
   <div class="program-block-content">
@@ -5,7 +6,7 @@
       <h3 class="session-title heading">{{ session.title }}</h3>
       {%- if session.presenterID -%}
         <h4 class="session-presenter">
-          {% assign presenters = site.data.presenters %}
+          {% assign presenters = site.data.presenters[include.year] %}
           {% assign presenterCount = session.presenterID.size %}
           {%- for presenterID in session.presenterID -%}
             {%- for presenter in presenters -%}
@@ -19,17 +20,6 @@
         </h4>
       {%- endif -%}
     </header>
-    {%- if session.sessionType == "lightning" -%}
-    <div class="session-caption">
-      {% assign lightningSessions = site.data.sessions | sort: 'title' %}
-      {%- for lightning in lightningSessions -%}
-        {%- if lightning.sessionType == "lightning-talk" -%}
-          <h4>{{ lightning.title }}</h4>
-          <h5>{{ lightning.presenter }}</h5>
-        {%- endif -%}
-      {%- endfor -%}
-    </div>
-    {%- endif -%}
     {%- if session.description -%}
     <div class="session-caption">
         <p>{{ session.description | truncatewords: 75 }}<span class="read-more"><a href="{{ session.descriptionLink }}" rel="noopener"> read more</a></span></p>
@@ -45,3 +35,4 @@
     {%- endif -%}
   </div>
 </div>
+{%- endif -%}

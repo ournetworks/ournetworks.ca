@@ -574,10 +574,10 @@ titleDisplay: "Program"
 ## Sessions
 {:.program-heading}
 
-{% assign sorted2019Sessions = site.data.sessions[2019] | sort: "title" %}
+{% assign sortedSessions = site.data.sessions[2019] | sort: "title" %}
 
 {%- for session in sortedSessions -%}
-    {% include session-details.html %}
+    {% include session-details.html year=2019 %}
 {%- endfor -%}
 
 ## Presenters
@@ -586,5 +586,5 @@ titleDisplay: "Program"
 {% assign sortedPresenters = site.data.presenters[2019] | sort: "name" %}
 
 {%- for presenter in sortedPresenters -%}
-    {% include presenter-details.html %}
+    {% include presenter-details.html year=2019 %}
 {%- endfor -%}
