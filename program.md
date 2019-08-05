@@ -8,6 +8,172 @@ titleDisplay: "Program"
 ## Friday > September 20
 {: .schedule-spacer}
 
+<table class="schedule-table">
+<thead>
+<tr>
+  <th class="schedule-time"></th>
+  <th class="schedule-time"></th>
+  <th class="schedule-main">Main Room</th>
+  <th class="schedule-breakout">Gamma Workshop Space</th>
+  <th class="schedule-breakout">Zine Library</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>13</td>
+  <td>:00</td>
+  <td colspan="3" rowspan="4" class="session-block session-{% include session-type.html session-id=19990 %}">{% include session.html year=2019 session-id=19990 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>14</td>
+  <td>:00</td>
+  <td colspan="1" rowspan="2" class="session-block session-{% include session-type.html session-id=19034 %}">{% include session.html year=2019 session-id=19034 %}</td>
+  <td colspan="1" rowspan="16" class="session-block session-{% include session-type.html session-id=19018 %}">{% include session.html year=2019 session-id=19018 %}</td>
+  <td colspan="1" rowspan="16"></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+  <td colspan="1" rowspan="2" class="session-block session-{% include session-type.html session-id=19013 %}">{% include session.html year=2019 session-id=19013 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>15</td>
+  <td>:00</td>
+  <td colspan="1" rowspan="2" class="session-block session-{% include session-type.html session-id=19017 %}">{% include session.html year=2019 session-id=19017 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>16</td>
+  <td>:00</td>
+  <td colspan="1" rowspan="8" class="session-block session-{% include session-type.html session-id=19032 %}">{% include session.html year=2019 session-id=19032 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>17</td>
+  <td>:00</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>18</td>
+  <td>:00</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+  <td colspan="3" rowspan="4" class="session-block session-{% include session-type.html session-id=19994 %}">{% include session.html year=2019 session-id=19994 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>19</td>
+  <td>:00</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+  <td colspan="3" rowspan="10" class="session-block session-{% include session-type.html session-id=19993 %}">{% include session.html year=2019 session-id=19993 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>20</td>
+  <td>:00</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>21</td>
+  <td>:00</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+</tbody>
+</table>
 
 
 ## Saturday > September 21
@@ -19,74 +185,117 @@ titleDisplay: "Program"
   <th class="schedule-time"></th>
   <th class="schedule-time"></th>
   <th class="schedule-main">Main Room</th>
-  <th class="schedule-breakout">Breakout #1</th>
-  <th class="schedule-breakout">Breakout #2</th>
+  <th class="schedule-breakout">Gamma Workshop Space</th>
+  <th class="schedule-breakout">Zine Library</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-  <td>8</td>
-  <td>:00</td>
-  <td colspan="3"></td>
-</tr><tr>
-  <td></td>
-  <td>:30</td>
-  <td rowspan="2" colspan="3" class="session-block session-{% include session-type.html session-id=18990 %}">{% include session.html session-id=18990 %}</td>
-</tr>
-<tr>
   <td>9</td>
   <td>:00</td>
-</tr><tr>
+  <td colspan="3" rowspan="4" class="session-block session-{% include session-type.html session-id=19990 %}">{% include session.html year=2019 session-id=19990 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
   <td></td>
   <td>:30</td>
-  <td colspan="3" class="session-block session-{% include session-type.html session-id=18991 %}">{% include session.html session-id=18991 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td>10</td>
   <td>:00</td>
-  <td rowspan="2" colspan="3" class="session-block session-{% include session-type.html session-id=18010 %}">{% include session.html session-id=18010 %}</td>
+  <td colspan="3" rowspan="1" class="session-block session-{% include session-type.html session-id=19998 %}">{% include session.html year=2019 session-id=19998 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td colspan="3" rowspan="2" class="session-block session-{% include session-type.html session-id=19023 %}">{% include session.html year=2019 session-id=19023 %}</td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td colspan="3" rowspan="3" class="session-block session-{% include session-type.html session-id=19033 %}">{% include session.html year=2019 session-id=19033 %}</td>
 </tr>
 <tr>
   <td>11</td>
   <td>:00</td>
-  <td colspan="3" class="session-block session-{% include session-type.html session-id=18241 %}">{% include session.html session-id=18241 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
-  <td colspan="3" class="session-block session-{% include session-type.html session-id=18120 %}">{% include session.html session-id=18120 %}</td>
+  <td colspan="3" rowspan="1" class="session-block session-{% include session-type.html session-id=19991 %}">{% include session.html year=2019 session-id=19991 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td colspan="3" rowspan="3" class="session-block session-{% include session-type.html session-id=19003 %}">{% include session.html year=2019 session-id=19003 %}</td>
 </tr>
 <tr>
   <td>12</td>
   <td>:00</td>
-  <td rowspan="2" colspan="3" class="session-block session-{% include session-type.html session-id=18100 %}">{% include session.html session-id=18100 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
+  <td colspan="3" rowspan="2" class="session-block session-{% include session-type.html session-id=19012 %}">{% include session.html year=2019 session-id=19012 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td>13</td>
   <td>:00</td>
-  <td colspan="3" class="session-block session-{% include session-type.html session-id=18250 %}">{% include session.html session-id=18250 %}</td>
+  <td colspan="3" rowspan="4" class="session-block session-{% include session-type.html session-id=19992 %}">{% include session.html year=2019 session-id=19992 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
-  <td rowspan="2" colspan="3" class="session-block session-{% include session-type.html session-id=18996 %}">{% include session.html session-id=18996 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td>14</td>
   <td>:00</td>
+  <td colspan="1" rowspan="8" class="session-block session-{% include session-type.html session-id=19035 %}">{% include session.html year=2019 session-id=19035 %}</td>
+  <td colspan="1" rowspan="8" class="session-block session-{% include session-type.html session-id=19009 %}">{% include session.html year=2019 session-id=19009 %}</td>
+  <td colspan="1" rowspan="8" class="session-block session-{% include session-type.html session-id=19020 %}">{% include session.html year=2019 session-id=19020 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
-  <td rowspan="2" colspan="3" class="session-block session-{% include session-type.html session-id=18200 %}">{% include session.html session-id=18200 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td>15</td>
@@ -94,42 +303,107 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
   <td>:30</td>
-  <td colspan="3" class="session-block session-{% include session-type.html session-id=18995 %}">{% include session.html session-id=18995 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td>16</td>
   <td>:00</td>
-  <td rowspan="4" class="session-block session-{% include session-type.html session-id=18242 %}">{% include session.html session-id=18242 %}</td>
-  <td rowspan="4" class="session-block session-{% include session-type.html session-id=18210 %}">{% include session.html session-id=18210 %}</td>
-  <td rowspan="4" class="session-block session-{% include session-type.html session-id=18180 %}">{% include session.html session-id=18180 %}</td>
+  <td colspan="3" rowspan="1" class="session-block session-{% include session-type.html session-id=19991 %}">{% include session.html year=2019 session-id=19991 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19026 %}">{% include session.html year=2019 session-id=19026 %}</td>
+  <td colspan="1" rowspan="6" class="session-block session-{% include session-type.html session-id=19024 %}">{% include session.html year=2019 session-id=19024 %}</td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td> 
 </tr>
 <tr>
   <td>17</td>
   <td>:00</td>
+  <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19010 %}">{% include session.html year=2019 session-id=19010 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td colspan="3"></td>
 </tr>
 <tr>
   <td>18</td>
   <td>:00</td>
-  <td rowspan="2" colspan="3" class="session-block session-{% include session-type.html session-id=18997 %}">{% include session.html session-id=18997 %}</td>
+  <td colspan="3" rowspan="4" class="session-block session-{% include session-type.html session-id=19994 %}">{% include session.html year=2019 session-id=19994 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>19</td>
+  <td>:00</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>20</td>
+  <td>:00</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 </tbody>
 </table>
 
 
-## Sunday > September 21
+## Sunday > September 22
 
 <table class="schedule-table">
 <thead>
@@ -137,168 +411,179 @@ titleDisplay: "Program"
   <th class="schedule-time"></th>
   <th class="schedule-time"></th>
   <th class="schedule-main">Main Room</th>
-  <th class="schedule-breakout">Breakout #1</th>
-  <th class="schedule-breakout">Breakout #2</th>
+  <th class="schedule-breakout">Gamma Workshop Space</th>
+  <th class="schedule-breakout">Zine Library</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-  <td>9</td>
-  <td>:00</td>
-  <td colspan="3"></td>
-</tr>
-<tr>
-  <td></td>
-  <td>:30</td>
-  <td colspan="3" class="session-block session-{% include session-type.html session-id=18990 %}">{% include session.html session-id=18990 %}</td>
-</tr>
-<tr>
   <td>10</td>
   <td>:00</td>
-  <td rowspan="2" class="session-block session-{% include session-type.html session-id=18231 %}">{% include session.html session-id=18231 %}</td>
-  <td rowspan="4" class="session-block session-{% include session-type.html session-id=18070 %}">{% include session.html session-id=18070 %}</td>
-  <td rowspan="4" class="session-block session-{% include session-type.html session-id=18220 %}">{% include session.html session-id=18220 %}</td>
+  <td colspan="3" rowspan="2"></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
+  <td colspan="3" rowspan="2" class="session-block session-{% include session-type.html session-id=19990 %}">{% include session.html year=2019 session-id=19990 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td>11</td>
   <td>:00</td>
-  <td rowspan="2" class="session-block session-{% include session-type.html session-id=18232 %}">{% include session.html session-id=18232 %}</td>
+  <td colspan="3" rowspan="2" class="session-block session-{% include session-type.html session-id=19027 %}">{% include session.html year=2019 session-id=19027 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
+  <td colspan="3" rowspan="2" class="session-block session-{% include session-type.html session-id=19022 %}">{% include session.html year=2019 session-id=19022 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td>12</td>
   <td>:00</td>
-  <td rowspan="2" colspan="3" class="session-block session-{% include session-type.html session-id=18993 %}">{% include session.html session-id=18993 %}</td>
+  <td colspan="3" rowspan="1" class="session-block session-{% include session-type.html session-id=19991 %}">{% include session.html year=2019 session-id=19991 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td colspan="3" rowspan="3" class="session-block session-{% include session-type.html session-id=19008 %}">{% include session.html year=2019 session-id=19008 %}</td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td>13</td>
   <td>:00</td>
-  <td colspan="3" class="session-block session-{% include session-type.html session-id=18994 %}">{% include session.html session-id=18994 %}</td>
+  <td colspan="3" rowspan="4" class="session-block session-{% include session-type.html session-id=19992 %}">{% include session.html year=2019 session-id=19992 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
-  <td rowspan="2" colspan="3" class="session-block session-{% include session-type.html session-id=18996 %}">{% include session.html session-id=18996 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td>14</td>
   <td>:00</td>
+  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19997 %}">{% include session.html year=2019 session-id=19997 %}</td>
+  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19025 %}">{% include session.html year=2019 session-id=19025 %}</td>
+  <td colspan="1" rowspan="8" class="session-block session-{% include session-type.html session-id=19007 %}">{% include session.html year=2019 session-id=19007 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
-  <td rowspan="2" colspan="2" class="session-block session-{% include session-type.html session-id=18160 %}">{% include session.html session-id=18160 %}</td>
-  <td rowspan="4" class="session-block session-{% include session-type.html session-id=18090 %}">{% include session.html session-id=18090 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td>15</td>
   <td>:00</td>
+  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19030 %}">{% include session.html year=2019 session-id=19030 %}</td>
+  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19028 %}">{% include session.html year=2019 session-id=19028 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
-  <td rowspan="2" colspan="2" class="session-block session-{% include session-type.html session-id=18050 %}">{% include session.html session-id=18050 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td>16</td>
   <td>:00</td>
+  <td colspan="3" rowspan="1" class="session-block session-{% include session-type.html session-id=19991 %}">{% include session.html year=2019 session-id=19991 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19004 %}">{% include session.html year=2019 session-id=19004 %}</td>
+  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19019 %}">{% include session.html year=2019 session-id=19019 %}</td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
-  <td rowspan="2" class="session-block session-{% include session-type.html session-id=18140 %}">{% include session.html session-id=18140 %}</td>
-  <td rowspan="2" colspan="2" class="session-block session-{% include session-type.html session-id=18190 %}">{% include session.html session-id=18190 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td>17</td>
   <td>:00</td>
+  <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19005 %}">{% include session.html year=2019 session-id=19005 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
-  <td rowspan="1" colspan="3" class="session-block session-{% include session-type.html session-id=18992 %}">{% include session.html session-id=18992 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td colspan="3" rowspan="1" class="session-block session-{% include session-type.html session-id=19999 %}">{% include session.html year=2019 session-id=19999 %}</td>
 </tr>
 </tbody>
 </table>
 
-## Monday–Wednesday  July 16–18
-
-### [Sprints](/sprints/)
-10:30 am – 9:30 pm  
-Semaphore Demo Room, Room 417  
-[Claude T. Bissell Building  
-140 St. George Street](http://osm.org/go/ZX6Bw~WNh--?m=)
-
 ---
 
-<a class="program-block-anchor" id="keynote-nasma-ahmed,-navigating-digital-futures"></a>
-## Keynote: Navigating Digital Futures
+<a class="program-block-anchor" id="keynote-tba"></a>
+## Keynote: TBA
 {:.program-heading}
-<div class="session-detail program-block">
-  <div class="session-detail-content program-block-content">
-    <header class="session-header">
-      <h3 class="session-title">Nasma Ahmed, Founder and Executive Director of <a href="https://digitaljusticelab.ca/" target="_blank" rel="noopener">Digital Justice Lab</a></h3>
-      <p>Nasma Ahmed is a black muslimah working within the intersections of social justice, technology and policy. She is a technologist and capacity builder based in Toronto. She is the Executive Director of the Digital Justice Lab a national organization focusing on building a more just and equitable digital future in Canada.</p>
-    </header>
-    <div class="row">
-      <div class="three columns">
-        <a href="https://digitaljusticelab.ca/"><img src="/images/nasma-headshot.png" alt="Nasma Ahmed illustrated headshot" /></a>
-      </div>
-      <div class="five columns">
-        <a href="https://digitaljusticelab.ca/"><img src="/images/digital-justice-lab-logo.svg" alt="Digital Justice Lab logo" /></a>
-      </div>
-    </div>
-    <br />
-  </div>
-</div>
+
 
 ## Sessions
 {:.program-heading}
 
-{% assign sortedSessions = site.data.2019-sessions | sort: 'title' %}
+{% assign sorted2019Sessions = site.data.sessions[2019] | sort: "title" %}
 
 {%- for session in sortedSessions -%}
-  {%- if session.sessionType == "talk" or session.sessionType == "discussion" or session.sessionType == "demo" or session.sessionType == "panel" or session.sessionType == "workshop" -%}
     {% include session-details.html %}
-  {%- endif -%}
 {%- endfor -%}
-
-<a class="program-block-anchor" id="lightning-talks"></a>
-## Lightning Talks
-{:.program-heading}
-
-{% assign sortedSessions = site.data.2019-sessions | sort: 'title' %}
-
-{%- for session in sortedSessions -%}
-  {% include session-details.html %}
-{%- endfor -%}
-
-
-<a class="program-block-anchor" id="sprint-pitches"></a>
-## Lightning Talks
-{:.program-heading}
-
-<div class="session-detail program-block">
-  <div class="session-detail-content program-block-content">
-    <p>This is a time slot reserved for anyone to give a lightning talk.</p>
-  </div>
-</div>
 
 ## Presenters
 {:.program-heading}
 
-{% assign sortedPresenters = site.data.2019-presenters | sort: 'name' %}
+{% assign sortedPresenters = site.data.presenters[2019] | sort: "name" %}
 
 {%- for presenter in sortedPresenters -%}
     {% include presenter-details.html %}

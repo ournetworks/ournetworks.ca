@@ -177,14 +177,6 @@
     link: "http://farhadbahram.com/"
     linkDisplay: "farhadbahram.com"
 
-  - presenterID: cade
-    name: "Cade."
-    bio: "Cade is a designer, writer and researcher. His practice focuses on critical theory, human-computer interaction, identity, infrastructure and politics. After prototyping Signal with Open Whisper Systems, he spent four years designing for secure software. He was the head of design at SpiderOak, cultivating design-led information security. In 2017 he joined Tactical Tech as Design Lead, developing an aesthetic framework for the organisation's projects. He has guest lectured at universities in Germany and the UK and has provided information security and/or sensitive design consulting advice to companies, activist groups and non profits in Europe, the United States and Australia."
-    link: "https://shiba.computer/"
-    linkDisplay: "shiba.computer"
-    github: "shibacomputer"
-    twitter: "helveticade"
-
   - presenterID: hector
     name: "Hector Sanjuan"
     bio: "Hector works at Protocol Labs and leads the IPFS Cluster project, a distributed application using many parts from the libp2p and IPFS stacks."
@@ -308,7 +300,7 @@
     linkDisplay: "libirose.com"
     twitter: "rose_alibi"
 
-  - presenterID: jara
+  - presenterID: jaya
     name: "Jaya Klara Brekke"
     bio: "Dr. Jaya Klara Brekke is a critical theorist and political cryptoeconomist and one part of the CoBox project looking to enable a privacy aware p2p cloud. She recently completed a PhD titled Disassembling the Trust Machine, three cuts on the political matter of blockchain, from Durham University Geography department, where she is also currently undertaking a postdoctoral fellowship. She has worked on questions of power and (geo)politics in network infrastructures for the past ten years as a designer, writer and public speaker."
     link: "http://www.jayapapaya.net/"
