@@ -13,9 +13,9 @@ titleDisplay: "Program"
 <tr>
   <th class="schedule-time"></th>
   <th class="schedule-time"></th>
-  <th class="schedule-main">Main Room</th>
-  <th class="schedule-breakout">Gamma Workshop Space</th>
-  <th class="schedule-breakout">Zine Library</th>
+  <th class="schedule-main sticky-top bg-white">Main Room</th>
+  <th class="schedule-breakout sticky-top bg-white">Gamma Workshop Space</th>
+  <th class="schedule-breakout sticky-top bg-white">Zine Library</th>
 </tr>
 </thead>
 <tbody>
@@ -41,7 +41,6 @@ titleDisplay: "Program"
   <td>:00</td>
   <td colspan="1" rowspan="2" class="session-block session-{% include session-type.html session-id=19034 %}">{% include session.html year=2019 session-id=19034 %}</td>
   <td colspan="1" rowspan="16" class="session-block session-{% include session-type.html session-id=19018 %}">{% include session.html year=2019 session-id=19018 %}</td>
-  <td colspan="1" rowspan="16"></td>
 </tr>
 <tr>
   <td></td>
@@ -184,9 +183,9 @@ titleDisplay: "Program"
 <tr>
   <th class="schedule-time"></th>
   <th class="schedule-time"></th>
-  <th class="schedule-main">Main Room</th>
-  <th class="schedule-breakout">Gamma Workshop Space</th>
-  <th class="schedule-breakout">Zine Library</th>
+  <th class="schedule-main sticky-top bg-white">Main Room</th>
+  <th class="schedule-breakout sticky-top bg-white">Gamma Workshop Space</th>
+  <th class="schedule-breakout sticky-top bg-white">Zine Library</th>
 </tr>
 </thead>
 <tbody>
@@ -409,9 +408,9 @@ titleDisplay: "Program"
 <tr>
   <th class="schedule-time"></th>
   <th class="schedule-time"></th>
-  <th class="schedule-main">Main Room</th>
-  <th class="schedule-breakout">Gamma Workshop Space</th>
-  <th class="schedule-breakout">Zine Library</th>
+  <th class="schedule-main sticky-top bg-white">Main Room</th>
+  <th class="schedule-breakout sticky-top bg-white">Gamma Workshop Space</th>
+  <th class="schedule-breakout sticky-top bg-white">Zine Library</th>
 </tr>
 </thead>
 <tbody>
