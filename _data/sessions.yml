@@ -368,7 +368,7 @@
     sessionType: "orga"
     
   - sessionID: 19993
-    title: "Kickoff Party"
+    title: "Kickoff party"
     sessionType: "orga"    
   
   - sessionID: 19994
@@ -378,7 +378,7 @@
     length: 1.5
   
   - sessionID: 19997
-    title: "Lightning Talks"
+    title: "Lightning talks"
     sessionType: "lightning"
     date: 2019-09-22
     length: 1.0
@@ -396,7 +396,7 @@
     length: 0.5
 
   - sessionID: 19003
-    title: "DHT, BFT, OMG: Know Your Building Blocks for Decentralized Applications (2019 edition)"
+    title: "DHT, BFT, OMG: Know your building blocks for decentralized applications (2019 edition)"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/3"
     presenterID:
       - kirill
@@ -407,7 +407,7 @@
     length: 0.75
 
   - sessionID: 19004
-    title: "Amazonification: Decoding Scarcity as Weaponized Precarity"
+    title: "Amazonification: Decoding scarcity as weaponized precarity"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/4"
     presenterID:
       - hiba
@@ -418,7 +418,7 @@
     length: 0.75
 
   - sessionID: 19005
-    title: "Affirmative Negation"
+    title: "Affirmative negation"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/5"
     presenterID:
       - farhad
@@ -451,7 +451,7 @@
     length: X
 
   - sessionID: 19009
-    title: "Publishing your first Decentralized website with Dat"
+    title: "Publishing your first decentralized website with Dat"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/9"
     presenterID:
       - georgiy
@@ -462,7 +462,7 @@
     length: X
 
   - sessionID: 19010
-    title: "Social, artistic and theoretical experiments with decentralized festivals"
+    title: "Social, artistic, and theoretical experiments with decentralized festivals"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/10"
     presenterID:
       - andreas
@@ -535,7 +535,7 @@
     length: 0.5
 
   - sessionID: 19017
-    title: "Regulationism & the need for a digital postmodernism"
+    title: "Regulationism and the need for a digital postmodernism"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/17"
     presenterID:
       - corey
@@ -591,7 +591,7 @@
     length: X
 
   - sessionID: 19023
-    title: "Whose future are you serving?: Interrogating 'frontier' imaginaries within P2P technologies"
+    title: "Whose future are you serving?: Interrogating frontier imaginaries within P2P technologies"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/23"
     presenterID:
       - laniyuk
@@ -702,7 +702,7 @@
     length: X
 
   - sessionID: 19035
-    title: "Trouble in the Bubble: Tech workers organizing in the industry"
+    title: "Trouble in the bubble: Tech workers organizing in the industry"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/35"
     presenterID:
       - danny
