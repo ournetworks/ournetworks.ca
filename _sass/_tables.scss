@@ -42,12 +42,12 @@ thead th {
 
   h6 {
     margin-top: .25em;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   th,
   td {
-    padding: 8px 12px;
+    padding: 8px 6px 8px 12px;
     text-align: left;
     border-bottom: 1px solid $grey-table-borders;
   }
@@ -59,7 +59,7 @@ thead th {
     td:first-child,
     td:nth-child(2) {
       vertical-align: top;
-      font-size: 1.7rem;
+      font-size: 1.2rem;
     }
     td:first-child {
       text-align: right;

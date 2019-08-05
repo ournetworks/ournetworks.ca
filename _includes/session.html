@@ -9,7 +9,7 @@
       </h5>
       {% if session.presenterID %}
         <h6 class="session-presenterID">
-          {% assign presenters = site.data.presenters %}
+          {% assign presenters = site.data.presenters[include.year] %}
           {% assign presenterCount = session.presenterID.size %}
           {%- for presenterID in session.presenterID -%}
             {%- for presenter in presenters -%}
