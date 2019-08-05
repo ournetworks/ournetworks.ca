@@ -3,6 +3,7 @@
 table {
   border-spacing: 0;
   margin: 1em 0;
+  table-layout: fixed;
 }
 
 th,
@@ -53,17 +54,14 @@ thead th {
   }
 
   tr {
-    &:nth-child(even) {
-      background-color: lighten($accent-color, 5%);
-    }
     td:first-child,
     td:nth-child(2) {
       vertical-align: top;
-      font-size: 1.2rem;
     }
     td:first-child {
       text-align: right;
       padding-right: 0;
+      padding-left: 0;
     }
     td:nth-child(2) {
       padding-left: 0;
@@ -76,14 +74,7 @@ thead th {
 
   @media (max-width: $on-palm) {
     width: 100vw;
-    margin-left: -8%;
-
-    tr {
-      td:first-child,
-      td:nth-child(2) {
-        font-size: 1.5rem;
-      }
-    }
+    margin-left: -20px;
   }
 }
 
@@ -96,8 +87,10 @@ thead th {
 }
 
 .session-block {
-  border-left: 1px solid $grey-table-borders;
-  background-color: $white;
+  border-radius: 10px;
+  border: 1px solid $grey-table-borders;
+  box-shadow: 0px 5px 16px 0 rgba($black, 0.1);
+  margin-right: 2px;
 }
 
 .session-presenter {
@@ -106,16 +99,23 @@ thead th {
   margin-bottom: 0;
 }
 
+.schedule-time {
+  width: 2em;
+}
+
 .schedule-main {
   width: 40%;
+  border-left: 1px solid $grey-table-borders;
 }
 
 .schedule-breakout {
   width: 25%;
+  border-left: 1px solid $grey-table-borders;
+  border-right: 1px solid $grey-table-borders;
 }
 
 .session-orga {
-  background-color: rgba($background-accent, 0.4);
+  background-color: $yellow;
 }
 
 .program-heading {
@@ -165,6 +165,6 @@ thead th {
   visibility: hidden;
 
   & + .program-block-content {
-    background: rgba($background-accent, 0.3);
+    background: $yellow;
   }
 }

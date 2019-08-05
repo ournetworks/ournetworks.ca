@@ -26,7 +26,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -34,7 +34,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>14</td>
@@ -45,7 +45,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -54,7 +54,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>15</td>
@@ -63,7 +63,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -71,7 +71,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>16</td>
@@ -80,7 +80,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -88,7 +88,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>17</td>
@@ -96,7 +96,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -104,7 +104,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>18</td>
@@ -112,7 +112,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -121,7 +121,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>19</td>
@@ -129,7 +129,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -138,7 +138,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>20</td>
@@ -146,7 +146,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -154,7 +154,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>21</td>
@@ -162,7 +162,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -170,7 +170,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 </tbody>
 </table>
@@ -197,7 +197,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -205,7 +205,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>10</td>
@@ -214,7 +214,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
   <td colspan="3" rowspan="2" class="session-block session-{% include session-type.html session-id=19023 %}">{% include session.html year=2019 session-id=19023 %}</td>
 </tr>
 <tr>
@@ -223,7 +223,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
   <td colspan="3" rowspan="3" class="session-block session-{% include session-type.html session-id=19033 %}">{% include session.html year=2019 session-id=19033 %}</td>
 </tr>
 <tr>
@@ -232,7 +232,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -241,7 +241,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
   <td colspan="3" rowspan="3" class="session-block session-{% include session-type.html session-id=19003 %}">{% include session.html year=2019 session-id=19003 %}</td>
 </tr>
 <tr>
@@ -250,7 +250,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -259,7 +259,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>13</td>
@@ -268,7 +268,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -276,7 +276,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>14</td>
@@ -287,7 +287,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -295,7 +295,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>15</td>
@@ -303,7 +303,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -311,7 +311,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>16</td>
@@ -320,7 +320,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
   <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19026 %}">{% include session.html year=2019 session-id=19026 %}</td>
   <td colspan="1" rowspan="6" class="session-block session-{% include session-type.html session-id=19024 %}">{% include session.html year=2019 session-id=19024 %}</td>
 </tr>
@@ -330,7 +330,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td> 
+  <td>:45</td> 
 </tr>
 <tr>
   <td>17</td>
@@ -339,7 +339,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -347,8 +347,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
-  <td colspan="3"></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>18</td>
@@ -357,7 +356,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -365,7 +364,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>19</td>
@@ -373,7 +372,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -381,7 +380,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>20</td>
@@ -389,7 +388,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -397,7 +396,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 </tbody>
 </table>
@@ -419,11 +418,10 @@ titleDisplay: "Program"
 <tr>
   <td>10</td>
   <td>:00</td>
-  <td colspan="3" rowspan="2"></td>
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -432,7 +430,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>11</td>
@@ -441,7 +439,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -450,7 +448,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>12</td>
@@ -459,7 +457,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
   <td colspan="3" rowspan="3" class="session-block session-{% include session-type.html session-id=19008 %}">{% include session.html year=2019 session-id=19008 %}</td>
 </tr>
 <tr>
@@ -468,7 +466,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>13</td>
@@ -477,7 +475,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -485,7 +483,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>14</td>
@@ -496,7 +494,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -504,7 +502,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>15</td>
@@ -514,7 +512,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -522,7 +520,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>16</td>
@@ -531,7 +529,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
   <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19004 %}">{% include session.html year=2019 session-id=19004 %}</td>
   <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19019 %}">{% include session.html year=2019 session-id=19019 %}</td>
 </tr>
@@ -541,7 +539,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
 </tr>
 <tr>
   <td>17</td>
@@ -550,7 +548,7 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:15</td>
 </tr>
 <tr>
   <td></td>
@@ -558,13 +556,14 @@ titleDisplay: "Program"
 </tr>
 <tr>
   <td></td>
-  <td></td>
+  <td>:45</td>
   <td colspan="3" rowspan="1" class="session-block session-{% include session-type.html session-id=19999 %}">{% include session.html year=2019 session-id=19999 %}</td>
 </tr>
 </tbody>
 </table>
 
 ---
+{: .extended}
 
 <a class="program-block-anchor" id="keynote-tba"></a>
 ## Keynote: TBA
