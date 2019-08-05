@@ -19,11 +19,25 @@ This year will have a mix of scheduled talks and workshops alongside open space,
 - Reconstructing technology after refusal
 - Regenerative approaches that resist status quo tech
 
-Registration will be launching shortly!
+### Registration
 
-### Not Sure? Ask Us!
+We have three admission levels: Organization Supporter, Supporter, and Reduced Cost. While the cost for us to host this event is $78 per person, we want to ensure all can attend. We are looking for volunteers (in return for complimentary admission) and are able to offer a limited number of scholarships, please contact us at [{{ site.email }}](mailto:{{ site.email }})
 
-We have more open hours for people to ask questions and discuss activities for the open spaces at the conference. No prior registration needed, just visit: [https://meet.jit.si/ournetworks](https://meet.jit.si/ournetworks).
+| Admission              | Price* | Details |
+|:-----------------------|:------|:--------|
+| Organization Supporter | $110 | If your org or company is paying or your registration can be reimbursed, consider registering as organization supporter. This allows us to offer reduced cost admissions and scholarships. |
+| Supporter              | $60 | The suggested admission for those employed or otherwise financially comfortable. At this rate we can sustain the event. |
+| Reduced Cost           | $25 | A lower cost admission for those who are unwaged, a student, or otherwise in need of a reduced cost. |
+
+<a class="button button-primary" href="https://www.brownpapertickets.com/event/4308694">{% include icons/ticket.svg %}&nbsp;&nbsp;Register on Brown Paper Tickets</a>
+
+<small><em>*Brown Paper Tickets charges CA$0.99 + 5.0% of the ticket price in buy fees.</em></small>
+
+***
+
+### Want to know more? Ask Us!
+
+We have more open hours for people to ask questions and discuss activities for open spaces at the conference. No prior registration needed, just visit: [https://meet.jit.si/ournetworks](https://meet.jit.si/ournetworks).
 
 <!-- Call section -->
 <section class="sections events-grid flex flex-wrap">
