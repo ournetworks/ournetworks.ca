@@ -6,7 +6,7 @@ titleDisplay: "Program"
 ---
 
 ## Friday > September 20
-{: .schedule-spacer}
+{: .mt-1.heading-2-5.fw-normal}
 
 <table class="schedule-table">
 <thead>
@@ -176,7 +176,7 @@ titleDisplay: "Program"
 
 
 ## Saturday > September 21
-{: .schedule-spacer}
+{: .schedule-spacer.heading-2-5.fw-normal}
 
 <table class="schedule-table">
 <thead>
@@ -402,6 +402,7 @@ titleDisplay: "Program"
 
 
 ## Sunday > September 22
+{: .schedule-spacer.heading-2-5.fw-normal}
 
 <table class="schedule-table">
 <thead>
