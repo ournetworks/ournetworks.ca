@@ -15,7 +15,7 @@
               {%- endif -%}
             {%- endfor -%}
             {% assign presenterCount = presenterCount | minus:1 %}
-            <a href="#{{ presenterID }}">{{ name }}</a>{%- if presenterCount > 0 -%}{{ ' / ' }}{%- endif -%}
+            <a href="#{{ presenterID }}">{{ name }}</a>{%- if presenterCount > 0 -%}{{ ' > ' }}{%- endif -%}
           {%- endfor -%}
         </h4>
       {%- endif -%}
