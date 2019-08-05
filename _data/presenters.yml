@@ -330,6 +330,7 @@
     bio: "Elisabetta is a PhD Candidate in Communication at the Annenberg School for Communication, University of Pennsylvania (USA). Elisabetta's work focuses on the relationship between social movements, protest and digital technologies. Her dissertation research explores how contemporary radical leftist activists in Europe and the United States imagine the role of technology in their struggle for social change. She uses creative visual methods to engage activists in thinking critically about technology."
     link: "https://www.elisabettaferrari.net/"
     linkDisplay: "elisabettaferrari.net"
+    linkIgnore: yes
     github: "betty-ferrari"
     twitter: "betty_ferrari"
 
