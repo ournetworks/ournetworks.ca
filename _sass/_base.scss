@@ -91,3 +91,10 @@ pre {
     white-space: pre;
   }
 }
+
+a.heading-anchor {
+  display: block;
+  position: relative;
+  top: -60px; // Can't set -100vh of mobile header.
+  visibility: hidden;
+}

@@ -1,1 +1,1 @@
-{{ include.text }} <a href="#{{ include.text | slugify }}" name="{{ include.text | slugify }}">#</a>
+<a class="heading-anchor" id="{{ include.text | slugify }}"></a>{{ include.text }} <a href="#{{ include.text | slugify }}">#</a>
