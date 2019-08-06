@@ -1,0 +1,17 @@
+#toc {
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+  font-size: 80%;
+  padding-bottom: 2em;
+
+  li {
+    display: inline;
+    border-left: 1px solid #ccc;
+    padding-left: 0.3em;
+    white-space: nowrap;
+  }
+
+  .first {
+    border-left: none;
+  }
+}

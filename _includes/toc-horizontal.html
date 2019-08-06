@@ -1,0 +1,11 @@
+<div id="toc">
+  <ul>
+  {% for item in page.toc_items %}
+    <li {% if forloop.first %}class="first"{% endif %}>
+      <a href="#{{ item | slugify }}">
+        {{- item -}}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
