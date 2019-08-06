@@ -594,6 +594,7 @@
   - sessionID: 19023
     title: "Whose future are you serving?: Interrogating frontier imaginaries within P2P technologies"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/23"
+    sessionType: "performance"
     presenterID:
       - laniyuk
 
@@ -667,6 +668,7 @@
   - sessionID: 19031
     title: "Torrents of sex"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/31"
+    sessionType: "exhibit"
     presenterID:
       - nahee
 
