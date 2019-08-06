@@ -4,9 +4,27 @@ order: 4
 title: "Visiting Toronto"
 titleDisplay: "Visiting"
 parent: "About the Event"
+toc_items:
+  - Getting Around
+  - Staying in Toronto
+  - Community billets
+  - Small-businesses and BIPOC-owned hotels
+  - Unionized hotels
+  - Other Short-term rentals
 ---
+<div id="toc" style="padding-left:1.5em; text-indent:-1.5em; font-size:80%; padding-bottom: 2em">
+  <ul>
+  {% for item in page.toc_items %}
+    <li style="display: inline; border-left: 2px solid; padding-left: 0.3em; white-space:nowrap; border-color:#ccc; border-width:1px;{% if forloop.first %}border-left: none;{% endif %}">
+      <a href="#{{ item | slugify }}">
+        {{- item -}}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
   
-## Getting Around 
+## Getting Around <a href="#getting-around" name="getting-around">#</a>
 
 Toronto is easy to travel by bicycle, using public transit, and on foot around the event venue.
 
@@ -19,26 +37,26 @@ From Toronto Pearson International Airport, you can travel to downtown Toronto v
 - [UP Express](https://www.upexpress.com/Tickets/Tickets), a rapid train link between Pearson Airport and Toronto’s downtown, leaves every 15 minutes throughout the day (25 mins to Union Station, $12.35 one-way or PRESTO)
 - [TTC](http://www.ttc.ca/Fares_and_passes/index.jsp), via bus and subway, leavese every 20 minutes (45 mins to 1 hour to downtown, $3.25 for trip or PRESTO)
 
-## Staying in Toronto
+## Staying in Toronto <a href="#staying-in-toronto" name="staying-in-toronto">#</a>
 
 The city is an expensive place to live and visit. For those looking at alternative acccomodations including platforms like Airbnb, we wanted to provide context about the housing market. Like many cities around the world, Toronto is experiencing an [affordability crisis](https://www.blogto.com/city/2019/03/report-housing-affordability-crisis-toronto/) in part driven by [condos being treated as investments](https://www.theguardian.com/world/2019/jul/07/toronto-housing-owner-occupied-canada-affordability) and ["ghost hotels"](https://www.thestar.com/opinion/star-columnists/2017/12/01/haunted-by-the-rise-of-ghost-hotels.html). This has led to [the lowest rental vacancy rate in 16 years](https://www.thestar.com/news/gta/2017/11/28/rental-vacancy-rates-lowest-in-16-years.html), [renovictions](https://nowtoronto.com/news/renovicted-toronto-rental-housing/), and in response [tenant organizing and rent strikes](http://parkdaleorganize.ca/).
 
 To support folks attending the conference, we have a [community billets](#community-billets) program and provide information on ways to mitigate the impact of short-term rentals. Inspired by [4S 2019 in New Orleans](https://www.4s2019.org/accommodation/), notes on how to make your own guide are shared at the bottom of this page.
 
-### Community billets
+### Community billets <a href="#community-billets" name="community-billets">#</a>
 
 Billeting is a way of supporting participants to attend within their budget and at the same time welcome them into our community. 
 
 We anticipate securing a limited number of spots with people based in Toronto. If you indicated you were interested in hosting or staying in a community billet check out the [community billets list](https://ethercalc.org/s0r2i3dsfznl) and add your info or email [billets@ournetworks.ca](mailto:billets@ournetworks.ca) and we’ll help coordinate!
 
-### Small-businesses and BIPOC-owned hotels
+### Small-businesses and BIPOC-owned hotels <a href="#small-businesses-and-bipoc-owned-hotels" name="small-businesses-and-bipoc-owned-hotels">#</a>
 
 - [Baldwin Village Inn](https://www.urbannorthinns.com/baldwin-village-inn/) and [Urban North Inns](https://www.urbannorthinns.com/), 9 Baldwin Street
 - [The Rex Hotel](https://therex.ca/hotel/), 194 Queen Street West
 
 We searched and could not confirm a directory of BIPOC-owned accommodations in Toronto, if you know of any, please contact us. 
 
-### Unionized hotels
+### Unionized hotels <a href="#unionized-hotels" name="unionized-hotels">#</a>
 
 We checked [Fair Hotels](https://www.fairhotel.org/) and called [UNITE HERE 75](https://www.uniteherelocal75.org/) for leads and updates. As of May 2019, these hotels are still unionized with them, roughly sorted by lowest price and distance:
 
@@ -48,7 +66,7 @@ We checked [Fair Hotels](https://www.fairhotel.org/) and called [UNITE HERE 75](
 - [The Omni King Edward Hotel](https://www.guestreservations.com/the-omni-king-edward-hotel/booking), 37 King Street East
 - [Marriott St. Regis](https://www.marriott.com/hotels/travel/yyzxr-the-st-regis-toronto/), 325 Bay Street
 
-### Other Short-term rentals
+### Other Short-term rentals <a href="#other-short-term-rentals" name="other-short-term-rentals">#</a>
 
 Additional care to take if engaging in a short-term rental in Toronto:
 
