@@ -37,13 +37,13 @@ thead th {
 
   h3,
   h4,
-  h5 {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
+  h5,
   h6 {
-    margin-top: .25em;
+    margin-bottom: 0;
+
+    @media (max-width: $on-palm) {
+      font-size: 14px;
+    }
   }
 
   th,
@@ -54,9 +54,10 @@ thead th {
   }
 
   tr {
-    td:first-child,
-    td:nth-child(2) {
+    td:nth-child(-n+2) {
       vertical-align: top;
+      padding-bottom: 0;
+      padding-top: 3px;
     }
     td:first-child {
       text-align: right;
@@ -104,6 +105,10 @@ thead th {
 
 .schedule-time {
   width: 2em;
+
+  &:first-child {
+    width: 1.5em;
+  }
 }
 
 .schedule-main {
@@ -114,7 +119,9 @@ thead th {
 .schedule-breakout {
   width: 25%;
   border-left: 1px solid $grey-table-borders;
-  border-right: 1px solid $grey-table-borders;
+  &:last-child {
+    border-right: 1px solid $grey-table-borders;
+  }
 }
 
 .session-orga {

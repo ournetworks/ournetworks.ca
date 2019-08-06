@@ -15,6 +15,10 @@
 .sticky-top {
   position: sticky;
   top: 0;
+
+  @media (max-width: $on-palm) {
+    top: 58px;
+  }
 }
 
 // Grid
@@ -145,6 +149,10 @@
 
 .mt-0 {
   margin-top: 0;
+}
+
+.mt-05 {
+  margin-top: 0.5em;
 }
 
 .mt-1 {

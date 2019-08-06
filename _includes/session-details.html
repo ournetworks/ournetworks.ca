@@ -5,9 +5,9 @@
     <header class="session-header">
       <h3 class="session-title heading">{{ session.title }}</h3>
       {%- if session.presenterID -%}
-        <h4 class="session-presenter">
           {% assign presenters = site.data.presenters[include.year] %}
           {% assign presenterCount = session.presenterID.size %}
+          <ul class="ls-none pl-0">
           {%- for presenterID in session.presenterID -%}
             {%- for presenter in presenters -%}
               {%- if presenter.presenterID == presenterID -%}
@@ -15,9 +15,9 @@
               {%- endif -%}
             {%- endfor -%}
             {% assign presenterCount = presenterCount | minus:1 %}
-            <a href="#{{ presenterID }}">{{ name }}</a>{%- if presenterCount > 0 -%}{{ ' > ' }}{%- endif -%}
+            <li><h4 class="session-presenter">> <a href="#{{ presenterID }}">{{ name }}</a></h4></li>
           {%- endfor -%}
-        </h4>
+          </ul>
       {%- endif -%}
     </header>
     {%- if session.description -%}

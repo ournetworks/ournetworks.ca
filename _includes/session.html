@@ -8,7 +8,7 @@
         {%- unless session.sessionType == "orga" -%}</a>{%- endunless -%}
       </h5>
       {% if session.presenterID %}
-        <h6 class="session-presenterID">
+        <h6 class="session-presenterID mt-05">
           {% assign presenters = site.data.presenters[include.year] %}
           {% assign presenterCount = session.presenterID.size %}
           {%- for presenterID in session.presenterID -%}
