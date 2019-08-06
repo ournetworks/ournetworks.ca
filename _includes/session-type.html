@@ -1,5 +1,4 @@
 {%- for session in site.data.sessions -%}
-  {%- if include.session-id == session.sessionID -%}
-    {{ session.sessionType }}
-  {%- endif -%}
+  {%- assign sessionObject = session[1] | where: "sessionID", include.session-id | first -%}
+  {{ sessionObject.sessionType }}
 {%- endfor -%}

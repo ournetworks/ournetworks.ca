@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 3
+order: 0
 fullWidth: true
 title: "Recorded Talks"
 titleDisplay: "Recorded Talks"
@@ -24,10 +24,10 @@ We want to thank our A/V volunteers again, without whom the sharing of these vid
 ### Our Networks 2018 Videos
 {:.mb-1.mt-2}
 
-{% assign sortedSessions = site.data.sessions | sort: 'title' %}
+{% assign sorted2018Sessions = site.data.sessions[2018] | sort: "title" %}
 
 <div class="flex flex-wrap flex-justify-space-between">
-{%- for session in sortedSessions -%}
+{%- for session in sorted2018Sessions -%}
   {%- if session.ipfs720 or session.ipfs1080 or session.youtube -%}
     {% include session-video.html %}
   {%- endif -%}

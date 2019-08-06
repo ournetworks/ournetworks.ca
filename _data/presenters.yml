@@ -1,157 +1,378 @@
-- presenterID: gabe
-  name: "Gabe Sawhney"
-  bio: "Gabe is an experience designer, civic technologist and innovation strategist. He's a founder of several community and civic tech initiatives, including Code for Canada, Civic Tech Toronto, Wireless Toronto and [murmur]."
-  link: "http://wirelesstoronto.ca/"
-  linkDisplay: "wirelesstoronto.ca"
-  twitter: "gggg"
+2018:
+  - presenterID: gabe
+    name: "Gabe Sawhney"
+    bio: "Gabe is an experience designer, civic technologist and innovation strategist. He's a founder of several community and civic tech initiatives, including Code for Canada, Civic Tech Toronto, Wireless Toronto and [murmur]."
+    link: "http://wirelesstoronto.ca/"
+    linkDisplay: "wirelesstoronto.ca"
+    twitter: "gggg"
 
-- presenterID: benedict
-  name: "Benedict Lau"
-  bio: "Benedict is an engineer working on mobile software and mesh networks. He is a contributor and organizer at Toronto Mesh, currently focused on meshing with single-board computers and building deployment tools and literacy around peer-to-peer applications."
-  github: "benhylau"
-  twitter: "LauBenedict"
+  - presenterID: benedict
+    name: "Benedict Lau"
+    bio: "Benedict is an engineer working on mobile software and mesh networks. He is a contributor and organizer at Toronto Mesh, currently focused on meshing with single-board computers and building deployment tools and literacy around peer-to-peer applications."
+    github: "benhylau"
+    twitter: "LauBenedict"
 
-- presenterID: jessica
-  name: "Jessica Marshall"
-  bio: "Jessica Marshall is an adopted New Yorker and critical theory nerd who likes to write code and play with antennas. She volunteers when she can with NYC mesh and is currently working on ways to use blockchain to subvert ISPs."
+  - presenterID: jessica
+    name: "Jessica Marshall"
+    bio: "Jessica Marshall is an adopted New Yorker and critical theory nerd who likes to write code and play with antennas. She volunteers when she can with NYC mesh and is currently working on ways to use blockchain to subvert ISPs."
 
-- presenterID: ashoka
-  name: "Ashoka Finley"
-  bio: "Ashoka Finley is a unicorn."
+  - presenterID: ashoka
+    name: "Ashoka Finley"
+    bio: "Ashoka Finley is a unicorn."
 
-- presenterID: sarah
-  name: "Sarah Friend"
-  bio: "Sarah Friend is a software engineer working at a large blockchain development studio on tools for financial transparency/accounting. When not doing that, she creates games and other interactive experiences. She is a proud Recurse Center alum, and has recently presented at the Montreal International Games Showcase, the MoneyLab program by the Institute for Networked Culture in London, UK, and Transmediale Berlin."
-  link: "https://isthisa.com/"
-  linkDisplay: "isthisa.com"
-  github: "ana0"
-  twitter: "isthisanart_"
+  - presenterID: sarah
+    name: "Sarah Friend"
+    bio: "Sarah Friend is a software engineer working at a large blockchain development studio on tools for financial transparency/accounting. When not doing that, she creates games and other interactive experiences. She is a proud Recurse Center alum, and has recently presented at the Montreal International Games Showcase, the MoneyLab program by the Institute for Networked Culture in London, UK, and Transmediale Berlin."
+    link: "https://isthisa.com/"
+    linkDisplay: "isthisa.com"
+    github: "ana0"
+    twitter: "isthisanart_"
 
-- presenterID: david
-  name: "David Wolever"
-  bio: "David is a software developer, startup founder, and community organizer from Toronto with over 10 years dev experience. In his free time, David runs PyCon Canada and organizes the international PyCon conference."
-  link: "https://wolever.net/"
-  linkDisplay: "wolever.net"
-  github: "wolever"
-  twitter: "wolever"
+  - presenterID: david
+    name: "David Wolever"
+    bio: "David is a software developer, startup founder, and community organizer from Toronto with over 10 years dev experience. In his free time, David runs PyCon Canada and organizes the international PyCon conference."
+    link: "https://wolever.net/"
+    linkDisplay: "wolever.net"
+    github: "wolever"
+    twitter: "wolever"
 
-- presenterID: douc
-  name: "Department of Unusual Certainties"
-  bio: "Department of Unusual Certainties (DoUC) is a Toronto-based studio who design collaborative processes for engagement, communication and education. In 2010, DoUC started as a result of a shared need to ask questions about our everyday existence. Our work is directed by exploration, information and experimentation that takes shape with a pragmatic approach to solving problems with our clients. We are dedicated to creating substantive content and experiences that people can engage with, reflect on and react to."
-  link: "http://wearedouc.com/"
-  linkDisplay: "wearedouc.com"
-  twitter: "therealitycorp"
+  - presenterID: douc
+    name: "Department of Unusual Certainties"
+    bio: "Department of Unusual Certainties (DoUC) is a Toronto-based studio who design collaborative processes for engagement, communication and education. In 2010, DoUC started as a result of a shared need to ask questions about our everyday existence. Our work is directed by exploration, information and experimentation that takes shape with a pragmatic approach to solving problems with our clients. We are dedicated to creating substantive content and experiences that people can engage with, reflect on and react to."
+    link: "http://wearedouc.com/"
+    linkDisplay: "wearedouc.com"
+    twitter: "therealitycorp"
 
-- presenterID: vmon
-  name: "vmon"
-  link: "https://github.com/equalitie/ouinet"
-  linkDisplay: "Ouinet"
+  - presenterID: vmon
+    name: "vmon"
+    link: "https://github.com/equalitie/ouinet"
+    linkDisplay: "Ouinet"
 
-- presenterID: emily
-  name: "Emily Maemura"
-  bio: "Emily Maemura is a doctoral candidate in her fourth year of study at the University of Toronto’s Faculty of Information (iSchool). She is interested in approaches and methods for research with web archives data and collections, and in capturing diverse perspectives of the internet as an object and/or site of study."
-  link: "http://www.emilymaemura.com/"
-  linkDisplay: "emilymaemura.com"
-  github: "emilymae"
-  twitter: "emilymaemura"
+  - presenterID: emily
+    name: "Emily Maemura"
+    bio: "Emily Maemura is a doctoral candidate in her fourth year of study at the University of Toronto's Faculty of Information (iSchool). She is interested in approaches and methods for research with web archives data and collections, and in capturing diverse perspectives of the internet as an object and/or site of study."
+    link: "http://www.emilymaemura.com/"
+    linkDisplay: "emilymaemura.com"
+    github: "emilymae"
+    twitter: "emilymaemura"
 
-- presenterID: cecylia
-  name: "Cecylia Bocovich"
-  bio: "Cecylia is a graduate student at the University of Waterloo. Her research addresses broad issues in privacy and more narrowly focuses on censorship resistance in its many forms. She spends the majority of her time designing systems to circumvent state censorship."
-  link: "http://www.mazizone.eu/"
-  linkDisplay: "mazizone.eu"
+  - presenterID: cecylia
+    name: "Cecylia Bocovich"
+    bio: "Cecylia is a graduate student at the University of Waterloo. Her research addresses broad issues in privacy and more narrowly focuses on censorship resistance in its many forms. She spends the majority of her time designing systems to circumvent state censorship."
+    link: "http://www.mazizone.eu/"
+    linkDisplay: "mazizone.eu"
 
-- presenterID: lauren
-  name: "Lauren Lapidge"
-  bio: "Lauren is an artist, researcher and organiser. Her practice explores how emerging technologies interact with current social and political significance's. Currently she is researching DIY networking within unmonastery and the MAZI project."
-  link: "http://unmonastery.org/"
-  linkDisplay: "unmonastery.org"
+  - presenterID: lauren
+    name: "Lauren Lapidge"
+    bio: "Lauren is an artist, researcher and organiser. Her practice explores how emerging technologies interact with current social and political significance's. Currently she is researching DIY networking within unmonastery and the MAZI project."
+    link: "http://unmonastery.org/"
+    linkDisplay: "unmonastery.org"
 
-- presenterID: justin
-  name: "Justin Kilpatrick"
-  bio: "Justin Kilpatrick is cofoudner and CTO of Althea mesh, a linux and open source enthusiast."
-  link: "https://altheamesh.com/"
-  linkDisplay: "altheamesh.com"
-  github: "althea-mesh"
-  twitter: "altheamesh"
+  - presenterID: justin
+    name: "Justin Kilpatrick"
+    bio: "Justin Kilpatrick is cofoudner and CTO of Althea mesh, a linux and open source enthusiast."
+    link: "https://altheamesh.com/"
+    linkDisplay: "altheamesh.com"
+    github: "althea-mesh"
+    twitter: "altheamesh"
 
-- presenterID: b5
-  name: "Brendan O'Brien"
-  bio: "Brendan is a leader in the open source software development community and open data movement. He founded Qri (pronounced “query”) to help bring the benefits of open source software to public data. He helped to launch DataTogether.org, a network of communities, data scientists and developers dedicated to promoting a culture of data collection and sharing. He is also a member of EDGI, the Environmental Data and Governance Initiative, founded to support efforts to preserve at-risk government environmental data."
-  link: "https://qri.io/"
-  linkDisplay: "qri.io"
-  github: "b5"
-  twitter: "b_fiive"
+  - presenterID: b5
+    name: "Brendan O'Brien"
+    bio: "Brendan is a leader in the open source software development community and open data movement. He founded Qri (pronounced “query”) to help bring the benefits of open source software to public data. He helped to launch DataTogether.org, a network of communities, data scientists and developers dedicated to promoting a culture of data collection and sharing. He is also a member of EDGI, the Environmental Data and Governance Initiative, founded to support efforts to preserve at-risk government environmental data."
+    link: "https://qri.io/"
+    linkDisplay: "qri.io"
+    github: "b5"
+    twitter: "b_fiive"
 
-- presenterID: lars
-  name: "Lars Gierth"
-  bio: "Lars recently deployed his second Freifunk mesh node on a Berlin rooftop. He helps upgrade the web at Protocol Labs, a research & development & deployment lab, working on libp2p, a peer-to-peer networking stack, and IPFS, the Interplanetary Filesystem."
-  github: "lgierth"
-  twitter: "schm_rs"
+  - presenterID: lars
+    name: "Lars Gierth"
+    bio: "Lars recently deployed his second Freifunk mesh node on a Berlin rooftop. He helps upgrade the web at Protocol Labs, a research & development & deployment lab, working on libp2p, a peer-to-peer networking stack, and IPFS, the Interplanetary Filesystem."
+    github: "lgierth"
+    twitter: "schm_rs"
 
-- presenterID: vladimir
-  name: "Vladimir Cortés Roshdestvensky"
-  bio: "Vladimir Cortés Roshdestvensky is the deputy officer of the digital rights programme in Article 19 Mexico and Central America. He is currently supporting projects on surveillance, online harassment against journalists, and internet access in rural communities. He has worked as an international consultant specialized in human rights, freedom of expression, media and journalism in Latin America and the Caribbean. Vladimir has trained journalists and human rights defenders on international standards of journalism, multimedia production and digital security."
-  link: "https://articulo19.org/"
-  linkDisplay: "articulo19.org"
-  github: "antvlax"
-  twitter: "vladyruzo"
+  - presenterID: vladimir
+    name: "Vladimir Cortés Roshdestvensky"
+    bio: "Vladimir Cortés Roshdestvensky is the deputy officer of the digital rights programme in Article 19 Mexico and Central America. He is currently supporting projects on surveillance, online harassment against journalists, and internet access in rural communities. He has worked as an international consultant specialized in human rights, freedom of expression, media and journalism in Latin America and the Caribbean. Vladimir has trained journalists and human rights defenders on international standards of journalism, multimedia production and digital security."
+    link: "https://articulo19.org/"
+    linkDisplay: "articulo19.org"
+    github: "antvlax"
+    twitter: "vladyruzo"
 
-- presenterID: justint
-  name: "Justin Tracey"
-  bio: "Justin works as a graduate student at the University of Waterloo's CrySP lab. His research focuses on network simulation, with an emphasis on simulations of the Tor network. Previously, he worked on file system analysis at UC Santa Cruz, where he was also involved with a local community meshnet project built around CJDNS."
-  twitter: "jtga_d"
+  - presenterID: justint
+    name: "Justin Tracey"
+    bio: "Justin works as a graduate student at the University of Waterloo's CrySP lab. His research focuses on network simulation, with an emphasis on simulations of the Tor network. Previously, he worked on file system analysis at UC Santa Cruz, where he was also involved with a local community meshnet project built around CJDNS."
+    twitter: "jtga_d"
 
-- presenterID: rea
-  name: "Rea McNamara"
-  bio: "Rea McNamara is a Toronto-based artist, writer, curator, and public programmer. She has developed an expanded practice that includes on/offline space development, image making, performance and critical engagement with networked publics. Her works have been presented at the Whitney Museum of American Art, the Art Gallery of Ontario, Société Des Arts Technologique, Nuit Blanche Toronto, and Moogfest. McNamara currently oversees public programming at the Gardiner Museum, and serves on the Board of Directors of the Music Gallery."
-  link: "http://www.undervolt.co/Rea-McNamara"
-  linkDisplay: "undervolt.co/Rea-McNamara"
-  twitter: "reeraw"
+  - presenterID: rea
+    name: "Rea McNamara"
+    bio: "Rea McNamara is a Toronto-based artist, writer, curator, and public programmer. She has developed an expanded practice that includes on/offline space development, image making, performance and critical engagement with networked publics. Her works have been presented at the Whitney Museum of American Art, the Art Gallery of Ontario, Société Des Arts Technologique, Nuit Blanche Toronto, and Moogfest. McNamara currently oversees public programming at the Gardiner Museum, and serves on the Board of Directors of the Music Gallery."
+    link: "http://www.undervolt.co/Rea-McNamara"
+    linkDisplay: "undervolt.co/Rea-McNamara"
+    twitter: "reeraw"
 
-- presenterID: owen
-  name: "Owen G. Parry"
-  bio: "Owen G. Parry is an artist and researcher working across live art, theatre, installation, moving image, sound and writing, exploring subjects including gay sex, biopolitics, fandoms, online cultures and Yoko Ono. With an interest in minor, colloquial and collective processes, the submersion of avant-garde aesthetics into the mainstream, and modes of sincerity within late capitalism, he uses art to ask questions, to heal, to subvert power structures, and to imagine other more-pleasurable ways of living or just being together. He is currently an associate lecturer in Fine Art at Goldsmiths, University of London, and Central Saint Martins, University of the Arts."
+  - presenterID: owen
+    name: "Owen G. Parry"
+    bio: "Owen G. Parry is an artist and researcher working across live art, theatre, installation, moving image, sound and writing, exploring subjects including gay sex, biopolitics, fandoms, online cultures and Yoko Ono. With an interest in minor, colloquial and collective processes, the submersion of avant-garde aesthetics into the mainstream, and modes of sincerity within late capitalism, he uses art to ask questions, to heal, to subvert power structures, and to imagine other more-pleasurable ways of living or just being together. He is currently an associate lecturer in Fine Art at Goldsmiths, University of London, and Central Saint Martins, University of the Arts."
 
-- presenterID: maya
-  name: "Maya Ben David"
-  bio: "Maya Ben David (MBD) is a Toronto-based Jewish-Iranian Anthropomorphic Airplane. Working in video, installation and performance, she creates worlds and characters that aid her ongoing exploration of anthropomorphism, cosplay and performative personas. Ben David presents the origin stories of her characters in the form of video and performance, and expands on them via her online presence. They often inhabit alternate universes accompanied by nostalgia, such as the worlds of Pokémon and Spiderman."
+  - presenterID: maya
+    name: "Maya Ben David"
+    bio: "Maya Ben David (MBD) is a Toronto-based Jewish-Iranian Anthropomorphic Airplane. Working in video, installation and performance, she creates worlds and characters that aid her ongoing exploration of anthropomorphism, cosplay and performative personas. Ben David presents the origin stories of her characters in the form of video and performance, and expands on them via her online presence. They often inhabit alternate universes accompanied by nostalgia, such as the worlds of Pokémon and Spiderman."
 
-- presenterID: curtis
-  name: "Curtis McCord"
-  bio: "Curtis is a graduate student at the University of Toronto's Faculty of Information. His work focusses on distributed and deliberative 'political' decision-making, especially computer supported work. His approach orbits academic spheres of 'values in design' which analyses the ways that technologies can substantiate value claims, and 'critical systems thinking' which attempts to unpack and analyse those values in ways that challenge technical hierarchies and expertise and create opportunities for inclusive and productive citizenship."
-  github: "structur"
-  twitter: "cwm__"
+  - presenterID: curtis
+    name: "Curtis McCord"
+    bio: "Curtis is a graduate student at the University of Toronto's Faculty of Information. His work focusses on distributed and deliberative 'political' decision-making, especially computer supported work. His approach orbits academic spheres of 'values in design' which analyses the ways that technologies can substantiate value claims, and 'critical systems thinking' which attempts to unpack and analyse those values in ways that challenge technical hierarchies and expertise and create opportunities for inclusive and productive citizenship."
+    github: "structur"
+    twitter: "cwm__"
 
-- presenterID: jennifer
-  name: "Jennifer Seaman Cook"
-  bio: "Jennifer is an American Studies scholar across the arts, media, technology, public culture, and transnational cultural and social movements. She specializes in emergent media history, mediations of cultural and social theory, and counterinstitutional networks. In addition to her academic scholarship, her essays have been published by 3:am Magazine, Furtherfield, PopMatters, Salon, and Verso (forthcoming). Her poetry and hybrid political writing has been published with Berfrois, Cedilla Literary Journal (archived at University of Montana), Lunch Ticket, New Binary Press, Queen Mob’s Tea House and more. Jennifer has also consulted for documentaries produced for PBS, The Science Museum of London, and The Royal Academy of Arts, and has created public culture mobile app documentaries for the Montreal Infringement Festival/ World Infringement Congress and Burchfield Penney Art Center Archives. Jennifer teaches at the State University of New York's University at Buffalo."
-  twitter: "histouroborus"
+  - presenterID: jennifer
+    name: "Jennifer Seaman Cook"
+    bio: "Jennifer is an American Studies scholar across the arts, media, technology, public culture, and transnational cultural and social movements. She specializes in emergent media history, mediations of cultural and social theory, and counterinstitutional networks. In addition to her academic scholarship, her essays have been published by 3:am Magazine, Furtherfield, PopMatters, Salon, and Verso (forthcoming). Her poetry and hybrid political writing has been published with Berfrois, Cedilla Literary Journal (archived at University of Montana), Lunch Ticket, New Binary Press, Queen Mob's Tea House and more. Jennifer has also consulted for documentaries produced for PBS, The Science Museum of London, and The Royal Academy of Arts, and has created public culture mobile app documentaries for the Montreal Infringement Festival/ World Infringement Congress and Burchfield Penney Art Center Archives. Jennifer teaches at the State University of New York's University at Buffalo."
+    twitter: "histouroborus"
 
-- presenterID: grant
-  name: "Grant Gallo"
-  bio: "Grant is creative techonologist and network engineer who can be found climbing rooftops in Oakland, performing visuals in Toronto, and variously installing internet all over the US."
-  link: "https://peoplesopen.net/"
-  linkDisplay: "peoplesopen.net"
-  github: "paidforby"
-  github-2: "sudomesh"
+  - presenterID: grant
+    name: "Grant Gallo"
+    bio: "Grant is creative techonologist and network engineer who can be found climbing rooftops in Oakland, performing visuals in Toronto, and variously installing internet all over the US."
+    link: "https://peoplesopen.net/"
+    linkDisplay: "peoplesopen.net"
+    github: "paidforby"
+    github-2: "sudomesh"
 
-- presenterID: jenny
-  name: "Jenny Ryan"
-  bio: "Over the past 7 years Jenny has lived in Oakland, CA and co-founded the Sudo Room hackerspace, Sudo Mesh / People’s Open Network, and the Omni Commons. Her mission is to work alongside existing and emerging organizations to build human and communications infrastructure, connecting grassroots communities and global initiatives rooted in the shared struggle to reclaim the commons, create public spheres through the cultivation of open spaces, and enable direct democracy through principles of federation and open source or Read/Write culture."
-  link: "https://jennyryan.net"
-  linkDisplay: "jennyryan.net"
-  github: "jnny"
-  twitter: "tunabananas"
+  - presenterID: jenny
+    name: "Jenny Ryan"
+    bio: "Over the past 7 years Jenny has lived in Oakland, CA and co-founded the Sudo Room hackerspace, Sudo Mesh / People's Open Network, and the Omni Commons. Her mission is to work alongside existing and emerging organizations to build human and communications infrastructure, connecting grassroots communities and global initiatives rooted in the shared struggle to reclaim the commons, create public spheres through the cultivation of open spaces, and enable direct democracy through principles of federation and open source or Read/Write culture."
+    link: "https://jennyryan.net"
+    linkDisplay: "jennyryan.net"
+    github: "jnny"
+    twitter: "tunabananas"
 
-- presenterID: burak
-  name: "Burak Nehbit"
-  bio: "Burak is an engineer and designer. He worked at Google for 3.5 years, and afterwards, at Facebook. His last job at FB was being a design lead in Monetisation. Since February, he's been working on Aether full time."
-  link: https://getaether.net/
-  linkDisplay: Aether
-  github: nehbit
-  twitter: nehbit
+  - presenterID: burak
+    name: "Burak Nehbit"
+    bio: "Burak is an engineer and designer. He worked at Google for 3.5 years, and afterwards, at Facebook. His last job at FB was being a design lead in Monetisation. Since February, he's been working on Aether full time."
+    link: https://getaether.net/
+    linkDisplay: Aether
+    github: nehbit
+    twitter: nehbit
 
-- presenterID: yurko
-  name: "Yurko"
-  bio: "Yurko has worked in the IT field for over 20 years. Always eager to learn new things and solve problems in creative ways. He is a member of Toronto Mesh and an active contributor. Focusing on single-board computers, and deployment."
+  - presenterID: yurko
+    name: "Yurko"
+    bio: "Yurko has worked in the IT field for over 20 years. Always eager to learn new things and solve problems in creative ways. He is a member of Toronto Mesh and an active contributor. Focusing on single-board computers, and deployment."
+
+2019:
+  - presenterID: kirill
+    name: "Kirill Pimenov"
+    bio: "Kirill graduated from Moscow State University as a Specialist (≅Master of Science) in Physics, with a specialization in computer modelling of optical properties in liquid crystals, in 2010. The word 'computer' turned out to be the most exciting in that phrase for me, so since then I founded and acted as a CTO for my own startup (which flopped), moved to Germany to develop software in SUSE Linux GmbH, and ended up acting as a Head of Security for Parity Technologies."
+    github: "kirushik"
+    twitter: "kirushik"
+
+  - presenterID: hiba
+    name: "Hiba Ali"
+    bio: "Hiba is a new media artist, writer, curator and musician from Chicago, Illinois, U.S.A. Her performances and videos concern music, labour and power. She conducts reading groups addressing digital media and workshops with open-source technology. She is a PhD candidate in Cultural Studies at Queens University, Kingston, Canada. She has presented her work in Chicago, Stockholm, Toronto, New York, Istanbul, São Paulo, Detroit, Dubai, Austin, Vancouver, and Portland."
+    link: "http://hibaali.info"
+    linkDisplay: "hibaali.info"
+    instagram: h1baal1
+
+  - presenterID: farhad
+    name: "Farhad Bahram"
+    bio: "Born in Iran, a society with stringent regulatory control over all types of communication, Bahram developed a keen interest in understanding how the performance of individual actions could affect the outcome of our social encounter. His practice involves performance, installation, books, ephemera, social media, video and photographs. He received his MFA from the University of Oregon, where he held a teaching position as a Career Instructor of Art for 5 years. Currently he works as an Assistant Professor of Digital Media at the Indiana State University since 2019."
+    link: "http://farhadbahram.com/"
+    linkDisplay: "farhadbahram.com"
+
+  - presenterID: hector
+    name: "Hector Sanjuan"
+    bio: "Hector works at Protocol Labs and leads the IPFS Cluster project, a distributed application using many parts from the libp2p and IPFS stacks."
+    github: "hsanjuan"
+    twitter: "hecturchi"
+
+  - presenterID: georgiy
+    name: "Georgiy Shibaev"
+    bio: "Georgiy (a.k.a. Mauve) is a freelance software developer working on decentralized and P2P software. He's passionate about the web, and enabling people to own their data, communities, and software. He's currently working at the Dat project on developer experience by building tools to make it easy to work with Dat across environments like the Web and Node.js."
+    link: "https://ranger.mauve.moe/"
+    linkDisplay: "ranger.mauve.moe"
+    github: "RangerMauve"
+    twitter: "RangerMauve"
+
+  - presenterID: andreas
+    name: "Andreas Dzialocha"
+    bio: "Andreas is an electric bass player, producer, composer and developer. His work consists of both digital and physical environments, spaces, festivals, software or platforms for participants and listeners. The computer itself serves as an artistical, political, social or philosophical medium, dealing with computer culture, machine learning, platform politics or decentralized networks. He studied art history, musicology, media philosophy and computer science in Berlin where he also lives and works."
+    link: "https://andreasdzialocha.com/"
+    linkDisplay: "andreasdzialocha.com"
+    github: ""
+    twitter: "adzialocha"
+
+  - presenterID: sphere
+    name: "Sphere Collective"
+    bio: "Sphere is an artist collective of Brian Patrick Franklin (MFA, New Media, Pennsylvania State University) and Chris Wille (MFA, Metals, Illinois State University) who explore the complex and often blurry relationship between virtual and physical objects, actions, and identities. Sphere's work has been exhibited in solo and group exhibitions as well as being presented at prominent festivals and conferences including The World Maker Faire and The Digital Games Research Association Annual Summit."
+    link: "http://www.spherecollective.com/"
+    linkDisplay: "spherecollective.com"
+
+  - presenterID: cecylia
+    name: "Cecylia Bocovich"
+    bio: "Cecylia is a developer on the anti-censorship team at Tor Project and spends most of her time working on projects of digital resistance against state control. She is also interested in reducing the alienating affect of technology, and spent some time exploring the possibilities of local networks as a part of the UnMonastery Zagori test lab."
+    link: "https://www.torproject.org/"
+    linkDisplay: "torproject.org"
+    twitter: "CecyliaBocovich"
+
+  - presenterID: renee
+    name: "Renée Reizman"
+    bio: "Renée is an interdisciplinary curator, artist and writer at the crossroads of curation, social practice and creative placemaking. By embedding herself in communities, Renée identifies object-oriented networks shaped by cultural aesthetics, urbanization, law, and technology. You can find Renée's writing in publications like Hyperallergic, Vice, and Chicago Magazine. She is currently Artist in Residence at the Los Angeles Department of Transportation."
+    link: "http://reneereizman.com/"
+    linkDisplay: "reneereizman.com"
+    twitter: "reneereizman"
+
+  - presenterID: biyi
+    name: "Biyi Wen"
+    bio: "Biyi is an archiver living in Rotterdam. Currently enrolled in Experimental Publishing Masters course in Piet Zwart Institute."
+    link: "http://channelchannel.site/"
+    linkDisplay: "channelchannel.site"
+    github: "onebigear"
+
+  - presenterID: tobias
+    name: "Tobias Williams"
+    bio: "Tobias is an artist and educator based out of Toronto Canada. He has an MFA from York University and currently works as an instructor at OCAD U, Humber College and Toronto School of the Arts. His art and research practice uses 3d animation to explore the intersection between art, society and technology. Recent projects of his have focused on topics such as the history of the Blockchain, hashtag aesthetics and the ontology of virtual art spaces."
+    link: "http://tobiasjwilliams.com"
+    linkDisplay: "tobiasjwilliams.com"
+    instagram: "getrichnever"
+
+  - presenterID: adam
+    name: "Adam McFillin"
+    bio: "Adam is an artist engaged in producing works that investigate power and its presence in the protocols and structures of communications networks. By making signals, packets and protocological rhythms audible or visible, he aims to expose the materiality of the digital network and evade the abstractions that exist between user and machine."
+    link: "http://adammcfillin.net/"
+    linkDisplay: "adammcfillin.net"
+    twitter: "ctrlyrown"
+
+  - presenterID: corey
+    name: "Corey Abell"
+    bio: "Corey works and studies as a Masters student in the English department at Simon Fraser University on the unceded Coast Salish territory of Vancouver, BC. His current SSHRC funded project investigates the rise of the online community Incel through psychoanalytic and critical theory lenses, paying special attention to the enframing of memes as cultural capital for the Incel. Corey also enjoys snowboarding, writing, playing music, and being a cat-dad."
+    github: "Trex850"
+
+  - presenterID: brett
+    name: "Brett Ian Balogh"
+    bio: "Brett is a Chicago-based artist, designer and instructor making aural, sculptural and cartographic explorations of the electromagnetic spectrum. He is currently an adjunct associate professor at the School of the Art Institute of Chicago, teaching courses in tactical media, electronics, robotics and biological communications."
+    link: "https://brettbalogh.com/"
+    linkDisplay: "brettbalogh.com"
+    github: "giantmolecules"
+    twitter: "brettbalogh"
+
+  - presenterID: sam
+    name: "Sam McGarva"
+    bio: "Sam believes that all design should be human-centred. I'm excited about the role designers can play in developing technology & policy that considers the real needs and values of people. I currently work as a freelance designer, research & teach in the School of Design at George Brown College, and study for a Master of Information at the University of Toronto (with a concentration in Culture & Technology and Critical Information Policy Studies)."
+    link: "https://sammcgarva.com/"
+    linkDisplay: "sammcgarva.com"
+    github: "therealitycorp"
+    twitter: "therealitycorp"
+
+  - presenterID: gottfried
+    name: "Gottfried Haider"
+    bio: "Gottfried is an artist, educator and software tool-maker. He currently lives in Los Angeles."
+    link: "https://gottfriedhaider.com/"
+    linkDisplay: "gottfriedhaider.com"
+    github: "gohai"
+    twitter: "mrgohai"
+
+  - presenterID: marie
+    name: "Marie Otsuka"
+    bio: "Marie is a designer and programmer working around tools and methods for making. She is currently drawing typefaces and developing scripts at Occupant Fonts, while independently collaborating with various authors, artists, and designers."
+    link: "http://motsuka.com/"
+    linkDisplay: "motsuka.com"
+    github: "marieotsuka"
+
+  - presenterID: lauren
+    name: "Lauren Traugott-Campbell"
+    bio: "Lauren is a graphic designer and artist working in exhibition and print design at MGMT Design in New York City. Her work investigates the materiality of digital systems and the labor involved in making them run."
+    link: "http://squishysystems.com/"
+    linkDisplay: "squishysystems.com"
+
+  - presenterID: laniyuk
+    name: "Laniyuk"
+
+  - presenterID: brettw
+    name: "Brett Wallace"
+    bio: "Brett is a New York-based artist whose practice involves an exploration of the future for workers. His work spans writing, photography, experimental/documentary video, performance and installation. Wallace is also the founder AMAZING INDUSTRIES – an R&D startup-as-artwork that demystifies the future of work and advocates for workers in the digital age. His work has been shown at Silas Von Morisse Gallery, New York, SPRING/BREAK Art Show, New York, Reshaping Work, Amsterdam, Satellite Art Show, Miami, NURTUREart, New York and has been reviewed and mentioned in The New York Times, Brooklyn Rail, ARTnews, artnet, Artslant, Hyperallergic and WHITEHOT magazine. Wallace is currently a member of NEW INC, the world's first museum led incubator created by the New Museum."
+    link: "http://brettwallace.com"
+    linkDisplay: "brettwallace.com"
+    github: "amazingind"
+    twitter: "brett_wallace"
+
+  - presenterID: libi
+    name: "Libi Rose striegl"
+    bio: "libi is an an artist and PhD student currently based at the University of Colorado, primarily in the Media Archaeology Lab & the Blow Things Up Lab. My work is focused on tech defamiliarization as an educational tool, using workshops as both an education and artistic practice. I am interested in the technological, social and environmental implications of convenience. I regularly host workshops on tech repair, retro technology, privacy & security, open source practices, and alternative networks."
+    link: "http://libirose.com"
+    linkDisplay: "libirose.com"
+    twitter: "rose_alibi"
+
+  - presenterID: jaya
+    name: "Jaya Klara Brekke"
+    bio: "Dr. Jaya Klara Brekke is a critical theorist and political cryptoeconomist and one part of the CoBox project looking to enable a privacy aware p2p cloud. She recently completed a PhD titled Disassembling the Trust Machine, three cuts on the political matter of blockchain, from Durham University Geography department, where she is also currently undertaking a postdoctoral fellowship. She has worked on questions of power and (geo)politics in network infrastructures for the past ten years as a designer, writer and public speaker."
+    link: "http://www.jayapapaya.net/"
+    linkDisplay: "jayapapaya.net"
+    github: "jayapapaya"
+    twitter: "jayapapaya"
+    
+  - presenterID: dan 
+    name: "Dan Hassan"
+    bio: "Dan is a queer white-passing descendent of indo-guyanese indenture and founder of blockades.org. they are an opensource hacker with solarpunk tendencies active in autonomous co-operatives, blockchain research/development & big (enough) data analytics. currently building dark crystal, a fun decent(ralised) peer-to-peer utility for securing secrets with friends in cypherspace and an antidote for alienation and cobox. CoBox has been funded by the EU LedgerEU programme and seeks to replace the corporate cloud with a cooperative cloud utilising P2P technologies."
+    link: "https://dan.blockades.org/"
+    linkDisplay: "dan.blockades.org"
+    github: "dan-mi-sun"
+    twitter: "dan_mi_sun"
+
+  - presenterID: andrew
+    name: "Andrew Louis"
+    bio: "Andrew is a software developer based in Toronto. He's currently working on building a digital Memex as well as researching the history of similar projects. Previously, he was the co-founder and CTO of ShopLocket, an ecommerce startup acquired in 2014. When he's not coding, he spends his time on obsessive projects such as attempting to bike on every street in Toronto, taking photos of only doors (instagram: @hyfen), and making voxel art."
+    link: "https://hyfen.net/"
+    linkDisplay: "hyfen.net"
+    github: "hyfen"
+    twitter: "hyfen"
+    instagram: "hyfen"
+
+  - presenterID: elisabetta
+    name: "Elisabetta Ferrari"
+    bio: "Elisabetta is a PhD Candidate in Communication at the Annenberg School for Communication, University of Pennsylvania (USA). Elisabetta's work focuses on the relationship between social movements, protest and digital technologies. Her dissertation research explores how contemporary radical leftist activists in Europe and the United States imagine the role of technology in their struggle for social change. She uses creative visual methods to engage activists in thinking critically about technology."
+    link: "https://www.elisabettaferrari.net/"
+    linkDisplay: "elisabettaferrari.net"
+    linkIgnore: yes
+    github: "betty-ferrari"
+    twitter: "betty_ferrari"
+
+  - presenterID: lai
+    name: "Lai Yi Ohlsen"
+    bio: "Lai is an artist and tech worker operating at the intersection of media and movement. She works to promote open data and advance Internet research and policy as Project Director at Measurement Lab. Previously, she worked to defend and promote human rights online with eQualitie. She is a 2019 Artist in Residence at Movement Research and her work has been shown at MR's Fall Festival, New York Art Book Fair and the Internet Archive's Decentralized Web Summit. Lai Yi has been supported by Jonah Bokaer Arts Foundation, rehearsal Residency, Pioneer Works and Peer-to-Peer NYC. She is the author of '100 Scores: movement inspired by computers' and tends to her creative practice at Soft Surplus, a collective warehouse space in Brooklyn. Her current research interests include the proliferation of movement through crappily compressed images, the resistance of automated 'best practice' bodies, and how analog forms move in resistance against digital power."
+    link: "http://www.laiyiohlsen.com/"
+    linkDisplay: "laiyiohlsen.com"
+
+  - presenterID: nahee
+    name: "Nahee Kim"
+    bio: ""
+    link: ""
+    linkDisplay: ""
+    github: ""
+    twitter: ""
+
+  - presenterID: melanie
+    name: "Melanie Hoff"
+    bio: > 
+      "Melanie is an artist and educator examining the role technology plays in social organization and reinforcing hegemonic structures. Their work plays with structural conventions of software, installation, and workshops. They are a founding member of the 'Cybernetics Library', an art and research collective offering resources for study and critique of technical and social systems and "Soft Surplus", a collective art studio warehouse for making things near each other. They teach at Rutgers University, the School for Poetic Computation, and have presented their work in New Museum, the Queens Museum, the Internet Archive, and elsewhere."
+    link: "https://melanie-hoff.com/"
+    linkDisplay: "melanie-hoff.com"
+    github: "melaniehoff"
+    twitter: "Melanie_Hoff"
+
+  - presenterID: jennifer
+    name: "Jennifer Seaman Cook"
+    bio: "Jennifer is a transnational American Studies scholar, media theorist, essayist, and creative writer. Working at the intersections of politics and poetics, she specializes in visual and public cultures, cultural and social movements, and media and technology studies. Jennifer’s writing can be found in 3:AM magazine, Cedilla Literary Journal (Ç viii, 2014) alongside Amiri Baraka (archived at University of Montana), LA Review of Books, PopMatters, Queen Mob’s Tea House, Salon and more. She also blogs about pre-digital to digital culture and the Experimental Television Center at HASTAC. She can be found in several anthologies and is forthcoming with Clemson University Press. Her arts writing in anthology has premiered at the Frankfurt Book Fair and MoMa PS1."
+    twitter: "Histouroborus"
+
+  - presenterID: jack
+    name: "Jack Jamieson"
+    bio: "Jack is a PhD candidate at the University of Toronto's Faculty of Information. His research investigates intersections of digital technologies with culture, with a focus on issues related to values, labour, and interoperability. Specifically, he studies how web developers shape the direction of the Internet by creating, contesting, co-opting and compromising with platforms and standards."
+    link: "https://jackjamieson.net/"
+    linkDisplay: "jackjamieson.net"
+    github: "jackjamieson2"
+    twitter: "jackjamieson"
+
+  - presenterID: danny
+    name: "Danny Spitzberg"
+    bio: "Danny is a user research and sociologist based in Oakland, California. He volunteers with Tech Workers Coalition, a worker-led, all-volunteer network building working power in the tech industry. He works with Start.coop, a business ownership accelerator, and with a tech collective working with new cooperative platforms worldwide."
+    link: "https://twitter.com/GetWages"
+    linkDisplay: "twitter.com/GetWages"
+    twitter: "daspitzberg"

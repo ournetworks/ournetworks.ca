@@ -1,0 +1,185 @@
+// Tables
+
+table {
+  border-spacing: 0;
+  margin: 1em 0;
+  table-layout: fixed;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid $grey-table-borders;
+}
+
+th:first-child,
+td:first-child {
+  padding-left: 0;
+}
+
+th:last-child,
+td:last-child {
+  padding-right: 0;
+}
+
+thead th {
+  border-bottom: 2px solid $grey-table-borders;
+}
+
+
+// Schedule Table
+
+.schedule-table {
+  margin-bottom: 4em;
+  width: 100%;
+  position: relative;
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 0;
+
+    @media (max-width: $on-palm) {
+      font-size: 14px;
+    }
+  }
+
+  th,
+  td {
+    padding: 8px 6px 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid $grey-table-borders;
+  }
+
+  tr {
+    td:nth-child(-n+2) {
+      vertical-align: top;
+      padding-bottom: 0;
+      padding-top: 3px;
+    }
+    td:first-child {
+      text-align: right;
+      padding-right: 0;
+      padding-left: 0;
+    }
+    td:nth-child(2) {
+      padding-left: 0;
+    }
+    &:nth-child(4n+1) td:nth-child(-n+2) {
+      font-weight: bold;
+    }
+  }
+
+  td:nth-child(3):empty {
+    border-left: 1px solid $grey-table-borders;
+  }
+
+  @media (max-width: $on-palm) {
+    width: 100vw;
+    margin-left: -20px;
+  }
+}
+
+.schedule-spacer {
+  margin-top: 2em;
+}
+
+.schedule-spacer-small {
+  margin-top: 1em;
+}
+
+.session-block {
+  border-radius: 10px;
+  border: 1px solid rgba($black, 0.05);
+  box-shadow: 0px 5px 16px 0 rgba($black, 0.1);
+  margin-right: 2px;
+
+  &:hover {
+    border-color: $accent-color;
+  }
+}
+
+.session-presenter {
+  font-size: .75em;
+  margin-top: .5em;
+  margin-bottom: 0;
+}
+
+.schedule-time {
+  width: 2em;
+
+  &:first-child {
+    width: 1.5em;
+  }
+}
+
+.schedule-main {
+  width: 40%;
+  border-left: 1px solid $grey-table-borders;
+}
+
+.schedule-breakout {
+  width: 25%;
+  border-left: 1px solid $grey-table-borders;
+  &:last-child {
+    border-right: 1px solid $grey-table-borders;
+  }
+}
+
+.session-orga {
+  background-color: $yellow;
+  border-color: $yellow;
+}
+
+.program-heading {
+  font-size: 3.5rem;
+  margin-top: 1.5em;
+}
+
+.program-block {
+  border-bottom: 1px solid $grey-table-borders;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  .session-header {
+    margin-bottom: 1em;
+  }
+
+  .session-title {
+    margin-top: 0;
+    margin-bottom: .25em;
+  }
+
+  .session-presenter {
+    margin: 0;
+    font-size: 1em;
+  }
+
+  .presenter-name {
+    margin-top: 0;
+  }
+
+  .bio-sm-list {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.program-block-content {
+  padding: 1em;
+}
+
+.program-block-anchor:target {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+
+  & + .program-block-content {
+    background: $yellow;
+  }
+}

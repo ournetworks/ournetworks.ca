@@ -1,368 +1,716 @@
-- sessionID: 18010
-  title: "Wireless Toronto"
-  presenterID:
-    - gabe
-  link: "http://wirelesstoronto.ca/"
-  linkDisplay: "wirelesstoronto.ca"
-  description: "Wireless Toronto is a community wireless network run by volunteers, dedicated to the growth of no-cost wireless Internet access in Toronto's public and publicly accessible spaces. Since the group's founding in May 2005, volunteers set up almost 40 hotspots across the GTA, including some of the city's largest: St. Lawrence Market, Yonge-Dundas Square, and the York Quay Centre at Harbourfront.
-    At its peak, the network served over 1000 connections per day.
-    For a variety of reasons, the Wireless Toronto network has shrunk over time, and today only a handful of nodes remain active. This presentation will outline the group's history, successes and learnings."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/1"
-  sessionType: "talk"
-  date: 2018-07-14
-  length: 1
-  youtube: "VCLhODLwddw"
-  ipfs720: "Qme8TaDvDX9eduymzDw5DFdpuqx11xq967PGMNafXawdpM"
-  ipfs1080: "QmS1PB42fYmBJbdhyyJXKzhrYKo3sy4XvqUQWJtQJQeqhg"
+2018:
+  - sessionID: 18010
+    title: "Wireless Toronto"
+    presenterID:
+      - gabe
+    link: "http://wirelesstoronto.ca/"
+    linkDisplay: "wirelesstoronto.ca"
+    description: "Wireless Toronto is a community wireless network run by volunteers, dedicated to the growth of no-cost wireless Internet access in Toronto's public and publicly accessible spaces. Since the group's founding in May 2005, volunteers set up almost 40 hotspots across the GTA, including some of the city's largest: St. Lawrence Market, Yonge-Dundas Square, and the York Quay Centre at Harbourfront.
+      At its peak, the network served over 1000 connections per day.
+      For a variety of reasons, the Wireless Toronto network has shrunk over time, and today only a handful of nodes remain active. This presentation will outline the group's history, successes and learnings."
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/1"
+    sessionType: "talk"
+    date: 2018-07-14
+    length: 1
+    youtube: "VCLhODLwddw"
+    ipfs720: "Qme8TaDvDX9eduymzDw5DFdpuqx11xq967PGMNafXawdpM"
+    ipfs1080: "QmS1PB42fYmBJbdhyyJXKzhrYKo3sy4XvqUQWJtQJQeqhg"
 
+  - sessionID: 18030
+    title: "Peer-to-peer applications on a mesh network"
+    presenterID:
+      - benedict
+    description: "In this session, I will present Mesh Orange, a Debian-based router that runs on various single-board computers (SBCs), which together form an autonomous encrypted mesh network. The operating system supports various WiFi hardware and features a configuration system that allows local mesh communities to specify custom hardware settings. After walking through the steps to form a physical mesh network with Mesh Orange, we will run peer-to-peer applications on these SBCs to show a possible internet where networked applications are serviced by distributed protocols communicating over physical nodes arranged in a mesh topology."
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/3"
+    sessionType: "lightning-talk"
+    date: 2018-07-14
+    length: 0.25
+    youtube: "QtIqtd0YOvw"
+    ipfs720: "QmePW5VKnpM44X2pTcFEgJ8mbTc5bgaYy6qkismZeYkMZo"
+    ipfs1080: "QmbkBmVziTnQyEaCjaZtT8ucth2cwX2VsTFip5YHrebFCS"
 
-- sessionID: 18030
-  title: "Peer-to-peer applications on a mesh network"
-  presenterID:
-    - benedict
-  description: "In this session, I will present Mesh Orange, a Debian-based router that runs on various single-board computers (SBCs), which together form an autonomous encrypted mesh network. The operating system supports various WiFi hardware and features a configuration system that allows local mesh communities to specify custom hardware settings. After walking through the steps to form a physical mesh network with Mesh Orange, we will run peer-to-peer applications on these SBCs to show a possible internet where networked applications are serviced by distributed protocols communicating over physical nodes arranged in a mesh topology."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/3"
-  sessionType: "lightning-talk"
-  date: 2018-07-14
-  length: 0.25
-  youtube: "QtIqtd0YOvw"
-  ipfs720: "QmePW5VKnpM44X2pTcFEgJ8mbTc5bgaYy6qkismZeYkMZo"
-  ipfs1080: "QmbkBmVziTnQyEaCjaZtT8ucth2cwX2VsTFip5YHrebFCS"
+  - sessionID: 18040
+    title: "Live streaming over IPFS"
+    presenterID:
+      - yurko
+    description: "In this session, I will present how IPFS and HLS came together to allow us to build a distributed live stream for this conference."
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/17"
+    sessionType: "lightning-talk"
+    date: 2018-07-14
+    length: 0.25
+    youtube: "ZYm7cexgSpY"
+    ipfs720: "QmNtSy8JxmURQzFmW5r44JV6T3KfatLbEFFvePG1a1xK8i"
+    ipfs1080: "QmT9aFwHo5Sh197ubcDC6zprNkDdb6hkh1uEf2PNqnDLkF"
 
+  - sessionID: 18050
+    title: "Money and mesh networks"
+    presenterID:
+      - jessica
+      - ashoka
+    presenterID-2: "ashoka"
+    description: "A talk exploring the question is it possible to build/manage communal mesh infrastructure in a decentralized fashion and pay contributors fairly, all while staying true to an ethos of providing free/low-cost Internet to those who want it? and a possible answer."
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/5"
+    sessionType: "discussion"
+    theme: "Incentivized Networks"
+    date: 2018-07-14
+    length: 1
+    youtube: "hxq2SKoVzTA"
+    ipfs720: "QmSVYASXXnhK3vF4qPraK4jfgBp1ZzMwDXX2xii2FhhrzB"
+    ipfs1080: "QmdXZXwWQzTv8CHA66HowLcysjsfepVNGr9vcnRTDzTphb"
 
-- sessionID: 18040
-  title: "Live streaming over IPFS"
-  presenterID:
-    - yurko
-  description: "In this session, I will present how IPFS and HLS came together to allow us to build a distributed live stream for this conference."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/17"
-  sessionType: "lightning-talk"
-  date: 2018-07-14
-  length: 0.25
-  youtube: "ZYm7cexgSpY"
-  ipfs720: "QmNtSy8JxmURQzFmW5r44JV6T3KfatLbEFFvePG1a1xK8i"
-  ipfs1080: "QmT9aFwHo5Sh197ubcDC6zprNkDdb6hkh1uEf2PNqnDLkF"
+  - sessionID: 18070
+    title: "Understanding blockchains with Scrabble"
+    presenterID:
+      - sarah
+      - david
+    description: "'What even is a proof-of-work based globally distributed ledger?'
+      Blockchain is everywhere these days - from finance and law, to kitten-collecting, dating-apps, and ice tea companies. This workshop will explore what this technology offers, how it works, and what it can and cannot do in a friendly, playful setting. We will introduce the basics of how blockchains work in a short presentation, and then expand on them with a facilitated session of Scrabits, a modified version of scrabble based on the bitcoin blockchain. Concepts explored will be - what is a ledger, what are the unique challenges of maintaining a decentralized way, and how bitcoin solves these problems."
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/7"
+    sessionType: "workshop"
+    date: 2018-07-14
+    length: 1
 
-- sessionID: 18050
-  title: "Money and mesh networks"
-  presenterID:
-    - jessica
-    - ashoka
-  presenterID-2: "ashoka"
-  description: "A talk exploring the question is it possible to build/manage communal mesh infrastructure in a decentralized fashion and pay contributors fairly, all while staying true to an ethos of providing free/low-cost Internet to those who want it? and a possible answer."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/5"
-  sessionType: "discussion"
-  theme: "Incentivized Networks"
-  date: 2018-07-14
-  length: 1
-  youtube: "hxq2SKoVzTA"
-  ipfs720: "QmSVYASXXnhK3vF4qPraK4jfgBp1ZzMwDXX2xii2FhhrzB"
-  ipfs1080: "QmdXZXwWQzTv8CHA66HowLcysjsfepVNGr9vcnRTDzTphb"
+  - sessionID: 18090
+    title: "City of experiences: The network and the city"
+    presenterID:
+      - douc
+    link: "http://wearedouc.com/"
+    linkDisplay: "wearedouc.com"
+    instagram: "douc_to"
+    twitter: "cristoforo_DoUC"
+    description: "We are living in a fluid existence between the virtual and physical worlds. The urban development models of the past are beginning to fall short in creating cities that support the reality of our current existence. Networks aren't just nodes and links designated by code—they are accessed and used by real people over physical infrastructure that exists in physical space. How does the network interface with the city, and with the public? What are the individual and collective experiences and interactions that are enabled by these networks in practice?"
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/9"
+    sessionType: "workshop"
+    date: 2018-07-14
+    length: 2
 
-- sessionID: 18070
-  title: "Understanding blockchains with Scrabble"
-  presenterID:
-    - sarah
-    - david
-  description: "'What even is a proof-of-work based globally distributed ledger?'
-    Blockchain is everywhere these days - from finance and law, to kitten-collecting, dating-apps, and ice tea companies. This workshop will explore what this technology offers, how it works, and what it can and cannot do in a friendly, playful setting. We will introduce the basics of how blockchains work in a short presentation, and then expand on them with a facilitated session of Scrabits, a modified version of scrabble based on the bitcoin blockchain. Concepts explored will be - what is a ledger, what are the unique challenges of maintaining a decentralized way, and how bitcoin solves these problems."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/7"
-  sessionType: "workshop"
-  date: 2018-07-14
-  length: 1
+  - sessionID: 18100
+    title: "The hybrid step toward migrating to P2P: Adding P2P backend to current centralized apps"
+    presenterID:
+      - vmon
+    link: "https://github.com/equalitie/ouinet"
+    linkDisplay: "Ouinet"
+    description: "Currently, most websites and apps depend on centralized servers despite the limitations of this structure. Migration towards P2P architectures may be encouraged by solutions which support the current centralized paradigm while taking advantage of P2P architectures, making apps more resilient to interference and letting users' devices empower the underlying P2P network. For that reason we created Ouinet, a technology where an entire cooperative network helps serve HTTP requests using P2P routing and distributed cached responses, mitigating the single point of failure due to client apps not being able to connect to the server.
+      We will discuss the philosophy and design behind Ouinet, how we integrated various P2P technologies such as IPFS and I2P to achieve its objectives, and demonstrate how an alpha implementation can be integrated in Android apps to defy network interference while saving on server bandwidth and remote resources, as we shall also see during the sprints days."
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/10"
+    sessionType: "talk"
+    date: 2018-07-14
+    length: 1
+    youtube: "i6Frd75wPIE"
+    ipfs720: "QmVYB1VFRKfG3ioGL7Lv4FHDRjeygwW59WPXCsBpsxb2Gc"
+    ipfs1080: "QmVMhYj3QzStSPw6PvPdUW1Xd5FguNnq5Btp9kC2EyrNrd"
 
-- sessionID: 18090
-  title: "City of experiences: The network and the city"
-  presenterID:
-    - douc
-  link: "http://wearedouc.com/"
-  linkDisplay: "wearedouc.com"
-  instagram: "douc_to"
-  twitter: "cristoforo_DoUC"
-  description: "We are living in a fluid existence between the virtual and physical worlds. The urban development models of the past are beginning to fall short in creating cities that support the reality of our current existence. Networks aren’t just nodes and links designated by code—they are accessed and used by real people over physical infrastructure that exists in physical space. How does the network interface with the city, and with the public? What are the individual and collective experiences and interactions that are enabled by these networks in practice?"
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/9"
-  sessionType: "workshop"
-  date: 2018-07-14
-  length: 2
+  - sessionID: 18110
+    title: "Web archiving as DIY and DIWO"
+    presenterID:
+      - emily
+    description: "As the internet evolves and changes, what material of the internet's past will continue to be available? What is being actively preserved for the future, and who is doing this work? In this session I'll discuss my doctoral research project that explores these questions through two cases studies of web archiving by national libraries and academic research libraries which are part of the International Internet Preservation Consortium. These cases are representative of the many web archiving initiatives and practices tied to existing centralized structures - supported by government and academic institutions, as well as methods of crawling tied to infrastructures like country code top-level domains. These institutional efforts can be seen to contrast with distributed communities like Archiveteam as well as activist and community web archives. And increasingly, individual people can also create and curate their own collections with tools like webrecorder.io that are geared towards users who are not coders."
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/11"
+    sessionType: "lightning-talk"
+    date: 2018-07-14
+    length: 0.25
+    youtube: "ZQmTCPsafkw"
+    ipfs720: "QmPtKBecxWWNP3frvSi9hUZocpgj8Ea1DWQx6qtFoqvitM"
+    ipfs1080: "Qmbn2Jy5Jyw9f4Xcjk3AJKmEVE1xiA4ZMjhpeGvi6LQgVQ"
 
-- sessionID: 18100
-  title: "The hybrid step toward migrating to P2P: Adding P2P backend to current centralized apps"
-  presenterID:
-    - vmon
-  link: "https://github.com/equalitie/ouinet"
-  linkDisplay: "Ouinet"
-  description: "Currently, most websites and apps depend on centralized servers despite the limitations of this structure. Migration towards P2P architectures may be encouraged by solutions which support the current centralized paradigm while taking advantage of P2P architectures, making apps more resilient to interference and letting users' devices empower the underlying P2P network. For that reason we created Ouinet, a technology where an entire cooperative network helps serve HTTP requests using P2P routing and distributed cached responses, mitigating the single point of failure due to client apps not being able to connect to the server.
-    We will discuss the philosophy and design behind Ouinet, how we integrated various P2P technologies such as IPFS and I2P to achieve its objectives, and demonstrate how an alpha implementation can be integrated in Android apps to defy network interference while saving on server bandwidth and remote resources, as we shall also see during the sprints days."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/10"
-  sessionType: "talk"
-  date: 2018-07-14
-  length: 1
-  youtube: "i6Frd75wPIE"
-  ipfs720: "QmVYB1VFRKfG3ioGL7Lv4FHDRjeygwW59WPXCsBpsxb2Gc"
-  ipfs1080: "QmVMhYj3QzStSPw6PvPdUW1Xd5FguNnq5Btp9kC2EyrNrd"
+  - sessionID: 18120
+    title: "Building something together with local networks"
+    presenterID:
+      - cecylia
+      - lauren
+    link: "http://www.mazizone.eu/"
+    linkDisplay: "mazizone.eu"
+    description: "The Internet as it exists today is not an ideal tool for liberation or the exploration of something new. The infrastructure is largely corporation and state owned and controlled. In this demonstration, we look at working with communities to build local networks: small pockets of exploration that have the potential to become whatever we can dream up together. We will be demonstrating the MAZI zone toolkit (meaning 'together' in Greek), and the results of a pilot study by the nomadic group unMonastery and community members of the Zagori region in Greece."
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/12"
+    sessionType: "demo"
+    date: 2018-07-14
+    length:
+    youtube: "eaNBUBV0aKQ"
+    ipfs720: "QmZzHGkci41xWkS6VPGmpEBoKWJzYXZNJGepyrcwvMRYad"
+    ipfs1080: "QmRC5i25CJAkKCTq22mPr19yYfykbtMug9NbhCUrseWtkF"
 
-- sessionID: 18110
-  title: "Web archiving as DIY and DIWO"
-  presenterID:
-    - emily
-  description: "As the internet evolves and changes, what material of the internet's past will continue to be available? What is being actively preserved for the future, and who is doing this work? In this session I'll discuss my doctoral research project that explores these questions through two cases studies of web archiving by national libraries and academic research libraries which are part of the International Internet Preservation Consortium. These cases are representative of the many web archiving initiatives and practices tied to existing centralized structures - supported by government and academic institutions, as well as methods of crawling tied to infrastructures like country code top-level domains. These institutional efforts can be seen to contrast with distributed communities like Archiveteam as well as activist and community web archives. And increasingly, individual people can also create and curate their own collections with tools like webrecorder.io that are geared towards users who are not coders."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/11"
-  sessionType: "lightning-talk"
-  date: 2018-07-14
-  length: 0.25
-  youtube: "ZQmTCPsafkw"
-  ipfs720: "QmPtKBecxWWNP3frvSi9hUZocpgj8Ea1DWQx6qtFoqvitM"
-  ipfs1080: "Qmbn2Jy5Jyw9f4Xcjk3AJKmEVE1xiA4ZMjhpeGvi6LQgVQ"
+  - sessionID: 18140
+    title: "Althea a more distributed ISP"
+    presenterID:
+      - justin
+    link: "https://altheamesh.com/"
+    linkDisplay: "altheamesh.com"
+    description: "Althea is a protocol that allows people to easily buy and sell bandwidth from each other. The session will cover the design choices and philosophy of Alteha's mesh networking technology. As well as setup a basic mesh network on stage to show off."
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/14"
+    sessionType: "demo"
+    theme: "Incentivized Networks"
+    date: 2018-07-14
+    length: 1
+    youtube: "cUzdthZpjQY"
+    ipfs720: "QmeDdoqpScv1Pm4zDWMeiAxkhmKnCUevDL7LjbZm2LvttD"
+    ipfs1080: "QmfZaho2FZgz3us8vbyK5ueYtQjMx174CASYLaReXsUP6d"
 
-- sessionID: 18120
-  title: "Building something together with local networks"
-  presenterID:
-    - cecylia
-    - lauren
-  link: "http://www.mazizone.eu/"
-  linkDisplay: "mazizone.eu"
-  description: "The Internet as it exists today is not an ideal tool for liberation or the exploration of something new. The infrastructure is largely corporation and state owned and controlled. In this demonstration, we look at working with communities to build local networks: small pockets of exploration that have the potential to become whatever we can dream up together. We will be demonstrating the MAZI zone toolkit (meaning 'together' in Greek), and the results of a pilot study by the nomadic group unMonastery and community members of the Zagori region in Greece."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/12"
-  sessionType: "demo"
-  date: 2018-07-14
-  length:
-  youtube: "eaNBUBV0aKQ"
-  ipfs720: "QmZzHGkci41xWkS6VPGmpEBoKWJzYXZNJGepyrcwvMRYad"
-  ipfs1080: "QmRC5i25CJAkKCTq22mPr19yYfykbtMug9NbhCUrseWtkF"
+  - sessionID: 18150
+    title: "Holding Data Together: Decentralized patterns for stewardship"
+    presenterID:
+      - b5
+    link: "https://datatogether.org/"
+    linkDisplay: "datatogether.org"
+    description: "Formed in the wake of grassroots archiving efforts undertaken in 2017, Data Together seeks to contribute to a civic layer of the internet where communities use decentralized technologies to steward data they care about. Since July 2017, founding partners EDGI, qri.io, and Protocol Labs, have been prototyping open source and decentralized archiving of web pages and data sets using IPFS. Initiatives also include public engagement through in-person events and topical roundtable conversations through online webinars.
+      This talk will speak to the tensions and successes in our early prototypes and address the values motivating our work."
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/15"
+    sessionType: "lightning-talk"
+    theme: "Politics of Networks"
+    date: 2018-07-14
+    length: 0.25
+    youtube: "4mIeV890ymg"
+    ipfs720: "QmXDLFpTce1A5vuTssrcjwNTFCC8TKqRHkicGy6C3i5PGY"
+    ipfs1080: "QmXAfHZtPGGskDZPGSQ11eGo3Ac6T72YWNiftgjJXH6qHD"
 
-- sessionID: 18140
-  title: "Althea a more distributed ISP"
-  presenterID:
-    - justin
-  link: "https://altheamesh.com/"
-  linkDisplay: "altheamesh.com"
-  description: "Althea is a protocol that allows people to easily buy and sell bandwidth from each other. The session will cover the design choices and philosophy of Alteha's mesh networking technology. As well as setup a basic mesh network on stage to show off."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/14"
-  sessionType: "demo"
-  theme: "Incentivized Networks"
-  date: 2018-07-14
-  length: 1
-  youtube: "cUzdthZpjQY"
-  ipfs720: "QmeDdoqpScv1Pm4zDWMeiAxkhmKnCUevDL7LjbZm2LvttD"
-  ipfs1080: "QmfZaho2FZgz3us8vbyK5ueYtQjMx174CASYLaReXsUP6d"
+  - sessionID: 18160
+    title: "Protocol tactics"
+    presenterID:
+      - lars
+    description: "The philosophers have only interpreted the internet, the point is to change it.
+      IP, BGP, DNS, HTTP, and many more protocols set the boundaries of what we do on the internet. Their specifications and implementations have enabled many great advances, but some of these advances have revealed structures and mechanisms that are objectively counter to their users' needs and wants.
+      Our communities are radical in many ways, and some of our shared principles are
+      accessibility, ubiquity, sustainability, resilience, and impact.
+      We'll look at effective tactics used by protocols, old and new, to achieve these principles."
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/16"
+    sessionType: "talk"
+    theme: "Politics of Networks"
+    date: 2018-07-14
+    length: 1
+    youtube: "v3WSU_W9xkE"
+    ipfs720: "QmRteJr9TSyLoWgki5ZVnYikmBfCrKE2L2XvaY128egGPh"
+    ipfs1080: "QmexHoTeJykKxcs1TuoXSvzqiuQ6tB8n1iKcywFudkmV3E"
 
-- sessionID: 18150
-  title: "Holding Data Together: Decentralized patterns for stewardship"
-  presenterID:
-    - b5
-  link: "https://datatogether.org/"
-  linkDisplay: "datatogether.org"
-  description: "Formed in the wake of grassroots archiving efforts undertaken in 2017, Data Together seeks to contribute to a civic layer of the internet where communities use decentralized technologies to steward data they care about. Since July 2017, founding partners EDGI, qri.io, and Protocol Labs, have been prototyping open source and decentralized archiving of web pages and data sets using IPFS. Initiatives also include public engagement through in-person events and topical roundtable conversations through online webinars.
-    This talk will speak to the tensions and successes in our early prototypes and address the values motivating our work."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/15"
-  sessionType: "lightning-talk"
-  theme: "Politics of Networks"
-  date: 2018-07-14
-  length: 0.25
-  youtube: "4mIeV890ymg"
-  ipfs720: "QmXDLFpTce1A5vuTssrcjwNTFCC8TKqRHkicGy6C3i5PGY"
-  ipfs1080: "QmXAfHZtPGGskDZPGSQ11eGo3Ac6T72YWNiftgjJXH6qHD"
+  - sessionID: 18180
+    title: "Community networks, a perspective from freedom of expression and access to information"
+    presenterID:
+      - vladimir
+    link: "https://articulo19.org/"
+    linkDisplay: "articulo19.org"
+    description: "The digital divide in Mexico is not just a matter of connectivity. The deployment of physical infrastructure must be coupled with a cultural, linguistic and community perspective, able to provide internet access as a way to exercise a wide range of rights. Article 19 Mexico and Central America office is doing field work in the state of Chiapas to analyze, from a broad perspective, the impact of connectivity policies and the lack to internet access on indigenous communities and the raising of local initiatives to build community networks. The project is linked to the work of the organization to promote proactive transparency that allows people, particularly women, to use access to information mechanisms to defend other rights.
+      Sharing this experience is an opportunity, firstly to present preliminary results of the field work but also to generate significant links with other initiatives looking to consolidate long term projects in which communities play an active role to promote access to Internet, develop strategies for digital literacy and appropriate the use ICTs."
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/18"
+    sessionType: "workshop"
+    date: 2018-07-14
+    length: 2
 
-- sessionID: 18160
-  title: "Protocol tactics"
-  presenterID:
-    - lars
-  description: "The philosophers have only interpreted the internet, the point is to change it.
-    IP, BGP, DNS, HTTP, and many more protocols set the boundaries of what we do on the internet. Their specifications and implementations have enabled many great advances, but some of these advances have revealed structures and mechanisms that are objectively counter to their users' needs and wants.
-    Our communities are radical in many ways, and some of our shared principles are
-    accessibility, ubiquity, sustainability, resilience, and impact.
-    We'll look at effective tactics used by protocols, old and new, to achieve these principles."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/16"
-  sessionType: "talk"
-  theme: "Politics of Networks"
-  date: 2018-07-14
-  length: 1
-  youtube: "v3WSU_W9xkE"
-  ipfs720: "QmRteJr9TSyLoWgki5ZVnYikmBfCrKE2L2XvaY128egGPh"
-  ipfs1080: "QmexHoTeJykKxcs1TuoXSvzqiuQ6tB8n1iKcywFudkmV3E"
+  - sessionID: 18190
+    title: "What do we want?"
+    presenterID:
+      - justint
+      - cecylia
+    description: "In the world we live in, there is a near-universal social norm that says greater connectivity, a more global web, and more pervasive digital networks are an inherent good. We see this sentiment reflected everywhere, from the obvious manifestations in IoT devices, cellphones, and Facebook, to more implicit forms, such as in the fights for greater digital security, more censorship-resistant communication, or more distributed control of these networks. As communities involved in shaping the future of these networks, and whose futures will in turn be shaped by them, it seems worth asking: Is a more networked world really always what we want?
+      Rather than try to answer this question directly, we will instead provide a short introduction to the topic, then help guide an open discussion, focusing on what it means in practice for us involved in the development of these networks."
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/19"
+    sessionType: "discussion"
+    date: 2018-07-14
+    length: 1
 
+  - sessionID: 18200
+    title: "Fandom as an alternative network"
+    presenterID:
+      - rea
+      - owen
+      - maya
+    description: "The interdisciplinary creative practices of fandom — whether it be fanfiction, fanart, or cosplay — challenge our previously held notions of authorship, but also uphold the open internet's emancipatory values. Networked-based online creations thrive within particular fandoms, and its community-based model has enabled authors to create works that bring in feminist as well as queer and critical race studies approaches, especially through genres like slash. So how are these fan methodologies reshaping the practices of artists and curators? This conversation will map out the ways in which three 'fans' AKA contemporary artists/curators are bringing these so-called fan perspectives into their work, and explore how fandom cultivates alternative means of capacity-building and storytelling."
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/20"
+    sessionType: "panel"
+    date: 2018-07-14
+    length: 1
+    youtube: "ptxzxEy-goI"
+    ipfs720: "Qmdz1mMaC9Urpf7tqsk8TatFwCAwmPrrRD88Zcq2wLF4Ze"
+    ipfs1080: "QmWvJ8HbTpaDTYAYtZFNwomyZr21YEwTp1bfQGT7Vxjz8w"
 
-- sessionID: 18180
-  title: "Community networks, a perspective from freedom of expression and access to information"
-  presenterID:
-    - vladimir
-  link: "https://articulo19.org/"
-  linkDisplay: "articulo19.org"
-  description: "The digital divide in Mexico is not just a matter of connectivity. The deployment of physical infrastructure must be coupled with a cultural, linguistic and community perspective, able to provide internet access as a way to exercise a wide range of rights. Article 19 Mexico and Central America office is doing field work in the state of Chiapas to analyze, from a broad perspective, the impact of connectivity policies and the lack to internet access on indigenous communities and the raising of local initiatives to build community networks. The project is linked to the work of the organization to promote proactive transparency that allows people, particularly women, to use access to information mechanisms to defend other rights.
-    Sharing this experience is an opportunity, firstly to present preliminary results of the field work but also to generate significant links with other initiatives looking to consolidate long term projects in which communities play an active role to promote access to Internet, develop strategies for digital literacy and appropriate the use ICTs."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/18"
-  sessionType: "workshop"
-  date: 2018-07-14
-  length: 2
+  - sessionID: 18210
+    title: "Using Qri for distributed data collaboration"
+    presenterID:
+      - b5
+    description: "qri.io ('query') is an open source peer-2-peer data collaboration tool. In the spirit of 'do it with others' this workshop will engage participants to each develop their own dataset of citations they'd like to share such as books, online articles, and blog posts. Participants will then publish these datasets on the distributed web using qri, and from there we'll work together to combine the sum of these datasets into a collection of citations. We'll then render these datasets as web pages using traditional web technologies, making our collection of citations available to a broader audience, while also providing access to the raw data for others to build upon."
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/21"
+    sessionType: "workshop"
+    date: 2018-07-14
+    length: 1
 
-- sessionID: 18190
-  title: "What do we want?"
-  presenterID:
-    - justint
-    - cecylia
-  description: "In the world we live in, there is a near-universal social norm that says greater connectivity, a more global web, and more pervasive digital networks are an inherent good. We see this sentiment reflected everywhere, from the obvious manifestations in IoT devices, cellphones, and Facebook, to more implicit forms, such as in the fights for greater digital security, more censorship-resistant communication, or more distributed control of these networks. As communities involved in shaping the future of these networks, and whose futures will in turn be shaped by them, it seems worth asking: Is a more networked world really always what we want?
-    Rather than try to answer this question directly, we will instead provide a short introduction to the topic, then help guide an open discussion, focusing on what it means in practice for us involved in the development of these networks."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/19"
-  sessionType: "discussion"
-  date: 2018-07-14
-  length: 1
+  - sessionID: 18220
+    title: "Cadences of connection and exchange: Planning and modeling activity centered networks"
+    presenterID:
+      - curtis
+    description: "Although we access internet from many locations acoss our communications, our expectations for connectivity and availability of content are somewhat more static. In these moments our experience of the networked connectivity is embedded in not only files and bandwidth, but also mixes the activities of passerby and environmental features. Our ways of accessing information (i.e. files, content, etc) could be significantly diversified in networks without ubiquitous (centrally provided) broadband, where access might be linked to the physical environment or physical storage, such as in dead drops or Cuba's budding public wifi access or their 'sneakernet' style paquete semanal.
+      What might happen when network connectivity works differently in shared spaces of transit, leisure and work? What are the possible benefits of challenging the expectation of ubiquitous broadband and the cadence of constant connectivity- the what ethical issues might arise? Can we create different sorts of networks that fit the constraints and character of different spaces and human activities around them?"
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/22"
+    sessionType: "workshop"
+    date: 2018-07-14
+    length: 2
 
-- sessionID: 18200
-  title: "Fandom as an alternative network"
-  presenterID:
-    - rea
-    - owen
-    - maya
-  description: "The interdisciplinary creative practices of fandom — whether it be fanfiction, fanart, or cosplay — challenge our previously held notions of authorship, but also uphold the open internet’s emancipatory values. Networked-based online creations thrive within particular fandoms, and its community-based model has enabled authors to create works that bring in feminist as well as queer and critical race studies approaches, especially through genres like slash. So how are these fan methodologies reshaping the practices of artists and curators? This conversation will map out the ways in which three “fans” AKA contemporary artists/curators are bringing these so-called fan perspectives into their work, and explore how fandom cultivates alternative means of capacity-building and storytelling."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/20"
-  sessionType: "panel"
-  date: 2018-07-14
-  length: 1
-  youtube: "ptxzxEy-goI"
-  ipfs720: "Qmdz1mMaC9Urpf7tqsk8TatFwCAwmPrrRD88Zcq2wLF4Ze"
-  ipfs1080: "QmWvJ8HbTpaDTYAYtZFNwomyZr21YEwTp1bfQGT7Vxjz8w"
+  - sessionID: 18231
+    title: "The artists network, the data-body, and the social-body"
+    presenterID:
+      - jennifer
+    description: "'Electronic art is electronic education is inter net and television for and about people. My television video electronic educational inter net art is for people, minds and bodies. Electronic art educational inter net television. Not so hard to imagine.' -Peer Bode (Experimental Television Center)
+      This talk begins from a seemingly simple cultural historical premise: that the Net Art/Anti-Globalism movement theories of data-bodies, new forms of civil disobedience, and the performative matrix of artist networks between virtual and real spaces were formed under pre-digital conditions and artistic practices based in the intermedia movement. More importantly, I argue that pre-digital practices of the artist communications infrastructure as both network and counterinstitution--derived from media revolutions of the underground press, conceptual and process art practices of social sculpture, and working class progressivist artist workers movements of the 20th century--allowed for counterhegemonic deterritorializations and reterritorializations of emergent media networks and resources. These intermedia cultural movements prioritized hybrid ontologies and adapted tactically from the pre-digital to digital cusp through media ecologies of electronic globalization characterizing neoliberal mobility and modularity."
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/23"
+    sessionType: "talk"
+    date: 2018-07-14
+    length: 1
+    youtube: "_iP1mZ2cceg"
+    ipfs720: "Qmcbzn27ULvDj2ToLqGVq2UaBNHTaPZ3Ghe524UmKetScj"
+    ipfs1080: "QmfNNccv1rv1kgJaABPncUvaiXrmLq26BDieS55P1beozD"
 
-- sessionID: 18210
-  title: "Using Qri for distributed data collaboration"
-  presenterID:
-    - b5
-  description: "qri.io ('query') is an open source peer-2-peer data collaboration tool. In the spirit of 'do it with others' this workshop will engage participants to each develop their own dataset of citations they'd like to share such as books, online articles, and blog posts. Participants will then publish these datasets on the distributed web using qri, and from there we'll work together to combine the sum of these datasets into a collection of citations. We'll then render these datasets as web pages using traditional web technologies, making our collection of citations available to a broader audience, while also providing access to the raw data for others to build upon."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/21"
-  sessionType: "workshop"
-  date: 2018-07-14
-  length: 1
+  - sessionID: 18232
+    title: "The artists network workshop"
+    presenterID:
+      - jennifer
+    description: "'Electronic art is electronic education is inter net and television for and about people. My television video electronic educational inter net art is for people, minds and bodies. Electronic art educational inter net television. Not so hard to imagine.' -Peer Bode (Experimental Television Center)
+      This talk begins from a seemingly simple cultural historical premise: that the Net Art/Anti-Globalism movement theories of data-bodies, new forms of civil disobedience, and the performative matrix of artist networks between virtual and real spaces were formed under pre-digital conditions and artistic practices based in the intermedia movement. More importantly, I argue that pre-digital practices of the artist communications infrastructure as both network and counterinstitution--derived from media revolutions of the underground press, conceptual and process art practices of social sculpture, and working class progressivist artist workers movements of the 20th century--allowed for counterhegemonic deterritorializations and reterritorializations of emergent media networks and resources. These intermedia cultural movements prioritized hybrid ontologies and adapted tactically from the pre-digital to digital cusp through media ecologies of electronic globalization characterizing neoliberal mobility and modularity."
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/23"
+    sessionType: "workshop"
+    date: 2018-07-14
+    length: 1
 
-- sessionID: 18220
-  title: "Cadences of connection and exchange: Planning and modeling activity centered networks"
-  presenterID:
-    - curtis
-  description: "Although we access internet from many locations acoss our communications, our expectations for connectivity and availability of content are somewhat more static. In these moments our experience of the networked connectivity is embedded in not only files and bandwidth, but also mixes the activities of passerby and environmental features. Our ways of accessing information (i.e. files, content, etc) could be significantly diversified in networks without ubiquitous (centrally provided) broadband, where access might be linked to the physical environment or physical storage, such as in dead drops or Cuba's budding public wifi access or their 'sneakernet' style paquete semanal.
-    What might happen when network connectivity works differently in shared spaces of transit, leisure and work? What are the possible benefits of challenging the expectation of ubiquitous broadband and the cadence of constant connectivity- the what ethical issues might arise? Can we create different sorts of networks that fit the constraints and character of different spaces and human activities around them?"
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/22"
-  sessionType: "workshop"
-  date: 2018-07-14
-  length: 2
+  - sessionID: 18241
+    title: "Our _stable_ networks"
+    presenterID:
+      - grant
+      - jenny
+    link: "https://peoplesopen.net/"
+    linkDisplay: "peoplesopen.net"
+    github: "sudomesh"
+    description: "What does a 'stable' deployment of a community mesh network look like?
+      During this session, we will look at successful community wireless projects around the world, see how they are structured, both organizationally and technologically.
+      In particular, participants will learn what a stable implementation of a People's Open Network might look like directly from the people building one in Oakland, CA.
+      Finally, we will facilitate an open discussion about defining network stability and organizational values that could help maintain that stability."
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/24"
+    sessionType: "talk"
+    date: 2018-07-14
+    length: 0.5
+    youtube: "gDtO0qRAuTA"
+    ipfs720: "QmXjZLx83VMnJUQd4KAGZn5uZSpowLvfhsKKcX7qgu46kP"
+    ipfs1080: "QmR68beLDqPARyqDNHyAU4cnV77gmm83xrbEQhaQXXYd2c"
 
-- sessionID: 18231
-  title: "The artists network, the data-body, and the social-body"
-  presenterID:
-    - jennifer
-  description: "'Electronic art is electronic education is inter net and television for and about people. My television video electronic educational inter net art is for people, minds and bodies. Electronic art educational inter net television. Not so hard to imagine.' -Peer Bode (Experimental Television Center)
-    This talk begins from a seemingly simple cultural historical premise: that the Net Art/Anti-Globalism movement theories of data-bodies, new forms of civil disobedience, and the performative matrix of artist networks between virtual and real spaces were formed under pre-digital conditions and artistic practices based in the intermedia movement. More importantly, I argue that pre-digital practices of the artist communications infrastructure as both network and counterinstitution--derived from media revolutions of the underground press, conceptual and process art practices of social sculpture, and working class progressivist artist workers movements of the 20th century--allowed for counterhegemonic deterritorializations and reterritorializations of emergent media networks and resources. These intermedia cultural movements prioritized hybrid ontologies and adapted tactically from the pre-digital to digital cusp through media ecologies of electronic globalization characterizing neoliberal mobility and modularity."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/23"
-  sessionType: "talk"
-  date: 2018-07-14
-  length: 1
-  youtube: "_iP1mZ2cceg"
-  ipfs720: "Qmcbzn27ULvDj2ToLqGVq2UaBNHTaPZ3Ghe524UmKetScj"
-  ipfs1080: "QmfNNccv1rv1kgJaABPncUvaiXrmLq26BDieS55P1beozD"
+  - sessionID: 18242
+    title: "Our _stable_ networks workshop"
+    presenterID:
+      - grant
+      - jenny
+    description: "What does a 'stable' deployment of a community mesh network look like?
+      During this session, we will look at successful community wireless projects around the world, see how they are structured, both organizationally and technologically.
+      In particular, participants will learn what a stable implementation of a People's Open Network might look like directly from the people building one in Oakland, CA.
+      Finally, we will facilitate an open discussion about defining network stability and organizational values that could help maintain that stability."
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/24"
+    sessionType: "workshop"
+    date: 2018-07-14
+    length: 2
 
-- sessionID: 18232
-  title: "The artists network workshop"
-  presenterID:
-    - jennifer
-  description: "'Electronic art is electronic education is inter net and television for and about people. My television video electronic educational inter net art is for people, minds and bodies. Electronic art educational inter net television. Not so hard to imagine.' -Peer Bode (Experimental Television Center)
-    This talk begins from a seemingly simple cultural historical premise: that the Net Art/Anti-Globalism movement theories of data-bodies, new forms of civil disobedience, and the performative matrix of artist networks between virtual and real spaces were formed under pre-digital conditions and artistic practices based in the intermedia movement. More importantly, I argue that pre-digital practices of the artist communications infrastructure as both network and counterinstitution--derived from media revolutions of the underground press, conceptual and process art practices of social sculpture, and working class progressivist artist workers movements of the 20th century--allowed for counterhegemonic deterritorializations and reterritorializations of emergent media networks and resources. These intermedia cultural movements prioritized hybrid ontologies and adapted tactically from the pre-digital to digital cusp through media ecologies of electronic globalization characterizing neoliberal mobility and modularity."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/23"
-  sessionType: "workshop"
-  date: 2018-07-14
-  length: 1
+  - sessionID: 18250
+    title: "Aether: Distributing social networks without distributed consensus"
+    presenterID:
+      - burak
+    link: https://getaether.net/
+    linkDisplay: Aether
+    description: "The ongoing discussion about decentralisation has been dominated by the talk of blockchains lately. While they do work in certain fields, in social networks the bottleneck and restrictions imposed by the distributed consensus render it challenging to build a social network on a blockchain that does not suffer from speed issues.
+      This talk explores a different way of building networks that does not depend on distributed consensus. By making a small number of tradeoffs, it is possible to build a network that can scale to 10^3x the speed in inserting new data and distributing it. Aether is one such attempt, and both it and the underlying protocol is open source. This talk will focus on how it ended up coming to be, why, and how it works, and what you can build with the underlying protocol."
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/25"
+    sessionType: "talk"
+    date: 2018-07-14
+    length: 0.5
+    youtube: "A9zL2csO7t8"
+    ipfs720: "QmRvHxC16K1hqeWdmtGNQQ6jnogq9pfmbVo4VSZqeET8dE"
+    ipfs1080: "QmPk33q8z8GHhJoDKXGDGn5CWFu61TzTprgupfGe4VNwho"
 
-- sessionID: 18241
-  title: "Our _stable_ networks"
-  presenterID:
-    - grant
-    - jenny
-  link: "https://peoplesopen.net/"
-  linkDisplay: "peoplesopen.net"
-  github: "sudomesh"
-  description: "What does a 'stable' deployment of a community mesh network look like?
-    During this session, we will look at successful community wireless projects around the world, see how they are structured, both organizationally and technologically.
-    In particular, participants will learn what a stable implementation of a People's Open Network might look like directly from the people building one in Oakland, CA.
-    Finally, we will facilitate an open discussion about defining network stability and organizational values that could help maintain that stability."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/24"
-  sessionType: "talk"
-  date: 2018-07-14
-  length: 0.5
-  youtube: "gDtO0qRAuTA"
-  ipfs720: "QmXjZLx83VMnJUQd4KAGZn5uZSpowLvfhsKKcX7qgu46kP"
-  ipfs1080: "QmR68beLDqPARyqDNHyAU4cnV77gmm83xrbEQhaQXXYd2c"
+  - sessionID: 18991
+    title: "Opening remarks"
+    descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/"
+    sessionType: "orga"
+    date: 2018-07-14
+    length: 0.5
+    youtube: "0X95Nybu2g8"
+    ipfs720: "QmcCXAbjDwnkhzL8qfrbJLH6DqEbrkBvaF8AiXsdXNLiDL"
+    ipfs1080: "QmZJ5ZbJTfhQXM57PSWYy1VsHRDfL5AckjXy6W7RmP89AX"
 
-- sessionID: 18242
-  title: "Our _stable_ networks workshop"
-  presenterID:
-    - grant
-    - jenny
-  description: "What does a 'stable' deployment of a community mesh network look like?
-    During this session, we will look at successful community wireless projects around the world, see how they are structured, both organizationally and technologically.
-    In particular, participants will learn what a stable implementation of a People's Open Network might look like directly from the people building one in Oakland, CA.
-    Finally, we will facilitate an open discussion about defining network stability and organizational values that could help maintain that stability."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/24"
-  sessionType: "workshop"
-  date: 2018-07-14
-  length: 2
+  - sessionID: 18992
+    title: "Closing remarks"
+    sessionType: "orga"
+    date: 2018-07-15
+    length: 0.5
+    youtube: "hwjeNX-9K58"
+    ipfs720: "QmRmJip9agFXbckr8ZPFb4Fdwn54Xi9iyWh1NdT1D7cmtS"
+    ipfs1080: "QmRVhwmQEGdxeLNUq41exH8GJTXY4ZPV45Ktto8VxJRhi7"
 
-- sessionID: 18250
-  title: "Aether: Distributing social networks without distributed consensus"
-  presenterID:
-    - burak
-  link: https://getaether.net/
-  linkDisplay: Aether
-  description: "The ongoing discussion about decentralisation has been dominated by the talk of blockchains lately. While they do work in certain fields, in social networks the bottleneck and restrictions imposed by the distributed consensus render it challenging to build a social network on a blockchain that does not suffer from speed issues.
-    This talk explores a different way of building networks that does not depend on distributed consensus. By making a small number of tradeoffs, it is possible to build a network that can scale to 10^3x the speed in inserting new data and distributing it. Aether is one such attempt, and both it and the underlying protocol is open source. This talk will focus on how it ended up coming to be, why, and how it works, and what you can build with the underlying protocol."
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/25"
-  sessionType: "talk"
-  date: 2018-07-14
-  length: 0.5
-  youtube: "A9zL2csO7t8"
-  ipfs720: "QmRvHxC16K1hqeWdmtGNQQ6jnogq9pfmbVo4VSZqeET8dE"
-  ipfs1080: "QmPk33q8z8GHhJoDKXGDGn5CWFu61TzTprgupfGe4VNwho"
+  - sessionID: 18993
+    title: "Lightning Talks"
+    sessionType: "lightning"
+    date: 2018-07-15
+    length: 1.0
 
-- sessionID: 18990
-  title: "Registration and coffee"
-  sessionType: "orga"
+  - sessionID: 18994
+    title: "Sprint Pitches"
+    sessionType: "sprint-pitch"
+    date: 2018-07-15
+    length: 0.5
 
-- sessionID: 18991
-  title: "Opening remarks"
-  descriptionLink: "https://github.com/ournetworks/2018-submissions/issues/"
-  sessionType: "orga"
-  date: 2018-07-14
-  length: 0.5
-  youtube: "0X95Nybu2g8"
-  ipfs720: "QmcCXAbjDwnkhzL8qfrbJLH6DqEbrkBvaF8AiXsdXNLiDL"
-  ipfs1080: "QmZJ5ZbJTfhQXM57PSWYy1VsHRDfL5AckjXy6W7RmP89AX"
+  - sessionID: 18997
+    title: "Keynote: Nasma Ahmed, Navigating digital futures"
+    sessionType: "keynote"
+    date: 2018-07-14
+    length: 1
 
-- sessionID: 18992
-  title: "Closing remarks"
-  sessionType: "orga"
-  date: 2018-07-15
-  length: 0.5
-  youtube: "hwjeNX-9K58"
-  ipfs720: "QmRmJip9agFXbckr8ZPFb4Fdwn54Xi9iyWh1NdT1D7cmtS"
-  ipfs1080: "QmRVhwmQEGdxeLNUq41exH8GJTXY4ZPV45Ktto8VxJRhi7"
+2019:
+  - sessionID: 19990
+    title: "Registration"
+    sessionType: "orga"
 
-- sessionID: 18993
-  title: "Lightning Talks"
-  sessionType: "lightning"
-  date: 2018-07-15
-  length: 1.0
+  - sessionID: 19991
+    title: "Coffee break"
+    sessionType: "orga"
+    length: 0.25
 
-- sessionID: 18994
-  title: "Sprint Pitches"
-  sessionType: "sprint-pitch"
-  date: 2018-07-15
-  length: 0.5
+  - sessionID: 19992
+    title: "Lunch"
+    sessionType: "orga"
+    
+  - sessionID: 19993
+    title: "Kickoff party"
+    sessionType: "orga"    
+  
+  - sessionID: 19994
+    title: "Keynote"
+    sessionType: "keynote"
+    date: 2019-09-20
+    length: 1.5
+  
+  - sessionID: 19997
+    title: "Lightning talks"
+    sessionType: "lightning"
+    date: 2019-09-22
+    length: 1.0
+  
+  - sessionID: 19998
+    title: "Opening remarks"
+    sessionType: "orga"
+    date: 2019-09-21
+    length: 0.5
+  
+  - sessionID: 19999
+    title: "Closing remarks"
+    sessionType: "orga"
+    date: 2019-09-22
+    length: 0.5
 
-- sessionID: 18995
-  title: "Coffee break"
-  sessionType: "orga"
+  - sessionID: 19003
+    title: "DHT, BFT, OMG: Know your building blocks for decentralized applications (2019 edition)"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/3"
+    presenterID:
+      - kirill
+    description: > 
+      If the only thing you have is a hammer, everything looks like a nail, right? Then why wonder how came our engineers are mostly building centralized client-server data silos, if in the core of their curriculums usually lies a mental model of computing from 70s, with a singular mainframe being programmed and used from multiple "dumb" terminals. And then history replicates itself, and modern-day Facebook uses our multi-GHz, multi-GB, multi-core devices as dumb terminals of sorts. Let's see what tools and approaches are there at your command, if you decide to build something else, something more decentralized, more resilient, frequently more performant and bringing agency back to end users.
+    sessionType: "talk"
+    date: 2019-09-21
+    length: 0.75
 
-- sessionID: 18996
-  title: "Lunch"
-  sessionType: "orga"
+  - sessionID: 19004
+    title: "Amazonification: Decoding scarcity as weaponized precarity"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/4"
+    presenterID:
+      - hiba
+    description: > 
+      Workers' rights are losing respect, the power of technology is not fully understood – gone are the eras of strength of 1940s US labor unions. A financial environment cushioned by unregulated laws created an orange-coloured disease, Amazon, that systemically targets poor people, Black communities and communities of color. It spreads precarity as a contagion, strengthens digital redlining, and produces predatory surveillance: Amazon, the company, has changed the world. Also, it has changed the word. Amazon will come to solely signify the company and not the Brazilian rainforest. I will speak on the 'Amazonification' of the world and its role in spreading neoliberal ecoterrorism by remapping environmental scarcity as precarity onto vulnerable populations. I will connect this to the company's predatory system of surveillance through its in-house facial recognition software and serving as the tech-backbone of ICE. Through the innocuous frame of consumption, this talk and screening decrypts the 'success' behind corporate rendering of workers' labor as invisible and through its AI algorithms extending the carceral state.
+    sessionType: "talk"
+    date: 2019-09-20
+    length: 0.75
 
-- sessionID: 18997
-  title: "Keynote: Nasma Ahmed, Navigating digital futures"
-  sessionType: "keynote"
-  date: 2018-07-14
-  length: 1
+  - sessionID: 19005
+    title: "Affirmative negation"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/5"
+    presenterID:
+      - farhad
+    description: >
+      This presentation investigates the idea of affirmative negation, which examines the condition of creative production as an exception to the regular laws of an existing situation; or as Nietzsche calls it, negation of the status quo. Affirmative negation suggests that indicative message of a communicative act is not necessarily embedded within a set of utterances and wordings as such, but it could, paradoxically, be found in the negation of these superficial manifestations. Using this concept, I will talk about my current research, through a series of projects about the relationship between identity and social interaction. Mirroring the rich, interdependent, and shape-shifting world we live in, I suggest that our sense of self is increasing in complexity and changing throughout our lifetime. This particular project, called Made in Iran, is the outcome of several interviews with Iranian individuals, living in the United States, whose identities are often assumed by others to only comprise their nationality. In this work I tried to portray their complexity, depth and presence by asking them to share in a series of words, images and videos that more accurately reflects their intended identity.
+    sessionType: "talk"
+    date: 2019-09-20
+    length: 0.75
+
+  - sessionID: 19007
+    title: "Collaboratively backing up IPFS content with IPFS Cluster"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/7"
+    presenterID:
+      - hector
+    description: >
+      IPFS Cluster is an open-source, distributed application that works as a side-kick for the IPFS daemon. It allows to coordinate multiple daemons to backup a single list of content (pinset). This includes cloud deployments to ensure availability and reliability of content in the ipfs network as well as loose clusters to backup interesting items (i.e. cat pictures) in a collaborative fashion among volunteers willing to provide some disk space.
+    sessionType: "workshop"
+    date: 2019-09-XX
+    length: X
+
+  - sessionID: 19008
+    title: "A technical introduction to IPFS"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/8"
+    presenterID:
+      - hector
+    description: >
+      The Interplanetary FileSystem provides a networked, distributed filesystem to retrieve files and folders among multiple parties without a central server. It is efficient, resilient and hard to censor but, how does it work at all? This talk will give an technical introduction for non-technical people to the main concepts behind the IPFS-stack. Participants will learn the different pieces on which a system like IPFS is built upon and how they're all glued together.
+    sessionType: "talk"
+    date: 2019-09-XX
+    length: X
+
+  - sessionID: 19009
+    title: "Publishing your first decentralized website with Dat"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/9"
+    presenterID:
+      - georgiy
+    description: >
+      The current state of the web is giant silos of data from giant corporations that don't care about your privacy. Creating something on your own terms means hosting hardware, learning "back end" programming, and all sorts of barriers to entry. Luckily, decentralized and P2P technology has gotten really popular. The distributed web is actually a lot easier to work with that you might expect, and doesn't require any "back end" experience. Dat is a P2P protocol that makes it easy to share and update files over a Peer To Peer network. What's more, people can create websites with it directly from a web browser. This workshop will walk people through publishing their first P2P website using Dat and some retro-feeling HTML. Bring your laptop or phone and expect garish colors, obnoxious GIFs, and the <marquee> element.
+    sessionType: "workshop"
+    date: 2019-09-XX
+    length: X
+
+  - sessionID: 19010
+    title: "Social, artistic, and theoretical experiments with decentralized festivals"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/10"
+    presenterID:
+      - andreas
+    description: > 
+      This is a technical, artistic, theoretical reflection on how we use technology to run and experiment with decentralised festivals in Berlin. VERANTWORTUNG 3000 (2016), HOFFNUNG 3000 (2017) and now p2panda are platforms and protocols to setup groups, festivals, gatherings, events or spaces in a decentralised, self-organised manner which allow us to raise questions on how we organise ourselves in our social, artistic & theoretical communities. We will look into implementations / realisations of decentralised festivals and talk about how they influenced our way of discussing and producing art and technology. Finally we will discuss p2panda, an idea of a p2p protocol for organising resources, places and events based on a new data structure named »bamboo«, which is inspired by the SSB protocol.
+    sessionType: "talk"
+    date: 2019-09-XX
+    length: X
+
+  - sessionID: 19011
+    title: "Currency"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/11"
+    presenterID:
+      - sphere
+    description: >
+      'Currency' is an electronic game and custom game console constructed from an obsolete 1917 Burroughs adding machine and a microcontroller. The console monitors the exchange rate of bitcoins to US dollars and uses this data to generate a game level that prints out on a roll of receipt paper. Using the adding machine's grid of numeric buttons, players attempt to pull two columns of printed ASCII symbols together while being either aided or impeded by the current Bitcoin value.
+    sessionType: "exhibit" 
+    date: 2019-09-20
+
+  - sessionID: 19012
+    title: "Collective resistance to state controls on information"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/12"
+    presenterID:
+      - cecylia
+    description: > 
+      As resistance to state control continues to grow, states are reacting by tightening the restrictions on the flow of information surrounding these uprisings and protests. One of the main tools at their disposal is to leverage their control over centralized Internet infrastructure to block access to news sites, social media, and content that threaten their authority. Tor Project is working on a way to circumvent these restrictions on information. This talk will describe a way we can collectively fight back by hosting P2P proxies in our browsers to share our agency with others. Snowflake is a new censorship circumvention tool that relies on the participation of many to further widen the cracks in state-imposed Internet firewalls.
+    sessionType: "talk"
+    date: 2019-09-XX
+    length: X
+
+  - sessionID: 19013
+    title: "Spectacular grammar: Infrastructure as a Universal language"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/13"
+    presenterID:
+      - renee 
+    description: > 
+      This paper proposes information technology (IT) infrastructure is formulating a universal language. It dips into historic efforts to create a universal language via avant garde filmmaking and Gottfried Leibniz's characteristica universalis. It then explains how international standardization organizations are developing the globally unified infrastructural language through their regulations. The paper weighs the benefits and consequences of a universal language by looking into who IT infrastructure serves and who is excluded. As Marshall McLuhan inferred in his 1964 essay, 'The Medium is the Message,' technology becomes inseparable from the messages it transmits, adding another layer of meaning to what is communicated; language, in turn, starts to be shaped around the tools that facilitate it. Thus, IT infrastructure is not just a tool to communicate, but is part of language itself.
+    sessionType: "talk"
+    date: 2019-09-XX
+    length: X
+
+  - sessionID: 19014
+    title: "Channel channel, a network for VPN access"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/14"
+    presenterID:
+      - biyi
+    description: > 
+      Channel Channel is a project that involves around the basic usage, access and further social dynamics of VPN, which stands for Virtual Private Network. It's a tool to extends a private network to external network environment to provide safe, private access. In practical reality the usage of this tool is embedded in complex situations, such as to circumvent state fire wall and bypass geographically restricted content. This project adopts a DIY working attitude. The underlying technology is provided by PiVPN, an open source free software that runs on a Raspberry Pi. As the Pi is connected to a home network, it's able to provide VPN access. I initiated this project as a response to my personal practical situation. As I live in the Netherlands, I travel back to China from time to time. The state fire wall blocks access to services such as Google, YouTube, Twitter and Instagram. My mail service is dependent on Gmail, I do watch YouTube for occasional "guilty pleasure", not to mention the tutorial I followed on how to set up PiVPN is from a YouTuber. Aside from services that are not blocked by the firewall, access to content sometimes also can be slow, due to more distant network traffic route.
+    sessionType: "exhibit"
+    date: 2019-09-20
+
+  - sessionID: 19015
+    title: "The Magi system, exploring the aesthetics of network infrastructure"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/15"
+    presenterID:
+      - tobias
+    description: > 
+      The Magi system is a two channel animation which explores the aesthetics of network infrastructure. There has been a recent trend of users posting pictures of server racks and network wiring on forums like reddits r/Cableporn and r/Cablefail. These images have spread out and proliferated on hashtag based platforms like Instagram and Pinterest. This project uses images and themes from these platforms as a starting point to investigate popular conceptions of how we visualise network infrastructure.
+    sessionType: "exhibit"
+    date: 2019-09-20
+
+  - sessionID: 19016
+    title: "On the wire"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/16"
+    presenterID:
+      - adam
+    description: > 
+      On the Wire is a performance of music/sound made entirely by the network - a combination of live and pre-recorded sounds received via a physical 'wiretap' of a cat6 cable in both send and receive directions. On the Wire makes audible the rhythms inherent in the act of sending and receiving using network protocols, and allows the audience to immerse themselves in the spatial and temporal dimensions of the network through sound. For Our Networks, this work will specifically feature the sounds of decentralized protocols (IPFS, Dat...)
+    sessionType: "performance"
+    date: 2019-09-20
+    length: 0.5
+
+  - sessionID: 19017
+    title: "Regulationism and the need for a digital postmodernism"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/17"
+    presenterID:
+      - corey
+    description: > 
+      The following talk will address the recent calls for regulation of digital content on social media platforms alongside the digital emancipation movements of the 90's, and how this informs, or rather, elucidates issues in digital ethics. And by this I mean the way in which various normative claims exist, and persist online, and how such ethical conventions interact with us user-subjects. Ultimately, my plan is to show that there is a fundamental error in how digital ethics are understood, and that normative claims such as ‘free speech' appear to operate in a very distinct way online. This is the beginning of a greater project regarding the nature of ‘the digital self', and my plan is for this presentation to function as means of clarification, and identification of a problem. A problem which, I think can be attended to by social sciences, cultural theory & psychoanalysis.
+    sessionType: "talk"
+    date: 2019-09-XX
+    length: X
+
+  - sessionID: 19018
+    title: "[PROTEST_BAR]"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/18"
+    presenterID:
+      - brett
+    description: > 
+      This half-day workshop engages participants in the construction of a tool for interventions into wireless infrastructure space. The workshop is open to all skill levels and interests and assumes no prior knowledge of networking, electronics or programming. Participants will be introduced to the fundamentals of wireless networking and will program the device to create wireless access points, embedded web servers and custom packet injectors. The focus of these activities is to explore networks and imagine creative uses of the networking medium for activism and personal expression. The cost of the workshop is approximately 50USD, and participants will leave with the devices they construct.
+    sessionType: "workshop"
+    date: 2019-09-XX
+    length: X
+
+  - sessionID: 19019
+    title: "Feedback as exploratory self-research"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/19"
+    presenterID:
+      - sam
+    description: > 
+      Relationships are fundamental to networked activity—as a kind of interpersonal infrastructure, feedback allows us to communicate our expectations and observations. Even with the proliferation of organizational frameworks to help us consider giving and receiving, our intentions can be clouded by biases, misaligned goals, and fraught relationships. If the only variable we can control is ourselves, how can we consciously act to depersonalize feedback and guide our colleagues to coach / evaluate us on the areas in which we need or hope to grow? What relevant methods or approaches could we borrow from design research? This workshop will open with a primer on existing feedback frameworks and models, then participants will work individually and collaboratively through a semi-structured activity to answer 'what could it look like to frame feedback as exploratory research into ourselves?
+    sessionType: "workshop"
+    date: 2019-09-XX
+    length: X
+
+  - sessionID: 19020
+    title: "Hotglue on Dat workshop for non-techies (kid-friendly!)"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/20"
+    presenterID:
+      - gottfried
+    description: > 
+      Building decentralized websites using Beaker and Dat is fun--and a great, hands-on way to learn about the otherwise hidden structures and exchanges that power the web. But to do so, one--more so than ever--needs proficiency in the language of the web (HTML, CSS and JavaScript) in order to participate. In a workshop specifically for children and other 'outsiders', a modified version of 'Hotglue' is used to build decentralized sites together and interlink them. Hotglue is a FOSS 'What you see is what you get' editor for the web. Created in 2010, it currently uses files on the server it is installed to hold the users' data. A to-be-created modified branch of "Hotglue" would instead work on top of the Dat ecosystem, forgoing the need to be running a server altogether.
+    sessionType: "workshop"
+    date: 2019-09-XX
+    length: X
+
+  - sessionID: 19022
+    title: "Solar powered website"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/22"
+    presenterID:
+      - marie 
+      - lauren
+    description: > 
+      Low-tech Magazine questions the belief in technological progress, and highlights the potential of past knowledge and technologies for designing a sustainable society. In this talk we present https://solar.lowtechmagazine.com, a radical redesign of the blog that is self-hosted on a solar-powered server. This talk will review the design and technical considerations behind the redesign. This includes highlighting its functional benefits, such as archivability and accessibility, as well as its design approach to make the infrastructure powering the site more transparent.
+    sessionType: "talk"
+    date: 2019-09-XX
+    length: X
+
+  - sessionID: 19023
+    title: "Whose future are you serving?: Interrogating frontier imaginaries within P2P technologies"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/23"
+    sessionType: "performance"
+    presenterID:
+      - laniyuk
+
+  - sessionID: 19024
+    title: "The future for workers"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/24"
+    presenterID:
+      - brettw
+    description: > 
+      A public roundtable discussion with artist Brett Wallace focusing on the challenge of working conditions in the digital age. By examining ideas or labor, technology and the greater economy in Wallace's recent work as a jumping off point, we will hold a group discussion on building coalitions and reclaiming autonomy and dignity in workplaces today. What are the internal contradictions workers face in the gig economy at large, and in the field of contemporary art? How do we reclaim forms of autonomy and worker power? How can new forms of technology support worker power?
+    sessionType: "workshop"
+    date: 2019-09-XX
+    length: X
+
+  - sessionID: 19025
+    title: "Resistant networks with retro-tech"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/25"
+    presenterID:
+      - libi
+    description: >
+      In the Media Archaeology Lab my colleagues and I have the unique opportunity to experiment with 'obsolete' technologies, including networking protocols. Though they are outdated, these technologies provide a unique opportunity to experience a form of technological connection that is rarely available - direct, limited, and affectively more honest than the networks we've become accustomed to. My talk-shop will offer an overview of the projects currently running in the MAL in addition to getting hands-on with some ideas for building personalized, defiantly non-commercial networks with abandoned and retro technologies, from the slightly absurd to the potentially utilitarian.
+    sessionType: "workshop"
+    date: 2019-09-XX
+    length: X
+
+  - sessionID: 19026
+    title: "Cryptoeconomics: Towards mass behavioral engineering or a network commons?"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/26"
+    presenterID:
+      - jaya 
+      - dan
+    description: > 
+      CoBox is a project to enable p2p cloud infrastructures with different trust-settings. The project emphasises privacy by design and easy data governance. The aim is to enable data commons, while protecting against the worst societal effects of dataification and data extraction. Many of the worst effects of Web 2.0 can be traced to the business models of the corporations that dominate the Internet: add-based and financialised businesses where services are paid through people's attention and click rate. This creates a number of devastating knock-on effects, including mass surveillance, design and development efforts aimed at creating addictive behaviours as well as information echo-chambers, phycological and emotional feedback loops. The consequences are ripping through the social fabric of societies and scorching the nervous systems of our bodies. Instead of a drive towards incorporating all interactions and behaviours into data centres for commercial exploitation, the emphasis of CoBox is to enable easy, yet conscious data governance where only the minimal necessary data is created and stored. What might be the new forms of organisations that would emerge from such an infrastructure? And conversely, which existing forms of organisations, networks and companies might benefit from such infrastructures? And critically - through which kinds of economic arrangements might a cooperative p2p cloud sustain itself in the long term?
+    sessionType: "talk"
+    date: 2019-09-21
+    length: 0.5
+
+  - sessionID: 19027
+    title: "Building a modern Memex"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/27"
+    presenterID:
+      - andrew
+    description: > 
+      Bret Victor posed an important question: over a long time horizon, what strategy for preserving information has been most successful? Redundant copies stored in a distributed way (for example, each of us storing a full copy of the human genome) or a centralized repository (like the Library of Alexandria)? For the last few years, I've been working on a project to pull a copy of my personal history from across all the platforms and tools I use and make it available for archiving, search, and computation. I'd like to go over the historical project that inspired this project (the Memex of 1945) as well as giving a demo of the system I've built.
+    sessionType: "talk"
+    date: 2019-09-XX
+    length: X
+
+  - sessionID: 19028
+    title: "Radical internet futures: Let's draw them together"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/28"
+    presenterID:
+      - elisabetta
+    description: > 
+      A collaborative drawing-based discussion between activists, hackers, technologists and researchers on how we can imagine a radically different, better, internet. Participants will be encouraged to produce drawings (individually and in groups) that represent how they imagine the internet to be now and how they would like the internet to be in the future. The drawings will support a discussion on how to imagine radically different technological futures. The unusual format of the discussion allows for the inclusion of people with different types of expertise and experiences of technology, thus helping to break down the technical barriers that are often involved in talking about infrastructures.
+    sessionType: "workshop"
+    date: 2019-09-XX
+    length: X
+
+  - sessionID: 19030
+    title: "Our network our history: Alternative archives"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/30"
+    presenterID:
+      - lai
+    description: >
+      As an artist and tech worker, I have often utilized oral history interview techniques to better understand the technology I work with or am building--it turns out, behind every technology there's at least one technologist. I will use these techniques to take the oral histories of five different tech workers who work on a proposal for an alternative network of some kind. Spanning between individuals within the Internet Freedom, Silicon Valley and New Media fields with same but different goals, I am learning from these people's lives: what do we mean by "our" and what do we mean by "network," both currently and potentially. What led each of these people to look at the current state of networks and think, "We can do something better"? During 'Our Network Our History: alternative archives', I will first present each interview, both individually and in relation to each other. The remainder of the time will be spent discussing ways we can utilize the tools each individual is contributing to to archive their history. For example, if I were to interview an IPFS developer, how could we use IPFS to store their story? This portion of the session isn't expected to be anything more than a brainstorm, but I hope to tap into the potential for alternative networks to produce alternative archives.
+    sessionType: "workshop"
+    date: 2019-09-XX
+    length: X
+
+  - sessionID: 19031
+    title: "Torrents of sex"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/31"
+    sessionType: "exhibit"
+    presenterID:
+      - nahee
+
+  - sessionID: 19032
+    title: "Peer-to-peer poetry: Invisible cities"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/32"
+    presenterID:
+      - melanie
+    description: > 
+      What if we could create and inhabit a new kind of digital city that transforms our online networks from an ordained protocol to an expressive medium of shared placemaking? In this workshop we will collectively create a peer-to-peer city using the structure of nested folders and DAT. Taking up after Italo Calvino’s Invisible Cities and the common practice of digital organization, through lecture, examples, and hands on making, we will explore folder structures as a new kind of poetic meter and DAT as a way to build digital spaces with and for our networks. This workshop assumes no coding experience and simultaneously takes the position that everyone who interacts with computers in some way is already a programmer.
+    sessionType: "workshop"
+    date: 2019-09-XX
+    length: X
+
+  - sessionID: 19033
+    title: "Waiting for NIN in New Orleans"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/33"
+    presenterID:
+      - jennifer
+    description: "Reterritorializing Hybrid Space from Avant-Garde to Avantpop, A Media Archaeology of Process-Based Platforms of the Artist-Run Counter-Institution"
+    sessionType: "talk"
+    date: 2019-09-XX
+    length: X
+
+  - sessionID: 19034
+    title: "Remaking the web: Competing visions of decentralization"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/34"
+    presenterID:
+      - jack
+    description: > 
+      'Decentralization' has emerged as a rallying cry to build a web where control is delegated away from central authorities and toward individuals. However, among the multitude of efforts to decentralize the web, there is a lack of consensus on how it should occur and what new centres of power will be cultivated in the process. This talk traces decentralization through historical accounts of the development of the Internet, highlighting how architectural decentralization has served multiple dimensions of social and cultural power. It then discusses how two recent projects reimagine web culture and inscribe new values through the design of socio-technical systems. This analysis offers tools for researchers and designers to think beyond mere decentralization and more substantively engage with their social and epistemic commitments in the design of future internets.
+    sessionType: "talk"
+    date: 2019-09-XX
+    length: X
+
+  - sessionID: 19035
+    title: "Trouble in the bubble: Tech workers organizing in the industry"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/35"
+    presenterID:
+      - danny
+    description: > 
+      How can we as users and workers imagine ways to own our technology? On the path towards full cooperative takeover like turning Twitter into a public utility, we have to get fairly compensated for our labor - which is why volunteers with Tech Workers Coalition developed Get Back Lost Wages, a simple platform for all gig workers in California to file claims for minimum wage and overtime pay. This session introduces strategies for building power in the tech industry. We will talk about our opportunities to organize, get mutual aid and ideas, and will co-design real tools for the job.
+    sessionType: "workshop"
+    date: 2019-09-XX
+    length: X

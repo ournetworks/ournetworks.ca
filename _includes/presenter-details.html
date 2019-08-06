@@ -8,8 +8,8 @@
     <div class="presenter-bio">
       {%- if presenter.bio -%}<p>{{ presenter.bio }}</p>{%- endif -%}
       {%- if presenter.link or presenter.twitter or presenter.github -%}
-        <ul class="bio-sm-list">
-         {%- if presenter.link and presenter.linkDisplay -%}<li class="bio-sm-list-item"><a href="{{ presenter.link }}" target="_blank" rel="noopener">{% include icons/link.svg %}&nbsp;{{ presenter.linkDisplay }} </a></li>{%- endif -%}
+        <ul class="bio-sm-list pl-0 flex">
+         {%- if presenter.link and presenter.linkDisplay -%}<li class="bio-sm-list-item"><a href="{{ presenter.link }}" target="_blank" rel="noopener" {% if presenter.linkIgnore %}data-proofer-ignore{% endif %} >{% include icons/link.svg %}&nbsp;{{ presenter.linkDisplay }}</a></li>{%- endif -%}
          {%- if presenter.twitter -%}<li class="bio-sm-list-item"><a href="https://twitter.com/{{ presenter.twitter }}" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@{{ presenter.twitter }}</a></li>{%- endif -%}
          {%- if presenter.github -%}<li class="bio-sm-list-item"><a href="https://github.com/{{ presenter.github }}" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;{{ presenter.github }}</a></li>{%- endif -%}
         </ul>

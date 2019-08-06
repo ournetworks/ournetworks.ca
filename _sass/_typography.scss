@@ -79,6 +79,10 @@ p {
   @include fluid-type(320px,1980px,30px,130px);
 }
 
+.heading-2-5 {
+  @include fluid-type(320px,1980px,30px,80px);
+}
+
 .heading-3 {
   @include fluid-type(320px,1980px,18px,30px);
 }

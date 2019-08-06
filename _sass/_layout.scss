@@ -12,6 +12,15 @@
   position: absolute;
 }
 
+.sticky-top {
+  position: sticky;
+  top: 0;
+
+  @media (max-width: $on-palm) {
+    top: 58px;
+  }
+}
+
 // Grid
 
 .content-width {
@@ -112,6 +121,10 @@
   padding-top: 3em;
 }
 
+.pl-0 {
+  padding-left: 0;
+}
+
 .pb-m {
   padding-bottom: 3em;
 }
@@ -136,6 +149,10 @@
 
 .mt-0 {
   margin-top: 0;
+}
+
+.mt-05 {
+  margin-top: 0.5em;
 }
 
 .mt-1 {

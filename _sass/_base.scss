@@ -59,10 +59,14 @@ hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
   border-width: 0;
-  border-top: 1px solid rgba($accent-color, 0.2);
+  border-top: 1px solid rgba($accent-color, 0.5);
+
+  &.extended {
+   border-top-width: 4px;
+  }
 
   &.dark {
-    border-color: rgba($black, 0.1);
+    border-color: rgba($black, 0.5);
   }
 }
 

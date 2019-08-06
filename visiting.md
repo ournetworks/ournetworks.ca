@@ -3,7 +3,6 @@ layout: page
 order: 4
 title: "Visiting Toronto"
 titleDisplay: "Visiting"
-parent: "About the Event"
 ---
   
 ## Getting Around 
