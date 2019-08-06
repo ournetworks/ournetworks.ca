@@ -15,7 +15,7 @@
                  <ul class="flex p-0 m-0 ls-none flex-align-center flex-justify-center">
                     {%- for page2 in sorted2_pages -%}
                       {% if page.title == page2.parent %}
-                      <li><a class="nav-item flex flex-align-baseline {% if current != '/' %}{% if page2.url == current %}active{% endif %}{% endif %}" href="{% if page2.redirect_to %}{{ page2.redirect_to }}{% else %}{{ page2.url }}{% endif %}" aria-label="{% if page2.titleDisplay %}{{ page2.titleDisplay }}{% else %}{{ page2.title }}{% endif %}">{% if page2.titleDisplay %}{{ page2.titleDisplay }}{% else %}{{ page2.title }}{% endif %}</a></li>
+                      <li><a class="nav-item flex fw-bold flex-align-baseline {% if current != '/' %}{% if page2.url == current %}active{% endif %}{% endif %}" href="{% if page2.redirect_to %}{{ page2.redirect_to }}{% else %}{{ page2.url }}{% endif %}" aria-label="{% if page2.titleDisplay %}{{ page2.titleDisplay }}{% else %}{{ page2.title }}{% endif %}">{% if page2.titleDisplay %}{{ page2.titleDisplay }}{% else %}{{ page2.title }}{% endif %}</a></li>
                       {% endif %}
                     {%- endfor -%}
                  </ul>
