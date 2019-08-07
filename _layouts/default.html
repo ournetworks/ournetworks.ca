@@ -26,8 +26,8 @@
     </main>
     {% include footer.html %}
     <div class="panel fixed fs-small bg-white p-1 none top-50 left-50" tabindex="-1" role="dialogue">
-      {% capture my_include %}{% include registration-panel.html %}{% endcapture %}
-      {{ my_include | markdownify }}
+      {% capture registration_panel %}{% include registration-panel.html %}{% endcapture %}
+      {{ registration_panel | markdownify }}
     </div>
     <script src="/js/vendor/jquery-3.4.1.min.js"></script>
     <script src="/js/vendor/levenshtein.js"></script>
