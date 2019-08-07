@@ -16,6 +16,27 @@ body {
   background-color: $background-color;
 }
 
+.invert {
+  background: $accent-color;
+
+  .bg-white:not(.panel) {
+    background: $accent-color;
+  }
+
+  .color-accent {
+    color: $black;
+  }
+
+  .outline {
+    color: transparent;
+    @include outline-text($black);
+  }
+
+  a {
+    color: $black;
+  }
+}
+
 // Images
 
 img {
