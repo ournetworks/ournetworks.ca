@@ -179,6 +179,7 @@ const closePanel = function () {
 
 const showPanel = function () {
   $('.panel').show()
+  $('.panel').focus()
   $('body').addClass('invert')
 }
 
@@ -189,8 +190,12 @@ $('.nav .nav-item').last().on('click', function (e) {
   showPanel()
 })
 
-$(document).click(function (e) {
+$(document).on('click', function (e) {
   if (!$(e.target).hasClass('nav-item') && $(e.target).parents('.panel').length === 0) {
+    closePanel()
+  }
+}).keydown((e) => {
+  if (e.keyCode === 27) {
     closePanel()
   }
 })
