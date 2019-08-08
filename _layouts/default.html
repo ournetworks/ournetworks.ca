@@ -25,7 +25,7 @@
       {{ content }}
     </main>
     {% include footer.html %}
-    <div class="panel fixed fs-small bg-white p-1 none bottom-0 left-0" tabindex="-1" role="dialogue">
+    <div class="panel fixed fs-small bg-white p-1 none bottom-0 left-0" tabindex="-1" role="dialog" aria-labelledby="panel-registration" aria-describedby="panel-description">
       {% capture registration_panel %}{% include registration-panel.html %}{% endcapture %}
       {{ registration_panel | markdownify }}
     </div>
