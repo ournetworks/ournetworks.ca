@@ -172,14 +172,15 @@ window.setInterval(function() {
 
 // registration modal
 
+const panel = $('.panel')
+
 const closePanel = function () {
-  $('.panel').hide()
+  panel.hide()
   $('body').removeClass('invert')
 }
 
 const showPanel = function () {
-  $('.panel').show()
-  $('.panel').focus()
+  panel.show().focus()
   $('body').addClass('invert')
 }
 

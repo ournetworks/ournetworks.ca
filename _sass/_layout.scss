@@ -33,6 +33,10 @@
   left: 50%;
 }
 
+.bottom-0 {
+  bottom: 0;
+}
+
 .right-0 {
   right: 0;
 }
@@ -91,6 +95,11 @@
 }
 
 // Spacing helper classes
+
+.square-1 {
+  width: 44px;
+  height: 44px;
+}
 
 .w-100 {
   width: 100%;
@@ -340,11 +349,11 @@
 // Panel
 
 .panel {
-  box-shadow: 0px 5px 16px 0 rgba($black, 0.1);
+  outline: 0;
+  box-shadow: 0px 5px 16px 0 rgba($black, 0.25);
   max-width: 600px;
   min-width: 320px;
   max-height: 100vh;
   overflow-y: auto;
   z-index: 9999;
-  transform: translate(-50%, -50%);
 }
