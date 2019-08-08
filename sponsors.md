@@ -32,6 +32,16 @@ Our Networks is volunteer-run and would not be possible without the support of o
   </div>
 </div>
 
+
+## Tier 3 Network Sponsors
+{: .mt-1.color-accent.fw-normal}
+
+<div class="flex">
+  <div class="mt-1">
+    <a href="https://dat.foundation/" rel="noopener"><img src="/images/logos/dat-logo.svg" width="115" alt="Dat Foundation logo" /></a>
+  </div>
+</div>
+
 ## Venue Partners
 {: .mt-1.color-accent.fw-normal}
 
