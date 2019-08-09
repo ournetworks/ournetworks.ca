@@ -308,6 +308,27 @@
   min-height: 50vh;
 }
 
+// Scrollbars
+
+.styled-scrollbar {
+  &::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgba($text-color, 0.03);
+  }
+  scrollbar-width: thin;
+  scrollbar-color: rgba($text-color, 0.03) transparent;
+
+  &.panel {
+    scrollbar-color: $accent-color transparent;
+    &::-webkit-scrollbar-thumb {
+      background: $accent-color;
+    }
+  }
+}
+
 // Stripe
 
 .striped-bg {
