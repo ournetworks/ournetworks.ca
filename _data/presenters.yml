@@ -196,7 +196,7 @@
     bio: "Andreas is an electric bass player, producer, composer and developer. His work consists of both digital and physical environments, spaces, festivals, software or platforms for participants and listeners. The computer itself serves as an artistical, political, social or philosophical medium, dealing with computer culture, machine learning, platform politics or decentralized networks. He studied art history, musicology, media philosophy and computer science in Berlin where he also lives and works."
     link: "https://andreasdzialocha.com/"
     linkDisplay: "andreasdzialocha.com"
-    github: ""
+    github:
     twitter: "adzialocha"
 
   - presenterID: sphere
