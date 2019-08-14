@@ -565,7 +565,7 @@ titleDisplay: "Program"
 ---
 {: .extended}
 
-<a class="program-block-anchor" id="keynote-block"></a>
+<a class="program-block-anchor" id="keynote"></a>
 ## Keynote: TBA
 {:.program-heading}
 
