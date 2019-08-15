@@ -295,7 +295,7 @@
 
   - presenterID: libi
     name: "Libi rose striegl"
-    bio: "Libi is an an artist and PhD student currently based at the University of Colorado, primarily in the Media Archaeology Lab & the Blow Things Up Lab. Libi's work is focused on tech defamiliarization as an educational tool, using workshops as both an education and artistic practice. Libi is interested in the technological, social and environmental implications of convenience. I regularly host workshops on tech repair, retro technology, privacy & security, open source practices, and alternative networks."
+    bio: "Libi is an an artist and PhD student currently based at the University of Colorado, primarily in the Media Archaeology Lab & the Blow Things Up Lab. Libi's work is focused on tech defamiliarization as an educational tool, using workshops as both an education and artistic practice. Libi is interested in the technological, social and environmental implications of convenience and regularly hosts workshops on tech repair, retro technology, privacy & security, open source practices, and alternative networks."
     link: "http://libirose.com"
     linkDisplay: "libirose.com"
     twitter: "rose_alibi"
@@ -351,7 +351,7 @@
   - presenterID: melanie
     name: "Melanie Hoff"
     bio: > 
-      "Melanie is an artist and educator examining the role technology plays in social organization and reinforcing hegemonic structures. Their work plays with structural conventions of software, installation, and workshops. They are a founding member of the 'Cybernetics Library', an art and research collective offering resources for study and critique of technical and social systems and "Soft Surplus", a collective art studio warehouse for making things near each other. They teach at Rutgers University, the School for Poetic Computation, and have presented their work in New Museum, the Queens Museum, the Internet Archive, and elsewhere."
+      Melanie is an artist and educator examining the role technology plays in social organization and reinforcing hegemonic structures. Their work plays with structural conventions of software, installation, and workshops. They are a founding member of the 'Cybernetics Library', an art and research collective offering resources for study and critique of technical and social systems and "Soft Surplus", a collective art studio warehouse for making things near each other. They teach at Rutgers University, the School for Poetic Computation, and have presented their work in New Museum, the Queens Museum, the Internet Archive, and elsewhere.
     link: "https://melanie-hoff.com/"
     linkDisplay: "melanie-hoff.com"
     github: "melaniehoff"
