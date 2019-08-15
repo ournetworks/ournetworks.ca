@@ -21,6 +21,27 @@
   }
 }
 
+.top-0 {
+  top: 0;
+}
+
+.top-50 {
+  top: 50%;
+}
+
+.left-50 {
+  left: 50%;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+
 // Grid
 
 .content-width {
@@ -75,6 +96,11 @@
 
 // Spacing helper classes
 
+.square-1 {
+  width: 44px;
+  height: 44px;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -111,6 +137,10 @@
 
 .p-0 {
   padding: 0;
+}
+
+.p-1 {
+  padding: 1em;
 }
 
 .pt-s {
@@ -278,6 +308,27 @@
   min-height: 50vh;
 }
 
+// Scrollbars
+
+.styled-scrollbar {
+  &::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgba($text-color, 0.03);
+  }
+  scrollbar-width: thin;
+  scrollbar-color: rgba($text-color, 0.03) transparent;
+
+  &.panel {
+    scrollbar-color: $accent-color transparent;
+    &::-webkit-scrollbar-thumb {
+      background: $accent-color;
+    }
+  }
+}
+
 // Stripe
 
 .striped-bg {
@@ -314,4 +365,16 @@
     flex-basis: 50%;
     margin: 0;
   }
+}
+
+// Panel
+
+.panel {
+  outline: 0;
+  box-shadow: 0px 5px 16px 0 rgba($black, 0.25);
+  max-width: 600px;
+  min-width: 320px;
+  max-height: 100vh;
+  overflow-y: auto;
+  z-index: 9999;
 }

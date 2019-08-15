@@ -169,3 +169,34 @@ window.setInterval(function() {
     $(this).textMix(randWord, 1000, 'linear')
   })
 }, 2000)
+
+// registration modal
+
+const panel = $('.panel')
+
+const closePanel = function () {
+  panel.hide()
+  $('body').removeClass('invert')
+}
+
+const showPanel = function () {
+  panel.show().focus()
+  $('body').addClass('invert')
+}
+
+$('#close-panel').on('click', closePanel)
+
+$('.nav .nav-item').last().on('click', function (e) {
+  e.preventDefault()
+  showPanel()
+})
+
+$(document).on('click', function (e) {
+  if (!$(e.target).hasClass('nav-item') && $(e.target).parents('.panel').length === 0) {
+    closePanel()
+  }
+}).keydown((e) => {
+  if (e.keyCode === 27) {
+    closePanel()
+  }
+})
