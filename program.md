@@ -489,8 +489,8 @@ titleDisplay: "Program"
   <td>14</td>
   <td>:00</td>
   <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19997 %}">{% include session.html year=2019 session-id=19997 %}</td>
-  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19025 %}">{% include session.html year=2019 session-id=19025 %}</td>
   <td colspan="1" rowspan="8" class="session-block session-{% include session-type.html session-id=19007 %}">{% include session.html year=2019 session-id=19007 %}</td>
+  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19025 %}">{% include session.html year=2019 session-id=19025 %}</td>
 </tr>
 <tr>
   <td></td>
