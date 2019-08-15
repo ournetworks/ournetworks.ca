@@ -16,7 +16,7 @@ before_install:
   - nvm install 10.16.0
   - npm i -g dat
   # Clone/Initialize Dat archive
-  - dat $(head -n 1 .well-known/dat) ./_site --exit
+  # - dat $(head -n 1 .well-known/dat) ./_site --exit
 
 before_script:
   # Build Jekyll site
@@ -47,9 +47,9 @@ deploy:
       - master
 
 after_deploy:
-  - cd _site
-  - echo $DATKEY | dat keys import
-  - travis_wait 1 dat sync &> /dev/null || travis_terminate 0
+  # - cd _site
+  # - echo $DATKEY | dat keys import
+  # - travis_wait 1 dat sync &> /dev/null || travis_terminate 0
 
 notifications:
   email:
