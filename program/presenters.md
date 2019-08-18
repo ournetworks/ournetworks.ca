@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 2
+order: 3
 title: "Presenters"
 titleDisplay: "Presenters"
 parent: "Program"

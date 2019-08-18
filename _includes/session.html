@@ -17,7 +17,7 @@
                 {% assign name = presenter.name %}
               {%- endif -%}
             {%- endfor -%}
-            {% assign presenterCount = presenterCount | minus:1 %}
+            {% assign presenterCount = presenterCount | minus:1 %}> 
             {{ name }}{%- if presenterCount > 1 -%}{{ ', ' }}{%- elsif presenterCount > 0 -%}{{ ' and ' }}{%- endif -%}
           {%- endfor -%}
         </h6>

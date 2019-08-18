@@ -3,6 +3,7 @@ layout: page
 order: 3
 title: "Program"
 titleDisplay: "Program"
+fullWidth: true
 ---
 
 ## Friday > September 20
@@ -16,6 +17,7 @@ titleDisplay: "Program"
   <th class="schedule-main sticky-top bg-white">Main Room</th>
   <th class="schedule-breakout sticky-top bg-white">Gamma Workshop Space</th>
   <th class="schedule-breakout sticky-top bg-white">Zine Library</th>
+  <th class="schedule-breakout"></th>
 </tr>
 </thead>
 <tbody>
@@ -23,6 +25,9 @@ titleDisplay: "Program"
   <td>13</td>
   <td>:00</td>
   <td colspan="3" rowspan="4" class="session-block session-{% include session-type.html session-id=19990 %}">{% include session.html year=2019 session-id=19990 %}</td>
+  <td rowspan="36" class="session-block">
+    {% include session-exhibited-works.html year=2019 %}
+  </td>
 </tr>
 <tr>
   <td></td>
@@ -186,6 +191,7 @@ titleDisplay: "Program"
   <th class="schedule-main sticky-top bg-white">Main Room</th>
   <th class="schedule-breakout sticky-top bg-white">Gamma Workshop Space</th>
   <th class="schedule-breakout sticky-top bg-white">Zine Library</th>
+  <th class="schedule-breakout"></th>
 </tr>
 </thead>
 <tbody>
@@ -193,6 +199,9 @@ titleDisplay: "Program"
   <td>9</td>
   <td>:00</td>
   <td colspan="3" rowspan="4" class="session-block session-{% include session-type.html session-id=19990 %}">{% include session.html year=2019 session-id=19990 %}</td>
+  <td rowspan="40" class="session-block">
+    {% include session-exhibited-works.html year=2019 %}
+  </td>
 </tr>
 <tr>
   <td></td>
@@ -412,6 +421,7 @@ titleDisplay: "Program"
   <th class="schedule-main sticky-top bg-white">Main Room</th>
   <th class="schedule-breakout sticky-top bg-white">Gamma Workshop Space</th>
   <th class="schedule-breakout sticky-top bg-white">Zine Library</th>
+  <th class="schedule-breakout"></th>
 </tr>
 </thead>
 <tbody>
@@ -427,6 +437,9 @@ titleDisplay: "Program"
   <td></td>
   <td>:30</td>
   <td colspan="3" rowspan="2" class="session-block session-{% include session-type.html session-id=19990 %}">{% include session.html year=2019 session-id=19990 %}</td>
+  <td rowspan="30" class="session-block">
+    {% include session-exhibited-works.html year=2019 %}
+  </td>
 </tr>
 <tr>
   <td></td>
@@ -567,11 +580,11 @@ titleDisplay: "Program"
 
 <a class="program-block-anchor" id="keynote-block"></a>
 ## Keynote: TBA
-{:.program-heading}
+{:.mt-1.heading-2-5.fw-normal.color-accent}
 
 
 ## Sessions
-{:.program-heading}
+{:.mt-1.heading-2-5.fw-normal.color-accent}
 
 {% assign sortedSessions = site.data.sessions[2019] | sort: "title" %}
 
@@ -581,8 +594,19 @@ titleDisplay: "Program"
   {%- endunless -%}
 {%- endfor -%}
 
+## Exhibited Works
+{:.mt-1.heading-2-5.fw-normal.color-accent}
+
+{% assign sortedSessions = site.data.sessions[2019] | sort: "title" %}
+
+{%- for session in sortedSessions -%}
+  {%- unless session.sessionType == "orga" or session.sessionType == "talk" or session.sessionType == "workshop" or session.sessionType == "performance" -%}
+    {% include session-details.html year=2019 %}
+  {%- endunless -%}
+{%- endfor -%}
+
 ## Presenters
-{:.program-heading}
+{:.mt-1.heading-2-5.fw-normal.color-accent}
 
 {% assign sortedPresenters = site.data.presenters[2019] | sort: "name" %}
 

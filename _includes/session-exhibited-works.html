@@ -1,0 +1,27 @@
+<div class="session">
+  <header>
+    <h5 class="session-title"><a href="#exhibited-works">Exhibited Works</a></h5>
+  </header>
+  <div>
+  {% assign presenters = site.data.presenters[include.year] %}
+    <ul class="p-0 fw-bold ls-none">
+    {%- for session in site.data.sessions[include.year] -%}
+      {%- if session.sessionType == "exhibit" -%}
+      <li class="mt-05">
+        <a href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}">{{ session.title }}</a>
+        {% assign presenterCount = session.presenterID.size %}
+        {%- for presenterID in session.presenterID -%}
+          {%- for presenter in presenters -%}
+            {%- if presenter.presenterID == presenterID -%}
+              {% assign name = presenter.name %}
+            {%- endif -%}
+          {%- endfor -%}
+          {% assign presenterCount = presenterCount | minus:1 %}
+          <h6>> {{ name }}</h6>{%- if presenterCount > 1 -%}{{ ', ' }}{%- elsif presenterCount > 0 -%}{{ ' and ' }}{%- endif -%}
+        {%- endfor -%}
+      </li>
+      {%- endif -%}
+    {%- endfor -%}
+    </ul>
+  </div>
+</div>
