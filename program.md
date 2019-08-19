@@ -588,22 +588,20 @@ fullWidth: true
 
 {% assign sortedSessions = site.data.sessions[2019] | sort: "title" %}
 
-{%- for session in sortedSessions -%}
+{% for session in sortedSessions %}
   {%- unless session.sessionType == "orga" or session.sessionType == "exhibit" -%}
     {% include session-details.html year=2019 %}
   {%- endunless -%}
-{%- endfor -%}
+{% endfor %}
 
 ## Exhibited Works
 {:.mt-1.heading-2-5.fw-normal.color-accent}
 
-{% assign sortedSessions = site.data.sessions[2019] | sort: "title" %}
-
-{%- for session in sortedSessions -%}
+{% for session in sortedSessions %}
   {%- if session.sessionType == "exhibit" -%}
     {% include session-details.html year=2019 %}
   {%- endif -%}
-{%- endfor -%}
+{% endfor %}
 
 ## Presenters
 {:.mt-1.heading-2-5.fw-normal.color-accent}
