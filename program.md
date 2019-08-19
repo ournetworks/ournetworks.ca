@@ -600,9 +600,9 @@ fullWidth: true
 {% assign sortedSessions = site.data.sessions[2019] | sort: "title" %}
 
 {%- for session in sortedSessions -%}
-  {%- unless session.sessionType == "orga" or session.sessionType == "talk" or session.sessionType == "workshop" or session.sessionType == "performance" -%}
+  {%- if session.sessionType == "exhibit" -%}
     {% include session-details.html year=2019 %}
-  {%- endunless -%}
+  {%- endif -%}
 {%- endfor -%}
 
 ## Presenters
