@@ -714,3 +714,9 @@
     sessionType: "workshop"
     date: 2019-09-XX
     length: X
+
+  - sessionID: 19036
+    title: "Lightning talks"
+    sessionType: "lightning"
+    date: 2019-09-22
+    length: 0.75
