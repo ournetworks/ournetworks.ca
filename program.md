@@ -577,7 +577,7 @@ titleDisplay: "Program"
 {% assign sortedSessions = site.data.sessions[2019] | sort: "title" %}
 
 {%- for session in sortedSessions -%}
-  {%- unless session.sessionType == "orga" or session.sessionType == "exhibit" -%}
+  {%- unless session.sessionType == "orga" or session.sessionType == "exhibit" or session.sessionType == "lightning" -%}
     {% include session-details.html year=2019 %}
   {%- endunless -%}
 {%- endfor -%}
