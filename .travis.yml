@@ -16,7 +16,7 @@ before_install:
   - nvm install 10.16.0
   - npm i -g dat
   # Clone/Initialize Dat archive
-  # - dat $(head -n 1 .well-known/dat) ./_site --exit
+  - dat $(head -n 1 .well-known/dat) ./_site --exit
 
 before_script:
   # Build Jekyll site
@@ -30,7 +30,7 @@ addons:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  - secure: baRt/3YRt+unesJPgmKgU4SyI4bNhFFS/apJN2Z5YSSSiPu8hNh3Xpw70U4vYeWAvD/BDXTSQA4zv98yzev/s4mxcZvoTxZZkC6D4zldaybSqbLVbPGDqfkcQT4oyj3A2gVhTvk0navzLk2CYsAaIh9Yi6CHlXYGcBUdy3W7EN4CoksiEEh3VUQOsHZJQjEHNBbpgrilnqs+alaTZyeYgwpl+NmvdLon05TZWM+n01ivQSAcvYEcakNWJN+jekjhmHTmVSKqZi3/YQl9Ak+NRcOoFoyGmi/cYfnItmu9QX6z7zmIAX3gMhsYljDf2gRFErRT2d3Ynp/0BuJN+giGekI85qF6PWjHUvAPTZEVkLf2cccIbDWuV1vgKcTvAmFUAEFT2LuTn4KlIwivOBhClhoA05OYYBCm8vtx8xJYJrWTA386oHFQn+ga+X17YhgkPooIdNlhj3e7aoTVb3fp4ZzMER30DolVMs4EodkyKCEyrveG1hSIpqLMXmRaPw1m+sGx9O/FqwTp6GXLXkeYCKp+a6HLWHYFTfnT0FlrIQ632pNlcCE1H2D+chPLMr7dnekSafN4j9SG38gBy1T2hGJGLpiF4QRpJfESSTOQlI0DIv9Wc7/YbthFhZORTm/BP2CG4f99GvgQ1RAvKO4TeDTfZ1YOPqrkVEbss4hNMCI=
+  - secure: KIHluwSEKJjtUSt8jBzOvjgvzWUcsI/lOSMSY7d6mRIMq30rTnBAiqZ25sf7IX0dEP++fbLidxptcFwi4TNI05GyWY3bEqV9KYJF3T6QRVk4IG1ff+O4b0zWKcmbvax0aV8+yeXEMmKlMd8/b+3AzjbLRMv51aTp9Yz5D/ffjnbmDQFzZibP5E0BlEL1kRbcf+cRv/idclLaslIV3dlNy0wdJAhBLP9FtlDZNgLLwDe8IXjrQU98yeQOgufdJCdnqAzZu/Upo+7yYfGaF0PMyoKSZW5LIRw59NkhumCFNkZOgusPalIWBbkKIlxZXjsPYqj3iJxoWzxismWs7S9FjQuCo6QuDpIW5gvmZWFn4GD3BTTFs4S07KKNI/hRK5tz89IF/WfiT1bGg6pubDMZJfHVAUGgB+zpQmn5mnK5t7JFyJ7PP4RrfPGWBCBCTU9zYIA9r2GnzZn2ISPMEyzpQGN642XHibQ2J8jTKyHlxulru3zh202CiELeo185k7Tm/KCuXr+O5hRTDa/Uc2Y3sn8oOX89DXN68CkgtnweIFv1DnQIuku7GlzA6wzPENIq3Rg6D1BmP3vOs8XZo4BI6xXen4aUAiTEgMoTQC/EK27x8GbzS2940xwrHzpv2EL7Ub8HaLc1e0ILqjXIrWouM+kvKkQeCXqdnFpdOuhZ5UE=
 
 cache: bundler
 
@@ -47,9 +47,9 @@ deploy:
       - master
 
 after_deploy:
-  # - cd _site
-  # - echo $DATKEY | dat keys import
-  # - travis_wait 1 dat sync &> /dev/null || travis_terminate 0
+  - cd _site
+  - echo $DATKEY | dat keys import
+  - travis_wait 1 dat sync &> /dev/null || travis_terminate 0
 
 notifications:
   email:

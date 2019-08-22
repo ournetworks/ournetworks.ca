@@ -418,33 +418,35 @@ titleDisplay: "Program"
 <tr>
   <td>10</td>
   <td>:00</td>
+  <td colspan="3" rowspan="1" class="session-block session-{% include session-type.html session-id=19990 %}">{% include session.html year=2019 session-id=19990 %}</td>
 </tr>
 <tr>
   <td></td>
   <td>:15</td>
-</tr>
-<tr>
-  <td></td>
-  <td>:30</td>
-  <td colspan="3" rowspan="2" class="session-block session-{% include session-type.html session-id=19990 %}">{% include session.html year=2019 session-id=19990 %}</td>
-</tr>
-<tr>
-  <td></td>
-  <td>:45</td>
-</tr>
-<tr>
-  <td>11</td>
-  <td>:00</td>
   <td colspan="1" rowspan="2" class="session-block session-{% include session-type.html session-id=19027 %}">{% include session.html year=2019 session-id=19027 %}</td>
 </tr>
 <tr>
   <td></td>
+  <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:45</td>
+  <td colspan="1" rowspan="2" class="session-block session-{% include session-type.html session-id=19022 %}">{% include session.html year=2019 session-id=19022 %}</td>
+</tr>
+<tr>
+  <td>11</td>
+  <td>:00</td>
+</tr>
+<tr>
+  <td></td>
   <td>:15</td>
+  <td colspan="3" rowspan="1" class="session-block session-{% include session-type.html session-id=19991 %}">{% include session.html year=2019 session-id=19991 %}</td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
-  <td colspan="1" rowspan="2" class="session-block session-{% include session-type.html session-id=19022 %}">{% include session.html year=2019 session-id=19022 %}</td>
+  <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19008 %}">{% include session.html year=2019 session-id=19008 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -453,12 +455,11 @@ titleDisplay: "Program"
 <tr>
   <td>12</td>
   <td>:00</td>
-  <td colspan="3" rowspan="1" class="session-block session-{% include session-type.html session-id=19991 %}">{% include session.html year=2019 session-id=19991 %}</td>
 </tr>
 <tr>
   <td></td>
   <td>:15</td>
-  <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19008 %}">{% include session.html year=2019 session-id=19008 %}</td>
+  <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19036 %}">{% include session.html year=2019 session-id=19036 %}</td>
 </tr>
 <tr>
   <td></td>
