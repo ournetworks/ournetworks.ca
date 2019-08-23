@@ -416,9 +416,25 @@ titleDisplay: "Program"
 </thead>
 <tbody>
 <tr>
+  <td>9</td>
+  <td>:00</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:15</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+  <td colspan="3" rowspan="3" class="session-block session-{% include session-type.html session-id=19990 %}">{% include session.html year=2019 session-id=19990 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:45</td>
+</tr>
+<tr>
   <td>10</td>
   <td>:00</td>
-  <td colspan="3" rowspan="1" class="session-block session-{% include session-type.html session-id=19990 %}">{% include session.html year=2019 session-id=19990 %}</td>
 </tr>
 <tr>
   <td></td>
