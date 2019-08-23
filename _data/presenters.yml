@@ -284,6 +284,10 @@
 
   - presenterID: laniyuk
     name: "Laniyuk"
+    bio: "Laniyuk is an award winning queer Aboriginal poet born of a French mother and a Larrakia, Kungarrakan and Gurindji father. Her poetry and short memoir reflects the intersectionality of her cross cultural and queer identity. She contributed to the book Colouring the Rainbow: Blak Queer and Trans Perspectives. She is currently exploring the intersection of her poetry, decolonial theory and P2P technologies (poetic computation ala Taeyoon Choi) co-running workshops for queer people of color in Melbourne exploring accessibility and safety of P2P technologies. She has also run decolonial lectures and workshops for universities and in Aotearoa New Zealand at the first Scuttlebutt gathering."
+    link: "https://blockades.org/"
+    linkDisplay: "blockades.org"
+    github: "laniyuk"
 
   - presenterID: brettw
     name: "Brett Wallace"
@@ -342,11 +346,11 @@
 
   - presenterID: nahee
     name: "Nahee Kim"
-    bio: ""
-    link: ""
-    linkDisplay: ""
-    github: ""
-    twitter: ""
+    bio: "Nahee Kim is an artist and a web developer exploring programmability of human sexual behavior. She writes code poems, builds web applications, draws illustrations and makes videos regarding body images bound up with sexuality, power dynamics and communication protocols in sexual relationship and experimental approaches to human reproduction. She studies and teaches at Hunter College, studied at School for Poetic Computation, was a resident at MassMOCA, is a member of Soft Surplus which is collective workspace in Brooklyn and was a member of Eobchae which is an artist collective in South Korea. She is based in New York and Seoul."
+    link: "http://nahee.app"
+    linkDisplay: "nahee.app"
+    github: "nahbee10/nahee.app"
+    twitter: "AppNahee"
 
   - presenterID: melanie
     name: "Melanie Hoff"
