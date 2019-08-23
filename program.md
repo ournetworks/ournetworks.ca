@@ -462,7 +462,7 @@ titleDisplay: "Program"
 <tr>
   <td></td>
   <td>:30</td>
-  <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19008 %}">{% include session.html year=2019 session-id=19008 %}</td>
+  <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19036 %}">{% include session.html year=2019 session-id=19036 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -475,7 +475,7 @@ titleDisplay: "Program"
 <tr>
   <td></td>
   <td>:15</td>
-  <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19036 %}">{% include session.html year=2019 session-id=19036 %}</td>
+  <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19008 %}">{% include session.html year=2019 session-id=19008 %}</td>
 </tr>
 <tr>
   <td></td>
