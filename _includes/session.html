@@ -3,9 +3,9 @@
   <div class="session">
     <header>
       <h5 class="session-title">
-        {%- unless session.sessionType == "orga" -%}<a href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}">{%- endunless -%}
+        {%- unless session.sessionType == "orga" or session.sessionType == "lightning"-%}<a href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}">{%- endunless -%}
           {{ session.title }}
-        {%- unless session.sessionType == "orga" -%}</a>{%- endunless -%}
+        {%- unless session.sessionType == "orga" or session.sessionType == "lightning"-%}</a>{%- endunless -%}
       </h5>
       {% if session.presenterID %}
         <h6 class="session-presenterID mt-05">

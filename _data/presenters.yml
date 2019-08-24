@@ -196,7 +196,7 @@
     bio: "Andreas is an electric bass player, producer, composer and developer. His work consists of both digital and physical environments, spaces, festivals, software or platforms for participants and listeners. The computer itself serves as an artistical, political, social or philosophical medium, dealing with computer culture, machine learning, platform politics or decentralized networks. He studied art history, musicology, media philosophy and computer science in Berlin where he also lives and works."
     link: "https://andreasdzialocha.com/"
     linkDisplay: "andreasdzialocha.com"
-    github: ""
+    github:
     twitter: "adzialocha"
 
   - presenterID: sphere
@@ -255,7 +255,7 @@
 
   - presenterID: sam
     name: "Sam McGarva"
-    bio: "Sam believes that all design should be human-centred. I'm excited about the role designers can play in developing technology & policy that considers the real needs and values of people. I currently work as a freelance designer, research & teach in the School of Design at George Brown College, and study for a Master of Information at the University of Toronto (with a concentration in Culture & Technology and Critical Information Policy Studies)."
+    bio: "Sam believes that all design should be human-centred. She’s excited about the role designers can play in developing technology & policy that considers the real needs and values of people. She currently works as a freelance designer, researches & teaches in the School of Design at George Brown College, and studies for a Master of Information at the University of Toronto (with a concentration in Culture & Technology and Critical Information Policy Studies)."
     link: "https://sammcgarva.com/"
     linkDisplay: "sammcgarva.com"
     github: "therealitycorp"
@@ -284,6 +284,10 @@
 
   - presenterID: laniyuk
     name: "Laniyuk"
+    bio: "Laniyuk is an award winning queer Aboriginal poet born of a French mother and a Larrakia, Kungarrakan and Gurindji father. Her poetry and short memoir reflects the intersectionality of her cross cultural and queer identity. She contributed to the book Colouring the Rainbow: Blak Queer and Trans Perspectives. She is currently exploring the intersection of her poetry, decolonial theory and P2P technologies (poetic computation ala Taeyoon Choi) co-running workshops for queer people of color in Melbourne exploring accessibility and safety of P2P technologies. She has also run decolonial lectures and workshops for universities and in Aotearoa New Zealand at the first Scuttlebutt gathering."
+    link: "https://blockades.org/"
+    linkDisplay: "blockades.org"
+    github: "laniyuk"
 
   - presenterID: brettw
     name: "Brett Wallace"
@@ -294,8 +298,8 @@
     twitter: "brett_wallace"
 
   - presenterID: libi
-    name: "Libi Rose striegl"
-    bio: "libi is an an artist and PhD student currently based at the University of Colorado, primarily in the Media Archaeology Lab & the Blow Things Up Lab. My work is focused on tech defamiliarization as an educational tool, using workshops as both an education and artistic practice. I am interested in the technological, social and environmental implications of convenience. I regularly host workshops on tech repair, retro technology, privacy & security, open source practices, and alternative networks."
+    name: "Libi rose striegl"
+    bio: "Libi is an an artist and PhD student currently based at the University of Colorado, primarily in the Media Archaeology Lab & the Blow Things Up Lab. Libi's work is focused on tech defamiliarization as an educational tool, using workshops as both an education and artistic practice. Libi is interested in the technological, social and environmental implications of convenience and regularly hosts workshops on tech repair, retro technology, privacy & security, open source practices, and alternative networks."
     link: "http://libirose.com"
     linkDisplay: "libirose.com"
     twitter: "rose_alibi"
@@ -336,22 +340,22 @@
 
   - presenterID: lai
     name: "Lai Yi Ohlsen"
-    bio: "Lai is an artist and tech worker operating at the intersection of media and movement. She works to promote open data and advance Internet research and policy as Project Director at Measurement Lab. Previously, she worked to defend and promote human rights online with eQualitie. She is a 2019 Artist in Residence at Movement Research and her work has been shown at MR's Fall Festival, New York Art Book Fair and the Internet Archive's Decentralized Web Summit. Lai Yi has been supported by Jonah Bokaer Arts Foundation, rehearsal Residency, Pioneer Works and Peer-to-Peer NYC. She is the author of '100 Scores: movement inspired by computers' and tends to her creative practice at Soft Surplus, a collective warehouse space in Brooklyn. Her current research interests include the proliferation of movement through crappily compressed images, the resistance of automated 'best practice' bodies, and how analog forms move in resistance against digital power."
+    bio: "Lai Yi is an artist and tech worker operating at the intersection of media and movement. She works to promote open data and advance Internet research and policy as Project Director at Measurement Lab. Previously, she worked to defend and promote human rights online with eQualitie. She is a 2019 Artist in Residence at Movement Research and her work has been shown at  Movement Research's Fall Festival, New York Art Book Fair and the Internet Archive's Decentralized Web Summit. Lai Yi has been supported by Jonah Bokaer Arts Foundation, rehearsal Residency, Pioneer Works and Peer-to-Peer NYC. She is the author of '100 Scores: movement inspired by computers' and tends to her creative practice at Soft Surplus, a collective warehouse space in Brooklyn. Her current research interests include the proliferation of movement through crappily compressed images, the resistance of automated 'best practice' bodies, and how analog forms move in resistance against digital power."
     link: "http://www.laiyiohlsen.com/"
     linkDisplay: "laiyiohlsen.com"
 
   - presenterID: nahee
     name: "Nahee Kim"
-    bio: ""
-    link: ""
-    linkDisplay: ""
-    github: ""
-    twitter: ""
+    bio: "Nahee Kim is an artist and a web developer exploring programmability of human sexual behavior. She writes code poems, builds web applications, draws illustrations and makes videos regarding body images bound up with sexuality, power dynamics and communication protocols in sexual relationship and experimental approaches to human reproduction. She studies and teaches at Hunter College, studied at School for Poetic Computation, was a resident at MassMOCA, is a member of Soft Surplus which is collective workspace in Brooklyn and was a member of Eobchae which is an artist collective in South Korea. She is based in New York and Seoul."
+    link: "http://nahee.app"
+    linkDisplay: "nahee.app"
+    github: "nahbee10/nahee.app"
+    twitter: "AppNahee"
 
   - presenterID: melanie
     name: "Melanie Hoff"
     bio: > 
-      "Melanie is an artist and educator examining the role technology plays in social organization and reinforcing hegemonic structures. Their work plays with structural conventions of software, installation, and workshops. They are a founding member of the 'Cybernetics Library', an art and research collective offering resources for study and critique of technical and social systems and "Soft Surplus", a collective art studio warehouse for making things near each other. They teach at Rutgers University, the School for Poetic Computation, and have presented their work in New Museum, the Queens Museum, the Internet Archive, and elsewhere."
+      Melanie is an artist and educator examining the role technology plays in social organization and reinforcing hegemonic structures. Their work plays with structural conventions of software, installation, and workshops. They are a founding member of the 'Cybernetics Library', an art and research collective offering resources for study and critique of technical and social systems and "Soft Surplus", a collective art studio warehouse for making things near each other. They teach at Rutgers University, the School for Poetic Computation, and have presented their work in New Museum, the Queens Museum, the Internet Archive, and elsewhere.
     link: "https://melanie-hoff.com/"
     linkDisplay: "melanie-hoff.com"
     github: "melaniehoff"
