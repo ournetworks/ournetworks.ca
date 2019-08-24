@@ -39,7 +39,7 @@ We searched and could not confirm a directory of BIPOC-owned accommodations in T
 
 ### Unionized hotels
 
-We checked [Fair Hotels](https://www.fairhotel.org/) and called [UNITE HERE 75](https://www.uniteherelocal75.org/) for leads and updates. As of May 2019, these hotels are still unionized with them, roughly sorted by lowest price and distance:
+We checked [Fair Hotels](http://www.fairhotel.org/){:data-proofer-ignore=''} and called [UNITE HERE 75](https://www.uniteherelocal75.org/) for leads and updates. As of May 2019, these hotels are still unionized with them, roughly sorted by lowest price and distance:
 
 - [Chelsea Hotel Toronto](http://www.chelseatoronto.com/en/), 33 Gerrard Street West
 - [Kimpton Saint George Hotel](https://www.kimptonsaintgeorge.com/), 280 Bloor Street West

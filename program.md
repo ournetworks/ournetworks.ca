@@ -365,38 +365,6 @@ titleDisplay: "Program"
   <td></td>
   <td>:45</td>
 </tr>
-<tr>
-  <td>19</td>
-  <td>:00</td>
-</tr>
-<tr>
-  <td></td>
-  <td>:15</td>
-</tr>
-<tr>
-  <td></td>
-  <td>:30</td>
-</tr>
-<tr>
-  <td></td>
-  <td>:45</td>
-</tr>
-<tr>
-  <td>20</td>
-  <td>:00</td>
-</tr>
-<tr>
-  <td></td>
-  <td>:15</td>
-</tr>
-<tr>
-  <td></td>
-  <td>:30</td>
-</tr>
-<tr>
-  <td></td>
-  <td>:45</td>
-</tr>
 </tbody>
 </table>
 
@@ -416,7 +384,7 @@ titleDisplay: "Program"
 </thead>
 <tbody>
 <tr>
-  <td>10</td>
+  <td>9</td>
   <td>:00</td>
 </tr>
 <tr>
@@ -426,25 +394,43 @@ titleDisplay: "Program"
 <tr>
   <td></td>
   <td>:30</td>
-  <td colspan="3" rowspan="2" class="session-block session-{% include session-type.html session-id=19990 %}">{% include session.html year=2019 session-id=19990 %}</td>
+  <td colspan="3" rowspan="3" class="session-block session-{% include session-type.html session-id=19990 %}">{% include session.html year=2019 session-id=19990 %}</td>
 </tr>
 <tr>
   <td></td>
   <td>:45</td>
 </tr>
 <tr>
-  <td>11</td>
+  <td>10</td>
   <td>:00</td>
-  <td colspan="1" rowspan="2" class="session-block session-{% include session-type.html session-id=19027 %}">{% include session.html year=2019 session-id=19027 %}</td>
 </tr>
 <tr>
   <td></td>
   <td>:15</td>
+  <td colspan="1" rowspan="2" class="session-block session-{% include session-type.html session-id=19027 %}">{% include session.html year=2019 session-id=19027 %}</td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:45</td>
   <td colspan="1" rowspan="2" class="session-block session-{% include session-type.html session-id=19022 %}">{% include session.html year=2019 session-id=19022 %}</td>
+</tr>
+<tr>
+  <td>11</td>
+  <td>:00</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:15</td>
+  <td colspan="3" rowspan="1" class="session-block session-{% include session-type.html session-id=19991 %}">{% include session.html year=2019 session-id=19991 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+  <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19036 %}">{% include session.html year=2019 session-id=19036 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -453,7 +439,6 @@ titleDisplay: "Program"
 <tr>
   <td>12</td>
   <td>:00</td>
-  <td colspan="3" rowspan="1" class="session-block session-{% include session-type.html session-id=19991 %}">{% include session.html year=2019 session-id=19991 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -489,8 +474,8 @@ titleDisplay: "Program"
   <td>14</td>
   <td>:00</td>
   <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19997 %}">{% include session.html year=2019 session-id=19997 %}</td>
-  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19025 %}">{% include session.html year=2019 session-id=19025 %}</td>
   <td colspan="1" rowspan="8" class="session-block session-{% include session-type.html session-id=19007 %}">{% include session.html year=2019 session-id=19007 %}</td>
+  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19025 %}">{% include session.html year=2019 session-id=19025 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -565,7 +550,7 @@ titleDisplay: "Program"
 ---
 {: .extended}
 
-<a class="program-block-anchor" id="keynote-block"></a>
+<a class="program-block-anchor" id="keynote"></a>
 ## Keynote: TBA
 {:.program-heading}
 
@@ -576,7 +561,7 @@ titleDisplay: "Program"
 {% assign sortedSessions = site.data.sessions[2019] | sort: "title" %}
 
 {%- for session in sortedSessions -%}
-  {%- unless session.sessionType == "orga" or session.sessionType == "exhibit" -%}
+  {%- unless session.sessionType == "orga" or session.sessionType == "keynote" or session.sessionType == "exhibit" -%}
     {% include session-details.html year=2019 %}
   {%- endunless -%}
 {%- endfor -%}

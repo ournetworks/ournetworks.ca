@@ -379,7 +379,7 @@
   
   - sessionID: 19997
     title: "Lightning talks"
-    sessionType: "lightning"
+    sessionType: "orga"
     date: 2019-09-22
     length: 1.0
   
@@ -588,15 +588,19 @@
     description: > 
       Low-tech Magazine questions the belief in technological progress, and highlights the potential of past knowledge and technologies for designing a sustainable society. In this talk we present https://solar.lowtechmagazine.com, a radical redesign of the blog that is self-hosted on a solar-powered server. This talk will review the design and technical considerations behind the redesign. This includes highlighting its functional benefits, such as archivability and accessibility, as well as its design approach to make the infrastructure powering the site more transparent.
     sessionType: "talk"
-    date: 2019-09-XX
-    length: X
+    date: 2019-09-22
+    length: 0.5
 
   - sessionID: 19023
     title: "Whose future are you serving?: Interrogating frontier imaginaries within P2P technologies"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/23"
-    sessionType: "performance"
+    sessionType: "talk"
     presenterID:
       - laniyuk
+    description: > 
+      Supremacy, in all it’s forms, is ultimately a narrative that we tell ourselves. It is these stories which determine who is valuable, who is authority, who can live and who must die.
+    date: 2019-09-21
+    length: 0.5
 
   - sessionID: 19024
     title: "The future for workers"
@@ -655,15 +659,15 @@
     length: X
 
   - sessionID: 19030
-    title: "Our network our history: Alternative archives"
-    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/30"
+    title: "Networks as sculpture"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/36"
     presenterID:
       - lai
     description: >
-      As an artist and tech worker, I have often utilized oral history interview techniques to better understand the technology I work with or am building--it turns out, behind every technology there's at least one technologist. I will use these techniques to take the oral histories of five different tech workers who work on a proposal for an alternative network of some kind. Spanning between individuals within the Internet Freedom, Silicon Valley and New Media fields with same but different goals, I am learning from these people's lives: what do we mean by "our" and what do we mean by "network," both currently and potentially. What led each of these people to look at the current state of networks and think, "We can do something better"? During 'Our Network Our History: alternative archives', I will first present each interview, both individually and in relation to each other. The remainder of the time will be spent discussing ways we can utilize the tools each individual is contributing to to archive their history. For example, if I were to interview an IPFS developer, how could we use IPFS to store their story? This portion of the session isn't expected to be anything more than a brainstorm, but I hope to tap into the potential for alternative networks to produce alternative archives.
+      A sculpture is material form in real space, this is its most basic quality; a network is a form in both real and “real” space. When we see sculpture, it reveals itself slowly through our visual experience of its form, weight, material, place, volume, mass, amongst other characteristics. Networks, on the other hand, are harder to see, especially when you are in them - but they still have these same properties. Viewing a sculpture is like viewing the culmination of several moments in time. They are collections of choices and physicalizations of priorities. Every detail is a decision and analysing a sculpture reveals its decision tree. In this talk, I will propose that networks can disclose themselves in the same way, if we ask the same questions.
     sessionType: "workshop"
-    date: 2019-09-XX
-    length: X
+    date: 2019-09-22
+    length: 1
 
   - sessionID: 19031
     title: "Torrents of sex"
@@ -671,7 +675,9 @@
     sessionType: "exhibit"
     presenterID:
       - nahee
-
+    description: > 
+      <Torrents of Sex> is one of the projects of Nahee.app, web-based performance project about sex and network technology. Assuming that someday human can upload and download their somatic sensations onto the web, Nahee.app designed peer-to-peer polyamorous sexual relationship network protocol <Torrents of Sex>, inspired by BitTorrent’s file distribution & peer selection algorithms. In this project, I regard myself as a web application having sexual desire and speculate what would happen if that programmable entity can have sexual relationships as we do. With their programmability which is the biggest difference of <Nahee.app> from real human, <Nahee.app> approaches technology as a tool for redefining ingrained ways of having sexual relationship
+    
   - sessionID: 19032
     title: "Peer-to-peer poetry: Invisible cities"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/32"
@@ -714,3 +720,9 @@
     sessionType: "workshop"
     date: 2019-09-XX
     length: X
+
+  - sessionID: 19036
+    title: "Lightning talks"
+    sessionType: "orga"
+    date: 2019-09-22
+    length: 0.75
