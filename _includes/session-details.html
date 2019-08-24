@@ -22,7 +22,7 @@
     </header>
     {%- if session.description -%}
     <div class="session-caption">
-        <p>{{ session.description | truncatewords: 75 }}<span class="read-more"><a href="{{ session.descriptionLink }}" rel="noopener"> read more</a></span></p>
+        <p>{{ session.description | escape | truncatewords: 75 }}<span class="read-more"><a href="{{ session.descriptionLink }}" rel="noopener"> read more</a></span></p>
     </div>
     {%- endif -%}
     {%- if session.link or session.twitter or session.github -%}
