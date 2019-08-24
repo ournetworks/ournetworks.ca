@@ -365,38 +365,6 @@ titleDisplay: "Program"
   <td></td>
   <td>:45</td>
 </tr>
-<tr>
-  <td>19</td>
-  <td>:00</td>
-</tr>
-<tr>
-  <td></td>
-  <td>:15</td>
-</tr>
-<tr>
-  <td></td>
-  <td>:30</td>
-</tr>
-<tr>
-  <td></td>
-  <td>:45</td>
-</tr>
-<tr>
-  <td>20</td>
-  <td>:00</td>
-</tr>
-<tr>
-  <td></td>
-  <td>:15</td>
-</tr>
-<tr>
-  <td></td>
-  <td>:30</td>
-</tr>
-<tr>
-  <td></td>
-  <td>:45</td>
-</tr>
 </tbody>
 </table>
 
