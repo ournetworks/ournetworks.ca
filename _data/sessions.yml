@@ -677,17 +677,6 @@
       - nahee
     description: > 
       <Torrents of Sex> is one of the projects of Nahee.app, web-based performance project about sex and network technology. Assuming that someday human can upload and download their somatic sensations onto the web, Nahee.app designed peer-to-peer polyamorous sexual relationship network protocol <Torrents of Sex>, inspired by BitTorrent’s file distribution & peer selection algorithms. In this project, I regard myself as a web application having sexual desire and speculate what would happen if that programmable entity can have sexual relationships as we do. With their programmability which is the biggest difference of <Nahee.app> from real human, <Nahee.app> approaches technology as a tool for redefining ingrained ways of having sexual relationship
-    
-  - sessionID: 19032
-    title: "Peer-to-peer poetry: Invisible cities"
-    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/32"
-    presenterID:
-      - melanie
-    description: > 
-      What if we could create and inhabit a new kind of digital city that transforms our online networks from an ordained protocol to an expressive medium of shared placemaking? In this workshop we will collectively create a peer-to-peer city using the structure of nested folders and DAT. Taking up after Italo Calvino’s Invisible Cities and the common practice of digital organization, through lecture, examples, and hands on making, we will explore folder structures as a new kind of poetic meter and DAT as a way to build digital spaces with and for our networks. This workshop assumes no coding experience and simultaneously takes the position that everyone who interacts with computers in some way is already a programmer.
-    sessionType: "workshop"
-    date: 2019-09-XX
-    length: X
 
   - sessionID: 19033
     title: "Waiting for NIN in New Orleans"
