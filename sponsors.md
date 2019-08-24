@@ -42,7 +42,16 @@ Our Networks is volunteer-run and would not be possible without the support of o
   </div>
 </div>
 
-## Venue Partners
+## In-Kind Sponsors
+{: .mt-1.color-accent.fw-normal}
+
+<div class="flex">
+  <div class="mt-1">
+    <a href="https://www.stickermule.com/supports/opensource" rel="noopener"><img src="/images/logos/sticker-mule-logo.svg" width="260" alt="Sticker Mule logo" /></a>
+  </div>
+</div>
+
+## Venue Partner
 {: .mt-1.color-accent.fw-normal}
 
 <div class="flex">
