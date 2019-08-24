@@ -42,7 +42,7 @@ Our Networks is volunteer-run and would not be possible without the support of o
   </div>
 </div>
 
-## In-kind Sponsors
+## In-Kind Sponsors
 {: .mt-1.color-accent.fw-normal}
 
 <div class="flex">
