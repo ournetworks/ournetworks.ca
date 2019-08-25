@@ -427,7 +427,16 @@
     sessionType: "talk"
     date: 2019-09-20
     length: 0.75
-
+    
+  - sessionID: 19006
+    title: "Made in Iran"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/5"
+    presenterID:
+      - farhad
+    description: >
+      Made in Iran is the outcome of several interviews with 12 Iranian individuals, living in the United States, whose lives  are  affected  by  the  travel  ban.  Throughout  this  conversation  they  portrayed  how,  as  the  result of recent feuds between the two countries, their identities are often assumed by others to only comprise  their  nationality.  In  this  project  I  tried  to  portray  their  complexity,  depth  and  presence  by  interviewing  them  and  asking  them  to  share  in  a  series  of  words  and  images  that  more  accurately  reflects their identity.
+    sessionType: "exhibit"
+    
   - sessionID: 19007
     title: "Collaboratively backing up IPFS content with IPFS Cluster"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/7"
