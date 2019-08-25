@@ -77,7 +77,8 @@ thead th {
   }
 
   @media (max-width: $on-palm) {
-    width: 100vw;
+    font-size: 14px;
+    width: 150vw;
     margin-left: -20px;
   }
 }
