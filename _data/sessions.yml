@@ -720,7 +720,9 @@
     length: X
 
   - sessionID: 19036
-    title: "Lightning talks"
-    sessionType: "orga"
-    date: 2019-09-22
-    length: 0.75
+    title: "Mesh Workshop"
+    presenterID:
+    description: > 
+    sessionType: "workshop"
+    date: 2019-09-20
+    length: 2
