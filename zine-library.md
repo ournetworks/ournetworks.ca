@@ -20,34 +20,31 @@ Note:
 
 ## Send us your zines!
 
-- Zine Name 
-- Format 
-    - dat 
-    - digital 
-    - paper 
-    - other : (describe)
-- This zine is okay to be copied (Y/N)
-- Link:  (link to PDF elsewhere?)
-
-- Author Name
-- Contact
-
-- Payment info? "Link to purchase"
-
-
 <form action="https://formspree.io/orga@ournetworks.ca" class="form-container" method="POST">
   <div class="mb-2">
-    <h3>Zine</h3>
     <div class="w-33">
       <label class="fw-bold" for="zine-name">Zine Name:</label>
       <input type="text" id="zine-name" class="input mb-1 w-100" name="zine-name" required>
     </div>
     <div class="w-33">
+      <label class="fw-bold" for="zine-link">Zine format:</label><br />
+      <select name="zine-format" required>
+        <option>dat</option>
+        <option>digital</option>
+        <option>paper</option>
+        <option>other</option>
+      </select>
+    </div>
+    <div class="w-33">
       <label class="fw-bold" for="zine-link">Link to zine:</label>
       <input type="text" id="zine-link" class="input mb-1 w-100" name="zine-link" required>
     </div>
+    <div class="w-33">
+      <label class="fw-bold" for="zine-payment">Link to purchase?:</label>
+      <input type="text" id="zine-payment" class="input mb-1 w-100" name="zine-payment" required>
+    </div>
     <fieldset class="p-0 m-0">
-      <legend class="mb-1">Let us know if you can attend:</legend>
+      <legend class="mb-1">Let us know if:</legend>
       <div class="flex mb-05 flex-align-baseline">
         <input type="radio" class="mr-05" id="copied" name="zine" value="not copied" required><label class="fw-bold" for="copied">I do not want this zine copied / checked out</label>
       </div>
@@ -59,12 +56,12 @@ Note:
     <legend class="mb-1">Please confirm your preferred pronunciation and pronouns as presenter(s):</legend>
     <div class="flex">
       <div class="w-33">
-        <label class="fw-bold" for="presenters">Presenter:</label>
-        <input type="text" id="presenters" class="input mb-1 w-100" name="presenters" required>
+        <label class="fw-bold" for="author">Author Name:</label>
+        <input type="text" id="author" class="input mb-1 w-100" name="author" required>
       </div>
       <div class="w-33 ml-1">
-        <label class="fw-bold" for="pronunciation">Pronunciation notes:</label>
-        <input type="text" id="pronunciation" class="input mb-1 w-100" name="pronunciation">
+        <label class="fw-bold" for="contact">Contact Info:</label>
+        <input type="text" id="contact" class="input mb-1 w-100" name="contact">
       </div>
     </div>
     </fieldset>
