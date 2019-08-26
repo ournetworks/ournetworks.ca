@@ -569,7 +569,7 @@ fullWidth: true
 
 
 ## Sessions
-{:.mt-1.heading-2-5.fw-normal.color-accent}
+{:.mt-1.heading-2-5.fw-normal.color-accent data-nav-program-link=''}
 
 {% assign sortedSessions = site.data.sessions[2019] | sort: "title" %}
 
@@ -580,7 +580,7 @@ fullWidth: true
 {% endfor %}
 
 ## Exhibited Works
-{:.mt-1.heading-2-5.fw-normal.color-accent}
+{:.mt-1.heading-2-5.fw-normal.color-accent data-nav-program-link=''}
 
 {% for session in sortedSessions %}
   {%- if session.sessionType == "exhibit" -%}
@@ -589,7 +589,7 @@ fullWidth: true
 {% endfor %}
 
 ## Presenters
-{:.mt-1.heading-2-5.fw-normal.color-accent}
+{:.mt-1.heading-2-5.fw-normal.color-accent data-nav-program-link=''}
 
 {% assign sortedPresenters = site.data.presenters[2019] | sort: "name" %}
 
