@@ -45,6 +45,6 @@ If you are being harassed, notice that someone else is being harassed, or have a
 
 Those who wish to report a violation but don't feel comfortable talking to the organizers online or at an event can email [coc@ournetworks.ca](mailto:coc@ournetworks.ca), which is **currently** monitored by [**Benedict Lau**](https://ournetworks.ca/about/#benhylau), and will be monitored during the event on an active basis.
 
-Our [internal guidelines](./CONDUCT.md#guidelines) for enforcing our Code of Conduct are viewable online.
+Our [internal guidelines](https://github.com/ournetworks/2019/blob/master/CONDUCT.md#guidelines) for enforcing our Code of Conduct are viewable online.
 
 _These are adapted from the [Toronto Mesh Code of Conduct](https://tomesh.net/code-of-conduct/), which in turn was based on the anti-harassment policy from the [Geek Feminism Wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy) and draws inspiration from [No more rock stars: how to stop abuse in tech communities](https://hypatia.ca/2016/06/21/no-more-rock-stars/). The section about expected behaviour is adapted from the [Gamma Space Code of Conduct](https://github.com/GammaSpace/policies/blob/master/code-of-conduct.md)._
