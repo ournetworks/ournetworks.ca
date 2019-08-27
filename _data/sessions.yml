@@ -376,7 +376,15 @@
     sessionType: "keynote"
     date: 2019-09-20
     length: 1.5
-  
+
+  - sessionID: 19995
+    title: "Keynote Panel: May First, Technology and Revolution"
+    sessionType: "keynote"
+    date: 2019-09-21
+    length: 1.5
+    presenterID:
+      - alfredo
+
   - sessionID: 19997
     title: "Lightning talks"
     sessionType: "orga"
@@ -427,7 +435,16 @@
     sessionType: "talk"
     date: 2019-09-20
     length: 0.75
-
+    
+  - sessionID: 19006
+    title: "Made in Iran"
+    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/5"
+    presenterID:
+      - farhad
+    description: >
+      Made in Iran is the outcome of several interviews with 12 Iranian individuals, living in the United States, whose lives  are  affected  by  the  travel  ban.  Throughout  this  conversation  they  portrayed  how,  as  the  result of recent feuds between the two countries, their identities are often assumed by others to only comprise  their  nationality.  In  this  project  I  tried  to  portray  their  complexity,  depth  and  presence  by  interviewing  them  and  asking  them  to  share  in  a  series  of  words  and  images  that  more  accurately  reflects their identity.
+    sessionType: "exhibit"
+    
   - sessionID: 19007
     title: "Collaboratively backing up IPFS content with IPFS Cluster"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/7"
@@ -677,17 +694,6 @@
       - nahee
     description: > 
       <Torrents of Sex> is one of the projects of Nahee.app, web-based performance project about sex and network technology. Assuming that someday human can upload and download their somatic sensations onto the web, Nahee.app designed peer-to-peer polyamorous sexual relationship network protocol <Torrents of Sex>, inspired by BitTorrent’s file distribution & peer selection algorithms. In this project, I regard myself as a web application having sexual desire and speculate what would happen if that programmable entity can have sexual relationships as we do. With their programmability which is the biggest difference of <Nahee.app> from real human, <Nahee.app> approaches technology as a tool for redefining ingrained ways of having sexual relationship
-    
-  - sessionID: 19032
-    title: "Peer-to-peer poetry: Invisible cities"
-    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/32"
-    presenterID:
-      - melanie
-    description: > 
-      What if we could create and inhabit a new kind of digital city that transforms our online networks from an ordained protocol to an expressive medium of shared placemaking? In this workshop we will collectively create a peer-to-peer city using the structure of nested folders and DAT. Taking up after Italo Calvino’s Invisible Cities and the common practice of digital organization, through lecture, examples, and hands on making, we will explore folder structures as a new kind of poetic meter and DAT as a way to build digital spaces with and for our networks. This workshop assumes no coding experience and simultaneously takes the position that everyone who interacts with computers in some way is already a programmer.
-    sessionType: "workshop"
-    date: 2019-09-XX
-    length: X
 
   - sessionID: 19033
     title: "Waiting for NIN in New Orleans"
@@ -722,7 +728,9 @@
     length: X
 
   - sessionID: 19036
-    title: "Lightning talks"
-    sessionType: "orga"
-    date: 2019-09-22
-    length: 0.75
+    title: "Mesh Workshop"
+    presenterID:
+    description: > 
+    sessionType: "workshop"
+    date: 2019-09-20
+    length: 2

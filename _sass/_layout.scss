@@ -155,6 +155,10 @@
   padding-left: 0;
 }
 
+.pl-1 {
+  padding-left: 1em;
+}
+
 .pb-m {
   padding-bottom: 3em;
 }
@@ -377,4 +381,10 @@
   max-height: 100vh;
   overflow-y: auto;
   z-index: 9999;
+}
+
+// Borders
+
+.border-left {
+  border-left: 4px solid $accent-color;
 }

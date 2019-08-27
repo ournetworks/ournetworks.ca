@@ -7,7 +7,7 @@
         {% for page in sorted_pages %}
            {% if page.order > 0 and page.parent == nil %}
              <li class="nav-item-wrapper flex {% if page.titleDisplay == 'Registration' %}bg-yellow{% endif %}">
-               <a class="color-white flex fw-bold nav-item {% if current != '/' %}{% if page.url == current %}active{% endif %}{% endif %}"
+               <a class="color-white flex fw-bold nav-item {% if current != '/' %}{% if page.url == current %}active{% endif %}{% endif %} {% if page.titleDisplay == 'Registration' %}w-100{% endif %}"
                   href="{% if page.content.size > 1 %}{{ page.url }}{% else %}{% if page.redirect_to %}{{ page.redirect_to }}{% endif %}{% endif %}" aria-label="{{ page.title }}">
                   {% if page.titleDisplay %}{{ page.titleDisplay }}{% else %}{% endif %}
                </a>

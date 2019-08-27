@@ -22,15 +22,12 @@ We expect event participants or organizers to remain mindful of, and take respon
 We do not tolerate harassment of event participants or organizers in any form. Harassment includes, but is not limited to:
 
 * verbal comments that reinforce social structures of domination related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion, technical skill level
-* sexual images in public spaces
 * deliberate intimidation, stalking, following
 * harassing photography or recording
 * sustained disruption of talks or other events
 * inappropriate physical contact
-* unwelcome sexual attention
+* unwelcome sexual attention and sexual language
 * advocating for, or encouraging, any of the above behaviour
-
-Sexual language and imagery is not appropriate for Our Networks presentations and interactions.
 
 Participants asked to stop any harassing behavior are expected to comply immediately. Participants violating these rules may be sanctioned or asked to leave, at the discretion of the organizers.
 
@@ -46,8 +43,8 @@ If a participant engages in harassing behaviour, the organizers may take any act
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact an organizer immediately.
 
-Those who wish to report a violation but don't feel comfortable talking to the organizers online or at an event can email [coc@ournetworks.ca](mailto:coc@ournetworks.ca), which is **currently** monitored by [**Dawn, @dcwalk**](http://dcwalker.ca), and will be monitored during the event on an active basis.
+Those who wish to report a violation but don't feel comfortable talking to the organizers online or at an event can email [coc@ournetworks.ca](mailto:coc@ournetworks.ca), which is **currently** monitored by [**Benedict Lau**](https://ournetworks.ca/about/#benhylau), and will be monitored during the event on an active basis.
 
 Our [internal guidelines](https://github.com/ournetworks/2019/blob/master/CONDUCT.md#guidelines) for enforcing our Code of Conduct are viewable online.
 
-_This code is adapted from the [Toronto Mesh Code of Conduct](https://tomesh.net/code-of-conduct/), which in turn was based on the anti-harassment policy from the [Geek Feminism Wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy) and draws inspiration from [No more rock stars: how to stop abuse in tech communities](https://hypatia.ca/2016/06/21/no-more-rock-stars/). The section about expected behaviour is adapted from the [Gamma Space Code of Conduct](https://github.com/GammaSpace/policies/blob/master/code-of-conduct.md)._
+_These are adapted from the [Toronto Mesh Code of Conduct](https://tomesh.net/code-of-conduct/), which in turn was based on the anti-harassment policy from the [Geek Feminism Wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy) and draws inspiration from [No more rock stars: how to stop abuse in tech communities](https://hypatia.ca/2016/06/21/no-more-rock-stars/). The section about expected behaviour is adapted from the [Gamma Space Code of Conduct](https://github.com/GammaSpace/policies/blob/master/code-of-conduct.md)._

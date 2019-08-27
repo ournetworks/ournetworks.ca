@@ -200,3 +200,40 @@ $(document).on('click', function (e) {
     closePanel()
   }
 })
+
+// program active menu links
+
+const programTargets = $('[data-nav-program-link]')
+const programNavItems = $('.nav-item')
+const programTopLevelItem = $('.nav-item[href="/program/"]')
+
+const programPositionDetector = function () {
+  if (programTargets.length) {
+    const programSection = []
+    programTargets.each(function (i) {
+      if ($(this).offset().top - $(window).scrollTop() < $(this).height()) {
+        programSection.push(i)
+      }
+    })
+
+    if (programSection.length) {
+      programTopLevelItem.removeClass('active')
+      programNavItems.each(function () {
+        if (this.hash.substr(1) === programTargets.eq([programSection.slice(-1)]).attr('id')) {
+          programNavItems.removeClass('active')
+          $(this).addClass('active')
+        }
+      })
+    } else {
+      programNavItems.removeClass('active')
+      programTopLevelItem.addClass('active')
+    }
+  }
+}
+
+programPositionDetector()
+
+document.addEventListener('scroll', programPositionDetector, {
+  capture: true,
+  passive: true
+})

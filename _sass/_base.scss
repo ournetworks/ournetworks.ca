@@ -84,7 +84,7 @@ hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
   border-width: 0;
-  border-top: 1px solid rgba($accent-color, 0.5);
+  border-top: 1px solid $accent-color;
 
   &.extended {
    border-top-width: 4px;
