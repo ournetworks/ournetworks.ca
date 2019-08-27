@@ -376,7 +376,15 @@
     sessionType: "keynote"
     date: 2019-09-20
     length: 1.5
-  
+
+  - sessionID: 19995
+    title: "Keynote Panel: May First, Technology and Revolution"
+    sessionType: "keynote"
+    date: 2019-09-21
+    length: 1.5
+    presenterID:
+      - alfredo
+
   - sessionID: 19997
     title: "Lightning talks"
     sessionType: "orga"

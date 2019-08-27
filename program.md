@@ -360,7 +360,7 @@ fullWidth: true
 <tr>
   <td>18</td>
   <td>:00</td>
-  <td colspan="3" rowspan="4" class="session-block session-{% include session-type.html session-id=19994 %}">{% include session.html year=2019 session-id=19994 %}</td>
+  <td colspan="3" rowspan="4" class="session-block session-{% include session-type.html session-id=19995 %}">{% include session.html year=2019 session-id=19995 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -567,6 +567,25 @@ fullWidth: true
 ## Keynote: TBA
 {:.mt-1.heading-2-5.fw-normal.color-accent}
 
+## Keynote Panel
+{:.mt-1.heading-2-5.fw-normal.color-accent}
+
+<div class="session-detail program-block content-width">
+  <a class="program-block-anchor" id="keynote-panel-may-first,-technology-and"></a>
+  <div class="program-block-content">
+    <header class="session-header">
+      <h3 class="session-title heading">May First, Technology and Revolution</h3>
+          <ul class="ls-none pl-0">
+            <li><h4 class="session-presenter">&gt; <a href="#alfredo">Alfredo Lopez</a></h4></li></ul></header><div class="session-caption">
+              <p>Technology has so fundamentally changed our society that any strategy for social change must be altered to address its power over us. But it also gives us the potential to develop and realize the kind of society we all want and to do that within our lifetimes. Information technology is the most powerful tool for change we have.</p>
+
+              <p>Since 2017, 25 local convergences have brought together over 1,500 activists from the U.S. to talk about the intersection between technology and revolution. The results of this two-year project can be viewed in the program that emerged from those sessions summarized in the video linked below.</p>
+
+              <p><a href="https://techandrev.org">techandrev.org</a></p>
+
+              <p>We want to continue that process in a Tech and Rev session at this conference with our convergence here adding to and editing the program as it now stands.</p>
+    </div></div>
+</div>
 
 ## Sessions
 {:.mt-1.heading-2-5.fw-normal.color-accent data-nav-program-link=''}
