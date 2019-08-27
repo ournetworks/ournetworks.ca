@@ -18,21 +18,23 @@ Note:
 - we can accept digital or paper copies of zines mailed directly to us 
 - the library will be a lending library with patrons able to "check out" [make copies] of zines 
 
-## Send us your zines!
+## Send Us Your Zines!
+{:.mt-1}
 
 <form action="https://formspree.io/orga@ournetworks.ca" class="form-container" method="POST">
   <div class="mb-2">
     <div class="w-33">
-      <label class="fw-bold" for="zine-name">Zine Name:</label>
+      <label class="fw-bold" for="zine-name">Zine name:</label>
       <input type="text" id="zine-name" class="input mb-1 w-100" name="zine-name" required>
     </div>
     <div class="w-33">
-      <label class="fw-bold" for="zine-link">Zine format:</label><br />
-      <select name="zine-format" required>
-        <option>dat</option>
-        <option>digital</option>
-        <option>paper</option>
-        <option>other</option>
+      <label class="fw-bold" for="zine-format">Zine format:</label><br />
+      <select name="zine-format" id="zine-format" class="input input-select mb-1" required>
+        <option value="">Select a format</option>
+        <option>Dat</option>
+        <option>Digital</option>
+        <option>Paper</option>
+        <option>Other</option>
       </select>
     </div>
     <div class="w-33">
@@ -40,13 +42,13 @@ Note:
       <input type="text" id="zine-link" class="input mb-1 w-100" name="zine-link" required>
     </div>
     <div class="w-33">
-      <label class="fw-bold" for="zine-payment">Link to purchase?:</label>
-      <input type="text" id="zine-payment" class="input mb-1 w-100" name="zine-payment" required>
+      <label class="fw-bold" for="zine-purchase-link">Link to purchase:</label>
+      <input type="text" id="zine-purchase-link" class="input mb-1 w-100" name="zine-purchase-link" required>
     </div>
     <fieldset class="p-0 m-0">
       <legend class="mb-1">Let us know if:</legend>
       <div class="flex mb-05 flex-align-baseline">
-        <input type="radio" class="mr-05" id="copied" name="zine" value="not copied" required><label class="fw-bold" for="copied">I do not want this zine copied / checked out</label>
+        <input type="checkbox" class="mr-05" id="copied" name="zine-copy-permission" value="not copied"><label class="fw-bold" for="copied">I do not want this zine copied/checked out</label>
       </div>
     </fieldset>
   </div>
@@ -56,17 +58,17 @@ Note:
     <legend class="mb-1">Please confirm your preferred pronunciation and pronouns as presenter(s):</legend>
     <div class="flex">
       <div class="w-33">
-        <label class="fw-bold" for="author">Author Name:</label>
+        <label class="fw-bold" for="author">Author name:</label>
         <input type="text" id="author" class="input mb-1 w-100" name="author" required>
       </div>
       <div class="w-33 ml-1">
-        <label class="fw-bold" for="contact">Contact Info:</label>
+        <label class="fw-bold" for="contact">Contact info:</label>
         <input type="text" id="contact" class="input mb-1 w-100" name="contact">
       </div>
     </div>
     </fieldset>
   </div>
-  <input type="submit" name="submit" value="Submit Zine" class="button button-primary mb-2">
+  <input type="submit" name="submit" value="Submit Your Zine" class="button button-primary mb-2">
   <input type="hidden" name="_format" value="plain">
   <input type="hidden" name="_subject" value="zine submitted">
   <input type="hidden" name="_next" value="//ournetworks.ca/zine-library?update=submitted">
