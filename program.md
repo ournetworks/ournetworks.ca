@@ -374,6 +374,55 @@ fullWidth: true
   <td></td>
   <td>:45</td>
 </tr>
+<tr>
+  <td>19</td>
+  <td>:00</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:15</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:45</td>
+</tr>
+<tr>
+  <td>20</td>
+  <td>:00</td>
+  <td colspan="4" rowspan="8" class="session-block session-{% include session-type.html session-id=19996 %}">{% include session.html year=2019 session-id=19996 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:15</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:45</td>
+</tr>
+<tr>
+  <td>21</td>
+  <td>:00</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:15</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:45</td>
+</tr>
 </tbody>
 </table>
 
