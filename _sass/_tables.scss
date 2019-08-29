@@ -83,14 +83,6 @@ thead th {
   }
 }
 
-.schedule-spacer {
-  margin-top: 2em;
-}
-
-.schedule-spacer-small {
-  margin-top: 1em;
-}
-
 .session-block {
   border-radius: 10px;
   border: 1px solid rgba($black, 0.05);
@@ -146,10 +138,6 @@ thead th {
     border-bottom: 0;
   }
 
-  .session-header {
-    margin-bottom: 1em;
-  }
-
   .session-title {
     margin-top: 0;
     margin-bottom: .25em;
@@ -168,10 +156,6 @@ thead th {
     margin-top: 0;
     margin-bottom: 0;
   }
-}
-
-.program-block-content {
-  padding: 1em;
 }
 
 .program-block-anchor:target {
