@@ -4,8 +4,15 @@ order: 4
 title: "Visiting Toronto"
 titleDisplay: "Visiting"
 ---
-  
-## Getting Around 
+
+- [Getting around](#getting-around)
+- [Staying in Toronto](#staying-in-toronto)
+  - [Community billets](#community-billets)
+  - [Small-businesses and BIPOC-owned hotels](#small-businesses-and-bipoc-owned-hotels)
+  - [Unionized hotels](#unionized-hotels)
+  - [Other short-term rentals](#other-short-term-rentals)
+
+## Getting around 
 
 Toronto is easy to travel by bicycle, using public transit, and on foot around the event venue.
 
@@ -47,7 +54,7 @@ We checked [Fair Hotels](http://www.fairhotel.org/){:data-proofer-ignore=''} and
 - [The Omni King Edward Hotel](https://www.guestreservations.com/the-omni-king-edward-hotel/booking), 37 King Street East
 - [Marriott St. Regis](https://www.marriott.com/hotels/travel/yyzxr-the-st-regis-toronto/), 325 Bay Street
 
-### Other Short-term rentals
+### Other short-term rentals
 
 Additional care to take if engaging in a short-term rental in Toronto:
 
