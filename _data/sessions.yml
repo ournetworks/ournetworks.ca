@@ -450,6 +450,13 @@
     description: >
       Made in Iran is the outcome of several interviews with 12 Iranian individuals, living in the United States, whose lives  are  affected  by  the  travel  ban.  Throughout  this  conversation  they  portrayed  how,  as  the  result of recent feuds between the two countries, their identities are often assumed by others to only comprise  their  nationality.  In  this  project  I  tried  to  portray  their  complexity,  depth  and  presence  by  interviewing  them  and  asking  them  to  share  in  a  series  of  words  and  images  that  more  accurately  reflects their identity.
     sessionType: "exhibit"
+    images:
+      - src: farhad-1.jpg
+        alt: Made in Iran, Farhad Bahram
+        width: 70%
+      - src: farhad-2.jpg
+        width: 28.3%
+        alt: Made in Iran, Farhad Bahram
     
   - sessionID: 19007
     title: "Collaboratively backing up IPFS content with IPFS Cluster"

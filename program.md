@@ -181,7 +181,7 @@ fullWidth: true
 
 
 ## Saturday > September 21
-{: .schedule-spacer.heading-2-5.fw-normal}
+{: .mt-2.heading-2-5.fw-normal}
 
 <table class="schedule-table">
 <thead>
@@ -428,7 +428,7 @@ fullWidth: true
 
 
 ## Sunday > September 22
-{: .schedule-spacer.heading-2-5.fw-normal}
+{: .mt-2.heading-2-5.fw-normal}
 
 <table class="schedule-table">
 <thead>
@@ -621,7 +621,7 @@ fullWidth: true
 
 <div class="session-detail program-block content-width">
   <a class="program-block-anchor" id="keynote-panel-may-first,-technology-and"></a>
-  <div class="program-block-content">
+  <div class="program-block-content p-1">
     <header class="session-header">
       <h3 class="session-title heading">May First, Technology and Revolution</h3>
           <ul class="ls-none pl-0">
