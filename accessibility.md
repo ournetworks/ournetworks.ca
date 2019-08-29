@@ -2,7 +2,7 @@
 layout: page
 order: 4
 title: "Accessibility"
-parent: "About the Event"
+parent: "About the event"
 ---
 
 We strive to reduce barriers that would prevent people from participating and is current as of August 2019.

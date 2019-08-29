@@ -1,7 +1,7 @@
 ---
 layout: page
 order: 1
-title: "About the Event"
+title: "About the event"
 titleDisplay: "About"
 redirect_from:
   - "/2018/about"

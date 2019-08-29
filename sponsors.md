@@ -3,7 +3,7 @@ layout: page
 order: 2
 title: "Sponsors"
 titleDisplay: "Sponsors"
-parent: "About the Event"
+parent: "About the event"
 ---
 
 Our Networks is volunteer-run and would not be possible without the support of our partners and sponsors.
