@@ -8,7 +8,7 @@ parent: "About the event"
 
 Our Networks is volunteer-run and would not be possible without the support of our partners and sponsors.
 
-## Tier 1 Network Sponsors
+## Tier 1 network sponsors
 {: .mt-1.mb-1.color-accent.fw-normal}
 
 <div class="flex flex-align-center">
@@ -20,7 +20,7 @@ Our Networks is volunteer-run and would not be possible without the support of o
   </div>
 </div>
 
-## Tier 2 Network Sponsors
+## Tier 2 network sponsors
 {: .mt-1.color-accent.fw-normal}
 
 <div class="flex">
@@ -33,7 +33,7 @@ Our Networks is volunteer-run and would not be possible without the support of o
 </div>
 
 
-## Tier 3 Network Sponsors
+## Tier 3 network sponsors
 {: .mt-1.color-accent.fw-normal}
 
 <div class="flex">
@@ -45,7 +45,7 @@ Our Networks is volunteer-run and would not be possible without the support of o
   </div>
 </div>
 
-## In-Kind Sponsors
+## In-kind sponsors
 {: .mt-1.color-accent.fw-normal}
 
 <div class="flex">
@@ -54,7 +54,7 @@ Our Networks is volunteer-run and would not be possible without the support of o
   </div>
 </div>
 
-## Venue Partners
+## Venue partners
 {: .mt-1.color-accent.fw-normal}
 
 <div class="flex">
