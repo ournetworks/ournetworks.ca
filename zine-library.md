@@ -7,12 +7,14 @@ titleDisplay: "Zine Library"
 
 We're hosting a free and open zine library throughout the conference that will feature both paper and digital zines. To help grow our library, we're calling for zines that fall under this year's theme. 
 
-We're seeking to curate resources will help us in the collective care and maintenance of alternative networking practices. 
+We're seeking to curate resources will help us in the collective care and maintenance of alternative networking practices.
 
 > How can our networking be reparative? In what ways can we remediate existing communication infrastructures? Are there uncooptable computing reconfigurations? How can we reconstruct technology after refusal? What are regenerative approaches to resist status quo tech?
 {:.border-left.pl-1.ml-1}
 
 Got a digital/paper zine or any printed ephemera that fits along those lines? Submit it below!
+
+This is an open call until the conference.
 
 ### Note: 
 - we can accept digital or paper copies of zines mailed directly to us 
