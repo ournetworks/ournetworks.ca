@@ -470,6 +470,7 @@ fullWidth: true
   <td></td>
   <td>:15</td>
   <td colspan="1" rowspan="2" class="session-block session-{% include session-type.html session-id=19027 %}">{% include session.html year=2019 session-id=19027 %}</td>
+  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19025 %}">{% include session.html year=2019 session-id=19025 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -493,6 +494,7 @@ fullWidth: true
   <td></td>
   <td>:30</td>
   <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19997 %}">{% include session.html year=2019 session-id=19997 %}</td>
+  <td colspan="1" rowspan="6" class="session-block session-{% include session-type.html session-id=19028 %}">{% include session.html year=2019 session-id=19028 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -537,7 +539,6 @@ fullWidth: true
   <td>:00</td>
   <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19997 %}">{% include session.html year=2019 session-id=19997 %}</td>
   <td colspan="1" rowspan="8" class="session-block session-{% include session-type.html session-id=19007 %}">{% include session.html year=2019 session-id=19007 %}</td>
-  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19025 %}">{% include session.html year=2019 session-id=19025 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -555,7 +556,6 @@ fullWidth: true
   <td>15</td>
   <td>:00</td>
   <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19030 %}">{% include session.html year=2019 session-id=19030 %}</td>
-  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19028 %}">{% include session.html year=2019 session-id=19028 %}</td>
 </tr>
 <tr>
   <td></td>
