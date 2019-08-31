@@ -35,7 +35,7 @@ We have three admission levels: Organization Supporter, Supporter, and Reduced C
 
 ***
 
-### Want to know more? Ask Us!
+### Want to know more? Ask us!
 
 We have more open hours for people to ask questions and discuss activities for open spaces at the conference. No prior registration needed, just visit: [https://meet.jit.si/ournetworks](https://meet.jit.si/ournetworks).
 

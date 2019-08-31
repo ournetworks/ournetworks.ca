@@ -18,7 +18,7 @@ Got a digital/paper zine or any printed ephemera that fits along those lines? Su
 - we can accept digital or paper copies of zines mailed directly to us 
 - the library will be a lending library with patrons able to "check out" [make copies] of zines 
 
-## Send Us Your Zines!
+## Send us your zines!
 {:.mt-1}
 
 <form action="https://formspree.io/orga@ournetworks.ca" class="form-container" method="POST">
@@ -70,7 +70,7 @@ Got a digital/paper zine or any printed ephemera that fits along those lines? Su
     </div>
     </fieldset>
   </div>
-  <input type="submit" name="submit" value="Submit Your Zine" class="button button-primary mb-2">
+  <input type="submit" name="submit" value="Submit your zine" class="button button-primary mb-2">
   <input type="hidden" name="_format" value="plain">
   <input type="hidden" name="_subject" value="zine submitted">
   <input type="hidden" name="_next" value="//ournetworks.ca/zine-library?update=submitted">

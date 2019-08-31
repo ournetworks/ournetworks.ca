@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 4
+order: 1
 title: "Accessibility"
 parent: "About the event"
 ---
