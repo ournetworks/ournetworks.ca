@@ -53,7 +53,7 @@ after_deploy:
   - npm i -g ipfs-deploy garrying/make-relative
   - cd _site
   - echo $DATKEY | dat keys import
-  - travis_wait 1 dat sync &> /dev/null || travis_terminate 0
+  - timeout 60 dat sync
   - rm -fr .dat .well-known
   - make-relative https://ournetworks.ca
   - ipd . -O -C
