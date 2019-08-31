@@ -41,7 +41,7 @@ Our Networks is volunteer-run and would not be possible without the support of o
     <a href="https://dat.foundation/" rel="noopener"><img src="/images/logos/dat-logo.svg" width="115" alt="Dat Foundation logo" /></a>
   </div>
   <div class="mt-2">
-    <a href="https://infura.io/" rel="noopener"><img src="/images/logos/infura-black-logo.svg" width="115" alt="Infura logo" /></a>
+    <a href="https://infura.io/" rel="noopener"><img src="/images/logos/infura-black-logo.svg" width="200" alt="Infura logo" /></a>
   </div>
 </div>
 
