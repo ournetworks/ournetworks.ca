@@ -14,7 +14,7 @@ We're seeking to curate resources will help us in the collective care and mainte
 
 Got a digital/paper zine or any printed ephemera that fits along those lines? Submit it below!
 
-Note: 
+### Note: 
 - we can accept digital or paper copies of zines mailed directly to us 
 - the library will be a lending library with patrons able to "check out" [make copies] of zines 
 
@@ -24,7 +24,7 @@ Note:
 <form action="https://formspree.io/orga@ournetworks.ca" class="form-container" method="POST">
   <div class="mb-2">
     <div class="w-33">
-      <label class="fw-bold" for="zine-name">Zine name:</label>
+      <label class="fw-bold" for="zine-name">Zine title:</label>
       <input type="text" id="zine-name" class="input mb-1 w-100" name="zine-name" required>
     </div>
     <div class="w-33">
@@ -48,6 +48,9 @@ Note:
     <fieldset class="p-0 m-0">
       <legend class="mb-1">Let us know if:</legend>
       <div class="flex mb-05 flex-align-baseline">
+        <input type="checkbox" class="mr-05" id="mailed" name="zine-mailed" value="mailed"><label class="fw-bold" for="mailed">I would like to mail the zine</label>
+      </div>
+      <div class="flex mb-05 flex-align-baseline">
         <input type="checkbox" class="mr-05" id="copied" name="zine-copy-permission" value="not copied"><label class="fw-bold" for="copied">I do not want this zine copied/checked out</label>
       </div>
     </fieldset>
@@ -55,7 +58,6 @@ Note:
   <div class="mb-2">
     <h3>Contact</h3>
     <fieldset class="p-0 m-0">
-    <legend class="mb-1">Please confirm your preferred pronunciation and pronouns as presenter(s):</legend>
     <div class="flex">
       <div class="w-33">
         <label class="fw-bold" for="author">Author name:</label>
