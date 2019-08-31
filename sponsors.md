@@ -15,7 +15,7 @@ Our Networks is volunteer-run and would not be possible without the support of o
   <div class="mr-2">
     <a href="https://www.internetsociety.org/" rel="noopener"><img src="/images/logos/internet-society-logo.svg" width="250" alt="Internet Society logo" /></a>
   </div>
-  <div class="">
+  <div>
     <a href="https://www.mozilla.org/en-US/moss/" rel="noopener"><img src="/images/logos/moss-logo.svg" width="150" alt="Mozilla Open Source Support (MOSS) logo" /></a>
   </div>
 </div>
@@ -37,8 +37,11 @@ Our Networks is volunteer-run and would not be possible without the support of o
 {: .mt-1.color-accent.fw-normal}
 
 <div class="flex">
-  <div class="mt-1">
+  <div class="mt-1 mr-2">
     <a href="https://dat.foundation/" rel="noopener"><img src="/images/logos/dat-logo.svg" width="115" alt="Dat Foundation logo" /></a>
+  </div>
+  <div class="mt-2">
+    <a href="https://infura.io/" rel="noopener"><img src="/images/logos/infura-black-logo.svg" width="115" alt="Infura logo" /></a>
   </div>
 </div>
 
@@ -51,14 +54,14 @@ Our Networks is volunteer-run and would not be possible without the support of o
   </div>
 </div>
 
-## Venue Partner
+## Venue Partners
 {: .mt-1.color-accent.fw-normal}
 
 <div class="flex">
-  <div class="mt-1">
-    <a href="https://www.tomediaarts.org/" rel="noopener"><img src="/images/logos/tmac-logo.svg" width="250" alt="Toronto Media Arts Centre logo" /></a>
+  <div class="mt-1 mr-2">
+    <a href="https://www.tomediaarts.org/" rel="noopener"><img src="/images/logos/tmac-logo.svg" width="200" alt="Toronto Media Arts Centre logo" /></a>
   </div>
   <div class="mt-1">
-    <a href="https://www.gammaspace.ca/" rel="noopener"><img src="/images/logos/gamma-space-logo.svg" width="250" alt="Gamma Space logo" /></a>
+    <a href="https://www.gammaspace.ca/" rel="noopener"><img src="/images/logos/gamma-space-logo.svg" width="340" alt="Gamma Space logo" /></a>
   </div>
 </div>
