@@ -16,7 +16,8 @@ Got a digital/paper zine or any printed ephemera that fits along those lines? Su
 
 ### Note: 
 - we can accept digital or paper copies of zines mailed directly to us 
-- the library will be a lending library with patrons able to "check out" [make copies] of zines 
+- the library will be a lending library with patrons able to "check out" [make copies] of zines
+- we will be making a catalog to list all zines submitted to the Zine Library
 
 ## Send us your zines!
 {:.mt-1}
@@ -42,7 +43,7 @@ Got a digital/paper zine or any printed ephemera that fits along those lines? Su
       <input type="text" id="zine-link" class="input mb-1 w-100" name="zine-link" required>
     </div>
     <div class="w-33">
-      <label class="fw-bold" for="zine-purchase-link">Link to purchase:</label>
+      <label class="fw-bold" for="zine-purchase-link">If selling the zine, link to purchase:</label>
       <input type="text" id="zine-purchase-link" class="input mb-1 w-100" name="zine-purchase-link" required>
     </div>
     <fieldset class="p-0 m-0">
