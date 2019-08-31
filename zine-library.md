@@ -39,7 +39,7 @@ Got a digital/paper zine or any printed ephemera that fits along those lines? Su
       </select>
     </div>
     <div class="w-33">
-      <label class="fw-bold" for="zine-link">Link to zine:</label>
+      <label class="fw-bold" for="zine-link">If digital, link to zine:</label>
       <input type="text" id="zine-link" class="input mb-1 w-100" name="zine-link" required>
     </div>
     <div class="w-33">
