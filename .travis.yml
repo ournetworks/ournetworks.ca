@@ -32,7 +32,10 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
   - secure: KIHluwSEKJjtUSt8jBzOvjgvzWUcsI/lOSMSY7d6mRIMq30rTnBAiqZ25sf7IX0dEP++fbLidxptcFwi4TNI05GyWY3bEqV9KYJF3T6QRVk4IG1ff+O4b0zWKcmbvax0aV8+yeXEMmKlMd8/b+3AzjbLRMv51aTp9Yz5D/ffjnbmDQFzZibP5E0BlEL1kRbcf+cRv/idclLaslIV3dlNy0wdJAhBLP9FtlDZNgLLwDe8IXjrQU98yeQOgufdJCdnqAzZu/Upo+7yYfGaF0PMyoKSZW5LIRw59NkhumCFNkZOgusPalIWBbkKIlxZXjsPYqj3iJxoWzxismWs7S9FjQuCo6QuDpIW5gvmZWFn4GD3BTTFs4S07KKNI/hRK5tz89IF/WfiT1bGg6pubDMZJfHVAUGgB+zpQmn5mnK5t7JFyJ7PP4RrfPGWBCBCTU9zYIA9r2GnzZn2ISPMEyzpQGN642XHibQ2J8jTKyHlxulru3zh202CiELeo185k7Tm/KCuXr+O5hRTDa/Uc2Y3sn8oOX89DXN68CkgtnweIFv1DnQIuku7GlzA6wzPENIq3Rg6D1BmP3vOs8XZo4BI6xXen4aUAiTEgMoTQC/EK27x8GbzS2940xwrHzpv2EL7Ub8HaLc1e0ILqjXIrWouM+kvKkQeCXqdnFpdOuhZ5UE=
 
-cache: bundler
+cache:
+  bundler: true
+  directories:
+  - node_modules # NPM packages
 
 script: travis_retry bundle exec htmlproofer --check-html --allow-hash-href --internal_domains "/www.ournetworks.ca/,/ournetworks.ca/" ./_site
 
@@ -47,9 +50,13 @@ deploy:
       - master
 
 after_deploy:
+  - npm i -g ipfs-deploy garrying/make-relative
   - cd _site
   - echo $DATKEY | dat keys import
   - travis_wait 1 dat sync &> /dev/null || travis_terminate 0
+  - rm -fr .dat .well-known
+  - make-relative https://ournetworks.ca
+  - ipd . -O -C
 
 notifications:
   email:
