@@ -58,4 +58,7 @@ Our Networks is volunteer-run and would not be possible without the support of o
   <div class="mt-1">
     <a href="https://www.tomediaarts.org/" rel="noopener"><img src="/images/logos/tmac-logo.svg" width="250" alt="Toronto Media Arts Centre logo" /></a>
   </div>
+  <div class="mt-1">
+    <a href="https://www.gammaspace.ca/" rel="noopener"><img src="/images/logos/gamma-space-logo.svg" width="250" alt="Gamma Space logo" /></a>
+  </div>
 </div>
