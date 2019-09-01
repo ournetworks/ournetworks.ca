@@ -707,6 +707,9 @@
       - nahee
     description: > 
       <Torrents of Sex> is one of the projects of Nahee.app, web-based performance project about sex and network technology. Assuming that someday human can upload and download their somatic sensations onto the web, Nahee.app designed peer-to-peer polyamorous sexual relationship network protocol <Torrents of Sex>, inspired by BitTorrent’s file distribution & peer selection algorithms. In this project, I regard myself as a web application having sexual desire and speculate what would happen if that programmable entity can have sexual relationships as we do. With their programmability which is the biggest difference of <Nahee.app> from real human, <Nahee.app> approaches technology as a tool for redefining ingrained ways of having sexual relationship
+    images:
+      - src: nahee-1.png
+        alt: Torrents of Se, Nahee Kim
 
   - sessionID: 19033
     title: "Waiting for NIN in New Orleans"
