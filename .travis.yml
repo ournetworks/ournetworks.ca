@@ -31,6 +31,7 @@ env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
   - secure: KIHluwSEKJjtUSt8jBzOvjgvzWUcsI/lOSMSY7d6mRIMq30rTnBAiqZ25sf7IX0dEP++fbLidxptcFwi4TNI05GyWY3bEqV9KYJF3T6QRVk4IG1ff+O4b0zWKcmbvax0aV8+yeXEMmKlMd8/b+3AzjbLRMv51aTp9Yz5D/ffjnbmDQFzZibP5E0BlEL1kRbcf+cRv/idclLaslIV3dlNy0wdJAhBLP9FtlDZNgLLwDe8IXjrQU98yeQOgufdJCdnqAzZu/Upo+7yYfGaF0PMyoKSZW5LIRw59NkhumCFNkZOgusPalIWBbkKIlxZXjsPYqj3iJxoWzxismWs7S9FjQuCo6QuDpIW5gvmZWFn4GD3BTTFs4S07KKNI/hRK5tz89IF/WfiT1bGg6pubDMZJfHVAUGgB+zpQmn5mnK5t7JFyJ7PP4RrfPGWBCBCTU9zYIA9r2GnzZn2ISPMEyzpQGN642XHibQ2J8jTKyHlxulru3zh202CiELeo185k7Tm/KCuXr+O5hRTDa/Uc2Y3sn8oOX89DXN68CkgtnweIFv1DnQIuku7GlzA6wzPENIq3Rg6D1BmP3vOs8XZo4BI6xXen4aUAiTEgMoTQC/EK27x8GbzS2940xwrHzpv2EL7Ub8HaLc1e0ILqjXIrWouM+kvKkQeCXqdnFpdOuhZ5UE=
+  - secure: aEcUhRapTJc+il4iKB9bZv87snOLNS5bfbZeLDM2fnz++IZMKaZljqJJysnCr94UwtKzUlWd8vRESunTECaou8E8FSEtOCfOb0gRhDD/K5Si5AVruFwsmM/REvGHJw5kA98ZPmldC9wQrfchnt42Ej2fZuxrAJDKqhnCC+/id4V2+R4KJhvaV0uRinIHP4TpGgCj8/xcxc1Hy6hqC/8u1XFOT1/cqU52yeWAWoxKnCQhXxRybJoFqnuNN0Z3Z/Rhtib2T9+puB6OoXmiHxJFF+CUyjJPXTqDB213BWiT9j3ktfQrUZ0pHrYg4tZ6LPM/SPDFmxw+8q1h38nBrGTzDUOKF4y/elepxWco3Ze1W+nXOKubf9CTRGF2ofkBPDbZjOlCT+OSs5UNZGYQoQtAFG25dvEaTJmnT6d68/qObJIXXA5JNS/Zp6WRp6yzwDXC43LDQRk8ATfiduOfLNp+r6ov/EMSZVzlMz+a0V80AtkSAyHoRMERisJsKSV7K+dsFglkUMAla4Q/peFzHN61HiZ1h1ph/oZNgUkNdh5TDOYWfs+2PCZHmx88iCHTCuR1S+Bua3qDT9CLCfS+bUZDyiQh3LxujVpouKEQwvWo2yUlbjPTZC/4O8Cx0i1/32fjrOgAVLkEaXDCHVb0e2MN8fNKexqCb6g9ecESZ9G8rhQ=
 
 cache:
   bundler: true
@@ -57,6 +58,7 @@ after_deploy:
   - rm -fr .dat .well-known
   - make-relative https://ournetworks.ca
   - ipd . -O -C
+  - bash scripts/txt.sh ournetworks.ca ipfs-website "ipfs/<hash>"
 
 notifications:
   email:
