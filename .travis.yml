@@ -20,6 +20,7 @@ before_install:
 
 before_script:
   # Build Jekyll site
+  - bash scripts/txt.sh ournetworks.ca ipfs-website "ipfs/<hash>"
   - bundle exec jekyll build
 
 addons:
@@ -58,7 +59,6 @@ after_deploy:
   - rm -fr .dat .well-known
   - make-relative https://ournetworks.ca
   - ipd . -O -C
-  - bash scripts/txt.sh ournetworks.ca ipfs-website "ipfs/<hash>"
 
 notifications:
   email:
