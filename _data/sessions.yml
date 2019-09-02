@@ -750,3 +750,14 @@
     sessionType: "workshop"
     date: 2019-09-20
     length: 2
+
+  - sessionID: 19037
+    title: "Pale Eyes"
+    descriptionLink: ""
+    presenterID:
+      - ben
+    description: > 
+      Pale Eyes is the pop music of electronic musician and sound artist Ben McCarthy, reaching the top ten on Canada’s college electronic music charts. 2019’s Paranoia Is Appropriate with Ryan Somerville brings together cinematic orchestral arrangements with trappy beats and IDM textures. His 2018 solo album little music spans blown-out dj ensembles, found sound ambient music, and texturally dense MPC-derived rhythms, moving from abstract figures and lush idiosyncratic timbres, to lurching beats and spiraling loops.  
+    sessionType: "performance"
+    date: 2019-09-20
+    length: 0.5
