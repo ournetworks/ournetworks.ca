@@ -36,11 +36,11 @@ Our Networks is volunteer-run and would not be possible without the support of o
 ## Tier 3 network sponsors
 {: .mt-1.color-accent.fw-normal}
 
-<div class="flex">
+<div class="flex flex-align-center">
   <div class="mt-1 mr-2">
     <a href="https://dat.foundation/" rel="noopener"><img src="/images/logos/dat-logo.svg" width="115" alt="Dat Foundation logo" /></a>
   </div>
-  <div class="mt-2">
+  <div class="mt-1">
     <a href="https://infura.io/" rel="noopener"><img src="/images/logos/infura-black-logo.svg" width="200" alt="Infura logo" /></a>
   </div>
 </div>
