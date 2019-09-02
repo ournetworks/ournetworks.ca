@@ -12,6 +12,8 @@ titleDisplay: "Visiting"
   - [Unionized hotels](#unionized-hotels)
   - [Other short-term rentals](#other-short-term-rentals)
 
+---
+
 ## Getting around 
 
 Toronto is easy to travel by bicycle, using public transit, and on foot around the event venue.
