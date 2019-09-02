@@ -378,12 +378,18 @@
     length: 1.5
 
   - sessionID: 19995
-    title: "Keynote Panel: May First, Technology and Revolution"
+    title: "Keynote panel: May First, technology and revolution"
     sessionType: "keynote"
     date: 2019-09-21
     length: 1.5
     presenterID:
       - alfredo
+
+  - sessionID: 19996
+    title: "Outdoor Screening"
+    sessionType: "orga"
+    date: 2019-09-21
+    length: 1.5
 
   - sessionID: 19997
     title: "Lightning talks"
@@ -444,6 +450,13 @@
     description: >
       Made in Iran is the outcome of several interviews with 12 Iranian individuals, living in the United States, whose lives  are  affected  by  the  travel  ban.  Throughout  this  conversation  they  portrayed  how,  as  the  result of recent feuds between the two countries, their identities are often assumed by others to only comprise  their  nationality.  In  this  project  I  tried  to  portray  their  complexity,  depth  and  presence  by  interviewing  them  and  asking  them  to  share  in  a  series  of  words  and  images  that  more  accurately  reflects their identity.
     sessionType: "exhibit"
+    images:
+      - src: farhad-1.jpg
+        alt: Made in Iran, Farhad Bahram
+        width: 70%
+      - src: farhad-2.jpg
+        width: 28.3%
+        alt: Made in Iran, Farhad Bahram
     
   - sessionID: 19007
     title: "Collaboratively backing up IPFS content with IPFS Cluster"
@@ -694,6 +707,9 @@
       - nahee
     description: > 
       <Torrents of Sex> is one of the projects of Nahee.app, web-based performance project about sex and network technology. Assuming that someday human can upload and download their somatic sensations onto the web, Nahee.app designed peer-to-peer polyamorous sexual relationship network protocol <Torrents of Sex>, inspired by BitTorrent’s file distribution & peer selection algorithms. In this project, I regard myself as a web application having sexual desire and speculate what would happen if that programmable entity can have sexual relationships as we do. With their programmability which is the biggest difference of <Nahee.app> from real human, <Nahee.app> approaches technology as a tool for redefining ingrained ways of having sexual relationship
+    images:
+      - src: nahee-1.png
+        alt: Torrents of Se, Nahee Kim
 
   - sessionID: 19033
     title: "Waiting for NIN in New Orleans"
@@ -728,7 +744,7 @@
     length: X
 
   - sessionID: 19036
-    title: "Mesh Workshop"
+    title: "Mesh workshop"
     presenterID:
     description: > 
     sessionType: "workshop"

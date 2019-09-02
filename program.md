@@ -181,7 +181,7 @@ fullWidth: true
 
 
 ## Saturday > September 21
-{: .schedule-spacer.heading-2-5.fw-normal}
+{: .mt-2.heading-2-5.fw-normal}
 
 <table class="schedule-table">
 <thead>
@@ -374,12 +374,61 @@ fullWidth: true
   <td></td>
   <td>:45</td>
 </tr>
+<tr>
+  <td>19</td>
+  <td>:00</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:15</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:45</td>
+</tr>
+<tr>
+  <td>20</td>
+  <td>:00</td>
+  <td colspan="4" rowspan="8" class="session-block session-{% include session-type.html session-id=19996 %}">{% include session.html year=2019 session-id=19996 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:15</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:45</td>
+</tr>
+<tr>
+  <td>21</td>
+  <td>:00</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:15</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:45</td>
+</tr>
 </tbody>
 </table>
 
 
 ## Sunday > September 22
-{: .schedule-spacer.heading-2-5.fw-normal}
+{: .mt-2.heading-2-5.fw-normal}
 
 <table class="schedule-table">
 <thead>
@@ -421,6 +470,7 @@ fullWidth: true
   <td></td>
   <td>:15</td>
   <td colspan="1" rowspan="2" class="session-block session-{% include session-type.html session-id=19027 %}">{% include session.html year=2019 session-id=19027 %}</td>
+  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19025 %}">{% include session.html year=2019 session-id=19025 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -444,6 +494,7 @@ fullWidth: true
   <td></td>
   <td>:30</td>
   <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19997 %}">{% include session.html year=2019 session-id=19997 %}</td>
+  <td colspan="1" rowspan="6" class="session-block session-{% include session-type.html session-id=19028 %}">{% include session.html year=2019 session-id=19028 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -488,7 +539,6 @@ fullWidth: true
   <td>:00</td>
   <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19997 %}">{% include session.html year=2019 session-id=19997 %}</td>
   <td colspan="1" rowspan="8" class="session-block session-{% include session-type.html session-id=19007 %}">{% include session.html year=2019 session-id=19007 %}</td>
-  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19025 %}">{% include session.html year=2019 session-id=19025 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -506,7 +556,6 @@ fullWidth: true
   <td>15</td>
   <td>:00</td>
   <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19030 %}">{% include session.html year=2019 session-id=19030 %}</td>
-  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19028 %}">{% include session.html year=2019 session-id=19028 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -567,14 +616,14 @@ fullWidth: true
 ## Keynote: TBA
 {:.mt-1.heading-2-5.fw-normal.color-accent}
 
-## Keynote Panel
+## Keynote panel
 {:.mt-1.heading-2-5.fw-normal.color-accent}
 
 <div class="session-detail program-block content-width">
   <a class="program-block-anchor" id="keynote-panel-may-first,-technology-and"></a>
-  <div class="program-block-content">
+  <div class="program-block-content p-1">
     <header class="session-header">
-      <h3 class="session-title heading">May First, Technology and Revolution</h3>
+      <h3 class="session-title heading">May First, technology and revolution</h3>
           <ul class="ls-none pl-0">
             <li><h4 class="session-presenter">&gt; <a href="#alfredo">Alfredo Lopez</a></h4></li></ul></header><div class="session-caption">
               <p>Technology has so fundamentally changed our society that any strategy for social change must be altered to address its power over us. But it also gives us the potential to develop and realize the kind of society we all want and to do that within our lifetimes. Information technology is the most powerful tool for change we have.</p>
@@ -598,7 +647,7 @@ fullWidth: true
   {%- endunless -%}
 {% endfor %}
 
-## Exhibited Works
+## Exhibited works
 {:.mt-1.heading-2-5.fw-normal.color-accent data-nav-program-link=''}
 
 {% for session in sortedSessions %}
