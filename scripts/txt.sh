@@ -9,7 +9,7 @@
 #
 # Example:
 #
-#     ./txt.sh ournetworks.ca ipfs-website "ipfs/QmQQfD1ztg1aG82VmUmutusbxn7tL4c2o1qHv1ivyWbNj6"
+#     ./txt.sh ournetworks.ca ipfs-website "dnslink=/ipfs/QmbfXYeieYgXZs7KdomE5wHQwoLRCPkYywwWpo1C9gfC3f"
 #
 #
 DOMAIN=$1

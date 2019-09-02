@@ -58,7 +58,7 @@ after_deploy:
   - rm -fr .dat .well-known
   - make-relative https://ournetworks.ca
   - ipd . -O -C
-  - bash scripts/txt.sh ournetworks.ca ipfs-website "ipfs/<hash>"
+  - bash scripts/txt.sh ournetworks.ca ipfs-website "dnslink=/ipfs/<hash>"
 
 notifications:
   email:
