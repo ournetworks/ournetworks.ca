@@ -7,7 +7,7 @@ parent: "About the event"
 
 We strive to reduce barriers that would prevent people from participating and is current as of August 2019.
 
-If you require interpretation, supervised childcare, or have any other access needs or questions, please contact {{ site.email }}, ideally two weeks in advance.
+If you require interpretation, supervised childcare, or have any other access needs or questions, please contact [{{ site.email }}](mailto:{{ site.email }}), ideally two weeks in advance.
 
 ## Moving
 
