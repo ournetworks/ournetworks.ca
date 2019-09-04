@@ -511,6 +511,14 @@
       'Currency' is an electronic game and custom game console constructed from an obsolete 1917 Burroughs adding machine and a microcontroller. The console monitors the exchange rate of bitcoins to US dollars and uses this data to generate a game level that prints out on a roll of receipt paper. Using the adding machine's grid of numeric buttons, players attempt to pull two columns of printed ASCII symbols together while being either aided or impeded by the current Bitcoin value.
     sessionType: "exhibit" 
     date: 2019-09-20
+    images:
+      - src: sphere-1.jpg
+        alt: Sphere, Sphere Collective
+        width: 47.5%
+      - src: sphere-2.jpg
+        width: 51.7%
+        alt: Sphere, Sphere Collective
+
 
   - sessionID: 19012
     title: "Collective resistance to state controls on information"
@@ -553,6 +561,13 @@
       The Magi system is a two channel animation which explores the aesthetics of network infrastructure. There has been a recent trend of users posting pictures of server racks and network wiring on forums like reddits r/Cableporn and r/Cablefail. These images have spread out and proliferated on hashtag based platforms like Instagram and Pinterest. This project uses images and themes from these platforms as a starting point to investigate popular conceptions of how we visualise network infrastructure.
     sessionType: "exhibit"
     date: 2019-09-20
+    images:
+      - src: tobias-1.jpg
+        alt: The Magi system, exploring the aesthetics of network infrastructure, Tobias Williams
+        width: 36%
+      - src: tobias-2.jpg
+        width: 64%
+        alt: The Magi system, exploring the aesthetics of network infrastructure, Tobias Williams
 
   - sessionID: 19016
     title: "On the wire"
