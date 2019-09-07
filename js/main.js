@@ -165,21 +165,21 @@ function getRandomWord(word1) {
 
 // zine library
 
-$('#zine-link').hide();
+$('#zine-link-field').hide();
 $('#zine-options').hide();
 
 $('#zine-format').change(function() {
     if ($('#zine-format').val() === 'select') {
-      $('#zine-link').hide();
+      $('#zine-link-field').hide();
       $('#zine-options').hide();
     } else if ($('#zine-format').val() === 'digital') {
-      $('#zine-link').show();
+      $('#zine-link-field').show();
       $('#zine-options').hide();
     } else if ($('#zine-format').val() === 'paper') {
-      $('#zine-link').hide();
+      $('#zine-link-field').hide();
       $('#zine-options').show();
     } else {
-      $('#zine-link').show();
+      $('#zine-link-field').show();
       $('#zine-options').show();
     }
 });

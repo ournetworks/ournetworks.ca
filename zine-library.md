@@ -43,9 +43,9 @@ This is an open call until the conference.
         <option value="other">Other ephemera</option>
       </select>
     </div>
-    <div class="w-33" id="zine-link">
+    <div class="w-33" id="zine-link-field">
       <label class="fw-bold" for="zine-link">Link:</label>
-      <input type="text" id="zine-link-field" class="input mb-1 w-100" name="zine-link" required>
+      <input type="text" id="zine-link" class="input mb-1 w-100" name="zine-link" required>
     </div>
     <fieldset class="p-0 m-0" id="zine-options">
       <legend class="mb-1">Let us know if:</legend>
