@@ -163,6 +163,24 @@ function getRandomWord(word1) {
   }
 }
 
+// zine library
+
+$('#zine-link').hide();
+$('#zine-options').hide();
+
+$('#zine-format').change(function() {
+    if ($('#zine-format').val() === 'digital') {
+      $('#zine-link').show();
+      $('#zine-options').hide();
+    } else if ($('#zine-format').val() === 'paper') {
+      $('#zine-link').hide();
+      $('#zine-options').show();
+    } else {
+      $('#zine-link').show();
+      $('#zine-options').show();
+    }
+});
+
 window.setInterval(function() {
   let randWord = words[getRandomWord(word1)]
   $('.word').each(function() {
