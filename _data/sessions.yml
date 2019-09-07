@@ -513,11 +513,11 @@
     date: 2019-09-20
     images:
       - src: sphere-1.jpg
-        alt: Sphere, Sphere Collective
+        alt: Currency, Sphere Collective
         width: 47.5%
       - src: sphere-2.jpg
         width: 51.7%
-        alt: Sphere, Sphere Collective
+        alt: Currency, Sphere Collective
 
 
   - sessionID: 19012
