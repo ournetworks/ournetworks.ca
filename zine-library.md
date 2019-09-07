@@ -27,33 +27,32 @@ This is an open call until the conference.
 <form action="https://formspree.io/orga@ournetworks.ca" class="form-container" method="POST">
   <div class="mb-2">
     <div class="w-33">
-      <label class="fw-bold" for="zine-name">Zine title:</label>
+      <label class="fw-bold" for="zine-name">Title:</label>
       <input type="text" id="zine-name" class="input mb-1 w-100" name="zine-name" required>
     </div>
     <div class="w-33">
-      <label class="fw-bold" for="zine-format">Zine format:</label><br />
+      <label class="fw-bold" for="zine-format">Format:</label><br />
       <select name="zine-format" id="zine-format" class="input input-select mb-1" required>
         <option value="">Select a format</option>
-        <option>Dat</option>
-        <option>Digital</option>
-        <option>Paper</option>
-        <option>Other</option>
+        <option value="digital">Dat/Digital</option>
+        <option value="paper">Paper</option>
+        <option value="other">Other ephemera</option>
       </select>
     </div>
-    <div class="w-33">
-      <label class="fw-bold" for="zine-link">If digital, link to zine:</label>
+    <div class="w-33" id="zine-link">
+      <label class="fw-bold" for="zine-link">Link:</label>
       <input type="text" id="zine-link" class="input mb-1 w-100" name="zine-link" required>
     </div>
     <div class="w-33">
-      <label class="fw-bold" for="zine-purchase-link">If selling the zine, link to purchase:</label>
+      <label class="fw-bold" for="zine-purchase-link">Link to purchase:</label>
       <input type="text" id="zine-purchase-link" class="input mb-1 w-100" name="zine-purchase-link" required>
     </div>
-    <fieldset class="p-0 m-0">
+    <fieldset class="p-0 m-0" id="zine-options">
       <legend class="mb-1">Let us know if:</legend>
-      <div class="flex mb-05 flex-align-baseline">
+      <div class="flex mb-05 flex-align-baseline" id="zine-mailed">
         <input type="checkbox" class="mr-05" id="mailed" name="zine-mailed" value="mailed"><label class="fw-bold" for="mailed">I would like to mail the zine</label>
       </div>
-      <div class="flex mb-05 flex-align-baseline">
+      <div class="flex mb-05 flex-align-baseline" id="zine-copied">
         <input type="checkbox" class="mr-05" id="copied" name="zine-copy-permission" value="not copied"><label class="fw-bold" for="copied">I do not want this zine copied/checked out</label>
       </div>
     </fieldset>
