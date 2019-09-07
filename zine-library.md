@@ -31,9 +31,13 @@ This is an open call until the conference.
       <input type="text" id="zine-name" class="input mb-1 w-100" name="zine-name" required>
     </div>
     <div class="w-33">
+      <label class="fw-bold" for="zine-purchase-link">Link to purchase:</label>
+      <input type="text" id="zine-purchase-link" class="input mb-1 w-100" name="zine-purchase-link" required>
+    </div>
+    <div class="w-33">
       <label class="fw-bold" for="zine-format">Format:</label><br />
       <select name="zine-format" id="zine-format" class="input input-select mb-1" required>
-        <option value="">Select a format</option>
+        <option value="select">Select a format</option>
         <option value="digital">Dat/Digital</option>
         <option value="paper">Paper</option>
         <option value="other">Other ephemera</option>
@@ -42,10 +46,6 @@ This is an open call until the conference.
     <div class="w-33" id="zine-link">
       <label class="fw-bold" for="zine-link">Link:</label>
       <input type="text" id="zine-link-field" class="input mb-1 w-100" name="zine-link" required>
-    </div>
-    <div class="w-33">
-      <label class="fw-bold" for="zine-purchase-link">Link to purchase:</label>
-      <input type="text" id="zine-purchase-link" class="input mb-1 w-100" name="zine-purchase-link" required>
     </div>
     <fieldset class="p-0 m-0" id="zine-options">
       <legend class="mb-1">Let us know if:</legend>

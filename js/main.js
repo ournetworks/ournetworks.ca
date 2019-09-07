@@ -169,7 +169,10 @@ $('#zine-link').hide();
 $('#zine-options').hide();
 
 $('#zine-format').change(function() {
-    if ($('#zine-format').val() === 'digital') {
+    if ($('#zine-format').val() === 'select') {
+      $('#zine-link').hide();
+      $('#zine-options').hide();
+    } else if ($('#zine-format').val() === 'digital') {
       $('#zine-link').show();
       $('#zine-options').hide();
     } else if ($('#zine-format').val() === 'paper') {
