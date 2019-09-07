@@ -41,7 +41,7 @@ This is an open call until the conference.
     </div>
     <div class="w-33" id="zine-link">
       <label class="fw-bold" for="zine-link">Link:</label>
-      <input type="text" id="zine-link" class="input mb-1 w-100" name="zine-link" required>
+      <input type="text" id="zine-link-field" class="input mb-1 w-100" name="zine-link" required>
     </div>
     <div class="w-33">
       <label class="fw-bold" for="zine-purchase-link">Link to purchase:</label>
