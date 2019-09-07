@@ -58,4 +58,4 @@ We have more open hours for people to ask questions and discuss activities for o
   {% endfor %}
 </section>
 
-If you have any additional questions let us know at [orga@ournetworks.ca](mailto:orga@ournetworks.ca)!
+If you have any additional questions let us know at [{{ site.email }}](mailto:{{ site.email }})!
