@@ -385,3 +385,17 @@
     link: "https://paleeyesmusic.bandcamp.com/"
     linkDisplay: "paleeyesmusic.bandcamp.com"
     instagram: paleeyesmusic
+  
+  - presenterID: jill
+    name: "Jillian Murphy"
+    bio: "Jillian Murphy volunteers with NYC Mesh with a particular passion for breaking down social barriers through technology and education. Jillian is an install leader, event organizer, and author of the organization's monthly newsletter. The IRS knows her as an administrator at New York University where she is also a graduate student in business."
+    link: "http://linkedin.com/in/jillianemurphy"
+    linkDisplay: "linkedin.com/in/jillianemurphy"
+      
+  - presenterID: scott
+    name: "Scott Rasmussen"
+    bio: "Scott Rasmussen focuses on telecommunications policy as it intersects with questions of equity and access. After years of policy work on Capitol Hill, he is now working with NYC Mesh, an open, neutral, and resilient community network aiming to make a home or business internet connection accessible and affordable to all New Yorkers." 
+    link: "https://nycmesh.net"
+    linkDisplay: "nycmesh.net"
+    twitter: "rscooter369"
+    

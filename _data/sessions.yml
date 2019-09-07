@@ -759,12 +759,15 @@
     length: X
 
   - sessionID: 19036
-    title: "Mesh workshop"
+    title: "Meshing Around: DIY Internet"
     presenterID:
+      - jill 
+      - scott
     description: > 
+      In this workshop, participants will build and manipulate a small wireless mesh network, gaining hands-on experience with relevant principles of networking, mesh network topologies, and equipment currently in use by NYC Mesh. The workshop will begin with a short presentation and then divide participants into “mesh node teams” to explore the technology and how it can be adapted to various environments. 
     sessionType: "workshop"
     date: 2019-09-20
-    length: 2
+    length: 1
 
   - sessionID: 19037
     title: "Pale Eyes"
