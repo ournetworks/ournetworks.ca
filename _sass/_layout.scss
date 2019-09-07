@@ -66,6 +66,12 @@
   display: none;
 }
 
+.none-mobile {
+  @media (max-width: $on-palm) {
+    display: none;
+  }
+}
+
 .block {
   display: block;
 }

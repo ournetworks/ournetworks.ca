@@ -5,6 +5,10 @@ title: "Zine Library"
 titleDisplay: "Zine Library"
 ---
 
+![Left road sign](/images/vector-art/road-sign.svg){:.absolute.none-mobile style='width:8vw;left:42%;top:120px;z-index:-1;'}
+
+![Ladder](/images/vector-art/ladder.svg){:.absolute.none-mobile style='width: 15vw;left:40%;top:10px;'}
+
 We're hosting a free and open zine library throughout the conference that will feature both paper and digital zines. To help grow our library, we're calling for zines that fall under this year's theme. 
 
 We're seeking to curate resources will help us in the collective care and maintenance of alternative networking practices.
@@ -20,6 +24,11 @@ This is an open call until the conference.
 - we can accept digital or paper copies of zines mailed directly to us 
 - the library will be a lending library with patrons able to "check out" [make copies] of zines
 - we will be making a catalog to list all zines submitted to the Zine Library
+
+<div class="relative none-mobile">
+  <img alt="Windsock sign" src="/images/vector-art/windsock.svg" class="absolute" style="width:18vw;left:40%;top:40px;z-index:-1;" />
+  <img alt="Rectangular hatched sign" src="/images/vector-art/sign-rectangular.svg" class="absolute" style="width:5vw;left:38%;top:100px;z-index:-2;" />
+</div>
 
 ## Send us your zines!
 {:.mt-1}
