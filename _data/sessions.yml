@@ -551,6 +551,10 @@
       Channel Channel is a project that involves around the basic usage, access and further social dynamics of VPN, which stands for Virtual Private Network. It's a tool to extends a private network to external network environment to provide safe, private access. In practical reality the usage of this tool is embedded in complex situations, such as to circumvent state fire wall and bypass geographically restricted content. This project adopts a DIY working attitude. The underlying technology is provided by PiVPN, an open source free software that runs on a Raspberry Pi. As the Pi is connected to a home network, it's able to provide VPN access. I initiated this project as a response to my personal practical situation. As I live in the Netherlands, I travel back to China from time to time. The state fire wall blocks access to services such as Google, YouTube, Twitter and Instagram. My mail service is dependent on Gmail, I do watch YouTube for occasional "guilty pleasure", not to mention the tutorial I followed on how to set up PiVPN is from a YouTuber. Aside from services that are not blocked by the firewall, access to content sometimes also can be slow, due to more distant network traffic route.
     sessionType: "exhibit"
     date: 2019-09-20
+    images:
+      - src: biyi-1.jpg
+        alt: Channel channel, a network for VPN access, Biyi Wen
+        width: 100%
 
   - sessionID: 19015
     title: "The Magi system, exploring the aesthetics of network infrastructure"
