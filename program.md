@@ -615,9 +615,16 @@ fullWidth: true
 ---
 {: .extended}
 
-<a class="program-block-anchor" id="keynote"></a>
-## Keynote: TBA
+<a class="program-block-anchor" id="keynote-dr.-jennifer-wemigwans,-a-digital"></a>
+## Keynote: A Digital Bundle Protecting and Promoting Indigenous Knowledge Online
 {:.mt-1.heading-2-5.fw-normal.color-accent}
+
+A Digital Bundle Protecting and Promoting Indigenous Knowledge Online looks at ways to advance Indigenous Knowledge on the Internet through Indigenous protocols and ethics while demonstrating a profound appreciation for Indigenous Knowledge systems.
+
+<header class="session-header">
+  <h3 class="session-title">Dr. Jennifer Wemigwans</h3>
+  <p>Dr. Jennifer Wemigwans is Anishnaabekwe (Ojibwe/ Potawatomi) from Wikwemikong First Nation. She is a new media producer, writer and scholar specializing in the convergence between education, Indigenous knowledge and new media technologies. Dr. Wemigwans takes pride in working to invert the conventional use of media by revealing the potential for Indigenous cultural expression and Indigenous knowledge through new technologies, education and the arts.  Her book A Digital Bundle: Protecting and Promoting Indigenous Knowledge Online explores the prospects of education and digital projects in a networked world.  Her work in academia and online technologies puts her in a unique position to tap the pulse of innovation in Indigenous education, the arts, and media.</p>
+</header>
 
 ## Keynote panel
 {:.mt-1.heading-2-5.fw-normal.color-accent}

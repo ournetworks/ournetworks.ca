@@ -372,8 +372,10 @@
     sessionType: "orga"    
   
   - sessionID: 19994
-    title: "Keynote"
+    title: "Keynote: Dr. Jennifer Wemigwans, A Digital Bundle Protecting and Promoting Indigenous Knowledge Online"
     sessionType: "keynote"
+    description: > 
+      A Digital Bundle Protecting and Promoting Indigenous Knowledge Online looks at ways to advance Indigenous Knowledge on the Internet through Indigenous protocols and ethics while demonstrating a profound appreciation for Indigenous Knowledge systems.
     date: 2019-09-20
     length: 1.5
 
