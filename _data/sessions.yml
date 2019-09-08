@@ -779,3 +779,13 @@
     sessionType: "performance"
     date: 2019-09-20
     length: 0.5
+
+  - sessionID: 19038
+    title: "Hands-on Networking"
+    presenterID:
+      - grant
+    description: > 
+      What are mesh networks? How do they work? And why are they interesting? This workshop will explore these questions while learning practical computer networking skills such as... ethernet cable crimping, radio/antenna mounting, wireless channel planning, IP addressing and subnetting, routing and name resolution and so much more! Participants should be familiar with computers and the internet and, of course, possess a healthy appetite for learning. 
+    sessionType: "workshop"
+    date: 2019-09-20
+    length: 1
