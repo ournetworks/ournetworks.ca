@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 1
+order: 3  
 title: "Environment"
 parent: "About the event"
 ---
