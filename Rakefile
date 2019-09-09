@@ -4,7 +4,7 @@ task :test do
   options = {
     check_html: true,
     allow_hash_href: true,
-    internal_domains: ['/www.ournetworks.ca/', '/ournetworks.ca/'],
+    internal_domains: ['ournetworks.ca'],
     hydra: { max_concurrency: 12 },
     http_status_ignore: [999]
   }
