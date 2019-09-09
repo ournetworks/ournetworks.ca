@@ -36,6 +36,7 @@ cache:
   bundler: true
   directories:
   - node_modules # NPM packages
+  - $TRAVIS_BUILD_DIR/tmp/.htmlproofer # HTMLProofer
 
 script:
   - travis_retry bundle exec rake test
