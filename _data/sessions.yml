@@ -372,8 +372,10 @@
     sessionType: "orga"    
   
   - sessionID: 19994
-    title: "Keynote"
+    title: "Keynote: Dr. Jennifer Wemigwans, A Digital Bundle Protecting and Promoting Indigenous Knowledge Online"
     sessionType: "keynote"
+    description: > 
+      A Digital Bundle Protecting and Promoting Indigenous Knowledge Online looks at ways to advance Indigenous Knowledge on the Internet through Indigenous protocols and ethics while demonstrating a profound appreciation for Indigenous Knowledge systems.
     date: 2019-09-20
     length: 1.5
 
@@ -511,6 +513,14 @@
       'Currency' is an electronic game and custom game console constructed from an obsolete 1917 Burroughs adding machine and a microcontroller. The console monitors the exchange rate of bitcoins to US dollars and uses this data to generate a game level that prints out on a roll of receipt paper. Using the adding machine's grid of numeric buttons, players attempt to pull two columns of printed ASCII symbols together while being either aided or impeded by the current Bitcoin value.
     sessionType: "exhibit" 
     date: 2019-09-20
+    images:
+      - src: sphere-1.jpg
+        alt: Currency, Sphere Collective
+        width: 47.5%
+      - src: sphere-2.jpg
+        width: 51.7%
+        alt: Currency, Sphere Collective
+
 
   - sessionID: 19012
     title: "Collective resistance to state controls on information"
@@ -543,6 +553,10 @@
       Channel Channel is a project that involves around the basic usage, access and further social dynamics of VPN, which stands for Virtual Private Network. It's a tool to extends a private network to external network environment to provide safe, private access. In practical reality the usage of this tool is embedded in complex situations, such as to circumvent state fire wall and bypass geographically restricted content. This project adopts a DIY working attitude. The underlying technology is provided by PiVPN, an open source free software that runs on a Raspberry Pi. As the Pi is connected to a home network, it's able to provide VPN access. I initiated this project as a response to my personal practical situation. As I live in the Netherlands, I travel back to China from time to time. The state fire wall blocks access to services such as Google, YouTube, Twitter and Instagram. My mail service is dependent on Gmail, I do watch YouTube for occasional "guilty pleasure", not to mention the tutorial I followed on how to set up PiVPN is from a YouTuber. Aside from services that are not blocked by the firewall, access to content sometimes also can be slow, due to more distant network traffic route.
     sessionType: "exhibit"
     date: 2019-09-20
+    images:
+      - src: biyi-1.jpg
+        alt: Channel channel, a network for VPN access, Biyi Wen
+        width: 100%
 
   - sessionID: 19015
     title: "The Magi system, exploring the aesthetics of network infrastructure"
@@ -553,6 +567,13 @@
       The Magi system is a two channel animation which explores the aesthetics of network infrastructure. There has been a recent trend of users posting pictures of server racks and network wiring on forums like reddits r/Cableporn and r/Cablefail. These images have spread out and proliferated on hashtag based platforms like Instagram and Pinterest. This project uses images and themes from these platforms as a starting point to investigate popular conceptions of how we visualise network infrastructure.
     sessionType: "exhibit"
     date: 2019-09-20
+    images:
+      - src: tobias-1.jpg
+        alt: The Magi system, exploring the aesthetics of network infrastructure, Tobias Williams
+        width: 36%
+      - src: tobias-2.jpg
+        width: 64%
+        alt: The Magi system, exploring the aesthetics of network infrastructure, Tobias Williams
 
   - sessionID: 19016
     title: "On the wire"
@@ -744,9 +765,33 @@
     length: X
 
   - sessionID: 19036
-    title: "Mesh workshop"
+    title: "Meshing around: DIY internet"
     presenterID:
+      - jill 
+      - scott
     description: > 
+      In this workshop, participants will build and manipulate a small wireless mesh network, gaining hands-on experience with relevant principles of networking, mesh network topologies, and equipment currently in use by NYC Mesh. The workshop will begin with a short presentation and then divide participants into “mesh node teams” to explore the technology and how it can be adapted to various environments. 
     sessionType: "workshop"
     date: 2019-09-20
-    length: 2
+    length: 1
+
+  - sessionID: 19037
+    title: "Pale Eyes"
+    descriptionLink: ""
+    presenterID:
+      - ben
+    description: > 
+      Pale Eyes is the pop music of electronic musician and sound artist Ben McCarthy, reaching the top ten on Canada’s college electronic music charts. 2019’s Paranoia Is Appropriate with Ryan Somerville brings together cinematic orchestral arrangements with trappy beats and IDM textures. His 2018 solo album little music spans blown-out dj ensembles, found sound ambient music, and texturally dense MPC-derived rhythms, moving from abstract figures and lush idiosyncratic timbres, to lurching beats and spiraling loops.  
+    sessionType: "performance"
+    date: 2019-09-20
+    length: 0.5
+
+  - sessionID: 19038
+    title: "Hands-on networking"
+    presenterID:
+      - grant
+    description: > 
+      What are mesh networks? How do they work? And why are they interesting? This workshop will explore these questions while learning practical computer networking skills such as... ethernet cable crimping, radio/antenna mounting, wireless channel planning, IP addressing and subnetting, routing and name resolution and so much more! Participants should be familiar with computers and the internet and, of course, possess a healthy appetite for learning. 
+    sessionType: "workshop"
+    date: 2019-09-20
+    length: 1

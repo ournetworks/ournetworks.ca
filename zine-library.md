@@ -5,6 +5,10 @@ title: "Zine Library"
 titleDisplay: "Zine Library"
 ---
 
+![Left road sign](/images/vector-art/road-sign.svg){:.absolute.none-mobile style='width:8vw;left:42%;top:120px;z-index:-1;'}
+
+![Ladder](/images/vector-art/ladder.svg){:.absolute.none-mobile style='width: 15vw;left:40%;top:10px;'}
+
 We're hosting a free and open zine library throughout the conference that will feature both paper and digital zines. To help grow our library, we're calling for zines that fall under this year's theme. 
 
 We're seeking to curate resources will help us in the collective care and maintenance of alternative networking practices.
@@ -21,39 +25,43 @@ This is an open call until the conference.
 - the library will be a lending library with patrons able to "check out" [make copies] of zines
 - we will be making a catalog to list all zines submitted to the Zine Library
 
+<div class="relative none-mobile">
+  <img alt="Windsock sign" src="/images/vector-art/windsock.svg" class="absolute" style="width:18vw;left:40%;top:40px;z-index:-1;" />
+  <img alt="Rectangular hatched sign" src="/images/vector-art/sign-rectangular.svg" class="absolute" style="width:5vw;left:38%;top:100px;z-index:-2;" />
+</div>
+
 ## Send us your zines!
 {:.mt-1}
 
 <form action="https://formspree.io/orga@ournetworks.ca" class="form-container" method="POST">
   <div class="mb-2">
     <div class="w-33">
-      <label class="fw-bold" for="zine-name">Zine title:</label>
+      <label class="fw-bold" for="zine-name">Title:</label>
       <input type="text" id="zine-name" class="input mb-1 w-100" name="zine-name" required>
     </div>
     <div class="w-33">
-      <label class="fw-bold" for="zine-format">Zine format:</label><br />
-      <select name="zine-format" id="zine-format" class="input input-select mb-1" required>
-        <option value="">Select a format</option>
-        <option>Dat</option>
-        <option>Digital</option>
-        <option>Paper</option>
-        <option>Other</option>
-      </select>
-    </div>
-    <div class="w-33">
-      <label class="fw-bold" for="zine-link">If digital, link to zine:</label>
-      <input type="text" id="zine-link" class="input mb-1 w-100" name="zine-link" required>
-    </div>
-    <div class="w-33">
-      <label class="fw-bold" for="zine-purchase-link">If selling the zine, link to purchase:</label>
+      <label class="fw-bold" for="zine-purchase-link">Link to purchase:</label>
       <input type="text" id="zine-purchase-link" class="input mb-1 w-100" name="zine-purchase-link" required>
     </div>
-    <fieldset class="p-0 m-0">
+    <div class="w-33">
+      <label class="fw-bold" for="zine-format">Format:</label><br />
+      <select name="zine-format" id="zine-format" class="input input-select mb-1" required>
+        <option value="select">Select a format</option>
+        <option value="digital">Dat/Digital</option>
+        <option value="paper">Paper</option>
+        <option value="other">Other ephemera</option>
+      </select>
+    </div>
+    <div class="w-33" id="zine-link-field">
+      <label class="fw-bold" for="zine-link">Link:</label>
+      <input type="text" id="zine-link" class="input mb-1 w-100" name="zine-link" required>
+    </div>
+    <fieldset class="p-0 m-0" id="zine-options">
       <legend class="mb-1">Let us know if:</legend>
-      <div class="flex mb-05 flex-align-baseline">
+      <div class="flex mb-05 flex-align-baseline" id="zine-mailed">
         <input type="checkbox" class="mr-05" id="mailed" name="zine-mailed" value="mailed"><label class="fw-bold" for="mailed">I would like to mail the zine</label>
       </div>
-      <div class="flex mb-05 flex-align-baseline">
+      <div class="flex mb-05 flex-align-baseline" id="zine-copied">
         <input type="checkbox" class="mr-05" id="copied" name="zine-copy-permission" value="not copied"><label class="fw-bold" for="copied">I do not want this zine copied/checked out</label>
       </div>
     </fieldset>

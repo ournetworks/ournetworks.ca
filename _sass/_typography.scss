@@ -97,6 +97,12 @@ p {
   font-weight: normal;
 }
 
+// Word break helper
+
+.overflow-wrap {
+  overflow-wrap: break-word;
+}
+
 // Footer
 
 .footer {
@@ -108,12 +114,6 @@ p {
   a:hover {
     text-decoration: none;
   }
-}
-
-// Posts title
-
-.post-header {
-  margin-bottom: 1.2em;
 }
 
 // Typewriter theme effect

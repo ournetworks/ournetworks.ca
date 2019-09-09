@@ -62,6 +62,7 @@ fullWidth: true
 <tr>
   <td>15</td>
   <td>:00</td>
+  <td colspan="1" rowspan="6" class="session-block session-{% include session-type.html session-id=19038 %}">{% include session.html year=2019 session-id=19038 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -138,7 +139,9 @@ fullWidth: true
 <tr>
   <td></td>
   <td>:30</td>
-  <td colspan="3" rowspan="10" class="session-block session-{% include session-type.html session-id=19993 %}">{% include session.html year=2019 session-id=19993 %}</td>
+  <td colspan="3" rowspan="10" class="session-block session-{% include session-type.html session-id=19993 %}">
+  {% include session-kickoff-details.html year=2019 %}
+</td>
 </tr>
 <tr>
   <td></td>
@@ -612,9 +615,24 @@ fullWidth: true
 ---
 {: .extended}
 
-<a class="program-block-anchor" id="keynote"></a>
-## Keynote: TBA
-{:.mt-1.heading-2-5.fw-normal.color-accent}
+## Keynote: A Digital Bundle Protecting and Promoting Indigenous Knowledge Online
+{:.mt-1.mb-0.heading-2-5.fw-normal.color-accent}
+
+<div class="session-detail mt-1 program-block content-width">
+  <a class="program-block-anchor" id="keynote-dr.-jennifer-wemigwans,-a-digital"></a>
+  <div class="program-block-content p-1">
+
+    <p>A Digital Bundle Protecting and Promoting Indigenous Knowledge Online looks at ways to advance Indigenous Knowledge on the Internet through Indigenous protocols and ethics while demonstrating a profound appreciation for Indigenous Knowledge systems.</p>
+
+    <header class="session-header mt-2">
+      <h3 class="session-title">Dr. Jennifer Wemigwans</h3>
+    </header>
+    <div class="session-caption">
+      <p>Dr. Jennifer Wemigwans is Anishnaabekwe (Ojibwe/ Potawatomi) from Wikwemikong First Nation. She is a new media producer, writer and scholar specializing in the convergence between education, Indigenous knowledge and new media technologies. Dr. Wemigwans takes pride in working to invert the conventional use of media by revealing the potential for Indigenous cultural expression and Indigenous knowledge through new technologies, education and the arts.  Her book A Digital Bundle: Protecting and Promoting Indigenous Knowledge Online explores the prospects of education and digital projects in a networked world.  Her work in academia and online technologies puts her in a unique position to tap the pulse of innovation in Indigenous education, the arts, and media.</p>
+    </div>
+    
+  </div>
+</div>
 
 ## Keynote panel
 {:.mt-1.heading-2-5.fw-normal.color-accent}
