@@ -87,7 +87,7 @@ thead th {
   border-radius: 10px;
   border: 1px solid rgba($black, 0.05);
   box-shadow: 0px 5px 16px 0 rgba($black, 0.1);
-  margin-right: 2px;
+  background: $white;
 
   &:hover {
     border-color: $accent-color;
