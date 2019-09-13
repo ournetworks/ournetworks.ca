@@ -84,7 +84,7 @@ if (!stream_urls_http || !Array.isArray(stream_urls_http) || (stream_urls_http.l
 // Video sharing links
 
 document.querySelector('.share-tweet').addEventListener('click', function() {
-  const tweetURL = `${rootURL}?from=${live.currentTime()}&m3u8=live.m3u8`
+  var tweetURL = `${rootURL}?from=${live.currentTime()}&m3u8=live.m3u8`
   window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(tweetURL)}`)
 });
 
