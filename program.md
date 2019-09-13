@@ -24,7 +24,7 @@ fullWidth: true
 <tr>
   <td>12</td>
   <td>:00</td>
-  <td colspan="4" rowspan="4" class="session-block session-{% include session-type.html session-id=19500 %}">{% include session.html year=2019 session-id=19500 %}</td>
+  <td colspan="3" rowspan="4" class="session-block session-{% include session-type.html session-id=19500 %}">{% include session-para-details.html year=2019 session-id=19500 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -676,7 +676,7 @@ fullWidth: true
 {% assign sortedSessions = site.data.sessions[2019] | sort: "title" %}
 
 {% for session in sortedSessions %}
-  {%- unless session.sessionType == "orga" or session.sessionType == "keynote" or session.sessionType == "exhibit" -%}
+  {%- unless session.sessionType == "orga" or session.sessionType == "keynote" or session.sessionType == "exhibit" or session.sessionType == "para" -%}
     {% include session-details.html year=2019 %}
   {%- endunless -%}
 {% endfor %}
