@@ -22,6 +22,23 @@ fullWidth: true
 </thead>
 <tbody>
 <tr>
+  <td>12</td>
+  <td>:00</td>
+  <td colspan="4" rowspan="4" class="session-block session-{% include session-type.html session-id=19500 %}">{% include session.html year=2019 session-id=19500 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:15</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:45</td>
+</tr>
+<tr>
   <td>13</td>
   <td>:00</td>
   <td colspan="3" rowspan="4" class="session-block session-{% include session-type.html session-id=19990 %}">{% include session.html year=2019 session-id=19990 %}</td>

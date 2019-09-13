@@ -126,6 +126,16 @@ thead th {
   border-color: $yellow;
 }
 
+.session-para {
+  background-color: $accent-color;
+  border-color: $accent-color;
+  
+  a {
+    color: $black;
+    text-decoration: underline;
+  } 
+}
+
 .program-heading {
   font-size: 3.5rem;
   margin-top: 1.5em;
