@@ -14,9 +14,9 @@ fullWidth: true
 <tr>
   <th class="schedule-time"></th>
   <th class="schedule-time"></th>
-  <th class="schedule-main sticky-top bg-white">Main Room</th>
-  <th class="schedule-breakout sticky-top bg-white">Gamma Workshop Space</th>
-  <th class="schedule-breakout sticky-top bg-white">Zine Library</th>
+  <th class="schedule-main sticky-top bg-white relative">Main Room</th>
+  <th class="schedule-breakout sticky-top bg-white relative">Gamma Workshop Space</th>
+  <th class="schedule-breakout sticky-top bg-white relative">Zine Library</th>
   <th class="schedule-breakout"></th>
 </tr>
 </thead>
@@ -208,9 +208,9 @@ fullWidth: true
 <tr>
   <th class="schedule-time"></th>
   <th class="schedule-time"></th>
-  <th class="schedule-main sticky-top bg-white">Main Room</th>
-  <th class="schedule-breakout sticky-top bg-white">Gamma Workshop Space</th>
-  <th class="schedule-breakout sticky-top bg-white">Zine Library</th>
+  <th class="schedule-main sticky-top bg-white relative">Main Room</th>
+  <th class="schedule-breakout sticky-top bg-white relative">Gamma Workshop Space</th>
+  <th class="schedule-breakout sticky-top bg-white relative">Zine Library</th>
   <th class="schedule-breakout"></th>
 </tr>
 </thead>
@@ -455,9 +455,9 @@ fullWidth: true
 <tr>
   <th class="schedule-time"></th>
   <th class="schedule-time"></th>
-  <th class="schedule-main sticky-top bg-white">Main Room</th>
-  <th class="schedule-breakout sticky-top bg-white">Gamma Workshop Space</th>
-  <th class="schedule-breakout sticky-top bg-white">Zine Library</th>
+  <th class="schedule-main sticky-top bg-white relative">Main Room</th>
+  <th class="schedule-breakout sticky-top bg-white relative">Gamma Workshop Space</th>
+  <th class="schedule-breakout sticky-top bg-white relative">Zine Library</th>
   <th class="schedule-breakout"></th>
 </tr>
 </thead>
@@ -558,7 +558,7 @@ fullWidth: true
   <td>14</td>
   <td>:00</td>
   <td colspan="1" rowspan="6" class="session-block session-{% include session-type.html session-id=19997 %}">{% include session.html year=2019 session-id=19997 %}</td>
-  <td colspan="1" rowspan="8" class="session-block session-{% include session-type.html session-id=19007 %}">{% include session.html year=2019 session-id=19007 %}</td>
+  <td colspan="1" rowspan="8" class="session-block session-{% include session-type.html session-id=19007 %} overlap">{% include session.html year=2019 session-id=19007 %}</td>
 </tr>
 <tr>
   <td></td>

@@ -88,9 +88,19 @@ thead th {
   border: 1px solid rgba($black, 0.05);
   box-shadow: 0px 5px 16px 0 rgba($black, 0.1);
   background: $white;
+  position: relative;
+  z-index: 1;
 
   &:hover {
     border-color: $accent-color;
+  }
+
+  &.overlap {
+    background: rgba($white, 0.8);
+
+    &:hover {
+      background: $white;
+    }
   }
 }
 
@@ -124,6 +134,7 @@ thead th {
 .session-orga {
   background-color: $yellow;
   border-color: $yellow;
+  z-index: 0;
 }
 
 .session-para {
