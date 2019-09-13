@@ -21,7 +21,7 @@ In order to make the presentations more accessible, we have included suggestions
 
 Toronto Media Arts Centre has a [policy on accessibility](https://policies.tomediaarts.org/procedure-manual/policies/accessibility) and detailing information about the building.
 
-The event takes place on the second floor, accessible via an elevator just inside the entrance. The main space is the Mezzanine, as well as Gamma Space and the Gatherspace.
+The event takes place on the second floor, accessible via an elevator just inside the entrance. The main space is the Mezzanine, as well as Gamma Space and the Gathering space.
 
 The event space is barrier-free and during the event we will have an access lane marked off by tape to ensure passage to each area is not blocked off (Inspired by [AdaCamp's Access Lanes](https://adacamp.org/adacamp-toolkit/access-lanes/) and [WisCon's Blue Zone](http://wiscon.net/policies/accessibility/)).
 
