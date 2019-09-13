@@ -436,11 +436,11 @@
   - sessionID: 19005
     title: "Mesh lightning talks"
     sessionType: "talks"
-    description: > 
-      "NYC Mesh > Jillian Murphy > Scott Rasmussen
-      Sarantaporo.gr > Vassilis Chryssos
-      Althea > Liz G
-      Freifunk > Felix Kaechele"
+    description: |
+      >> NYC Mesh > Jillian Murphy and Scott Rasmussen  
+      >> Sarantaporo.gr > Vassilis Chryssos  
+      >> Althea > Liz G  
+      >> Freifunk > Felix Kaechele
     date: 2019-09-22
     length: 1.0
     
