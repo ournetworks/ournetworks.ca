@@ -358,6 +358,10 @@
     title: "Registration"
     sessionType: "orga"
 
+  - sessionID: 199901
+    title: "Screenprint our swag"
+    sessionType: "orga"
+
   - sessionID: 19991
     title: "Coffee break"
     sessionType: "orga"
