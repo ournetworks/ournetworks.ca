@@ -5,7 +5,7 @@ title: "Environment"
 parent: "About the event"
 ---
 
-Addressing "the environment" requires acknowledging both questions of what goes into sustaining an event as well as the layered and uneven climate crisis we are currently experiencing. As organizers we felt it was important to state our commitments to addressing these entwined issues publically.
+Addressing "the environment" requires acknowledging both questions of what goes into sustaining an event as well as the layered and uneven climate crisis we are currently experiencing. As organizers we felt it was important to state our commitments to addressing these entwined issues publicly.
 
 Our efforts have taken the following form:
 - Making space for conversations around sustainability, our environment, and the climate crisis during the event
