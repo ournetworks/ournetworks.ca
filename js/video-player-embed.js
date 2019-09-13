@@ -1,4 +1,5 @@
 var live = videojs('live');
+var rootURL = window.location.href.split('?')[0]
 
 // For any browser except Safari
 if (/^((?!chrome|android).)*safari/i.test(navigator.userAgent) === false) {
@@ -59,7 +60,7 @@ live.on('loadeddata', function(event) {
 
 var refreshButton = document.createElement('button');
 refreshButton.className = 'button button-primary compact stream-refresh';
-refreshButton.innerHTML = 'Refresh Page and Try Again';
+refreshButton.innerHTML = 'Refresh page and try again';
 refreshButton.addEventListener('click', function() {
   window.location.reload(true);
 });
@@ -79,3 +80,19 @@ live.on('error', function(event) {
 if (!stream_urls_http || !Array.isArray(stream_urls_http) || (stream_urls_http.length === 0)) {
   document.querySelector('.http-stream').setAttribute('disabled', 'disabled');
 }
+
+// Video sharing links
+
+document.querySelector('.share-tweet').addEventListener('click', function() {
+  const tweetURL = `${rootURL}?from=${live.currentTime()}&m3u8=live.m3u8`
+  window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(tweetURL)}`)
+});
+
+document.querySelector('.share-link').addEventListener('click', function() {
+  var link = document.getElementById('link');
+  link.value= `${rootURL}?from=${live.currentTime()}&m3u8=live.m3u8`;
+  link.select();
+  link.setSelectionRange(0, 99999); // For mobile devices
+  document.execCommand('copy');
+  alert('In clipboard');
+});

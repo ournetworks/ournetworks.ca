@@ -1,4 +1,4 @@
-<div class="stream-container">
+<div class="stream-container relative flex flex-wrap flex-align-center mb-1">
   <video id="live" class="video-js vjs-default-skin vjs-big-play-centered" data-setup='{"fluid": true}'
    controls preload autoplay loop>
     <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
@@ -6,7 +6,7 @@
 
   <div class="stream-selector" id="StreamSelector">
     <div id="SelectStream">
-      <h2>Select Source</h2>
+      <h2>Select source</h2>
       <div class="stream-selector-options">
         <div class="stream-option-wrapper" id="ipfsStream">
           <button class="stream-option ipfs-stream">
@@ -33,6 +33,12 @@
       <h3 id="loadingTitle">Locating stream...</h3>
       <div class="stream-message" id="msg"></div>
     </div>
+  </div>
+
+  <div class="share-container w-100 mt-1">
+    <button class="share-link compact">Share Link</button>
+    <button class="share-tweet compact">Share on Twitter</button>
+    <input type="text" id="link" />
   </div>
 </div>
 
