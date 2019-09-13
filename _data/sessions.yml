@@ -358,6 +358,10 @@
     title: "Registration"
     sessionType: "orga"
 
+  - sessionID: 199901
+    title: "Screenprint our swag"
+    sessionType: "orga"
+
   - sessionID: 19991
     title: "Coffee break"
     sessionType: "orga"
@@ -388,16 +392,16 @@
       - alfredo
 
   - sessionID: 19996
-    title: "Outdoor Screening"
+    title: "Outdoor screening"
     sessionType: "orga"
     date: 2019-09-21
     length: 1.5
-
+  
   - sessionID: 19997
     title: "Lightning talks"
     sessionType: "orga"
     date: 2019-09-22
-    length: 1.0
+    length: 1.5
   
   - sessionID: 19998
     title: "Opening remarks"
@@ -434,15 +438,15 @@
     length: 0.75
 
   - sessionID: 19005
-    title: "Affirmative negation"
-    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/5"
-    presenterID:
-      - farhad
-    description: >
-      This presentation investigates the idea of affirmative negation, which examines the condition of creative production as an exception to the regular laws of an existing situation; or as Nietzsche calls it, negation of the status quo. Affirmative negation suggests that indicative message of a communicative act is not necessarily embedded within a set of utterances and wordings as such, but it could, paradoxically, be found in the negation of these superficial manifestations. Using this concept, I will talk about my current research, through a series of projects about the relationship between identity and social interaction. Mirroring the rich, interdependent, and shape-shifting world we live in, I suggest that our sense of self is increasing in complexity and changing throughout our lifetime. This particular project, called Made in Iran, is the outcome of several interviews with Iranian individuals, living in the United States, whose identities are often assumed by others to only comprise their nationality. In this work I tried to portray their complexity, depth and presence by asking them to share in a series of words, images and videos that more accurately reflects their intended identity.
-    sessionType: "talk"
-    date: 2019-09-20
-    length: 0.75
+    title: "Mesh lightning talks"
+    sessionType: "talks"
+    description: |
+      >> NYC Mesh > Jillian Murphy and Scott Rasmussen  
+      >> Sarantaporo.gr > Vassilis Chryssos  
+      >> Althea > Liz G  
+      >> Freifunk > Felix Kaechele
+    date: 2019-09-22
+    length: 1.0
     
   - sessionID: 19006
     title: "Made in Iran"
@@ -777,7 +781,6 @@
 
   - sessionID: 19037
     title: "Pale Eyes"
-    descriptionLink: ""
     presenterID:
       - ben
     description: > 
@@ -795,3 +798,13 @@
     sessionType: "workshop"
     date: 2019-09-20
     length: 1
+    
+  - sessionID: 19500
+    title: "March for our futures: Youth climate march"
+    description: "[Note: Event is independently organized] Join the Toronto part of Global Climate Strike (Sep 20 to 27)!"
+    descriptionLink: "https://nowtoronto.com/events/march-for-our-futures-youth-climate-march/"
+    location: "Queen's Park 47 Queen's Park Crescent E"
+    locationLink: "https://osm.org/go/ZX6BymF~B--?m="
+    sessionType: "para"
+    date: 2019-09-20
+    length: 1.0

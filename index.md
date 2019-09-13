@@ -32,30 +32,3 @@ We have three admission levels: Organization Supporter, Supporter, and Reduced C
 <a class="button button-primary" href="https://www.brownpapertickets.com/event/4308694">{% include icons/ticket.svg %}&nbsp;&nbsp;Register on Brown Paper Tickets</a>
 
 <small><em>*Brown Paper Tickets charges CA$0.99 + 5.0% of the ticket price in buy fees.</em></small>
-
-***
-
-### Want to know more? Ask us!
-
-We have more open hours for people to ask questions and discuss activities for open spaces at the conference. No prior registration needed, just visit: [https://meet.jit.si/ournetworks](https://meet.jit.si/ournetworks).
-
-<!-- Call section -->
-<section class="sections events-grid flex flex-wrap">
-  {% comment %} initialize 'now_day' for displaying posts {% endcomment %}
-
-  {% capture now_year %}{{'now' | date: '%Y'}}{% endcapture %}
-  {% capture now_day %}{{'now' | date: '%j'}}{% endcapture %}
-  {% assign now_day = now_day | minus: 0 %}
-  {% for call in site.data.calls %}      
-    {% capture call_year %}{{call.date | date: '%Y'}}{% endcapture %}
-    {% capture call_day %}{{call.date | date: '%j'}}{% endcapture %}
-    {% assign call_day = call_day | plus: 0 %}
-    {% if call_year > now_year or call_day >= now_day and call_year >= now_year %}
-    <div class="w-50 event mb-2">
-      {% include openhour.html event="openhour" %}
-    </div>
-    {% endif %}
-  {% endfor %}
-</section>
-
-If you have any additional questions let us know at [{{ site.email }}](mailto:{{ site.email }})!
