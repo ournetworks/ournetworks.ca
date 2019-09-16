@@ -19,7 +19,7 @@ Our Networks is volunteer-run and would not be possible without the support of o
     <a href="https://www.mozilla.org/en-US/moss/" rel="noopener"><img src="/images/logos/moss-logo.svg" width="150" alt="Mozilla Open Source Support (MOSS) logo" /></a>
   </div>
   <div>
-    <a href="https://temporal.cloud/" rel="noopener"><img src="/images/logos/temporal-logo.svg" width="280" alt="Temporal logo" /></a>
+    <a href="https://temporal.cloud/" rel="noopener"><img src="/images/logos/temporal-logo.svg" width="280" alt="RTrade Temporal logo" /></a>
   </div>
 </div>
 
