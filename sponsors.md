@@ -15,8 +15,11 @@ Our Networks is volunteer-run and would not be possible without the support of o
   <div class="mr-2">
     <a href="https://www.internetsociety.org/" rel="noopener"><img src="/images/logos/internet-society-logo.svg" width="250" alt="Internet Society logo" /></a>
   </div>
-  <div>
+  <div class="mr-2">
     <a href="https://www.mozilla.org/en-US/moss/" rel="noopener"><img src="/images/logos/moss-logo.svg" width="150" alt="Mozilla Open Source Support (MOSS) logo" /></a>
+  </div>
+  <div>
+    <a href="https://temporal.cloud/" rel="noopener"><img src="/images/logos/temporal-logo.svg" width="320" alt="Temporal logo" /></a>
   </div>
 </div>
 
