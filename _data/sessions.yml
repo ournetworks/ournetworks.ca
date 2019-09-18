@@ -798,7 +798,53 @@
     sessionType: "workshop"
     date: 2019-09-20
     length: 1
-    
+
+  - sessionID: 19039
+    title: "A Tour of the AC-1 Transatlantic Submarine Cable"
+    presenterID:
+      - lance
+    sessionType: "screening"
+    date: 2019-09-21
+    length: 1
+
+  - sessionID: 19040
+    title: "Just Browsing"
+    presenterID:
+      - joanne
+    description: > 
+      Written and directed by Joanne McNeil. Cinematography, editing, and motion graphics by Nicole Antebi. Music by Vince Clarke.
+    sessionType: "screening"
+    date: 2019-09-21
+    length: 1
+
+  - sessionID: 19041
+    title: "After Scarcity"
+    presenterID:
+      - bahar
+    description: > 
+      Video: Bahar Noorizadeh, Music: Mhamad Safa, Frank Bretschneider, Research & Director Assistant: Sergey Gindilis, Voice Over: Sasha Alekseeva, Munari Font: Pedro Moraes, Translation: Sergey Babkin, Lidar Capture: KMC, Kiev. A production of the Centre d’Art Contemporain Genève for the Biennale de l’Image en Mouvement 2018, with the support of the Fonds d’Art Contemporain de la Ville (FMAC) and the Fonds d’Art Contemporain du Canton de Genève (FCAC) and In Between Art Film.
+    sessionType: "screening"
+    date: 2019-09-21
+    length: 1
+
+  - sessionID: 19042
+    title: "Geocinema Network"
+    presenterID:
+      - geocinema
+    description: > 
+      Sound Design: Nikita Alekseenko. Music: Episode 01: Josh Feola, Georgiy Potopalskiy, Episode 02: Josh Feola, Episode 03: Nikita Alekseenko, Episode 04: Jessika Khazrik, “Only Distance Has a Name,” from “My Communication Is Not Work”, 2018, “I Am Not Your History” from “Terrella Al2ard Alsaghira,” 2017 
+    sessionType: "screening"
+    date: 2019-09-21
+    length: 1
+
+  - sessionID: 19042
+    title: "Mechanical Turk Workers"
+    presenterID:
+      - brettw
+    sessionType: "screening"
+    date: 2019-09-21
+    length: 1
+
   - sessionID: 19500
     title: "March for our futures: Youth climate march"
     description: "[Note: Event is independently organized] Join the Toronto part of Global Climate Strike (Sep 20 to 27)!"
