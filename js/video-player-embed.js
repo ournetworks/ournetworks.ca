@@ -92,6 +92,7 @@ document.querySelector('.share-link').addEventListener('click', function() {
   var link = document.getElementById('link');
   link.value= `${rootURL}?from=${live.currentTime()}&m3u8=live.m3u8`;
   link.select();
+  link.classList.remove('none')
   link.setSelectionRange(0, 99999); // For mobile devices
   document.execCommand('copy');
   alert('In clipboard');
