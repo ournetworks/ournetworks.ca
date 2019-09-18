@@ -14,13 +14,30 @@ fullWidth: true
 <tr>
   <th class="schedule-time"></th>
   <th class="schedule-time"></th>
-  <th class="schedule-main sticky-top bg-white">Main Room</th>
-  <th class="schedule-breakout sticky-top bg-white">Gamma Workshop Space</th>
-  <th class="schedule-breakout sticky-top bg-white">Zine Library</th>
+  <th class="schedule-main sticky-top bg-white relative">Main Room</th>
+  <th class="schedule-breakout sticky-top bg-white relative">Gamma Workshop Space</th>
+  <th class="schedule-breakout sticky-top bg-white relative">Zine Library</th>
   <th class="schedule-breakout"></th>
 </tr>
 </thead>
 <tbody>
+<tr>
+  <td>12</td>
+  <td>:00</td>
+  <td colspan="3" rowspan="4" class="session-block session-{% include session-type.html session-id=19500 %}">{% include session-para-details.html year=2019 session-id=19500 %}</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:15</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:30</td>
+</tr>
+<tr>
+  <td></td>
+  <td>:45</td>
+</tr>
 <tr>
   <td>13</td>
   <td>:00</td>
@@ -45,7 +62,7 @@ fullWidth: true
   <td>14</td>
   <td>:00</td>
   <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19036 %}">{% include session.html year=2019 session-id=19036 %}</td>
-  <td colspan="1" rowspan="16" class="session-block session-{% include session-type.html session-id=19018 %}">{% include session.html year=2019 session-id=19018 %}</td>
+  <td colspan="1" rowspan="16" class="session-block session-{% include session-type.html session-id=19018 %} overlap">{% include session.html year=2019 session-id=19018 %}[Note: Workshop materials cost $60CAD / $45USD]</td>
 </tr>
 <tr>
   <td></td>
@@ -62,7 +79,7 @@ fullWidth: true
 <tr>
   <td>15</td>
   <td>:00</td>
-  <td colspan="1" rowspan="6" class="session-block session-{% include session-type.html session-id=19038 %}">{% include session.html year=2019 session-id=19038 %}</td>
+  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19038 %}">{% include session.html year=2019 session-id=19038 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -79,6 +96,7 @@ fullWidth: true
 <tr>
   <td>16</td>
   <td>:00</td>
+  <td colspan="3" rowspan="2" class="session-block session-{% include session-type.html session-id=199901 %}">{% include session.html year=2019 session-id=199901 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -191,9 +209,9 @@ fullWidth: true
 <tr>
   <th class="schedule-time"></th>
   <th class="schedule-time"></th>
-  <th class="schedule-main sticky-top bg-white">Main Room</th>
-  <th class="schedule-breakout sticky-top bg-white">Gamma Workshop Space</th>
-  <th class="schedule-breakout sticky-top bg-white">Zine Library</th>
+  <th class="schedule-main sticky-top bg-white relative">Main Room</th>
+  <th class="schedule-breakout sticky-top bg-white relative">Gamma Workshop Space</th>
+  <th class="schedule-breakout sticky-top bg-white relative">Zine Library</th>
   <th class="schedule-breakout"></th>
 </tr>
 </thead>
@@ -248,7 +266,8 @@ fullWidth: true
 <tr>
   <td></td>
   <td>:30</td>
-  <td colspan="3" rowspan="1" class="session-block session-{% include session-type.html session-id=19991 %}">{% include session.html year=2019 session-id=19991 %}</td>
+  <td colspan="2" rowspan="1" class="session-block session-{% include session-type.html session-id=19991 %}">{% include session.html year=2019 session-id=19991 %}</td>
+  <td colspan="1" rowspan="2" class="session-block session-{% include session-type.html session-id=199901 %}">{% include session.html year=2019 session-id=199901 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -438,9 +457,9 @@ fullWidth: true
 <tr>
   <th class="schedule-time"></th>
   <th class="schedule-time"></th>
-  <th class="schedule-main sticky-top bg-white">Main Room</th>
-  <th class="schedule-breakout sticky-top bg-white">Gamma Workshop Space</th>
-  <th class="schedule-breakout sticky-top bg-white">Zine Library</th>
+  <th class="schedule-main sticky-top bg-white relative">Main Room</th>
+  <th class="schedule-breakout sticky-top bg-white relative">Gamma Workshop Space</th>
+  <th class="schedule-breakout sticky-top bg-white relative">Zine Library</th>
   <th class="schedule-breakout"></th>
 </tr>
 </thead>
@@ -491,12 +510,13 @@ fullWidth: true
 <tr>
   <td></td>
   <td>:15</td>
-  <td colspan="3" rowspan="1" class="session-block session-{% include session-type.html session-id=19991 %}">{% include session.html year=2019 session-id=19991 %}</td>
+  <td colspan="2" rowspan="1" class="session-block session-{% include session-type.html session-id=19991 %}">{% include session.html year=2019 session-id=19991 %}</td>
+  <td colspan="1" rowspan="2" class="session-block session-{% include session-type.html session-id=199901 %}">{% include session.html year=2019 session-id=199901 %}</td>
 </tr>
 <tr>
   <td></td>
   <td>:30</td>
-  <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19997 %}">{% include session.html year=2019 session-id=19997 %}</td>
+  <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19005 %}">{% include session.html year=2019 session-id=19005 %}</td> 
   <td colspan="1" rowspan="6" class="session-block session-{% include session-type.html session-id=19028 %}">{% include session.html year=2019 session-id=19028 %}</td>
 </tr>
 <tr>
@@ -540,8 +560,8 @@ fullWidth: true
 <tr>
   <td>14</td>
   <td>:00</td>
-  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19997 %}">{% include session.html year=2019 session-id=19997 %}</td>
-  <td colspan="1" rowspan="8" class="session-block session-{% include session-type.html session-id=19007 %}">{% include session.html year=2019 session-id=19007 %}</td>
+  <td colspan="1" rowspan="6" class="session-block session-{% include session-type.html session-id=19997 %}">{% include session.html year=2019 session-id=19997 %}</td>
+  <td colspan="1" rowspan="8" class="session-block session-{% include session-type.html session-id=19007 %} overlap">{% include session.html year=2019 session-id=19007 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -558,7 +578,6 @@ fullWidth: true
 <tr>
   <td>15</td>
   <td>:00</td>
-  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19030 %}">{% include session.html year=2019 session-id=19030 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -567,6 +586,7 @@ fullWidth: true
 <tr>
   <td></td>
   <td>:30</td>
+  <td colspan="3" rowspan="2" class="session-block session-{% include session-type.html session-id=19991 %}">{% include session.html year=2019 session-id=19991 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -575,13 +595,12 @@ fullWidth: true
 <tr>
   <td>16</td>
   <td>:00</td>
-  <td colspan="3" rowspan="1" class="session-block session-{% include session-type.html session-id=19991 %}">{% include session.html year=2019 session-id=19991 %}</td>
+  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19030 %}">{% include session.html year=2019 session-id=19030 %}</td>
+  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19019 %}">{% include session.html year=2019 session-id=19019 %}</td>
 </tr>
 <tr>
   <td></td>
   <td>:15</td>
-  <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19004 %}">{% include session.html year=2019 session-id=19004 %}</td>
-  <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19019 %}">{% include session.html year=2019 session-id=19019 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -594,7 +613,7 @@ fullWidth: true
 <tr>
   <td>17</td>
   <td>:00</td>
-  <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19005 %}">{% include session.html year=2019 session-id=19005 %}</td>
+  <td colspan="1" rowspan="3" class="session-block session-{% include session-type.html session-id=19004 %}">{% include session.html year=2019 session-id=19004 %}</td>
 </tr>
 <tr>
   <td></td>
@@ -660,7 +679,7 @@ fullWidth: true
 {% assign sortedSessions = site.data.sessions[2019] | sort: "title" %}
 
 {% for session in sortedSessions %}
-  {%- unless session.sessionType == "orga" or session.sessionType == "keynote" or session.sessionType == "exhibit" -%}
+  {%- unless session.sessionType == "orga" or session.sessionType == "keynote" or session.sessionType == "exhibit" or session.sessionType == "para" -%}
     {% include session-details.html year=2019 %}
   {%- endunless -%}
 {% endfor %}

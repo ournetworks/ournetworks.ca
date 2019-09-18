@@ -20,16 +20,16 @@ Toronto is easy to travel by bicycle, using public transit, and on foot around t
 
 **Cycling** is possible with [Bike Share Toronto](https://bikesharetoronto.com/), a city-wide bike share program. See the [system map](https://bikesharetoronto.com/system-map/) for stations throughout the downtown area. Bikeshare is membership and pass based. There are [day passes](https://bikesharetoronto.com/pricing/) for $7, or a 3-day pass for $15 which include unlimited 30-minute rides.
  
-**Public transit** is operated by [Toronto Transit Commission](http://www.ttc.ca/) and the [network](http://www.ttc.ca/Routes/General_Information/Maps/index.jsp) consists of subway, streetvare, bus, and rapid transit. Fares are ifor the whole system, so you can transfer between bus, streetcar and subway on a single trip. A single trip costs $3.25, multiple trips are a reduced rate using tokens (minimum purchase 3, $3.10 per trip) and [PRESTO](https://www.prestocard.ca/en/about/presto-on-the-ttc), an electronic payment system. Cards can be purchased for $6.00 and loaded with funds at subway stations. 
+**Public transit** is operated by the [Toronto Transit Commission](http://www.ttc.ca/) and the [network](http://www.ttc.ca/Routes/General_Information/Maps/index.jsp) consists of subway, streetcar, bus, and rapid transit. Fares are for the whole system, so you can transfer between bus, streetcar and subway on a single trip. A single trip costs $3.25, multiple trips are a reduced rate using tokens (minimum purchase 3, $3.10 per trip) and [PRESTO](https://www.prestocard.ca/en/about/presto-on-the-ttc), an electronic payment system. Cards can be purchased for $6.00 and loaded with funds at subway stations. 
 
 From Toronto Pearson International Airport, you can travel to downtown Toronto via:
 
 - [UP Express](https://www.upexpress.com/Tickets/Tickets), a rapid train link between Pearson Airport and Toronto’s downtown, leaves every 15 minutes throughout the day (25 mins to Union Station, $12.35 one-way or PRESTO)
-- [TTC](http://www.ttc.ca/Fares_and_passes/index.jsp), via bus and subway, leavese every 20 minutes (45 mins to 1 hour to downtown, $3.25 for trip or PRESTO)
+- [TTC](http://www.ttc.ca/Fares_and_passes/index.jsp), via bus and subway, leaves every 20 minutes (45 mins to 1 hour to downtown, $3.25 for trip or PRESTO)
 
 ## Staying in Toronto
 
-The city is an expensive place to live and visit. For those looking at alternative acccomodations including platforms like Airbnb, we wanted to provide context about the housing market. Like many cities around the world, Toronto is experiencing an [affordability crisis](https://www.blogto.com/city/2019/03/report-housing-affordability-crisis-toronto/) in part driven by [condos being treated as investments](https://www.theguardian.com/world/2019/jul/07/toronto-housing-owner-occupied-canada-affordability) and ["ghost hotels"](https://www.thestar.com/opinion/star-columnists/2017/12/01/haunted-by-the-rise-of-ghost-hotels.html). This has led to [the lowest rental vacancy rate in 16 years](https://www.thestar.com/news/gta/2017/11/28/rental-vacancy-rates-lowest-in-16-years.html), [renovictions](https://nowtoronto.com/news/renovicted-toronto-rental-housing/), and in response [tenant organizing and rent strikes](http://parkdaleorganize.ca/).
+The city is an expensive place to live and visit. For those looking at alternative accommodations including platforms like Airbnb, we wanted to provide context about the housing market. Like many cities around the world, Toronto is experiencing an [affordability crisis](https://www.blogto.com/city/2019/03/report-housing-affordability-crisis-toronto/) in part driven by [condos being treated as investments](https://www.theguardian.com/world/2019/jul/07/toronto-housing-owner-occupied-canada-affordability) and ["ghost hotels"](https://www.thestar.com/opinion/star-columnists/2017/12/01/haunted-by-the-rise-of-ghost-hotels.html). This has led to [the lowest rental vacancy rate in 16 years](https://www.thestar.com/news/gta/2017/11/28/rental-vacancy-rates-lowest-in-16-years.html), [renovictions](https://nowtoronto.com/news/renovicted-toronto-rental-housing/), and in response [tenant organizing and rent strikes](http://parkdaleorganize.ca/).
 
 To support folks attending the conference, we have a [community billets](#community-billets) program and provide information on ways to mitigate the impact of short-term rentals. Inspired by [4S 2019 in New Orleans](https://www.4s2019.org/accommodation/), notes on how to make your own guide are shared at the bottom of this page.
 
@@ -52,7 +52,7 @@ We checked [Fair Hotels](http://www.fairhotel.org/){:data-proofer-ignore=''} and
 
 - [Chelsea Hotel Toronto](http://www.chelseatoronto.com/en/), 33 Gerrard Street West
 - [Kimpton Saint George Hotel](https://www.kimptonsaintgeorge.com/), 280 Bloor Street West
-- [One King West Hotel & Residence](https://www.onekingwest.com/), 1 King Stree West
+- [One King West Hotel & Residence](https://www.onekingwest.com/), 1 King Street West
 - [The Omni King Edward Hotel](https://www.guestreservations.com/the-omni-king-edward-hotel/booking), 37 King Street East
 - [Marriott St. Regis](https://www.marriott.com/hotels/travel/yyzxr-the-st-regis-toronto/), 325 Bay Street
 
@@ -62,7 +62,7 @@ Additional care to take if engaging in a short-term rental in Toronto:
 
 1. Avoid Airbnb rentals in the following neighbourhoods which are experiencing gentrification (based on [Toronto Star](https://www.thestar.com/news/gta/2016/09/13/the-hidden-pockets-in-toronto-where-gentrification-is-really-happening.html) analysis of Environics income change data):
   - Parkdale
-  - Bloor/Landsdowne (Wallace Emerson, Earlscourt)
+  - Bloor/Lansdowne (Wallace Emerson, Earlscourt)
   - Leslieville
   - Junction
 1. Avoid hosts with multiple listings and identified by [local research](https://www.thestar.com/news/investigations/2019/04/22/a-real-estate-entrepreneur-a-phd-graduate-a-former-trader-these-are-some-key-players-in-torontos-short-term-rental-market.html) and [insideairbnb data](http://insideairbnb.com/toronto/?neighbourhood=&filterEntireHomes=true&filterHighlyAvailable=false&filterRecentReviews=false&filterMultiListings=true) as the worst Airbnb "ghost hotel" landlords:

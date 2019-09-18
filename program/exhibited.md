@@ -1,8 +1,8 @@
 ---
 layout: page
 order: 2
-title: "Exhibited Works"
-titleDisplay: "Exhibited Works"
+title: "Exhibited works"
+titleDisplay: "Exhibited works"
 parent: "Program"
 redirect_to:
   - "/program#exhibited-works"
