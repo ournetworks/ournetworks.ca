@@ -4,9 +4,9 @@
     <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
   </video>
 
-  <div class="stream-selector" id="StreamSelector">
-    <div id="SelectStream">
-      <h2>Select source</h2>
+  <div class="stream-selector" id="streamSelector">
+    <div id="selectStream">
+      <h2 id="selectingTitle">Select live stream source</h2>
       <div class="stream-selector-options">
         <div class="stream-option-wrapper" id="ipfsStream">
           <button class="stream-option ipfs-stream">
@@ -28,7 +28,7 @@
         </div>
       </div>
     </div>
-    <div id="LoadingStream" style="display:none;">
+    <div id="loadingStream" style="display:none;">
       {% include graphics/video/loader-animation.svg %}
       <h3 id="loadingTitle">Locating stream...</h3>
       <div class="stream-message" id="msg"></div>
