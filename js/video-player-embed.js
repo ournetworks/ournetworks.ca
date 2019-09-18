@@ -197,4 +197,3 @@ document.querySelector('.share-link').addEventListener('click', function() {
   document.execCommand('copy');
   alert('Link copied to clipboard');
 });
-
