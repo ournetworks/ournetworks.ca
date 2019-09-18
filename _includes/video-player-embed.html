@@ -4,33 +4,33 @@
     <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
   </video>
 
-  <div class="stream-selector" id="StreamSelector">
-    <div id="SelectStream">
+  <div class="stream-selector absolute flex flex-justify-center flex-align-center bg-white" id="StreamSelector">
+    <div id="SelectStream" class="selector-option">
       <h2>Select source</h2>
-      <div class="stream-selector-options">
-        <div class="stream-option-wrapper" id="ipfsStream">
-          <button class="stream-option ipfs-stream">
+      <div class="stream-selector-options flex flex-justify-center flex-align-center">
+        <div class="stream-option-wrapper flex relative flex-justify-center" id="ipfsStream">
+          <button class="stream-option flex-justify-center flex-align-center ipfs-stream bg-white">
             {% include graphics/video/ipfs-icon.svg %}
-            <span class="button-label">IPFS</span>
+            <span class="button-label mt-1 color-accent">IPFS</span>
           </button>
-          <div class="stream-option-title-helper">
+          <div class="stream-option-title-helper none absolute pt-s">
             <p>Play the stream through a peer-to-peer hypermedia protocol. More at <a href="https://ipfs.io" target="_blank" data-proofer-ignore>ipfs.io</a></p>
           </div>
         </div>
-        <div class="stream-option-wrapper" id="httpStream">
-          <button class="stream-option http-stream">
+        <div class="stream-option-wrapper flex relative flex-justify-center" id="httpStream">
+          <button class="stream-option flex-justify-center flex-align-center http-stream bg-white">
             {% include graphics/video/http-icon.svg %}
-            <span class="button-label">HTTP</span>
+            <span class="button-label mt-1 color-accent">HTTP</span>
           </button>
-          <div class="stream-option-title-helper">
+          <div class="stream-option-title-helper none absolute pt-s">
             <p>Play the stream through a media server over HTTP</p>
           </div>
         </div>
       </div>
     </div>
-    <div id="LoadingStream" style="display:none;">
+    <div id="LoadingStream" class="selector-option" style="display:none;">
       {% include graphics/video/loader-animation.svg %}
-      <h3 id="loadingTitle">Locating stream...</h3>
+      <h3 id="loadingTitle" class="mt-0">Locating stream...</h3>
       <div class="stream-message" id="msg"></div>
     </div>
   </div>

@@ -59,7 +59,7 @@ live.on('loadeddata', function(event) {
 });
 
 var refreshButton = document.createElement('button');
-refreshButton.className = 'button button-primary compact stream-refresh';
+refreshButton.className = 'button button-primary compact mt-1';
 refreshButton.innerHTML = 'Refresh page and try again';
 refreshButton.addEventListener('click', function() {
   window.location.reload(true);
