@@ -411,13 +411,25 @@
 
   - presenterID: lance
     name: "Lance Wakeling"
+    link: "https://vimeo.com/lancewakeling"
+    linkDisplay: "Vimeo"
 
   - presenterID: joanne
     name: "Joanne McNeil"
+    bio: "Joanne McNeil is a writer interested in the ways that technology is shaping art, politics, and society. She received the inaugural Arts Writing Fellowship Award for an emerging digital arts writer from the Carl & Marilynn Thoma Art Foundation. She is a 2019 Logan Nonfiction Program fellow. She was an Artist-in-Residence and an Impact Resident at Eyebeam. Her book, Lurking: How a Person Became a User, is forthcoming." 
+    link: "http://www.joannemcneil.com"
+    linkDisplay: "joannemcneil.com"
+    twitter: "jomc"
 
   - presenterID: bahar
     name: "Bahar Noorizadeh"
+    bio: "Bahar Noorizadeh is an artist, writer and filmmaker. She works on the reformulation of hegemonic time narratives as they collapse in the face of speculation: philosophical, financial, legal, futural, etc. Her work has appeared in the Tate Modern Artists’ Cinema Program; Berlinale Forum Expanded; Biennale of Moving Images, Geneva; Toronto International Film Festival; Barcelona Museum of Contemporary Art; Beirut Art Center, and Mercer Union, Toronto; among others. Noorizadeh is a founding member of BLOCC (Building Leverage over Creative Capitalism), a research and education platform that proposes pedagogy as strategy, to alter the relationship between Contemporary Art and the planetary phenomena of urban renewal and social cleansing. Her current research examines the intersections of finance, Contemporary Art and emerging technology, building on the notion of “Weird Economies” to precipitate a cross-disciplinary approach to economic futurism and post-financialization imaginaries. She is pursuing this work as a PhD candidate in Art Practice+Theory at Goldsmiths, University of London."
+    link: "http://www.baharnoorizadeh.com/"
+    linkDisplay: "baharnoorizadeh.com"
 
   - presenterID: geocinema
-    name: " Asia Bazdyrieva, Alexey Orlov, Solveig Suess"
+    name: "Asia Bazdyrieva, Alexey Orlov, Solveig Suess"
+    bio: "‘Geocinema’ is a practice that came to being during The New Normal a speculative urbanism think-tank in Strelka Institute of Media, Architecture and Design "
+    link: "https://geocinema.network/"
+    linkDisplay: "geocinema.network"
 
