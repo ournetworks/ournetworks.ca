@@ -1,4 +1,4 @@
-<div class="nav-vertical bg-white fixed">
+<div class="nav-vertical bg-white {% if page.navBottom %}relative{% else %}sticky{% endif %}">
   <nav class="nav">
     <ul class="menu flex">
       {% assign currentTitle = page.title %}
