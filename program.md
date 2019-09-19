@@ -62,7 +62,7 @@ fullWidth: true
   <td>14</td>
   <td>:00</td>
   <td colspan="1" rowspan="4" class="session-block session-{% include session-type.html session-id=19036 %}">{% include session.html year=2019 session-id=19036 %}</td>
-  <td colspan="1" rowspan="16" class="session-block session-{% include session-type.html session-id=19018 %} overlap">{% include session.html year=2019 session-id=19018 %}</td>
+  <td colspan="1" rowspan="16" class="session-block session-{% include session-type.html session-id=19018 %} overlap">{% include session.html year=2019 session-id=19018 %}[Note: Workshop materials cost $60CAD / $45USD]</td>
 </tr>
 <tr>
   <td></td>
