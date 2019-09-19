@@ -220,7 +220,7 @@ document.querySelector('.share-tweet').addEventListener('click', function() {
   var link = document.getElementById('link');
   link.value = getShareLink();
   const tweetURL = link.value;
-  window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(tweetURL)}`);
+  window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(tweetURL)}&hashtags=OurNetworks2019`);
 });
 
 document.querySelector('.share-link').addEventListener('click', function() {
