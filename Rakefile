@@ -7,7 +7,7 @@ task :test do
     internal_domains: ['ournetworks.ca'],
     hydra: { max_concurrency: 12 },
     cache: { timeframe: '1w' },
-    http_status_ignore: [999]
+    http_status_ignore: [999, 403]
   }
   HTMLProofer.check_directory('./_site', options).run
 end
