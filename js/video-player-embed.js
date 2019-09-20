@@ -200,6 +200,7 @@ live.on('error', function(event) {
 
 if (!stream_urls_http || !Array.isArray(stream_urls_http) || (stream_urls_http.length === 0)) {
   document.querySelector('.http-stream').setAttribute('disabled', 'disabled');
+  ipfsStream();
 }
 
 // Video sharing links
