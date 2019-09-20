@@ -346,7 +346,7 @@
 
   - presenterID: nahee
     name: "Nahee Kim"
-    bio: "Nahee Kim is an artist and a web developer exploring programmability of human sexual behavior. She writes code poems, builds web applications, draws illustrations and makes videos regarding body images bound up with sexuality, power dynamics and communication protocols in sexual relationship and experimental approaches to human reproduction. She studies and teaches at Hunter College, studied at School for Poetic Computation, was a resident at MassMOCA, is a member of Soft Surplus which is collective workspace in Brooklyn and was a member of Eobchae which is an artist collective in South Korea. She is based in New York and Seoul."
+    bio: "Nahee is an artist and a web developer exploring programmability of human sexual behavior. She writes code poems, builds web applications, draws illustrations and makes videos regarding body images bound up with sexuality, power dynamics and communication protocols in sexual relationship and experimental approaches to human reproduction. She studies and teaches at Hunter College, studied at School for Poetic Computation, was a resident at MassMOCA, is a member of Soft Surplus which is collective workspace in Brooklyn and was a member of Eobchae which is an artist collective in South Korea. She is based in New York and Seoul."
     link: "http://nahee.app"
     linkDisplay: "nahee.app"
     github: "nahbee10/nahee.app"
@@ -381,20 +381,20 @@
 
   - presenterID: ben
     name: "Ben McCarthy"
-    bio: "Ben McCarthy is an electronic musician and sound artist from Toronto, Canada. Working fragments of field recording and found sound into music that slips in and out of generic idiom, McCarthy’s output is rangey and prolific. McCarthy won the Dora award for Outstanding Sound Design and Composition in Independent Theatre in 2019, while his sound design for videogames has shown at the Venice Biennale, 2018, Amaze Berlin, 2019, and Mayworks’ Nightshift, 2019. His podcast Precariat Content explores art as labour through interviews with working artists such as Kent Monkman, Jordan Tannahill, and Maria Chavez."
+    bio: "Ben is an electronic musician and sound artist from Toronto, Canada. Working fragments of field recording and found sound into music that slips in and out of generic idiom, McCarthy’s output is rangey and prolific. McCarthy won the Dora award for Outstanding Sound Design and Composition in Independent Theatre in 2019, while his sound design for videogames has shown at the Venice Biennale, 2018, Amaze Berlin, 2019, and Mayworks’ Nightshift, 2019. His podcast Precariat Content explores art as labour through interviews with working artists such as Kent Monkman, Jordan Tannahill, and Maria Chavez."
     link: "https://paleeyesmusic.bandcamp.com/"
     linkDisplay: "paleeyesmusic.bandcamp.com"
     instagram: paleeyesmusic
   
   - presenterID: jill
     name: "Jillian Murphy"
-    bio: "Jillian Murphy volunteers with NYC Mesh with a particular passion for breaking down social barriers through technology and education. Jillian is an install leader, event organizer, and author of the organization's monthly newsletter. The IRS knows her as an administrator at New York University where she is also a graduate student in business."
+    bio: "Jillian volunteers with NYC Mesh with a particular passion for breaking down social barriers through technology and education. Jillian is an install leader, event organizer, and author of the organization's monthly newsletter. The IRS knows her as an administrator at New York University where she is also a graduate student in business."
     link: "https://www.linkedin.com/in/jillianemurphy/"
     linkDisplay: "linkedin.com/in/jillianemurphy"
       
   - presenterID: scott
     name: "Scott Rasmussen"
-    bio: "Scott Rasmussen focuses on telecommunications policy as it intersects with questions of equity and access. After years of policy work on Capitol Hill, he is now working with NYC Mesh, an open, neutral, and resilient community network aiming to make a home or business internet connection accessible and affordable to all New Yorkers." 
+    bio: "Scott focuses on telecommunications policy as it intersects with questions of equity and access. After years of policy work on Capitol Hill, he is now working with NYC Mesh, an open, neutral, and resilient community network aiming to make a home or business internet connection accessible and affordable to all New Yorkers." 
     link: "https://nycmesh.net"
     linkDisplay: "nycmesh.net"
     twitter: "rscooter369"
@@ -403,12 +403,6 @@
     name: "Grant Gallo"
     bio: "Grant is a professional network engineer who builds temporary wireless networks for a living."
     
-  - presenterID: jenniferw
-    name: "Jennifer Wemigwans"
-    bio: "Dr. Jennifer Wemigwans is Anishnaabekwe (Ojibwe/ Potawatomi) from Wikwemikong First Nation. She is a new media producer, writer and scholar specializing in the convergence between education, Indigenous knowledge and new media technologies. Dr. Wemigwans takes pride in working to invert the conventional use of media by revealing the potential for Indigenous cultural expression and Indigenous knowledge through new technologies, education and the arts.  Her book A Digital Bundle: Protecting and Promoting Indigenous Knowledge Online explores the prospects of education and digital projects in a networked world.  Her work in academia and online technologies puts her in a unique position to tap the pulse of innovation in Indigenous education, the arts, and media." 
-    link: "https://www.oise.utoronto.ca/lhae/Faculty/4959/Jennifer_Wemigwans.html"
-    linkDisplay: "oise.utoronto.ca/.../Jennifer_Wemigwans.html"
-
   - presenterID: lance
     name: "Lance Wakeling"
     link: "https://vimeo.com/lancewakeling"
@@ -432,4 +426,25 @@
     bio: "‘Geocinema’ is a practice that came to being during The New Normal a speculative urbanism think-tank in Strelka Institute of Media, Architecture and Design "
     link: "https://geocinema.network/"
     linkDisplay: "geocinema.network"
+      
+  - presenterID: lorraine
+    name: "Lorraine Chuen"
+    bio: "Lorraine is a co-organizer for IntersectTO, a community for BIPOC (Black, Indigenous, and/or people of colour) folks interested in tech and digital justice. IntersectTO's aim is to have a space for folks to share tech skills, find collaborators, and hold critical discussions on how technology affects communities of colour." 
+    link: "https://intersectto.gitbook.io/community/"
+    linkDisplay: "intersectto.gitbook.io"
 
+  - presenterID: victoria
+    name: "Victoria Barnett"
+    bio: "Victoria is a freelance digital graphic designer and trainer based in Toronto, and is a steering committee member of the Design Justice Network, which rethinks design processes, centers people who are normally marginalized by design, and uses collaborative, creative practices to address the deepest challenges our communities face." 
+    link: "http://designjusticenetwork.org/"
+    linkDisplay: "designjusticenetwork.org"
+    
+  - presenterID: ellie
+    name: "Ellie Ade Kur"
+    
+0000:
+  - presenterID: jenniferw
+    name: "Jennifer Wemigwans"
+    bio: "Dr. Jennifer Wemigwans is Anishnaabekwe (Ojibwe/ Potawatomi) from Wikwemikong First Nation. She is a new media producer, writer and scholar specializing in the convergence between education, Indigenous knowledge and new media technologies. Dr. Wemigwans takes pride in working to invert the conventional use of media by revealing the potential for Indigenous cultural expression and Indigenous knowledge through new technologies, education and the arts.  Her book A Digital Bundle: Protecting and Promoting Indigenous Knowledge Online explores the prospects of education and digital projects in a networked world.  Her work in academia and online technologies puts her in a unique position to tap the pulse of innovation in Indigenous education, the arts, and media." 
+    link: "https://www.oise.utoronto.ca/lhae/Faculty/4959/Jennifer_Wemigwans.html"
+    linkDisplay: "oise.utoronto.ca/.../Jennifer_Wemigwans.html"
