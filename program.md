@@ -674,13 +674,12 @@ fullWidth: true
 
     <p>We want to continue that process in a Tech and Rev session at this conference with our convergence here adding to and editing the program as it now stands.</p>
 
-    <p>Panel speakers are:
+    <p>Panel speakers are:</p>
       <ul class="ls-none pl-0">
         <li><h4 class="session-presenter">&gt; <a href="#ellie">Ellie Ade Kur</a>, Maggie's</h4></li>
         <li><h4 class="session-presenter">&gt; <a href="#lorraine">Lorraine Chuen</a>, IntersectTO</h4></li>
         <li><h4 class="session-presenter">&gt; <a href="#victoria">Victoria Barnett</a>, Design Justice Network</h4></li>
       </ul>
-    </p>
     </div>
   </div>
 </div>
