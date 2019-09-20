@@ -680,6 +680,7 @@ fullWidth: true
         <li><h4 class="session-presenter">&gt; <a href="#lorraine">Lorraine Chuen</a>, IntersectTO</h4></li>
         <li><h4 class="session-presenter">&gt; <a href="#victoria">Victoria Barnett</a>, Design Justice Network</h4></li>
       </ul>
+    </p>
     </div>
   </div>
 </div>
