@@ -662,15 +662,26 @@ fullWidth: true
     <header class="session-header">
       <h3 class="session-title heading">May First, technology and revolution</h3>
           <ul class="ls-none pl-0">
-            <li><h4 class="session-presenter">&gt; <a href="#alfredo">Alfredo Lopez</a></h4></li></ul></header><div class="session-caption">
-              <p>Technology has so fundamentally changed our society that any strategy for social change must be altered to address its power over us. But it also gives us the potential to develop and realize the kind of society we all want and to do that within our lifetimes. Information technology is the most powerful tool for change we have.</p>
+            <li><h4 class="session-presenter">&gt; <a href="#alfredo">Alfredo Lopez</a></h4></li>
+          </ul>
+    </header>
+  <div class="session-caption">
+    <p>Technology has so fundamentally changed our society that any strategy for social change must be altered to address its power over us. But it also gives us the potential to develop and realize the kind of society we all want and to do that within our lifetimes. Information technology is the most powerful tool for change we have.</p>
 
-              <p>Since 2017, 25 local convergences have brought together over 1,500 activists from the U.S. to talk about the intersection between technology and revolution. The results of this two-year project can be viewed in the program that emerged from those sessions summarized in the video linked below.</p>
+    <p>Since 2017, 25 local convergences have brought together over 1,500 activists from the U.S. to talk about the intersection between technology and revolution. The results of this two-year project can be viewed in the program that emerged from those sessions summarized in the video linked below.</p>
 
-              <p><a href="https://techandrev.org">techandrev.org</a></p>
+    <p><a href="https://techandrev.org">techandrev.org</a></p>
 
-              <p>We want to continue that process in a Tech and Rev session at this conference with our convergence here adding to and editing the program as it now stands.</p>
-    </div></div>
+    <p>We want to continue that process in a Tech and Rev session at this conference with our convergence here adding to and editing the program as it now stands.</p>
+
+    <p>Panel speakers are:</p>
+      <ul class="ls-none pl-0">
+        <li><h4 class="session-presenter">&gt; <a href="#ellie">Ellie Ade Kur</a>, Maggie's</h4></li>
+        <li><h4 class="session-presenter">&gt; <a href="#lorraine">Lorraine Chuen</a>, IntersectTO</h4></li>
+        <li><h4 class="session-presenter">&gt; <a href="#victoria">Victoria Barnett</a>, Design Justice Network</h4></li>
+      </ul>
+    </div>
+  </div>
 </div>
 
 ## Sessions
