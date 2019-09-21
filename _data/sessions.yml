@@ -762,6 +762,8 @@
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/35"
     presenterID:
       - danny
+      - renee
+      - victoria
     description: > 
       How can we as users and workers imagine ways to own our technology? On the path towards full cooperative takeover like turning Twitter into a public utility, we have to get fairly compensated for our labor - which is why volunteers with Tech Workers Coalition developed Get Back Lost Wages, a simple platform for all gig workers in California to file claims for minimum wage and overtime pay. This session introduces strategies for building power in the tech industry. We will talk about our opportunities to organize, get mutual aid and ideas, and will co-design real tools for the job.
     sessionType: "workshop"
@@ -853,4 +855,14 @@
     locationLink: "https://osm.org/go/ZX6BymF~B--?m="
     sessionType: "para"
     date: 2019-09-20
-    length: 1.0
+    length: 1
+
+  - sessionID: 19043
+    title: "The impotent medium"
+    presenterID:
+      - farhad
+    description: > 
+      Video presentation.
+    sessionType: "talk"
+    date: 2019-09-XX
+    length: X
