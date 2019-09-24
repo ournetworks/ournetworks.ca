@@ -175,6 +175,10 @@
   padding-left: 1em;
 }
 
+.pb-s {
+  padding-bottom: 1em;
+}
+
 .pb-m {
   padding-bottom: 3em;
 }
@@ -272,7 +276,9 @@
   padding: 80px 0 40px;
 
   &.extended {
-    padding-top: 180px;
+    @media (max-width: $on-palm) {
+      padding-top: 160px;
+    }
   }
 
   @media (max-width: $on-palm) {
@@ -297,7 +303,6 @@
   margin-bottom: 40px;
 
   &.extended {
-    padding-top: 3em;
 
     @media (max-width: $on-palm) {
       padding-top: 56px;
