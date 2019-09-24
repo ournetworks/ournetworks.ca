@@ -10,7 +10,7 @@ function formSubmitCallback(formContextMsg) {
   var splashEle = document.querySelector('.splash');
   var postEle = document.querySelector('.post');
 
-  confirmationEle.className = 'announcement relative bg-yellow color-black';
+  confirmationEle.className = 'announcement pt-s pb-s relative bg-yellow color-black';
   confirmationEle.setAttribute('role', 'alert');
   confirmationEle.innerHTML = '<div class="container"><p>' + formContextMsg + '</p> <button class="close-banner" aria-label="Close">×</button></div>';
 
@@ -37,7 +37,6 @@ if (window.location.search == '?signup=confirmed') {
 }
 
 if (window.location.search == '?feedback=confirmed') {
-  document.querySelector('.announcement').style.display = 'none';
   formSubmitCallback('Successfully submitted your feedback!');
 }
 
@@ -190,37 +189,6 @@ window.setInterval(function() {
     $(this).textMix(randWord, 1000, 'linear')
   })
 }, 2000)
-
-// registration modal
-
-const panel = $('.panel')
-
-const closePanel = function () {
-  panel.hide()
-  $('body').removeClass('invert')
-}
-
-const showPanel = function () {
-  panel.show().focus()
-  $('body').addClass('invert')
-}
-
-$('#close-panel').on('click', closePanel)
-
-$('.nav .nav-item').last().on('click', function (e) {
-  e.preventDefault()
-  showPanel()
-})
-
-$(document).on('click', function (e) {
-  if (!$(e.target).hasClass('nav-item') && $(e.target).parents('.panel').length === 0) {
-    closePanel()
-  }
-}).keydown((e) => {
-  if (e.keyCode === 27) {
-    closePanel()
-  }
-})
 
 // program active menu links
 
