@@ -224,6 +224,7 @@
     bio: "Biyi is an archiver living in Rotterdam. Currently enrolled in Experimental Publishing Masters course in Piet Zwart Institute."
     link: "http://channelchannel.site/"
     linkDisplay: "channelchannel.site"
+    linkIgnore: true
     github: "onebigear"
 
   - presenterID: tobias
@@ -266,6 +267,7 @@
     bio: "Gottfried is an artist, educator and software tool-maker. He currently lives in Los Angeles."
     link: "https://gottfriedhaider.com/"
     linkDisplay: "gottfriedhaider.com"
+    linkIgnore: true
     github: "gohai"
     twitter: "mrgohai"
 
