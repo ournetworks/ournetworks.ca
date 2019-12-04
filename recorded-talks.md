@@ -30,7 +30,7 @@ We want to thank our A/V volunteers again, without whom the sharing of these vid
 <div class="flex flex-wrap flex-justify-space-between">
 {%- for session in sorted2018Sessions -%}
   {%- if session.ipfs720 or session.ipfs1080 or session.youtube -%}
-    {% include session-video.html %}
+    {% include session-video.html year=2018 %}
   {%- endif -%}
 {%- endfor -%}
 </div>
