@@ -565,7 +565,7 @@
     title: "Spectacular grammar: Infrastructure as a Universal language"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/13"
     presenterID:
-      - renee 
+      - renee
     description: >
       This paper proposes information technology (IT) infrastructure is formulating a universal language. It dips into historic efforts to create a universal language via avant garde filmmaking and Gottfried Leibniz's characteristica universalis. It then explains how international standardization organizations are developing the globally unified infrastructural language through their regulations. The paper weighs the benefits and consequences of a universal language by looking into who IT infrastructure serves and who is excluded. As Marshall McLuhan inferred in his 1964 essay, 'The Medium is the Message,' technology becomes inseparable from the messages it transmits, adding another layer of meaning to what is communicated; language, in turn, starts to be shaped around the tools that facilitate it. Thus, IT infrastructure is not just a tool to communicate, but is part of language itself.
     sessionType: "talk"
@@ -671,7 +671,7 @@
     title: "Solar powered website"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/22"
     presenterID:
-      - marie 
+      - marie
       - lauren
     description: >
       Low-tech Magazine questions the belief in technological progress, and highlights the potential of past knowledge and technologies for designing a sustainable society. In this talk we present https://solar.lowtechmagazine.com, a radical redesign of the blog that is self-hosted on a solar-powered server. This talk will review the design and technical considerations behind the redesign. This includes highlighting its functional benefits, such as archivability and accessibility, as well as its design approach to make the infrastructure powering the site more transparent.
@@ -719,7 +719,7 @@
     title: "Cryptoeconomics: Towards mass behavioral engineering or a network commons?"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/26"
     presenterID:
-      - jaya 
+      - jaya
       - dan
     description: >
       CoBox is a project to enable p2p cloud infrastructures with different trust-settings. The project emphasises privacy by design and easy data governance. The aim is to enable data commons, while protecting against the worst societal effects of dataification and data extraction. Many of the worst effects of Web 2.0 can be traced to the business models of the corporations that dominate the Internet: add-based and financialised businesses where services are paid through people's attention and click rate. This creates a number of devastating knock-on effects, including mass surveillance, design and development efforts aimed at creating addictive behaviours as well as information echo-chambers, phycological and emotional feedback loops. The consequences are ripping through the social fabric of societies and scorching the nervous systems of our bodies. Instead of a drive towards incorporating all interactions and behaviours into data centres for commercial exploitation, the emphasis of CoBox is to enable easy, yet conscious data governance where only the minimal necessary data is created and stored. What might be the new forms of organisations that would emerge from such an infrastructure? And conversely, which existing forms of organisations, networks and companies might benefit from such infrastructures? And critically - through which kinds of economic arrangements might a cooperative p2p cloud sustain itself in the long term?
@@ -928,6 +928,9 @@
     skipProgramID: true
     date: 2019-09-XX
     length: X
+    youtube: "ZC4VEQZndF0"
+    ipfs720: "QmTWyWDACanmeZvXnaMQPepeYbV6jkjh1eDdkYSnZFKX4A"
+    ipfs1080: "QmSRBcvpYdK6tiLjY7DVepj6VgFZZDvB2uJK7CUyjh2B2x"
 
   - sessionID: 19802
     title: "Distributed internet archiving plus low power long distance meshing with LoRaWAN"
@@ -935,6 +938,9 @@
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
+    youtube: "ZYPA_jDAxJY"
+    ipfs720: "QmWCKia9VApWRG2FfWKZ8d2ca8c7MoSLo9VauWcrK6EWf6"
+    ipfs1080: "Qmf7WSGo1ftiKy8fwQTEDfS984zbW8VZCE8Jkgd76gn4gQ"
 
   - sessionID: 19803
     title: "Distributed secure routing in permissionless flat networks"
@@ -942,6 +948,9 @@
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
+    youtube: "5OpvkQIZ_hM"
+    ipfs720: "QmawHWf4km3ZLE59S6X5FBFhZdCuqmYQ5JN7fz2d2P2ZMM"
+    ipfs1080: "Qmbz4a5JLjEwAb2ZhdaJCVKKpFWYt1yWKooqpb82amjrAR"
 
   - sessionID: 19804
     title: "Distributing knowledge of digital workflows via workshops and support groups"
@@ -949,6 +958,9 @@
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
+    youtube: "LCGItDLh7T0"
+    ipfs720: "QmR7it52jCvLxjnzwyr6ADncDZuiRzZZywzBKhmfuRxYfN"
+    ipfs1080: "QmWP6pQKg8GhkCF2e9SSZP6H8tXZ9vUh6LWG6H4paauDoP"
 
   - sessionID: 19805
     title: "Hugo Wasm plus IPFS blogging"
@@ -956,6 +968,9 @@
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
+    youtube: "bkGe5_9tymo"
+    ipfs720: "QmTKg5WLLpW8PPSMSs5TWv9gcC1t2nrtd4drus3V2Fmxcq"
+    ipfs1080: "QmXkxhpzNEYaLXS3upFmutdrELLAm9WdFmxYTxNYXwwbhN"
 
   - sessionID: 19806
     title: "The netifesto"
@@ -963,6 +978,9 @@
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
+    youtube: "I_u8u83H5fg"
+    ipfs720: "QmVgtgbMNj39pKMBaL3NGJYL3Ti2acn3CFLwRWepKcBdcN"
+    ipfs1080: "QmcR7xWG3unc4Jhd4MefpWwnLCjkRnMgQ4tCdzdjt3ebND"
 
   - sessionID: 19807
     title: "Freifunk"
@@ -970,6 +988,9 @@
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
+    youtube: "dg1PyG6DDEI"
+    ipfs720: "QmX4yR7WiZMNGBpXAZWXS4C9gPgtrftdMpzJePB71yvFJY"
+    ipfs1080: "QmVM6zFukpU1jMdmQjwPuBvqYE4DHurti9yofGaJLXX8kg"
 
   - sessionID: 19808
     title: "I2P intro for app devs"
@@ -977,6 +998,9 @@
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
+    youtube: "0niPMi-v4kg"
+    ipfs720: "QmcVUREbLmBGNhNi9zqbc6QnCDWZpGwfqdwSSU8TLwpPSD"
+    ipfs1080: "QmUFmpwLBLsPhT1XbCrC2PySZ6YHCxFz7XetLVd6ekNfEM"
   
   - sessionID: 19809
     title: "Sarantaporo.gr"
@@ -984,6 +1008,9 @@
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
+    youtube: "58TnEOQVSwQ"
+    ipfs720: "QmZAeeRadrg1x9NXQzCW17xKR3rfF3ZNuAW4rFaQrSmQFu"
+    ipfs1080: "QmVzAoss8soUmxGUFnB9Gp95cQb2itdwHDFdVFVx6x97k4"
 
   - sessionID: 19810
     title: "NYC Mesh"
@@ -994,3 +1021,6 @@
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
+    youtube: "tbyQi_fTR_g"
+    ipfs720: "QmTbFyRC8MvBEVk4n8CSw2G5ntvsDjG8tuzgjQAbBtCUmj"
+    ipfs1080: "QmSYWZLRuy14iVSyEg1qJ2s5K16qxQhc4AJqL3HF3ekvbr"
