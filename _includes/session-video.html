@@ -27,7 +27,7 @@
   </header>
   <div class="video-caption">
     <p>{{ session.description | truncatewords: 20 }}
-      {%- unless session.sessionType == "orga" -%}
+      {%- unless session.sessionType == "orga" or session.sessionType == "lightning-talk" -%}
         <span class="read-more">
         <a href="https://{{ include.year }}.ournetworks.ca/conference/program/#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}" rel="noopener">See session description</a></span>
       {%- endunless -%}
