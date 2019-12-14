@@ -783,7 +783,7 @@
   - sessionID: 19036
     title: "Meshing around: DIY internet"
     presenterID:
-      - jill 
+      - jill
       - scott
     description: > 
       In this workshop, participants will build and manipulate a small wireless mesh network, gaining hands-on experience with relevant principles of networking, mesh network topologies, and equipment currently in use by NYC Mesh. The workshop will begin with a short presentation and then divide participants into “mesh node teams” to explore the technology and how it can be adapted to various environments. 
@@ -889,61 +889,65 @@
 
   - sessionID: 19802
     title: "Distributed internet archiving plus low power long distance meshing with LoRaWAN"
+    description: "Nick Sweeting. Lightning talk on Day 3."
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
 
   - sessionID: 19803
     title: "Distributed secure routing in permissionless flat networks"
-    description: "Lightning talk on Day 3."
+    description: "Benedict Lau. Lightning talk on Day 3."
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
 
   - sessionID: 19804
     title: "Distributing knowledge of digital workflows via workshops and support groups"
-    description: "Lightning talk on Day 3."
+    description: "Zack. Lightning talk on Day 3."
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
 
   - sessionID: 19805
     title: "Hugo Wasm plus IPFS blogging"
-    description: "Lightning talk on Day 3."
+    description: "Jim Pick. Lightning talk on Day 3."
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
 
   - sessionID: 19806
     title: "The netifesto"
-    description: "Lightning talk on Day 3."
+    description: "Ryan Kelln. Lightning talk on Day 3."
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
 
   - sessionID: 19807
     title: "Freifunk"
-    description: "Mesh lightning talk on Day 3." 
+    description: "Felix Kaechele. Mesh lightning talk on Day 3." 
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
 
   - sessionID: 19808
     title: "I2P intro for app devs"
-    description: "Mesh lightning talk on Day 3."
+    description: "idk. Mesh lightning talk on Day 3."
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
   
   - sessionID: 19809
     title: "Sarantaporo.gr"
-    description: "Mesh lightning talk on Day 3."
+    description: "Vassilis Chryssos. Mesh lightning talk on Day 3."
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
 
   - sessionID: 19810
     title: "NYC Mesh"
+    presenterID:
+      - jill
+      - scott
     description: "Mesh lightning talk on Day 3."
     sessionType: "lightning-talk"
     date: 2019-09-22
