@@ -385,6 +385,16 @@
 
   - sessionID: 19995
     title: "Keynote panel: May First, technology and revolution"
+    description: |
+      Technology has so fundamentally changed our society that any strategy for social change must be altered to address its power over us. But it also gives us the potential to develop and realize the kind of society we all want and to do that within our lifetimes. Information technology is the most powerful tool for change we have.
+      Since 2017, 25 local convergences have brought together over 1,500 activists from the U.S. to talk about the intersection between technology and revolution. The results of this two-year project can be viewed in the program that emerged from those sessions summarized in the video linked below.
+      techandrev.org
+      We want to continue that process in a Tech and Rev session at this conference with our convergence here adding to and editing the program as it now stands.
+      Panel speakers are:
+      > Alfredo Lopez, May First Movement Technology
+      > Ellie Ade Kur, Maggie's
+      > Lorraine Chuen, IntersectTO
+      > Victoria Barnett, Design Justice Network
     sessionType: "keynote"
     date: 2019-09-21
     length: 1.5
@@ -595,8 +605,8 @@
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/17"
     presenterID:
       - corey
-    description: > 
-      The following talk will address the recent calls for regulation of digital content on social media platforms alongside the digital emancipation movements of the 90's, and how this informs, or rather, elucidates issues in digital ethics. And by this I mean the way in which various normative claims exist, and persist online, and how such ethical conventions interact with us user-subjects. Ultimately, my plan is to show that there is a fundamental error in how digital ethics are understood, and that normative claims such as ‘free speech' appear to operate in a very distinct way online. This is the beginning of a greater project regarding the nature of ‘the digital self', and my plan is for this presentation to function as means of clarification, and identification of a problem. A problem which, I think can be attended to by social sciences, cultural theory & psychoanalysis.
+    description: >
+      The following talk will address the recent calls for regulation of digital content on social media platforms alongside the digital emancipation movements of the 90's, and how this informs, or rather, elucidates issues in digital ethics. And by this I mean the way in which various normative claims exist, and persist online, and how such ethical conventions interact with us user-subjects. Ultimately, my plan is to show that there is a fundamental error in how digital ethics are understood, and that normative claims such as 'free speech' appear to operate in a very distinct way online. This is the beginning of a greater project regarding the nature of 'the digital self', and my plan is for this presentation to function as means of clarification, and identification of a problem. A problem which, I think can be attended to by social sciences, cultural theory & psychoanalysis.
     sessionType: "talk"
     date: 2019-09-XX
     length: X
@@ -719,7 +729,7 @@
     presenterID:
       - lai
     description: >
-      A sculpture is material form in real space, this is its most basic quality; a network is a form in both real and “real” space. When we see sculpture, it reveals itself slowly through our visual experience of its form, weight, material, place, volume, mass, amongst other characteristics. Networks, on the other hand, are harder to see, especially when you are in them - but they still have these same properties. Viewing a sculpture is like viewing the culmination of several moments in time. They are collections of choices and physicalizations of priorities. Every detail is a decision and analysing a sculpture reveals its decision tree. In this talk, I will propose that networks can disclose themselves in the same way, if we ask the same questions.
+      A sculpture is material form in real space, this is its most basic quality; a network is a form in both real and "real" space. When we see sculpture, it reveals itself slowly through our visual experience of its form, weight, material, place, volume, mass, amongst other characteristics. Networks, on the other hand, are harder to see, especially when you are in them - but they still have these same properties. Viewing a sculpture is like viewing the culmination of several moments in time. They are collections of choices and physicalizations of priorities. Every detail is a decision and analysing a sculpture reveals its decision tree. In this talk, I will propose that networks can disclose themselves in the same way, if we ask the same questions.
     sessionType: "workshop"
     date: 2019-09-22
     length: 1
@@ -773,7 +783,7 @@
   - sessionID: 19036
     title: "Meshing around: DIY internet"
     presenterID:
-      - jill 
+      - jill
       - scott
     description: > 
       In this workshop, participants will build and manipulate a small wireless mesh network, gaining hands-on experience with relevant principles of networking, mesh network topologies, and equipment currently in use by NYC Mesh. The workshop will begin with a short presentation and then divide participants into “mesh node teams” to explore the technology and how it can be adapted to various environments. 
@@ -862,7 +872,83 @@
     presenterID:
       - farhad
     description: > 
-      Video presentation.
+      Video presentation by Farhad Bahram, accompanying the exhibited artwork: Made in Iran. Made in Iran is the outcome of several interviews with 12 Iranian individuals, living in the United States, whose lives are affected by the travel ban. Throughout this conversation they portrayed how, as the result of recent feuds between the two countries, their identities are often assumed by others to only comprise their nationality. In this project I tried to portray their complexity, depth and presence by interviewing them and asking them to share in a series of words, images and videos that more accurately reflects their intended identity.
     sessionType: "talk"
     date: 2019-09-XX
+    length: X
+
+  - sessionID: 19801
+    title: "Channel channel, a network for VPN access"
+    presenterID:
+      - biyi
+    description: >
+      Video presentation by Biyi Wen, accompanying the exhibited artwork: Channel channel, a network for VPN access. Channel Channel is a project that involves around the basic usage, access and further social dynamics of VPN, which stands for Virtual Private Network. It's a tool to extends a private network to external network environment to provide safe, private access. In practical reality the usage of this tool is embedded in complex situations, such as to circumvent state fire wall and bypass geographically restricted content. This project adopts a DIY working attitude. The underlying technology is provided by PiVPN, an open source free software that runs on a Raspberry Pi. As the Pi is connected to a home network, it's able to provide VPN access. I initiated this project as a response to my personal practical situation. As I live in the Netherlands, I travel back to China from time to time. The state fire wall blocks access to services such as Google, YouTube, Twitter and Instagram. My mail service is dependent on Gmail, I do watch YouTube for occasional "guilty pleasure", not to mention the tutorial I followed on how to set up PiVPN is from a YouTuber. Aside from services that are not blocked by the firewall, access to content sometimes also can be slow, due to more distant network traffic route.
+    sessionType: "talk"
+    date: 2019-09-XX
+    length: X
+
+  - sessionID: 19802
+    title: "Distributed internet archiving plus low power long distance meshing with LoRaWAN"
+    description: "Nick Sweeting. Lightning talk on Day 3."
+    sessionType: "lightning-talk"
+    date: 2019-09-22
+    length: X
+
+  - sessionID: 19803
+    title: "Distributed secure routing in permissionless flat networks"
+    description: "Benedict Lau. Lightning talk on Day 3."
+    sessionType: "lightning-talk"
+    date: 2019-09-22
+    length: X
+
+  - sessionID: 19804
+    title: "Distributing knowledge of digital workflows via workshops and support groups"
+    description: "Zack. Lightning talk on Day 3."
+    sessionType: "lightning-talk"
+    date: 2019-09-22
+    length: X
+
+  - sessionID: 19805
+    title: "Hugo Wasm plus IPFS blogging"
+    description: "Jim Pick. Lightning talk on Day 3."
+    sessionType: "lightning-talk"
+    date: 2019-09-22
+    length: X
+
+  - sessionID: 19806
+    title: "The netifesto"
+    description: "Ryan Kelln. Lightning talk on Day 3."
+    sessionType: "lightning-talk"
+    date: 2019-09-22
+    length: X
+
+  - sessionID: 19807
+    title: "Freifunk"
+    description: "Felix Kaechele. Mesh lightning talk on Day 3." 
+    sessionType: "lightning-talk"
+    date: 2019-09-22
+    length: X
+
+  - sessionID: 19808
+    title: "I2P intro for app devs"
+    description: "idk. Mesh lightning talk on Day 3."
+    sessionType: "lightning-talk"
+    date: 2019-09-22
+    length: X
+  
+  - sessionID: 19809
+    title: "Sarantaporo.gr"
+    description: "Vassilis Chryssos. Mesh lightning talk on Day 3."
+    sessionType: "lightning-talk"
+    date: 2019-09-22
+    length: X
+
+  - sessionID: 19810
+    title: "NYC Mesh"
+    presenterID:
+      - jill
+      - scott
+    description: "Mesh lightning talk on Day 3."
+    sessionType: "lightning-talk"
+    date: 2019-09-22
     length: X
