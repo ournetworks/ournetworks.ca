@@ -16,6 +16,7 @@ Full archives of 2019 videos are available:
 - IPFS: [ipfs://QmQQfD1ztg1aG82VmUmutusbxn7tL4c2o1qHv1ivyWbNj6]({{ site.ipfs_gateway }}/QmaWc83FvLkyvw8p7Q45prW7HTXAaLgk8jxmkdciokaE1K/)
 - Mirror: [Toronto Mesh Alexandria Mirror](https://alexandria.tomesh.net/ournetworks/2019)
 - Internet Archive: [Our Networks 2019 Talks](https://archive.org/details/ournetworks2019) (torrent available)
+- YouTube playlist: [Our Networks 2019 RE: Infrastructures](https://www.youtube.com/playlist?list=PLx7_J32Ys60cAmBbdDtx1-THpDU4XbtdV)
 
 #### Live stream
 - [September 20, 2019](https://2019.ournetworks.ca/livestream/?m3u8=live-2019-09-20.m3u8)
