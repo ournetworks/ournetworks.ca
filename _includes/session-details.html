@@ -1,6 +1,6 @@
 {%- if session.title -%}
 <div class="session-detail program-block content-width">
-  <a class="program-block-anchor" id="{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}"></a>
+  <a class="program-block-anchor" {% unless session.skipProgramID %}id="{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}"{% endunless %}></a>
   <div class="program-block-content p-1">
     <header class="session-header mb-1">
       <h3 class="session-title heading">{{ session.title }}</h3>
