@@ -206,9 +206,13 @@ if (!stream_urls_http || !Array.isArray(stream_urls_http) || (stream_urls_http.l
 var rootURL = 'https://2019.ournetworks.ca/livestream/'
 
 function getShareLink(key) {
-  var date = new Date().toLocaleDateString("en-CA", {timeZone: "America/Toronto"});
+  var m3u8 = getURLParam('m3u8');
+  if (!m3u8) {
+    var date = new Date().toLocaleDateString("en-CA", {timeZone: "America/Toronto"});
+    m3u8 = `live-${date}.m3u8`;
+  }
   var bookmark = getHashFromTime(live.currentTime());
-  return `${rootURL}?m3u8=live-${date}.m3u8&from=${bookmark}`;
+  return `${rootURL}?m3u8=${m3u8}&from=${bookmark}`;
 }
 
 setInterval(function () {
