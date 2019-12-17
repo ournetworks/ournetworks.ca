@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 5
+order: 6
 title: "Visiting Toronto"
 titleDisplay: "Visiting"
 ---

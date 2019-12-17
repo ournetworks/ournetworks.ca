@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 6
+order: 5
 title: "Zine Library"
 titleDisplay: "Zine Library"
 ---
