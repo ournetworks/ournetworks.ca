@@ -5,7 +5,7 @@ function getURLParam(key) {
 
 var ipfs_gw = getURLParam('gw');                          // Set custom IPFS gateway
 if (getURLParam('m3u8'))
-  var m3u8_ipfs = 'https://live.mesh.world/' + getURLParam('m3u8');                    // Set m3u8 file URL to override IPFS live stream
+  var m3u8_ipfs = getURLParam('m3u8');                    // Set m3u8 file URL to override IPFS live stream
 var vod_ipfs = getURLParam('vod') || getURLParam('ipfs'); // Set IPFS content hash of mp4 file to play IPFS on-demand video stream ('ipfs' for backward compatability)
 var start_from = getURLParam("from");                     // Timecode to start video playing from
 
