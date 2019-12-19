@@ -215,23 +215,32 @@ function getShareLink(key) {
   return `${rootURL}?m3u8=${m3u8}&from=${bookmark}`;
 }
 
-setInterval(function () {
-  var link = document.getElementById('link');
-  link.value = getShareLink();
-}, 5000);
+if (getURLParam('m3u8')) {
+  setInterval(function () {
+    var link = document.getElementById('link');
+    link.value = getShareLink();
+  }, 5000);
+}
 
-document.querySelector('.share-tweet').addEventListener('click', function() {
-  var link = document.getElementById('link');
-  link.value = getShareLink();
-  const tweetURL = link.value;
-  window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(tweetURL)}&hashtags=OurNetworks2019`);
-});
+var shareTweet = document.querySelector('.share-tweet');
+var shareLink = document.querySelector('.share-link');
 
-document.querySelector('.share-link').addEventListener('click', function() {
-  var link = document.getElementById('link');
-  link.value = getShareLink();
-  link.select();
-  link.setSelectionRange(0, 99999); // For mobile devices
-  document.execCommand('copy');
-  alert('Link copied to clipboard');
-});
+if (shareTweet) {
+  shareTweet.addEventListener('click', function() {
+    var link = document.getElementById('link');
+    link.value = getShareLink();
+    const tweetURL = link.value;
+    window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(tweetURL)}&hashtags=OurNetworks2019`);
+  });
+}
+
+if (shareLink) {
+  shareLink.addEventListener('click', function() {
+    var link = document.getElementById('link');
+    link.value = getShareLink();
+    link.select();
+    link.setSelectionRange(0, 99999); // For mobile devices
+    document.execCommand('copy');
+    alert('Link copied to clipboard');
+  });
+}
