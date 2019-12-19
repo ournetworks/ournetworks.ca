@@ -5,7 +5,7 @@ function getURLParam(key) {
 
 var ipfs_gw = getURLParam('gw');                          // Set custom IPFS gateway
 if (getURLParam('m3u8'))
-  var m3u8_ipfs = 'https://live.mesh.world/' + getURLParam('m3u8');                    // Set m3u8 file URL to override IPFS live stream
+  var m3u8_ipfs = getURLParam('m3u8');                    // Set m3u8 file URL to override IPFS live stream
 var vod_ipfs = getURLParam('vod') || getURLParam('ipfs'); // Set IPFS content hash of mp4 file to play IPFS on-demand video stream ('ipfs' for backward compatability)
 var start_from = getURLParam("from");                     // Timecode to start video playing from
 
@@ -206,28 +206,41 @@ if (!stream_urls_http || !Array.isArray(stream_urls_http) || (stream_urls_http.l
 var rootURL = 'https://2019.ournetworks.ca/livestream/'
 
 function getShareLink(key) {
-  var date = new Date().toLocaleDateString("en-CA", {timeZone: "America/Toronto"});
+  var m3u8 = getURLParam('m3u8');
+  if (!m3u8) {
+    var date = new Date().toLocaleDateString("en-CA", {timeZone: "America/Toronto"});
+    m3u8 = `live-${date}.m3u8`;
+  }
   var bookmark = getHashFromTime(live.currentTime());
-  return `${rootURL}?m3u8=live-${date}.m3u8&from=${bookmark}`;
+  return `${rootURL}?m3u8=${m3u8}&from=${bookmark}`;
 }
 
-setInterval(function () {
-  var link = document.getElementById('link');
-  link.value = getShareLink();
-}, 5000);
+if (getURLParam('m3u8')) {
+  setInterval(function () {
+    var link = document.getElementById('link');
+    link.value = getShareLink();
+  }, 5000);
+}
 
-document.querySelector('.share-tweet').addEventListener('click', function() {
-  var link = document.getElementById('link');
-  link.value = getShareLink();
-  const tweetURL = link.value;
-  window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(tweetURL)}&hashtags=OurNetworks2019`);
-});
+var shareTweet = document.querySelector('.share-tweet');
+var shareLink = document.querySelector('.share-link');
 
-document.querySelector('.share-link').addEventListener('click', function() {
-  var link = document.getElementById('link');
-  link.value = getShareLink();
-  link.select();
-  link.setSelectionRange(0, 99999); // For mobile devices
-  document.execCommand('copy');
-  alert('Link copied to clipboard');
-});
+if (shareTweet) {
+  shareTweet.addEventListener('click', function() {
+    var link = document.getElementById('link');
+    link.value = getShareLink();
+    const tweetURL = link.value;
+    window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(tweetURL)}&hashtags=OurNetworks2019`);
+  });
+}
+
+if (shareLink) {
+  shareLink.addEventListener('click', function() {
+    var link = document.getElementById('link');
+    link.value = getShareLink();
+    link.select();
+    link.setSelectionRange(0, 99999); // For mobile devices
+    document.execCommand('copy');
+    alert('Link copied to clipboard');
+  });
+}
