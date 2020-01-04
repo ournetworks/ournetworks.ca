@@ -13,7 +13,7 @@ redirect_from:
 
 Full archives of 2019 videos are available:
 
-- IPFS: [ipfs://QmQQfD1ztg1aG82VmUmutusbxn7tL4c2o1qHv1ivyWbNj6]({{ site.ipfs_gateway }}/ipfs/QmaWc83FvLkyvw8p7Q45prW7HTXAaLgk8jxmkdciokaE1K/)
+- IPFS: [ipfs://QmQQfD1ztg1aG82VmUmutusbxn7tL4c2o1qHv1ivyWbNj6]({{ site.ipfs_gateway }}/ipfs/QmaWc83FvLkyvw8p7Q45prW7HTXAaLgk8jxmkdciokaE1K/){: .overflow-wrap}
 - Mirror: [Toronto Mesh Alexandria Mirror](https://alexandria.tomesh.net/ournetworks/2019)
 - Internet Archive: [Our Networks 2019 Talks](https://archive.org/details/ournetworks2019) (torrent available)
 - YouTube playlist: [Our Networks 2019 RE: Infrastructures](https://www.youtube.com/playlist?list=PLx7_J32Ys60cAmBbdDtx1-THpDU4XbtdV)
@@ -46,7 +46,7 @@ We want to thank our A/V volunteers again, without whom the sharing of these vid
 
 Full archives of 2018 videos are available:
 
-- IPFS: [ipfs://QmQQfD1ztg1aG82VmUmutusbxn7tL4c2o1qHv1ivyWbNj6]({{ site.ipfs_gateway }}/ipfs/QmQQfD1ztg1aG82VmUmutusbxn7tL4c2o1qHv1ivyWbNj6/)
+- IPFS: [ipfs://QmQQfD1ztg1aG82VmUmutusbxn7tL4c2o1qHv1ivyWbNj6]({{ site.ipfs_gateway }}/ipfs/QmQQfD1ztg1aG82VmUmutusbxn7tL4c2o1qHv1ivyWbNj6/){: .overflow-wrap}
 - Mirror: [Toronto Mesh Alexandria Mirror](https://alexandria.tomesh.net/ournetworks/2018)
 - Internet Archive: [Our Networks 2018 Talks](https://archive.org/details/ournetworks2018) (torrent available)
 - YouTube playlist: [Our Networks 2018 Beyond DIY: Do It With Others](https://www.youtube.com/playlist?list=PLx7_J32Ys60ey2bgSn2soAoBy0v9bBUbT)
