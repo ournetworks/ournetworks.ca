@@ -9,7 +9,6 @@ before_install:
   - if [ "$TRAVIS_SECURE_ENV_VARS" == true ]; then chmod 400 scripts/id_rsa; fi
   # Bundler 2.0 support
   # See: https://docs.travis-ci.com/user/languages/ruby/#bundler-20
-  - gem update --system
   - gem install bundler
   # Install NVM with Dat via npm
   - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash

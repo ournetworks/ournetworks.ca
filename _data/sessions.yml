@@ -373,15 +373,18 @@
     
   - sessionID: 19993
     title: "Kickoff party"
-    sessionType: "orga"    
+    sessionType: "orga"
   
   - sessionID: 19994
     title: "Keynote: Dr. Jennifer Wemigwans, A Digital Bundle Protecting and Promoting Indigenous Knowledge Online"
     sessionType: "keynote"
-    description: > 
+    description: >
       A Digital Bundle Protecting and Promoting Indigenous Knowledge Online looks at ways to advance Indigenous Knowledge on the Internet through Indigenous protocols and ethics while demonstrating a profound appreciation for Indigenous Knowledge systems.
     date: 2019-09-20
     length: 1.5
+    youtube: "undc68wvMoA"
+    ipfs720: "QmdsegrRgaMMaosnVGG4LxABPsyaS1FWgTwsVX5SMmxx4u"
+    ipfs1080: "QmWj2qwrGAG43F6zgAYhQGkXHBQpfLWfMGhMpEuLhcVxCB"
 
   - sessionID: 19995
     title: "Keynote panel: May First, technology and revolution"
@@ -430,18 +433,21 @@
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/3"
     presenterID:
       - kirill
-    description: > 
+    description: >
       If the only thing you have is a hammer, everything looks like a nail, right? Then why wonder how came our engineers are mostly building centralized client-server data silos, if in the core of their curriculums usually lies a mental model of computing from 70s, with a singular mainframe being programmed and used from multiple "dumb" terminals. And then history replicates itself, and modern-day Facebook uses our multi-GHz, multi-GB, multi-core devices as dumb terminals of sorts. Let's see what tools and approaches are there at your command, if you decide to build something else, something more decentralized, more resilient, frequently more performant and bringing agency back to end users.
     sessionType: "talk"
     date: 2019-09-21
     length: 0.75
+    youtube: "ccrSikGo22E"
+    ipfs720: "QmdZG4nE1v1Fiwh7ixcxcDynSZ7yCr2K52oozzHeEvpaTy"
+    ipfs1080: "QmPYoWZA9xGhhrGjnZZnoa5FLWoNq6LVo4xmS8reQSqu4Q"
 
   - sessionID: 19004
     title: "Amazonification: Decoding scarcity as weaponized precarity"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/4"
     presenterID:
       - hiba
-    description: > 
+    description: >
       Workers' rights are losing respect, the power of technology is not fully understood – gone are the eras of strength of 1940s US labor unions. A financial environment cushioned by unregulated laws created an orange-coloured disease, Amazon, that systemically targets poor people, Black communities and communities of color. It spreads precarity as a contagion, strengthens digital redlining, and produces predatory surveillance: Amazon, the company, has changed the world. Also, it has changed the word. Amazon will come to solely signify the company and not the Brazilian rainforest. I will speak on the 'Amazonification' of the world and its role in spreading neoliberal ecoterrorism by remapping environmental scarcity as precarity onto vulnerable populations. I will connect this to the company's predatory system of surveillance through its in-house facial recognition software and serving as the tech-backbone of ICE. Through the innocuous frame of consumption, this talk and screening decrypts the 'success' behind corporate rendering of workers' labor as invisible and through its AI algorithms extending the carceral state.
     sessionType: "talk"
     date: 2019-09-20
@@ -495,6 +501,9 @@
     sessionType: "talk"
     date: 2019-09-XX
     length: X
+    youtube: "hnigvVuoaIA"
+    ipfs720: "QmNtQiSK7dZbMCH89kgBLzgfMQP3UoWqT2QKWvjtVt2jTx"
+    ipfs1080: "QmVEW7WjJsh8W9EGYfq5d4kjJ2XzDDL5ZQy6VXZ2LcMXZt"
 
   - sessionID: 19009
     title: "Publishing your first decentralized website with Dat"
@@ -512,11 +521,14 @@
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/10"
     presenterID:
       - andreas
-    description: > 
+    description: >
       This is a technical, artistic, theoretical reflection on how we use technology to run and experiment with decentralised festivals in Berlin. VERANTWORTUNG 3000 (2016), HOFFNUNG 3000 (2017) and now p2panda are platforms and protocols to setup groups, festivals, gatherings, events or spaces in a decentralised, self-organised manner which allow us to raise questions on how we organise ourselves in our social, artistic & theoretical communities. We will look into implementations / realisations of decentralised festivals and talk about how they influenced our way of discussing and producing art and technology. Finally we will discuss p2panda, an idea of a p2p protocol for organising resources, places and events based on a new data structure named »bamboo«, which is inspired by the SSB protocol.
     sessionType: "talk"
     date: 2019-09-XX
     length: X
+    youtube: "Teu0xkQ7FvU"
+    ipfs720: "QmQuzgTJFeya8mJ6yozc5ndowDxvysxjWAnQgMHWB2eSMN"
+    ipfs1080: "QmetkRpcPihomCTfdLZcdmj3sGMvea1FawjR7neipVYhQt"
 
   - sessionID: 19011
     title: "Currency"
@@ -525,7 +537,7 @@
       - sphere
     description: >
       'Currency' is an electronic game and custom game console constructed from an obsolete 1917 Burroughs adding machine and a microcontroller. The console monitors the exchange rate of bitcoins to US dollars and uses this data to generate a game level that prints out on a roll of receipt paper. Using the adding machine's grid of numeric buttons, players attempt to pull two columns of printed ASCII symbols together while being either aided or impeded by the current Bitcoin value.
-    sessionType: "exhibit" 
+    sessionType: "exhibit"
     date: 2019-09-20
     images:
       - src: sphere-1.jpg
@@ -535,35 +547,40 @@
         width: 51.7%
         alt: Currency, Sphere Collective
 
-
   - sessionID: 19012
     title: "Collective resistance to state controls on information"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/12"
     presenterID:
       - cecylia
-    description: > 
+    description: >
       As resistance to state control continues to grow, states are reacting by tightening the restrictions on the flow of information surrounding these uprisings and protests. One of the main tools at their disposal is to leverage their control over centralized Internet infrastructure to block access to news sites, social media, and content that threaten their authority. Tor Project is working on a way to circumvent these restrictions on information. This talk will describe a way we can collectively fight back by hosting P2P proxies in our browsers to share our agency with others. Snowflake is a new censorship circumvention tool that relies on the participation of many to further widen the cracks in state-imposed Internet firewalls.
     sessionType: "talk"
     date: 2019-09-XX
     length: X
+    youtube: "5QJ6Am2hHoU"
+    ipfs720: "QmUNXRGpieHHNukZiNPEDP38V9tP4UeVZX6cn8Rv4spLgh"
+    ipfs1080: "QmRJcehUBNZnDUvSHJg97Aeus8AXw5rtF1oxMtRYkevBwV"
 
   - sessionID: 19013
     title: "Spectacular grammar: Infrastructure as a Universal language"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/13"
     presenterID:
-      - renee 
-    description: > 
+      - renee
+    description: >
       This paper proposes information technology (IT) infrastructure is formulating a universal language. It dips into historic efforts to create a universal language via avant garde filmmaking and Gottfried Leibniz's characteristica universalis. It then explains how international standardization organizations are developing the globally unified infrastructural language through their regulations. The paper weighs the benefits and consequences of a universal language by looking into who IT infrastructure serves and who is excluded. As Marshall McLuhan inferred in his 1964 essay, 'The Medium is the Message,' technology becomes inseparable from the messages it transmits, adding another layer of meaning to what is communicated; language, in turn, starts to be shaped around the tools that facilitate it. Thus, IT infrastructure is not just a tool to communicate, but is part of language itself.
     sessionType: "talk"
     date: 2019-09-XX
     length: X
+    youtube: "nGRXz_rBpyg"
+    ipfs720: "QmdVMrd5ApoukLvYdumpdc7PJAnuxQwpKnkSz5N7UNrdcv"
+    ipfs1080: "QmUJs828esqruJkh1d1PNM3XAgWdsKZe2a22nB1Eo8NpBy"
 
   - sessionID: 19014
     title: "Channel channel, a network for VPN access"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/14"
     presenterID:
       - biyi
-    description: > 
+    description: >
       Channel Channel is a project that involves around the basic usage, access and further social dynamics of VPN, which stands for Virtual Private Network. It's a tool to extends a private network to external network environment to provide safe, private access. In practical reality the usage of this tool is embedded in complex situations, such as to circumvent state fire wall and bypass geographically restricted content. This project adopts a DIY working attitude. The underlying technology is provided by PiVPN, an open source free software that runs on a Raspberry Pi. As the Pi is connected to a home network, it's able to provide VPN access. I initiated this project as a response to my personal practical situation. As I live in the Netherlands, I travel back to China from time to time. The state fire wall blocks access to services such as Google, YouTube, Twitter and Instagram. My mail service is dependent on Gmail, I do watch YouTube for occasional "guilty pleasure", not to mention the tutorial I followed on how to set up PiVPN is from a YouTuber. Aside from services that are not blocked by the firewall, access to content sometimes also can be slow, due to more distant network traffic route.
     sessionType: "exhibit"
     date: 2019-09-20
@@ -571,13 +588,16 @@
       - src: biyi-1.jpg
         alt: Channel channel, a network for VPN access, Biyi Wen
         width: 100%
+    youtube: "ZC4VEQZndF0"
+    ipfs720: "QmTWyWDACanmeZvXnaMQPepeYbV6jkjh1eDdkYSnZFKX4A"
+    ipfs1080: "QmSRBcvpYdK6tiLjY7DVepj6VgFZZDvB2uJK7CUyjh2B2x"
 
   - sessionID: 19015
     title: "The Magi system, exploring the aesthetics of network infrastructure"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/15"
     presenterID:
       - tobias
-    description: > 
+    description: >
       The Magi system is a two channel animation which explores the aesthetics of network infrastructure. There has been a recent trend of users posting pictures of server racks and network wiring on forums like reddits r/Cableporn and r/Cablefail. These images have spread out and proliferated on hashtag based platforms like Instagram and Pinterest. This project uses images and themes from these platforms as a starting point to investigate popular conceptions of how we visualise network infrastructure.
     sessionType: "exhibit"
     date: 2019-09-20
@@ -594,7 +614,7 @@
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/16"
     presenterID:
       - adam
-    description: > 
+    description: >
       On the Wire is a performance of music/sound made entirely by the network - a combination of live and pre-recorded sounds received via a physical 'wiretap' of a cat6 cable in both send and receive directions. On the Wire makes audible the rhythms inherent in the act of sending and receiving using network protocols, and allows the audience to immerse themselves in the spatial and temporal dimensions of the network through sound. For Our Networks, this work will specifically feature the sounds of decentralized protocols (IPFS, Dat...)
     sessionType: "performance"
     date: 2019-09-20
@@ -606,17 +626,20 @@
     presenterID:
       - corey
     description: >
-      The following talk will address the recent calls for regulation of digital content on social media platforms alongside the digital emancipation movements of the 90's, and how this informs, or rather, elucidates issues in digital ethics. And by this I mean the way in which various normative claims exist, and persist online, and how such ethical conventions interact with us user-subjects. Ultimately, my plan is to show that there is a fundamental error in how digital ethics are understood, and that normative claims such as 'free speech' appear to operate in a very distinct way online. This is the beginning of a greater project regarding the nature of 'the digital self', and my plan is for this presentation to function as means of clarification, and identification of a problem. A problem which, I think can be attended to by social sciences, cultural theory & psychoanalysis.
+      The following talk will address the recent calls for regulation of digital content on social media platforms alongside the digital emancipation movements of the 90's, and how this informs, or rather, elucidates issues in digital ethics. And by this I mean the way in which various normative claims exist, and persist online, and how such ethical conventions interact with us user-subjects. Ultimately, my plan is to show that there is a fundamental error in how digital ethics are understood, and that normative claims such as ‘free speech' appear to operate in a very distinct way online. This is the beginning of a greater project regarding the nature of ‘the digital self', and my plan is for this presentation to function as means of clarification, and identification of a problem. A problem which, I think can be attended to by social sciences, cultural theory & psychoanalysis.
     sessionType: "talk"
     date: 2019-09-XX
     length: X
+    youtube: "8G6Vr-F8HXk"
+    ipfs720: "QmWn3YAfxS8kLDgzGUQae1P84DpDKMzLXDr4zVsQUTSoKY"
+    ipfs1080: "QmRmD44SiKNFTJqsZbzLneFQPuTRv2iZy9n9MFZRLQYcG1"
 
   - sessionID: 19018
     title: "[PROTEST_BAR]"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/18"
     presenterID:
       - brett
-    description: > 
+    description: >
       This half-day workshop engages participants in the construction of a tool for interventions into wireless infrastructure space. The workshop is open to all skill levels and interests and assumes no prior knowledge of networking, electronics or programming. Participants will be introduced to the fundamentals of wireless networking and will program the device to create wireless access points, embedded web servers and custom packet injectors. The focus of these activities is to explore networks and imagine creative uses of the networking medium for activism and personal expression. The cost of the workshop is approximately 50USD, and participants will leave with the devices they construct.
     sessionType: "workshop"
     date: 2019-09-XX
@@ -627,7 +650,7 @@
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/19"
     presenterID:
       - sam
-    description: > 
+    description: >
       Relationships are fundamental to networked activity—as a kind of interpersonal infrastructure, feedback allows us to communicate our expectations and observations. Even with the proliferation of organizational frameworks to help us consider giving and receiving, our intentions can be clouded by biases, misaligned goals, and fraught relationships. If the only variable we can control is ourselves, how can we consciously act to depersonalize feedback and guide our colleagues to coach / evaluate us on the areas in which we need or hope to grow? What relevant methods or approaches could we borrow from design research? This workshop will open with a primer on existing feedback frameworks and models, then participants will work individually and collaboratively through a semi-structured activity to answer 'what could it look like to frame feedback as exploratory research into ourselves?
     sessionType: "workshop"
     date: 2019-09-XX
@@ -638,7 +661,7 @@
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/20"
     presenterID:
       - gottfried
-    description: > 
+    description: >
       Building decentralized websites using Beaker and Dat is fun--and a great, hands-on way to learn about the otherwise hidden structures and exchanges that power the web. But to do so, one--more so than ever--needs proficiency in the language of the web (HTML, CSS and JavaScript) in order to participate. In a workshop specifically for children and other 'outsiders', a modified version of 'Hotglue' is used to build decentralized sites together and interlink them. Hotglue is a FOSS 'What you see is what you get' editor for the web. Created in 2010, it currently uses files on the server it is installed to hold the users' data. A to-be-created modified branch of "Hotglue" would instead work on top of the Dat ecosystem, forgoing the need to be running a server altogether.
     sessionType: "workshop"
     date: 2019-09-XX
@@ -648,13 +671,16 @@
     title: "Solar powered website"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/22"
     presenterID:
-      - marie 
+      - marie
       - lauren
-    description: > 
+    description: >
       Low-tech Magazine questions the belief in technological progress, and highlights the potential of past knowledge and technologies for designing a sustainable society. In this talk we present https://solar.lowtechmagazine.com, a radical redesign of the blog that is self-hosted on a solar-powered server. This talk will review the design and technical considerations behind the redesign. This includes highlighting its functional benefits, such as archivability and accessibility, as well as its design approach to make the infrastructure powering the site more transparent.
     sessionType: "talk"
     date: 2019-09-22
     length: 0.5
+    youtube: "p3oK4-MhfgQ"
+    ipfs720: "QmR5pK74rF2UK9MScWc5DbzAZYEsv54CxmZuqk5vbKafBT"
+    ipfs1080: "QmYtsm3p4JRRwbsafcUdYAm9iMf3P8swDkyepAAVuR4R6P"
 
   - sessionID: 19023
     title: "Whose future are you serving?: Interrogating frontier imaginaries within P2P technologies"
@@ -662,7 +688,7 @@
     sessionType: "talk"
     presenterID:
       - laniyuk
-    description: > 
+    description: >
       Supremacy, in all it’s forms, is ultimately a narrative that we tell ourselves. It is these stories which determine who is valuable, who is authority, who can live and who must die.
     date: 2019-09-21
     length: 0.5
@@ -672,7 +698,7 @@
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/24"
     presenterID:
       - brettw
-    description: > 
+    description: >
       A public roundtable discussion with artist Brett Wallace focusing on the challenge of working conditions in the digital age. By examining ideas or labor, technology and the greater economy in Wallace's recent work as a jumping off point, we will hold a group discussion on building coalitions and reclaiming autonomy and dignity in workplaces today. What are the internal contradictions workers face in the gig economy at large, and in the field of contemporary art? How do we reclaim forms of autonomy and worker power? How can new forms of technology support worker power?
     sessionType: "workshop"
     date: 2019-09-XX
@@ -693,31 +719,37 @@
     title: "Cryptoeconomics: Towards mass behavioral engineering or a network commons?"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/26"
     presenterID:
-      - jaya 
+      - jaya
       - dan
-    description: > 
+    description: >
       CoBox is a project to enable p2p cloud infrastructures with different trust-settings. The project emphasises privacy by design and easy data governance. The aim is to enable data commons, while protecting against the worst societal effects of dataification and data extraction. Many of the worst effects of Web 2.0 can be traced to the business models of the corporations that dominate the Internet: add-based and financialised businesses where services are paid through people's attention and click rate. This creates a number of devastating knock-on effects, including mass surveillance, design and development efforts aimed at creating addictive behaviours as well as information echo-chambers, phycological and emotional feedback loops. The consequences are ripping through the social fabric of societies and scorching the nervous systems of our bodies. Instead of a drive towards incorporating all interactions and behaviours into data centres for commercial exploitation, the emphasis of CoBox is to enable easy, yet conscious data governance where only the minimal necessary data is created and stored. What might be the new forms of organisations that would emerge from such an infrastructure? And conversely, which existing forms of organisations, networks and companies might benefit from such infrastructures? And critically - through which kinds of economic arrangements might a cooperative p2p cloud sustain itself in the long term?
     sessionType: "talk"
     date: 2019-09-21
     length: 0.5
+    youtube: "6aS6SMTUDWs"
+    ipfs720: "QmbaZt9qHGWdvDKsw6bkonwheE7uXbGwxd9B7UW8FBzW4Y"
+    ipfs1080: "QmYNSchxz3GEZdmcSVFWipp3qdKxUfQETck3ANE1CqYLBm"
 
   - sessionID: 19027
     title: "Building a modern Memex"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/27"
     presenterID:
       - andrew
-    description: > 
+    description: >
       Bret Victor posed an important question: over a long time horizon, what strategy for preserving information has been most successful? Redundant copies stored in a distributed way (for example, each of us storing a full copy of the human genome) or a centralized repository (like the Library of Alexandria)? For the last few years, I've been working on a project to pull a copy of my personal history from across all the platforms and tools I use and make it available for archiving, search, and computation. I'd like to go over the historical project that inspired this project (the Memex of 1945) as well as giving a demo of the system I've built.
     sessionType: "talk"
     date: 2019-09-XX
     length: X
+    youtube: "R9ifd9sBeog"
+    ipfs720: "QmVCe8TMff7DJGhP9ng9bCu8mMMC2TzGWeXjAaWhATc8A1"
+    ipfs1080: "QmNzJxxxwbKADxW4uhqMiaRMCDkUjDTPkFr9kii9fpb6xF"
 
   - sessionID: 19028
     title: "Radical internet futures: Let's draw them together"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/28"
     presenterID:
       - elisabetta
-    description: > 
+    description: >
       A collaborative drawing-based discussion between activists, hackers, technologists and researchers on how we can imagine a radically different, better, internet. Participants will be encouraged to produce drawings (individually and in groups) that represent how they imagine the internet to be now and how they would like the internet to be in the future. The drawings will support a discussion on how to imagine radically different technological futures. The unusual format of the discussion allows for the inclusion of people with different types of expertise and experiences of technology, thus helping to break down the technical barriers that are often involved in talking about infrastructures.
     sessionType: "workshop"
     date: 2019-09-XX
@@ -733,6 +765,9 @@
     sessionType: "workshop"
     date: 2019-09-22
     length: 1
+    youtube: "lXRjczpZaOg"
+    ipfs720: "QmPcqEp6RLxAHQtGDPPqziTKQvFZGfUSGxQ6mBAaSG5atd"
+    ipfs1080: "QmctVZnwgnZSjhNBiZbW4nrfLAqBM9eu3dPhCUik6FXVqt"
 
   - sessionID: 19031
     title: "Torrents of sex"
@@ -740,7 +775,7 @@
     sessionType: "exhibit"
     presenterID:
       - nahee
-    description: > 
+    description: >
       <Torrents of Sex> is one of the projects of Nahee.app, web-based performance project about sex and network technology. Assuming that someday human can upload and download their somatic sensations onto the web, Nahee.app designed peer-to-peer polyamorous sexual relationship network protocol <Torrents of Sex>, inspired by BitTorrent’s file distribution & peer selection algorithms. In this project, I regard myself as a web application having sexual desire and speculate what would happen if that programmable entity can have sexual relationships as we do. With their programmability which is the biggest difference of <Nahee.app> from real human, <Nahee.app> approaches technology as a tool for redefining ingrained ways of having sexual relationship
     images:
       - src: nahee-1.png
@@ -761,11 +796,14 @@
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/34"
     presenterID:
       - jack
-    description: > 
+    description: >
       'Decentralization' has emerged as a rallying cry to build a web where control is delegated away from central authorities and toward individuals. However, among the multitude of efforts to decentralize the web, there is a lack of consensus on how it should occur and what new centres of power will be cultivated in the process. This talk traces decentralization through historical accounts of the development of the Internet, highlighting how architectural decentralization has served multiple dimensions of social and cultural power. It then discusses how two recent projects reimagine web culture and inscribe new values through the design of socio-technical systems. This analysis offers tools for researchers and designers to think beyond mere decentralization and more substantively engage with their social and epistemic commitments in the design of future internets.
     sessionType: "talk"
     date: 2019-09-XX
     length: X
+    youtube: "RTc50SU7KAc"
+    ipfs720: "QmZTwNKy4RytKrtzYGB5FFpvwjProJZpHAYM2tG24dfrSd"
+    ipfs1080: "QmcBJpcFs7DA8Uuz9MG9TzCt1FrdAKoadNeY7LcVPa6wDn"
 
   - sessionID: 19035
     title: "Trouble in the bubble: Tech workers organizing in the industry"
@@ -774,7 +812,7 @@
       - danny
       - renee
       - victoria
-    description: > 
+    description: >
       How can we as users and workers imagine ways to own our technology? On the path towards full cooperative takeover like turning Twitter into a public utility, we have to get fairly compensated for our labor - which is why volunteers with Tech Workers Coalition developed Get Back Lost Wages, a simple platform for all gig workers in California to file claims for minimum wage and overtime pay. This session introduces strategies for building power in the tech industry. We will talk about our opportunities to organize, get mutual aid and ideas, and will co-design real tools for the job.
     sessionType: "workshop"
     date: 2019-09-XX
@@ -785,7 +823,7 @@
     presenterID:
       - jill
       - scott
-    description: > 
+    description: >
       In this workshop, participants will build and manipulate a small wireless mesh network, gaining hands-on experience with relevant principles of networking, mesh network topologies, and equipment currently in use by NYC Mesh. The workshop will begin with a short presentation and then divide participants into “mesh node teams” to explore the technology and how it can be adapted to various environments. 
     sessionType: "workshop"
     date: 2019-09-20
@@ -795,7 +833,7 @@
     title: "Pale Eyes"
     presenterID:
       - ben
-    description: > 
+    description: >
       Pale Eyes is the pop music of electronic musician and sound artist Ben McCarthy, reaching the top ten on Canada’s college electronic music charts. 2019’s Paranoia Is Appropriate with Ryan Somerville brings together cinematic orchestral arrangements with trappy beats and IDM textures. His 2018 solo album little music spans blown-out dj ensembles, found sound ambient music, and texturally dense MPC-derived rhythms, moving from abstract figures and lush idiosyncratic timbres, to lurching beats and spiraling loops.  
     sessionType: "performance"
     date: 2019-09-20
@@ -805,7 +843,7 @@
     title: "Hands-on networking"
     presenterID:
       - grant
-    description: > 
+    description: >
       What are mesh networks? How do they work? And why are they interesting? This workshop will explore these questions while learning practical computer networking skills such as... ethernet cable crimping, radio/antenna mounting, wireless channel planning, IP addressing and subnetting, routing and name resolution and so much more! Participants should be familiar with computers and the internet and, of course, possess a healthy appetite for learning. 
     sessionType: "workshop"
     date: 2019-09-20
@@ -823,7 +861,7 @@
     title: "Just Browsing"
     presenterID:
       - joanne
-    description: > 
+    description: >
       Written and directed by Joanne McNeil. Cinematography, editing, and motion graphics by Nicole Antebi. Music by Vince Clarke.
     sessionType: "screening"
     date: 2019-09-21
@@ -833,7 +871,7 @@
     title: "After Scarcity"
     presenterID:
       - bahar
-    description: > 
+    description: >
       Video: Bahar Noorizadeh, Music: Mhamad Safa, Frank Bretschneider, Research & Director Assistant: Sergey Gindilis, Voice Over: Sasha Alekseeva, Munari Font: Pedro Moraes, Translation: Sergey Babkin, Lidar Capture: KMC, Kiev. A production of the Centre d’Art Contemporain Genève for the Biennale de l’Image en Mouvement 2018, with the support of the Fonds d’Art Contemporain de la Ville (FMAC) and the Fonds d’Art Contemporain du Canton de Genève (FCAC) and In Between Art Film.
     sessionType: "screening"
     date: 2019-09-21
@@ -843,7 +881,7 @@
     title: "Geocinema Network"
     presenterID:
       - geocinema
-    description: > 
+    description: >
       Sound Design: Nikita Alekseenko. Music: Episode 01: Josh Feola, Georgiy Potopalskiy, Episode 02: Josh Feola, Episode 03: Nikita Alekseenko, Episode 04: Jessika Khazrik, “Only Distance Has a Name,” from “My Communication Is Not Work”, 2018, “I Am Not Your History” from “Terrella Al2ard Alsaghira,” 2017 
     sessionType: "screening"
     date: 2019-09-21
@@ -871,11 +909,14 @@
     title: "The impotent medium"
     presenterID:
       - farhad
-    description: > 
+    description: >
       Video presentation by Farhad Bahram, accompanying the exhibited artwork: Made in Iran. Made in Iran is the outcome of several interviews with 12 Iranian individuals, living in the United States, whose lives are affected by the travel ban. Throughout this conversation they portrayed how, as the result of recent feuds between the two countries, their identities are often assumed by others to only comprise their nationality. In this project I tried to portray their complexity, depth and presence by interviewing them and asking them to share in a series of words, images and videos that more accurately reflects their intended identity.
     sessionType: "talk"
     date: 2019-09-XX
     length: X
+    youtube: "y684dwnujn4"
+    ipfs720: "QmepRvy5jgM3cNrufoTD6evkYYkWk2ppX9C2H2J9zVk7ue"
+    ipfs1080: "QmYcPssQWEGxKavRAgSZ1sCgZCxE6tsTASdetyTLyWjpZb"
 
   - sessionID: 19801
     title: "Channel channel, a network for VPN access"
@@ -884,8 +925,12 @@
     description: >
       Video presentation by Biyi Wen, accompanying the exhibited artwork: Channel channel, a network for VPN access. Channel Channel is a project that involves around the basic usage, access and further social dynamics of VPN, which stands for Virtual Private Network. It's a tool to extends a private network to external network environment to provide safe, private access. In practical reality the usage of this tool is embedded in complex situations, such as to circumvent state fire wall and bypass geographically restricted content. This project adopts a DIY working attitude. The underlying technology is provided by PiVPN, an open source free software that runs on a Raspberry Pi. As the Pi is connected to a home network, it's able to provide VPN access. I initiated this project as a response to my personal practical situation. As I live in the Netherlands, I travel back to China from time to time. The state fire wall blocks access to services such as Google, YouTube, Twitter and Instagram. My mail service is dependent on Gmail, I do watch YouTube for occasional "guilty pleasure", not to mention the tutorial I followed on how to set up PiVPN is from a YouTuber. Aside from services that are not blocked by the firewall, access to content sometimes also can be slow, due to more distant network traffic route.
     sessionType: "talk"
+    skipProgramID: true
     date: 2019-09-XX
     length: X
+    youtube: "ZC4VEQZndF0"
+    ipfs720: "QmTWyWDACanmeZvXnaMQPepeYbV6jkjh1eDdkYSnZFKX4A"
+    ipfs1080: "QmSRBcvpYdK6tiLjY7DVepj6VgFZZDvB2uJK7CUyjh2B2x"
 
   - sessionID: 19802
     title: "Distributed internet archiving plus low power long distance meshing with LoRaWAN"
@@ -893,6 +938,9 @@
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
+    youtube: "ZYPA_jDAxJY"
+    ipfs720: "QmWCKia9VApWRG2FfWKZ8d2ca8c7MoSLo9VauWcrK6EWf6"
+    ipfs1080: "Qmf7WSGo1ftiKy8fwQTEDfS984zbW8VZCE8Jkgd76gn4gQ"
 
   - sessionID: 19803
     title: "Distributed secure routing in permissionless flat networks"
@@ -900,6 +948,9 @@
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
+    youtube: "5OpvkQIZ_hM"
+    ipfs720: "QmawHWf4km3ZLE59S6X5FBFhZdCuqmYQ5JN7fz2d2P2ZMM"
+    ipfs1080: "Qmbz4a5JLjEwAb2ZhdaJCVKKpFWYt1yWKooqpb82amjrAR"
 
   - sessionID: 19804
     title: "Distributing knowledge of digital workflows via workshops and support groups"
@@ -907,6 +958,9 @@
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
+    youtube: "LCGItDLh7T0"
+    ipfs720: "QmR7it52jCvLxjnzwyr6ADncDZuiRzZZywzBKhmfuRxYfN"
+    ipfs1080: "QmWP6pQKg8GhkCF2e9SSZP6H8tXZ9vUh6LWG6H4paauDoP"
 
   - sessionID: 19805
     title: "Hugo Wasm plus IPFS blogging"
@@ -914,6 +968,9 @@
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
+    youtube: "bkGe5_9tymo"
+    ipfs720: "QmTKg5WLLpW8PPSMSs5TWv9gcC1t2nrtd4drus3V2Fmxcq"
+    ipfs1080: "QmXkxhpzNEYaLXS3upFmutdrELLAm9WdFmxYTxNYXwwbhN"
 
   - sessionID: 19806
     title: "The netifesto"
@@ -921,6 +978,9 @@
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
+    youtube: "I_u8u83H5fg"
+    ipfs720: "QmVgtgbMNj39pKMBaL3NGJYL3Ti2acn3CFLwRWepKcBdcN"
+    ipfs1080: "QmcR7xWG3unc4Jhd4MefpWwnLCjkRnMgQ4tCdzdjt3ebND"
 
   - sessionID: 19807
     title: "Freifunk"
@@ -928,6 +988,9 @@
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
+    youtube: "dg1PyG6DDEI"
+    ipfs720: "QmX4yR7WiZMNGBpXAZWXS4C9gPgtrftdMpzJePB71yvFJY"
+    ipfs1080: "QmVM6zFukpU1jMdmQjwPuBvqYE4DHurti9yofGaJLXX8kg"
 
   - sessionID: 19808
     title: "I2P intro for app devs"
@@ -935,6 +998,9 @@
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
+    youtube: "0niPMi-v4kg"
+    ipfs720: "QmcVUREbLmBGNhNi9zqbc6QnCDWZpGwfqdwSSU8TLwpPSD"
+    ipfs1080: "QmUFmpwLBLsPhT1XbCrC2PySZ6YHCxFz7XetLVd6ekNfEM"
   
   - sessionID: 19809
     title: "Sarantaporo.gr"
@@ -942,6 +1008,9 @@
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
+    youtube: "58TnEOQVSwQ"
+    ipfs720: "QmZAeeRadrg1x9NXQzCW17xKR3rfF3ZNuAW4rFaQrSmQFu"
+    ipfs1080: "QmVzAoss8soUmxGUFnB9Gp95cQb2itdwHDFdVFVx6x97k4"
 
   - sessionID: 19810
     title: "NYC Mesh"
@@ -952,3 +1021,6 @@
     sessionType: "lightning-talk"
     date: 2019-09-22
     length: X
+    youtube: "tbyQi_fTR_g"
+    ipfs720: "QmTbFyRC8MvBEVk4n8CSw2G5ntvsDjG8tuzgjQAbBtCUmj"
+    ipfs1080: "QmSYWZLRuy14iVSyEg1qJ2s5K16qxQhc4AJqL3HF3ekvbr"

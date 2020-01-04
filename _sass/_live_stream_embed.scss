@@ -2,6 +2,10 @@
 
 .stream-container {
   max-width: 1080px;
+
+  @media (max-width: $on-palm) {
+    margin-top: 4em;
+  }
 }
 
 .stream-selector {

@@ -23,7 +23,6 @@
     align-items: center;
     background: rgba($accent-color, 0.8);
     opacity: 0.75;
-    transition: opacity 200ms ease-in-out;
   }
 
   .video-play-graphic {
@@ -37,7 +36,6 @@
 
 .video-caption {
   margin: 1em;
-  font-size: $small-font-size;
 }
 
 .video-links-container {
