@@ -23,7 +23,7 @@ Full archives of 2019 videos are available:
 - [September 21, 2019](https://2019.ournetworks.ca/livestream/?m3u8=live-2019-09-21.m3u8)
 - [September 22, 2019](https://2019.ournetworks.ca/livestream/?m3u8=live-2019-09-22.m3u8)
 
-We want to thank our A/V volunteers again, without whom the sharing of these videos would have been impossible: [Yurko](https://github.com/YurkoWasHere), [Henry Wilkinson](https://github.com/Shrinks99), [Elon Li](https://github.com/ASoTNetworks), and [Benedict Lau](https://github.com/benhylau).
+Thank you to our A/V volunteers: [Yurko](https://github.com/YurkoWasHere), [Henry Wilkinson](https://github.com/Shrinks99), [Elon Li](https://github.com/ASoTNetworks), and [Benedict Lau](https://github.com/benhylau).
 {:.content-width}
 
 ### Our Networks 2019 videos
@@ -52,7 +52,7 @@ Full archives of 2018 videos are available:
 - YouTube playlist: [Our Networks 2018 Beyond DIY: Do It With Others](https://www.youtube.com/playlist?list=PLx7_J32Ys60ey2bgSn2soAoBy0v9bBUbT)
 
 
-We want to thank our A/V volunteers again, without whom the sharing of these videos would have been impossible: [Yurko](https://github.com/YurkoWasHere), [Henry Wilkinson](https://github.com/Shrinks99), [Elon Li](https://github.com/ASoTNetworks), and [Benedict Lau](https://github.com/benhylau).
+A/V volunteers: [Yurko](https://github.com/YurkoWasHere), [Henry Wilkinson](https://github.com/Shrinks99), [Elon Li](https://github.com/ASoTNetworks), and [Benedict Lau](https://github.com/benhylau).
 {:.content-width}
 
 ### Our Networks 2018 Videos
