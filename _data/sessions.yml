@@ -403,6 +403,9 @@
     length: 1.5
     presenterID:
       - alfredo
+    youtube: "39PGRWO_ygU"
+    ipfs720: "QmX73g5nqUM2NxEkTA82F2aLLM6DPe9PMMB3kF7W825eER"
+    ipfs1080: "QmUUbsQgYpEhVMFdww32zLSKyu5D8zQPn5MLx8TZ6oXVQm"
 
   - sessionID: 19996
     title: "Outdoor screening"
@@ -588,9 +591,6 @@
       - src: biyi-1.jpg
         alt: Channel channel, a network for VPN access, Biyi Wen
         width: 100%
-    youtube: "ZC4VEQZndF0"
-    ipfs720: "QmTWyWDACanmeZvXnaMQPepeYbV6jkjh1eDdkYSnZFKX4A"
-    ipfs1080: "QmSRBcvpYdK6tiLjY7DVepj6VgFZZDvB2uJK7CUyjh2B2x"
 
   - sessionID: 19015
     title: "The Magi system, exploring the aesthetics of network infrastructure"
