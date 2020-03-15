@@ -12,7 +12,7 @@ We firmly believe that for us to responsibly proceed we have to do more than con
 
 Be assured, we're plotting a course for Our Networks 2020 to continue. As we proceed we also want to hear your thoughts, concerns, and hopes for how we can strengthen our networks in uncertain times. 
 
-Please don't hesitate to [get in contact]({{ site.email }}). We're also hosting an open call that all are welcome to attend on Thursday March 19, 16:00 EDT [UTC-04] (13:00 PDT / 20:00 GMT / 9:00 CET).
+Please don't hesitate to [get in touch](mailto:{{ site.email }}). We're also hosting an open call that all are welcome to attend on Thursday March 19, 16:00 EDT [UTC-04] (13:00 PDT / 20:00 GMT / 9:00 CET).
 
 <!-- Call section -->
 <section class="sections">
