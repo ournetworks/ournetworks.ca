@@ -1,21 +1,18 @@
-{% include nav-vertical.html %}
-
-<footer class="footer mono bg-accent pt-0 pb-m fs-small">
+<footer class="footer mono bg-accent pt-0 pb-s pt-s fs-small">
   <div class="container container-full-width">
-    {% include 2019-quotes.html %}
 
     <div class="mt-1">
-      <p class="mb-0">&gt;&gt; ournetworks.ca on</p>
+      <p class="mb-0">ournetworks.ca on</p>
       <p class="mb-0">
-        &gt;&gt;&gt; Dat > <a class="overflow-wrap" href="dat://eae17983cd6833287ab10ff4c1a3ca5d9ae7af7049eaa525912950720ece2e49/">dat://eae17983cd6833287ab10ff4c1a3ca5d9ae7af7049eaa525912950720ece2e49/</a>
+        Dat: <a class="overflow-wrap" href="dat://eae17983cd6833287ab10ff4c1a3ca5d9ae7af7049eaa525912950720ece2e49/">dat://eae17983cd6833287ab10ff4c1a3ca5d9ae7af7049eaa525912950720ece2e49/</a>
       </p>
       <p class="mb-0">
-        &gt;&gt;&gt; IPFS > <a class="overflow-wrap" href="{{ site.ipfs_gateway }}/ipfs/QmW42BQnU7AFJ3q9qKsGobitgp8HZBrPcSLzJ3F3cqAvMn/">{{ site.ipfs_gateway }}/QmW42BQnU7AFJ3q9qKsGobitgp8HZBrPcSLzJ3F3cqAvMn/</a>
+        IPFS: <a class="overflow-wrap" href="{{ site.ipfs_gateway }}/ipfs/QmW42BQnU7AFJ3q9qKsGobitgp8HZBrPcSLzJ3F3cqAvMn/">{{ site.ipfs_gateway }}/QmW42BQnU7AFJ3q9qKsGobitgp8HZBrPcSLzJ3F3cqAvMn/</a>
       </p>
     </div>
 
     <div class="previous-editions flex flex-align-baseline mt-1 mb-1">
-      <p class="mb-0 fw-normal">&gt;&gt; Previous years [<a href="/recorded-talks/">Recorded talks</a>] &gt; </p>
+      <p class="mb-0 fw-normal">Previous years [<a href="/recorded-talks/">Recorded talks</a>]: </p>
       <ul class="m-0 p-0 ls-none flex">
         {% assign sorted_pages = site.pages | sort: "order" %}
         {% for page in sorted_pages %}
@@ -26,14 +23,12 @@
       </ul>
     </div>
 
-    <p>&gt;&gt; Twitter &gt; <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">@{{ site.twitter_username }}</a></p>
+    <p>Twitter: <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">@{{ site.twitter_username }}</a></p>
 
-    <p>&gt;&gt; Meetup &gt; <a href="https://www.meetup.com/p2p-and-dweb-toronto" target="_blank">Peer-to-peer and Decentralized Web Toronto</a></p>
-
+    <p>Meetup: <a href="https://www.meetup.com/p2p-and-dweb-toronto" target="_blank">Peer-to-peer and Decentralized Web Toronto</a></p>
 
     <p>Our Networks has a <a href="/code-of-conduct/">Code of Conduct</a>, for any conduct reports or concerns please email <a href="mailto:coc@ournetworks.ca">coc@ournetworks.ca</a>.</p>
 
-    <p>This website content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a> license.</p>
+    <p>This website content is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a> license.</p>
   </div>
 </footer>
-<div class="striped-bg"></div>

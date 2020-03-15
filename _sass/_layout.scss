@@ -354,22 +354,6 @@
   }
 }
 
-// Stripe
-
-.striped-bg {
-  @include striped-bg($accent-color, $yellow, 20px);
-  height: 10px;
-}
-
-// Footer
-
-.footer {
-  background-image: url('../images/vector-art/brick-wall-frame-destroyed.svg');
-  background-repeat: no-repeat;
-  background-position-x: 71vw;
-  background-size: 40vw;
-}
-
 // Social Media Biography
 
 .bio-sm-list {

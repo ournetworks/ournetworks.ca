@@ -3,18 +3,26 @@ layout: splash
 redirect_from:
   - "/cfp/"
   - "/conference/"
-  - "/2019/"
+  - "/2020/"
 ---
 
-**RE: Infrastructures** explores the collective care and maintenance of alternative networking practices—new protocols, peer-to-peer connections, offline-first computing, and community-based governance. 
+**COVID-19 and Our Networks 2020**—We've been closely monitoring (as we're sure you all have) the situation via [Toronto Public Health](https://www.toronto.ca/community-people/health-wellness-care/diseases-medications-vaccines/coronavirus/) and [Ontario Ministry of Health](https://www.ontario.ca/page/2019-novel-coronavirus). Recent announcements from the Canadian government include travel advisories for everyone arriving from outside the country. The situation is rapidly evolving and we can assume a lot will change between now and when we had scheduled Our Networks 2020 in August. However, what we can anticipate is the disruptions and aftershocks from the pandemic will continue for months.
 
-How can these emerging **Infrastructures of <span class="word"></span>** provide spaces to imagine<span class="word-spacer"></span>  
-radically different futures, resist easy co-option by the forces of late-stage capitalism, and work in solidarity as plural networks seeking emancipatory change? To answer this we draw on insights from organizers, technologists, artists, and scholars to ensure the focus is not only on the technical aspects of infrastructure, but also the social and cultural. Their diverse perspectives suggest ways we can make space for livelihoods, solidarity, and survival; draw on history and place to bring our fullest imaginations to this moment; and open ways to think these questions together as we build transitional forms.
+We firmly believe that for us to responsibly proceed we have to do more than consider whether to cancel; at a time when the topics we come together to imagine are more pressing than ever, what are our obligations—how can emerging decentralized infrastructures support radically different futures? how do alternative networks work in solidarity for change? what tactices of collective care and maintenance help us respond the opportunities and challenges of this moment?
 
-This year has a mix of scheduled talks and workshops alongside open space, as well as screenings, a zine library, and an art exhibition. Topics include:
+Be assured, we're plotting a course for Our Networks 2020 to continue. As we proceed we also want to hear your thoughts, concerns, and hopes for how we can strengthen our networks in uncertain times. 
 
-- Practices of reparative networking
-- Remediation practices for communication infrastructures
-- Uncooptable computing reconfigurations
-- Reconstructing technology after refusal
-- Regenerative approaches that resist status quo tech
+Please don't hesitate to [get in touch](mailto:{{ site.email }}). We're also hosting a call that all are welcome to attend this Thursday March 19, 4:00 pm EDT (1:00 pm PDT / 8:00 pm GMT / 9:00 pm CET).
+
+<!-- Call section -->
+<section class="sections">
+  <div class="container m-0 mt-2">
+    <div class="row events-grid">
+      {% for call in site.data.events %}
+      <div class="six columns event">
+        {% include event.html event=call %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
