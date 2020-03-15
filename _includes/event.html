@@ -3,7 +3,7 @@
     <div class="event-time-location">
       <div class="event-meta flex">
         {% include icons/calendar-o.svg %}
-        <p class="event-meta-item">{{ include.event.date | date: "%-d %B %Y" }}, {% if include.event-type == "upcoming" %}<strong>{% endif %}{{ include.event.startTime | date:"%-I:%M%P" }} – {{include.event.endTime | date:"%-I:%M%P"}}{% if include.event-type == "upcoming" %}</strong>{% endif %}</p></div>
+        <p class="event-meta-item">{{ include.event.date | date: "%A %B %d, %Y" }}, {% if include.event-type == "upcoming" %}<strong>{% endif %}{{ include.event.startTime | date:"%-I:%M%P" }} – {{include.event.endTime | date:"%-I:%M%P"}} {{ include.event.timeZone }}{% if include.event-type == "upcoming" %}</strong>{% endif %}</p></div>
       <div class="event-meta flex">
         {% include icons/map-marker.svg %}
         <p class="event-meta-item">{% if include.event.locationLink %}<a href="{{ include.event.locationLink }}">{% endif %}{{ include.event.location }}{% if include.event.locationLink %}</a>{% endif %}</p></div>
