@@ -16,7 +16,7 @@ Please don't hesitate to [get in touch](mailto:{{ site.email }}). We're also hos
 
 <!-- Call section -->
 <section class="sections">
-  <div class="container">
+  <div class="container m-0 mt-2">
     <div class="row events-grid">
       {% for call in site.data.events %}
       <div class="six columns event">
