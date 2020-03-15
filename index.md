@@ -10,4 +10,19 @@ redirect_from:
 
 We firmly believe that for us to responsibly proceed we have to do more than consider whether to cancel; at a time when the topics we come together to imagine are more pressing than ever, what are our obligations—how can emerging decentralized infrastructures support radically different futures? how do alternative networks work in solidarity for change? what tactices of collective care and maintenance help us respond the opportunities and challenges of this moment?
 
-Be assured, we're plotting a course for Our Networks 2020 to continue. As we proceed we also want to hear your thoughts, concerns, and hopes for how we can strengthen our networks in uncertain times. We're hosting an open call that all are welcome to attend on Thursday March 19, 16:00 EDT [UTC-04] (13:00 PDT / 20:00 GMT / 9:00 CET): https://meet.jit.si/ournetworks
+Be assured, we're plotting a course for Our Networks 2020 to continue. As we proceed we also want to hear your thoughts, concerns, and hopes for how we can strengthen our networks in uncertain times. 
+
+Please don't hesitate to [get in contact]({{ site.email }}). We're also hosting an open call that all are welcome to attend on Thursday March 19, 16:00 EDT [UTC-04] (13:00 PDT / 20:00 GMT / 9:00 CET).
+
+<!-- Call section -->
+<section class="sections">
+  <div class="container">
+    <div class="row events-grid">
+      {% for call in site.data.events %}
+      <div class="six columns event">
+        {% include event.html event=call %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
