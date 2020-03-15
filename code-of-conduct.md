@@ -43,7 +43,7 @@ If a participant engages in harassing behaviour, the organizers may take any act
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact an organizer immediately.
 
-Those who wish to report a violation but don't feel comfortable talking to the organizers online or at an event can email [coc@ournetworks.ca](mailto:coc@ournetworks.ca), which is **currently** monitored by [**Benedict Lau**](https://ournetworks.ca/about/#benhylau), and will be monitored during the event on an active basis.
+Those who wish to report a violation but don't feel comfortable talking to the organizers online or at an event can email [coc@ournetworks.ca](mailto:coc@ournetworks.ca), which is **currently** monitored by [**Benedict Lau**](https://2019.ournetworks.ca/about/#benhylau), and will be monitored during the event on an active basis.
 
 Our [internal guidelines](https://github.com/ournetworks/2019/blob/master/CONDUCT.md#guidelines) for enforcing our Code of Conduct are viewable online.
 
