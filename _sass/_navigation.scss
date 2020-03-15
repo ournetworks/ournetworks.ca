@@ -33,16 +33,10 @@
     }
   }
 
-  &:hover .nav-item {
-    opacity: 1;
-  }
-
   .nav-item {
     padding: 0 15px;
     display: inline-flex;
     white-space: nowrap;
-    opacity: 0.35;
-    transition: opacity 150ms ease-in-out;
 
     &.active,
     &:focus,
@@ -73,7 +67,7 @@
     }
 
     a {
-      color: rgba($black,0.25);
+      color: $black;
     }
 
     @media (max-width: $on-palm) {
