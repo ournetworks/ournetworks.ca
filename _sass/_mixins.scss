@@ -23,33 +23,3 @@
     }
   }
 }
-
-// Outline Mixin
-// Source: a-b-z.co
-
-@mixin outline-text($color, $moz-fallback: $color) {
-  -webkit-text-stroke-width: 1.5px;
-  -moz-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: $color;
-  -moz-text-stroke-color: $color;
-
-  @media (max-width: $on-palm) {
-    -webkit-text-stroke-width: 1px;
-    -moz-text-stroke-width: 1px;
-  }
-}
-
-// Stripe Gradient Mixin
-// Source: https://css-tricks.com/stripes-css/
-
-@mixin striped-bg($color, $color-secondary, $stripe-size) {
-    background: repeating-linear-gradient(
-      45deg,
-      $color,
-      $color 25%,
-      $color-secondary 25%,
-      $color-secondary 50%,
-      $color 50%
-    ) top left fixed;
-    background-size: $stripe-size $stripe-size;
-}
