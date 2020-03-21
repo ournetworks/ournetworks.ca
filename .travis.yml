@@ -11,11 +11,11 @@ before_install:
   # See: https://docs.travis-ci.com/user/languages/ruby/#bundler-20
   - gem install bundler
   # Install NVM with Dat via npm
-  - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
-  - nvm install 10.16.3
-  - npm i -g dat
+  - if [ $TRAVIS_BRANCH == "master" ]; then curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+  - if [ $TRAVIS_BRANCH == "master" ]; then nvm install 10.16.3
+  - if [ $TRAVIS_BRANCH == "master" ]; then npm i -g dat
   # Clone/Initialize Dat archive
-  - dat $(head -n 1 .well-known/dat) ./_site --exit
+  - if [ $TRAVIS_BRANCH == "master" ]; then dat $(head -n 1 .well-known/dat) ./_site --exit
 
 before_script:
   # Build Jekyll site
