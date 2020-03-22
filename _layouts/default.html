@@ -16,7 +16,7 @@
     <meta property="og:url" content="{{ site.url }}">
     <meta property="og:description" content="{{ sitedescription }}">
     <meta property="og:image" content="{{ site.social_image | prepend: site.url }}">
-    <link rel="stylesheet" href="/css/main.css?{{site.time | date: '%s%N'}}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}?{{site.time | date: '%s%N'}}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   </head>
   <body>
@@ -25,12 +25,6 @@
       {{ content }}
     </main>
     {% include footer.html %}
-    <div class="panel fixed fs-small bg-white none bottom-0 left-0 styled-scrollbar" tabindex="-1" role="dialog" aria-labelledby="panel-registration" aria-describedby="panel-description">
-      <div class="panel-inner p-1">
-        {% capture registration_panel %}{% include registration-panel.html %}{% endcapture %}
-        {{ registration_panel | markdownify }}
-      </div>
-    </div>
-    <script async src="/js/main.js?{{site.time | date: '%s%N'}}"></script>
+    <script async src="{{ "/js/main.js" | relative_url }}?{{site.time | date: '%s%N'}}"></script>
   </body>
 </html>
