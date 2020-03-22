@@ -10,7 +10,7 @@ function formSubmitCallback(formContextMsg) {
   var splashEle = document.querySelector('.splash');
   var postEle = document.querySelector('.post');
 
-  confirmationEle.className = 'announcement pt-s pb-s relative bg-yellow color-black';
+  confirmationEle.className = 'announcement pt-s pb-s relative color-black';
   confirmationEle.setAttribute('role', 'alert');
   confirmationEle.innerHTML = '<div class="container"><p>' + formContextMsg + '</p> <button class="close-banner" aria-label="Close">×</button></div>';
 

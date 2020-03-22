@@ -6,19 +6,18 @@ button {
   align-items: baseline;
   justify-content: center;
   padding: 1em 2em 1em;
-  color: $black;
+  color: $white;
   text-align: center;
   font-family: $base-font-family;
   font-weight: bold;
   text-decoration: none;
   white-space: nowrap;
-  background-color: $yellow;
+  background-color: $black;
   border: 0;
   cursor: pointer;
   line-height: 1em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  transition: background 150ms ease-in-out, border-color 150ms ease-in-out, color 150ms ease-in-out;
 }
 
 .button:hover,
@@ -34,7 +33,7 @@ button:focus {
 .button.button-primary,
 button.button-primary {
   border: 7px solid $accent-color;
-  background-color: $yellow;
+  background-color: $accent-color;
 }
 
 .button.button-primary:hover,

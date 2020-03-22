@@ -12,7 +12,7 @@
   @media (max-width: $on-palm) {
     background: $white;
     position: fixed;
-    box-shadow: 0 1px 0 0 rgba($black, 0.1);
+    box-shadow: 0 1px 0 0 $black;
     max-height: 100vh;
     overflow: scroll;
   }
@@ -38,15 +38,9 @@
     display: inline-flex;
     white-space: nowrap;
 
-    &.active,
-    &:focus,
-    &:hover {
-      color: $accent-color;
-    }
-
     @media (max-width: $on-palm) {
       display: block;
-      border-top: 1px solid rgba($black,0.1);
+      border-top: 1px solid $black;
       padding: 0.75em 0 0.75em;
     }
   }
@@ -64,10 +58,6 @@
 
     li + li {
       margin-top: 0;
-    }
-
-    a {
-      color: $black;
     }
 
     @media (max-width: $on-palm) {
@@ -105,7 +95,6 @@ input[type="checkbox"].menu-btn {
 
   &:checked ~ .menu-icon {
     background: $accent-color;
-    border-color: $accent-color;
   }
 
   &:checked ~ .menu-icon:after {
@@ -122,7 +111,7 @@ input[type="checkbox"].menu-btn {
   position: absolute;
   top: 0.85em;
   right: 0;
-  border: 1px solid #d1d1d1;
+  background: $black;
   padding: 0.5em 1em 0.5em 1em;
   font-size: 0.85em;
   margin: 0;

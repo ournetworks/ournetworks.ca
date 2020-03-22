@@ -95,16 +95,3 @@ p {
 .overflow-wrap {
   overflow-wrap: break-word;
 }
-
-// Footer
-
-.footer {
-  a {
-    color: $black;
-    text-decoration: underline;
-  }
-
-  a:hover {
-    text-decoration: none;
-  }
-}
