@@ -3,15 +3,12 @@
 @charset "utf-8";
 
 @import "vendor/normalize";
-@import "vendor/video_js";
 @import "mixins";
-@import "fonts";
 @import "variables";
 @import "base";
 @import "layout";
 @import "typography";
 @import "navigation";
-@import "navigation-vertical";
 @import "tables";
 @import "buttons";
 @import "icons";
@@ -19,4 +16,3 @@
 @import "forms";
 @import "announcements";
 @import "videos";
-@import "live_stream_embed";

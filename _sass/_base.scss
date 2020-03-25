@@ -16,30 +16,6 @@ body {
   background-color: $background-color;
 }
 
-.invert {
-  background: $accent-color;
-
-  .bg-white:not(.panel) {
-    background: $accent-color;
-  }
-
-  .color-accent {
-    color: $black;
-  }
-
-  .outline {
-    color: transparent;
-    @include outline-text($black);
-  }
-
-  a {
-    color: $black;
-  }
-
-  .panel a:not(.button) {
-    color: $accent-color;
-  }
-}
 
 // Images
 
@@ -68,13 +44,13 @@ figcaption {
 // Links
 
 a {
-  color: $accent-color;
-  text-decoration: none;
+  color: $black;
 
   &:hover,
-  &:focus {
-    color: darken($accent-color, 10%);
-    text-decoration: underline;
+  &:focus,
+  &.active {
+    color: $accent-color;
+    text-decoration: none;
   }
 }
 
@@ -84,15 +60,8 @@ hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
   border-width: 0;
-  border-top: 1px solid $accent-color;
-
-  &.extended {
-   border-top-width: 4px;
-  }
-
-  &.dark {
-    border-color: rgba($black, 0.5);
-  }
+  border-top-width: 1px;
+  border-style: solid;
 }
 
 // Code formatting

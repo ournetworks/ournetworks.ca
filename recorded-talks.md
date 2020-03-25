@@ -5,7 +5,6 @@ fullWidth: true
 title: "Recorded Talks"
 titleDisplay: "Recorded Talks"
 redirect_from:
-  - "/2018/conference/recorded-talks"
   - "/conference/recorded-talks"
 ---
 

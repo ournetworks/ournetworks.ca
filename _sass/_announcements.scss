@@ -1,31 +1,4 @@
 // Announcements
 .announcement {
-  box-shadow: inset 0 -10px 8px 0 rgba($black, 0.05);
-
-  a {
-    color: $black;
-    text-decoration: underline;
-
-    &:hover {
-      color: $accent-color;
-      text-decoration: none;
-    }
-  }
-
-  .close-banner {
-    font-size: 1.5em;
-    position: absolute;
-    border: 0;
-    padding: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 2.25em;
-    line-height: 0.4em;
-    justify-content: center;
-  }
-
-  & + & {
-    box-shadow: inset 0 1px 0 0 $black;
-  }
+  border-bottom: 1px solid $black;
 }

@@ -3,8 +3,6 @@ layout: page
 order: 1
 title: "About the event"
 titleDisplay: "About"
-redirect_from:
-  - "/2018/about"
 ---
 
 Our Networks is a conference about the past, present, and future of building our own network infrastructures. The event brings together enthusiasts, hardware and software hackers, researchers, organizers and more to collectively explore creative and critical engagements with the Internet and alternative infrastructures.

@@ -132,8 +132,8 @@ thead th {
 }
 
 .session-orga {
-  background-color: $yellow;
-  border-color: $yellow;
+  background-color: $black;
+  border-color: $black;
   z-index: 0;
 }
 
@@ -186,6 +186,6 @@ thead th {
   visibility: hidden;
 
   & + .program-block-content {
-    background: $yellow;
+    background: $black;
   }
 }

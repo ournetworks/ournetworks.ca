@@ -6,8 +6,6 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0;
-  margin-bottom: 0.5em;
   line-height: $base-heading-line-height;
 }
 
@@ -58,18 +56,7 @@ p {
   letter-spacing: -3px;
 }
 
-// Outline helper
-
-.outline {
-  color: transparent;
-  @include outline-text($accent-color);
-}
-
 // Heading helpers
-
-.heading {
-  line-height: 1.2em;
-}
 
 .heading-1 {
   @include fluid-type(320px,1980px,30px,200px);
@@ -101,72 +88,4 @@ p {
 
 .overflow-wrap {
   overflow-wrap: break-word;
-}
-
-// Footer
-
-.footer {
-  a {
-    color: $black;
-    text-decoration: underline;
-  }
-
-  a:hover {
-    text-decoration: none;
-  }
-}
-
-// Typewriter theme effect
-
-.word-spacer + br {
-  @media (max-width: $on-palm) {
-    display: none;
-  }
-}
-
-.typing {
-  line-height: 1.25em;
-  background: transparent;
-  height: 10em;
-  overflow: auto;
-  max-width: $content-width;
-  border-bottom: 1px solid rgba($black, 0.1);
-
-  @media (max-width: $content-width) {
-    width: 100%;
-  }
-
-  p {
-    display: none;
-    white-space: nowrap;
-    overflow: hidden;
-    margin: 0;
-    animation: typing 3s steps(40, end);
-    animation-fill-mode: forwards;
-
-    &.visible {
-      max-width: unset;
-      display: inline-block;
-    }
-
-    @media (max-width: $on-palm) {
-      display: block;
-      width: auto;
-      overflow: visible;
-      animation: unset;
-    }
-  }
-
-  &:after {
-    content: "";
-    height: 1em;
-    display: block;
-  }
-}
-
-// The typing effect
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
 }
