@@ -12,17 +12,4 @@ We firmly believe that for us to responsibly proceed we have to do more than con
 
 Be assured, we're plotting a course for Our Networks 2020 to continue. As we proceed we also want to hear your thoughts, concerns, and hopes for how we can strengthen our networks in uncertain times. 
 
-Please don't hesitate to [get in touch](mailto:{{ site.email }}). We're also hosting a call that all are welcome to attend this Thursday March 19, 4:00 pm EDT (1:00 pm PDT / 8:00 pm GMT / 9:00 pm CET).
-
-<!-- Call section -->
-<section class="sections">
-  <div class="container m-0 mt-2">
-    <div class="row events-grid">
-      {% for call in site.data.events %}
-      <div class="six columns event">
-        {% include event.html event=call %}
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
+Please don't hesitate to [get in touch](mailto:{{ site.email }}). 
