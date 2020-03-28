@@ -6,3 +6,19 @@
   startTime: '16:00'
   endTime: '17:00'
   timeZone: "EDT [UTC-04]"
+
+- title: "Open hour: CFP #1"
+  type: call
+  location: Mozilla Hubs (details to follow)
+  date: 2020-04-30
+  startTime: '17:30'
+  endTime: '18:30'
+  timeZone: "EDT [UTC-04]"
+
+- title: "Open hour: CFP #2"
+  type: call
+  location: Details to follow
+  date: 2020-05-02
+  startTime: '12:00'
+  endTime: '13:00'
+  timeZone: "EDT [UTC-04]"
