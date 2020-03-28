@@ -14,7 +14,7 @@ We are moving beyond an in-person event, instead inviting you all to collectivel
 
 ## Submission deadline
 
-The deadline for proposals is **June 1, 2020**. We highly encourage you to email us or attend an open hour if you have questions about formats and activations—we’re here to offer support. Submissions should [follow our template](https://raw.githubusercontent.com/ournetworks/2020-submissions/master/.github/ISSUE_TEMPLATE/submission.md) and be [submitted as a GitHub issue](https://github.com/ournetworks/2020-submissions/issues/new) in our submissions repository. There will be additional opportunities closer to and during the event to put forward ideas and actively participate. We encourage you to sign up to our mailing list to hear more.
+The deadline for proposals is **June 1, 2020**. We highly encourage you to email us or [**attend an open hour**](#not-sure-ask-us) if you have questions about formats and activations—we’re here to offer support. Submissions should [follow our template](https://raw.githubusercontent.com/ournetworks/2020-submissions/master/.github/ISSUE_TEMPLATE/submission.md) and be [submitted as a GitHub issue](https://github.com/ournetworks/2020-submissions/issues/new) in our submissions repository. There will be additional opportunities closer to and during the event to put forward ideas and actively participate. We encourage you to sign up to our mailing list to hear more.
 
 <a href="https://github.com/ournetworks/2020-submissions/issues/new?template=submission.md&title=%5BSubmission+Title%5D" class="button" target="_blank" rel="noopener">Submit your proposal</a>
 
@@ -28,4 +28,27 @@ We want to provide a welcoming space for those speaking for the first time, emai
 
 ## Not sure? Ask us!
 
-If you have any additional questions let us know at [{{ site.email }}](mailto:{{ site.email }})! 
+If you have any additional questions let us know at [{{ site.email }}](mailto:{{ site.email }})!  We're also hosting two open hours while the CFP is open for any questions:
+
+<!-- Call section -->
+{% capture now_year %}{{'now' | date: '%Y'}}{% endcapture %}
+{% capture now_day %}{{'now' | date: '%j'}}{% endcapture %}
+{% assign now_day = now_day | minus: 0 %}
+
+<section class="sections">
+  <div class="container m-0 mt-2">
+    <div class="row events-grid">
+      {% for event in site.data.events %}
+        {% capture event_year %}{{event.date | date: '%Y'}}{% endcapture %}
+        {% capture event_day %}{{event.date | date: '%j'}}{% endcapture %}
+        {% assign event_day = event_day | plus: 0 %}
+
+        {% if event_year > now_year or event_day >= now_day and event_year >= now_year %}
+          <div class="six columns event">
+            {% include event.html event=event %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
