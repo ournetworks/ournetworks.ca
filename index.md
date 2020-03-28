@@ -36,15 +36,15 @@ If you have any additional questions let us know at [{{ site.email }}](mailto:{{
 {% assign now_day = now_day | minus: 0 %}
 
 <section class="sections">
-  <div class="container m-0 mt-2">
-    <div class="row events-grid">
+  <div class="container m-0">
+    <div class="events-grid">
       {% for event in site.data.events %}
         {% capture event_year %}{{event.date | date: '%Y'}}{% endcapture %}
         {% capture event_day %}{{event.date | date: '%j'}}{% endcapture %}
         {% assign event_day = event_day | plus: 0 %}
 
         {% if event_year > now_year or event_day >= now_day and event_year >= now_year %}
-          <div class="six columns event">
+          <div class="event">
             {% include event.html event=event %}
           </div>
         {% endif %}
