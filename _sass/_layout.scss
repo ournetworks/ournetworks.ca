@@ -48,6 +48,10 @@
   right: 0;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 // Grid
 
 .content-width {
@@ -319,6 +323,5 @@
 // BG element
 
 .bg-element {
-  z-index: -1;
   left: calc(#{$content-width} + 60px);
 }
