@@ -1,71 +1,41 @@
-.site-title {
-  margin: 0;
-  padding: 0;
-  flex-grow: 1;
-}
-
 .header {
-  width: 100%;
   z-index: 100;
-  top: 0;
 
   @media (max-width: $on-palm) {
     background: $white;
     position: fixed;
-    box-shadow: 0 1px 0 0 $black;
+    box-shadow: 0 1px 0 0 $accent-color;
     max-height: 100vh;
     overflow: scroll;
   }
 
   > .container {
-    width: 100%;
-    max-width: unset;
-    padding: 1em 40px;
-    margin: 0;
-    align-items: center;
-    position: relative;
+    padding: 1em 30px;
 
     @media (max-width: $on-palm) {
-      padding: 1em 0;
+      padding: 0.5em 0;
       width: unset;
-      margin: 0 20px;
-      display: block;
+      flex-wrap: wrap;
     }
   }
 
   .nav-item {
-    padding: 0 15px;
+    padding: 10px 15px;
     display: inline-flex;
     white-space: nowrap;
 
     @media (max-width: $on-palm) {
       display: block;
-      border-top: 1px solid $black;
       padding: 0.75em 0 0.75em;
     }
-  }
 
-  .menu {
-    display: inline-flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    &:hover,
+    &.active {
+      background: $accent-color;
+      border-radius: 20px;
 
-    li {
-      position: relative;
-      flex-grow: 1;
-    }
-
-    li + li {
-      margin-top: 0;
-    }
-
-    @media (max-width: $on-palm) {
-      display: block;
-      margin-top: 1em;
-
-      a {
-        color: $black;
+      .nav-item-sub {
+        display: block;
       }
     }
   }
@@ -74,6 +44,27 @@
   li.active {
     .nav-item-sub {
       display: block;
+    }
+  }
+
+  .menu {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+
+    li {
+      position: relative;
+      flex-grow: 1;
+    }
+
+    @media (max-width: $on-palm) {
+      display: block;
+      margin-top: 0.5em;
+      margin-bottom: -0.5em;
+
+      a {
+        color: $black;
+      }
     }
   }
 }
@@ -87,18 +78,17 @@
 }
 
 input[type="checkbox"].menu-btn {
-  display: none;
-
   &:checked ~ .nav {
     display: block;
   }
 
   &:checked ~ .menu-icon {
     background: $accent-color;
+    color: $black;
   }
 
   &:checked ~ .menu-icon:after {
-    content: 'CLOSE';
+    content: 'Close';
   }
 
   &:checked ~ .menu-icon span {
@@ -107,30 +97,30 @@ input[type="checkbox"].menu-btn {
 }
 
 .menu-icon {
-  display: none;
-  position: absolute;
-  top: 0.85em;
-  right: 0;
   background: $black;
   padding: 0.5em 1em 0.5em 1em;
   font-size: 0.85em;
-  margin: 0;
+  margin-right: 20px;
   cursor: pointer;
+  border-radius: 20px;
 
   @media (max-width: $on-palm) {
-    display: block;
+    display: inline-flex;
   }
 }
 
 // Logo
 
 .logo {
-  display: block;
-  width: 100px;
-  height: auto;
+  display: inline-flex;
+  margin-right: 30px;
 
   @media (max-width: $on-palm) {
-    width: 90px;
+    margin-left: 20px;
+  }
+
+  svg {
+    width: 40px;
   }
 }
 
@@ -140,7 +130,7 @@ input[type="checkbox"].menu-btn {
   position: absolute;
   z-index: 1000;
   display: none;
-  min-width: 160px;
+  width: 100%;
   padding: 0;
   list-style: none;
   background: $white;
@@ -149,12 +139,14 @@ input[type="checkbox"].menu-btn {
     display: block;
     white-space: nowrap;
     padding: 8px 15px;
+    border-radius: 20px;
   }
 
   a:hover,
   a:focus,
   a.active, {
-    color: $accent-color;
+    color: $black;
+    background: $accent-color;
   }
 
   &:empty {

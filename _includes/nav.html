@@ -1,21 +1,19 @@
-<header class="header">
-  <div class="announcement bg-black pb-s pt-s fs-small" role="alert">
+<header class="header w-100 top-0">
+  <div class="announcement bg-black pb-s pt-s fs-small mono" role="alert">
     <div class="container">
       <p class="m-0">
         Our Networks 2019 has ended! Check out <a href="/recorded-talks/">videos of recorded talks</a>.
       </p>
     </div>
   </div>
-  <div class="container container-full-width flex flex-wrap">
-    <span class="site-title">
-      <a class="logo" href="{{ site.baseurl }}/" rel="home" title="{{ site.title }}">
-        {% include logo/soon-logo.svg %}
-      </a>
-    </span>
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
-    <label class="menu-icon color-white" for="menu-btn"><span>MENU</span></label>
-    <nav class="nav" aria-label="Primary Menu">
-      <ul class="menu">
+  <div class="container flex relative m-0 w-100 flex-align-center flex-justify-space-between">
+    <a class="logo" href="{{ "/" | relative_url }}" rel="home" title="{{ site.title }}">
+      {% include logo/soon-logo.svg %}
+    </a>
+    <input class="menu-btn none" type="checkbox" id="menu-btn" />
+    <label class="menu-icon none color-white bg-black" for="menu-btn"><span>Menu</span></label>
+    <nav class="nav w-100" aria-label="Primary Menu">
+      <ul class="menu flex flex-justify-space-between w-100 text-center fw-bold ls-none">
         {% assign currentTitle = page.title %}
         {% assign current = page.url %}
         {% assign sorted_pages = site.pages | sort: "order" %}
@@ -23,7 +21,7 @@
              {% if page.order > 0 and page.parent == nil %}
                <li>
                  <a class= "nav-item {% if current != '/' %}{% if page.url == current %}active{% endif %}{% endif %}"
-                    href="{% if page.content.size > 1 %}{{ page.url }}{% else %}{% if page.redirect_to %}{{ page.redirect_to }}{% endif %}{% endif %}" aria-label="{{ page.title }}">
+                    href="{% if page.content.size > 1 %}{{ page.url | relative_url }}{% else %}{% if page.redirect_to %}{{ page.redirect_to }}{% endif %}{% endif %}" aria-label="{{ page.title }}">
                     {% if page.titleDisplay %}{{ page.titleDisplay }}{% else %}{{ page.title }}{% endif %}
                  </a>
                 {% assign sorted2_pages = site.pages | sort: "order" %}

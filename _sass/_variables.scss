@@ -1,26 +1,37 @@
+// Fonts
+
+@font-face {
+  font-family: metaflop;
+  src: url('fonts/Bespoke-BsmlHa3kJa.woff') format('woff')
+}
+
+@font-face {
+  font-family: SourceCode;
+  src: url('fonts/SourceCodePro-Regular.otf.woff2') format('woff2')
+}
+
 // Typography Variables
 
 $base-font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
 $base-font-size: 16px;
 $base-font-weight: normal;
-$small-font-size: $base-font-size * 0.875;
+$small-font-size: 12px;
 $base-line-height: 1.45;
 $base-heading-line-height: 1.2;
 $base-margin-bottom: 1em;
 
 $spacing-unit: 2em;
 
-$mono-font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+$mono-font-family: SourceCode,Consolas,Liberation Mono,Menlo,Courier,monospace;
 
 // Color Variables
 
 $text-color: #111;
 $background-color: #fff;
-$background-accent: #fff;
 
-// Safety Orange
+// Ground Green
 
-$accent-color: #FF3F00;
+$accent-color: #00FF00;
 
 .color-accent {
   color: $accent-color;
@@ -62,5 +73,5 @@ $grey-table-borders: rgba($black, 0.1);
 
 // Content Layout Variables
 
-$content-width: 900px;
+$content-width: 675px;
 $on-palm: 736px;

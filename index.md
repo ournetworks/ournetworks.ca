@@ -28,27 +28,4 @@ We want to provide a welcoming space for those speaking for the first time, emai
 
 ## Not sure? Ask us!
 
-If you have any additional questions let us know at [{{ site.email }}](mailto:{{ site.email }})!  We're also hosting two open hours while the CFP is open for any questions:
-
-<!-- Call section -->
-{% capture now_year %}{{'now' | date: '%Y'}}{% endcapture %}
-{% capture now_day %}{{'now' | date: '%j'}}{% endcapture %}
-{% assign now_day = now_day | minus: 0 %}
-
-<section class="sections">
-  <div class="container m-0">
-    <div class="events-grid">
-      {% for event in site.data.events %}
-        {% capture event_year %}{{event.date | date: '%Y'}}{% endcapture %}
-        {% capture event_day %}{{event.date | date: '%j'}}{% endcapture %}
-        {% assign event_day = event_day | plus: 0 %}
-
-        {% if event_year > now_year or event_day >= now_day and event_year >= now_year %}
-          <div class="event">
-            {% include event.html event=event %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-</section>
+If you have any additional questions let us know at [{{ site.email }}](mailto:{{ site.email }})!

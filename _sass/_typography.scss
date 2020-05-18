@@ -11,7 +11,7 @@ h6 {
 
 h1 {
   font-size: 2.18rem;
-  line-height: 1em;
+  line-height: 1.25em;
 }
 
 h2 {
@@ -44,6 +44,7 @@ p {
 
 .mono {
   font-family: $mono-font-family;
+  font-variation-settings: "wght" 401.49;
 }
 
 // Typography helper classes
@@ -52,18 +53,18 @@ p {
   font-size: $small-font-size;
 }
 
-.ls-narrow {
-  letter-spacing: -3px;
+.text-center {
+  text-align: center;
 }
 
 // Heading helpers
 
 .heading-1 {
-  @include fluid-type(320px,1980px,30px,200px);
+  @include fluid-type(320px,1980px,50px, 80px);
 }
 
 .heading-2 {
-  @include fluid-type(320px,1980px,30px,130px);
+  @include fluid-type(320px,1980px,40px,65px);
 }
 
 .heading-2-5 {
@@ -72,6 +73,12 @@ p {
 
 .heading-3 {
   @include fluid-type(320px,1980px,18px,30px);
+}
+
+// metaflop
+
+.metaflop {
+  font-family: metaflop;
 }
 
 // Font-weight helpers
