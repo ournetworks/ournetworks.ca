@@ -2,19 +2,9 @@
 
 .session-video-detail {
   border: 1px solid $grey-table-borders;
-
-  .session-header {
-    margin: 1em;
-  }
-
-  .session-heading-small {
-    font-size: $small-font-size;
-  }
 }
 
 .video-thumbnail {
-  position: relative;
-
   .video-overlay {
     position: absolute;
     width: 100%;
@@ -34,19 +24,8 @@
   }
 }
 
-.video-caption {
-  margin: 1em;
-}
-
 .video-links-container {
-  padding-top: 1em;
   border-top: 1px solid $grey-table-borders;
-}
-
-.video-links {
-  padding: 0;
-  margin: 0.75em 0 0;
-  list-style: none;
 }
 
 .video-links-item {
