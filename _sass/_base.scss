@@ -49,7 +49,6 @@ a {
   &:hover,
   &:focus,
   &.active {
-    color: $accent-color;
     text-decoration: none;
   }
 }
@@ -57,11 +56,12 @@ a {
 // hr
 
 hr {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 2em;
+  margin-bottom: 2em;
   border-width: 0;
   border-top-width: 1px;
   border-style: solid;
+  border-color: $accent-color;
 }
 
 // Code formatting
@@ -76,6 +76,7 @@ pre {
 
 code {
   padding: 1px 5px;
+  background: rgba($accent-color,.1);
 }
 
 pre {

@@ -6,16 +6,18 @@ button {
   align-items: baseline;
   justify-content: center;
   padding: 1em 2em 1em;
-  color: $white;
+  color: $black;
   text-align: center;
   font-family: $base-font-family;
   font-weight: bold;
   text-decoration: none;
   white-space: nowrap;
-  background-color: $black;
+  background-color: transparent;
   border: 0;
+  border: 1px solid $black;
   cursor: pointer;
   line-height: 1em;
+  border-radius: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -24,9 +26,8 @@ button {
 button:hover,
 .button:focus,
 button:focus {
-  color: $white;
+  color: $black;
   background-color: $accent-color;
-  border-color: $accent-color;
   text-decoration: none;
 }
 
@@ -47,5 +48,5 @@ button.button-primary:focus {
 
 .compact {
   font-size: 0.85em;
-  padding: 0.6em;
+  padding: 1em;
 }

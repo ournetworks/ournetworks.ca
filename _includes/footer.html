@@ -1,34 +1,23 @@
 <footer class="footer border-top mono pb-s pt-s fs-small">
-  <div class="container container-full-width">
+  <div class="container">
 
     <div class="mt-1">
-      <p class="mb-0">ournetworks.ca on</p>
+      <p class="mb-0">ournetworks.ca elsewhere</p>
       <p class="mb-0">
-        Dat: <a class="overflow-wrap" href="dat://eae17983cd6833287ab10ff4c1a3ca5d9ae7af7049eaa525912950720ece2e49/">dat://eae17983cd6833287ab10ff4c1a3ca5d9ae7af7049eaa525912950720ece2e49/</a>
+        <a class="overflow-wrap" href="dat://eae17983cd6833287ab10ff4c1a3ca5d9ae7af7049eaa525912950720ece2e49/">dat://eae17983cd6833287ab10ff4c1a3ca5d9ae7af7049eaa525912950720ece2e49/</a>
       </p>
-      <p class="mb-0">
-        IPFS: <a class="overflow-wrap" href="{{ site.ipfs_gateway }}/ipfs/QmW42BQnU7AFJ3q9qKsGobitgp8HZBrPcSLzJ3F3cqAvMn/">{{ site.ipfs_gateway }}/QmW42BQnU7AFJ3q9qKsGobitgp8HZBrPcSLzJ3F3cqAvMn/</a>
+      <p>
+        <a class="overflow-wrap" href="{{ site.ipfs_gateway }}/ipfs/QmW42BQnU7AFJ3q9qKsGobitgp8HZBrPcSLzJ3F3cqAvMn/">{{ site.ipfs_gateway }}/QmW42BQnU7AFJ3q9qKsGobitgp8HZBrPcSLzJ3F3cqAvMn/</a>
       </p>
     </div>
 
-    <div class="previous-editions flex flex-align-baseline mt-1 mb-1">
-      <p class="mb-0 fw-normal">Previous years [<a href="/recorded-talks/">Recorded talks</a>]: </p>
-      <ul class="m-0 p-0 ls-none flex">
-        {% assign sorted_pages = site.pages | sort: "order" %}
-        {% for page in sorted_pages %}
-          {% if page.parent == "Previous Years" %}
-            <li class="m-0 ml-1"><a href="{% if page.redirect_to %}{{ page.redirect_to }}{% else %}{{ page.url }}{% endif %}" aria-label="{% if page.titleDisplay %}{{ page.titleDisplay }}{% else %}{{ page.title }}{% endif %}">{% if page.titleDisplay %}{{ page.titleDisplay }}{% else %}{{ page.title }}{% endif %}</a></li>
-          {% endif %}
-        {%- endfor -%}
-      </ul>
-    </div>
+    <p>Scuttlebutt gathering: <code class="overflow-wrap">%+0iVAZf/n2JnnwytKPPCLim1UNfBcXjiXvzla4TOP04=.sha256</code></p>
 
-    <p>Twitter: <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">@{{ site.twitter_username }}</a></p>
+    <p><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">@{{ site.twitter_username }}</a></p>
 
-    <p>Meetup: <a href="https://www.meetup.com/p2p-and-dweb-toronto" target="_blank">Peer-to-peer and Decentralized Web Toronto</a></p>
+    <p><a href="{% link code-of-conduct.md %}">Code of Conduct</a>, email <a href="mailto:coc@ournetworks.ca">coc@ournetworks.ca</a></p>
+    <p></p>
 
-    <p>Our Networks has a <a href="/code-of-conduct/">Code of Conduct</a>, for any conduct reports or concerns please email <a href="mailto:coc@ournetworks.ca">coc@ournetworks.ca</a>.</p>
-
-    <p>This website content is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a> license.</p>
+    <p><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
   </div>
 </footer>

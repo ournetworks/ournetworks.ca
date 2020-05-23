@@ -48,15 +48,18 @@
   right: 0;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 // Grid
 
 .content-width {
-  max-width: $content-width; 
+  max-width: $content-width;
 }
 
 .container {
-  max-width: $content-width;
-  margin: 0 40px;
+  margin: 0 30px;
   padding: 0 20px;
 
   @media (max-width: $content-width) {
@@ -121,6 +124,10 @@
   width: 100%;
 }
 
+.h-100 {
+  height: 100%;
+}
+
 .w-75 {
   width: 75%;
 
@@ -147,6 +154,10 @@
   @media (max-width: $on-palm) {
     width: 100%;
   }
+}
+
+.w-main {
+  max-width: calc(#{$content-width} + 60px);
 }
 
 // Padding
@@ -189,8 +200,16 @@
   margin: 0;
 }
 
+.m-1 {
+  margin: 1em;
+}
+
 .mb-0 {
   margin-bottom: 0;
+}
+
+.mb-025 {
+  margin-bottom: 0.5em;
 }
 
 .mb-05 {
@@ -219,14 +238,6 @@
 
 .mt-2 {
   margin-top: 2em;
-}
-
-.mb-05 {
-  margin-bottom: 0.5em;
-}
-
-.mb-1 {
-  margin-bottom: 1em;
 }
 
 .mr-05 {
@@ -262,29 +273,14 @@
 }
 
 .post {
-  padding: 80px 0 40px;
+  padding: 30px 0;
 
   @media (max-width: $on-palm) {
-    padding-top: 150px;
+    padding-top: 170px;
   }
 }
 
 // Splash
-
-.splash {
-  margin-bottom: 40px;
-
-  > .container {
-
-    > p {
-      max-width: 75%;
-
-      @media (max-width: $content-width) {
-        max-width: none;
-      }
-    }
-  }
-}
 
 .splash-hero {
   @media (max-width: $on-palm) {
@@ -317,5 +313,11 @@
 // Borders
 
 .border-top {
-  border-top: 1px solid $black;
+  border-top: 5px solid $accent-color;
+}
+
+// BG element
+
+.bg-element {
+  left: calc(#{$content-width} + 60px);
 }

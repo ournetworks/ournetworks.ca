@@ -20,11 +20,21 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   </head>
   <body>
+    <main class="bg-white w-main">
+
     {% include nav.html %}
-    <main>
-      {{ content }}
-    </main>
+    {{ content }}
     {% include footer.html %}
+    </main>
+    <div class="bg-element fixed top-0 h-100 bg-accent right-0 overflow-hidden">
+      <div class="absolute mono text-right bottom-0 right-0">
+        <div class="container">
+          <h1 class="heading-2" id="clock-element">00:00:00</h1>
+          <h2 class="heading-3 mb-0">UTC-4</h2>
+          <h3 class="heading-3 mt-0">America/Toronto</h3>
+        </div>
+      </div>
+    </div>
     <script async src="{{ '/js/main.js' | relative_url }}?{{ site.time | date: '%s%N' }}"></script>
   </body>
 </html>

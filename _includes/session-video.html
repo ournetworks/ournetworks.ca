@@ -1,5 +1,5 @@
-<div class="session-video-detail w-33 mb-1">
-  <div class="video-thumbnail">
+<div class="session-video-detail w-50 mb-1">
+  <div class="video-thumbnail relative">
     <a href="https://{{ include.year }}.ournetworks.ca/video/?ipfs={{ session.ipfs720 }}" title="View {{ session.title }}">
       <div class="video-overlay flex">
         {% include graphics/video/play-graphic.svg %}
@@ -7,10 +7,10 @@
       <img src="https://img.youtube.com/vi/{{ session.youtube }}/maxresdefault.jpg" loading="lazy" alt="Video thumbnail for {{ session.title }}" />
     </a>
   </div>
-  <header class="session-header">
-    <h3 class="session-title heading fw-normal">{{ session.title }}</h3>
+  <header class="m-1">
+    <h3 class="mb-0 mt-0">{{ session.title }}</h3>
     {%- if session.presenterID -%}
-      <h4 class="session-presenter session-heading-small fw-normal">
+      <h4 class="session-presenter fs-small mt-1 fw-normal">
         {% assign presenters = site.data.presenters[include.year] %}
         {% assign presenterCount = session.presenterID.size %}
         {%- for presenterID in session.presenterID -%}
@@ -25,7 +25,7 @@
       </h4>
     {%- endif -%}
   </header>
-  <div class="video-caption">
+  <div class="m-1">
     <div class="fs-small">
       <p>{{ session.description | truncatewords: 20 }}
         {%- unless session.sessionType == "orga" or session.sessionType == "lightning-talk" -%}
@@ -33,10 +33,10 @@
           <a href="https://{{ include.year }}.ournetworks.ca/{%- if include.program-path -%}{{ include.program-path }}{% else %}program{%- endif -%}/#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}" rel="noopener">See session description</a></span>
         {%- endunless -%}
       </p>
-      <div class="video-links-container">
-        <h5 class="session-heading-small fw-normal">Watch elsewhere:</h5>
+      <div class="video-links-container pt-1">
+        <h5 class="fs-small fw-normal mt-0">Watch elsewhere:</h5>
         {%- if session.ipfs720 or session.ipfs1080 or session.youtube -%}
-          <ul class="video-links">
+          <ul class="ls-none p-0">
            {%- if session.ipfs720 -%}<li class="video-links-item"><a href="{{ site.ipfs_gateway }}/ipfs/{{ session.ipfs720 }}" target="_blank" rel="noopener">{% include icons/ipfs.svg %}&nbsp;<code>[&nbsp;720p]</code>ipfs://{{ session.ipfs720 }}</a></li>{%- endif -%}
            {%- if session.ipfs1080 -%}<li class="video-links-item"><a href="{{ site.ipfs_gateway }}/ipfs/{{ session.ipfs1080 }}" target="_blank" rel="noopener">{% include icons/ipfs.svg %}&nbsp;<code>[1080p]</code>ipfs://{{ session.ipfs1080 }}</a></li>{%- endif -%}
            {%- if session.youtube -%}<li class="video-links-item"><a href="https://youtu.be/{{ session.youtube }}" target="_blank" rel="noopener">{% include icons/youtube.svg %}&nbsp;youtu.be/{{ session.youtube }}</a></li>{%- endif -%}

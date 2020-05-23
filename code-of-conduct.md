@@ -8,7 +8,7 @@ Our Networks is dedicated to providing a harassment-free environment for everyon
 
 In order to reduce obstacles to participation, we have adopted an explicitly-documented code to communicate our expectations for conduct at the event.
 
-## Expected Behaviour
+## Expected behaviour
 
 We expect event participants or organizers to remain mindful of, and take responsibility for, their speech and behavior. This includes:
 
@@ -16,7 +16,7 @@ We expect event participants or organizers to remain mindful of, and take respon
 * actively listening to others and not dominating discussions
 * respecting physical and emotional boundaries
 
-## Unacceptable Behaviour
+## Unacceptable behaviour
 
 We do not tolerate harassment of event participants or organizers in any form. Harassment includes, but is not limited to:
 

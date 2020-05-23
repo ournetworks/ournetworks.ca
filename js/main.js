@@ -124,3 +124,21 @@ document.addEventListener('click', function(){
 document.querySelector('.logo').addEventListener('focus', function(){
   blurSubMenu();
 })
+
+// Clock element
+
+const clockElement = document.getElementById('clock-element')
+
+const currentTime = () => {
+  const currentDate = new Date();
+  const hours = (currentDate.getUTCHours() < 10 ? '0' : '') + currentDate.getUTCHours() - 4;
+  const minutes = (currentDate.getUTCMinutes() < 10 ? '0' : '') + currentDate.getUTCMinutes();
+  const seconds = (currentDate.getUTCSeconds() < 10 ? '0' : '') + currentDate.getUTCSeconds();
+  return `${hours}:${minutes}:${seconds}`
+}
+
+clockElement.innerHTML = currentTime()
+
+setInterval(() => {
+  clockElement.innerHTML = currentTime()
+}, 1000)
