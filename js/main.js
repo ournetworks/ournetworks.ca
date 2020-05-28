@@ -130,11 +130,18 @@ document.querySelector('.logo').addEventListener('focus', function(){
 const clockElement = document.getElementById('clock-element')
 
 const currentTime = () => {
-  const currentDate = new Date();
-  const hours = (currentDate.getUTCHours() < 10 ? '0' : '') + currentDate.getUTCHours() - 4;
-  const minutes = (currentDate.getUTCMinutes() < 10 ? '0' : '') + currentDate.getUTCMinutes();
-  const seconds = (currentDate.getUTCSeconds() < 10 ? '0' : '') + currentDate.getUTCSeconds();
-  return `${hours}:${minutes}:${seconds}`
+  const currentDate = new Date()
+  const hours = () => {
+    if (currentDate.getUTCHours() < 4) {
+      return currentDate.getUTCHours() + 20
+    } else {
+      const offSetHours = currentDate.getUTCHours() - 4
+      return (offSetHours - 4 < 10 ? '0' : '') + offSetHours
+    }
+  }
+  const minutes = (currentDate.getUTCMinutes() < 10 ? '0' : '') + currentDate.getUTCMinutes()
+  const seconds = (currentDate.getUTCSeconds() < 10 ? '0' : '') + currentDate.getUTCSeconds()
+  return `${hours()}:${minutes}:${seconds}`
 }
 
 clockElement.innerHTML = currentTime()
