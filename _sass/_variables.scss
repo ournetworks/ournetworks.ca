@@ -2,12 +2,14 @@
 
 @font-face {
   font-family: metaflop;
-  src: url('fonts/Bespoke-BsmlHa3kJa.woff') format('woff')
+  src: url('fonts/Bespoke-BsmlHa3kJa.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: SourceCode;
-  src: url('fonts/SourceCodePro-Regular.otf.woff2') format('woff2')
+  src: url('fonts/SourceCodePro-Regular.otf.woff2') format('woff2');
+  font-display: swap;
 }
 
 // Typography Variables
