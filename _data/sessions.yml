@@ -1026,26 +1026,246 @@
     ipfs1080: "QmSYWZLRuy14iVSyEg1qJ2s5K16qxQhc4AJqL3HF3ekvbr"
 
 2020:
-- sessionID: 200XX
-  title: ""
-  descriptionLink: ""
+- sessionID: 20002
+  title: "p2p Experimental Chatroom"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/2"
+  presenterID:
+    - xin
+
+- sessionID: 20003
+  title: "1422 1829 1702 Performance"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/3"
+  presenterID:
+    - katina
+
+- sessionID: 20004
+  title: "Epistemic relation as social relation"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/4"
+  presenterID:
+    - neal
+
+- sessionID: 20005
+  title: "Twitch Paints"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/5"
+  presenterID:
+    - jackson
+    - megan 
+
+- sessionID: 20006
+  title: "Software Defined Radio (SDR) and Applications"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/6"
+  presenterID:
+    - brian
+
+- sessionID: 20007
+  title: "literary mesh: exercice de style"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/7"
+  presenterID:
+    - edith
+
+- sessionID: 20008
+  title: "Internet Aerobics"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/8"
+  presenterID:
+    - liat
+
+- sessionID: 20009
+  title: "Reimagine Family, Redistributing Care"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/9"
   presenterID:
     - 
 
-- sessionID: 200XX
-  title: ""
-  descriptionLink: ""
+- sessionID: 20010
+  title: "OFFICE PARTY 3 : The 95th Annual Celebration of the Workers' Club at the Grand Palais"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/10"
   presenterID:
-    - 
+    - brandon
 
-- sessionID: 200XX
-  title: ""
-  descriptionLink: ""
+- sessionID: 20011
+  title: "Building Your Own Routing Protocol"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/11"
   presenterID:
-    - 
+    - grant
 
-- sessionID: 200XX
-  title: ""
-  descriptionLink: ""
+- sessionID: 20012
+  title: 'Shuhaku, "What did they say?"'
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/12"
+  presenterID: 
+    - brady 
+    - david
+
+- sessionID: 20013
+  title: "Utopia as Uncertainty - The issue of decentralisation versus classical utopias"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/13"
   presenterID:
-    - 
+    - ulrich
+    - emoke
+
+- sessionID: 20014
+  title: "TrustNet: Trust-based and subjective moderation systems"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/14"
+  presenterID:
+    - alexander
+
+- sessionID: 20016
+  title: "Towards A Common Glossary for Decentralized Technologies"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/16"
+  presenterID:
+    - eileen
+    - karissa
+    
+- sessionID: 20017
+  title: "hyperobjects.io"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/17"
+  presenterID:
+    - judith
+
+- sessionID: 20018
+  title: "An Encyclopedia of Digital Distances"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/18"
+  presenterID:
+    - hillary
+
+- sessionID: 20019
+  title: "Behind the Scenes at the Doomsday Supper Club"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/19"
+  presenterID:
+    - jason
+    - el
+    - ananda
+
+- sessionID: 20020
+  title: "Open Weather: building networks for nowcasting the weather"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/20"
+  presenterID:
+    - sophie
+    - sasha
+
+- sessionID: 20021
+  title: "Eigengrau"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/21"
+  presenterID:
+    - craig
+
+- sessionID: 20022
+  title: "biton — the Internet potluck"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/22"
+  presenterID:
+    - marios
+
+- sessionID: 20023
+  title: "Disorientations Archive-a-thon"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/23"
+  presenterID:
+    - casey
+
+- sessionID: 20024
+  title: "Virtual Autonomous Zone"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/24"
+  presenterID:
+    - lee 
+    - daniel
+
+- sessionID: 20025
+  title: "This is Fine: Optimism and Emergency in the Decentralised Network"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/25"
+  presenterID:
+    - cade
+
+- sessionID: 20026
+  title: "Meme Tactics: Covid-19"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/26"
+  presenterID:
+    - china-residencies 
+
+- sessionID: 20028
+  title: "Play2play"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/28"
+  presenterID:
+    - WMAN    
+
+- sessionID: 20029
+  title: "Crafting Commons: A round table on cybercraft networks"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/29"
+  presenterID:
+    - afroditi
+    - gabrielle
+    - heidi
+    - shih
+    - audrey
+    - amor
+    - constanza
+    - melissa      
+
+- sessionID: 20030
+  title: "Listening Space"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/30"
+  presenterID:
+    - audrey
+    - afroditi
+      
+- sessionID: 20031
+  title: "Toward a federation of hybrid spaces"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/31"
+  presenterID:
+    - panayotis
+          
+- sessionID: 20032
+  title: "TTY2020"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/32"
+  presenterID:
+    - pierre
+    - pat
+      
+- sessionID: 20033
+  title: "On View: Art and technology towards new digital architectures"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/33"
+  presenterID:
+    - dejha
+    - ania
+
+- sessionID: 20034
+  title: "Holistic Digital Authorship"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/34"
+  presenterID:
+    - mai 
+    - udit
+    - benedict
+
+- sessionID: 20035
+  title: "Bridge to the Internet: A Community Router"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/35"
+  presenterID:
+    - mark
+
+- sessionID: 20036
+  title: "Building Equity through Public Owned Cable System"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/36"
+  presenterID:
+    - tory
+
+- sessionID: 20037
+  title: "Open Learning Commons: A peer-to-peer educational ecosystem"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/37"
+  presenterID:
+    - robert
+
+- sessionID: 20038
+  title: "Open Data and Collaboration in Action"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/38"
+  presenterID:
+    - cassandra
+    - sara
+    - allan
+
+- sessionID: 20039
+  title: "Experiences of surveillance"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/39"
+  presenterID:
+    - ydivya
+
+- sessionID: 20040
+  title: "Waiting for NIN in New Orleans"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/40"
+  presenterID:
+    - jennifer
