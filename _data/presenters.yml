@@ -548,6 +548,18 @@
   - presenterID: china
     name: "China Residencies"
 
+  - presenterID: xiao
+    name: "Xiao Mina"
+
+  - presenterID: kira
+    name: "Kira Simon-Kennedy"
+
+  - presenterID: josue
+    name: "Josue Chavez"
+
+  - presenterID: mikail
+    name: "Mikail Wright"
+
   - presenterID: arhur
     name: "Arhur Debert"
 
