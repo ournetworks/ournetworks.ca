@@ -452,11 +452,188 @@
     linkDisplay: "oise.utoronto.ca/.../Jennifer_Wemigwans.html"
 
 2020:
-- presenterID: 
-  name: ""  
+  - presenterID: xin
+    name: "Xin Xin"
 
-- presenterID: 
-  name: ""  
+  - presenterID: katina
+    name: "Katina Bitsicas"
 
-- presenterID: 
-  name: ""    
+  - presenterID: nealt
+    name: "Neal Thomas"
+
+  - presenterID: jackson
+    name: "Jackson Ammenheuser"
+
+  - presenterID: megan
+    name: "Megan Jedrysiak"
+
+  - presenterID: brian
+    name: "Brian Sutherland"
+
+  - presenterID: edith
+    name: "Edith Viau"
+
+  - presenterID: liat
+    name: "Liat Berdugo"
+
+  - presenterID: reunion
+    name: "ReUnion"
+
+  - presenterID: brandon
+    name: "Brandon Alvendia"
+
+  - presenterID: grant
+    name: "Grant Gallo"
+
+  - presenterID: brady
+    name: "Brady Dale"
+
+  - presenterID: david
+    name: "David Floyd"
+
+  - presenterID: ulrich
+    name: "Ulrich Gehmann"
+
+  - presenterID: emoke
+    name: "Emőke Bada"
+
+  - presenterID: alexander
+    name: "Alexander Cobleigh"
+
+  - presenterID: eileen
+    name: "Eileen Wagner"
+
+  - presenterID: karissa
+    name: "Karissa McKelvey"
+
+  - presenterID: judith
+    name: "Judith Sönnicken"
+
+  - presenterID: hillary
+    name: "Hillary Predko"
+
+  - presenterID: jason
+    name: "Jason"
+
+  - presenterID: el
+    name: "E.L. Guerrero"
+
+  - presenterID: ananda
+    name: "Ananda Gabo"
+
+  - presenterID: sophie
+    name: "Sophie Dyer"
+
+  - presenterID: sasha
+    name: "Sasha Engelmann"
+
+  - presenterID: craig
+    name: "Craig Fahner"
+
+  - presenterID: marios
+    name: "Marios Isaakidis"
+
+  - presenterID: casey
+    name: "Casey Gollan"
+
+  - presenterID: lee
+    name: "Lee Tusman"
+
+  - presenterID: daniel
+    name: "Daniel Lichtman"
+
+  - presenterID: cade
+    name: "Cade Diehm"
+
+  - presenterID: china
+    name: "China Residencies"
+
+  - presenterID: arhur
+    name: "Arhur Debert"
+
+  - presenterID: alix
+    name: "Alix Desaubliaux"
+
+  - presenterID: lucie
+    name: "Lucie Desaubliaux"
+
+  - presenterID: valentin
+    name: "Valentin Godard"
+
+  - presenterID: leo
+    name: "Léo Gouhier"
+
+  - presenterID: carin
+    name: "Carin Klonowski"
+
+  - presenterID: gabrielle
+    name: "Gabrielle Benabdallah"
+
+  - presenterID: heidi
+    name: "Heidi Biggs"
+
+  - presenterID: shih
+    name: "Shih Wei Chieh"
+
+  - presenterID: amor
+    name: "Amor Muñoz"
+
+  - presenterID: constanza
+    name: "Constanza Piña"
+
+  - presenterID: melissa
+    name: "Melissa Aguilar"
+
+  - presenterID: audrey
+    name: "Audrey Briot"
+
+  - presenterID: afroditi
+    name: "Afroditi Psarra"
+
+  - presenterID: panayotis
+    name: "Panayotis Antoniadis"
+
+  - presenterID: pierre
+    name: "Pierre Depaz"
+
+  - presenterID: pat
+    name: "Pat Shiu"
+
+  - presenterID: dejha
+    name: "Dejha Ti"
+
+  - presenterID: ania
+    name: "Ania Catherine"
+
+  - presenterID: mai
+    name: "Mai Ishikawa Sutton"
+
+  - presenterID: udit
+    name: "Udit Vira"
+
+  - presenterID: benedict
+    name: "Benedict Lau"
+
+  - presenterID: mark
+    name: "Mark Lam"
+
+  - presenterID: troy
+    name: "Troy Walcott"
+
+  - presenterID: robert
+    name: "Robert Best"
+
+  - presenterID: cassandra
+    name: "Cassandra Could van Praag"
+
+  - presenterID: sara
+    name: "Sara El-Gebali"
+
+  - presenterID: allan
+    name: "Allan Ochola"
+
+  - presenterID: divya
+    name: "Y Divya Sri"
+
+  - presenterID: jennifer
+    name: "Jennifer Seaman Cook"
