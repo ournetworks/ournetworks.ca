@@ -129,7 +129,7 @@ titleDisplay: "Presenter"
         <input type="radio" class="mr-05" id="honoraria-decline" name="honoraria" value="I am declining the honoraria"><label class="fw-bold" for="honoraria-decline">I am declining the honoraria</label>
       </div>
   </div>
-  <input type="submit" name="submit" value="Submit Session Update" class="button mt-1 mb-2">
+  <input type="submit" name="submit" value="Submit session update" class="button mt-1 mb-2">
   <input type="hidden" name="_format" value="plain">
   <input type="hidden" name="_subject" value="session update submitted">
   <input type="hidden" name="_next" value="//ournetworks.ca/sessions-form?update=confirmed">
