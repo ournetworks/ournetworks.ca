@@ -23,7 +23,7 @@ titleDisplay: "Presenter"
     </div>
   </div>
   <div class="mb-2">
-    <h3>Participation</h3>
+    <h3 class="mb-05">Participation</h3>
     <p>Let us know if you can attend:</p>
     <div class="flex mb-05 flex-align-baseline">
       <input type="radio" class="mr-05" id="participation1" name="participation" value="will present" required><label class="fw-bold" for="participation1">I/we will be presenting</label>
@@ -33,7 +33,7 @@ titleDisplay: "Presenter"
     </div>
   </div>
   <div class="mb-2">
-    <h3>Recording</h3>
+    <h3 class="mb-05">Recording</h3>
     <p>Let us know if we can livestream and record your session or work (this will not include workshops):</p>
     <div class="flex mb-05 flex-align-baseline">
       <input type="checkbox" class="mr-05" id="recording1" name="recording" value="live stream"><label class="fw-bold" for="recording1">The presentation can be live streamed</label>
@@ -44,7 +44,7 @@ titleDisplay: "Presenter"
     <small class="block mt-1">You have the right to withdraw consent for posting after the video is recorded. You can see an example of the previous recorded talks at: <a href="https://ournetworks.ca/recorded-talks/">https://ournetworks.ca/recorded-talks/</a></small>
   </div>
     <div class="mb-2">
-    <h3>Time zone</h3>
+    <h3 class="mb-05">Time zone</h3>
     <p>Let us know what time zone will you be presenting from:</p>
     <div class="flex mb-05 flex-align-baseline">
       <input list="timezones" id="timezone" name="timezone" class="input mb-1 w-75" required>
@@ -58,23 +58,23 @@ titleDisplay: "Presenter"
     <small class="block mt-1">You have the right to withdraw consent for posting after the video is recorded. You can see an example of the previous recorded talks at: <a href="https://ournetworks.ca/recorded-talks/">https://ournetworks.ca/recorded-talks/</a></small>
   </div>
   <div class="mb-2">
-    <h3>Presenter Details</h3>
+    <h3 class="mb-05">Presenter details</h3>
     <p>Please confirm your preferred pronunciation and pronouns as presenter(s):</p>
     <div class="flex">
-      <div class="w-33">
+      <div class="w-50">
         <label class="fw-bold" for="presenters">Presenter:</label>
         <input list="presenters-list" id="presenters" class="input mb-1 w-100" name="presenters" required>
         <datalist id="presenters-list">
           {% include forms/presenters-datalist.html %}
         </datalist>
       </div>
-      <div class="w-33 ml-1">
+      <div class="w-50 ml-1">
         <label class="fw-bold" for="pronunciation">Pronunciation notes:</label>
         <input type="text" id="pronunciation" class="input mb-1 w-100" name="pronunciation">
       </div>
     </div>
     <div class="flex">
-      <div class="w-33">
+      <div class="w-50">
         <label class="fw-bold" for="pronouns">Preferred pronouns:</label>
         <input type="text" id="pronouns" class="input mb-1 w-100" name="pronouns" placeholder="e.g., they/them, she/her, he/him, ze/zir">
       </div>
@@ -83,20 +83,20 @@ titleDisplay: "Presenter"
       <input type="checkbox" class="mr-05 input-condition" id="presenter2" name="presenter2" value="The session has another presenter:"><label class="fw-bold" for="presenter2">The session has another presenter:</label>
       <div id="second_presenter" class="input-condition-group mb-05 mt-1 ml-1 flex-wrap none">
         <div class="flex w-100">
-          <div class="w-33">
+          <div class="w-50">
             <label class="fw-bold" for="presenters2">Presenter:</label>
             <input list="presenters-list2" id="presenters2" class="input mb-1 w-100" name="presenters2" required>
             <datalist id="presenters-list2">
               {% include forms/presenters-datalist.html %}
             </datalist>
           </div>
-          <div class="w-33 ml-1">
+          <div class="w-50 ml-1">
             <label class="fw-bold" for="pronunciation2">Pronunciation notes:</label>
             <input type="text" id="pronunciation2" class="input mb-1 w-100" name="pronunciation2">
           </div>
         </div>
         <div class="flex w-100">
-          <div class="w-33">
+          <div class="w-50">
             <label class="fw-bold" for="pronouns">Preferred pronouns:</label>
             <input type="text" id="pronouns2" class="input mb-1 w-100" name="pronouns2" placeholder="e.g., they/them, she/her, he/him, ze/zir">
           </div>
@@ -105,7 +105,7 @@ titleDisplay: "Presenter"
     </div>
   </div>
   <div class="mb-2">
-    <h3>Honoraria Information</h3>
+    <h3 class="mb-05">Honoraria information</h3>
       <p>We are able to offer a modest honorarium to each presenter which will be distributed after the event. Please provide the information below:</p>
       <div class="flex mb-05 flex-align-baseline flex-wrap">
         <input type="radio" class="mr-05 input-condition" id="honoraria" name="honoraria" value="Here is my preferred payment:"><label class="fw-bold" for="honoraria">Here is my preferred payment:</label>
