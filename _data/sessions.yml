@@ -1042,7 +1042,7 @@
   title: "Epistemic relation as social relation"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/4"
   presenterID:
-    - neal
+    - nealt
 
 - sessionID: 20005
   title: "Twitch Paints"
@@ -1073,7 +1073,7 @@
   title: "Reimagine Family, Redistributing Care"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/9"
   presenterID:
-    - 
+    - reunion
 
 - sessionID: 20010
   title: "OFFICE PARTY 3 : The 95th Annual Celebration of the Workers' Club at the Grand Palais"
@@ -1176,13 +1176,22 @@
   title: "Meme Tactics: Covid-19"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/26"
   presenterID:
-    - china-residencies 
+    - china 
+    - xiao
+    - kira
+    - josue
+    - mikail
 
 - sessionID: 20028
   title: "Play2play"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/28"
   presenterID:
-    - WMAN    
+    - arthur
+    - alix 
+    - lucie
+    - valentin 
+    - leo 
+    - carin    
 
 - sessionID: 20029
   title: "Crafting Commons: A round table on cybercraft networks"
@@ -1242,7 +1251,7 @@
   title: "Building Equity through Public Owned Cable System"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/36"
   presenterID:
-    - tory
+    - troy
 
 - sessionID: 20037
   title: "Open Learning Commons: A peer-to-peer educational ecosystem"
@@ -1262,7 +1271,7 @@
   title: "Experiences of surveillance"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/39"
   presenterID:
-    - ydivya
+    - divya
 
 - sessionID: 20040
   title: "Waiting for NIN in New Orleans"
