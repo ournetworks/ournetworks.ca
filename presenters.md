@@ -12,14 +12,14 @@ titleDisplay: "Presenter"
 <form action="https://formspree.io/orga@ournetworks.ca" class="form-container" method="POST">
   <div class="mb-2">
     <div class="flex flex-wrap">
-      <label class="fw-bold w-100" for="session">Select your session:</label>
+      <label class="fw-bold w-100" for="session">Select your session or work:</label>
       <input list="sessions" id="session" class="input mb-1 w-75" name="session" required>
     </div>
     <datalist id="sessions">
       {% include forms/sessions-datalist.html %}
     </datalist>
     <div class="flex mb-05 flex-align-baseline">
-      <input class="mr-05" type="checkbox" id="description" name="review_confirmation" value="reviewed"><label class="fw-bold" for="description">The presentation description has been reviewed</label>
+      <input class="mr-05" type="checkbox" id="description" name="review_confirmation" value="reviewed"><label class="fw-bold" for="description">The description has been reviewed</label>
     </div>
   </div>
   <div class="mb-2">
@@ -34,10 +34,24 @@ titleDisplay: "Presenter"
   </div>
   <div class="mb-2">
     <h3>Recording</h3>
-    <p>Let us know if we can livestream and record your presentation:</p>
+    <p>Let us know if we can livestream and record your session or work (this will not include workshops):</p>
     <div class="flex mb-05 flex-align-baseline">
       <input type="checkbox" class="mr-05" id="recording1" name="recording" value="live stream"><label class="fw-bold" for="recording1">The presentation can be live streamed</label>
     </div>
+    <div class="flex mb-05 flex-align-baseline">
+      <input type="checkbox" class="mr-05" id="recording2" name="recording" value="record"><label class="fw-bold" for="recording2">The presentation can be recorded and posted on the Our Networks website under a Creative Commons License</label>
+    </div>
+    <small class="block mt-1">You have the right to withdraw consent for posting after the video is recorded. You can see an example of the previous recorded talks at: <a href="https://ournetworks.ca/recorded-talks/">https://ournetworks.ca/recorded-talks/</a></small>
+  </div>
+    <div class="mb-2">
+    <h3>Timezone</h3>
+    <p>Let us know what timezone will you be presenting from:</p>
+    <div class="flex mb-05 flex-align-baseline">
+      <input list="timezones" id="timezone" name="timezone" class="input mb-1 w-75" required>
+    </div>
+    <datalist id="sessions">
+      {% include forms/timezones.html %}
+    </datalist>     
     <div class="flex mb-05 flex-align-baseline">
       <input type="checkbox" class="mr-05" id="recording2" name="recording" value="record"><label class="fw-bold" for="recording2">The presentation can be recorded and posted on the Our Networks website under a Creative Commons License</label>
     </div>
@@ -104,9 +118,6 @@ titleDisplay: "Presenter"
           </div>
           <div class="flex mb-05 w-100 flex-align-baseline">
             <input type="radio" class="mr-05" id="payment_options3" name="payment_options" value="Cryptocurrency"> <label class="fw-bold" for="payment_options3">Cryptocurrency (ETH)</label>
-          </div>
-          <div class="flex mb-1 w-100 flex-align-baseline">
-            <input type="radio" class="mr-05" id="payment_options4" name="payment_options" value="Cash"> <label class="fw-bold" for="payment_options4">Cash (I am based in Toronto)</label>
           </div>
           <div class="w-100" id="payment_address">
             <label class="fw-bold" for="address">Address (Cryptocurrency/Paypal/Interac):</label>
