@@ -9,7 +9,7 @@ titleDisplay: "Presenter"
 
 <hr />
 
-<form action="https://ournetworks.ca/presenters-confirm?next=TODO" class="form-container" method="POST">
+<form action="https://ournetworks.ca/presenters-confirm?next=https%3A%2F%2Fournetworks.ca%2Fpresenters%2F%3Fupdate%3Dconfirmed" class="form-container" method="POST">
   <div class="mb-2">
     <div class="flex flex-wrap">
       <label class="fw-bold w-100" for="session">Select your session or work:</label>
@@ -51,11 +51,7 @@ titleDisplay: "Presenter"
     </div>
     <datalist id="timezones">
       {% include forms/timezones-datalist.html %}
-    </datalist>     
-    <div class="flex mb-05 flex-align-baseline">
-      <input type="checkbox" class="mr-05" id="recording2" name="recording" value="record"><label class="fw-bold" for="recording2">The presentation can be recorded and posted on the Our Networks website under a Creative Commons License</label>
-    </div>
-    <small class="block mt-1">You have the right to withdraw consent for posting after the video is recorded. You can see an example of the previous recorded talks at: <a href="https://ournetworks.ca/recorded-talks/">https://ournetworks.ca/recorded-talks/</a></small>
+    </datalist>
   </div>
   <div class="mb-2">
     <h3 class="mb-05">Presenter details</h3>
