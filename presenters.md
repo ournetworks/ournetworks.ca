@@ -81,7 +81,7 @@ titleDisplay: "Presenter"
         <div class="flex w-100">
           <div class="w-50">
             <label class="fw-bold" for="presenters2">Presenter:</label>
-            <input list="presenters-list2" id="presenters2" class="input mb-1 w-100" name="presenters2" required>
+            <input list="presenters-list2" id="presenters2" class="input mb-1 w-100" name="presenters2">
             <datalist id="presenters-list2">
               {% include forms/presenters-datalist.html %}
             </datalist>
