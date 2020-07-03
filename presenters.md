@@ -9,7 +9,7 @@ titleDisplay: "Presenter"
 
 <hr />
 
-<form action="http://localhost:42069/?next=https%3A%2F%2Fournetworks.ca%2Fpresenters%2F%3Fupdate%3Dconfirmed" class="form-container" method="POST">
+<form action="https://ournetworks.ca/presenters/?next=https%3A%2F%2Fournetworks.ca%2Fpresenters%2F%3Fupdate%3Dconfirmed" class="form-container" method="POST">
   <div class="mb-2">
     <div class="flex flex-wrap">
       <label class="fw-bold w-100" for="session">Select your session or work:</label>
