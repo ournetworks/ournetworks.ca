@@ -9,7 +9,7 @@ titleDisplay: "Presenter"
 
 <hr />
 
-<form action="https://formspree.io/orga@ournetworks.ca" class="form-container" method="POST">
+<form action="https://ournetworks.ca/presenters-confirm?next=TODO" class="form-container" method="POST">
   <div class="mb-2">
     <div class="flex flex-wrap">
       <label class="fw-bold w-100" for="session">Select your session or work:</label>
