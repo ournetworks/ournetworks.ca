@@ -7,13 +7,20 @@ fieldset {
 .input {
   font-family: $base-font-family;
   padding: 0.75em;
-  border: 1px solid #d1d1d1;
+  border: 1px solid $black;
+}
+
+.input:focus {
+  outline-style: solid;
+  outline-color: $accent-color;
+  outline-width: 5px;
+  background: rgba($accent-color,.1);
 }
 
 .input:invalid:focus {
   outline-style: solid;
   outline-color: $accent-color;
-  outline-width: 3px;
+  outline-width: 5px;
   border-color: red;
 }
 

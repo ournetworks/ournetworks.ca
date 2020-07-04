@@ -10,9 +10,9 @@ function formSubmitCallback(formContextMsg) {
   var splashEle = document.querySelector('.splash');
   var postEle = document.querySelector('.post');
 
-  confirmationEle.className = 'announcement pt-s pb-s relative color-black';
+  confirmationEle.className = 'announcement bg-black pt-s pb-s relative color-white';
   confirmationEle.setAttribute('role', 'alert');
-  confirmationEle.innerHTML = '<div class="container"><p>' + formContextMsg + '</p> <button class="close-banner" aria-label="Close">×</button></div>';
+  confirmationEle.innerHTML = '<div class="container flex flex-justify-space-between flex-align-center"><p class="mb-0">' + formContextMsg + '</p> <button class="button-primary compact-round flex-align-center close-banner" aria-label="Close">×</button></div>';
 
   header.prepend(confirmationEle);
   if (splashEle) {
