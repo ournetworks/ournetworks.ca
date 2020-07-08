@@ -5,7 +5,7 @@ title: "Presenters: Confirm Participation"
 titleDisplay: "Presenter"
 ---
 
-<p>In order to confirm your participation in Our Networks 2020, please complete the below form by Friday July 10, 2020.</p>
+<p>In order to confirm your participation in Our Networks 2020, please complete the below form by Sunday July 12, 2020.</p>
 
 <hr />
 
@@ -52,6 +52,10 @@ titleDisplay: "Presenter"
     <datalist id="timezones">
       {% include forms/timezones-datalist.html %}
     </datalist>
+    <div class="flex mb-05 flex-align-baseline">
+      <input type="checkbox" class="mr-05" id="recording2" name="recording" value="record"><label class="fw-bold" for="recording2">The presentation can be recorded and posted on the Our Networks website under a Creative Commons License</label>
+    </div>
+    <small class="block mt-1">You have the right to withdraw consent for posting after the video is recorded. You can see an example of the previous recorded talks at: <a href="https://ournetworks.ca/recorded-talks/">https://ournetworks.ca/recorded-talks/</a></small>
   </div>
   <div class="mb-2">
     <h3 class="mb-05">Presenter details</h3>
@@ -76,12 +80,12 @@ titleDisplay: "Presenter"
       </div>
     </div>
     <div class="flex mb-05 flex-align-baseline flex-wrap">
-      <input type="checkbox" class="mr-05 input-condition" id="presenter2" name="presenter2" value="The session has another presenter:"><label class="fw-bold" for="presenter2">The session has another presenter:</label>
+      <input type="checkbox" class="mr-05 input-condition" id="presenter2" name="presenter2" value="The session has a second presenter:"><label class="fw-bold" for="presenter2">The session has a second presenter:</label>
       <div id="second_presenter" class="input-condition-group mb-05 mt-1 ml-1 flex-wrap none">
         <div class="flex w-100">
           <div class="w-50">
             <label class="fw-bold" for="presenters2">Presenter:</label>
-            <input list="presenters-list2" id="presenters2" class="input mb-1 w-100" name="presenters2">
+            <input list="presenters-list2" id="presenters2" class="input mb-1 w-100" name="presenters2" required>
             <datalist id="presenters-list2">
               {% include forms/presenters-datalist.html %}
             </datalist>
@@ -96,6 +100,39 @@ titleDisplay: "Presenter"
             <label class="fw-bold" for="pronouns">Preferred pronouns:</label>
             <input type="text" id="pronouns2" class="input mb-1 w-100" name="pronouns2" placeholder="e.g., they/them, she/her, he/him, ze/zir">
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex mb-05 flex-align-baseline flex-wrap">
+      <input type="checkbox" class="mr-05 input-condition" id="presenter3" name="presenter3" value="The session has a third presenter:"><label class="fw-bold" for="presenter3">The session has a third presenter:</label>
+      <div id="third_presenter" class="input-condition-group mb-05 mt-1 ml-1 flex-wrap none">
+        <div class="flex w-100">
+          <div class="w-50">
+            <label class="fw-bold" for="presenters3">Presenter:</label>
+            <input list="presenters-list3" id="presenters3" class="input mb-1 w-100" name="presenters3" required>
+            <datalist id="presenters-list3">
+              {% include forms/presenters-datalist.html %}
+            </datalist>
+          </div>
+          <div class="w-50 ml-1">
+            <label class="fw-bold" for="pronunciation3">Pronunciation notes:</label>
+            <input type="text" id="pronunciation3" class="input mb-1 w-100" name="pronunciation3">
+          </div>
+        </div>
+        <div class="flex w-100">
+          <div class="w-50">
+            <label class="fw-bold" for="pronouns">Preferred pronouns:</label>
+            <input type="text" id="pronouns3" class="input mb-1 w-100" name="pronouns3" placeholder="e.g., they/them, she/her, he/him, ze/zir">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex mb-05 flex-align-baseline flex-wrap">
+      <input type="checkbox" class="mr-05 input-condition" id="presenter4" name="presenter4" value="The session has another presenter:"><label class="fw-bold" for="presenter4">The session has more than three presenters:</label>
+      <div id="multi_presenters" class="input-condition-group mb-05 mt-1 ml-1 flex-wrap none">
+        <div class="flex w-100">
+          <label class="fw-bold" for="multi_presenter">Please list all presenter names, pronunciation notes, and preferred pronouns:</label>
+          <input type="text" id="multi_presenter" class="input mb-1 w-100" name="multi_presenter">
         </div>
       </div>
     </div>
@@ -126,4 +163,7 @@ titleDisplay: "Presenter"
       </div>
   </div>
   <input type="submit" name="submit" value="Submit session update" class="button mt-1 mb-2">
+  <input type="hidden" name="_format" value="plain">
+  <input type="hidden" name="_subject" value="session update submitted">
+  <input type="hidden" name="_next" value="//ournetworks.ca/sessions-form?update=confirmed">
 </form>
