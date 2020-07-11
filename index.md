@@ -10,9 +10,10 @@ Regretfully and after careful deliberation, the organizing team has decided to p
 
 2020 has held a lot of surprises, and planning and event in the midst of COVID-19 has encompassed many of them. Despite managing some of the uncertainty by transitioning online, many aspects of the event have been slower to take shape in 2020 than in years prior. Rather than push ahead with the original dates and a more rushed event, we've decided to slow down and take the time required to ensure we deliver the best version possible of our first fully-online conference.
 
-Our core conference days will now take place **September 8-13, 2020** -- we hope you can still join us!
+Our core conference days will now take place **September 8-13, 2020**—we hope you can still join us!
 
---
+---
+{:.full-width}
 
 This year we’re taking a different approach given the rapidly evolving COVID-19 situation. A lot remains unknown about how travel and ways to gather will develop between now and Our Networks 2020, and we take seriously our obligations as hosts and to our local community. 
 
