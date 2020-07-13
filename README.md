@@ -42,3 +42,5 @@ Generally, the following steps occur in Travis CI as updates are commited, or me
 - `cd [destination folder]`
 - Import the archive's secret key: `dat keys import`
 - Update archive: `dat sync`
+
+
