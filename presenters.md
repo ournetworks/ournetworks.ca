@@ -52,10 +52,6 @@ titleDisplay: "Presenter"
     <datalist id="timezones">
       {% include forms/timezones-datalist.html %}
     </datalist>
-    <div class="flex mb-05 flex-align-baseline">
-      <input type="checkbox" class="mr-05" id="recording2" name="recording" value="record"><label class="fw-bold" for="recording2">The presentation can be recorded and posted on the Our Networks website under a Creative Commons License</label>
-    </div>
-    <small class="block mt-1">You have the right to withdraw consent for posting after the video is recorded. You can see an example of the previous recorded talks at: <a href="https://ournetworks.ca/recorded-talks/">https://ournetworks.ca/recorded-talks/</a></small>
   </div>
   <div class="mb-2">
     <h3 class="mb-05">Presenter details</h3>
