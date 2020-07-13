@@ -15,7 +15,7 @@ before_install:
   - if [ $TRAVIS_BRANCH == "master" ]; then nvm install 10.16.3; fi
   - if [ $TRAVIS_BRANCH == "master" ]; then npm i -g dat; fi
   # Clone/Initialize Dat archive
-  - if [ $TRAVIS_BRANCH == "master" ]; then dat $(head -n 1 .well-known/dat) ./_site --exit; fi
+  # - if [ $TRAVIS_BRANCH == "master" ]; then dat $(head -n 1 .well-known/dat) ./_site --exit; fi
 
 before_script:
   # Build Jekyll site
