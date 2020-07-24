@@ -25,6 +25,6 @@ Our Networks is volunteer-run and would not be possible without the support of o
 
 <div class="flex">
   <div class="mr-2">
-    <a href="https://www.stickermule.com/supports/opensource" rel="noopener"><img src="/images/logos/sticker-mule-logo.svg" width="260" alt="Sticker Mule logo" /></a>
+    <a href="https://mule.to/pjv" rel="noopener"><img src="/images/logos/sticker-mule-logo.svg" width="260" alt="Sticker Mule logo" /></a>
   </div>
 </div>
