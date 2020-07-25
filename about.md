@@ -11,7 +11,7 @@ The event has a [Code of Conduct](/code-of-conduct/) and policy on [Filming](/fi
 
 We would like to acknowledge this sacred land on which Our Networks will take place. Tkaronto (Toronto) has been a site of human activity for 15,000 years. This land is the territory of the Huron-Wendat and Petun First Nations, the Seneca, and most recently, the Mississaugas of the Credit River. The territory was the subject of the Dish with One Spoon Wampum Belt Covenant, an agreement between the Iroquois Confederacy and Confederacy of the Ojibwe and allied nations to peaceably share and care for the resources around the Great Lakes. Today, the meeting place of Toronto is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work in the community, on this territory.
 
-_We are grateful to the [First Nations House](https://www.studentlife.utoronto.ca/fnh) and Elders Circle (Council of Aboriginal Initiatives) for the language that this acknowledgement is based on._
+_We are grateful to the [First Nations House](https://studentlife.utoronto.ca/service/first-nations-house/) and Elders Circle (Council of Aboriginal Initiatives) for the language that this acknowledgement is based on._
 
 ###  Design
 
