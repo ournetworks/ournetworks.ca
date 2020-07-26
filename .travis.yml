@@ -48,7 +48,7 @@ deploy:
       - master
 
 after_deploy:
-  - npx @sammacbeth/dat-publisher update --del -s ${DATKEY} --seedtime 180 ${DATADDRESS} _site/
+  - npx @sammacbeth/dat-publisher update --del -s $DATKEY --seedtime 180 $DATADDRESS _site/
 
 notifications:
   email:
