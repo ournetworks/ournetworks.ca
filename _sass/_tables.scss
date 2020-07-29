@@ -147,8 +147,6 @@ thead th {
 }
 
 .program-block {
-  border-bottom: 1px solid $grey-table-borders;
-
   &:last-child {
     border-bottom: 0;
   }
@@ -180,6 +178,6 @@ thead th {
   visibility: hidden;
 
   & + .program-block-content {
-    background: $black;
+    background: $accent-color;
   }
 }

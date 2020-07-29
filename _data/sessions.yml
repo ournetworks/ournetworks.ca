@@ -1186,12 +1186,13 @@
   title: "Play2play"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/28"
   presenterID:
+    - wman
     - arthur
-    - alix 
+    - alix
     - lucie
-    - valentin 
-    - leo 
-    - carin    
+    - valentin
+    - leo
+    - carin
 
 - sessionID: 20029
   title: "Crafting Commons: A round table on cybercraft networks"

@@ -7,7 +7,7 @@
       {%- if session.presenterID -%}
           {% assign presenters = site.data.presenters[include.year] %}
           {% assign presenterCount = session.presenterID.size %}
-          <ul class="ls-none pl-0">
+          <ul class="ls-none pl-0 mono">
           {%- for presenterID in session.presenterID -%}
             {%- for presenter in presenters -%}
               {%- if presenter.presenterID == presenterID -%}
@@ -15,7 +15,7 @@
               {%- endif -%}
             {%- endfor -%}
             {% assign presenterCount = presenterCount | minus:1 %}
-            <li><h4 class="session-presenter">> <a href="#{{ presenterID }}">{{ name }}</a></h4></li>
+            <li><h4 class="session-presenter"><a href="#{{ presenterID }}">{{ name }}</a></h4></li>
           {%- endfor -%}
           </ul>
       {%- endif -%}
@@ -29,8 +29,11 @@
     {%- endif -%}
     {%- if session.description -%}
     <div class="session-caption">
-        <p>{{ session.description | escape | newline_to_br | truncatewords: 75 }}{%- if session.descriptionLink -%}<span class="read-more"><a href="{{ session.descriptionLink }}" rel="noopener"> read more</a></span>{%- endif -%}</p>
+        <p>{{ session.description | escape | newline_to_br | truncatewords: 75 }}</p>
     </div>
+    {%- endif -%}
+    {%- if session.descriptionLink -%}
+      <div class="read-more mono"><a href="{{ session.descriptionLink }}" rel="noopener">Read more</a></div>
     {%- endif -%}
     {%- if session.link or session.twitter or session.github -%}
     <ul class="bio-sm-list">

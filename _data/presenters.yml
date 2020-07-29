@@ -454,99 +454,248 @@
 2020:
   - presenterID: xin
     name: "Xin Xin"
+    bio: "Xin Xin is a Taiwanese / American artist and community organizer working at the intersection of technology, labor, and identity. Xin co-founded voidLab, a LA-based intersectional feminist collective dedicated to women, trans, and queer folks. They were the Director for Processing Community Day 2019, a worldwide initiative celebrating art, code, and diversity, and they currently serve on the advisory board for the Processing Foundation. Xin teaches at the New School as an Assistant Professor of Interaction and Media Design."
+    link: "http://xin-xin.info/"
+    linkDisplay: "xin-xin.info"
+    github: "xinemata"
+    twitter: "xinemata"
 
   - presenterID: katina
     name: "Katina Bitsicas"
+    bio: "Katina Bitsicas is a new media artist who utilizes video, photography, and performance in her art works. She has exhibited worldwide, including The Armory Show in New York, PULSE Art Fair in Miami Beach, HereArt in New York, and Art in Odd Places in Orlando. She received her BA from Kalamazoo College, Post-Bacc from SACI in Florence, Italy, and MFA from the University of South Florida. She is an Assistant Professor of Digital Storytelling at the University of Missouri."
+    link: http://www.katinabitsicas.com/
+    linkDisplay: katinabitsicas.com
+    github: bitsicask
 
   - presenterID: nealt
     name: "Neal Thomas"
+    bio: "Neal Thomas teaches communication studies at Wilfrid Laurier University in Waterloo, ON. His research is focused at the intersection of critical social theory and computing technique, its central motivation being to better understand the impact that social technologies have upon the political imagination of deeply-mediatized societies."
+    link: http://http://hivemedia.ca/
+    linkDisplay: hivemedia.ca
+    twitter: lathemason
+    github: lathemason
 
   - presenterID: jackson
     name: "Jackson Ammenheuser"
+    bio: "Megan Jedrysiak and Jackson Ammenheuser are a Chicago based animation duo. Since 2014, they have been making experimental shorts and commissioned animations together as AppleButter Animated. Their experimental film and installation work has screened in the United States and internationally. Their creative process is rooted in subconscious play versus conscious editing, thriftiness, and collaboration."
+    link: https://www.applebutteranimated.com/
+    linkDisplay: applebutteranimated.com
+    github: craigwuffles
 
   - presenterID: megan
     name: "Megan Jedrysiak"
+    bio: "Megan Jedrysiak and Jackson Ammenheuser are a Chicago based animation duo. Since 2014, they have been making experimental shorts and commissioned animations together as AppleButter Animated. Their experimental film and installation work has screened in the United States and internationally. Their creative process is rooted in subconscious play versus conscious editing, thriftiness, and collaboration."
+    link: https://www.applebutteranimated.com/
+    linkDisplay: applebutteranimated.com
 
   - presenterID: brian
     name: "Brian Sutherland"
+    bio: 'Brian Sutherland is a PhD Candidate researching the sustainability of new communications networks at the University of Toronto Faculty of Information in the Knowledge Media Design Institute/Semaphore group. He is also an experienced lecturer in UofT’s Biomedical Communications program—art as applied to medicine, where he lectures about e-learning, critical making, wearable health within digital networks, and effective information and data visualization. Brian’s dissertation work, in progress, is "Energy Harvesting Information Systems".'
+    link: https://ischool.utoronto.ca/profile/brian-sutherland/
+    linkDisplay: ischool.utoronto.ca/profile/brian-sutherland
+    twitter: bksutherland
+    github: bksutherland
 
   - presenterID: edith
     name: "Edith Viau"
+    bio: "Edith (Montréal, Qc) is an artist interested in systems as a medium. With an academic background in mathematics and finance, she spends her creative time exploring how to systematize creative processes. She is interested in how uncertainty manifests itself in different field of life, and how financial markets deals with this uncertainty. Founder of ARTificial MTL, she was a participant in the 2020 MUTEK AI Art Lab held in Montreal."
+    link: "https://eviau.github.io/"
+    linkDisplay: "eviau.github.io"
+    github: "eviau"
+    twitter: "finartcialist"
 
   - presenterID: liat
     name: "Liat Berdugo"
+    bio: "Liat Berdugo is an artist, writer, and curator whose work focuses on embodiment and digitality, archive theory, and new economies. Her work has been exhibited in galleries and festivals internationally, and she collaborates widely with individuals and archives. She is the co-founder and curator of the Bay Area’s Living Room Light Exchange, a monthly new media art salon; an artist-in-residence at the Internet Archive; and an assistant professor of Art + Architecture at the University of San Francisco. In her past life she was probably an aerobics instructor."
+    link: http://www.liatberdugo.com/
+    linkDisplay: liatberdugo.com
+    link2: http://heavyheavybreathing.com/48-Liat-Berdugo
+    linkDisplay2: heavyheavybreathing.com/48-Liat-Berdugo
+    twitter: whatliat
+    github: lberdugo
 
   - presenterID: reunion
     name: "ReUnion"
+    bio: "ReUnion is a network of independent collaborators of cross-cultural background and multi-disciplinary practices, who are exploring ideas and experimentation under the framework of ReUnion Network – a design prototype for civic implementation and research. ReUnion Network is mainly operating in The Netherlands and funded by Creative Industries Fund NL since 2018."
+    link: https://www.reunionnetwork.org/
+    linkDisplay: reunionnetwork.org
+    twitter: reunion_net
+    github: reunion-network
 
   - presenterID: brandon
     name: "Brandon Alvendia"
 
   - presenterID: grant
     name: "Grant Gallo"
+    bio: "Grant is a professional firmware developer and network engineer who spends his spare time hacking on microcontrollers, designing routing protocols, and (occasionally) shooting stop motion animations or making zines."
+    link: https://disaster.radio/
+    linkDisplay: disaster.radio
+    link2: https://peoplesopen.net/
+    link2: peoplesopen.net
+    github: paidforby
 
   - presenterID: brady
     name: "Brady Dale"
+    bio: "Brady Dale is a reporter at CoinDesk, who has previously written for Motherboard, Fortune, Ars Technica, the Columbia Journalism Review and others. David Floyd is a developer at Condé Nast who previously worked as a journalist at CoinDesk and Investopedia."
+    link: https://bradydale.com/
+    linkDisplay: bradydale.com
+    twitter: BradyDale
+    github: BradyDale
 
   - presenterID: david
     name: "David Floyd"
+    link: https://davidfloyd91.github.io/
+    linkDisplay: davidfloyd91.github.io
+    twitter: davidfloyd512
+    github: davidfloyd91
 
   - presenterID: ulrich
     name: "Ulrich Gehmann"
+    bio: "Based in Karlsruhe/Germany; Ulrich Gehmann is one of the founding members of Ideal Spaces Working Group, established 2015, which deals with conceptions and necessities of human space. His background is in humanist education, biology, anthropology and busiess administration. After his professional career in management and consultancy he studied History at University of Karlsruhe (KIT). During his studies at KIT, he founded of the journal New Frontiers in Spatial Concepts, and led a 5 year-seminar on Social Formatting, together with Rolf-Ulrich Kunze. He currently researches and publishes on occidental mythology, ideal spaces and gestalt issues, and their impact on recent sociocultural reality."
+    link: https://www.idealspaces.org/
+    linkDisplay: www.idealspaces.org
+    twitter: Ideal_Spaces_
+    github: idealspaces
 
   - presenterID: emoke
     name: "Emőke Bada"
+    bio: "Emőke Bada is a media artist, who primarily works with still and moving images, but her experiments often lead her to other types of expression like text, experiences, objects and events. She is an MA graduate of the Intermedia Department of the Hungarian University of Fine Art and the Media Arts Culture Erasmus Mundus Joint Master Degree (Danube University Krems, Aalborg University, City University of Hong Kong). Most of her life she has moved between continents and cultures, using these moves to expose herself to the world and in return unveil the world as she finds it. Through her work and travels she consistently finds herself in doorways and on thresholds between, cultures, processes and methods."
+    link: https://www.idealspaces.org/
+    linkDisplay: www.idealspaces.org
+    twitter: Ideal_Spaces_
+    github: idealspaces
 
   - presenterID: alexander
     name: "Alexander Cobleigh"
+    bio: "Alexander Cobleigh is a Malmö-based instigator of non-commercial projects, having created & finished 30+ projects over the past 8 years. His recent work is focused on getting user-friendly peer-to-peer projects out to the broader public; in this talk, he will be presenting his research into a trust-based capability management system called TrustNet."
+    link: https://cblgh.org/
+    linkDisplay: cblgh.org
+    twitter: cblgh
+    github: cblgh
 
   - presenterID: eileen
     name: "Eileen Wagner"
+    bio: "Eileen advises teams and organizations on UX design and research at Simply Secure. Her focus is on information architecture, content strategy, and interaction design--or anything that helps people make sense of complex technologies. She works with numerous projects in decentralization and security, and enjoys facilitating relationships between the builders and users of technology. Her background is in analytic philosophy and mathematical logic, and she won’t stop talking about demoing barbershop music."
+    link: https://decentpatterns.xyz/
+    linkDisplay: decentpatterns.xyz
+    twitter: bumblblu
+    github: bumbleblue
 
   - presenterID: karissa
     name: "Karissa McKelvey"
+    bio: "Karissa researches technical architecture design and its impact on usability, safety, and resilience. Her contributions to decentralized applications are depended upon by at-risk users including human rights defenders, journalists, and civil society activists living within repressive environments. Previously, she led user and developer experience for dat and hypercore, a decentralized data sharing tool and peer-to-peer hypermedia protocol. Her background is in political sociology and data science, and she loves making weird musical art that touches your funny bone."
+    twitter: okdistribute
+    github: okdistribute
 
   - presenterID: judith
     name: "Judith Sönnicken"
+    bio: "Judith Sönnicken is an artist, quantum field athlete and ancient cosmologist. She holds an MA in Fine Arts (UDK Berlin) and certified in UX and Feng Shui. Her multidimensional practice implies objects, installations, VR, performance, biofield tuning and guided meditation. Her work was shown at Museu Geológico de Portugal/Lisbon, Green Art Gallery/Dubai, Klondike Institute of Art and Culture/Yukon, The Institute of Jamais Vu/London, Cirrus Gallery/Los Angeles, Crane Arts Center/Philadelphia, NAVEL/Los Angeles, documenta14/Athens and 11th Gwangju Biennial."
+    link: "https://judithsun.space/"
+    linkDisplay: "judithsun.space"
+    link2: "http://hyperobjects.io/ "
+    linkDisplay2: "hyperobjects.io"
+    github: "hyperobjects-io"
 
   - presenterID: hillary
     name: "Hillary Predko"
 
   - presenterID: jason
     name: "Jason"
+    bio: "Jason Li is an independent designer, cartoonist and researcher working at the intersection of storytelling, technology and social change. His practice focuses on amplifying underrepresented voices, creating alternative media ecosystems, and making digital safety more accessible. He also serves as an editor at Paradise Systems, a publisher of exemplary comics from the US and China, and is a member of Zine Coop, an independent publishing collective in Hong Kong."
+    link: https://hongkonggong.com/
+    linkDisplay: hongkonggong.com
+    twitter: jasonli
+    github: hongkonggong
 
   - presenterID: el
     name: "E.L. Guerrero"
+    bio: "E.L. Guerrero is a new media artist and software developer. Their work involves thinking about the different ways we can use technology and other forms of media to form community “networks” that can live online and offline as a way of healing and repairing the land and the people who continue to be victims of colonization, imperialism, capitalism, and systemic abuse. As a first-generation Filipino immigrant, they look from the lens of both a diasporic and a local Philippine perspective. They are also a member of the creative studio Sibika & Kultura, that imagines and creates multidimensional experiences that enable the individual to become an agent of change in the current societal and political milieu."
+    twitter: thinkbulecount2
+    github: thinkbulecount2
 
   - presenterID: ananda
     name: "Ananda Gabo"
+    bio: "Ananda Gabo is an exhibiting artist and designer whose research based practice is currently exploring the intersections of technology driven crafting and community arts. They currently run Paocai Bio, a community bio group that focuses on the intersections of art and science through a sino historical lens as well as exploring sonic arts through open source toolmaking."
+    twitter: a__gabo
+    github: agronautics
 
   - presenterID: sophie
     name: "Sophie Dyer"
+    bio: "Sophie Dyer is a designer specialised in visual and open source investigations. She leads the Decoders project for Amnesty International's Crisis Evidence Lab. Previously, she worked with the remote casualty monitor, Airwars, to reconcile local claims of civilian harm with the US military's reporting. Sophie recently wrote the article What would A Feminist Open Source Investigation Look Like? Over the ether her call sign is M6NYX after the Greek goddess of the night. She co-edits Concrete Flux."
+    link: http://www.sophiedyer.net/
+    linkDisplay: "sophiedyer.net"
+    twitter: sophiecdyer
+    github: sophiedyer
 
   - presenterID: sasha
     name: "Sasha Engelmann"
+    bio: "Sasha Engelmann is a creative geographer whose research draws together environmental sensing practices, contemporary art and the politics of air and atmosphere. She is Lecturer in GeoHumanities at Royal Holloway University of London, and a current fellow at Akademie Schloss Solitude, Stuttgart. Her book Sensing Art in the Atmosphere: Elemental Lures and Aerosolar Practices will be published by Routledge in Autumn 2020. On the airwaves she is M6IOR."
+    link: http://www.sashaengelmann.com/
+    linkDisplay: "sashaengelmann.com"
+    twitter: sashacakes
+    github: sasha-intheair
 
   - presenterID: craig
     name: "Craig Fahner"
+    bio: 'Craig Fahner is an artist and musician based in Toronto. Fahner’s interactive media artworks examine the politics and poetics of invisible digital infrastructures. His works have been exhibited in various venues and festivals internationally, including the Museo de la Ciudad in Queretaro, Mexico, and the Device Art Triennial in Zagreb. He is currently developing a SSHRC-supported research project called "Inverting the Algorithmic Gaze" as a PhD candidate in the Joint Program in Communication & Culture at York and Ryerson Universities.'
+    link: https://www.craigfahner.com
+    linkDisplay: Artist Website
+    link2: https://vimeo.com/craigfahner
+    linkDisplay2: Vimeo
+    github: craigfahner
 
   - presenterID: marios
     name: "Marios Isaakidis"
+    bio: "Marios Isaakidis is a hacktivist and PhD researcher at University College London. Currently he is developing biton, a peer-to-peer network built around communities, as an OTF Senior Fellow in Information Controls at the University of Waterloo."
+    link: "https://bitonproject.org/"
+    linkDisplay: "bitonproject.org"
+    github: "misaakidis"
+    twitter: "misaakidis"
 
   - presenterID: casey
     name: "Casey Gollan"
+    bio: 'Casey Gollan is an artist based in New York. He organized with Free Cooper Union, campaigning for "free education to all". He has exhibited in the Whitney Museum of Art, been a Fellow at the Vera List Center for Art and Politics at The New School, and participated in Triple Canopy’s publishing intensive.'
+    link: https://disorientations.org
+    linkDisplay: disorientations.org
+    twitter: diso_archive
+    github: disorientations
 
   - presenterID: lee
     name: "Lee Tusman"
+    bio: "Lee Tusman and Daniel Lichtman are artists, programmers, educators and curators. They create artwork, software, installations and games. They are interested in the application of the radical ethos of collectives and DIY culture to the creation of, aesthetics, and open-source distribution methods of digital culture, and how media platforms shape relationships of trust and power between performer and viewer. Tusman is Assistant Professor of New Media and Computer Science and Lichtman is Lecturer at Purchase College."
+    link: http://leetusman.com/
+    linkDisplay: LeeTusman.com
+    link2: https://virtual-autonomous-zone.github.io/
+    linkDisplay2: Virtual Autonomous Zone
+    twitter: 2sman2sman
+    github: lee2sman
 
   - presenterID: daniel
     name: "Daniel Lichtman"
+    bio: "Lee Tusman and Daniel Lichtman are artists, programmers, educators and curators. They create artwork, software, installations and games. They are interested in the application of the radical ethos of collectives and DIY culture to the creation of, aesthetics, and open-source distribution methods of digital culture, and how media platforms shape relationships of trust and power between performer and viewer. Tusman is Assistant Professor of New Media and Computer Science and Lichtman is Lecturer at Purchase College."
+    link: http://daniellichtman.com/
+    linkDisplay: DanielLichtman.com
+    link2: https://virtual-autonomous-zone.github.io/
+    linkDisplay2: Virtual Autonomous Zone
+    github: danielp73
 
   - presenterID: cade
     name: "Cade Diehm"
+    bio: "Cade is the founder of the New Design Congress, a research group developing a nuanced understanding of technology's role as a social, political and environmental accelerant. He spent ten years embedded in digital infrastructure and security projects in six countries. He prototyped Signal with Open Whisper Systems in 2014, led design and strategy at an early cryptocurrency startup and was Chief Creative Officer at SpiderOak, a Snowden-approved cloud storage company. Prior to founding the New Design Congress he led design and information security research at Tactical Tech, a Berlin-based NGO raising awareness of data privacy issues in societies."
+    link: https://newdesigncongress.org/
+    linkDisplay: New Design Congress
+    link2: https://shiba.computer/
+    linkDisplay2: Personal Site
+    twitter: helveticade
+    github: shibacomputer
 
   - presenterID: china
     name: "China Residencies"
+    bio: "The Meme Tactics curatorial team includes Josue Chavez, a PhD student at the Hispanic Studies department in the University of Pennsylvania; Mikail Wright, independent researcher; Kira Simon-Kennedy, director & co-founder of China Residencies and An Xiao Mina, writer of Memes To Movements. China Residencies is a multifaceted non-profit that believes artists are cultural and social change-makers. To achieve this vision, China Residencies creates opportunities for artists to bring a broader cultural understanding into their work and communities."
+    link: https://chinaresidencies.com/news/270
+    linkDisplay: chinaresidencies.com/news/270
+    twitter: chinaresidency
+    github: josdchavez
 
   - presenterID: xiao
     name: "An Xiao Mina"
@@ -578,71 +727,186 @@
   - presenterID: carin
     name: "Carin Klonowski"
 
+  - presenterID: wman
+    name: "WMAN"
+    bio: "WMAN is a playing, research and artistic practice group based on the medium of video games and is made up of 6 artists. Its working, demonstration and research mechanisms vary at each occurrence depending on the fields covered. WMAN is mobile. It takes place both in the physical spaces that bring its members together and in the digital spaces in which they navigate. What it produces is as diverse as what it explores : it builds reflections as much as plastic forms such as performance, sculpture, image or text."
+    link: https://www.facebook.com/WMANguild/
+    linkDisplay: WMANguild
+    link2: http://manyland.com/wmanhub
+    linkDisplay2: manyland.com/wmanhub
+    GitHub: ArthurDebert
+
   - presenterID: gabrielle
     name: "Gabrielle Benabdallah"
+    bio: "Gabrielle Benabdallah (CA) is a researcher and PhD student in Human Centered Design and Engineering at the University of Washington, in Seattle. She’s interested in how technology informs subjective processes and in creating artifacts that leverage computation to explore poetic and extramundane experiences. Her research focuses on how to integrate humanistic approaches into HCI and how that might enable different ethical relationships with technology, and therefore new modes of being in the world."
+    link: https://gabriellebenabdallah.com/
+    linkDisplay: gabriellebenabdallah.com
+    twitter: gabriellejbr
+    github: gabjohar
 
   - presenterID: heidi
     name: "Heidi Biggs"
+    bio: "Heidi Biggs (US) is a design researcher pursuing a PhD in Human Computer Interaction and Design at the Indiana University Bloomington. Biggs uses research through design to playfully explore ways technologies can make climate change more tangible and support slow, place-based ecological understanding. She/They also sew and weave soft, sonic wearables to performatively explore feelings of gender non-binaryness."
+    link: https://www.heidibiggsdesign.com/
+    linkDisplay: heidibiggsdesign.com
+    link2: https://www.dx-softlab.com/blog/2019/7/29/racquetball-score
+    linkDisplay2: dxarts softlab Raquetball Score
+    twitter: biggshr
 
   - presenterID: shih
     name: "Shih Wei Chieh"
+    bio: "Shih Wei Chieh (TW) is a media artist based in Taipei works with wearables, e-textile prototyping, and laser projector hacking. He is the founder of “Tribe Against Machine” an experimental platform that aims to bring more attention to developing areas, minority ethnic culture by organizing nomadic camps/labs. His current mission is to innovate a greenhouse in Tibet as a common ground for creating a bio lab and providing food to the local community."
+    link: https://shihweichieh.com/
+    linkDisplay: shihweichieh.com
+    link2: http://tribe-against-machine.org/
+    linkDisplay2: tribe-against-machine.org
+    twitter: shihweichieh
+    github: Shih Wei Chieh
 
   - presenterID: amor
     name: "Amor Muñoz"
+    bio: "Amor Muñoz (MX) was born in Mexico City in 1979. Her work across textiles, performance, drawing, sound and experimental electronics to explore the relationship between technology and society, showing a special interest in the interaction between material forms and social discourse. She is particularly interested in how technology affects fabrication systems and how manual labor and handcrafts are changing in a contemporary global economy."
+    link: http://amormunoz.net/
+    linkDisplay: amormunoz.net
+    twitter: amormunozstudio
 
   - presenterID: constanza
     name: "Constanza Piña"
+    bio: "Constanza Piña Pardo (CL) is a visual artist, dancer and researcher, focused on electronic experimentation, free technologies and social practices. Her work reflects on the role of machines in culture, criticizing capitalism and the techno-patriarchy system. Interested in recycling, handicrafts and electronic wizardry in her sound project Corazón de Robota, she explores the field of audible and inaudible frequencies as physical perceptions and noise. Constanza is the organizer of the technofeminist meeting Cyborgrrrls in México City."
+    link: https://corazonderobota.wordpress.com/
+    linkDisplay: corazonderobota.wordpress.com
+    link2: https://proyectokhipu.wordpress.com/
+    linkDisplay2: proyectokhipu.wordpress.com
 
   - presenterID: melissa
     name: "Melissa Aguilar"
+    bio: "Graphic designer and artistic researcher, Melissa Aguilar (CR), is a collaborator of Cyborgrrrls Tecnofeminist Meeting since 2018. She is a student of the master of graphic design at the National Autonomous University of Mexico, Faculty of Art and Design (UNAM-FAD), and member of ICOM Costa Rica. Melissa is dedicated to art and tech, new media, museums, and art education. Her projects seek to bring together museums and makerspaces in order to enhance visitors’ experience through immersive practices."
+    link: http://meliaaguilar.com
+    linkDisplay: meliaaguilar.com
+    link2: https://cyborgrrrls.wordpress.com/
+    linkDisplay2: cyborgrrrls.wordpress.com
 
   - presenterID: audrey
     name: "Audrey Briot"
+    bio: "Textile designer and technologist, Audrey Briot (FR) is cofounder of DataPaulette, a collective and hackerspace focused on research and development in textiles and digital technologies. Her work is dedicated to the impact of emerging technologies on the preservation of textiles savoir-faire. She is focusing on non-verbal communications transmitted by textiles which represent for her a substitute of writing. She relies on anthropological researches in order to formulate textiles as memory vectors, adding data and interactivity."
+    link: http://audreybriot.fr/
+    linkDisplay: audreybriot.fr
+    link2: http://datapaulette.org/
+    linkDisplay2: datapaulette.org
+    twitter: audreybriot
+    github: AudreyBriot
 
   - presenterID: afroditi
     name: "Afroditi Psarra"
+    bio: "Afroditi Psarra (GR) is an Athenian-born multidisciplinary artist, currently based in Seattle, WA. Her research focuses on the creation of artifacts through critical discourse. She is interested in the use of the body as an interface of control, and the revitalization of tradition as a methodology of hacking existing norms about technical objects. She uses cyber crafts and other gendered practices as speculative strings, and open-source technologies as educational models of diffusing knowledge."
+    link: http://afroditipsarra.com/
+    linkDisplay: afroditipsarra.com
+    link2: https://www.dx-softlab.com/
+    linkDisplay2: dxarts softlab
+    twitter: afroditi_stereo
+    github: afrdt
 
   - presenterID: panayotis
     name: "Panayotis Antoniadis"
+    bio: "Panayotis Antoniadis is the co-founder of NetHood, a Zurich-based non-profit organization that combines research and action in the development of tools for self-organization and conviviality, bringing together different forms of commoning in the city like community networks, complementary currencies, and cooperative housing."
+    link: http://nethood.org/
+    linkDisplay: NetHood
+    link2: http://langstrasse200.ch/
+    linkDisplay2: L200
+    twitter: panayotis
+    github: panosnethod
 
   - presenterID: pierre
     name: "Pierre Depaz"
+    bio: "Pierre Depaz (b. ████, France) and Pat Shiu (b. ████, Hong Kong) create works about loneliness, humor and technological absurdity. An oft-revisited subject in their works is emotional connections as experienced through the constraints of the technologies that mediate them. Most of their works solicit interaction, and straddle digital and physical spaces. For years, they’ve lived in separate cities, and collaborate almost entirely remotely."
+    link: https://xn--priode-bva.net/
+    linkDisplay: période.net
+    github: periode
 
   - presenterID: pat
     name: "Pat Shiu"
+    bio: "Pierre Depaz (b. ████, France) and Pat Shiu (b. ████, Hong Kong) create works about loneliness, humor and technological absurdity. An oft-revisited subject in their works is emotional connections as experienced through the constraints of the technologies that mediate them. Most of their works solicit interaction, and straddle digital and physical spaces. For years, they’ve lived in separate cities, and collaborate almost entirely remotely."
+    link: http://patshiu.com/
+    linkDisplay: patshiu.com
+    github: patshiu
 
   - presenterID: dejha
     name: "Dejha Ti"
+    bio: "Ania Catherine and Dejha Ti are an LA-based experiential artist duo whose practice merges environments, performance, and technology. Both conceptual artists, their expertise collide—Ti's background in immersive art and human-computer interaction, and Catherine a performance artist and gender scholar. Called “the two critical contemporary voices on digital art’s international stages” (Clot Magazine), they focus on how art and technology can be harnessed to form new digital architectures."
+    link: http://dejha.com/
+    linkDisplay: dejha.com
+    link2: https://www.operator.la/
+    linkDisplay2: operator.la
+    twitter: dejhati
 
   - presenterID: ania
     name: "Ania Catherine"
+    bio: "Ania Catherine and Dejha Ti are an LA-based experiential artist duo whose practice merges environments, performance, and technology. Both conceptual artists, their expertise collide—Ti's background in immersive art and human-computer interaction, and Catherine a performance artist and gender scholar. Called “the two critical contemporary voices on digital art’s international stages” (Clot Magazine), they focus on how art and technology can be harnessed to form new digital architectures."
+    link: https://aniacatherine.com/
+    linkDisplay: aniacatherine.com
+    link2: https://www.operator.la/
+    linkDisplay2: operator.la
+    twitter: aniacatherine
 
   - presenterID: mai
     name: "Mai Ishikawa Sutton"
+    bio: "Mai Ishikawa Sutton is a community organizer and writer focused on human rights, solidarity economics, and the digital commons. She is currently the Associate Producer of DWeb Projects with the Internet Archive and team member of the Distributed Press project. She is a steward of People's Open Network in Oakland, California and Digital Commons Fellow with the Commons Network. She comes from a background in international digital policy and free culture activism."
+    link: https://distributed.press/
+    linkDisplay: distributed.press
+    Twitter: maira
 
   - presenterID: udit
     name: "Udit Vira"
+    bio: "Udit Vira is an engineer and designer living in Toronto. He is broadly interested in building a capacity for long term thinking; new modes of collaboration; and examining the potential for technology to sense and actuate change. He is currently a member-owner of Hypha Worker Co-operative, strategist at Toronto-based studio From Later, and team member of the Distributed Press project. Udit has a background in Electrical Engineering and Physics, and he graduated from McGill University where he was a member of the Nano-electronic Devices and Materials research group."
 
   - presenterID: benedict
     name: "Benedict Lau"
+    bio: "Benedict is an engineer who works on community-owned digital infrastructures and is especially interested in their systems architecture and governance practices. He is a community organizer at Toronto Mesh, and previously co-organized DWeb Camp and Our Networks. He currently works on Distributed Press, Aether, and various initiatives relating to cooperatively-owned digital spaces as a member-owner of Hypha Worker Co-operative. He has a background in nanophotonics and spent many years building embedded, mobile, mesh networking, and peer-to-peer software."
+    link: https://distributed.press/
+    linkDisplay: distributed.press
+    twitter: LauBenedict
+    github: benhylau
 
   - presenterID: mark
     name: "Mark Lam"
+    bio: "Mark Lam is an artist and educator that works with code, electronics, and found materials to make accessible technology and tools to explore the computer network. His work references design and critical studies to emphasize the materiality of the internet, through web applications and hardware. He earned an MPS at NYU Tisch Interactive Telecommunications Program and BA in Art Practice and Media Studies at UC Berkeley. Previously, Mark was a Digital Accessibility Fellow at Lincoln Center for the Performing Arts and Visiting Lecturer at Ho Chi Minh City University of Technology and Education."
+    link: https://markofthelam.com/
+    linkDisplay: markofthelam.com
+    Twitter: markofthelam
+    GitHub: Emceelamb
 
   - presenterID: troy
     name: "Troy Walcott"
 
   - presenterID: robert
     name: "Robert Best"
+    bio: "Robert Best is a community organizer and free culture hacker. His areas of interest include peer-to-peer technologies, collective intelligence, commoning, social entrepreneurship, and the future of work. His current major projects are Open Learning Commons and Rapid Sensemaking Framework"
+    link: https://openlearning.cc/
+    linkDisplay: OpenLearning.CC
+    link2: https://about.me/robert_best
+    linkDisplay2: Robert.Best
+    twitter: Bortseb
+    github: Bortseb
 
   - presenterID: cassandra
     name: "Cassandra Could van Praag"
+    bio: "The main focus of my role is to generate opportunities for the research community to actively participate in and contribute to the open science infrastructure of Oxford Neuroscience, made available by awards to the Wellcome Centre for Integrative Neuroimaging (WIN), the MRC Brain Network Dynamics Unit (BNDU) and the NIHR Oxford Health Biomedical Research Centre (BRC). A large focus of this work is centred on supporting engagement with the WIN Open Neuroimaging Project."
+    twitter: cassgvp
 
   - presenterID: sara
     name: "Sara El-Gebali"
+    bio: "I am a Research Data Management Team Leader supporting the Scientific Infrastructures unit at the Max Delbrück Center for Molecular Medicine (MDC) and the founder of OpenCider (Open Computational Inclusion and Digital Equity Resource). I am a strong advocate for community building and the promotion of women and underrepresented minorities in STEM fields."
+    link: https://selgebali.gitbook.io/opencider/
+    linkDisplay: OpenCider
+    twitter: yalahowy
+    gitHub: https://github.com/selgebali
 
   - presenterID: allan
     name: "Allan Ochola"
+    bio: "I am a graduate student from Kenya and open data advocate favouring writing reusable software frameworks to stimulate scientific research in the bioinformatics community and software development skills with a focus on development of software standards, software sustainability, software documentation while looking for strategies, best practices and methodologies that encourage collaborative software development."
+    link: https://www.linkedin.com/in/allan-ochola-bb4a2750/?originalSubdomain=ke
+    linkDisplay: LinkedIn
+    twitter: allanochola
 
   - presenterID: divya
     name: "Y Divya Sri"
