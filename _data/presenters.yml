@@ -470,7 +470,7 @@
   - presenterID: nealt
     name: "Neal Thomas"
     bio: "Neal Thomas teaches communication studies at Wilfrid Laurier University in Waterloo, ON. His research is focused at the intersection of critical social theory and computing technique, its central motivation being to better understand the impact that social technologies have upon the political imagination of deeply-mediatized societies."
-    link: http://http://hivemedia.ca/
+    link: http://hivemedia.ca/
     linkDisplay: hivemedia.ca
     twitter: lathemason
     github: lathemason
@@ -762,6 +762,7 @@
     linkDisplay2: tribe-against-machine.org
     twitter: shihweichieh
     github: Shih Wei Chieh
+    gitlab: greenhouseinfo
 
   - presenterID: amor
     name: "Amor Muñoz"
@@ -781,8 +782,8 @@
   - presenterID: melissa
     name: "Melissa Aguilar"
     bio: "Graphic designer and artistic researcher, Melissa Aguilar (CR), is a collaborator of Cyborgrrrls Tecnofeminist Meeting since 2018. She is a student of the master of graphic design at the National Autonomous University of Mexico, Faculty of Art and Design (UNAM-FAD), and member of ICOM Costa Rica. Melissa is dedicated to art and tech, new media, museums, and art education. Her projects seek to bring together museums and makerspaces in order to enhance visitors’ experience through immersive practices."
-    link: http://meliaaguilar.com
-    linkDisplay: meliaaguilar.com
+    link: https://meliaguilar.com/
+    linkDisplay: meliaguilar.com
     link2: https://cyborgrrrls.wordpress.com/
     linkDisplay2: cyborgrrrls.wordpress.com
 
@@ -814,7 +815,7 @@
     link2: http://langstrasse200.ch/
     linkDisplay2: L200
     twitter: panayotis
-    github: panosnethod
+    github: panosnethood
 
   - presenterID: pierre
     name: "Pierre Depaz"
