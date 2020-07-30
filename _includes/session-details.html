@@ -7,7 +7,7 @@
       {%- if session.presenterID -%}
           {% assign presenters = site.data.presenters[include.year] %}
           {% assign presenterCount = session.presenterID.size %}
-          <ul class="ls-none pl-0 mono">
+          <ul class="ls-none pl-0 mono fs-medium">
           {%- for presenterID in session.presenterID -%}
             {%- for presenter in presenters -%}
               {%- if presenter.presenterID == presenterID -%}
@@ -28,19 +28,19 @@
       </div>
     {%- endif -%}
     {%- if session.description -%}
-    <div class="session-caption">
+    <div class="session-caption fs-medium">
       {{- session.description | escape | newline_to_br | truncatewords: 100 | markdownify -}}
     </div>
     {%- endif -%}
     {%- if session.descriptionLink -%}
-      <div class="read-more mono"><a href="{{ session.descriptionLink }}" rel="noopener">Read more</a></div>
+      <div class="read-more mono fs-medium"><a href="{{ session.descriptionLink }}" rel="noopener">Read more</a></div>
     {%- endif -%}
     {%- if session.link or session.twitter or session.github -%}
     <ul class="bio-sm-list">
-     {%- if session.link and session.linkDisplay -%}<li class="bio-sm-list-item"><a href="{{ session.link }}" target="_blank" rel="noopener">{% include icons/link.svg %}&nbsp;{{ session.linkDisplay }} </a></li>{%- endif -%}
-     {%- if session.twitter -%}<li class="bio-sm-list-item"><a href="https://twitter.com/{{ session.twitter }}" target="_blank" rel="noopener">{% include icons/twitter.svg %}&nbsp;@{{ session.twitter }}</a></li>{%- endif -%}
-     {%- if session.github -%}<li class="bio-sm-list-item"><a href="https://github.com/{{ session.github }}" target="_blank" rel="noopener">{% include icons/github.svg %}&nbsp;{{ session.github }}</a></li>{%- endif -%}
-     {%- if session.instagram -%}<li class="bio-sm-list-item"><a href="https://instagram.com/{{ session.instagram }}" target="_blank" rel="noopener">{% include icons/instagram.svg %}&nbsp;{{ session.instagram }}</a></li>{%- endif -%}
+     {%- if session.link and session.linkDisplay -%}<li class="bio-sm-list-item"><a href="{{ session.link }}" target="_blank" rel="noopener">{{ session.linkDisplay }} </a></li>{%- endif -%}
+     {%- if session.twitter -%}<li class="bio-sm-list-item"><a href="https://twitter.com/{{ session.twitter }}" target="_blank" rel="noopener">@{{ session.twitter }}</a></li>{%- endif -%}
+     {%- if session.github -%}<li class="bio-sm-list-item"><a href="https://github.com/{{ session.github }}" target="_blank" rel="noopener">{{ session.github }}</a></li>{%- endif -%}
+     {%- if session.instagram -%}<li class="bio-sm-list-item"><a href="https://instagram.com/{{ session.instagram }}" target="_blank" rel="noopener">{{ session.instagram }}</a></li>{%- endif -%}
     </ul>
     {%- endif -%}
   </div>
