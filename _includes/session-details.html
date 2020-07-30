@@ -29,7 +29,7 @@
     {%- endif -%}
     {%- if session.description -%}
     <div class="session-caption">
-        <p>{{ session.description | escape | newline_to_br | truncatewords: 100 | markdownify }}</p>
+      {{- session.description | escape | newline_to_br | truncatewords: 100 | markdownify -}}
     </div>
     {%- endif -%}
     {%- if session.descriptionLink -%}
