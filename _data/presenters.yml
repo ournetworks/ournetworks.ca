@@ -596,9 +596,6 @@
     linkDisplay2: "hyperobjects.io"
     github: "hyperobjects-io"
 
-  - presenterID: hillary
-    name: "Hillary Predko"
-
   - presenterID: jason
     name: "Jason"
     bio: "Jason Li is an independent designer, cartoonist and researcher working at the intersection of storytelling, technology and social change. His practice focuses on amplifying underrepresented voices, creating alternative media ecosystems, and making digital safety more accessible. He also serves as an editor at Paradise Systems, a publisher of exemplary comics from the US and China, and is a member of Zine Coop, an independent publishing collective in Hong Kong."
@@ -910,6 +907,3 @@
 
   - presenterID: divya
     name: "Y Divya Sri"
-
-  - presenterID: jennifer
-    name: "Jennifer Seaman Cook"
