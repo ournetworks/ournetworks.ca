@@ -1031,49 +1031,65 @@
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/2"
   presenterID:
     - xin
+  description: >
+    How might we begin to exit established forms of social media and the infrastructure of surveillance? p2p Experimental Chatroom is a weekly study group that researches the nonlinear histories of micro-social-networks and uses p5.js and peer.js to build a text-based chatroom from scratch. For three weeks, we will explore playful and experimental ways of communicating with each another over the peer to peer network. As a means to think beyond the standardized social media of the Web 2.0, we will work on customizing our own chatroom interfaces by integrating features such as collaborative drawing and simple animations. In this current iteration of creating on the web, we have to become more inclusive, collaborative, and considerate not only on how we hold a space but also on where we build the space.
 
 - sessionID: 20003
   title: "1422 1829 1702 Performance"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/3"
   presenterID:
     - katina
+  description: >
+    1422 1829 1702 ([https://youtu.be/dT6BbhtePhI](https://youtu.be/dT6BbhtePhI)) is a performative video that explores the memories associated with physical locations from my past, present and future. More specifically, I am utilizing feet (both figuratively and literally) as a unit of measurement to navigate through my grandmother's, my mother's, and then my own home. Every carpet, rug, wood panel, tile and floor covering is meticulously measured, as I pace each inch with my feet. As I walked these homes, the floor plans become permanently ingrained in my memory, inch by inch, solidifying the connection between my family and I, no matter the distance. Each home segment can be seen as a parallel world to where I currently am; and reminds me that my past and present will always be a part of me heading into the future.
 
 - sessionID: 20004
   title: "Epistemic relation as social relation"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/4"
   presenterID:
     - nealt
+  description: >
+    This talk begins from the premise that today’s social computing environments--their interfaces, data structures, and overall designs--have been enormously, if latently, influenced by philosophy. Machine learning strategies for computer vision and automatic classification owe a conceptual debt to Humean empiricism, for example. Embodied interaction design is deeply indebted to the insights of Heideggerean phenomenology. And the ideas of American pragmatist and logician Charles Sanders Peirce serve as an important formalizing basis for networked data structures.
 
 - sessionID: 20005
   title: "Twitch Paints"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/5"
   presenterID:
     - jackson
-    - megan 
+    - megan
+  description: >
+    We would like to present our Painting Robot, P-air (Painting Audience Instructed Robot). This Robot is currently streamed live on Twitch and Controlled via Chat. The Audience types in commands like Up, Right, or Hard to control the brush. Over a few days we will make a painting created by dozens of people around the world. This would be ideally run for around 4-8 hours a day for a few days to give time for the painting to develop. We could do a quick introduction or interview at the end of the stream session when the painting is done explaining what we love about this project and a bit on how it works.
 
 - sessionID: 20006
   title: "Software Defined Radio (SDR) and Applications"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/6"
   presenterID:
     - brian
+  description: >
+    A software defined radio (SDR) is a type of low cost open source USB dongle that can transmit and receive information over the EM spectrum, but they have not been assigned to a structured set of communication frequencies and protocols like bluetooth, wifi, or smartphones -- these parameters are programmable in software! In a combined presentation and live demonstration, participants will explore the history and development of SDR, will look at security and privacy implications of these liminal devices in legislation, Dunne and Raby's "Hertzian Tales" (2004) and ways these devices have been used to constitute interesting device networks and solve problems in the EM -- e.g. car key fobs, beacons, IoT devices, and weather satellites overhead. The talk will finish by walking participants through building a simple FM tuner using GNU public radio and SDR, accompanied by instructions, videos and support materials.
 
 - sessionID: 20007
   title: "literary mesh: exercice de style"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/7"
   presenterID:
     - edith
+  description: >
+    This is a proposal for a decentralized exercice de style, inspired by [Oulipo](https://en.wikipedia.org/wiki/Oulipo). The idea is to create a literary mesh. This literary game is played in two rounds: the writing and the rewriting. First, I will write a short (1 paragraph) family-friendly story, and suggests different themes (styles) to then rewrite this short story in. The original story will be published in a GitHub repo, and each theme will have an issue.
 
 - sessionID: 20008
   title: "Internet Aerobics"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/8"
   presenterID:
     - liat
+  description: >
+    Filmed in a computer Lab, Internet Aerobics is a 20-minute aerobics workout routine about the internet, streaming to you through the internet. Aerobics props of long, blue ethernet cables are used, and hyperlink blue is celebrated as the color of online opportunity -- of links that have not yet been clicked. Aerobics moves embody multiple facets of online life, with packets of information speeding through wifi networks, routers, data centers, fiber optic cables -- often times at different speeds due to the lack of net neutrality laws. This workout routine is an invitation to you to sweat along in front of your own browser tab while thinking about and moving through the very makeup of the Internet, itself.
 
 - sessionID: 20009
   title: "Reimagine Family, Redistributing Care"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/9"
   presenterID:
     - reunion
+  description: >
+    ReUnion is a design initiative that explores the future concept of family. By creating a platform that allows people to autonomously design their relationships, ReUnion searches for a more inclusive environment to experiment with types of relationships and ways of organizing life. In this workshop, we will discuss the logic and thinking behind the project, and invite participants to explore the immediate care relationships in their present life - and share in the common discussion if willing - with ReUnion's care-centric value framework in mind.
 
 - sessionID: 20010
   title: "OFFICE PARTY 3 : The 95th Annual Celebration of the Workers' Club at the Grand Palais"
@@ -1086,13 +1102,17 @@
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/11"
   presenterID:
     - grant
+  description: >
+    Routing protocols are all around you. Through a mess of radio waves, electrical signals, and flickering light, routing protocols determine how information gets from point A to point B. There are lots of analogies out there for how routing protocols work (think postal service p.s. SAVE the USPS!) and there are more routing protocols shooting around the interwebs than you may realize. But what if you don't want to use the traditional, (big I)nternet? What if your medium of communication is something so new and cutting edge, or so retro and outdated (let's call it vintage) that the commonly used standards don't apply. Or what if you just want to better understand how information moves through cyberspace? Where would you start?! You would start by building your own routing protocol.
 
 - sessionID: 20012
   title: "Shuhaku: What did they say?"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/12"
-  presenterID: 
-    - brady 
+  presenterID:
+    - brady
     - david
+  description: >
+    People miss Google Reader, but they also wouldn't use it if Mountain View brought it back. They think they would, but they wouldn't. Something else is needed. Shuhaku is Levantine Arabic for "What did they say?" It's a news and blog aggregator meant to help people find the fresh information that they will find the most interesting and useful. It's about text. It's about the galaxy brain. It's not about fame, and it's not about vitriol. Shuhaku is a news aggregator that's designed to be just social enough.
 
 - sessionID: 20013
   title: "Utopia as Uncertainty - The issue of decentralisation versus classical utopias"
@@ -1100,12 +1120,16 @@
   presenterID:
     - ulrich
     - emoke
+  description: >
+    The archistic, classical utopia is a completely planned desired state for the future in social and architectural terms. It is the elimination of uncertainty. However all utopias are uncertain because it is a proposed future and the future is uncertain. All utopias, archistic or not equals the intended elimination of uncertainty because their aim is to end history and hence uncertainty.
 
 - sessionID: 20014
   title: "TrustNet: Trust-based and subjective moderation systems"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/14"
   presenterID:
     - alexander
+  description: >
+    In this talk, I will introduce TrustNet, a flexible and distributed system for deriving, and interacting with, computational trust. The focus of the talk will be applying TrustNet as a tool within distributed chat systems for implementing a trust-based and subjective moderation system.
 
 - sessionID: 20016
   title: "Towards A Common Glossary for Decentralized Technologies"
@@ -1113,12 +1137,19 @@
   presenterID:
     - eileen
     - karissa
-    
+  description: >
+    Learn about the 7 key challenges that hinder the adoption of decentralized applications
+    Deep-dive into design and developer onboarding & naming. How do we name things across the ecosystem? Where does terminology help or hinder understanding across different protocols and applications? What are appropriate metaphors and descriptions for different user groups?
+    Where can we converge on particular names for key concepts? How would we go about creating a common glossary?
+    This work is part of DOTS: [Decentralization, off the shelf](https://decentpatterns.xyz/).
+
 - sessionID: 20017
   title: "hyperobjects.io"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/17"
   presenterID:
     - judith
+  description: >
+    To call something a hyperobject means to look at it with new eyes, to reclaim its inherent mystery. Hyperobjects are comparable to hashtags, implying metadata of time and space. hyperobjects.io is a digital performance template for interspecies relationship. Participants can geo-tag artworks or stories on an interactive, borderless map. Likes, shares and purchases create funds for international micro-scale environmental projects through a blockchain script.
 
 - sessionID: 20018
   title: "An Encyclopedia of Digital Distances"
@@ -1133,6 +1164,8 @@
     - jason
     - el
     - ananda
+  description: >
+    Since the early days of the Great Quarantine, the Doomsday Supper Club has been extending a helping hand to those in need of quality, spontaneous social interaction. Within the walls of our vintage 1990 establishment, we have been able to connect our patrons with one another through the medium of text, click and gasp. Now we would like to open our doors to select members of the Our Networks community, and share what we have discovered along the way.
 
 - sessionID: 20020
   title: "Open Weather: building networks for nowcasting the weather"
@@ -1140,47 +1173,61 @@
   presenterID:
     - sophie
     - sasha
+  description: >
+    Open Weather is a project by Sophie Dyer and Sasha Engelmann probing the noisy relationships between bodies, atmospheres and weather systems through ham radio, open data and feminist approaches to remote sensing. In July 2020 we will launch the Open Weather platform which will host a public archive of radio-generated weather images. The archive will sit alongside a series of 'how to guides' enabling people with no ham radio or technical experience to set up their own satellite ground station.
 
 - sessionID: 20021
   title: "Eigengrau"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/21"
   presenterID:
     - craig
+  description: >
+    _Eigengrau_ (a term used to describe what is seen through closed eyes) is a web-based artwork that facilitates a sense of connection with others while resisting the rapid cognitive pace demanded by dominant social media platforms. It is a platform that can only be interacted with when users close their eyes. Using socket.io and p5js, an in-browser facial feature tracker detects when a participant's eyes are closed, at which point, an audible tone is generated. When multiple users visit the site and close their eyes simultaneously, harmonized tones are produced for each user and broadcast across the network, resulting in a collectively played organ.
 
 - sessionID: 20022
   title: "biton — the Internet potluck"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/22"
   presenterID:
     - marios
+  description: >
+    biton ([https://bitonproject.org](https://bitonproject.org)) is a peer-to-peer network built around swarms — groups of peers that store encrypted files and relay requests through one another. biton swarms interconnect in a global network that provides plausible deniability, meaning that adversaries cannot be sure about who originally made a request. In this way, biton can be used for evading information controls and for building community networks around local data and services.
 
 - sessionID: 20023
   title: "Disorientations Archive-a-thon"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/23"
   presenterID:
     - casey
+  description: >
+    [Disorientations](https://disorientations.org/) is an informal archive of 100+ disorientation publications by student activists, threading counter-narratives across institutions. These zines are vital examples of grassroots literature which subvert the glossy narratives put forth by universities. Though abundant, they are very disconnected — and like other activist ephemera, many don't make it online, are lost to time, or face deliberate erasure.
 
 - sessionID: 20024
-  title: "Virtual Autonomous Zone"
+  title: "Xzone - A Do It Together platform for online community-making"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/24"
   presenterID:
-    - lee 
+    - lee
     - daniel
+  description: >
+    Participants in this workshop will create their own D.I.T. (“Do It Together”) 2D networked online meeting places. We will introduce the idea of virtual temporary autonomous zones based on the concept of temporary autonomous zones, the socio-political tactic of creating temporary spaces to evade formal structures of control. We will teach how to create a simplified networked graphical community meeting space based on this concept, including creating avatars, room interiors and interactive objects, inspired by physical spaces such as the squat, loft, community space, or campsite. 
 
 - sessionID: 20025
   title: "This is Fine: Optimism and Emergency in the Decentralised Network"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/25"
   presenterID:
     - cade
+  description: >
+    The last fifteen years has seen a surge of interest in decentralised technology. From well-funded blockchain projects like IPFS to the emergence of large scale information networks such as Dat, Scuttlebutt and ActivityPub, this is renewed life in peer-to-peer technologies; a renaissance that enjoys widespread growth, driven by the desire for platform commons and community self-determination. These are goals that are fundamentally at odds with – and a response to – the incumbent platforms of social media, music and movie distribution and data storage. As we enter the 2020s, centralised power and decentralised communities are on the verge of outright conflict for the control of the digital public space. The resilience of centralised networks and the political organisation of their owners remains significantly underestimated by protocol activists. At the same time, the decentralised networks and the communities they serve have never been more vulnerable. The peer-to-peer community is dangerously unprepared for a crisis-fuelled future that has very suddenly arrived at their door.
 
 - sessionID: 20026
   title: "Meme Tactics: Covid-19"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/26"
   presenterID:
-    - china 
+    - china
     - xiao
     - kira
     - josue
     - mikail
+  description: >
+    The China Residencies team proposes a walkthrough of Meme Tactics, an online exhibit in Mozilla Hubs featuring artists Elyla Sinvergüenza and Amy Suo Wu. Their creative interventions in the public sphere will launch us into a strategizing session to harness the humorous power of memes for movements. We'll share examples of dances, symbols, zines and patches from Nicaragua, India, mainland China, and beyond. You'll leave with a set of tactics specific to amplify your own messages, inspired by the way in which social movements around the world are using memes to negotiate power and assert presence.
 
 - sessionID: 20028
   title: "Play2play"
@@ -1193,6 +1240,8 @@
     - valentin
     - leo
     - carin
+  description: >
+    We consider the game [www.manyland.com](www.manyland.com) as a collective and social space in which it is possible to iterate real life behaviors. The building permissions of the world are shared with every newcomer so that all participants find themselves equal in the construction, destruction and design of this common space.
 
 - sessionID: 20029
   title: "Crafting Commons: A round table on cybercraft networks"
@@ -1205,7 +1254,9 @@
     - audrey
     - amor
     - constanza
-    - melissa      
+    - melissa
+  description: >
+    Craft practices rely on the exchange and transmission of techniques, technical skills, tacit and explicit knowledge about materials and methods but also on the circulation of common values and ethos, fostering shared mindsets and communities. Many of these communities around the world are developing and passing on these technical and cultural legacies to fellow practitioners, creating cultural and intellectual commons in the same movement, by organizing autonomous conferences, camps, short residency programs, and working collaboratively bringing local and international networks together. This session proposes to bring several of these practitioners together to discuss what their practices create beyond artifacts, and how they contribute to establishing self-determined communities and to fostering commons.
 
 - sessionID: 20030
   title: "Listening Space"
@@ -1213,26 +1264,34 @@
   presenterID:
     - audrey
     - afroditi
-      
+  description: >
+    Listening Space is an artistic research that explores transmission ecologies as a means of perceiving the surrounding environment beyond our human abilities. Conceptually the project seeks to define transmissions ecologies as raw material for artistic expression, to understand and re-imagine in poetic means, representations of audio and images broadcasted from space. The artists are creating cyber physical systems for sensing the invisible universe that surrounds us. By using open-source tools, DIY electronics, hardware hacking and digital crafts, they aim to approach art and science and create artifacts that explore the idea of citizen science. Specifically, by focusing on electromagnetic-field (EMF) and radio frequency (RF) detection, they aim to re-claim the depth of transmission ecologies, evolving at a higher rhythm than liveness, through our environment and bodies.
+
 - sessionID: 20031
   title: "Toward a federation of hybrid spaces"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/31"
   presenterID:
     - panayotis
-          
+  description: >
+    The main topic of my intervention is the idea of hybrid space as a common infrastructure as described in this [recent article at the Journal of Peer Production](http://peerproduction.net/issues/issue-14-infrastructuring-the-commons-today-when-sts-meets-ict/peer-reviewed-papers/central-urban-space-as-a-hybrid-common-infrastructure/), and [presented recently at battlemesh](https://media.freifunk.net/v/community-first-experiences-from-deploying-local-first-wifi-networks-in-urban-locations). 
+
 - sessionID: 20032
   title: "TTY2020"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/32"
   presenterID:
     - pierre
     - pat
-      
+  description: >
+    We intend to deploy our piece, TTY2020, during the unfolding of Our Networks. A dot-matrix printer has put one character on the page every second, from the moment it is turned on. Every minute, it completes a line, and moves on to the next.​ Via the website any visitor can view all previously printed text, and enter new text to be printed, Until the moment it is sent to print, all text is readable only by its author, so she drafts in private. To everyone else on the page, her input is displayed as grey blocks. Every second, as the print head moves forward, it sets in ink each character in its path, rendering it public to all.​
+
 - sessionID: 20033
   title: "On View: Art and technology towards new digital architectures"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/33"
   presenterID:
     - dejha
     - ania
+  description: >
+    Experiential artists Dejha Ti and Ania Catherine discuss their work 'On View', a large scale interactive installation taking form in a hyperbole of how surveillance capitalism has impacted art engagement; the piece recently won the 2020 ADC Awards for Experiential Design (Digital Experiences + Responsive Environments). Following an overview of the conceptual background, the duo will dive into how they merged performance art, facial recognition, an immersive contract, selfie stages, environmental sensors, and a score by Amon Tobin to create an audience experience that sheds light on the real price of being 'on view' in our current digital landscape. Ti and Catherine will then host a discussion about how art and technology can be harnessed to strategically, creatively, and ethically rebuild a healthier digital future.
 
 - sessionID: 20034
   title: "Holistic Digital Authorship"
@@ -1241,24 +1300,32 @@
     - mai 
     - udit
     - benedict
+  description: >
+    This collaborative workshop prompts discussion around precarious and hidden labour in digital authorship and in open publishing. Through conversations and drawings, we will explore tensions between social purpose vs. free labour, and our [atomization in a competitive content market](https://www.jacobinmag.com/2018/01/under-neoliberalism-you-can-be-your-own-tyrannical-boss) as creators. Inspired by [Holistic Security](https://holistic-security.tacticaltech.org/) by [Tactical Tech](https://tacticaltech.org/) and the [Revolutionary Networked Politics](https://www.youtube.com/watch?v=UyeoTmgM6Uk) presentations [at transmediale](https://2020.transmediale.de/content/revolutionary-networked-politics), we will engage through a holistic approach that centres on self-care and the well-being of content authors. There are many topics relevant to digital publishing, such as: equitable compensations and dignified livelihoods, creative expression on moderated platforms, security and anonymity in online spaces. How does one navigate the complex environments and entrenched power structures of the web? What is the cost of the labour asked of an individual creator and the impact on their well-being?
 
 - sessionID: 20035
   title: "Bridge to the Internet: A Community Router"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/35"
   presenterID:
     - mark
+  description: >
+    _Bridge to the Internet_ is a router image that hosts network bandwidth saving services and robust local area communication applications that activate local area networks to strengthen connection within a local community. With the internet under heavy strain due to the COVID-19 pandemic, it becomes clear that we must maximize our network resources and look for alternatives to internet-based communication.
 
 - sessionID: 20036
   title: "Building Equity through Public Owned Cable System"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/36"
   presenterID:
     - troy
+  description: >
+    Our proposal was brought about through forced necessity. After acquiring Time Warner Cable in 2016 Spectrum has shown to be nothing but a bad actor in our cities. Here in NY they have waged war on their union work force as we are the only thing that stands against them gouging the city of our resources for their profit. In 2017 using unfair bargaining tactics they began a campaign to dismantle and take us out. This is when we went on strike.
 
 - sessionID: 20037
   title: "Open Learning Commons: A peer-to-peer educational ecosystem"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/37"
   presenterID:
     - robert
+  description: >
+    I plan to introduce Open Learning Commons: the idea, its history, and the current status of the project. I will then show a bunch of the open-source software that composes the learning commons infrastructure and describe some of the co-learning groups who are making use of that infrastructure (Things like their practices and topics of interest). I will then open the session up to questions and discussion about peer learning (peeragogy), open educational resources/EdTech, and community networks more generally.
 
 - sessionID: 20038
   title: "Open Data and Collaboration in Action"
@@ -1267,12 +1334,16 @@
     - cassandra
     - sara
     - allan
+  description: >
+    As we enter the final decade of the 2030 Agenda for Sustainable Development, we have an opportunity to accelerate our progress towards this goal, by more rigorously collecting, analyzing and applying good-quality data to shape programmes that can bring us closer to ending access to digital divide in all its forms. Open data is a critical enabler. The session will bring together the open data community to learn, share, plan and collaborate on the future of open data in the context of COVID-19. The unique nature of the event is to enable participants from various interdisciplinary backgrounds to define strategies that advance open data globally and locally, with the vision that attendees will take their new insights back to their home institutions to grow a vibrant open data community. The session will include Keynote addresses, Q&A sessions and networking breaks
 
 - sessionID: 20039
-  title: "Experiences of surveillance"
+  title: "Blink"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/39"
   presenterID:
     - divya
+  description: >
+    24 volunteers/ participants from Divya's social network will hangout in groups of 3-5 till all have participated once. It is a curatorial attempt to involve people living in different timezones ( UTC-12 to UTC+12 ) to virtually hang out in their respective 5-6 pm slot. The session is divided in 2 parts- 30 mins to talk and 30 mins to browse. In one session, participants will be given a prompt to talk about, with regards to surveillance and privacy and in the other, they will archive, after browsing, 3 selected webpages which also address issues of surveillance. The prompts will be inspired from instances of privacy breaches in the 21st century.
 
 - sessionID: 20040
   title: "Waiting for NIN in New Orleans"
