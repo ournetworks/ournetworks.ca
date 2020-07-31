@@ -8,7 +8,7 @@ titleDisplay: "Program"
 ## Sessions
 {: data-nav-program-link=''}
 
-{% assign sortedSessions = site.data.sessions[2020] | sort: "title" %}
+{% assign sortedSessions = site.data.sessions[2020] | sort_natural: "title" %}
 
 {% for session in sortedSessions %}
   {%- unless session.sessionType == "orga" or session.sessionType == "keynote" or session.sessionType == "exhibit" or session.sessionType == "para" or session.sessionType == "lightning-talk" -%}
