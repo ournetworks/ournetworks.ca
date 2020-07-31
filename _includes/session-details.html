@@ -4,6 +4,12 @@
   <div class="program-block-content p-1">
     <header class="session-header mb-1">
       <h3 class="session-title heading">{{ session.title }}</h3>
+      <ul class="ls-none p-0 flex fs-medium">
+      {% for item in session.sessionType %}
+        <li class="highlight p-05 mr-05">{{ item | capitalize | replace: '-', ' ' }}</li>
+      {% endfor %}
+      </ul>
+
       {%- if session.presenterID -%}
           {% assign presenters = site.data.presenters[include.year] %}
           {% assign presenterCount = session.presenterID.size %}

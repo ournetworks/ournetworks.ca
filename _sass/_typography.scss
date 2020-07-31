@@ -65,6 +65,10 @@ p {
   text-align: right;
 }
 
+.highlight {
+  background: rgba($accent-color,.1);
+}
+
 // Heading helpers
 
 .heading-1 {
