@@ -152,16 +152,16 @@ setInterval(() => {
 
 // Program scroll skip
 
-let jumpPosY = 0
+let jumpPosAnchor
 
 document.querySelectorAll('.session-presenter-link').forEach((e) => {
-  e.addEventListener('click', (e) => {
-    jumpPosY = window.scrollY
+  e.addEventListener('click', () => {
+    jumpPosAnchor = e.closest('.program-block').firstElementChild.id
   })
 })
 
 document.querySelectorAll('.session-jump').forEach((e) => {
-  e.addEventListener('click', (e) => {
-    window.scrollTo(0, jumpPosY)
+  e.addEventListener('click', () => {
+    window.location.href = `#${jumpPosAnchor ? `${jumpPosAnchor}` : 'session'}`
   })
 })

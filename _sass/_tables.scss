@@ -181,3 +181,14 @@ thead th {
     }
   }
 }
+
+.session-detail {
+  .program-block-anchor:target {
+    & + .program-block-content {
+      background: rgba($accent-color,.1);
+      .highlight {
+        background: rgba($accent-color,.2);
+      }
+    }
+  }
+}
