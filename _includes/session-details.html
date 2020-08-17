@@ -6,7 +6,7 @@
       <h3 class="session-title heading">{{ session.title }}</h3>
       <ul class="ls-none p-0 flex fs-medium">
       {% for item in session.sessionType %}
-        <li class="highlight p-05 mr-05">{{ item | capitalize | replace: '-', ' ' }}</li>
+        <li class="highlight p-05 mr-05 mono">{{ item | capitalize | replace: '-', ' ' }}</li>
       {% endfor %}
       </ul>
 
@@ -18,10 +18,23 @@
             {%- for presenter in presenters -%}
               {%- if presenter.presenterID == presenterID -%}
                 {% assign name = presenter.name %}
+                {%- if presenter.bio or presenter.link-%}
+                  {% assign presenterLink = true %}
+                {%- else -%}
+                  {% assign presenterLink = false %}
+                {%- endif -%}
               {%- endif -%}
             {%- endfor -%}
             {% assign presenterCount = presenterCount | minus:1 %}
-            <li><h4 class="session-presenter"><a href="#{{ presenterID }}">{{ name }}</a></h4></li>
+            <li class="inline">
+              <h4 class="session-presenter inline">
+              {%- if presenterLink -%}
+                <a href="#{{ presenterID }}" class="session-presenter-link">{{ name }}</a>
+              {%- else -%}
+                {{ name }}
+              {%- endif -%}
+              </h4> {%- if presenterCount > 0 -%},{%- endif -%}
+            </li>
           {%- endfor -%}
           </ul>
       {%- endif -%}
