@@ -162,6 +162,6 @@ document.querySelectorAll('.session-presenter-link').forEach((e) => {
 
 document.querySelectorAll('.session-jump').forEach((e) => {
   e.addEventListener('click', () => {
-    window.location.href = `#${jumpPosAnchor ? `${jumpPosAnchor}` : 'session'}`
+    window.location.href = `#${jumpPosAnchor ? `${jumpPosAnchor}` : 'sessions'}`
   })
 })
