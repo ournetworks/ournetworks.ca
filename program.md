@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 5
+order: 2
 title: "Program"
 titleDisplay: "Program"
 ---
@@ -15,6 +15,9 @@ titleDisplay: "Program"
     {% include session-details.html year=2020 %}
   {%- endunless -%}
 {% endfor %}
+
+---
+{: .full-width .full-stroke}
 
 ## Presenters
 {: data-nav-program-link=''}
