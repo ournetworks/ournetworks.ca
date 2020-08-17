@@ -2,6 +2,7 @@
 layout: page
 order: 2
 title: "Code of Conduct"
+parent: "About the event"
 ---
 
 Our Networks is dedicated to providing a harassment-free environment for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion or technical skill level.
