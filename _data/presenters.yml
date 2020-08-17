@@ -522,9 +522,6 @@
     twitter: reunion_net
     github: reunion-network
 
-  - presenterID: brandon
-    name: "Brandon Alvendia"
-
   - presenterID: grant
     name: "Grant Gallo"
     bio: "Grant is a professional firmware developer and network engineer who spends his spare time hacking on microcontrollers, designing routing protocols, and (occasionally) shooting stop motion animations or making zines."
@@ -649,9 +646,9 @@
     github: "misaakidis"
     twitter: "misaakidis"
 
-  - presenterID: casey
-    name: "Casey Gollan"
-    bio: 'Casey Gollan is an artist based in New York. He organized with Free Cooper Union, campaigning for "free education to all". He has exhibited in the Whitney Museum of Art, been a Fellow at the Vera List Center for Art and Politics at The New School, and participated in Triple Canopy’s publishing intensive.'
+  - presenterID: disorientations
+    name: "Disorientations"
+    bio: 'Disorientation is an informal archive of 100+ disorientation publications by student activists, threading counter-narratives across institutions. This workshop is organized by Casey, Emma, and Katie.'
     link: https://disorientations.org
     linkDisplay: disorientations.org
     twitter: diso_archive
