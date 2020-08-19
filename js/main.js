@@ -149,3 +149,19 @@ clockElement.innerHTML = currentTime()
 setInterval(() => {
   clockElement.innerHTML = currentTime()
 }, 1000)
+
+// Program scroll skip
+
+let jumpPosAnchor
+
+document.querySelectorAll('.session-presenter-link').forEach((e) => {
+  e.addEventListener('click', () => {
+    jumpPosAnchor = e.closest('.program-block').firstElementChild.id
+  })
+})
+
+document.querySelectorAll('.session-jump').forEach((e) => {
+  e.addEventListener('click', () => {
+    window.location.href = `#${jumpPosAnchor ? `${jumpPosAnchor}` : 'sessions'}`
+  })
+})

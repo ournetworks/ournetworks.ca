@@ -13,7 +13,7 @@
     <input class="menu-btn none" type="checkbox" id="menu-btn" />
     <label class="menu-icon none color-white bg-black" for="menu-btn"><span>Menu</span></label>
     <nav class="nav w-100" aria-label="Primary Menu">
-      <ul class="menu flex flex-justify-space-between w-100 text-center fw-bold ls-none">
+      <ul class="menu flex w-100 text-center fw-bold ls-none">
         {% assign currentTitle = page.title %}
         {% assign current = page.url %}
         {% assign sorted_pages = site.pages | sort: "order" %}

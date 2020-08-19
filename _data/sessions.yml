@@ -1109,14 +1109,6 @@
   sessionType:
     - workshop
 
-- sessionID: 20010
-  title: "OFFICE PARTY 3 : The 95th Annual Celebration of the Workers' Club at the Grand Palais"
-  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/10"
-  presenterID:
-    - brandon
-  sessionType:
-    - 
-
 - sessionID: 20011
   title: "Building Your Own Routing Protocol"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/11"
@@ -1234,7 +1226,7 @@
   title: "Disorientations Archive-a-thon"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/23"
   presenterID:
-    - casey
+    - disorientations
   description: >
     [Disorientations](https://disorientations.org/) is an informal archive of 100+ disorientation publications by student activists, threading counter-narratives across institutions. These zines are vital examples of grassroots literature which subvert the glossy narratives put forth by universities. Though abundant, they are very disconnected — and like other activist ephemera, many don't make it online, are lost to time, or face deliberate erasure.
   sessionType:
