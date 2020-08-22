@@ -1079,12 +1079,12 @@
     - talk
 
 - sessionID: 20007
-  title: "literary mesh: exercice de style"
+  title: "The Study: a literary mesh"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/7"
   presenterID:
     - edith
   description: >
-    This is a proposal for a decentralized exercice de style, inspired by [Oulipo](https://en.wikipedia.org/wiki/Oulipo). The idea is to create a literary mesh. This literary game is played in two rounds: the writing and the rewriting. First, I will write a short (1 paragraph) family-friendly story, and suggests different themes (styles) to then rewrite this short story in. The original story will be published in a GitHub repo, and each theme will have an issue.
+    The goal of this creative workshop is to build a literary mesh collectively, exploring the mesh as a kind of narrative structure. A literary mesh is loosely inspired by the network mesh. As we envision it, a literary mesh means that there is not one way to approach the literary work: we could begin with the end, if there was one. It is a way of playing with the structure holding the written words together, of creating a new scaffold for stories yet to be told. In this workshop, we will be using GitHub to collaborate online in the creation of The Study, a not-so-quiet room where books and stories abound.
   sessionType:
     - workshop
     - talk
@@ -1170,6 +1170,7 @@
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/17"
   presenterID:
     - judith
+    - qusai
   description: >
     To call something a hyperobject means to look at it with new eyes, to reclaim its inherent mystery. Hyperobjects are comparable to hashtags, implying metadata of time and space. hyperobjects.io is a digital performance template for interspecies relationship. Participants can geo-tag artworks or stories on an interactive, borderless map. Likes, shares and purchases create funds for international micro-scale environmental projects through a blockchain script.
   sessionType:
