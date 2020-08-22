@@ -53,12 +53,20 @@ p {
   font-size: $small-font-size;
 }
 
+.fs-medium {
+  font-size: $medium-font-size;
+}
+
 .text-center {
   text-align: center;
 }
 
 .text-right {
   text-align: right;
+}
+
+.highlight {
+  background: rgba($accent-color,.1);
 }
 
 // Heading helpers

@@ -72,6 +72,10 @@ hr {
       margin-right: -20px;
     }
   }
+
+  &.full-stroke {
+    border-top-width: 5px;
+  }
 }
 
 // mark
@@ -93,7 +97,6 @@ pre {
 
 code {
   padding: 1px 5px;
-  background: rgba($accent-color,.1);
 }
 
 pre {

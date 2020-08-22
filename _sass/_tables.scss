@@ -147,8 +147,6 @@ thead th {
 }
 
 .program-block {
-  border-bottom: 1px solid $grey-table-borders;
-
   &:last-child {
     border-bottom: 0;
   }
@@ -166,11 +164,6 @@ thead th {
   .presenter-name {
     margin-top: 0;
   }
-
-  .bio-sm-list {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
 }
 
 .program-block-anchor:target {
@@ -180,6 +173,22 @@ thead th {
   visibility: hidden;
 
   & + .program-block-content {
-    background: $black;
+    border-radius: 20px;
+    background: $accent-color;
+
+    .session-jump {
+      display: block;
+    }
+  }
+}
+
+.session-detail {
+  .program-block-anchor:target {
+    & + .program-block-content {
+      background: rgba($accent-color,.1);
+      .highlight {
+        background: rgba($accent-color,.2);
+      }
+    }
   }
 }

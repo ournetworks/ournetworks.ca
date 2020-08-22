@@ -136,7 +136,7 @@ const currentTime = () => {
       return currentDate.getUTCHours() + 20
     } else {
       const offSetHours = currentDate.getUTCHours() - 4
-      return (offSetHours - 4 < 10 ? '0' : '') + offSetHours
+      return (offSetHours < 10 ? '0' : '') + offSetHours
     }
   }
   const minutes = (currentDate.getUTCMinutes() < 10 ? '0' : '') + currentDate.getUTCMinutes()
@@ -149,3 +149,19 @@ clockElement.innerHTML = currentTime()
 setInterval(() => {
   clockElement.innerHTML = currentTime()
 }, 1000)
+
+// Program scroll skip
+
+let jumpPosAnchor
+
+document.querySelectorAll('.session-presenter-link').forEach((e) => {
+  e.addEventListener('click', () => {
+    jumpPosAnchor = e.closest('.program-block').firstElementChild.id
+  })
+})
+
+document.querySelectorAll('.session-jump').forEach((e) => {
+  e.addEventListener('click', () => {
+    window.location.href = `#${jumpPosAnchor ? `${jumpPosAnchor}` : 'sessions'}`
+  })
+})

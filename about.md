@@ -5,6 +5,8 @@ title: "About the event"
 titleDisplay: "About"
 ---
 
+[TICKETS NOW AVAILABLE](https://www.brownpapertickets.com/event/4710809)
+
 Our Networks is a conference about the past, present, and future of building our own network infrastructures. The event brings together enthusiasts, hardware and software hackers, researchers, organizers and more to collectively explore creative and critical engagements with the Internet and alternative infrastructures.
 
 The event has a [Code of Conduct](/code-of-conduct/) and policy on [Filming](/filming/) in order to foster an environment where we can all work together. During the event if you are being harassed, notice that someone else is being harassed, or have any other concerns, we ask you to contact an organizer immediately. Those who wish to do so but don’t feel comfortable talking to the organizers in-person can email [coc@ournetworks.ca](mailto:coc@ournetworks.ca).
