@@ -136,7 +136,7 @@ const currentTime = () => {
       return currentDate.getUTCHours() + 20
     } else {
       const offSetHours = currentDate.getUTCHours() - 4
-      return (offSetHours - 4 < 10 ? '0' : '') + offSetHours
+      return (offSetHours < 10 ? '0' : '') + offSetHours
     }
   }
   const minutes = (currentDate.getUTCMinutes() < 10 ? '0' : '') + currentDate.getUTCMinutes()
