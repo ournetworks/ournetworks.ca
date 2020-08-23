@@ -94,6 +94,7 @@
 input[type="checkbox"].menu-btn {
   &:checked ~ .nav {
     display: block;
+    padding-bottom: calc(60px + 0.75em);
   }
 
   &:checked ~ .menu-icon {
