@@ -27,7 +27,7 @@
             {%- endfor -%}
             {% assign presenterCount = presenterCount | minus:1 %}
             <li class="inline">
-              <h4 class="session-presenter inline">
+              <h4 class="session-presenter inline fw-normal">
               {%- if presenterLink -%}
                 <a href="#{{ presenterID }}" class="session-presenter-link">{{ name }}</a>
               {%- else -%}
