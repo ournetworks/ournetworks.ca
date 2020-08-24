@@ -20,6 +20,15 @@ Our Networks is volunteer-run and would not be possible without the support of o
   </div>
 </div>
 
+## Tier 3 network sponsors
+{: .mt-2.mb-1}
+
+<div class="flex flex-align-center">
+  <div class="mr-2 mt-1 mb-1">
+    <a href="https://radicle.xyz/" rel="noopener"><img src="/images/logos/radicle-logo.svg" width="180" alt="Radicle logo" /></a>
+  </div>
+</div>
+
 ## In-kind sponsors
 {: .mt-2.mb-1}
 
