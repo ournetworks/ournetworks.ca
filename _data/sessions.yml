@@ -1407,3 +1407,39 @@
   sessionType:
     - backstage
 
+- sessionID: 20042
+  title: "Concious Networks: Core"
+  sessionType:
+    - workshop
+
+- sessionID: 20043
+  title: "Concious Networks: Access"
+  sessionType:
+    - workshop
+
+- sessionID: 20044
+  title: "Concious Networks: Agency"
+  sessionType:
+    - workshop
+
+- sessionID: 20045
+  title: "Concious Networks: Action"
+  sessionType:
+    - workshop
+
+- sessionID: 20047
+  title: "Concious Networks: Masterclass"
+  sessionType:
+    - workshop
+
+- sessionID: 20040
+  title: "Opening remarks"
+  sessionType: "orga"
+
+- sessionID: 20041
+  title: "Closing remarks"
+  sessionType: "orga"
+
+- sessionID: 20046
+  title: "Gather.town"
+  sessionType: "orga"
