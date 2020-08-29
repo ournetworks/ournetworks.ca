@@ -68,7 +68,11 @@
 }
 
 .container-full-width {
-  max-width: unset;
+  max-width: calc(960px + 60px);
+
+  & + .bg-element {
+    left: calc(960px + 60px);
+  }
 }
 
 .none {

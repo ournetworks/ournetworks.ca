@@ -1,14 +1,22 @@
 {%- for session in site.data.sessions[include.year] -%}
   {%- if include.session-id == session.sessionID -%}
   <div class="session">
+    <a class="schedule-block-anchor" {% unless session.skipProgramID %}id="{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}-schedule"{% endunless %}></a>
     <header>
-      <h5 class="session-title">
-        {%- unless session.sessionType == "orga" or session.sessionType == "lightning"-%}<a href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}">{%- endunless -%}
+      <h5 class="mt-0 session-title">
+        {%- unless session.sessionType == "orga" or session.sessionType == "lightning"-%}<a href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}" class="session-title-link">{%- endunless -%}
           {{ session.title }}
         {%- unless session.sessionType == "orga" or session.sessionType == "lightning"-%}</a>{%- endunless -%}
       </h5>
+      {%- unless session.sessionType contains "orga" -%}
+        <ul class="ls-none p-0 mt-05 mb-1 flex fs-small">
+        {% for item in session.sessionType %}
+          <li class="highlight p-05 mr-05 mono">{{ item | capitalize | replace: '-', ' ' }}</li>
+        {% endfor %}
+        </ul>
+      {%- endunless -%}
       {% if session.presenterID %}
-        <h6 class="session-presenterID mt-05">
+        <h6 class="fw-normal session-presenterID mono fs-medium mt-05">
           {% assign presenters = site.data.presenters[include.year] %}
           {% assign presenterCount = session.presenterID.size %}
           {%- for presenterID in session.presenterID -%}
@@ -17,8 +25,9 @@
                 {% assign name = presenter.name %}
               {%- endif -%}
             {%- endfor -%}
-            {% assign presenterCount = presenterCount | minus:1 %}> 
-            {{ name }}<br>
+            {% assign presenterCount = presenterCount | minus:1 %}
+            {{ name }}
+            {%- if presenterCount > 0 -%},{%- endif -%}
           {%- endfor -%}
         </h6>
       {% endif %}
