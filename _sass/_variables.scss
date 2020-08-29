@@ -12,6 +12,13 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: SourceCode;
+  src: url('fonts/SourceCodePro-Bold.otf.woff2') format('woff2');
+  font-weight: bold;
+  font-display: swap;
+}
+
 // Typography Variables
 
 $base-font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
