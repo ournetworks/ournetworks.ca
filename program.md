@@ -440,7 +440,7 @@ fullWidth: true
 {% assign sortedSessions = site.data.sessions[2020] | sort_natural: "title" %}
 
 {% for session in sortedSessions %}
-  {%- if session.sessionType contains "workshop" or session.sessionType contains "talk" or session.sessionType contains "performance" or session.sessionType contains "round table" or session.sessionType contains "discussion" -%}
+  {%- if session.sessionType contains "workshop" or session.sessionType contains "talk" or session.sessionType contains "performance" or session.sessionType contains "round table" or session.sessionType contains "discussion" or session.sessionType contains "round-table" -%}
     {% include session-details.html year=2020 %}
   {%- endif -%}
 {% endfor %}
