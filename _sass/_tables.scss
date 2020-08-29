@@ -7,7 +7,6 @@ table {
 
 th,
 td {
-  padding: 12px 15px;
   border-bottom: 1px solid $grey-table-borders;
 }
 
@@ -75,11 +74,12 @@ thead th.width-unset {
     border-left: 1px solid $grey-table-borders;
   }
 
-  @media (max-width: $on-palm) {
+  @media (max-width: $content-width) {
     font-size: 14px;
-    width: 150vw;
+    width: 100vw;
     margin-left: -20px;
   }
+  
 }
 
 .session-block {
@@ -103,25 +103,8 @@ thead th.width-unset {
 }
 
 .schedule-time {
-  width: 2em;
+  width: 63px;
   text-align: left;
-
-  &:first-child {
-    width: 1.5em;
-  }
-}
-
-.schedule-main {
-  width: 40%;
-  border-left: 1px solid $grey-table-borders;
-}
-
-.schedule-breakout {
-  width: 25%;
-  border-left: 1px solid $grey-table-borders;
-  &:last-child {
-    border-right: 1px solid $grey-table-borders;
-  }
 }
 
 .session-orga {

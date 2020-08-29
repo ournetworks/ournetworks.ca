@@ -9,7 +9,7 @@
         {%- unless session.sessionType == "orga" or session.sessionType == "lightning"-%}</a>{%- endunless -%}
       </h5>
       {%- unless session.sessionType contains "orga" -%}
-        <ul class="ls-none p-0 mt-05 mb-1 flex fs-small">
+        <ul class="ls-none p-0 mt-05 mb-1 flex flex-wrap fs-small">
         {% for item in session.sessionType %}
           <li class="highlight p-05 mr-05 mono">{{ item | capitalize | replace: '-', ' ' }}</li>
         {% endfor %}
