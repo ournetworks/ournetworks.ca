@@ -1279,6 +1279,7 @@
   description: >
     We consider the game [www.manyland.com](http://manyland.com/) as a collective and social space in which it is possible to iterate real life behaviors. The building permissions of the world are shared with every newcomer so that all participants find themselves equal in the construction, destruction and design of this common space.
   sessionType:
+    - exhibit
     - backstage
 
 - sessionID: 20029
@@ -1405,6 +1406,7 @@
   description: >
     24 volunteers/ participants from Divya's social network will hangout in groups of 3-5 till all have participated once. It is a curatorial attempt to involve people living in different timezones ( UTC-12 to UTC+12 ) to virtually hang out in their respective 5-6 pm slot. The session is divided in 2 parts- 30 mins to talk and 30 mins to browse. In one session, participants will be given a prompt to talk about, with regards to surveillance and privacy and in the other, they will archive, after browsing, 3 selected webpages which also address issues of surveillance. The prompts will be inspired from instances of privacy breaches in the 21st century.
   sessionType:
+    - hangout
     - backstage
 
 - sessionID: 20042

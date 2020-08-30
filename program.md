@@ -385,7 +385,9 @@ fullWidth: true
   <tbody>
     <tr>
       <td class="text-left lh-1 fw-bold fs-small" colspan="2">All day</td>
-      <td colspan="4" class="session-block session-exhibited-works">{% include session-exhibited-works.html year=2020 %}</td>
+      <td rowspan="1" class="session-block session-{% include session-type.html session-id=20039 %}">{% include session.html year=2020 session-id=20039 sessionCaption="All day Saturday<br>From 00:00 to 24:00 UTC-4" %}</td>
+      <td colspan="3" class="session-block session-exhibited-works">{% include session-exhibited-works.html year=2020 %}</td>
+      
     </tr>
     <tr>
       <td>11</td>

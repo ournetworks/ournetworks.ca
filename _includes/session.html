@@ -32,6 +32,9 @@
         </h6>
       {% endif %}
     </header>
+    {%- if include.sessionCaption -%}
+      <p class="mt-1 mono fs-medium">{{include.sessionCaption}}</p>
+    {% endif %}
   </div>
   {%- endif -%}
 {%- endfor -%}
