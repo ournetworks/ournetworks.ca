@@ -21,9 +21,8 @@ fullWidth: true
   </thead>
   <tbody>
     <tr>
-      <td class="text-left lh-1">All day</td>
-      <td></td>
-      <td class="session-block session-exhibited-works">{% include session-exhibited-works.html year=2020 %}</td>
+      <td class="text-left fw-bold fs-small lh-1" colspan="2">All day</td>
+      <td colspan="1" class="session-block session-exhibited-works">{% include session-exhibited-works.html year=2020 %}</td>
     </tr>
     <tr>
       <td>18</td>
@@ -71,8 +70,7 @@ fullWidth: true
   </thead>
   <tbody>
     <tr>
-      <td class="text-left lh-1">All day</td>
-      <td></td>
+      <td class="text-left lh-1 fw-bold fs-small" colspan="2">All day</td>
       <td colspan="2" class="session-block session-exhibited-works">{% include session-exhibited-works.html year=2020 %}</td>
     </tr>
     <tr>
@@ -166,8 +164,7 @@ fullWidth: true
   </thead>
   <tbody>
     <tr>
-      <td class="text-left lh-1">All day</td>
-      <td></td>
+      <td class="text-left lh-1 fw-bold fs-small" colspan="2">All day</td>
       <td colspan="2" class="session-block session-exhibited-works">{% include session-exhibited-works.html year=2020 %}</td>
     </tr>
     <tr>
@@ -275,8 +272,7 @@ fullWidth: true
   </thead>
   <tbody>
     <tr>
-      <td class="text-left lh-1">All day</td>
-      <td></td>
+      <td class="text-left lh-1 fw-bold fs-small" colspan="2">All day</td>
       <td colspan="2" class="session-block session-exhibited-works">{% include session-exhibited-works.html year=2020 %}</td>
     </tr>
     <tr>
@@ -388,8 +384,7 @@ fullWidth: true
   </thead>
   <tbody>
     <tr>
-      <td class="text-left lh-1">All day</td>
-      <td></td>
+      <td class="text-left lh-1 fw-bold fs-small" colspan="2">All day</td>
       <td colspan="4" class="session-block session-exhibited-works">{% include session-exhibited-works.html year=2020 %}</td>
     </tr>
     <tr>

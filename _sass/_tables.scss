@@ -52,9 +52,8 @@ thead th.width-unset {
   }
 
   tr {
-    td:nth-child(-n+2) {
+    td:nth-child(-n+2):not(.session-block) {
       vertical-align: top;
-      padding-bottom: 0;
       @extend .mono;
     }
     td:first-child {
@@ -62,10 +61,10 @@ thead th.width-unset {
       padding-right: 0;
       padding-left: 0;
     }
-    td:nth-child(2) {
+    td:nth-child(2):not(.session-block) {
       padding-left: 0;
     }
-    &:nth-child(2n+1) td:nth-child(-n+2) {
+    &:nth-child(2n) td:nth-child(-n+2) {
       font-weight: bold;
     }
   }
@@ -87,14 +86,7 @@ thead th.width-unset {
 
   &:hover {
     background: rgba($accent-color,.1);
-  }
-
-  &.overlap {
-    background: rgba($white, 0.8);
-
-    &:hover {
-      background: $white;
-    }
+    border-color: $accent-color;
   }
 }
 
