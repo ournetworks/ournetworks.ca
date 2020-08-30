@@ -87,6 +87,10 @@ thead th.width-unset {
   &:hover {
     background: rgba($accent-color,.1);
     border-color: $accent-color;
+
+    .highlight {
+      background: rgba($accent-color,.2);
+    }
   }
 }
 
@@ -136,6 +140,17 @@ thead th.width-unset {
 
   .presenter-name {
     margin-top: 0;
+  }
+}
+
+.program-block-content {
+  border-radius: 20px;
+
+  &:hover {
+    background: rgba($accent-color,.1);
+    .highlight {
+      background: rgba($accent-color,.2);
+    }
   }
 }
 
