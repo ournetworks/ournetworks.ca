@@ -1,15 +1,16 @@
 <div class="session">
   <header>
-    <h5 class="session-title"><a href="#exhibited-works">Exhibited works</a></h5>
+    <h5 class="session-title mb-1 mt-0">Exhibited works</h5>
   </header>
-  <div>
   {% assign presenters = site.data.presenters[include.year] %}
-    <ul class="p-0 fw-bold ls-none">
-    {%- for session in site.data.sessions[include.year] -%}
-      {%- if session.sessionType == "exhibit" -%}
-      <li class="mt-05">
-        <a href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}">{{ session.title }}</a>
+  <ul class="p-0 ls-none flex flex-wrap mb-0">
+    {% assign sortedSessions = site.data.sessions[include.year] | sort_natural: "title" %}
+    {%- for session in sortedSessions -%}
+      {%- if session.sessionType contains "exhibit" -%}
+      <li class="mt-05 w-50 pr-1">
+        <h5 class="m-0"><a id="{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}-schedule" href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}">{{ session.title }}</a></h5>
         {% assign presenterCount = session.presenterID.size %}
+        <h6 class="fw-normal session-presenterID mono fs-small mt-05 mb-1">
         {%- for presenterID in session.presenterID -%}
           {%- for presenter in presenters -%}
             {%- if presenter.presenterID == presenterID -%}
@@ -17,11 +18,11 @@
             {%- endif -%}
           {%- endfor -%}
           {% assign presenterCount = presenterCount | minus:1 %}
-          <h6>> {{ name }}</h6>{%- if presenterCount > 1 -%}{{ ', ' }}{%- elsif presenterCount > 0 -%}{{ ' and ' }}{%- endif -%}
+          {{ name }}{%- if presenterCount > 0 -%}, {%- endif -%}
         {%- endfor -%}
+        </h6>
       </li>
       {%- endif -%}
     {%- endfor -%}
-    </ul>
-  </div>
+  </ul>
 </div>

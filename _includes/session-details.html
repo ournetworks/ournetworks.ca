@@ -48,7 +48,7 @@
     {%- endif -%}
     {%- if session.description -%}
     <div class="session-caption fs-medium">
-      {{- session.description | escape | newline_to_br | truncatewords: 100 | markdownify -}}
+      {{- session.description | escape | truncatewords: 100 | markdownify -}}
     </div>
     {%- endif -%}
     {%- if session.descriptionLink -%}
@@ -62,6 +62,10 @@
      {%- if session.instagram -%}<li class="bio-sm-list-item"><a href="https://instagram.com/{{ session.instagram }}" target="_blank" rel="noopener">{{ session.instagram }}</a></li>{%- endif -%}
     </ul>
     {%- endif -%}
+    <div class="session-jump none">
+      <a href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}-schedule" class="mt-2 compact bg-black color-white button">Back to schedule</a>
+    </div>
+    
   </div>
 </div>
 {%- endif -%}

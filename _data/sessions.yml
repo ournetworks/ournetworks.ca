@@ -1224,12 +1224,14 @@
     - talk
 
 - sessionID: 20023
-  title: "Disorientations Archive-a-thon"
+  title: "Disorientations"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/23"
   presenterID:
     - disorientations
   description: >
     [Disorientations](https://disorientations.org/) is an informal archive of 100+ disorientation publications by student activists, threading counter-narratives across institutions. These zines are vital examples of grassroots literature which subvert the glossy narratives put forth by universities. Though abundant, they are very disconnected — and like other activist ephemera, many don't make it online, are lost to time, or face deliberate erasure.
+
+      In this in presentation and structured conversation, participants will learn about diso guides as a form of decentralized resistance, workshop metaphors of "disorientation" as they apply to our own contexts, and collaboratively imagine archival technologies attuned to activist publishing.
   sessionType:
     - workshop
 
@@ -1279,6 +1281,7 @@
   description: >
     We consider the game [www.manyland.com](http://manyland.com/) as a collective and social space in which it is possible to iterate real life behaviors. The building permissions of the world are shared with every newcomer so that all participants find themselves equal in the construction, destruction and design of this common space.
   sessionType:
+    - exhibit
     - backstage
 
 - sessionID: 20029
@@ -1405,5 +1408,42 @@
   description: >
     24 volunteers/ participants from Divya's social network will hangout in groups of 3-5 till all have participated once. It is a curatorial attempt to involve people living in different timezones ( UTC-12 to UTC+12 ) to virtually hang out in their respective 5-6 pm slot. The session is divided in 2 parts- 30 mins to talk and 30 mins to browse. In one session, participants will be given a prompt to talk about, with regards to surveillance and privacy and in the other, they will archive, after browsing, 3 selected webpages which also address issues of surveillance. The prompts will be inspired from instances of privacy breaches in the 21st century.
   sessionType:
+    - hangout
     - backstage
 
+- sessionID: 20042
+  title: "Concious Networks: Core"
+  sessionType:
+    - workshop
+
+- sessionID: 20043
+  title: "Concious Networks: Access"
+  sessionType:
+    - workshop
+
+- sessionID: 20044
+  title: "Concious Networks: Agency"
+  sessionType:
+    - workshop
+
+- sessionID: 20045
+  title: "Concious Networks: Action"
+  sessionType:
+    - workshop
+
+- sessionID: 20047
+  title: "Concious Networks: Masterclass"
+  sessionType:
+    - workshop
+
+- sessionID: 20040
+  title: "Opening remarks"
+  sessionType: "orga"
+
+- sessionID: 20041
+  title: "Closing remarks"
+  sessionType: "orga"
+
+- sessionID: 20046
+  title: "Gather.town"
+  sessionType: "hangout"

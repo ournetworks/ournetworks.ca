@@ -1,15 +1,12 @@
 // Tables
 
 table {
-  border-spacing: 0;
   margin: 1em 0;
   table-layout: fixed;
 }
 
 th,
 td {
-  padding: 12px 15px;
-  text-align: left;
   border-bottom: 1px solid $grey-table-borders;
 }
 
@@ -24,15 +21,18 @@ td:last-child {
 }
 
 thead th {
-  border-bottom: 2px solid $grey-table-borders;
+  border-bottom: 2px solid $accent-color;
+  width: 50%;
 }
 
+thead th.width-unset {
+  width: unset;
+}
 
 // Schedule Table
 
 .schedule-table {
   margin-bottom: 4em;
-  width: 100%;
   position: relative;
 
   h3,
@@ -48,85 +48,58 @@ thead th {
 
   th,
   td {
-    padding: 8px 6px 8px 12px;
-    text-align: left;
-    border-bottom: 1px solid $grey-table-borders;
+    padding: 8px 6px;
   }
 
   tr {
-    td:nth-child(-n+2) {
+    td:nth-child(-n+2):not(.session-block) {
       vertical-align: top;
-      padding-bottom: 0;
-      padding-top: 3px;
+      @extend .mono;
     }
     td:first-child {
       text-align: right;
       padding-right: 0;
       padding-left: 0;
     }
-    td:nth-child(2) {
+    td:nth-child(2):not(.session-block) {
       padding-left: 0;
     }
-    &:nth-child(4n+1) td:nth-child(-n+2) {
+    &:nth-child(2n) td:nth-child(-n+2) {
       font-weight: bold;
     }
   }
 
-  td:nth-child(3):empty {
-    border-left: 1px solid $grey-table-borders;
-  }
-
-  @media (max-width: $on-palm) {
+  @media (max-width: $content-width) {
     font-size: 14px;
-    width: 150vw;
+    width: 100vw;
     margin-left: -20px;
   }
+
 }
 
 .session-block {
   border-radius: 10px;
-  border: 1px solid rgba($black, 0.05);
-  box-shadow: 0px 5px 16px 0 rgba($black, 0.1);
+  border: 1px solid $black;
   background: $white;
   position: relative;
   z-index: 1;
 
   &:hover {
+    background: rgba($accent-color,.1);
     border-color: $accent-color;
-  }
 
-  &.overlap {
-    background: rgba($white, 0.8);
-
-    &:hover {
-      background: $white;
+    .highlight {
+      background: rgba($accent-color,.2);
     }
   }
 }
 
 .schedule-time {
-  width: 2em;
-
-  &:first-child {
-    width: 1.5em;
-  }
-}
-
-.schedule-main {
-  width: 40%;
-  border-left: 1px solid $grey-table-borders;
-}
-
-.schedule-breakout {
-  width: 25%;
-  border-left: 1px solid $grey-table-borders;
-  &:last-child {
-    border-right: 1px solid $grey-table-borders;
-  }
+  width: 63px;
+  text-align: left;
 }
 
 .session-orga {
-  background-color: $black;
   border-color: $black;
   z-index: 0;
 }
@@ -139,6 +112,10 @@ thead th {
     color: $black;
     text-decoration: underline;
   } 
+}
+
+.session-exhibited-works {
+  border-color: $accent-color;
 }
 
 .program-heading {
@@ -166,6 +143,17 @@ thead th {
   }
 }
 
+.program-block-content {
+  border-radius: 20px;
+
+  &:hover {
+    background: rgba($accent-color,.1);
+    .highlight {
+      background: rgba($accent-color,.2);
+    }
+  }
+}
+
 .program-block-anchor:target {
   display: block;
   position: relative;
@@ -180,6 +168,13 @@ thead th {
       display: block;
     }
   }
+}
+
+.schedule-block-anchor:target {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
 }
 
 .session-detail {

@@ -65,8 +65,16 @@ p {
   text-align: right;
 }
 
+.text-left {
+  text-align: left !important;
+}
+
 .highlight {
   background: rgba($accent-color,.1);
+}
+
+.lh-1 {
+  line-height: 1em;
 }
 
 // Heading helpers
