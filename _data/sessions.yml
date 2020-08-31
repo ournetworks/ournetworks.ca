@@ -1444,5 +1444,4 @@
 
 - sessionID: 20046
   title: "Gather.town"
-  sessionType:
-    - hangout
+  sessionType: "hangout"

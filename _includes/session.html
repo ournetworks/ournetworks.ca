@@ -4,9 +4,9 @@
     <a class="schedule-block-anchor" {% unless session.skipProgramID %}id="{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}-schedule"{% endunless %}></a>
     <header>
       <h5 class="mt-0 session-title">
-        {%- unless session.sessionType == "orga" or session.sessionType == "lightning"-%}<a href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}" class="session-title-link">{%- endunless -%}
+        {%- unless session.sessionType == "orga" or session.sessionType == "hangout" -%}<a href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}" class="session-title-link">{%- endunless -%}
           {{ session.title }}
-        {%- unless session.sessionType == "orga" or session.sessionType == "lightning"-%}</a>{%- endunless -%}
+        {%- unless session.sessionType == "orga" or session.sessionType == "hangout"-%}</a>{%- endunless -%}
       </h5>
       {%- unless session.sessionType contains "orga" -%}
         <ul class="ls-none p-0 mt-05 mb-1 flex flex-wrap fs-small">
