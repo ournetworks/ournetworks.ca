@@ -105,6 +105,10 @@
   flex-wrap: wrap;
 }
 
+.flex-grow {
+  flex-grow: 1;
+}
+
 .flex-direction-column {
   flex-direction: column;
 }
@@ -280,6 +284,10 @@
   margin-right: 2em;
 }
 
+.ml-05 {
+  margin-left: 0.5em;
+}
+
 .ml-1 {
   margin-left: 1em;
 }
@@ -352,5 +360,15 @@
   th,td {
     vertical-align: top;
     width: auto;
+  }
+
+  @media (max-width: 1030px) {
+    display: none;
+  }
+
+  .container-full-width + .bg-element & {
+    @media (max-width: 1320px) {
+      display: none;
+    }
   }
 }
