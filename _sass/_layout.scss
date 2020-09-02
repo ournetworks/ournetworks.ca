@@ -48,6 +48,10 @@
   right: 0;
 }
 
+.left-0 {
+  left: 0;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -111,6 +115,14 @@
 
 .flex-align-center {
   align-items: center;
+}
+
+.flex-align-end {
+  align-items: flex-end;
+}
+
+.flex-align-content-end {
+  align-content: flex-end;
 }
 
 .flex-justify-center {
@@ -329,4 +341,17 @@
 
 .bg-element {
   left: calc(#{$content-width} + 60px);
+}
+
+// Registration panel
+
+.register-panel {
+  font-size: $small-font-size;
+  min-width: 300px;
+  z-index: 10;
+
+  th,td {
+    vertical-align: top;
+    width: auto;
+  }
 }

@@ -21,13 +21,16 @@
   </head>
   <body>
     <main class="bg-white {% if page.fullWidth %}container-full-width{% else %}w-main{% endif%}">
-
     {% include nav.html %}
     {{ content }}
     {% include footer.html %}
     </main>
-    <div class="bg-element fixed top-0 h-100 bg-accent right-0 overflow-hidden">
-      <div class="absolute mono text-right bottom-0 right-0">
+    <div class="bg-element fixed top-0 h-100 bg-accent right-0 overflow-hidden flex flex-justify-space-between flex-align-end flex-wrap flex-align-content-end">
+      <div class="register-panel w-50 p-1">
+        {% capture registrationInclude %}{% include registration-panel.html %}{% endcapture %}
+        {{ registrationInclude | markdownify }}
+      </div>
+      <div class="mono text-right">
         <div class="container">
           <h1 class="fw-normal" id="clock-element">00:00:00</h1>
           <h2 class="fs-medium fw-normal mb-0">UTC-4</h2>
