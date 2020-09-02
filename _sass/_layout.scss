@@ -48,6 +48,10 @@
   right: 0;
 }
 
+.left-0 {
+  left: 0;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -101,6 +105,10 @@
   flex-wrap: wrap;
 }
 
+.flex-grow {
+  flex-grow: 1;
+}
+
 .flex-direction-column {
   flex-direction: column;
 }
@@ -111,6 +119,14 @@
 
 .flex-align-center {
   align-items: center;
+}
+
+.flex-align-end {
+  align-items: flex-end;
+}
+
+.flex-align-content-end {
+  align-content: flex-end;
 }
 
 .flex-justify-center {
@@ -268,6 +284,10 @@
   margin-right: 2em;
 }
 
+.ml-05 {
+  margin-left: 0.5em;
+}
+
 .ml-1 {
   margin-left: 1em;
 }
@@ -329,4 +349,26 @@
 
 .bg-element {
   left: calc(#{$content-width} + 60px);
+}
+
+// Registration panel
+
+.register-panel {
+  font-size: $small-font-size;
+  min-width: 300px;
+
+  th,td {
+    vertical-align: top;
+    width: auto;
+  }
+
+  @media (max-width: 1030px) {
+    display: none;
+  }
+
+  .container-full-width + .bg-element & {
+    @media (max-width: 1320px) {
+      display: none;
+    }
+  }
 }
