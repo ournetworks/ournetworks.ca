@@ -796,20 +796,6 @@
     twitter: panayotis
     github: panosnethood
 
-  - presenterID: pierre
-    name: "Pierre Depaz"
-    bio: "Pierre Depaz (b. ████, France) and Pat Shiu (b. ████, Hong Kong) create works about loneliness, humor and technological absurdity. An oft-revisited subject in their works is emotional connections as experienced through the constraints of the technologies that mediate them. Most of their works solicit interaction, and straddle digital and physical spaces. For years, they’ve lived in separate cities, and collaborate almost entirely remotely."
-    link: https://xn--priode-bva.net/
-    linkDisplay: période.net
-    github: periode
-
-  - presenterID: pat
-    name: "Pat Shiu"
-    bio: "Pierre Depaz (b. ████, France) and Pat Shiu (b. ████, Hong Kong) create works about loneliness, humor and technological absurdity. An oft-revisited subject in their works is emotional connections as experienced through the constraints of the technologies that mediate them. Most of their works solicit interaction, and straddle digital and physical spaces. For years, they’ve lived in separate cities, and collaborate almost entirely remotely."
-    link: http://patshiu.com/
-    linkDisplay: patshiu.com
-    github: patshiu
-
   - presenterID: dejha
     name: "Dejha Ti"
     bio: "Ania Catherine and Dejha Ti are an LA-based experiential artist duo whose practice merges environments, performance, and technology. Both conceptual artists, their expertise collide—Ti's background in immersive art and human-computer interaction, and Catherine a performance artist and gender scholar. Called “the two critical contemporary voices on digital art’s international stages” (Clot Magazine), they focus on how art and technology can be harnessed to form new digital architectures."
