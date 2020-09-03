@@ -449,6 +449,7 @@ fullWidth: true
       <td>:30</td>
       <td rowspan="1" class="session-block session-{% include session-type.html session-id=20041 %}">{% include session.html year=2020 session-id=20041 %}</td>
       <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
