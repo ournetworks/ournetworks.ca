@@ -1323,17 +1323,6 @@
     - workshop
     - talk
 
-- sessionID: 20032
-  title: "TTY2020"
-  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/32"
-  presenterID:
-    - pierre
-    - pat
-  description: >
-    We intend to deploy our piece, TTY2020, during the unfolding of Our Networks. A dot-matrix printer has put one character on the page every second, from the moment it is turned on. Every minute, it completes a line, and moves on to the next.​ Via the website any visitor can view all previously printed text, and enter new text to be printed, Until the moment it is sent to print, all text is readable only by its author, so she drafts in private. To everyone else on the page, her input is displayed as grey blocks. Every second, as the print head moves forward, it sets in ink each character in its path, rendering it public to all.​
-  sessionType:
-    - exhibit
-
 - sessionID: 20033
   title: "On View: Art and technology towards new digital architectures"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/33"
