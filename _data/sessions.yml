@@ -1064,7 +1064,7 @@
     - jackson
     - megan
   description: >
-    We would like to present our Painting Robot, P-air (Painting Audience Instructed Robot). This Robot is currently streamed live on Twitch and Controlled via Chat. The Audience types in commands like Up, Right, or Hard to control the brush. Over a few days we will make a painting created by dozens of people around the world. This would be ideally run for around 4-8 hours a day for a few days to give time for the painting to develop. We could do a quick introduction or interview at the end of the stream session when the painting is done explaining what we love about this project and a bit on how it works.
+    We would like to present our Painting Robot, P-air (Painting Audience Instructed Robot). This robot will be live on Twitch and controlled by the audience. You can control the robot by clicking the UI on the stream or type in commands like Up, Right, or Hard to move the robot. Over a few days we will make a painting created by dozens of people around the world. This will run several hours a day over the course of the conference. We will monitor the robot stream all day to answer questions via chat.
   sessionType:
     - exhibit
 
@@ -1231,7 +1231,7 @@
   description: >
     [Disorientations](https://disorientations.org/) is an informal archive of 100+ disorientation publications by student activists, threading counter-narratives across institutions. These zines are vital examples of grassroots literature which subvert the glossy narratives put forth by universities. Though abundant, they are very disconnected — and like other activist ephemera, many don't make it online, are lost to time, or face deliberate erasure.
 
-      In this in presentation and structured conversation, participants will learn about diso guides as a form of decentralized resistance, workshop metaphors of "disorientation" as they apply to our own contexts, and collaboratively imagine archival technologies attuned to activist publishing.
+    In this in presentation and structured conversation, participants will learn about diso guides as a form of decentralized resistance, workshop metaphors of "disorientation" as they apply to our own contexts, and collaboratively imagine archival technologies attuned to activist publishing.
   sessionType:
     - workshop
 
@@ -1323,17 +1323,6 @@
     - workshop
     - talk
 
-- sessionID: 20032
-  title: "TTY2020"
-  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/32"
-  presenterID:
-    - pierre
-    - pat
-  description: >
-    We intend to deploy our piece, TTY2020, during the unfolding of Our Networks. A dot-matrix printer has put one character on the page every second, from the moment it is turned on. Every minute, it completes a line, and moves on to the next.​ Via the website any visitor can view all previously printed text, and enter new text to be printed, Until the moment it is sent to print, all text is readable only by its author, so she drafts in private. To everyone else on the page, her input is displayed as grey blocks. Every second, as the print head moves forward, it sets in ink each character in its path, rendering it public to all.​
-  sessionType:
-    - exhibit
-
 - sessionID: 20033
   title: "On View: Art and technology towards new digital architectures"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/33"
@@ -1415,26 +1404,36 @@
   title: "Concious Networks: Core"
   sessionType:
     - workshop
+  description: >
+    “Conscious Networks” is a multi-part series of workshops about understanding alternative networking. These include emergent fields of non-physical networking including conscious and unconscious networks. Classes include focusing on Network Understanding, Assessment, Security and Deployment. This is a beginner friendly workshop series and open to those of all skill levels.
 
 - sessionID: 20043
   title: "Concious Networks: Access"
   sessionType:
     - workshop
+  description: >
+    “Conscious Networks” is a multi-part series of workshops about understanding alternative networking. These include emergent fields of non-physical networking including conscious and unconscious networks. Classes include focusing on Network Understanding, Assessment, Security and Deployment. This is a beginner friendly workshop series and open to those of all skill levels.
 
 - sessionID: 20044
   title: "Concious Networks: Agency"
   sessionType:
     - workshop
+  description: >
+    “Conscious Networks” is a multi-part series of workshops about understanding alternative networking. These include emergent fields of non-physical networking including conscious and unconscious networks. Classes include focusing on Network Understanding, Assessment, Security and Deployment. This is a beginner friendly workshop series and open to those of all skill levels.
 
 - sessionID: 20045
   title: "Concious Networks: Action"
   sessionType:
     - workshop
+  description: >
+    “Conscious Networks” is a multi-part series of workshops about understanding alternative networking. These include emergent fields of non-physical networking including conscious and unconscious networks. Classes include focusing on Network Understanding, Assessment, Security and Deployment. This is a beginner friendly workshop series and open to those of all skill levels.
 
 - sessionID: 20047
   title: "Concious Networks: Masterclass"
   sessionType:
     - workshop
+  description: >
+    “Conscious Networks” is a multi-part series of workshops about understanding alternative networking. These include emergent fields of non-physical networking including conscious and unconscious networks. Classes include focusing on Network Understanding, Assessment, Security and Deployment. This is a beginner friendly workshop series and open to those of all skill levels.
 
 - sessionID: 20040
   title: "Opening remarks"
