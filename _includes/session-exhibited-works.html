@@ -6,7 +6,7 @@
   <ul class="p-0 ls-none flex flex-wrap mb-0">
     {% assign sortedSessions = site.data.sessions[include.year] | sort_natural: "title" %}
     {%- for session in sortedSessions -%}
-      {%- if session.sessionType contains "exhibit" -%}
+      {%- if session.sessionType contains "exhibit" and session.sessionID != 20005 -%}
       <li class="mt-05 w-50 pr-1">
         <h5 class="m-0"><a id="{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}-schedule" href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}">{{ session.title }}</a></h5>
         {% assign presenterCount = session.presenterID.size %}
