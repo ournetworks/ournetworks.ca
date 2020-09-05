@@ -1064,7 +1064,7 @@
     - jackson
     - megan
   description: >
-    We would like to present our Painting Robot, P-air (Painting Audience Instructed Robot). This Robot is currently streamed live on Twitch and Controlled via Chat. The Audience types in commands like Up, Right, or Hard to control the brush. Over a few days we will make a painting created by dozens of people around the world. This would be ideally run for around 4-8 hours a day for a few days to give time for the painting to develop. We could do a quick introduction or interview at the end of the stream session when the painting is done explaining what we love about this project and a bit on how it works.
+    We would like to present our Painting Robot, P-air (Painting Audience Instructed Robot). This robot will be live on Twitch and controlled by the audience. You can control the robot by clicking the UI on the stream or type in commands like Up, Right, or Hard to move the robot. Over a few days we will make a painting created by dozens of people around the world. This will run several hours a day over the course of the conference. We will monitor the robot stream all day to answer questions via chat.
   sessionType:
     - exhibit
 
