@@ -37,7 +37,7 @@ This Code of Conduct applies at the event, in the online spaces of the conferenc
 
 ## Content Moderation Guidelines
 
-Because of ensuring this code of conduct is enforcable in an online context across platforms, we have some guidelines about the types of spaces the conference includes.
+Because of ensuring this code of conduct is enforceable in an online context across platforms, we have some guidelines about the types of spaces the conference includes.
 
 * **Moderated** - one of the core team or a trained volunteer is present for the full duration of the event actively moderating. The platform provides at least a minimum set of tools for moderation.
 
