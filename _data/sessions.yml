@@ -1446,3 +1446,14 @@
 - sessionID: 20046
   title: "Gather.town"
   sessionType: "hangout"
+
+- sessionID: 20047
+  title: "Open Weather: nowcast"
+  descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/20"
+  presenterID:
+    - sophie
+    - sasha
+  description: >
+    Open Weather is a project by Sophie Dyer and Sasha Engelmann probing the noisy relationships between bodies, atmospheres and weather systems through ham radio, open data and feminist approaches to remote sensing. In July 2020 we will launch the Open Weather platform which will host a public archive of radio-generated weather images. The archive will sit alongside a series of 'how to guides' enabling people with no ham radio or technical experience to set up their own satellite ground station.
+  sessionType:
+    - exhibit
