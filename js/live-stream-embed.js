@@ -1,7 +1,6 @@
 
 window.addEventListener('DOMContentLoaded', () => {
-  var player = new Clappr.Player(
-    {
+  var player = new Clappr.Player({
       autoPlay: true,
       height: '100%',
       width: '100%',
