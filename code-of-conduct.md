@@ -23,7 +23,7 @@ We do not tolerate harassment of event participants or organizers in any form. H
 
 * verbal comments that reinforce social structures of domination related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion, technical skill level
 * deliberate intimidation, stalking, following
-* harassing photography or recording
+* harassing photography or recording (in an online context, this includes screenshots)
 * sustained disruption of talks or other events
 * inappropriate physical contact
 * unwelcome sexual attention and sexual language
@@ -33,7 +33,19 @@ Participants asked to stop any harassing behavior are expected to comply immedia
 
 ## Scope
 
-This Code of Conduct applies both at the event and in public spaces when an individual is representing Our Networks.
+This Code of Conduct applies at the event, in the online spaces of the conference, and in public spaces when an individual is representing Our Networks.
+
+## Content Moderation Guidelines
+
+Because of ensuring this code of conduct is enforcable in an online context across platforms, we have some guidelines about the types of spaces the conference includes.
+
+* **Moderated** - one of the core team or a trained volunteer is present for the full duration of the event actively moderating. The platform provides at least a minimum set of tools for moderation.
+
+* **Partially moderated** - either the space is durational and cannot be continuously moderated (but a member of the core team or trained volunteer will check in periodically to check on participants and moderate if needed) and/or the space has some moderation tools but they may not be ideal or "complete"
+
+* **Unmoderated** - the space cannot be moderated because of the nature of the platform/artwork/etc please use these spaces at your own risk/discretion, we will do our best to clearly mark them
+
+In order to be considered "moderateable" for the purposes of this conference, the minimum featureset we're requiring is that the platform allows Moderators who can mute participants (for audio), delete messages that have been posted (in text chats), or kick/ban partcipants if required. Users should be able to use a pseudonym, turn off their own microphone/camera, and leave at any time. Because of the limits of machine translation, the core team and volunteers are only able to moderate text written in English.
 
 ## Enforcement
 
