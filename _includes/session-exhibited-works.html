@@ -8,7 +8,13 @@
     {%- for session in sortedSessions -%}
       {%- if session.sessionType contains "exhibit" and session.sessionID != 20005 -%}
       <li class="mt-05 w-50 pr-1">
-        <h5 class="m-0"><a id="{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}-schedule" href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}">{{ session.title }}</a></h5>
+        <h5 class="m-0">
+          {% if session.sessionLink %}
+            <a href="{{ session.sessionLink }}" target="_blank" title="Visit work at {{ session.sessionLink }}">{{ session.title }}</a>
+          {% else %}
+            <a id="{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}-schedule" href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}">{{ session.title }}</a>
+          {% endif %}
+        </h5>
         {% assign presenterCount = session.presenterID.size %}
         <h6 class="fw-normal session-presenterID mono fs-small mt-05 mb-1">
         {%- for presenterID in session.presenterID -%}
@@ -21,6 +27,9 @@
           {{ name }}{%- if presenterCount > 0 -%}, {%- endif -%}
         {%- endfor -%}
         </h6>
+        {% if session.sessionLink %}
+          <p><a class="fs-small fw-normal mono" id="{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}-schedule" href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}">Read more</a></p>
+        {% endif %}
       </li>
       {%- endif -%}
     {%- endfor -%}
