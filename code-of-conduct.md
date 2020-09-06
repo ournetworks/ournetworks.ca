@@ -45,7 +45,18 @@ To ensure this Code of Conduct is enforceable in an online context across platfo
 
 * **Unmoderated** - the space cannot be moderated because of the nature of the platform/artwork/etc please use these spaces at your own risk/discretion, we will do our best to clearly mark them.
 
-In order to be considered "moderateable" for the purposes of this conference, the minimum feature set we're requiring is that the platform allows Moderators who can mute participants (for audio), delete messages that have been posted (in text chats), or kick/ban participants if required. Users should be able to use a pseudonym, turn off their own microphone/camera, and leave at any time. Because of the limits of machine translation, the core team and volunteers are only able to moderate text written in English, unless arranged in advance.
+For a session to be considered "moderateable" for this conference, the minimum feature set we're requiring is that the platform or service allows:
+
+- Moderators to: 
+  - mute participants (for audio)
+  - delete messages that have been posted (in text chats)
+  - kick/ban participants if required
+- Users to: 
+  - use a pseudonym 
+  - turn off their own microphone/camera 
+  - leave at any time
+  
+  Because of the limits of machine translation, the organizers and volunteers are only able to moderate text written in English, unless arranged in advance.
 
 ## Enforcement
 
