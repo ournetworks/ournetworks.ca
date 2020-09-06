@@ -20,9 +20,18 @@ fullWidth: true
     </tr>
   </thead>
   <tbody>
+    <tr class="none">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
     <tr>
       <td class="text-left fw-bold fs-small lh-1" colspan="2">All day</td>
       <td colspan="1" class="session-block session-exhibited-works">{% include session-exhibited-works.html year=2020 %}</td>
+    </tr>
+    <tr>
+      <td class="text-left fw-bold fs-small lh-1" colspan="2"></td>
+      <td rowspan="1" class="session-block session-exhibited-works session-id=20005 %}">{% include session.html year=2020 session-id=20005 sessionCaption="From 11:00 to 17:00 UTC-4" %}</td>
     </tr>
     <tr>
       <td>18</td>
@@ -71,7 +80,8 @@ fullWidth: true
   <tbody>
     <tr>
       <td class="text-left lh-1 fw-bold fs-small" colspan="2">All day</td>
-      <td colspan="2" class="session-block session-exhibited-works">{% include session-exhibited-works.html year=2020 %}</td>
+      <td colspan="1" class="session-block session-exhibited-works">{% include session-exhibited-works.html year=2020 %}</td>
+      <td rowspan="1" class="session-block session-exhibited-works session-id=20005 %}">{% include session.html year=2020 session-id=20005 sessionCaption="From 11:00 to 17:00 UTC-4" %}</td>
     </tr>
     <tr>
       <td>11</td>
@@ -165,7 +175,8 @@ fullWidth: true
   <tbody>
     <tr>
       <td class="text-left lh-1 fw-bold fs-small" colspan="2">All day</td>
-      <td colspan="2" class="session-block session-exhibited-works">{% include session-exhibited-works.html year=2020 %}</td>
+      <td colspan="1" class="session-block session-exhibited-works">{% include session-exhibited-works.html year=2020 %}</td>
+      <td rowspan="1" class="session-block session-exhibited-works session-id=20005 %}">{% include session.html year=2020 session-id=20005 sessionCaption="From 11:00 to 17:00 UTC-4" %}</td>
     </tr>
     <tr>
       <td>11</td>
@@ -176,14 +187,14 @@ fullWidth: true
     <tr>
       <td></td>
       <td>:30</td>
-      <td rowspan="1" class="session-block session-{% include session-type.html session-id=20003 %}">{% include session.html year=2020 session-id=20003 %}</td>
       <td></td>
+      <td rowspan="4" class="session-block session-{% include session-type.html session-id=20007 %}">{% include session.html year=2020 session-id=20007 %}</td>
     </tr>
     <tr>
       <td>12</td>
       <td>:00</td>
       <td rowspan="3" class="session-block session-{% include session-type.html session-id=20029 %}">{% include session.html year=2020 session-id=20029 %}</td>
-      <td rowspan="4" class="session-block session-{% include session-type.html session-id=20007 %}">{% include session.html year=2020 session-id=20007 %}</td>
+      <td></td>
     </tr>
     <tr>
       <td></td>
@@ -196,6 +207,7 @@ fullWidth: true
     <tr>
       <td></td>
       <td>:30</td>
+      <td rowspan="1" class="session-block session-{% include session-type.html session-id=20003 %}">{% include session.html year=2020 session-id=20003 %}</td>
       <td rowspan="2" class="session-block session-{% include session-type.html session-id=20038 %}">{% include session.html year=2020 session-id=20038 %}</td>
     </tr>
     <tr>
@@ -273,7 +285,8 @@ fullWidth: true
   <tbody>
     <tr>
       <td class="text-left lh-1 fw-bold fs-small" colspan="2">All day</td>
-      <td colspan="2" class="session-block session-exhibited-works">{% include session-exhibited-works.html year=2020 %}</td>
+      <td colspan="1" class="session-block session-exhibited-works">{% include session-exhibited-works.html year=2020 %}</td>
+      <td rowspan="1" class="session-block session-exhibited-works session-id=20005 %}">{% include session.html year=2020 session-id=20005 sessionCaption="From 11:00 to 17:00 UTC-4" %}</td>
     </tr>
     <tr>
       <td>11</td>
@@ -387,8 +400,8 @@ fullWidth: true
     <tr>
       <td class="text-left lh-1 fw-bold fs-small" colspan="2">All day</td>
       <td rowspan="1" class="session-block session-{% include session-type.html session-id=20039 %}">{% include session.html year=2020 session-id=20039 sessionCaption="All day Saturday<br>From 00:00 to 24:00 UTC-4" %}</td>
-      <td colspan="3" class="session-block session-exhibited-works">{% include session-exhibited-works.html year=2020 %}</td>
-      
+      <td rowspan="1" class="session-block session-exhibited-works session-id=20005 %}">{% include session.html year=2020 session-id=20005 sessionCaption="From 11:00 to 17:00 UTC-4" %}</td>
+      <td colspan="2" class="session-block session-exhibited-works">{% include session-exhibited-works.html year=2020 %}</td>
     </tr>
     <tr>
       <td>11</td>
