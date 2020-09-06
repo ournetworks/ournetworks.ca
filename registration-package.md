@@ -8,12 +8,12 @@ We've prepared a digital registration package for those attending the event. Be 
 
 ## Event Program 
 
-- []() (please see our interactive [online program](/program/) for more details)
+- [Our Networks 2020](/registration-package/2020-mailout-program.pdf) (please see our interactive [online program](/program/) for more details)
 
-## Concious Networks Workshop Series Materials 
+## Conscious Networks Workshop Materials 
 
-- []()
-- [Stencils]()
+- [Conscious Networks Map Worksheet](/registration-package/conscious-network-map.pdf)
+- [Stencils](/registration-package/conscious-aux-stencils.pdf)
 
 ## Digital Backgrounds and Stickers 
 
