@@ -17,6 +17,6 @@ We've prepared a digital registration package for those attending the event. Be 
 
 ## Digital Backgrounds and Stickers 
 
-- [Growing Our Networks]()
-- ..
-- .. 
+<img src="/registration-package/2020-ournets-sticker-square.png" alt="Growing Our Networks Sticker" width="35%" >
+&nbsp;
+<img src="/registration-package/2020-ournets-sticker-round.png" alt="Our Networks Sticker" width="35%" >
