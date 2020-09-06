@@ -41,7 +41,7 @@ To ensure this Code of Conduct is enforceable in an online context across platfo
 
 * **Moderated** - one of the organizers or a trained volunteer is present for the full duration of the event actively moderating. The platform provides at least a minimum set of tools for moderation.
 
-* **Partially moderated** - either the space is durational and cannot be continuously moderated (but a member of the core team or trained volunteer will check in periodically to check on participants and moderate if needed) and/or the space has some moderation tools but they may not be ideal or "complete".
+* **Partially moderated** - either the space is durational and cannot be continuously moderated (but an organizer or a trained volunteer will check in periodically to check on participants and moderate if needed) and/or the space has some moderation tools but they may not be ideal or "complete".
 
 * **Unmoderated** - the space cannot be moderated because of the nature of the platform/artwork/etc please use these spaces at your own risk/discretion, we will do our best to clearly mark them.
 
