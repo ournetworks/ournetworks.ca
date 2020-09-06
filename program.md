@@ -187,14 +187,14 @@ fullWidth: true
     <tr>
       <td></td>
       <td>:30</td>
-      <td rowspan="1" class="session-block session-{% include session-type.html session-id=20003 %}">{% include session.html year=2020 session-id=20003 %}</td>
       <td></td>
+      <td rowspan="4" class="session-block session-{% include session-type.html session-id=20007 %}">{% include session.html year=2020 session-id=20007 %}</td>
     </tr>
     <tr>
       <td>12</td>
       <td>:00</td>
       <td rowspan="3" class="session-block session-{% include session-type.html session-id=20029 %}">{% include session.html year=2020 session-id=20029 %}</td>
-      <td rowspan="4" class="session-block session-{% include session-type.html session-id=20007 %}">{% include session.html year=2020 session-id=20007 %}</td>
+      <td></td>
     </tr>
     <tr>
       <td></td>
@@ -207,6 +207,7 @@ fullWidth: true
     <tr>
       <td></td>
       <td>:30</td>
+      <td rowspan="1" class="session-block session-{% include session-type.html session-id=20003 %}">{% include session.html year=2020 session-id=20003 %}</td>
       <td rowspan="2" class="session-block session-{% include session-type.html session-id=20038 %}">{% include session.html year=2020 session-id=20038 %}</td>
     </tr>
     <tr>
