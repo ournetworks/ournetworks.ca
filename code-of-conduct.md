@@ -39,7 +39,7 @@ This Code of Conduct applies at the event, in the online spaces of the conferenc
 
 To ensure this Code of Conduct is enforceable in an online context across platforms, we have some guidelines about the types of spaces the conference includes.
 
-* **Moderated** - one of the core team or a trained volunteer is present for the full duration of the event actively moderating. The platform provides at least a minimum set of tools for moderation.
+* **Moderated** - one of the organizers or a trained volunteer is present for the full duration of the event actively moderating. The platform provides at least a minimum set of tools for moderation.
 
 * **Partially moderated** - either the space is durational and cannot be continuously moderated (but a member of the core team or trained volunteer will check in periodically to check on participants and moderate if needed) and/or the space has some moderation tools but they may not be ideal or "complete".
 
