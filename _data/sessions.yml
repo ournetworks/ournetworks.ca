@@ -1258,7 +1258,7 @@
     - talk
 
 - sessionID: 20026
-  title: "Meme Tactics: Covid-19"
+  title: "Meme Tactics"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/26"
   presenterID:
     - china
@@ -1456,4 +1456,4 @@
   description: >
     Open Weather is a project by Sophie Dyer and Sasha Engelmann probing the noisy relationships between bodies, atmospheres and weather systems through ham radio, open data and feminist approaches to remote sensing. In July 2020 we will launch the Open Weather platform which will host a public archive of radio-generated weather images. The archive will sit alongside a series of 'how to guides' enabling people with no ham radio or technical experience to set up their own satellite ground station.
   sessionType:
-    - exhibit
+    - exhibitf

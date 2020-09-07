@@ -686,9 +686,11 @@
   - presenterID: china
     name: "China Residencies"
     bio: "The Meme Tactics curatorial team includes Josue Chavez, a PhD student at the Hispanic Studies department in the University of Pennsylvania; Mikail Wright, independent researcher; Kira Simon-Kennedy, director & co-founder of China Residencies and An Xiao Mina, writer of Memes To Movements. China Residencies is a multifaceted non-profit that believes artists are cultural and social change-makers. To achieve this vision, China Residencies creates opportunities for artists to bring a broader cultural understanding into their work and communities."
-    link: https://chinaresidencies.com/news/270
-    linkDisplay: chinaresidencies.com/news/270
+    link: http://chinaresidencies.org
+    linkDisplay: chinaresidencies.org
     twitter: chinaresidency
+    link2: https://www.indiebound.org/book/9780807056585
+    linkDisplay2: Memes to Movements - book
 
   - presenterID: arthur
     name: "Arthur Debert"
