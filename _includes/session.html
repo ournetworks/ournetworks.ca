@@ -13,6 +13,9 @@
         {% for item in session.sessionType %}
           <li class="highlight p-05 mr-05 mono">{{ item | capitalize | replace: '-', ' ' }}</li>
         {% endfor %}
+        {% if session.moderation %}
+          <li class="highlight-mod p-05 mr-05 mono"><a href="{% link code-of-conduct.md %}">{{ session.moderation }}</a></li>
+        {% endif %}
         </ul>
       {%- endunless -%}
       {% if session.presenterID %}

@@ -1036,6 +1036,8 @@
   sessionType:
     - talk
     - study-group
+  moderation:
+    - Moderated
 
 - sessionID: 20003
   title: "1422 1829 1702 Performance"
@@ -1046,6 +1048,8 @@
     1422 1829 1702 ([https://youtu.be/dT6BbhtePhI](https://youtu.be/dT6BbhtePhI)) is a performative video that explores the memories associated with physical locations from my past, present and future. More specifically, I am utilizing feet (both figuratively and literally) as a unit of measurement to navigate through my grandmother's, my mother's, and then my own home. Every carpet, rug, wood panel, tile and floor covering is meticulously measured, as I pace each inch with my feet. As I walked these homes, the floor plans become permanently ingrained in my memory, inch by inch, solidifying the connection between my family and I, no matter the distance. Each home segment can be seen as a parallel world to where I currently am; and reminds me that my past and present will always be a part of me heading into the future.
   sessionType:
     - performance
+  moderation:
+    - Moderated
 
 - sessionID: 20004
   title: "Epistemic relation as social relation"
@@ -1056,6 +1060,8 @@
     This talk begins from the premise that today’s social computing environments--their interfaces, data structures, and overall designs--have been enormously, if latently, influenced by philosophy. Machine learning strategies for computer vision and automatic classification owe a conceptual debt to Humean empiricism, for example. Embodied interaction design is deeply indebted to the insights of Heideggerean phenomenology. And the ideas of American pragmatist and logician Charles Sanders Peirce serve as an important formalizing basis for networked data structures.
   sessionType:
     - talk
+  moderation:
+    - Moderated
 
 - sessionID: 20005
   title: "Twitch Paints"
@@ -1067,6 +1073,8 @@
     We would like to present our Painting Robot, P-air (Painting Audience Instructed Robot). This robot will be live on Twitch and controlled by the audience. You can control the robot by clicking the UI on the stream or type in commands like Up, Right, or Hard to move the robot. Over a few days we will make a painting created by dozens of people around the world. This will run several hours a day over the course of the conference. We will monitor the robot stream all day to answer questions via chat.
   sessionType:
     - exhibit
+  moderation:
+    - Partially Moderated
 
 - sessionID: 20006
   title: "Software Defined Radio (SDR) and Applications"
@@ -1077,6 +1085,8 @@
     A software defined radio (SDR) is a type of low cost open source USB dongle that can transmit and receive information over the EM spectrum, but they have not been assigned to a structured set of communication frequencies and protocols like bluetooth, wifi, or smartphones -- these parameters are programmable in software! In a combined presentation and live demonstration, participants will explore the history and development of SDR, will look at security and privacy implications of these liminal devices in legislation, Dunne and Raby's "Hertzian Tales" (2004) and ways these devices have been used to constitute interesting device networks and solve problems in the EM -- e.g. car key fobs, beacons, IoT devices, and weather satellites overhead. The talk will finish by walking participants through building a simple FM tuner using GNU public radio and SDR, accompanied by instructions, videos and support materials.
   sessionType:
     - talk
+  moderation:
+    - Moderated
 
 - sessionID: 20007
   title: "The Study: a literary mesh"
@@ -1088,6 +1098,8 @@
   sessionType:
     - workshop
     - talk
+  moderation:
+    - Moderated
 
 - sessionID: 20008
   title: "Internet Aerobics"
@@ -1098,6 +1110,8 @@
     Filmed in a computer Lab, Internet Aerobics is a 20-minute aerobics workout routine about the internet, streaming to you through the internet. Aerobics props of long, blue ethernet cables are used, and hyperlink blue is celebrated as the color of online opportunity -- of links that have not yet been clicked. Aerobics moves embody multiple facets of online life, with packets of information speeding through wifi networks, routers, data centers, fiber optic cables -- often times at different speeds due to the lack of net neutrality laws. This workout routine is an invitation to you to sweat along in front of your own browser tab while thinking about and moving through the very makeup of the Internet, itself.
   sessionType:
     - performance
+  moderation:
+    - Moderated
 
 - sessionID: 20009
   title: "Reimagine Family, Redistributing Care"
@@ -1108,6 +1122,8 @@
     ReUnion is a design initiative that explores the future concept of family. By creating a platform that allows people to autonomously design their relationships, ReUnion searches for a more inclusive environment to experiment with types of relationships and ways of organizing life. In this workshop, we will discuss the logic and thinking behind the project, and invite participants to explore the immediate care relationships in their present life - and share in the common discussion if willing - with ReUnion's care-centric value framework in mind.
   sessionType:
     - workshop
+  moderation:
+    - Moderated
 
 - sessionID: 20011
   title: "Building Your Own Routing Protocol"
@@ -1118,6 +1134,8 @@
     Routing protocols are all around you. Through a mess of radio waves, electrical signals, and flickering light, routing protocols determine how information gets from point A to point B. There are lots of analogies out there for how routing protocols work (think postal service p.s. SAVE the USPS!) and there are more routing protocols shooting around the interwebs than you may realize. But what if you don't want to use the traditional, (big I)nternet? What if your medium of communication is something so new and cutting edge, or so retro and outdated (let's call it vintage) that the commonly used standards don't apply. Or what if you just want to better understand how information moves through cyberspace? Where would you start?! You would start by building your own routing protocol.
   sessionType:
     - discussion
+  moderation:
+    - Moderated
 
 - sessionID: 20012
   title: "Shuhaku: What did they say?"
@@ -1129,6 +1147,8 @@
     People miss Google Reader, but they also wouldn't use it if Mountain View brought it back. They think they would, but they wouldn't. Something else is needed. Shuhaku is Levantine Arabic for "What did they say?" It's a news and blog aggregator meant to help people find the fresh information that they will find the most interesting and useful. It's about text. It's about the galaxy brain. It's not about fame, and it's not about vitriol. Shuhaku is a news aggregator that's designed to be just social enough.
   sessionType:
     - talk
+  moderation:
+    - Moderated
 
 - sessionID: 20013
   title: "Utopia as Uncertainty - The issue of decentralisation versus classical utopias"
@@ -1140,6 +1160,8 @@
     The archistic, classical utopia is a completely planned desired state for the future in social and architectural terms. It is the elimination of uncertainty. However all utopias are uncertain because it is a proposed future and the future is uncertain. All utopias, archistic or not equals the intended elimination of uncertainty because their aim is to end history and hence uncertainty.
   sessionType:
     - talk
+  moderation:
+    - Moderated
 
 - sessionID: 20014
   title: "TrustNet: Trust-based and subjective moderation systems"
@@ -1150,6 +1172,8 @@
     In this talk, I will introduce TrustNet, a flexible and distributed system for deriving, and interacting with, computational trust. The focus of the talk will be applying TrustNet as a tool within distributed chat systems for implementing a trust-based and subjective moderation system.
   sessionType:
     - talk
+  moderation:
+    - Moderated
 
 - sessionID: 20016
   title: "Towards A Common Glossary for Decentralized Technologies"
@@ -1164,6 +1188,8 @@
     This work is part of DOTS: [Decentralization, off the shelf](https://decentpatterns.xyz/).
   sessionType:
     - workshop
+  moderation:
+    - Moderated
 
 - sessionID: 20017
   title: "hyperobjects.io"
@@ -1175,6 +1201,8 @@
     To call something a hyperobject means to look at it with new eyes, to reclaim its inherent mystery. Hyperobjects are comparable to hashtags, implying metadata of time and space. hyperobjects.io is a digital performance template for interspecies relationship. Participants can geo-tag artworks or stories on an interactive, borderless map. Likes, shares and purchases create funds for international micro-scale environmental projects through a blockchain script.
   sessionType:
     - workshop
+  moderation:
+    - Moderated
 
 - sessionID: 20019
   title: "Behind the Scenes at the Doomsday Supper Club"
@@ -1188,6 +1216,8 @@
   sessionType:
     - performance
     - talk
+  moderation:
+    - Moderated
 
 - sessionID: 20020
   title: "Open Weather: building networks for nowcasting the weather"
@@ -1200,6 +1230,8 @@
   sessionType:
     - performance
     - talk
+  moderation:
+    - Moderated
 
 - sessionID: 20021
   title: "Eigengrau"
@@ -1211,6 +1243,8 @@
   sessionType:
     - exhibit
     - talk
+  moderation:
+    - Moderated
 
 - sessionID: 20022
   title: "biton — the Internet potluck"
@@ -1222,6 +1256,8 @@
   sessionType:
     - workshop
     - talk
+  moderation:
+    - Partially Moderated
 
 - sessionID: 20023
   title: "Disorientations"
@@ -1234,6 +1270,8 @@
     In this in presentation and structured conversation, participants will learn about diso guides as a form of decentralized resistance, workshop metaphors of "disorientation" as they apply to our own contexts, and collaboratively imagine archival technologies attuned to activist publishing.
   sessionType:
     - workshop
+  moderation:
+    - Moderated
 
 - sessionID: 20024
   title: "Xzone - A Do It Together platform for online community-making"
@@ -1245,6 +1283,8 @@
     Participants in this workshop will create their own D.I.T. (“Do It Together”) 2D networked online meeting places. We will introduce the idea of virtual temporary autonomous zones based on the concept of temporary autonomous zones, the socio-political tactic of creating temporary spaces to evade formal structures of control. We will teach how to create a simplified networked graphical community meeting space based on this concept, including creating avatars, room interiors and interactive objects, inspired by physical spaces such as the squat, loft, community space, or campsite. 
   sessionType:
     - workshop
+  moderation:
+    - Moderated
 
 - sessionID: 20025
   title: "This is Fine: Optimism and Emergency in the Decentralised Network"
@@ -1256,6 +1296,8 @@
   sessionType:
     - performance
     - talk
+  moderation:
+    - Moderated
 
 - sessionID: 20026
   title: "Meme Tactics: Covid-19"
@@ -1266,6 +1308,8 @@
     The China Residencies team proposes a walkthrough of Meme Tactics, an online exhibit in Mozilla Hubs featuring artists Elyla Sinvergüenza and Amy Suo Wu. Their creative interventions in the public sphere will launch us into a strategizing session to harness the humorous power of memes for movements. We'll share examples of dances, symbols, zines and patches from Nicaragua, India, mainland China, and beyond. You'll leave with a set of tactics specific to amplify your own messages, inspired by the way in which social movements around the world are using memes to negotiate power and assert presence.
   sessionType:
     - exhibit
+  moderation:
+    - Unmoderated
 
 - sessionID: 20028
   title: "Play2play"
@@ -1283,6 +1327,8 @@
   sessionType:
     - exhibit
     - backstage
+  moderation:
+    - Unmoderated
 
 - sessionID: 20029
   title: "Crafting Commons: A round table on cybercraft networks"
@@ -1300,6 +1346,8 @@
     Craft practices rely on the exchange and transmission of techniques, technical skills, tacit and explicit knowledge about materials and methods but also on the circulation of common values and ethos, fostering shared mindsets and communities. Many of these communities around the world are developing and passing on these technical and cultural legacies to fellow practitioners, creating cultural and intellectual commons in the same movement, by organizing autonomous conferences, camps, short residency programs, and working collaboratively bringing local and international networks together. This session proposes to bring several of these practitioners together to discuss what their practices create beyond artifacts, and how they contribute to establishing self-determined communities and to fostering commons.
   sessionType:
     - round-table
+  moderation:
+    - Moderated
 
 - sessionID: 20030
   title: "Listening Space"
@@ -1311,6 +1359,8 @@
     Listening Space is an artistic research that explores transmission ecologies as a means of perceiving the surrounding environment beyond our human abilities. Conceptually the project seeks to define transmissions ecologies as raw material for artistic expression, to understand and re-imagine in poetic means, representations of audio and images broadcasted from space. The artists are creating cyber physical systems for sensing the invisible universe that surrounds us. By using open-source tools, DIY electronics, hardware hacking and digital crafts, they aim to approach art and science and create artifacts that explore the idea of citizen science. Specifically, by focusing on electromagnetic-field (EMF) and radio frequency (RF) detection, they aim to re-claim the depth of transmission ecologies, evolving at a higher rhythm than liveness, through our environment and bodies.
   sessionType:
     - performance
+  moderation:
+    - Moderated
 
 - sessionID: 20031
   title: "Toward a federation of hybrid spaces"
@@ -1322,6 +1372,8 @@
   sessionType:
     - workshop
     - talk
+  moderation:
+    - Moderated
 
 - sessionID: 20033
   title: "On View: Art and technology towards new digital architectures"
@@ -1334,6 +1386,8 @@
   sessionType:
     - discussion
     - talk
+  moderation:
+    - Moderated
 
 - sessionID: 20034
   title: "Holistic Digital Authorship"
@@ -1346,6 +1400,8 @@
     This collaborative workshop prompts discussion around precarious and hidden labour in digital authorship and in open publishing. Through conversations and drawings, we will explore tensions between social purpose vs. free labour, and our [atomization in a competitive content market](https://www.jacobinmag.com/2018/01/under-neoliberalism-you-can-be-your-own-tyrannical-boss) as creators. Inspired by [Holistic Security](https://holistic-security.tacticaltech.org/) by [Tactical Tech](https://tacticaltech.org/) and the [Revolutionary Networked Politics](https://www.youtube.com/watch?v=UyeoTmgM6Uk) presentations [at transmediale](https://2020.transmediale.de/content/revolutionary-networked-politics), we will engage through a holistic approach that centres on self-care and the well-being of content authors. There are many topics relevant to digital publishing, such as: equitable compensations and dignified livelihoods, creative expression on moderated platforms, security and anonymity in online spaces. How does one navigate the complex environments and entrenched power structures of the web? What is the cost of the labour asked of an individual creator and the impact on their well-being?
   sessionType:
     - workshop
+  moderation:
+    - Moderated
 
 - sessionID: 20035
   title: "Bridge to the Internet: A Community Router"
@@ -1356,6 +1412,8 @@
     _Bridge to the Internet_ is a router image that hosts network bandwidth saving services and robust local area communication applications that activate local area networks to strengthen connection within a local community. With the internet under heavy strain due to the COVID-19 pandemic, it becomes clear that we must maximize our network resources and look for alternatives to internet-based communication.
   sessionType:
     - talk
+  moderation:
+    - Moderated
 
 - sessionID: 20036
   title: "Building Equity through Public Owned Cable System"
@@ -1366,6 +1424,8 @@
     Our proposal was brought about through forced necessity. After acquiring Time Warner Cable in 2016 Spectrum has shown to be nothing but a bad actor in our cities. Here in NY they have waged war on their union work force as we are the only thing that stands against them gouging the city of our resources for their profit. In 2017 using unfair bargaining tactics they began a campaign to dismantle and take us out. This is when we went on strike.
   sessionType:
     - workshop
+  moderation:
+    - Moderated
 
 - sessionID: 20037
   title: "Open Learning Commons: A peer-to-peer educational ecosystem"
@@ -1376,6 +1436,8 @@
     I plan to introduce Open Learning Commons: the idea, its history, and the current status of the project. I will then show a bunch of the open-source software that composes the learning commons infrastructure and describe some of the co-learning groups who are making use of that infrastructure (Things like their practices and topics of interest). I will then open the session up to questions and discussion about peer learning (peeragogy), open educational resources/EdTech, and community networks more generally.
   sessionType:
     - talk
+  moderation:
+    - Moderated
 
 - sessionID: 20038
   title: "Open Data and Collaboration in Action"
@@ -1388,6 +1450,8 @@
     As we enter the final decade of the 2030 Agenda for Sustainable Development, we have an opportunity to accelerate our progress towards this goal, by more rigorously collecting, analyzing and applying good-quality data to shape programmes that can bring us closer to ending access to digital divide in all its forms. Open data is a critical enabler. The session will bring together the open data community to learn, share, plan and collaborate on the future of open data in the context of COVID-19. The unique nature of the event is to enable participants from various interdisciplinary backgrounds to define strategies that advance open data globally and locally, with the vision that attendees will take their new insights back to their home institutions to grow a vibrant open data community. The session will include Keynote addresses, Q&A sessions and networking breaks
   sessionType:
     - workshop
+  moderation:
+    - Moderated
 
 - sessionID: 20039
   title: "Blink"
@@ -1399,6 +1463,8 @@
   sessionType:
     - hangout
     - backstage
+  moderation:
+    - Unmoderated
 
 - sessionID: 20042
   title: "Concious Networks: Core"
@@ -1406,6 +1472,8 @@
     - workshop
   description: >
     “Conscious Networks” is a multi-part series of workshops about understanding alternative networking. These include emergent fields of non-physical networking including conscious and unconscious networks. Classes include focusing on Network Understanding, Assessment, Security and Deployment. This is a beginner friendly workshop series and open to those of all skill levels.
+  moderation:
+    - Moderated
 
 - sessionID: 20043
   title: "Concious Networks: Access"
@@ -1413,6 +1481,8 @@
     - workshop
   description: >
     “Conscious Networks” is a multi-part series of workshops about understanding alternative networking. These include emergent fields of non-physical networking including conscious and unconscious networks. Classes include focusing on Network Understanding, Assessment, Security and Deployment. This is a beginner friendly workshop series and open to those of all skill levels.
+  moderation:
+    - Moderated
 
 - sessionID: 20044
   title: "Concious Networks: Agency"
@@ -1420,6 +1490,8 @@
     - workshop
   description: >
     “Conscious Networks” is a multi-part series of workshops about understanding alternative networking. These include emergent fields of non-physical networking including conscious and unconscious networks. Classes include focusing on Network Understanding, Assessment, Security and Deployment. This is a beginner friendly workshop series and open to those of all skill levels.
+  moderation:
+    - Moderated
 
 - sessionID: 20045
   title: "Concious Networks: Action"
@@ -1427,6 +1499,8 @@
     - workshop
   description: >
     “Conscious Networks” is a multi-part series of workshops about understanding alternative networking. These include emergent fields of non-physical networking including conscious and unconscious networks. Classes include focusing on Network Understanding, Assessment, Security and Deployment. This is a beginner friendly workshop series and open to those of all skill levels.
+  moderation:
+    - Moderated
 
 - sessionID: 20047
   title: "Concious Networks: Masterclass"
@@ -1434,20 +1508,28 @@
     - workshop
   description: >
     “Conscious Networks” is a multi-part series of workshops about understanding alternative networking. These include emergent fields of non-physical networking including conscious and unconscious networks. Classes include focusing on Network Understanding, Assessment, Security and Deployment. This is a beginner friendly workshop series and open to those of all skill levels.
+  moderation:
+    - Moderated
 
 - sessionID: 20040
   title: "Opening remarks"
   sessionType: "orga"
+  moderation:
+    - Moderated
 
 - sessionID: 20041
   title: "Closing remarks"
   sessionType: "orga"
+  moderation:
+    - Moderated
 
 - sessionID: 20046
   title: "Gather.town"
   sessionType: "hangout"
+  moderation:
+    - Partially Moderated
 
-- sessionID: 20048
+- sessionID: 20047
   title: "Open Weather: nowcast"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/20"
   presenterID:
