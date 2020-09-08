@@ -8,7 +8,7 @@ We've prepared a digital registration package for those attending the event. Be 
 
 ## Event Program 
 
-- [Our Networks 2020](/registration-package/2020-mailout-program.pdf) (please see our interactive [online program](/program/) for more details)
+- [Our Networks 2020](/registration-package/2020-mailout-program.pdf) (please see our interactive [online program](https://p2party.ournetworks.ca/) and your email with login instructions for full details)
 
 ## Conscious Networks Workshop Materials 
 
