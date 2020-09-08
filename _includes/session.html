@@ -13,7 +13,7 @@
         {% endif %}
       </h5>
       {%- unless session.sessionType contains "orga" -%}
-        <ul class="ls-none p-0 mt-05 mb-1 flex flex-wrap fs-small">
+        <ul class="ls-none p-0 mt-05 mb-1 flex flex-wrap fs-small fw-normal">
         {% for item in session.sessionType %}
           <li class="highlight p-05 mr-05 mono">{{ item | capitalize | replace: '-', ' ' }}</li>
         {% endfor %}
@@ -37,11 +37,11 @@
       {% endif %}
     </header>
     {%- if include.sessionCaption -%}
-      <p class="mt-1 mono fs-medium">{{include.sessionCaption}}</p>
+      <p class="mt-1 mono fs-medium fw-normal">{{include.sessionCaption}}</p>
     {% endif %}
 
     {% if session.sessionLink %}
-      {%- unless session.sessionType == "orga" or session.sessionType == "hangout" -%}<a href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}" class="mono fs-medium session-title-link">{%- endunless -%}
+      {%- unless session.sessionType == "orga" or session.sessionType == "hangout" -%}<a href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}" class="mono fs-medium fw-normal session-title-link">{%- endunless -%}
         Read more
       {%- unless session.sessionType == "orga" or session.sessionType == "hangout"-%}</a>{%- endunless -%}
     {% endif %}
