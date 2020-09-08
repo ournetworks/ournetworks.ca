@@ -3,7 +3,13 @@
   <a class="program-block-anchor" {% unless session.skipProgramID %}id="{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}"{% endunless %}></a>
   <div class="program-block-content p-1">
     <header class="session-header mb-1">
-      <h3 class="session-title heading">{{ session.title }}</h3>
+      <h3 class="session-title heading">
+        {% if session.sessionLink %}
+          <a href="{{ session.sessionLink }}" target="_blank">{{ session.title }}</a>
+        {%else%}
+          {{ session.title }}
+        {% endif %}
+      </h3>
       <ul class="ls-none p-0 flex fs-medium">
       {% for item in session.sessionType %}
         <li class="highlight p-05 mr-05 mono">{{ item | capitalize | replace: '-', ' ' }}</li>
@@ -54,6 +60,11 @@
     {%- if session.descriptionLink -%}
       <div class="read-more mono fs-medium"><a href="{{ session.descriptionLink }}" rel="noopener">Read more</a></div>
     {%- endif -%}
+    {% if session.sessionLink %}
+      <div class="mt-1">
+      <a class="button bg-black color-white" href="{{ session.sessionLink }}" target="_blank">Visit {{ session.title }}</a>
+      </div>
+    {% endif %}
     {%- if session.link or session.twitter or session.github -%}
     <ul class="bio-sm-list">
      {%- if session.link and session.linkDisplay -%}<li class="bio-sm-list-item"><a href="{{ session.link }}" target="_blank" rel="noopener">{{ session.linkDisplay }} </a></li>{%- endif -%}
@@ -63,7 +74,7 @@
     </ul>
     {%- endif -%}
     <div class="session-jump none">
-      <a href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}-schedule" class="mt-2 compact bg-black color-white button">Back to schedule</a>
+      <a href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}-schedule" class="mt-2 compact color-black button">Back to schedule</a>
     </div>
     
   </div>

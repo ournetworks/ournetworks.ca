@@ -1075,6 +1075,7 @@
     - exhibit
   moderation:
     - Partially Moderated
+  sessionLink: "https://www.twitch.tv/applebutterstudio"
 
 - sessionID: 20006
   title: "Software Defined Radio (SDR) and Applications"
@@ -1240,11 +1241,14 @@
     - craig
   description: >
     _Eigengrau_ (a term used to describe what is seen through closed eyes) is a web-based artwork that facilitates a sense of connection with others while resisting the rapid cognitive pace demanded by dominant social media platforms. It is a platform that can only be interacted with when users close their eyes. Using socket.io and p5js, an in-browser facial feature tracker detects when a participant's eyes are closed, at which point, an audible tone is generated. When multiple users visit the site and close their eyes simultaneously, harmonized tones are produced for each user and broadcast across the network, resulting in a collectively played organ.
+    
+    Requirements: Webcam/camera access required. Desktop: works best in Firefox or Chromium-based browsers. iOS: Partially works in Safari. Android: Works best in Chrome.
   sessionType:
     - exhibit
     - talk
   moderation:
     - Moderated
+  sessionLink: "https://eigengrau.glitch.me/"
 
 - sessionID: 20022
   title: "biton — the Internet potluck"
@@ -1310,6 +1314,7 @@
     - exhibit
   moderation:
     - Unmoderated
+  sessionLink: "https://withfriends.co/event/4951523/meme_tactics_virtual_float_through_tours"
 
 - sessionID: 20028
   title: "Play2play"
@@ -1329,6 +1334,7 @@
     - backstage
   moderation:
     - Unmoderated
+  sessionLink: 
 
 - sessionID: 20029
   title: "Crafting Commons: A round table on cybercraft networks"
