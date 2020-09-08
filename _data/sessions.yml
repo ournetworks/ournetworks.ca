@@ -1075,7 +1075,6 @@
     - exhibit
   moderation:
     - Partially Moderated
-  sessionLink: "https://www.twitch.tv/applebutterstudio"
 
 - sessionID: 20006
   title: "Software Defined Radio (SDR) and Applications"
@@ -1241,14 +1240,11 @@
     - craig
   description: >
     _Eigengrau_ (a term used to describe what is seen through closed eyes) is a web-based artwork that facilitates a sense of connection with others while resisting the rapid cognitive pace demanded by dominant social media platforms. It is a platform that can only be interacted with when users close their eyes. Using socket.io and p5js, an in-browser facial feature tracker detects when a participant's eyes are closed, at which point, an audible tone is generated. When multiple users visit the site and close their eyes simultaneously, harmonized tones are produced for each user and broadcast across the network, resulting in a collectively played organ.
-    
-    Requirements: Webcam/camera access required. Desktop: works best in Firefox or Chromium-based browsers. iOS: Partially works in Safari. Android: Works best in Chrome.
   sessionType:
     - exhibit
     - talk
   moderation:
     - Moderated
-  sessionLink: "https://eigengrau.glitch.me/"
 
 - sessionID: 20022
   title: "biton — the Internet potluck"
@@ -1314,7 +1310,6 @@
     - exhibit
   moderation:
     - Unmoderated
-  sessionLink: "https://withfriends.co/event/4951523/meme_tactics_virtual_float_through_tours"
 
 - sessionID: 20028
   title: "Play2play"
@@ -1334,7 +1329,6 @@
     - backstage
   moderation:
     - Unmoderated
-  sessionLink: 
 
 - sessionID: 20029
   title: "Crafting Commons: A round table on cybercraft networks"
@@ -1542,6 +1536,7 @@
     - sophie
     - sasha
   description: >
-    Open Weather is a project by Sophie Dyer and Sasha Engelmann probing the noisy relationships between bodies, atmospheres and weather systems through ham radio, open data and feminist approaches to remote sensing. In July 2020 we will launch the Open Weather platform which will host a public archive of radio-generated weather images. The archive will sit alongside a series of 'how to guides' enabling people with no ham radio or technical experience to set up their own satellite ground station.
+    Open-weather is a project by Sophie Dyer and Sasha Engelmann probing the noisy relationships between bodies, atmospheres and weather systems through experiments in amateur radio, open data and feminist tactics of sensing and séance.  Open-weather encompasses a series of how-to guides, critical frameworks and public workshops on the reception of satellite images using free or inexpensive amateur radio technologies. When possible, we work with open source software and hardware. We focus on access to technology and we strive for equity. In a feminist mode, we ask: who or what gains power from satellite imagery, radio technology and meteorological data?  On September 6th 2020, open-weather collaborators and extended networks co-produced a global weather ‘nowcast’ for the OurNetworks festival. The nowcast is composed of 14 unique weather recordings made by 13 people with their own independent satellite ground stations at different geographical locations. Sophie and Sasha will discuss the nowcast during OurNetworks on Saturday September 12th at 2:30-3:30pm ET (UTC-4). Browse the full nowcast and explore individual contributions at: https://open-weather.community/  The nowcast from September 6th 2020 includes contributions from: Audrey Briot; Sofia Caferri; Sophie Dyer M6NYX; Sasha Engelmann M6IOR; Steve Engelmann; Joaquin Ezcurra; Jacques Gentil; Bill Liles NQ6Z; L. Paul Verhage KD4STH; Yoshiki Matsuoka JF1SAG; Ankit Sharma; Zack Wettstein; WXVids  Sasha and Sophie want to express their deepest gratitude to Piper Haywood for her efforts creating and launching https://open-weather.community/
   sessionType:
     - exhibit
+  sessionLink: "https://open-weather.community/"
