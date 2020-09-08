@@ -4,9 +4,13 @@
     <a class="schedule-block-anchor" {% unless session.skipProgramID %}id="{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}-schedule"{% endunless %}></a>
     <header>
       <h5 class="mt-0 session-title">
-        {%- unless session.sessionType == "orga" or session.sessionType == "hangout" -%}<a href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}" class="session-title-link">{%- endunless -%}
+        {% if session.sessionLink %}
+          <a href="{{ session.sessionLink }}" target="_blank" title="Visit work at {{ session.sessionLink }}">{{ session.title }}</a>
+        {% else %}
+          {%- unless session.sessionType == "orga" or session.sessionType == "hangout" -%}<a href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}" class="session-title-link">{%- endunless -%}
           {{ session.title }}
-        {%- unless session.sessionType == "orga" or session.sessionType == "hangout"-%}</a>{%- endunless -%}
+          {%- unless session.sessionType == "orga" or session.sessionType == "hangout"-%}</a>{%- endunless -%}
+        {% endif %}
       </h5>
       {%- unless session.sessionType contains "orga" -%}
         <ul class="ls-none p-0 mt-05 mb-1 flex flex-wrap fs-small">
@@ -34,6 +38,12 @@
     </header>
     {%- if include.sessionCaption -%}
       <p class="mt-1 mono fs-medium">{{include.sessionCaption}}</p>
+    {% endif %}
+
+    {% if session.sessionLink %}
+      {%- unless session.sessionType == "orga" or session.sessionType == "hangout" -%}<a href="#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}" class="mono fs-medium session-title-link">{%- endunless -%}
+        Read more
+      {%- unless session.sessionType == "orga" or session.sessionType == "hangout"-%}</a>{%- endunless -%}
     {% endif %}
   </div>
   {%- endif -%}
