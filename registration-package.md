@@ -4,12 +4,14 @@ order: 0
 title: "Digital Registration Package"
 ---
 
-We've prepared a digital registration package for those attending the event. Be sure to check out the [public program](/program/){.data-proofer-ignore} and [attendee page](https://p2party.ournetworks.ca/){.data-proofer-ignore} for all the details on how to connect to sessions and links to the conference chat and gathering space!
+We've prepared a digital registration package for those attending the event. Be sure to check out the [public program](/program/) and <a href="https://p2party.ournetworks.ca/" target="_blank" data-proofer-ignore>attendee page</a> for all the details on how to connect to sessions and links to the conference chat and gathering space!
+
+
 
 
 ## Event Program 
 
-- [Our Networks 2020](/registration-package/2020-mailout-program.pdf) (please see our interactive [online program and attendee page](https://p2party.ournetworks.ca/){.data-proofer-ignore} and your email with login instructions for full details)
+- [Our Networks 2020](/registration-package/2020-mailout-program.pdf) (please see our interactive <a href="https://p2party.ournetworks.ca/" target="_blank" data-proofer-ignore>online program and attendee page</a> and your email with login instructions for full details)
 
 ## Conscious Networks Workshop Materials 
 
