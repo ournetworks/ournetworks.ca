@@ -1067,6 +1067,7 @@
     We would like to present our Painting Robot, P-air (Painting Audience Instructed Robot). This robot will be live on Twitch and controlled by the audience. You can control the robot by clicking the UI on the stream or type in commands like Up, Right, or Hard to move the robot. Over a few days we will make a painting created by dozens of people around the world. This will run several hours a day over the course of the conference. We will monitor the robot stream all day to answer questions via chat.
   sessionType:
     - exhibit
+  sessionLink: "https://www.twitch.tv/applebutterstudio"
 
 - sessionID: 20006
   title: "Software Defined Radio (SDR) and Applications"
@@ -1208,9 +1209,12 @@
     - craig
   description: >
     _Eigengrau_ (a term used to describe what is seen through closed eyes) is a web-based artwork that facilitates a sense of connection with others while resisting the rapid cognitive pace demanded by dominant social media platforms. It is a platform that can only be interacted with when users close their eyes. Using socket.io and p5js, an in-browser facial feature tracker detects when a participant's eyes are closed, at which point, an audible tone is generated. When multiple users visit the site and close their eyes simultaneously, harmonized tones are produced for each user and broadcast across the network, resulting in a collectively played organ.
+    
+    Requirements: Webcam/camera access required. Desktop: works best in Firefox or Chromium-based browsers. iOS: Partially works in Safari. Android: Works best in Chrome.
   sessionType:
     - exhibit
     - talk
+  sessionLink: "https://eigengrau.glitch.me/"
 
 - sessionID: 20022
   title: "biton — the Internet potluck"
@@ -1266,6 +1270,7 @@
     The China Residencies team proposes a walkthrough of Meme Tactics, an online exhibit in Mozilla Hubs featuring artists Elyla Sinvergüenza and Amy Suo Wu. Their creative interventions in the public sphere will launch us into a strategizing session to harness the humorous power of memes for movements. We'll share examples of dances, symbols, zines and patches from Nicaragua, India, mainland China, and beyond. You'll leave with a set of tactics specific to amplify your own messages, inspired by the way in which social movements around the world are using memes to negotiate power and assert presence.
   sessionType:
     - exhibit
+  sessionLink: "https://withfriends.co/event/4951523/meme_tactics_virtual_float_through_tours"
 
 - sessionID: 20028
   title: "Play2play"
@@ -1283,6 +1288,7 @@
   sessionType:
     - exhibit
     - backstage
+  sessionLink: 
 
 - sessionID: 20029
   title: "Crafting Commons: A round table on cybercraft networks"
