@@ -91,6 +91,10 @@ thead th.width-unset {
     .highlight {
       background: rgba($accent-color,.2);
     }
+
+    .highlight-mod {
+      background: rgba($accent-color-mod,.3);
+    }
   }
 }
 
@@ -151,6 +155,9 @@ thead th.width-unset {
     .highlight {
       background: rgba($accent-color,.2);
     }
+    .highlight-mod {
+      background: rgba($accent-color-mod,.3);
+    }
   }
 }
 
@@ -183,6 +190,9 @@ thead th.width-unset {
       background: rgba($accent-color,.1);
       .highlight {
         background: rgba($accent-color,.2);
+      }
+      .highlight-mod {
+        background: rgba($accent-color-mod,.3);
       }
     }
   }
