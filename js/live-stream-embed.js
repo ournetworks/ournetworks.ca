@@ -4,6 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
       autoPlay: true,
       height: '100%',
       width: '100%',
+      mute: true,
       source: 'https://vc1.asotcdn.xyz/hls/ournetworks/live.m3u8',
       parentId: '.player',
       plugins: [LevelSelector],
@@ -20,4 +21,8 @@ window.addEventListener('DOMContentLoaded', () => {
       }
     }
   )
+
+  setTimeout(() => {
+    player.unmute()
+  }, 3000)
 })
