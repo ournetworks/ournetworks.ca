@@ -18,10 +18,9 @@ We've prepared a digital registration package for those attending the event. Be 
 
 ## Digital Backgrounds and Stickers 
 
-<a href="/registration-package/2020-ournets-sticker-square.png" target="_blank"><img src="/registration-package/2020-ournets-sticker-square.png" alt="Growing Our Networks Sticker" width="35%" /></a>
-&nbsp;
-<a href="/registration-package/2020-ournets-sticker-round.png" target="_blank"><img src="/registration-package/2020-ournets-sticker-round.png" alt="Our Networks Sticker" width="35%" /></a>
+<div class="mb-2">
+  <a href="/registration-package/2020-ournets-sticker-square.png" class="mr-1" target="_blank" title="Download sticker"><img src="/registration-package/2020-ournets-sticker-square.png" alt="Growing Our Networks Square Sticker" class="w-33" /></a>
+  <a href="/registration-package/2020-ournets-sticker-round.png" target="_blank"><img src="/registration-package/2020-ournets-sticker-round.png" alt="Our Networks Round Sticker" class="w-33" /></a>
+</div>
 
-<br />
-
-<a href="/registration-package/2020-ournets-bbbackground.png" target="_blank"><img src="/registration-package/2020-ournets-bbbackground.png" alt="Our Networks Sticker" width="85%" /></a>
+<a href="/registration-package/2020-ournets-bbbackground.png" target="_blank"><img src="/registration-package/2020-ournets-bbbackground.png" alt="Our Networks Digital Background" /></a>
