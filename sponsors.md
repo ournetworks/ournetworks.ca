@@ -23,12 +23,6 @@ Our Networks is volunteer-run and would not be possible without the support of o
   </div>
 </div>
 
-<div class="flex flex-align-center">
-  <div class="mr-2 mt-1">
-    <a href="https://sahara.digital/" rel="noopener"><img src="/images/logos/sahara-logo.svg" width="160" alt="Sahara logo" title="Sahara" /></a>
-  </div>
-</div>
-
 ## Tier 3 network sponsors
 {: .mt-2.mb-1}
 
