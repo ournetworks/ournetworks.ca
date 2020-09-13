@@ -26,16 +26,6 @@
     {% include footer.html %}
     </main>
     <div class="bg-element fixed top-0 h-100 bg-accent right-0 overflow-hidden flex flex-justify-space-between flex-align-end flex-wrap flex-align-content-end">
-      <div class="register-panel w-50 p-1">
-        {% if page.url != '/livestream/' %}
-          <div class="mb-2 border-bottom pb-s">
-            <h2 class="mt-0 mb-05 heading-3">Live stream</h2>
-            <a class="button bg-black color-white w-100 text-center" href="/livestream/">Watch the 2020 conference live stream</a>
-          </div>
-        {% endif %}
-        {% capture registrationInclude %}{% include registration-panel.html %}{% endcapture %}
-        {{ registrationInclude | markdownify }}
-      </div>
       <div class="mono text-right flex-grow">
         <div class="container ml-05">
           <h1 class="fw-normal" id="clock-element">00:00:00</h1>
