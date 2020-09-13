@@ -4,9 +4,9 @@
 
 This repository holds the source code and static assets of [ournetworks.ca](http://ournetworks.ca), built with [Jekyll](https://jekyllrb.com/), [Normalize.css](http://necolas.github.io/normalize.css/), and icons from [Font Awesome](http://fontawesome.io/). Previous releases have included video stream source code from [Toronto Mesh](https://github.com/tomeshnet/ipfs-live-streaming/) and [Video.js](https://videojs.com), graphic assets from [IPFS](https://github.com/ipfs/artwork) and loading animation from [jxnblk/loading](https://github.com/jxnblk/loading).
 
-Logo by [Marlo Yarlo](http://www.marloyarlo.com/). [2019 design concept](https://github.com/ournetworks/artwork) by Amelia Zhang.
+Logo by [Marlo Yarlo](http://www.marloyarlo.com/). [2020 design concept](https://github.com/ournetworks/artwork) by Garry Ing.
 
-**State of Our Networks 2019** organizing materials and planning can be found in the [2019 planning repository](https://github.com/ournetworks/2019).
+**State of Our Networks 2020** organizing materials and planning can be found in the [2020 planning repository](https://github.com/ournetworks/2020).
 
 ## License & Copyright
 
