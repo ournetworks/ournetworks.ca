@@ -5,22 +5,22 @@ title: "Feedback"
 titleDisplay: "Feedback: How’d we do?"
 ---
 
-<p>We value your feedback as we work to understand what we could do differently as an event. Survey responses are anonymous and no questions are required (we use formspree.io to send responses).</p>
+<p>We value your feedback as we work to understand what we could do differently as an event. Survey responses are anonymous and no questions are required.</p>
 
 <p>Thank you ♥︎⚑</p>
 
-<hr />
+<hr class="full-width" />
 
-<form action="https://formspree.io/orga@ournetworks.ca" class="form-container" method="POST">
+<form action="https://ournetworks.ca/presenters-confirm/?next=https%3A%2F%2Fournetworks.ca%2Ffeedback%2F%3Ffeedback%3Dconfirmed" class="form-container" method="POST">
 <div class="mb-2">
   <div class="w-75">
     <fieldset id="recommend" class="p-0">
       <legend class="fw-bold">How likely is it that you’d recommend Our Networks to a friend or family member?</legend>
       <div class="form-radio-range">
-        <div class="flex flex-justify-space-between mb-1 mt-1 w-75">
+        <div class="flex flex-justify-space-between mb-1 mt-1 w-100">
           {% include forms/form-radio-scale.html name="recommend" start=0 end=10 %}
         </div>
-        <div class="fs-small flex w-75 flex-justify-space-between">
+        <div class="fs-small flex w-100 flex-justify-space-between">
           <div>Not likely at all</div>
           <div>Extremely likely</div>
         </div>
@@ -31,25 +31,25 @@ titleDisplay: "Feedback: How’d we do?"
 <div class="mb-2">
   <div class="w-75">
     <label for="good" class="mb-05 block fw-bold">What was Our Networks good at?</label>
-    <input type="text" id="good" class="input w-75" name="good">
+    <input type="text" id="good" class="input w-100" name="good">
   </div>
 </div>
 <div class="mb-2">
   <div class="w-75">
     <label for="do-better" class="mb-05 block fw-bold">What could Our Networks do better?</label>
-    <input type="text" id="do-better" class="input w-75" name="do-better">
+    <input type="text" id="do-better" class="input w-100" name="do-better">
   </div>
 </div>
 <div class="mb-2">
   <div class="w-75">
     <label for="space" class="mb-05 block fw-bold">Overall, how were the venue facilities and space?</label>
-    <input type="text" id="space" class="input w-75" name="space">
+    <input type="text" id="space" class="input w-100" name="space">
   </div>
 </div>
 <div class="mb-2">
   <div class="w-75">
     <label for="remote" class="fw-bold mb-05 block fw-bold">How well did the remote sessions work?</label>
-    <input type="text" id="remote" class="input w-75" name="remote">
+    <input type="text" id="remote" class="input w-100" name="remote">
   </div>
 </div>
 <div class="mb-2">
@@ -70,8 +70,8 @@ titleDisplay: "Feedback: How’d we do?"
 </div>
 <div class="mb-2">
   <div class="w-75">
-    <label for="reason" class="mb-05 block fw-bold">What best describes your reason for attending Our Networks 2019?</label>
-    <input list="reasons" class="input w-75" id="reason" name="reason">
+    <label for="reason" class="mb-05 block fw-bold">What best describes your reason for attending Our Networks 2020?</label>
+    <input list="reasons" class="input w-100" id="reason" name="reason">
     <datalist id="reasons">
       <option value="The topic interested me">
       <option value="I wanted to contribute my skills to to a meaningful effort">
@@ -84,7 +84,7 @@ titleDisplay: "Feedback: How’d we do?"
 <div class="mb-2">
   <div class="w-75">
     <label for="hear" class="mb-05 block fw-bold">How did you hear about this event?</label>
-    <input type="text" id="hear" class="input w-75" name="hear">
+    <input type="text" id="hear" class="input w-100" name="hear">
   </div>
 </div>
 <div class="mb-2">
@@ -169,7 +169,7 @@ titleDisplay: "Feedback: How’d we do?"
 <div class="mb-2">
   <div class="w-75">
     <label for="demo-equity-group" class="mb-05 block fw-bold">Do you identify as a member of an equity-seeking group?</label>
-    <input list="equity-groups" id="demo-equity-group" class="input w-50" name="demo-equity-group">
+    <input list="equity-groups" id="demo-equity-group" class="input w-100" name="demo-equity-group">
     <datalist id="equity-groups">
       <option value="Persons of Colour">
       <option value="Persons with Disabilities and Persons living with Mental Illness">
@@ -180,9 +180,6 @@ titleDisplay: "Feedback: How’d we do?"
   </div>
 </div>
 <div class="mb-2">
-  <input type="submit" name="submit" value="Submit feedback" class="button button-primary">
+  <input type="submit" name="submit" value="Submit feedback" class="button bg-black color-white">
 </div>
-<input type="hidden" name="_format" value="plain">
-<input type="hidden" name="_subject" value="feedback submitted">
-<input type="hidden" name="_next" value="//ournetworks.ca/feedback?feedback=confirmed">
 </form>
