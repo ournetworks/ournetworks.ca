@@ -6,7 +6,7 @@ redirect_from:
   - "/2020/"
 ---
 
-Our core conference days will now take place **September 8-13, 2020**—we hope you can join us!
+Our core conference days will now take place **September 8-12, 2020**—we hope you can join us!
 
 ---
 {:.full-width}
