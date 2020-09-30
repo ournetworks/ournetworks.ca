@@ -848,6 +848,7 @@
     bio: "Troy Walcott, born and raised in Brooklyn NY and a 20 year veteran of the cable industry. Joining the company when it was Time Warner Cable and continuing when it became Spectrum Cable. Working with the cable company also gave me the opportunity to become a member of the International Brotherhood of Electrical workers, the union that represents the field technical staff that makes up the cable company. I am a shop steward for that union. Up until going on strike my last position held in the company was with survey and design. In a short explanation we were responsible for bringing cable service to the areas of the city who did not have it."
     link: https://unplugspectrum.com/
     linkDisplay: UnplugSpectrum.com
+    linkIgnore: true
     link2: http://internetjustice.net/
     linkDisplay2: InternetJustice.net
     twitter: fasulo_chris
