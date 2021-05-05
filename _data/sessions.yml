@@ -1062,6 +1062,7 @@
     - talk
   moderation:
     - Moderated
+  youtube: AL66uIIUHqw
 
 - sessionID: 20005
   title: "Twitch Paints"
@@ -1137,6 +1138,7 @@
     - discussion
   moderation:
     - Moderated
+  youtube: DiW-eU6WIy0
 
 - sessionID: 20012
   title: "Shuhaku: What did they say?"
@@ -1150,6 +1152,7 @@
     - talk
   moderation:
     - Moderated
+  youtube: b1AlNDKkORk
 
 - sessionID: 20013
   title: "Utopia as Uncertainty - The issue of decentralisation versus classical utopias"
@@ -1163,6 +1166,7 @@
     - talk
   moderation:
     - Moderated
+  youtube: xOU1LS9Gn5U
 
 - sessionID: 20014
   title: "TrustNet: Trust-based and subjective moderation systems"
@@ -1175,6 +1179,7 @@
     - talk
   moderation:
     - Moderated
+  youtube: dKlq3_sPa5U
 
 - sessionID: 20016
   title: "Towards A Common Glossary for Decentralized Technologies"
@@ -1233,6 +1238,7 @@
     - talk
   moderation:
     - Moderated
+  youtube: A2fzBOmnxz4
 
 - sessionID: 20021
   title: "Eigengrau"
@@ -1249,6 +1255,7 @@
   moderation:
     - Moderated
   sessionLink: "https://eigengrau.glitch.me/"
+  youtube: p99qhvvfuX4
 
 - sessionID: 20022
   title: "biton — the Internet potluck"
@@ -1262,6 +1269,7 @@
     - talk
   moderation:
     - Partially Moderated
+  youtube: mzJhYKhaelc
 
 - sessionID: 20023
   title: "Disorientations"
@@ -1302,6 +1310,7 @@
     - talk
   moderation:
     - Moderated
+  youtube: T-IJU5iIXlQ
 
 - sessionID: 20026
   title: "Meme Tactics"
@@ -1368,6 +1377,7 @@
     - performance
   moderation:
     - Moderated
+  youtube: tlSaJ8iCE-s
 
 - sessionID: 20031
   title: "Toward a federation of hybrid spaces"
@@ -1381,6 +1391,7 @@
     - talk
   moderation:
     - Moderated
+  youtube: L6RjzrTnL84
 
 - sessionID: 20033
   title: "On View: Art and technology towards new digital architectures"
@@ -1395,6 +1406,7 @@
     - talk
   moderation:
     - Moderated
+  youtube: xMptPRTkjmU
 
 - sessionID: 20034
   title: "Holistic Digital Authorship"
@@ -1433,6 +1445,7 @@
     - workshop
   moderation:
     - Moderated
+  youtube: Ci69Jt8LkRs
 
 - sessionID: 20037
   title: "Open Learning Commons: A peer-to-peer educational ecosystem"
@@ -1445,6 +1458,7 @@
     - talk
   moderation:
     - Moderated
+  youtube: b37O10fao3s
 
 - sessionID: 20038
   title: "Open Data and Collaboration in Action"
@@ -1547,3 +1561,4 @@
   sessionType:
     - exhibit
   sessionLink: "https://open-weather.community/"
+  youtube: A2fzBOmnxz4
