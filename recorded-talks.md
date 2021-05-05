@@ -20,10 +20,10 @@ Thank you to our A/V volunteers: [Henry Wilkinson](https://github.com/Shrinks99)
 ### Our Networks 2020 videos
 {:.mb-1.mt-2}
 
-{% assign sorted2018Sessions = site.data.sessions[2020] | sort: "title" %}
+{% assign sorted2020Sessions = site.data.sessions[2020] | sort: "title" %}
 
 <div class="flex flex-wrap flex-justify-space-between">
-{%- for session in sorted2018Sessions -%}
+{%- for session in sorted2020Sessions -%}
   {%- if session.ipfs720 or session.ipfs1080 or session.youtube -%}
     {% include session-video.html year=2020 %}
   {%- endif -%}
