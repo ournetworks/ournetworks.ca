@@ -20,7 +20,7 @@
             <a href="https://twitter.com/{{ presenter.twitter }}" target="_blank" rel="noopener">@{{ presenter.twitter }}</a></li>{%- endif -%}
            {%- if presenter.github -%}<li class="bio-sm-list-item">
             <p class="mb-0 fs-small">GitHub</p>
-            <a href="https://github.com/{{ presenter.github }}" target="_blank" rel="noopener">{{ presenter.github }}</a></li>{%- endif -%}
+            <a href="https://github.com/{{ presenter.github }}" target="_blank" rel="noopener" {% if presenter.linkIgnoreGithub %}data-proofer-ignore{% endif %}>{{ presenter.github }}</a></li>{%- endif -%}
           </ul>
         {%- endif -%}
     </div>
