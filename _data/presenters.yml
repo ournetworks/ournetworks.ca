@@ -589,8 +589,9 @@
     bio: "Judith Sönnicken is an artist, quantum field athlete and ancient cosmologist. She holds an MA in Fine Arts (UDK Berlin) and certified in UX and Feng Shui. Her multidimensional practice implies objects, installations, VR, performance, biofield tuning and guided meditation. Her work was shown at Museu Geológico de Portugal/Lisbon, Green Art Gallery/Dubai, Klondike Institute of Art and Culture/Yukon, The Institute of Jamais Vu/London, Cirrus Gallery/Los Angeles, Crane Arts Center/Philadelphia, NAVEL/Los Angeles, documenta14/Athens and 11th Gwangju Biennial."
     link: "https://judithsun.space/"
     linkDisplay: "judithsun.space"
-    link2: "http://hyperobjects.io/ "
+    link2: "http://hyperobjects.io/"
     linkDisplay2: "hyperobjects.io"
+    linkIgnore2: true
     github: "hyperobjects-io"
 
   - presenterID: jason
@@ -600,6 +601,7 @@
     linkDisplay: hongkonggong.com
     twitter: jasonli
     github: hongkonggong
+    linkIgnoreGithub: true
 
   - presenterID: el
     name: "E.L. Guerrero"
@@ -734,6 +736,7 @@
     link: https://www.heidibiggsdesign.com/
     linkDisplay: heidibiggsdesign.com
     link2: https://www.dx-softlab.com/blog/2019/7/29/racquetball-score
+    linkIgnore: true
     linkDisplay2: dxarts softlab Raquetball Score
     twitter: biggshr
 
