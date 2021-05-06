@@ -11,6 +11,7 @@ redirect_from:
 {:.mb-025}
 Full archives of 2020 videos are available:
 
+- IPFS: [ipfs://QmSgVLXPu4ZASkbcebkhXsgx7NjjJx1Xa1ymqkNWaTU4Jt]({{ site.ipfs_gateway }}/ipfs/QmSgVLXPu4ZASkbcebkhXsgx7NjjJx1Xa1ymqkNWaTU4Jt/){: .overflow-wrap}
 - Mirror: [Toronto Mesh Alexandria Mirror](https://alexandria.tomesh.net/ournetworks/2020)
 - Internet Archive: [Our Networks 2020 Talks](https://archive.org/details/ournetworks2020) (torrent available)
 - YouTube playlist: [Our Networks 2020 — Growing Our Networks in Uncertain Times↔Places](https://www.youtube.com/playlist?list=PLx7_J32Ys60eSNBStqqEeVN1cbA-dKf9q)
