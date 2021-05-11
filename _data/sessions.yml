@@ -1062,6 +1062,9 @@
     - talk
   moderation:
     - Moderated
+  youtube: AL66uIIUHqw
+  ipfs720: "QmPcgcZARtqJXxMw72T1eSYr8XmxuQCC8GCuyumzwX79Qd"
+  ipfs1080: "QmTkPqT1tLWTbx3EQEnBj5Ssz73noQ7WGPAqhC1a376hmX"
 
 - sessionID: 20005
   title: "Twitch Paints"
@@ -1088,7 +1091,10 @@
     - talk
   moderation:
     - Moderated
-
+  youtube: IOx1Jua6UQU
+  ipfs720: "QmTB7R1XTMT353cNQbVBYgWgeCGd3pjW87HCDQLhcZtme7"
+  ipfs1080: "QmX9HUN8kCmcaFSggVjERJEm7cPSwWU7LXzJS35fhuUbXC"
+  
 - sessionID: 20007
   title: "The Study: a literary mesh"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/7"
@@ -1137,6 +1143,9 @@
     - discussion
   moderation:
     - Moderated
+  youtube: DiW-eU6WIy0
+  ipfs720: "QmaeFaECtUzwyEfwZLhu9QMYGEWx7bT4ovw2uKF95uk5Em"
+  ipfs1080: "Qmbm5oXqMQ622yqz2WtzKDPuegjGCX5oVVKe6QHG2W1Vvy"
 
 - sessionID: 20012
   title: "Shuhaku: What did they say?"
@@ -1150,6 +1159,9 @@
     - talk
   moderation:
     - Moderated
+  youtube: b1AlNDKkORk
+  ipfs720: "QmQYkuGLAmtXJ2SKQpEkrBKCrVXQ3Tjxbj5Ku32rwvpS8C"
+  ipfs1080: "QmUBJx5nNU5Vw57ZuTS9d6Q8KTXHeDTjCwct6X3LehGt8K"
 
 - sessionID: 20013
   title: "Utopia as Uncertainty - The issue of decentralisation versus classical utopias"
@@ -1163,6 +1175,9 @@
     - talk
   moderation:
     - Moderated
+  youtube: xOU1LS9Gn5U
+  ipfs720: "QmdsrgjPREZjkhMPaMXRmS23RKEgUYrZiADUzcH9GmhVLp"
+  ipfs1080: "QmSRsAuN1pwWVVPjy7DdRvVjTrs1NaEdm98cV2rcgraQwc"
 
 - sessionID: 20014
   title: "TrustNet: Trust-based and subjective moderation systems"
@@ -1175,6 +1190,9 @@
     - talk
   moderation:
     - Moderated
+  youtube: dKlq3_sPa5U
+  ipfs720: "QmcbfEmrcTP6xLf4ETdzMYrzGVG2tEakV318nobgYAvE4P"
+  ipfs1080: "QmWwPDHoqdDt3DTYZXXRRfcEDVsZBsiPP3j7k3BU57vUoB"
 
 - sessionID: 20016
   title: "Towards A Common Glossary for Decentralized Technologies"
@@ -1233,6 +1251,9 @@
     - talk
   moderation:
     - Moderated
+  youtube: A2fzBOmnxz4
+  ipfs720: "QmYWWnPFMc1vokkf2C47TgJ5mRhkShg6mrXqNoNiv8tXUD"
+  ipfs1080: "QmNtRbMuqhzVCFgqWjfDNr2Mrkwy26SE67iAQSobfcpBAj"
 
 - sessionID: 20021
   title: "Eigengrau"
@@ -1249,6 +1270,9 @@
   moderation:
     - Moderated
   sessionLink: "https://eigengrau.glitch.me/"
+  youtube: p99qhvvfuX4
+  ipfs720: "QmepebhqnMwN51QNjseGTrAKqMUKWZT1YYa86gfSeRGq7E"
+  ipfs1080: "QmNZ1NYegTNAw7E7eipH6npXhRKJgMet4ck2VaqP5dYAFY"
 
 - sessionID: 20022
   title: "biton — the Internet potluck"
@@ -1262,7 +1286,10 @@
     - talk
   moderation:
     - Partially Moderated
-
+  youtube: mzJhYKhaelc
+  ipfs720: "QmbQwNapX18hHYTsjEppNZTjNBNhtdQwuHJzeUtY2QPq2x"
+  ipfs1080: "QmYdyughrB2vGMd73YP2GZXDDfadGwAuCoF14APKYNhjuv"
+  
 - sessionID: 20023
   title: "Disorientations"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/23"
@@ -1302,7 +1329,10 @@
     - talk
   moderation:
     - Moderated
-
+  youtube: T-IJU5iIXlQ
+  ipfs720: "QmWguzuXCJ3KPGedJb2kRQYteYczK79TMURkbyX62P3BAC"
+  ipfs1080: "QmNTbTWE33xdimuzaA5Uhcp4i6uPdvZiLQFzRyFuCmwBAb"
+  
 - sessionID: 20026
   title: "Meme Tactics"
   descriptionLink: "https://github.com/ournetworks/2020-submissions/issues/26"
@@ -1355,6 +1385,9 @@
     - round-table
   moderation:
     - Moderated
+  youtube: _oAbhX3O8nc
+  ipfs720: "QmbiyWvgCU3TAzmZgXJT7YgDQNWbfdYngD35qwfYDCeqYR"
+  ipfs1080: "QmTXRdSbgeQzgqQEVyviHZdMdRrU2xwn4NnMA3cSF9r5GY"
 
 - sessionID: 20030
   title: "Listening Space"
@@ -1368,6 +1401,9 @@
     - performance
   moderation:
     - Moderated
+  youtube: tlSaJ8iCE-s
+  ipfs720: "QmcmBtD4f7z7J8x2tQvn4gEvLbZSaSTLaktkd5oGRporGY"
+  ipfs1080: "QmQ4uVb4pwUPjN2xfBf91ZqPWoXEncyVCYiVvq5zWyuMrc"
 
 - sessionID: 20031
   title: "Toward a federation of hybrid spaces"
@@ -1381,6 +1417,9 @@
     - talk
   moderation:
     - Moderated
+  youtube: L6RjzrTnL84
+  ipfs720: "QmeNuhXg3vQucu8aAnc5YDobznVP4mnkjVc9PpsvmEpzaa"
+  ipfs1080: "QmZm7B6q1kE1hxk5WNAn6yFTdCSV9e6D1aW3wAbiWGnZYh"
 
 - sessionID: 20033
   title: "On View: Art and technology towards new digital architectures"
@@ -1395,6 +1434,9 @@
     - talk
   moderation:
     - Moderated
+  youtube: xMptPRTkjmU
+  ipfs720: "QmYVt2Tfx62z6JuV8rX8b2aGU5DcqMd1W7ez9LwfnzZho9"
+  ipfs1080: "QmSBeFvnb88rgRifkxi4QpWikxpNjAy6WvXoMXAk5wuS3J"
 
 - sessionID: 20034
   title: "Holistic Digital Authorship"
@@ -1433,6 +1475,9 @@
     - workshop
   moderation:
     - Moderated
+  youtube: Ci69Jt8LkRs
+  ipfs720: "QmeMa6MAiRtXoPxmWpqFVve5taZTLLyRLAGmNv1xuwDQbm"
+  ipfs1080: "QmdBT5kozayvSEBNQSgBJjzQtRzfvrUp9uiPynKVkFsuq7"
 
 - sessionID: 20037
   title: "Open Learning Commons: A peer-to-peer educational ecosystem"
@@ -1445,6 +1490,9 @@
     - talk
   moderation:
     - Moderated
+  youtube: b37O10fao3s
+  ipfs720: "QmQ97dwjnH7uo4d1BbgX7Dt5ZGQmfhR1F3tnzDRnLnXfqW"
+  ipfs1080: "QmNtuyjxTaiZ8aWacfRMCwjr16oSK2Dva4ocoJvdh3mmWf"
 
 - sessionID: 20038
   title: "Open Data and Collaboration in Action"

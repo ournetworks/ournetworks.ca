@@ -7,6 +7,33 @@ redirect_from:
   - "/conference/recorded-talks"
 ---
 
+## Our Networks 2020 archive
+{:.mb-025}
+Full archives of 2020 videos are available:
+
+- IPFS: [ipfs://QmSgVLXPu4ZASkbcebkhXsgx7NjjJx1Xa1ymqkNWaTU4Jt]({{ site.ipfs_gateway }}/ipfs/QmSgVLXPu4ZASkbcebkhXsgx7NjjJx1Xa1ymqkNWaTU4Jt/){: .overflow-wrap}
+- Mirror: [Toronto Mesh Alexandria Mirror](https://alexandria.tomesh.net/ournetworks/2020)
+- Internet Archive: [Our Networks 2020 Talks](https://archive.org/details/ournetworks2020) (torrent available)
+- YouTube playlist: [Our Networks 2020 — Growing Our Networks in Uncertain Times↔Places](https://www.youtube.com/playlist?list=PLx7_J32Ys60eSNBStqqEeVN1cbA-dKf9q)
+
+Thank you to our A/V volunteers: [Henry Wilkinson](https://github.com/Shrinks99), and [Elon Li](https://github.com/ASoTNetworks).
+
+### Our Networks 2020 videos
+{:.mb-1.mt-2}
+
+{% assign sorted2020Sessions = site.data.sessions[2020] | sort: "title" %}
+
+<div class="flex flex-wrap flex-justify-space-between">
+{%- for session in sorted2020Sessions -%}
+  {%- if session.ipfs720 or session.ipfs1080 or session.youtube -%}
+    {% include session-video.html year=2020 %}
+  {%- endif -%}
+{%- endfor -%}
+</div>
+
+---
+{:.extended}
+
 ## Our Networks 2019 archive
 {:.mb-025}
 Full archives of 2019 videos are available:

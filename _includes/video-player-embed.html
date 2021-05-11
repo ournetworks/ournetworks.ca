@@ -1,0 +1,45 @@
+<div class="stream-container relative flex flex-wrap flex-align-center mb-1">
+  <video id="live" class="video-js vjs-default-skin vjs-big-play-centered" data-setup='{"fluid": true}'
+   controls preload autoplay loop>
+    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
+  </video>
+
+  <div class="stream-selector absolute flex flex-justify-center flex-align-center bg-white" id="streamSelector">
+    <div id="selectStream" class="selector-option">
+      <h2 id="selectingTitle">Select source</h2>
+      <div class="stream-selector-options flex flex-justify-center flex-align-center">
+        <div class="stream-option-wrapper flex relative flex-justify-center" id="ipfsStream">
+          <button class="stream-option flex-justify-center flex-align-center ipfs-stream bg-white">
+            <span class="button-label">IPFS</span>
+          </button>
+          <div class="stream-option-title-helper none absolute pt-s">
+            <p>Play the stream through a peer-to-peer hypermedia protocol. More at <a href="https://ipfs.io" target="_blank" data-proofer-ignore>ipfs.io</a></p>
+          </div>
+        </div>
+        <div class="stream-option-wrapper flex relative flex-justify-center" id="httpStream">
+          <button class="stream-option flex-justify-center flex-align-center http-stream bg-white">
+            <span class="button-label">HTTP</span>
+          </button>
+          <div class="stream-option-title-helper none absolute pt-s">
+            <p>Play the stream through a media server over HTTP</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="loadingStream" class="selector-option" style="display:none;">
+      <h3 id="loadingTitle" class="mt-0">Locating stream...</h3>
+      <div class="stream-message" id="msg"></div>
+    </div>
+  </div>
+
+  {% if page.url != '/video/' %}
+    <div class="share-container w-100 mt-1 flex">
+      <button class="share-tweet mr-1 compact">Share on Twitter</button>
+      <button class="share-link mr-1 compact">Share link</button>
+      <input type="text" class="compact" style="flex:1; text-overflow: ellipsis" id="link" />
+    </div>
+  {% endif %}
+</div>
+
+<script src="/js/vendor/video.min.js?{{site.time | date: '%s%N'}}"></script>
+<script src="/js/video-player-embed.js?{{site.time | date: '%s%N'}}"></script>
