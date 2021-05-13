@@ -1,4 +1,0 @@
-{%- for session in site.data.sessions -%}
-  {%- assign sessionObject = session[1] | where: "sessionID", include.session-id | first -%}
-  {{ sessionObject.sessionType }}
-{%- endfor -%}

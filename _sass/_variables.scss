@@ -1,24 +1,3 @@
-// Fonts
-
-@font-face {
-  font-family: metaflop;
-  src: url('fonts/Bespoke-BsmlHa3kJa.woff') format('woff');
-  font-display: swap;
-}
-
-@font-face {
-  font-family: SourceCode;
-  src: url('fonts/SourceCodePro-Regular.otf.woff2') format('woff2');
-  font-display: swap;
-}
-
-@font-face {
-  font-family: SourceCode;
-  src: url('fonts/SourceCodePro-Bold.otf.woff2') format('woff2');
-  font-weight: bold;
-  font-display: swap;
-}
-
 // Typography Variables
 
 $base-font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
@@ -32,7 +11,7 @@ $base-margin-bottom: 1em;
 
 $spacing-unit: 2em;
 
-$mono-font-family: SourceCode,Consolas,Liberation Mono,Menlo,Courier,monospace;
+$mono-font-family: Consolas,Liberation Mono,Menlo,Courier,monospace;
 
 // Color Variables
 
