@@ -31,12 +31,11 @@
   </header>
   <div class="m-1">
     <div class="fs-small">
-      <p>{{ session.description | truncatewords: 20 | markdownify }}
+      {{ session.description | truncatewords: 20 | markdownify }}
         {%- unless session.sessionType == "orga" or session.sessionType == "lightning-talk" -%}
-          <span class="read-more">
-          <a href="https://{{ include.year }}.ournetworks.ca/{%- if include.program-path -%}{{ include.program-path }}{% else %}program{%- endif -%}/#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}" rel="noopener">See session description</a></span>
+        <p><span class="read-more">
+          <a href="https://{{ include.year }}.ournetworks.ca/{%- if include.program-path -%}{{ include.program-path }}{% else %}program{%- endif -%}/#{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}" rel="noopener">See session description</a></span></p>
         {%- endunless -%}
-      </p>
       <div class="video-links-container pt-1">
         <h5 class="fs-small fw-normal mt-0">Watch elsewhere:</h5>
         {%- if session.ipfs720 or session.ipfs1080 or session.youtube -%}

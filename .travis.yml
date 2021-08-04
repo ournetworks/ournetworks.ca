@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.6.3
+  - 2.7.3
 
 before_install:
   # Here, we decrypt a passwordless ssh key for acting as a user on the server named "travis"
@@ -51,8 +51,4 @@ after_deploy:
   - npx @sammacbeth/dat-publisher update --del -s $DATKEY --seedtime 180 $DATADDRESS _site/
 
 notifications:
-  email:
-    recipients:
-      - orga@ournetworks.ca
-    on_success: change
-    on_failure: change
+  email: false
