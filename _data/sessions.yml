@@ -781,16 +781,6 @@
       - src: nahee-1.png
         alt: Torrents of Se, Nahee Kim
 
-  - sessionID: 19033
-    title: "Waiting for NIN in New Orleans"
-    descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/33"
-    presenterID:
-      - jennifer
-    description: "Reterritorializing Hybrid Space from Avant-Garde to Avantpop, A Media Archaeology of Process-Based Platforms of the Artist-Run Counter-Institution"
-    sessionType: "talk"
-    date: 2019-09-XX
-    length: X
-
   - sessionID: 19034
     title: "Remaking the web: Competing visions of decentralization"
     descriptionLink: "https://github.com/ournetworks/2019-submissions/issues/34"
