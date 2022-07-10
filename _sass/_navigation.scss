@@ -24,7 +24,7 @@
     display: inline-flex;
     white-space: nowrap;
     border: 1px solid $black;
-    border-radius: 20px;
+    border-radius: 5px;
     text-decoration: none;
 
     @media (max-width: $on-palm) {
@@ -155,9 +155,8 @@ input[type="checkbox"].menu-btn {
     display: block;
     white-space: nowrap;
     padding: 8px 10px;
-    border-radius: 20px;
     border: 1px solid $black;
-    border-radius: 20px;
+    border-radius: 5px;
     text-decoration: none;
     background: $white;
   }
