@@ -35,6 +35,7 @@
     &:hover,
     &.active {
       background: $accent-color;
+      color: $white;
 
       .nav-item-sub {
         display: block;
@@ -99,7 +100,7 @@ input[type="checkbox"].menu-btn {
 
   &:checked ~ .menu-icon {
     background: $accent-color;
-    color: $black;
+    color: $white;
   }
 
   &:checked ~ .menu-icon:after {
@@ -164,7 +165,7 @@ input[type="checkbox"].menu-btn {
   a:hover,
   a:focus,
   a.active, {
-    color: $black;
+    color: $white;
     background: $accent-color;
   }
 
