@@ -81,7 +81,7 @@ p {
 // Heading helpers
 
 .heading-1 {
-  @include fluid-type(320px,1980px,60px, 80px);
+  font-size: 59px;
 
   @media (max-width: $on-palm) {
     font-size: 40px;
@@ -89,15 +89,15 @@ p {
 }
 
 .heading-2 {
-  @include fluid-type(320px,1980px,40px,65px);
-}
-
-.heading-2-5 {
-  @include fluid-type(320px,1980px,30px,80px);
+  font-size: clamp(40px, 2.5vw, 65px);
 }
 
 .heading-3 {
-  @include fluid-type(320px,1980px,18px,30px);
+  font-size: 30px;
+
+  @media (max-width: $on-palm) {
+    font-size: 18px;
+  }
 }
 
 // Font-weight helpers

@@ -2,9 +2,9 @@
   z-index: 100;
 
   @media (max-width: $on-palm) {
-    background: $white;
+    background: $black;
     position: fixed;
-    box-shadow: 0 1px 0 0 $accent-color;
+    box-shadow: 0 1px 0 0 $white;
     max-height: 100vh;
     overflow: scroll;
   }
@@ -23,7 +23,7 @@
     padding: 10px 15px;
     display: inline-flex;
     white-space: nowrap;
-    border: 1px solid $black;
+    border: 1px solid $white;
     border-radius: 5px;
     text-decoration: none;
 
@@ -40,6 +40,11 @@
       .nav-item-sub {
         display: block;
       }
+    }
+
+    &.active {
+      color: $black;
+      background: $white;
     }
   }
 
@@ -78,7 +83,7 @@
       padding: 1em;
 
       a {
-        color: $black;
+        color: $white;
       }
     }
   }
@@ -113,7 +118,8 @@ input[type="checkbox"].menu-btn {
 }
 
 .menu-icon {
-  background: $black;
+  background: $white;
+  color: $black;
   padding: 0.5em 1em 0.5em 1em;
   font-size: 0.85em;
   margin-right: 20px;
@@ -136,6 +142,7 @@ input[type="checkbox"].menu-btn {
   }
 
   svg {
+    fill: currentColor;
     width: 40px;
     height: 100%;
   }
@@ -155,17 +162,21 @@ input[type="checkbox"].menu-btn {
     display: block;
     white-space: nowrap;
     padding: 8px 10px;
-    border: 1px solid $black;
+    border: 1px solid $white;
     border-radius: 5px;
     text-decoration: none;
-    background: $white;
+    background: $black;
   }
 
   a:hover,
-  a:focus,
-  a.active, {
+  a:focus {
     color: $white;
     background: $accent-color;
+  }
+
+  a.active {
+    color: $black;
+    background: $white;
   }
 
   &:empty {

@@ -44,7 +44,7 @@ figcaption {
 // Links
 
 a {
-  color: $black;
+  color: $white;
 
   &:hover,
   &:focus,
@@ -61,7 +61,7 @@ hr {
   border-width: 0;
   border-top-width: 1px;
   border-style: solid;
-  border-color: $accent-color;
+  border-color: $white;
 
   &.full-width {
     margin-left: -30px;
