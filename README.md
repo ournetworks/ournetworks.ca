@@ -1,6 +1,6 @@
 # ournetworks.ca
 
-[![Build Status](https://travis-ci.org/ournetworks/ournetworks.ca.svg?branch=master)](https://travis-ci.org/ournetworks/ournetworks.ca)
+[![Jekyll CI](https://github.com/ournetworks/ournetworks.ca/actions/workflows/ci.yml/badge.svg)](https://github.com/ournetworks/ournetworks.ca/actions/workflows/ci.yml)
 
 This repository holds the source code and static assets of [ournetworks.ca](http://ournetworks.ca), built with [Jekyll](https://jekyllrb.com/), [Normalize.css](http://necolas.github.io/normalize.css/), and icons from [Font Awesome](http://fontawesome.io/). Previous releases have included video stream source code from [Toronto Mesh](https://github.com/tomeshnet/ipfs-live-streaming/) and [Video.js](https://videojs.com), graphic assets from [IPFS](https://github.com/ipfs/artwork) and loading animation from [jxnblk/loading](https://github.com/jxnblk/loading).
 
@@ -25,9 +25,9 @@ Unless otherwise indicated, State of Our Networks **content and documentation** 
 
 ## Deployment
 
-- We auto-deploy `master` branch to
-  [`ournetworks.ca`](https://ournetworks.ca) via Travis CI.
-  (See [`.travis.yml`](https://github.com/ournetworks/ournetworks.ca/blob/master/.travis.yml#L22-L30))
+- We auto-deploy `main` branch to
+  [`ournetworks.ca`](https://ournetworks.ca) via GitHub Actions.
+  (See [`.github/workflows/deploy.yml`](https://github.com/ournetworks/ournetworks.ca/blob/main/.github/workflows/deploy.yml))
 
 ### Deploying to Dat
 
