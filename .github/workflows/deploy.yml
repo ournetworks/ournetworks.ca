@@ -32,7 +32,7 @@ jobs:
     needs: [build]
     environment:
       name: production
-      url: https://ournetworks.cs
+      url: https://ournetworks.ca
     steps:
     - uses: actions/cache@v3
       id: build-cache
