@@ -20,19 +20,12 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   </head>
   <body>
-    <main class="bg-white {% if page.fullWidth %}container-full-width{% else %}w-main{% endif%}">
+    <main class="bg-black {% if page.fullWidth %}container-full-width{% else %}w-main{% endif%}">
     {% include nav.html %}
     {{ content }}
     {% include footer.html %}
     </main>
     <div class="bg-element fixed top-0 h-100 bg-accent right-0 overflow-hidden flex flex-justify-space-between flex-align-end flex-wrap flex-align-content-end">
-      <div class="mono text-right flex-grow">
-        <div class="container ml-05">
-          <h1 class="fw-normal" id="clock-element">00:00:00</h1>
-          <h2 class="fs-medium fw-normal mb-0">UTC-4</h2>
-          <h3 class="fs-medium fw-normal mt-0">America/Toronto</h3>
-        </div>
-      </div>
     </div>
     <script async src="{{ '/js/main.js' | relative_url }}?{{ site.time | date: '%s%N' }}"></script>
   </body>

@@ -15,13 +15,12 @@ $mono-font-family: Consolas,Liberation Mono,Menlo,Courier,monospace;
 
 // Color Variables
 
-$text-color: #111;
+$text-color: #fff;
 $background-color: #fff;
 
 // Ground Green
 
-$accent-color: #00FF00;
-$accent-color-mod: #FFFF00;
+$accent-color: #111;
 
 .color-accent {
   color: $accent-color;
@@ -58,12 +57,6 @@ $black: #000;
 // Grey
 
 $grey: #666;
-
-.color-grey {
-  color: $grey;
-}
-
-$grey-table-borders: rgba($black, 0.1);
 
 // Content Layout Variables
 

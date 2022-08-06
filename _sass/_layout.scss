@@ -312,7 +312,7 @@
   padding: 30px 0;
 
   @media (max-width: $on-palm) {
-    padding-top: 100px;
+    padding-top: 120px;
   }
 }
 
@@ -320,7 +320,7 @@
 
 .splash-hero {
   @media (max-width: $on-palm) {
-    padding-top: 100px;
+    padding-top: 120px;
   }
 }
 
@@ -342,7 +342,7 @@
 // Borders
 
 .border-top {
-  border-top: 5px solid $accent-color;
+  border-top: 1px solid $white;
 }
 
 .border-bottom {

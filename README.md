@@ -10,7 +10,7 @@ Logo by [Marlo Yarlo](http://www.marloyarlo.com/). [2020 design concept](https:/
 
 ## License & Copyright
 
-Copyright (C) 2020 garrying, dcwalk, benhylau, sarah, patcon, eloisa, mauve, amelia
+Copyright (C) 2022 garrying, dcwalk, benhylau, sarah, patcon, eloisa, mauve, amelia
 
 Ournetworks.ca **code** at [ournetworks/ournetworks.ca](https://github.com/ournetworks/ournetworks.ca/) is licensed under a [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl.html). This program is free software: you can redistribute it and/or modify it under the terms of the [GNU General Public License](https://www.gnu.org/licenses/gpl.html) as published by the Free Software Foundation, version 3.0. A copy is distributed with the code at [`LICENSE.md`](./LICENSE.md).
 
@@ -42,5 +42,3 @@ Generally, the following steps occur in Travis CI as updates are commited, or me
 - `cd [destination folder]`
 - Import the archive's secret key: `dat keys import`
 - Update archive: `dat sync`
-
-
