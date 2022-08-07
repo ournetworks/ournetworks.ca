@@ -21,5 +21,11 @@ jobs:
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Build site
       run: bundle exec jekyll build
+    - name: Cache HTMLProofer
+      id: cache-htmlproofer
+      uses: actions/cache@v2
+      with:
+        path: tmp/.htmlproofer
+        key: ${{ runner.os }}-htmlproofer
     - name: Run tests
       run: bundle exec rake
