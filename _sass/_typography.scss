@@ -7,6 +7,7 @@ h4,
 h5,
 h6 {
   line-height: $base-heading-line-height;
+  margin-bottom: 0.5em;
 }
 
 h1 {
@@ -19,7 +20,6 @@ h2 {
 }
 
 h3 {
-  margin-top: 1em;
   font-size: 1.56rem;
 }
 
@@ -47,14 +47,15 @@ p {
   font-variation-settings: "wght" 401.49;
 }
 
+.authentic-condensed-60 {
+  font-family: AuthenticSans-Condensed;
+  font-weight: 60;
+}
+
 // Typography helper classes
 
 .fs-small {
-  font-size: $small-font-size;
-}
-
-.fs-medium {
-  font-size: $medium-font-size;
+  font-size: 0.75em;
 }
 
 .text-center {
@@ -69,13 +70,16 @@ p {
   text-align: left !important;
 }
 
-.highlight {
-  background: rgba($accent-color,.1);
-}
-
-
 .lh-1 {
   line-height: 1em;
+}
+
+.lh-09 {
+  line-height: 0.9em;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 // Heading helpers
@@ -100,6 +104,10 @@ p {
   }
 }
 
+.heading-display {
+  font-size: clamp(40px, 11vw, 150px)
+}
+
 // Font-weight helpers
 
 .fw-bold {
@@ -113,5 +121,5 @@ p {
 // Word break helper
 
 .overflow-wrap {
-  overflow-wrap: break-word;
+  word-break: break-all;
 }

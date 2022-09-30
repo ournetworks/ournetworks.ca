@@ -56,6 +56,10 @@
   overflow: hidden;
 }
 
+.round {
+  border-radius: 30px;
+}
+
 // Grid
 
 .content-width {
@@ -68,14 +72,6 @@
 
   @media (max-width: $content-width) {
     margin: 0 20px;
-  }
-}
-
-.container-full-width {
-  max-width: calc(960px + 60px);
-
-  & + .bg-element {
-    left: calc(960px + 60px);
   }
 }
 
@@ -181,7 +177,7 @@
 }
 
 .w-main {
-  max-width: calc(#{$content-width} + 60px);
+  max-width: 50%;
 }
 
 // Padding
@@ -300,83 +296,48 @@
   }
 }
 
-// Events
-
-.event-time-location {
-  .icon {
-    min-width: 1.75em;
-  }
-}
-
-.post {
-  padding: 30px 0;
-
-  @media (max-width: $on-palm) {
-    padding-top: 120px;
-  }
-}
-
-// Splash
-
-.splash-hero {
-  @media (max-width: $on-palm) {
-    padding-top: 120px;
-  }
-}
-
-// Social Media Biography
-
-.bio-sm-list-item {
-  margin-right: $spacing-unit / 2;
-  margin-top: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-
-  @media (max-width: $content-width) {
-    flex-basis: 50%;
-    margin: 0;
-  }
-}
-
 // Borders
 
 .border-top {
-  border-top: 1px solid $white;
+  border-top: 1px solid var(--white);
 }
 
 .border-bottom {
-  border-bottom: 1px solid $black;
+  border-bottom: 1px solid var(--black);
 }
 
 .border-0 {
   border: 0;
 }
 
-// BG element
+// 2047
 
-.bg-element {
-  left: calc(#{$content-width} + 60px);
+.content-2047 {
+  padding: 10px 30px 0;
+
+  &:before {
+    font-size: 12px;
+    display: inline-block;
+    content: '● 2047';
+    background: white;
+    color: var(--accent);
+    border-radius: 9999px;
+    padding: 0.25em 1em;
+    margin-bottom: 1em;
+  }
 }
 
-// Registration panel
+.content-2047-inner {
+  max-height: 50vh;
+  overflow-y: scroll;
+  padding-right: 1em;
 
-.register-panel {
-  font-size: $small-font-size;
-  min-width: 300px;
-
-  th,td {
-    vertical-align: top;
-    width: auto;
+  &::-webkit-scrollbar {
+    width: 1em;
   }
 
-  @media (max-width: 1030px) {
-    display: none;
-  }
-
-  .container-full-width + .bg-element & {
-    @media (max-width: 1320px) {
-      display: none;
-    }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 9999px;
+    background-color: var(--white);
   }
 }

@@ -1,19 +1,12 @@
-<header class="header w-100 top-0">
-  <div class="announcement fs-medium pb-s pt-s" role="alert">
-    <div class="container">
-      <p class="m-0">
-        Our Networks 2020 has ended! Check out <a href="/recorded-talks/">videos of recorded talks</a>.
-      </p>
-    </div>
-  </div>
+<header class="header w-100 top-0 mb-2">
   <div class="container flex relative m-0 w-100 flex-align-center flex-justify-space-between">
     <a class="logo" href="{{ "/" | relative_url }}" rel="home" title="{{ site.title }}">
       {% include logo/soon-logo.svg %}
     </a>
     <input class="menu-btn none" type="checkbox" id="menu-btn" />
-    <label class="menu-icon none color-white bg-black fw-bold" for="menu-btn"><span>Menu</span></label>
+    <label class="menu-icon none color-white bg-black" for="menu-btn"><span>Menu</span></label>
     <nav class="nav w-100" aria-label="Primary Menu">
-      <ul class="menu flex w-100 text-center fw-bold ls-none">
+      <ul class="menu flex w-100 text-center ls-none">
         {% assign currentTitle = page.title %}
         {% assign current = page.url %}
         {% assign sorted_pages = site.pages | sort: "order" %}

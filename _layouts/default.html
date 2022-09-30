@@ -20,13 +20,11 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   </head>
   <body>
-    <main class="bg-black {% if page.fullWidth %}container-full-width{% else %}w-main{% endif%}">
+    <main>
     {% include nav.html %}
     {{ content }}
     {% include footer.html %}
     </main>
-    <div class="bg-element fixed top-0 h-100 bg-accent right-0 overflow-hidden flex flex-justify-space-between flex-align-end flex-wrap flex-align-content-end">
-    </div>
     <script async src="{{ '/js/main.js' | relative_url }}?{{ site.time | date: '%s%N' }}"></script>
   </body>
 </html>

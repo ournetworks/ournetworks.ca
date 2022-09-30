@@ -1,62 +1,50 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --dusk: #1c1c1a;
+  --accent: #5200ff;
+}
+
 // Typography Variables
 
-$base-font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
-$base-font-size: 16px;
-$base-font-weight: normal;
-$medium-font-size: 14px;
-$small-font-size: 12px;
+$base-font-family: AuthenticSans,arial,sans-serif;
+$base-font-size: 1em;
+$base-font-weight: 90;
 $base-line-height: 1.45;
 $base-heading-line-height: 1.2;
 $base-margin-bottom: 1em;
 
-$spacing-unit: 2em;
+$mono-font-family: Sligoil,Courier,monospace;
 
-$mono-font-family: Consolas,Liberation Mono,Menlo,Courier,monospace;
-
-// Color Variables
-
-$text-color: #fff;
-$background-color: #000;
-
-// Ground Green
-
-$accent-color: #111;
+// 2047 Accent
 
 .color-accent {
-  color: $accent-color;
+  color: var(--accent);
 }
 
 .bg-accent {
-  background: $accent-color;
+  background: var(--accent);
 }
 
 // White
 
-$white: #fff;
-
 .color-white {
-  color: $white;
+  color: var(--white);
 }
 
 .bg-white {
-  background: $white;
+  background: var(--white);
 }
 
 // Black
 
-$black: #000;
-
 .color-black {
-  color: $black;
+  color: var(--black);
 }
 
 .bg-black {
-  background: $black;
+  background: var(--black);
 }
-
-// Grey
-
-$grey: #666;
 
 // Content Layout Variables
 
