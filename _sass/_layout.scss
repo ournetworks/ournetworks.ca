@@ -305,15 +305,30 @@
   position: relative;
 
   &:before {
-    font-size: 12px;
+    font-size: 20px;
     display: inline-block;
     content: '● 2047';
-    background: white;
+    background: var(--white);
     color: var(--accent);
     border-radius: 9999px;
     padding: 0.25em 1em;
     margin-bottom: 1em;
     position: relative;
+    z-index: 1000;
+  }
+
+  &:after {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 22px;
+    left: 32px;
+    display: inline-block;
+    content: '';
+    background: var(--accent);
+    border-radius: 9999px;
+    padding: 0.25em 1em;
+    margin-bottom: 1em;
     z-index: 1000;
   }
 }
