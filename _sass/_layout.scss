@@ -67,12 +67,7 @@
 }
 
 .container {
-  margin: 0 30px;
   padding: 0 20px;
-
-  @media (max-width: $content-width) {
-    margin: 0 20px;
-  }
 }
 
 .none {
@@ -158,6 +153,7 @@
 
 .w-50 {
   width: calc(50% - 0.5em);
+  max-width: $content-width;
 
   @media (max-width: $on-palm) {
     width: 100%;
@@ -177,7 +173,7 @@
 }
 
 .w-main {
-  max-width: 50%;
+  max-width: $content-width;
 }
 
 // Padding
@@ -288,14 +284,6 @@
   margin-left: 1em;
 }
 
-// For devices larger than 320px
-
-@media (min-width: 320px) {
-  .container {
-    padding: 0;
-  }
-}
-
 // Borders
 
 .border-top {
@@ -313,7 +301,8 @@
 // 2047
 
 .content-2047 {
-  padding: 10px 30px 0;
+  padding: 20px 30px;
+  position: relative;
 
   &:before {
     font-size: 12px;
@@ -324,6 +313,8 @@
     border-radius: 9999px;
     padding: 0.25em 1em;
     margin-bottom: 1em;
+    position: relative;
+    z-index: 1000;
   }
 }
 
@@ -332,8 +323,10 @@
   overflow-y: scroll;
   padding-right: 1em;
 
+  scrollbar-color: var(--white);
+
   &::-webkit-scrollbar {
-    width: 1em;
+    width: 1.5em;
   }
 
   &::-webkit-scrollbar-thumb {

@@ -10,6 +10,7 @@ Our Networks is dedicated to providing a harassment-free environment for everyon
 In order to reduce obstacles to participation, we have adopted an explicitly-documented code to communicate our expectations for conduct at the event.
 
 ## Expected behaviour
+{:.authentic-condensed-60}
 
 We expect event participants or organizers to remain mindful of, and take responsibility for, their speech and behavior. This includes:
 
@@ -18,6 +19,7 @@ We expect event participants or organizers to remain mindful of, and take respon
 * respecting physical and emotional boundaries
 
 ## Unacceptable behaviour
+{:.authentic-condensed-60}
 
 We do not tolerate harassment of event participants or organizers in any form. Harassment includes, but is not limited to:
 
@@ -32,10 +34,12 @@ We do not tolerate harassment of event participants or organizers in any form. H
 Participants asked to stop any harassing behavior are expected to comply immediately. Participants violating these rules may be sanctioned or asked to leave, at the discretion of the organizers.
 
 ## Scope
+{:.authentic-condensed-60}
 
 This Code of Conduct applies at the event, in the online spaces of the conference, and in public spaces when an individual is representing Our Networks.
 
 ## Content Moderation Guidelines
+{:.authentic-condensed-60}
 
 To ensure this Code of Conduct is enforceable in an online context across platforms, we have some guidelines about the types of spaces the conference includes.
 
@@ -59,6 +63,7 @@ For a session to be considered "moderateable" for this conference, the minimum f
   Because of the limits of machine translation, the organizers and volunteers are only able to moderate text written in English, unless arranged in advance.
 
 ## Enforcement
+{:.authentic-condensed-60}
 
 At events, Our Networks organizers will identify themselves and any incidents can be reported to them directly. Event organizers will be happy to help participants by providing escorts, contacting local law enforcement (only if appropriate and requested), or otherwise assisting those experiencing harassment to feel safe for the duration of an event. We value your participation.
 

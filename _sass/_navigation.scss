@@ -3,9 +3,7 @@
   font-size: 0.75em;
 
   @media (max-width: $on-palm) {
-    background: var(--black);
-    position: fixed;
-    box-shadow: 0 1px 0 0 var(--white);
+    background: var(--dusk);
     max-height: 100vh;
     overflow: scroll;
   }
@@ -14,8 +12,7 @@
     padding: 1em 30px;
 
     @media (max-width: $on-palm) {
-      padding: 0.5em 0;
-      width: unset;
+      padding: 1em 0;
       flex-wrap: wrap;
     }
   }
@@ -32,22 +29,22 @@
     color: var(--dusk);
     aspect-ratio: 1/1;
 
-    @media (max-width: $on-palm) {
-      display: block;
-      padding: 0.75em 0 0.75em;
-    }
-
     &:hover,
     &.active {
+      color: var(--white);
+      background: var(--black);
 
       .nav-item-sub {
         display: block;
       }
     }
 
-    &.active {
-      color: var(--black);
-      background: var(--white);
+    &:active {
+      background: var(--accent);
+    }
+
+    @media (max-width: $on-palm) {
+      aspect-ratio: unset;
     }
   }
 
@@ -68,27 +65,22 @@
       margin-right: 1px;
 
       @media (max-width: $on-palm) {
-        margin-right: 0;
+
+        width: 100%;
 
         &[aria-haspopup="true"] {
-          margin: 2em 0;
+          margin: 0.25em 0;
         }
 
         &[aria-haspopup="true"]:first-child {
           margin-top: 0;
+          margin-bottom: 0;
         }
       }
     }
 
     @media (max-width: $on-palm) {
-      display: block;
-      margin-top: 0.5em;
-      margin-bottom: -0.5em;
-      padding: 1em;
-
-      a {
-        color: var(--white);
-      }
+      flex-wrap: wrap;
     }
   }
 }
@@ -104,20 +96,12 @@
 input[type="checkbox"].menu-btn {
   &:checked ~ .nav {
     display: block;
-    padding-bottom: calc(60px + 0.75em);
+    padding-bottom: 3em;
   }
 
   &:checked ~ .menu-icon {
-    background: var(--accent);
+    background: var(--black);
     color: var(--white);
-  }
-
-  &:checked ~ .menu-icon:after {
-    content: 'Close';
-  }
-
-  &:checked ~ .menu-icon span {
-    display: none;
   }
 }
 
@@ -125,9 +109,10 @@ input[type="checkbox"].menu-btn {
   background: var(--white);
   color: var(--black);
   padding: 0.5em 1em 0.5em 1em;
-  font-size: 0.85em;
+  aspect-ratio: 1/1;
   margin-right: 20px;
   cursor: pointer;
+  align-items: flex-end;
 
   @media (max-width: $on-palm) {
     display: inline-flex;
@@ -174,7 +159,7 @@ input[type="checkbox"].menu-btn {
   a:hover,
   a:focus {
     color: var(--white);
-    background: var(--accent);
+    background: var(--black);
   }
 
   a.active {
@@ -195,20 +180,14 @@ input[type="checkbox"].menu-btn {
       }
     }
   }
+  .nav-item {
+    min-width: 100%;
+  }
   .nav-item-sub {
     display: block;
     position: inherit;
     width: 100%;
     float: none;
-    box-shadow: none;
     margin-bottom: 0;
-
-    li:first-child {
-      padding-top: 0;
-    }
-
-    a {
-      padding: 0.75em 1em;
-    }
   }
 }

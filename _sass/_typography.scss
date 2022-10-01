@@ -54,6 +54,10 @@ p {
 
 // Typography helper classes
 
+.fs-normal {
+  font-size: 1em;
+}
+
 .fs-small {
   font-size: 0.75em;
 }
@@ -98,14 +102,14 @@ p {
 
 .heading-3 {
   font-size: 30px;
-
-  @media (max-width: $on-palm) {
-    font-size: 18px;
-  }
 }
 
 .heading-display {
-  font-size: clamp(40px, 11vw, 150px)
+  font-size: clamp(40px, 11vw, 150px);
+
+  @media (max-width: $on-palm) {
+    font-size: clamp(100px, 1vw, 150px);
+  }
 }
 
 // Font-weight helpers
