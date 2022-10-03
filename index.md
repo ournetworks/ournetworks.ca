@@ -22,3 +22,17 @@ So once again, what will we make of our futures? How do we learn from our pasts?
 To participate all you need is an internet connection to join us during the event annotating the wiki of this future conference. Note: We are not hosting a conference, but instead facilitating the creation of a wiki about a conference that could take place in 2047. We will use proposals made here to pre-seed the wiki with a "conference schedule". Between Nov 14 and 27, we will host a series of online writeathons, where we will make space for you to informally introduce your idea and expand on it yourself or with others.
 
 We are seeking session leaders to spend at maximum a couple hours writing abstracts and pitches for the hypothetical conference programming. To declare your interest, please submit a character's name and bio, area of interest or talk by **October 15, 2022** [here as a GitHub issue](https://github.com/ournetworks/2022-submissions/issues/new?template=submission.md&title=%5BSubmission+Title%5D) (we have a template with prompts to help you). A week before the event we will share instructions and a registration form for those who want to receive a material artefact from the future after the event. If you don't want to "lead a session", you can still participate: registration for wiki-editors will stay open until the event ends. The event is going to be between November 14 - 27, 2022.
+
+<h2>FAQ</h2>
+
+_**How will the event take place?**_
+_There is no conference. The call is to invite people to contribute to a wiki (set in 2047) about a conference (that is happening in this sci-fi future). We'll be hosting a series of writathons during November 14 – 27, 2022, but async contributions will be possible too. After Nov we will produce some swag (stickers, maybe a poster) inspired by the wiki writings to send out by post to people who registered._
+
+_**Is the conference online or IRL?**_
+_There is no conference. All participation will be asynchronous or during online writeathons!_
+
+_**To "submit a character's name and bio" – should I submit as myself, my future self, or a totally new character from the future? (or any of the above?)**_
+_Any of the above! You could write a talk you'd like to imagine your real self giving in 2047, or create a character, or create many characters!_
+
+_**Is the resulting artefact the conference? Or will we create a kind of artefact to capture a conference from the future?**
+_The artefact will be the wiki we collectively contribute to suring the conference period of November 14 – 27, 2022. After Nov we will produce some swag (stickers, maybe a poster) inspired by the wiki writings to send out by post to people who registered._
