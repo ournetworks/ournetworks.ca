@@ -16,4 +16,4 @@ _We are grateful to the [First Nations House](https://studentlife.utoronto.ca/se
 ### Design
 {:.authentic-condensed-60}
 
-Logo by [Marlo Yarlo](https://www.instagram.com/marloyarlo/). 
+Logo by [Marlo Yarlo](https://www.instagram.com/marloyarlo/).
