@@ -349,3 +349,41 @@
     background-color: var(--white);
   }
 }
+
+.splash-text {
+  position: relative;
+  z-index: 7;
+}
+
+.splash-graphic {
+  width: 100%;
+  bottom: 0;
+  top: 70vh;
+
+  @media (max-width: $on-palm) {
+    display: none;
+  }
+}
+
+.splash-graphic-1 {
+  right: 0;
+  width: 50%;
+  z-index: 1;
+}
+
+.splash-graphic-2 {
+  width: 100%;
+  bottom: 0;
+  z-index: 4;
+}
+
+.splash-graphic-3 {
+  bottom: 65%;
+  left: 30%;
+}
+
+.splash-graphic-5 {
+  bottom: -50px;
+  left: 0;
+  z-index: 2;
+}
