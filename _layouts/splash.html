@@ -1,15 +1,23 @@
 ---
 layout: default
 ---
-<div class="splash mb-2">
-  {% include 2022-hero.html %}
-  <div class="container">
-    {{ content }}
+<div class="splash mb-2 flex flex-wrap">
+  <div class="splash-hero pb-s w-50 relative">
+    <header class="splash-text">
+      <h1 class="heading-display lh-09 mt-0 mb-0 authentic-condensed-60 uppercase overflow-wrap">Our Networks 2047 Redistributing the Future</h1>
+      <div class="container">
+        <h2 class="heading-3 mb-0 authentic-condensed-60">November 14&ndash;27, 2022</h2>
+        <h2 class="heading-3 mb-0 mt-0 authentic-condensed-60">Online, Distributed</h2>
+      </div>
+   </header>
+   <div class="splash-graphic absolute">
+     <img src="/images/item1.png" class="splash-graphic-1 absolute" alt="decorative grayscale image of a rock on a black background with irregular edges" />
+     <img src="/images/item2.png" class="splash-graphic-2 absolute" alt="decorative grayscale image of rocks with irregular edges" />
+     <img src="/images/item3.png" class="splash-graphic-3 absolute" alt="decorative grayscale image of lines on a black background with irregular edges" />
+     <img src="/images/item5.png" class="splash-graphic-5 absolute" alt="decorative grayscale image of networking equiptment with irregular edges" />
+   </div>
   </div>
-  <hr class="extended">
-  <div class="container">
-  <h2 id="updates">Mailing list</h2>
-  <p>Our Networks <strike>2022</strike> 2047 is coming up! Want to receive updates?</p>
-  <a href="https://lists.mayfirst.org/mailman/listinfo/ournetworks" class="button" target="_blank" rel="noopener">Subscribe to our mailing list</a>
+  <div class="container w-50">
+    {{ content }}
   </div>
 </div>

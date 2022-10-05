@@ -7,6 +7,7 @@ h4,
 h5,
 h6 {
   line-height: $base-heading-line-height;
+  margin-bottom: 0.5em;
 }
 
 h1 {
@@ -19,7 +20,6 @@ h2 {
 }
 
 h3 {
-  margin-top: 1em;
   font-size: 1.56rem;
 }
 
@@ -47,14 +47,19 @@ p {
   font-variation-settings: "wght" 401.49;
 }
 
-// Typography helper classes
-
-.fs-small {
-  font-size: $small-font-size;
+.authentic-condensed-60 {
+  font-family: AuthenticSans-Condensed;
+  font-weight: 60;
 }
 
-.fs-medium {
-  font-size: $medium-font-size;
+// Typography helper classes
+
+.fs-normal {
+  font-size: 1em;
+}
+
+.fs-small {
+  font-size: 0.75em;
 }
 
 .text-center {
@@ -69,13 +74,16 @@ p {
   text-align: left !important;
 }
 
-.highlight {
-  background: rgba($accent-color,.1);
-}
-
-
 .lh-1 {
   line-height: 1em;
+}
+
+.lh-09 {
+  line-height: 0.9em;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 // Heading helpers
@@ -94,9 +102,13 @@ p {
 
 .heading-3 {
   font-size: 30px;
+}
+
+.heading-display {
+  font-size: clamp(40px, 11vw, 150px);
 
   @media (max-width: $on-palm) {
-    font-size: 18px;
+    font-size: clamp(100px, 1vw, 150px);
   }
 }
 
@@ -113,5 +125,5 @@ p {
 // Word break helper
 
 .overflow-wrap {
-  overflow-wrap: break-word;
+  word-break: break-all;
 }
