@@ -40,13 +40,13 @@ There is no conference. The call is to invite people to contribute to a wiki (se
 
 **Is the conference online or IRL?**  
 {:.mb-05}
-There is no conference. All participation will be asynchronous or during online writeathons!
+All participation will happen asynchronously or live at online writeathons during November 14–27!
 
 **To "submit a character's name and bio" – should I submit as myself, my future self, or a totally new character from the future? (or any of the above?)**  
 {:.mb-05}
 Any of the above! You could write a talk you'd like to imagine your real self giving in 2047, or create a character, or create many characters!
 
-**Is the resulting artefact the conference? Or will we create a kind of artefact to capture a conference from the future?**  
+**Is the "artefact" the conference? Or will we create a different kind of artefact to capture a conference from the future?**  
 {:.mb-05}
-The artefact will be the wiki we collectively contribute to suring the conference period of November 14–27, 2022. After Nov we will produce some swag (stickers, maybe a poster) inspired by the wiki writings to send out by post to people who registered.
+The artefact will be the wiki we collectively contribute to during the conference period of November 14–27, 2022. After November, we will produce a physical record (mayber stickers, maybe a poster) inspired by the wiki writings to send out by post to people who registered.
 
