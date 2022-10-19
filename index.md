@@ -14,7 +14,7 @@ We've all been living through these weeks where decades happen. Looking back on 
 
 For an event that has been held alongside these struggles, Our Networks has been a place to share victories and defeats together. Out of [a sense of large-scale ruin &#10548;](https://en.wikipedia.org/wiki/White_Noise_(novel)), we have kept inventing hope, the kind that isn’t optimism, but rather [a discipline we practice every single day &#10548;](https://towardfreedom.org/story/archives/activism/hope-is-a-discipline/). In 2047 it feels like we are at another critical juncture, just like we were in 2022 and 2035.
 
-So once again, what will we make of our futures? How do we learn from our pasts? How do we strengthen and extend our forms of redistribution and accountability in our spaces, movements, collectives, and institutions that have been our inspiration and home the last decades?
+So once again, what will we make of our futures? How do we learn from our pasts? How do we extend the forms of redistribution and accountability in the spaces, movements, collectives, and institutions that have been our inspirations and homes for the last few decades?
 
 We’re excited to announce our keynote speakers, check back for more details closer to the event:
 <div markdown="1">
