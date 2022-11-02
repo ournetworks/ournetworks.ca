@@ -9,6 +9,10 @@ Drawing inspiration from our favourite sci-fi authors we’re headed to a future
 
 <div class="content-2047 bg-accent round p-2047 mb-1 mono" markdown="1">
   <div class="content-2047-inner" markdown="1">
+    {% capture registrationInclude %}{% include registration-panel.html %}{% endcapture %}
+  {{ registrationInclude | markdownify }}
+
+  ---
 
 We've all been living through these weeks where decades happen. Looking back on our past we find neither dystopia nor utopia. Instead, our history winds in-between, with setbacks and sudden leaps toward the internet and web we want. In order to even try and get there we’ve had to fight to transform the entire world. While there have been great strides in remaking where we live, work, and play as we tackle the interleaved crises of climate, capitalism, and co-option. There are still looming challenges and lingering concerns. 
 
@@ -25,11 +29,6 @@ We’re excited to announce our keynote speakers, check back for more details cl
 
   </div>
 
-</div>
-
-<div class="register-panel p-1 bg-accent mono round content-2047 compact mb-2 sticky">
-  {% capture registrationInclude %}{% include registration-panel.html %}{% endcapture %}
-  {{ registrationInclude | markdownify }}
 </div>
 
 To participate all you need is an internet connection to join us during the event annotating the wiki of this future conference. Please Note: We are not hosting a conference, but instead facilitating the creation of a wiki about a conference that could take place in 2047. We will pre-seed the wiki with submissions made here as a "conference schedule". Between November 14–27, 2022 we will host a series of online writeathons where you may introduce your idea and expand on it yourself or with others, you will also be able to participate and edit the wiki fully asynchronously.
