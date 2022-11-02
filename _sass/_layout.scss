@@ -308,7 +308,7 @@
     font-size: 20px;
     display: inline-block;
     content: '● 2047';
-    background: var(--white);
+    background: var(--accent-dark);
     color: var(--accent);
     border-radius: 9999px;
     padding: 0.25em 1em;
@@ -331,10 +331,31 @@
     margin-bottom: 1em;
     z-index: 1000;
   }
+
+  &.compact {
+    top: 1em;
+    position: sticky;
+    &:before {
+      font-size: 12px;
+      background: var(--accent-dark);
+    }
+    &:after {
+      top: 15px;
+      left: 16px;
+      width: 20px;
+      height: 20px;
+      padding: 0;
+    }
+  }
+
+  .button.primary {
+    font-family: inherit;
+    font-size: 18px;
+  }
 }
 
 .content-2047-inner {
-  max-height: 50vh;
+  max-height: 40vh;
   overflow-y: scroll;
   padding-right: 1em;
 
@@ -383,7 +404,11 @@
 }
 
 .splash-graphic-5 {
-  bottom: -50px;
+  bottom: 0;
   left: 0;
   z-index: 2;
+}
+
+.register-panel {
+  z-index: 100;
 }
