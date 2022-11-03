@@ -31,9 +31,9 @@ We’re excited to announce our keynote speakers, check back for more details cl
 
 </div>
 
-To participate all you need is an internet connection to join us during the event annotating the wiki of this future conference. Please Note: We are not hosting a conference, but instead facilitating the creation of a wiki about a conference that could take place in 2047. We will pre-seed the wiki with submissions made here as a "conference schedule". Between November 14–27, 2022 we will host a series of online writeathons where you may introduce your idea and expand on it yourself or with others, you will also be able to participate and edit the wiki fully asynchronously.
+Please Note: We are not hosting a conference, but instead facilitating the creation of a wiki about a conference that could take place in 2047. 
 
-We are seeking session leaders to spend at maximum a couple hours writing abstracts and pitches for the hypothetical conference programming. To declare your interest, please submit a character's name and bio, area of interest or talk by  **~~October 15~~ October 30, 2022** [here as a GitHub issue](https://github.com/ournetworks/2022-submissions/issues/new?template=submission.md&title=%5BSubmission+Title%5D) (we have a template with prompts to help you). A week before the event we will share instructions and a registration form for those who want to receive a material artefact from the future after the event. If you don't want to "lead a session", you can still participate: registration for wiki-editors will stay open until the event ends. The event is going to be between November 14–27, 2022.
+Between November 14–27, 2022 we will host a series of online writeathons where we will facilitate contributions and co-writing on to the 2047 wiki. To join us during the writeathons, all you need is an internet connection. You will also be able to edit the wiki fully asynchronously. All events are free, and registration will stay open during the writing period.
 
 <a href="https://mailer.ournetworks.ca/" class="button primary square fs-small" target="_blank" rel="noopener">Order an artefact<br /> from 2047</a  >
 
@@ -44,9 +44,13 @@ We are seeking session leaders to spend at maximum a couple hours writing abstra
 {:.mb-05}
 There is no conference. The call is to invite people to contribute to a wiki (set in 2047) about a conference (that is happening in this sci-fi future). We'll be hosting a series of writathons during November 14–27, 2022, but async contributions will be possible too. After Nov we will produce some swag (stickers, maybe a poster) inspired by the wiki writings to send out by post to people who registered.
 
-**Is the conference online or IRL?**  
+**Is the event online or IRL?**  
 {:.mb-05}
 All participation will happen asynchronously or live at online writeathons during November 14–27!
+
+**Are you actually going to host a conference in 2047?**  
+
+No. Maybe you could though 🌠
 
 **To "submit a character's name and bio" – should I submit as myself, my future self, or a totally new character from the future? (or any of the above?)**  
 {:.mb-05}
@@ -54,5 +58,5 @@ Any of the above! You could write a talk you'd like to imagine your real self gi
 
 **Is the "artefact" the conference? Or will we create a different kind of artefact to capture a conference from the future?**  
 {:.mb-05}
-The artefact will be the wiki we collectively contribute to during the conference period of November 14–27, 2022. After November, we will produce a physical record (mayber stickers, maybe a poster) inspired by the wiki writings to send out by post to people who registered.
+The artefact will be related to the wiki we collectively contribute to during the conference period of November 14–27, 2022. After November, we will produce a physical record (maybe stickers, maybe a poster) inspired by the wiki writings to send out by post to people who registered.
 
