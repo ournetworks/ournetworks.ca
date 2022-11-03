@@ -35,7 +35,7 @@ To participate all you need is an internet connection to join us during the even
 
 We are seeking session leaders to spend at maximum a couple hours writing abstracts and pitches for the hypothetical conference programming. To declare your interest, please submit a character's name and bio, area of interest or talk by  **~~October 15~~ October 30, 2022** [here as a GitHub issue](https://github.com/ournetworks/2022-submissions/issues/new?template=submission.md&title=%5BSubmission+Title%5D) (we have a template with prompts to help you). A week before the event we will share instructions and a registration form for those who want to receive a material artefact from the future after the event. If you don't want to "lead a session", you can still participate: registration for wiki-editors will stay open until the event ends. The event is going to be between November 14–27, 2022.
 
-<a href="#" class="button primary square">Order an artefact<br /> from 2047</a  >
+<a href="https://mailer.ournetworks.ca/product/2047" class="button primary square fs-small" target="_blank" rel="noopener">Order an artefact<br /> from 2047</a  >
 
 ## FAQ
 {:.authentic-condensed-60}
