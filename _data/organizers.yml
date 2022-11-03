@@ -26,12 +26,6 @@
   name: "Mauve"
   bio: >-
     is a tech entusiast with a passion for decentralization. They use the web and peer to peer protocols like Dat to create local first software to give people more control over their data and to make them less dependant on centralized services. They are active in open source organizing and enjoy reaching out to communities and bridging between them. Their passion project is Local First Cyberspace&mdash;a peer to peer augmented reality platform that uses the web.
-  link: "https://ranger.mauve.moe"
+  link: "ranger.mauve.moe"
   twitter: RangerMauve
   github: RangerMauve
- 
-- organizerID: amelia
-  name: "Amelia Zhang"
-  bio: >-
-    is an artist and designer. On the internet she is a cockerspaniel &commat;eggfroufrou.
-  github: eggfroufrou 
