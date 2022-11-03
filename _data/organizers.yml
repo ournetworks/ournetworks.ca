@@ -17,10 +17,11 @@
 - organizerID: dawn
   name: "Dawn Walker"
   bio: >-
-    is a researcher and PhD candidate at the Faculty of Information, University of Toronto. Her research focuses on values and social transformation in the design of (web) decentralization projects. She emphasizes participatory and collaborative approaches in her practice, for instance hosting walking tours to situate digital topics in place, co-designing urban agriculture community maps, and workshopping speculative technologies. A keen amateur agriculturalist, Dawn would rather be in the garden.
+    is a researcher and designer bridging constructive and critical approaches to build lasting and transformational alternatives to existing infrastructures, in the past this has included data stewardship, networks, and movement organizing. Currently her research looks at possibilities and emerging practices of low carbon networking.
   link: "dcwalker.ca"
   twitter: dcwalk_
-  github: dcwalk  
+  fediverse: @dcwalk@post.lurk.org 
+  fediverseLink: https://post.lurk.org/@dcwalk
 
 - organizerID: mauve
   name: "Mauve"
