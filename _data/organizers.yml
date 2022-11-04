@@ -5,7 +5,9 @@
   link: "garrying.com"
   twitter: garrying
   github: garrying
-    
+  fediverse: "@garry@post.lurk.org"
+  fediverseLink: post.lurk.org/@garry
+
 - organizerID: sarah
   name: "Sarah Friend"
   bio: >-
@@ -17,21 +19,16 @@
 - organizerID: dawn
   name: "Dawn Walker"
   bio: >-
-    is a researcher and PhD candidate at the Faculty of Information, University of Toronto. Her research focuses on values and social transformation in the design of (web) decentralization projects. She emphasizes participatory and collaborative approaches in her practice, for instance hosting walking tours to situate digital topics in place, co-designing urban agriculture community maps, and workshopping speculative technologies. A keen amateur agriculturalist, Dawn would rather be in the garden.
+    is a researcher and designer bridging constructive and critical approaches to build just transitions. She has explored the insrastructures that support lasting transformational alternatives to existing practices of data stewardship, networking, and movement organizing. Her current research looks at emerging practices of low carbon networking.
   link: "dcwalker.ca"
   twitter: dcwalk_
-  github: dcwalk  
+  fediverse: "@dcwalk@post.lurk.org"
+  fediverseLink: post.lurk.org/@dcwalk
 
 - organizerID: mauve
   name: "Mauve"
   bio: >-
     is a tech entusiast with a passion for decentralization. They use the web and peer to peer protocols like Dat to create local first software to give people more control over their data and to make them less dependant on centralized services. They are active in open source organizing and enjoy reaching out to communities and bridging between them. Their passion project is Local First Cyberspace&mdash;a peer to peer augmented reality platform that uses the web.
-  link: "https://ranger.mauve.moe"
+  link: "ranger.mauve.moe"
   twitter: RangerMauve
   github: RangerMauve
- 
-- organizerID: amelia
-  name: "Amelia Zhang"
-  bio: >-
-    is an artist and designer. On the internet she is a cockerspaniel &commat;eggfroufrou.
-  github: eggfroufrou 
