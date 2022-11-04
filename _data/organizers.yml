@@ -5,7 +5,9 @@
   link: "garrying.com"
   twitter: garrying
   github: garrying
-    
+  fediverse: "@garry@post.lurk.org"
+  fediverseLink: post.lurk.org/@garry
+
 - organizerID: sarah
   name: "Sarah Friend"
   bio: >-
@@ -20,8 +22,8 @@
     is a researcher and designer bridging constructive and critical approaches to build just transitions. She has explored the insrastructures that support lasting transformational alternatives to existing practices of data stewardship, networking, and movement organizing. Her current research looks at emerging practices of low carbon networking.
   link: "dcwalker.ca"
   twitter: dcwalk_
-  fediverse: @dcwalk@post.lurk.org 
-  fediverseLink: "post.lurk.org/@dcwalk
+  fediverse: "@dcwalk@post.lurk.org"
+  fediverseLink: post.lurk.org/@dcwalk
 
 - organizerID: mauve
   name: "Mauve"
