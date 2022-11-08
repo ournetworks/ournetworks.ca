@@ -3,8 +3,8 @@
   location: "Call link to follow, check ournetworks.ca"
   locationLink: https://ournetworks.ca/
   date: 2022-11-15
-  startTime: '1X:00'
-  endTime: '1X:00'
+  startTime: '17:00'
+  endTime: '18:30'
   timeZone: "EST [UTC−05]"
   
 - title: "Writeathon: Distributed local internetwork(s) where we live, work, and play"
@@ -12,8 +12,8 @@
   location: "Call link to follow, check ournetworks.ca"
   locationLink: https://ournetworks.ca/
   date: 2022-11-19
-  startTime: '1X:00'
-  endTime: '1X:00'
+  startTime: '12:00'
+  endTime: '13:30'
   timeZone: "EST [UTC−05]"
 
   
@@ -22,8 +22,8 @@
   location: "Call link to follow, check ournetworks.ca"
   locationLink: https://ournetworks.ca/
   date: 2022-11-23
-  startTime: '1X:00'
-  endTime: '1X:00'
+  startTime: '20:00'
+  endTime: '21:30'
   timeZone: "EST [UTC−05]"
 
 - title: "Writeathon: Unlikely allies to re-make and re-know our networks"
@@ -31,6 +31,6 @@
   location: "Call link to follow, check ournetworks.ca"
   locationLink: https://ournetworks.ca/
   date: 2022-11-25
-  startTime: '1X:00'
-  endTime: '1X:00'
+  startTime: '10:00'
+  endTime: '11:30'
   timeZone: "EST [UTC−05]"
