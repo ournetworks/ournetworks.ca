@@ -44,7 +44,7 @@ There will be four writeathons open to the public and loosely based around the k
 
 <div class="events-grid flex flex-wrap mb-1">
   {% for call in site.data.events %}
-    <div class="event w-50">
+    <div class="event w-100 p-1 bg-black">
       {% include event.html event=call %}
     </div>
   {% endfor %}

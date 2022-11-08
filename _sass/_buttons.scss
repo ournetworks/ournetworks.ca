@@ -12,6 +12,8 @@ button {
   line-height: 1em;
   border: 0;
   font-weight: inherit;
+  color: var(--black);
+  background-color: var(--white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
