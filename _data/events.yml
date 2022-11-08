@@ -1,26 +1,36 @@
-- title: "Open hour: COVID-19 and Our Networks 2020"
+- title: "Writeathon: Our Networks x Tech Workers Coalition Teach-in present... Labour remaking and caring for the future"
   type: call
-  location: https://meet.jit.si/ournetworks
-  locationLink: https://meet.jit.si/ournetworks
-  date: 2020-03-19
-  startTime: '16:00'
-  endTime: '17:00'
-  timeZone: "EDT [UTC-04]"
-
-- title: "Open hour: CFP #1"
-  type: call
-  location: Mozilla Hubs
-  locationLink: https://hubs.mozilla.com/Gpo3so3/our-networks/
-  date: 2020-04-30
-  startTime: '17:30'
+  location: "Call link to follow, check ournetworks.ca"
+  locationLink: https://ournetworks.ca/
+  date: 2022-11-15
+  startTime: '17:00'
   endTime: '18:30'
-  timeZone: "EDT [UTC-04]"
-
-- title: "Open hour: CFP #2"
+  timeZone: "EST [UTC−05]"
+  
+- title: "Writeathon: Distributed local internetwork(s) where we live, work, and play"
   type: call
-  location: Online Town
-  locationLink: https://theonline.town/UZMGVUA2R9JZIstN/ournetworks
-  date: 2020-05-16
+  location: "Call link to follow, check ournetworks.ca"
+  locationLink: https://ournetworks.ca/
+  date: 2022-11-19
   startTime: '12:00'
-  endTime: '13:00'
-  timeZone: "EDT [UTC-04]"
+  endTime: '13:30'
+  timeZone: "EST [UTC−05]"
+
+  
+- title: "Writeathon: Navigating a changing climate on a warming planet"
+  type: call
+  location: "Call link to follow, check ournetworks.ca"
+  locationLink: https://ournetworks.ca/
+  date: 2022-11-23
+  startTime: '20:00'
+  endTime: '21:30'
+  timeZone: "EST [UTC−05]"
+
+- title: "Writeathon: Unlikely allies to re-make and re-know our networks"
+  type: call
+  location: "Call link to follow, check ournetworks.ca"
+  locationLink: https://ournetworks.ca/
+  date: 2022-11-25
+  startTime: '10:00'
+  endTime: '11:30'
+  timeZone: "EST [UTC−05]"

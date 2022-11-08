@@ -407,16 +407,24 @@
 }
 
 .splash-graphic-3 {
-  bottom: 65%;
+  bottom: 71%;
   left: 30%;
 }
 
 .splash-graphic-5 {
-  bottom: 0;
+  top: 30%;
   left: 0;
   z-index: 2;
 }
 
 .register-panel {
   z-index: 100;
+}
+
+.events-grid {
+  gap: 2px;
+  .event {
+    background: var(--black);
+    padding: 20px;
+  }
 }
