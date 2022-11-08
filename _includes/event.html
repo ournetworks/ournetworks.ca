@@ -1,28 +1,25 @@
-  <header>
-    <h4 class="event-title heading">{% if include.event.url %}<a href="{% if include.event.redirect_to %}{{ include.event.redirect_to }}{% else %}{{ include.event.url }}{% endif %}">{% endif %}{{ include.event.title }}{% if include.event.url %}</a>{% endif %}</h4>
-    <div class="event-time-location">
-      <div class="event-meta flex">
-        {% include icons/calendar-o.svg %}
-        <p class="event-meta-item">{{ include.event.date | date: "%A %B %d, %Y" }}, {% if include.event-type == "upcoming" %}<strong>{% endif %}{{ include.event.startTime | date:"%-I:%M %P" }} – {{include.event.endTime | date:"%-I:%M %P"}} {{ include.event.timeZone }}{% if include.event-type == "upcoming" %}</strong>{% endif %}</p></div>
-      <div class="event-meta flex">
-        {% include icons/map-marker.svg %}
-        <p class="event-meta-item">{% if include.event.locationLink %}<a href="{{ include.event.locationLink }}">{% endif %}{{ include.event.location }}{% if include.event.locationLink %}</a>{% endif %}</p></div>
-    </div>
-  </header>
-  <div class="event-add">
-    {% capture event_title %}{{ include.event.title }}{% endcapture %}
-    {% capture event_start %}{{ include.event.date | date: "%Y%m%d" }}T{{ include.event.startTime | date:"%H%M%S" }}{% endcapture %}
-    {% capture event_end %}{{ include.event.date | date: "%Y%m%d" }}T{{ include.event.endTime | date:"%H%M%S" }}{% endcapture %}
-    {% capture event_location %}{{ include.event.location }}{% endcapture %}
-    {% capture event_description %}{{ include.event.text | strip }} For details: {{ include.event.url|strip | prepend: site.url }}{% endcapture %}
-
-    {% capture googleCalendarLink %}text={{ event_title | url_encode }}&location={{ event_location | url_encode }}&dates={{ event_start }}/{{ event_end }}&details={{ event_description | url_encode }}&ctz=America/Toronto&sf=true&output=xml{% endcapture %}
-
-    <button download="event.ics" class="compact event-add-button" data-location="{{ event_location }}" data-summary="{{ event_title }}" data-description="{{ event_description }}" data-dtstart="{{ event_start }}" data-dtend="{{ event_end }}">{% include icons/calendar-plus-o.svg %}&nbsp;&nbsp;Add to Calendar (.ics)</button>
-    <a class="button compact" target="_blank" rel="noopener" href="https://www.google.com/calendar/render?action=TEMPLATE&{{ googleCalendarLink }}">
-      {% include icons/google_calendar.svg %}&nbsp;&nbsp;Add to Google Calendar
-    </a>
+<header>
+  <p class="mb-1 fs-small">{{ include.event.date | date: "%b %d, %Y" }}</p>
+  <h5 class="event-title fs-normal mb-05 mt-0">{% if include.event.url %}<a href="{% if include.event.redirect_to %}{{ include.event.redirect_to }}{% else %}{{ include.event.url }}{% endif %}">{% endif %}{{ include.event.title }}{% if include.event.url %}</a>{% endif %}</h5>
+  <div class="event-time-location">
+    <div class="event-meta mb-05">
+      <p class="mb-0">{{ include.event.startTime | date:"%-I:%M%P" }} – {{include.event.endTime | date:"%-I:%M%P"}} {{ include.event.timeZone }}</p>
+      </div>
+    <div class="event-meta fs-small">
+      <p>{% if include.event.locationLink %}<a href="{{ include.event.locationLink }}">{% endif %}{{ include.event.location }}{% if include.event.locationLink %}</a>{% endif %}</p></div>
   </div>
-{% if include.event-type == "upcoming" %}
-  <div class="event-caption"><p>{{ include.event.text }}</p></div>
-{% endif %}
+</header>
+<div class="flex-direction-column">
+  {% capture event_title %}{{ include.event.title }}{% endcapture %}
+  {% capture event_start %}{{ include.event.date | date: "%Y%m%d" }}T{{ include.event.startTime | date:"%H%M%S" }}{% endcapture %}
+  {% capture event_end %}{{ include.event.date | date: "%Y%m%d" }}T{{ include.event.endTime | date:"%H%M%S" }}{% endcapture %}
+  {% capture event_location %}{{ include.event.location }}{% endcapture %}
+  {% capture event_description %}{{ include.event.text | strip }} For details: {{ include.event.url|strip | prepend: site.url }}{% endcapture %}
+
+  {% capture googleCalendarLink %}text={{ event_title | url_encode }}&location={{ event_location | url_encode }}&dates={{ event_start }}/{{ event_end }}&details={{ event_description | url_encode }}&ctz=America/Toronto&sf=true&output=xml{% endcapture %}
+
+  <button download="event.ics" class="event-add-button button compact mb-05" data-location="{{ event_location }}" data-summary="{{ event_title }}" data-description="{{ event_description }}" data-dtstart="{{ event_start }}" data-dtend="{{ event_end }}">Add to Calendar (.ics)</button>
+  <a class="button compact primary" target="_blank" rel="noopener" href="https://www.google.com/calendar/render?action=TEMPLATE&{{ googleCalendarLink }}">
+    Add to Google Calendar
+  </a>
+</div>

@@ -38,18 +38,22 @@ Between November 14–27, 2022 we will host a series of online writeathons where
 <a href="https://mailer.ournetworks.ca/" class="button primary square fs-small" target="_blank" rel="noopener">Order an artefact<br /> from 2047</a  >
 
 ## Writeathons
-{:.authentic-condensed-60}
+{:.authentic-condensed-60.mt-2}
 
 There will be four writeathons open to the public and loosely based around the key themes that inspired our call:
 
-{% for call in site.data.events %}
-{% include event.html event=call %}
-{% endfor %} 
+<div class="events-grid flex flex-wrap mb-1">
+  {% for call in site.data.events %}
+    <div class="event w-50">
+      {% include event.html event=call %}
+    </div>
+  {% endfor %}
+</div>
 
-Please let us know any access requirements you have for attending: orga@ournetworks.ca
+Please let us know any access requirements you have for attending: [orga@ournetworks.ca](mailto:orga@ournetworks.ca)
 
 ## FAQ
-{:.authentic-condensed-60}
+{:.authentic-condensed-60.mt-2}
 
 **How will the event take place?**  
 {:.mb-05}
