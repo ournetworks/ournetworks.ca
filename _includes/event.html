@@ -1,6 +1,6 @@
 <header>
   <p class="mb-1">{{ include.event.date | date: "%b %d, %Y" }}</p>
-  <h5 class="event-title fs-normal mb-05 mt-0">{% if include.event.url %}<a href="{% if include.event.redirect_to %}{{ include.event.redirect_to }}{% else %}{{ include.event.url }}{% endif %}">{% endif %}{{ include.event.title }}{% if include.event.url %}</a>{% endif %}</h5>
+  <h5 class="event-title mb-05 mt-0">{% if include.event.url %}<a href="{% if include.event.redirect_to %}{{ include.event.redirect_to }}{% else %}{{ include.event.url }}{% endif %}">{% endif %}{{ include.event.title }}{% if include.event.url %}</a>{% endif %}</h5>
   <div class="event-time-location">
     <div class="event-meta mb-05">
       <p class="mb-0">{{ include.event.startTime | date:"%-I:%M%P" }} – {{include.event.endTime | date:"%-I:%M%P"}} {{ include.event.timeZone }}</p>
