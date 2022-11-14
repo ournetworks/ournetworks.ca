@@ -6,7 +6,10 @@
   startTime: '17:00'
   endTime: '18:30'
   timeZone: "EST [UTC−05]"
-  
+  description: |
+    After the social reproduction realignment in 2035, a new internationalist workers movement asserted itself in economic decision-making in most territories still under the nation-state tradition. Labour historians reference the "Make Amazon Pay" movement and 2022's "Hot Labour Summer" as some early seeds of this movement. Yet the persistence of extra-state trade territories, liminalities, _«fronterizas maquiladoras»_, and free ports continue exploitation while developing new forms of precarity. Capitalism may have been "tamed" for some, but persists in many peripheries.
+
+
 - title: "Writeathon: Distributed local internetwork(s) where we live, work, and play"
   type: call
   location: "Call link to follow, check ournetworks.ca"
@@ -15,8 +18,9 @@
   startTime: '12:00'
   endTime: '13:30'
   timeZone: "EST [UTC−05]"
+  description: |
+    The splintering of the oldnet into the new internetworks was foreshadowed. Rather than signalling the end of accountable networks, it led to a flourishing of local experimentation alongside heightened censorship and inequities of access in statenets. Community and mesh network operators in Latin America and Africa saw interest increase and trained new operators worldwide. New slow networks, institutions, and collectives stepped into "bridge" roles that forged local and lateral connections between people stuck inside statenets and those on alternative networks with democratic governance.
 
-  
 - title: "Writeathon: Navigating a changing climate on a warming planet"
   type: call
   location: "Call link to follow, check ournetworks.ca"
@@ -25,6 +29,8 @@
   startTime: '20:00'
   endTime: '21:30'
   timeZone: "EST [UTC−05]"
+  description: |
+    We're still in a not-very-just energy transition. Advances in battery and carbon capture followed the rise of green technocrats in the 2030s but impacts have been slow and not distributed enough. An already warmed climate is impossible to ignore, yet solidarity and care led action in the face of heartbreak. New ways of living have changed everything: _«buen vivir»_, degrowth, and ecosocialism re-focused many communities on sociality and belonging. However committed groups of wealthy transhumanists continue to enact the libertarian desire to exit hard-hit regions or even the planet.
 
 - title: "Writeathon: Unlikely allies to re-make and re-know our networks"
   type: call
@@ -34,3 +40,5 @@
   startTime: '10:00'
   endTime: '11:30'
   timeZone: "EST [UTC−05]"
+  description: |
+    Our ways of knowing the world were remade through our responses to the interleaved crises of climate, capitalism, and co-option. New forms of governance, accountable infrastructures, and trust-building reveal just some remakings. Small steps led to big changes – activists fighting for language justice online led to thousands of languages shaping local internetworks post-splintering, states adopting limited frameworks (UNDRIP) was an (existential) surrender on the path to pluralistic autonomy and sovereignty. We ignore the impact of unlikely allies and imperfect movements at our peril.
