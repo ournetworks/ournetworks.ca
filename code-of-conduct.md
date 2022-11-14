@@ -9,6 +9,9 @@ Our Networks is dedicated to providing a harassment-free environment for everyon
 
 In order to reduce obstacles to participation, we have adopted an explicitly-documented code to communicate our expectations for conduct at the event.
 
+For Our Networks 2047 we encourage you to read our participation guide, [Speculating Together with Care](https://2047.ournetworks.ca/2047:Speculating_Together_With_Care), which supplements this code of conduct.
+
+
 ## Expected behaviour
 {:.authentic-condensed-60}
 
@@ -63,7 +66,7 @@ For a session to be considered "moderateable" for this conference, the minimum f
   * turn off their own microphone/camera 
   * leave at any time
   
-Because of the limits of machine translation, the organizers and volunteers are only able to moderate text written in English, unless arranged in advance.
+Because of the limits of machine translation, the organizers and volunteers are only able to moderate in English, unless arranged in advance.
 
 ## Enforcement
 {:.authentic-condensed-60}
