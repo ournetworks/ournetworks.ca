@@ -34,5 +34,13 @@ We’re excited to announce our keynote speakers, check back for more details cl
 
 Please Note: We are not hosting a conference, but instead facilitating the creation of a wiki about a conference that could take place in 2047. 
 
-Between November 14–27, 2022 we will host a series of online writeathons where we will facilitate contributions and co-writing on to the 2047 wiki. To join us during the writeathons, all you need is an internet connection. You will also be able to edit the wiki fully asynchronously. All events are free, and registration will stay open during the writing period.
+Between November 14–27, 2022 we hosted a series of online writeathons where we will facilitate contributions and co-writing on to the 2047 wiki. To join us during the writeathons, all you need is an internet connection. You will also be able to edit the wiki fully asynchronously. All events are free, and registration will stay open during the writing period.
 
+
+## Mailing list
+
+Our Networks <strike>2022</strike> 2047 is over!<br /> Want to receive updates?
+
+<a href="https://lists.mayfirst.org/mailman/listinfo/ournetworks" class="button primary square fs-small" target="_blank" rel="noopener">Subscribe to <br> our mailing list</a>
+      
+      
