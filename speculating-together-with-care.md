@@ -45,7 +45,7 @@ We have begun with shared commitments to guide us, which we invite anyone to add
 
 We have been inspired by the work of speculative fiction writers and historical traditions and how they address creating worlds, handle power dynamics, and focus their attention. Just a few of those resources include:
 
-- N.K. Jemisin interview on [Ezra Klein Show: I build a world with fantasy master N.K. Jemisin](https://art19.com/shows/the-ezra-klein-show/episodes/34703ccd-ae41-4d54-9197-344acd5699af) ([transcript](https://www.slowbloom.com/blog/2019/02/nk-jemisin-building-a-world/)), in particular the 40 minute and 55 minute mark
+- N.K. Jemisin interview on [Ezra Klein Show: I build a world with fantasy master N.K. Jemisin](https://art19.com/shows/the-ezra-klein-show/episodes/34703ccd-ae41-4d54-9197-344acd5699af){:data-proofer-ignore=""} ([transcript](https://www.slowbloom.com/blog/2019/02/nk-jemisin-building-a-world/)), in particular the 40 minute and 55 minute mark
 - [Additional recommendations for us right now from a future](https://humansandnature.org/additional-recommendations-for-us-right-now-from-a-future/) by adrienne maree brown
 - [Write history from below](https://www.marcusrediker.com/how-to-write-history-from-below-graduate/) (or a Peoples' History or Radical History) by Marcus Rediker references many articles, including [The Poetics of History from Below](https://www.historians.org/research-and-publications/perspectives-on-history/september-2010/the-poetics-of-history-from-below) and [Working Class Self-Activity](https://www.marxists.org/archive/rawick/1969/xx/self.html)
 
@@ -62,7 +62,7 @@ We encourage everyone to reflect and practice along with us as we aim to [write 
 
 We encourage you to **focus most of your writing far enough in the future that it can focus on a version of you or other figures who don't exist (yet!)**. We ask that you do not write extensively about other real people you know personally without checking with them first.
 
-If you feel strongly that you have to write about current public figures, public in the sense that they are notable and newsworthy, we ask you to avoid defamatory statements or gruesome or violent descriptions. In so-called Canada, the right to free expression is protected by the Canadian Charter of Rights and Freedoms, but in a limited sense. To avoid defamation statements must be within the bounds of "[fair comment](https://www.cjfe.org/defamation_libel_and_slander_what_are_my_rights_to_free_expression)" which means they are: made without malice, based on proven fact, and related to a matter of public interest.
+If you feel strongly that you have to write about current public figures, public in the sense that they are notable and newsworthy, we ask you to avoid defamatory statements or gruesome or violent descriptions. In so-called Canada, the right to free expression is protected by the Canadian Charter of Rights and Freedoms, but in a limited sense. To avoid defamation statements must be within the bounds of "[fair comment](https://www.cjfe.org/defamation_libel_and_slander_what_are_my_rights_to_free_expression){:data-proofer-ignore=""}" which means they are: made without malice, based on proven fact, and related to a matter of public interest.
 
 ## Notes
 {:.authentic-condensed-60}
