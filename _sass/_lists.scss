@@ -8,6 +8,10 @@ ul, ol {
   margin-bottom: $base-margin-bottom;
 }
 
+ol {
+  list-style-type: decimal;
+}
+
 li {
   > ul {
     margin: 0 0 $base-margin-bottom;
