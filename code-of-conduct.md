@@ -9,7 +9,7 @@ Our Networks is dedicated to providing a harassment-free environment for everyon
 
 In order to reduce obstacles to participation, we have adopted an explicitly-documented code to communicate our expectations for conduct at the event.
 
-For Our Networks 2047 we encourage you to read our participation guide, [Speculating Together with Care](https://2047.ournetworks.ca/2047:Speculating_Together_With_Care), which supplements this code of conduct.
+For Our Networks 2047 we encourage you to read our participation guide, [Speculating Together with Care](/speculating-together-with-care), which supplements this code of conduct.
 
 
 ## Expected behaviour
