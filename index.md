@@ -10,10 +10,8 @@ Drawing inspiration from our favourite sci-fi authors we’re headed to a future
 <div class="content-2047 bg-accent round p-2047 mb-1 mono" markdown="1">
   <div class="content-2047-inner" markdown="1">
 
-  ### 2047
-  {:.mt-0.mb-05.mono.fw-normal}
-
-  ---
+### 2047
+{:.mt-0.mb-05.mono.fw-normal}
 
 We've all been living through these weeks where decades happen. Looking back on our past we find neither dystopia nor utopia. Instead, our history winds in-between, with setbacks and sudden leaps toward the internet and web we want. In order to even try and get there we’ve had to fight to transform the entire world. While there have been great strides in remaking where we live, work, and play as we tackle the interleaved crises of climate, capitalism, and co-option. There are still looming challenges and lingering concerns. 
 
@@ -38,9 +36,8 @@ Between November 14–27, 2022 we hosted a series of online writeathons where we
 
 
 ## Mailing list
+{:.authentic-condensed-60}
 
 Our Networks <strike>2022</strike> 2047 is over!<br /> Want to receive updates?
 
 <a href="https://lists.mayfirst.org/mailman/listinfo/ournetworks" class="button primary square fs-small" target="_blank" rel="noopener">Subscribe to <br> our mailing list</a>
-      
-      
