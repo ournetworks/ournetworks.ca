@@ -5,7 +5,10 @@ task :test do
     cache: { timeframe: { external: '6M' } },
     ignore_status_codes: [429],
     swap_urls: { %r{^https://ournetworks.ca} => "" },
-    ignore_urls: [/ipfs.io\/ipfs/]
+    ignore_urls: [/ipfs.io\/ipfs/],
+    typhoeus: {
+      headers: { "User-Agent" => "Chrome/120.0.0.0 Safari/537.36" },
+    }
   }
   HTMLProofer.check_directory('./_site', options).run
 end

@@ -2,7 +2,7 @@ name: Jekyll Build and Deploy
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
 permissions:
   contents: read
@@ -12,19 +12,19 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.1'
-        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-    - name: Build site
-      run: bundle exec jekyll build
-    - uses: actions/cache@v3
-      id: build-cache
-      with:
-        path: ./*
-        key: ${{ github.sha }}
+      - uses: actions/checkout@v4
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - name: Build site
+        run: bundle exec jekyll build
+      - uses: actions/cache@v4
+        id: build-cache
+        with:
+          path: ./*
+          key: ${{ github.sha }}
 
   deploy:
     name: Deploy
@@ -34,17 +34,17 @@ jobs:
       name: production
       url: https://ournetworks.ca
     steps:
-    - uses: actions/cache@v3
-      id: build-cache
-      with:
-        path: ./*
-        key: ${{ github.sha }}
-    - name: Rsync Deployment
-      uses: Burnett01/rsync-deployments@5.2
-      with:
-        switches: -avzrO --delete --no-p
-        path: _site/
-        remote_path: /var/www/html
-        remote_host: ournetworks.ca
-        remote_user: ${{ secrets.DEPLOY_USER }}
-        remote_key: ${{ secrets.DEPLOY_KEY }}
+      - uses: actions/cache@v4
+        id: build-cache
+        with:
+          path: ./*
+          key: ${{ github.sha }}
+      - name: Rsync Deployment
+        uses: Burnett01/rsync-deployments@6.0.0
+        with:
+          switches: -avzrO --delete --no-p
+          path: _site/
+          remote_path: /var/www/html
+          remote_host: ournetworks.ca
+          remote_user: ${{ secrets.DEPLOY_USER }}
+          remote_key: ${{ secrets.DEPLOY_KEY }}

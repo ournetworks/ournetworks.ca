@@ -12,7 +12,7 @@ redirect_from:
 Full archives of 2020 videos are available:
 
 - IPFS: [ipfs://QmSgVLXPu4ZASkbcebkhXsgx7NjjJx1Xa1ymqkNWaTU4Jt]({{ site.ipfs_gateway }}/ipfs/QmSgVLXPu4ZASkbcebkhXsgx7NjjJx1Xa1ymqkNWaTU4Jt/){: .overflow-wrap}
-- Mirror: [Toronto Mesh Alexandria Mirror](https://alexandria.tomesh.net/ournetworks/2020)
+- Mirror: [Toronto Mesh Alexandria Mirror](https://alexandria.tomesh.net/ournetworks/2020){:data-proofer-ignore=""}
 - Internet Archive: [Our Networks 2020 Talks](https://archive.org/details/ournetworks2020) (torrent available)
 - YouTube playlist: [Our Networks 2020 — Growing Our Networks in Uncertain Times↔Places](https://www.youtube.com/playlist?list=PLx7_J32Ys60eSNBStqqEeVN1cbA-dKf9q)
 
@@ -39,7 +39,7 @@ Thank you to our A/V volunteers: [Henry Wilkinson](https://github.com/Shrinks99)
 Full archives of 2019 videos are available:
 
 - IPFS: [ipfs://QmQQfD1ztg1aG82VmUmutusbxn7tL4c2o1qHv1ivyWbNj6]({{ site.ipfs_gateway }}/ipfs/QmaWc83FvLkyvw8p7Q45prW7HTXAaLgk8jxmkdciokaE1K/){: .overflow-wrap}
-- Mirror: [Toronto Mesh Alexandria Mirror](https://alexandria.tomesh.net/ournetworks/2019)
+- Mirror: [Toronto Mesh Alexandria Mirror](https://alexandria.tomesh.net/ournetworks/2019){:data-proofer-ignore=""}
 - Internet Archive: [Our Networks 2019 Talks](https://archive.org/details/ournetworks2019) (torrent available)
 - YouTube playlist: [Our Networks 2019 RE: Infrastructures](https://www.youtube.com/playlist?list=PLx7_J32Ys60cAmBbdDtx1-THpDU4XbtdV)
 
@@ -73,7 +73,7 @@ Thank you to our A/V volunteers: [Yurko](https://github.com/YurkoWasHere), [Henr
 Full archives of 2018 videos are available:
 
 - IPFS: [ipfs://QmQQfD1ztg1aG82VmUmutusbxn7tL4c2o1qHv1ivyWbNj6]({{ site.ipfs_gateway }}/ipfs/QmQQfD1ztg1aG82VmUmutusbxn7tL4c2o1qHv1ivyWbNj6/){: .overflow-wrap}
-- Mirror: [Toronto Mesh Alexandria Mirror](https://alexandria.tomesh.net/ournetworks/2018)
+- Mirror: [Toronto Mesh Alexandria Mirror](https://alexandria.tomesh.net/ournetworks/2018){:data-proofer-ignore=""}
 - Internet Archive: [Our Networks 2018 Talks](https://archive.org/details/ournetworks2018) (torrent available)
 - YouTube playlist: [Our Networks 2018 Beyond DIY: Do It With Others](https://www.youtube.com/playlist?list=PLx7_J32Ys60ey2bgSn2soAoBy0v9bBUbT)
 

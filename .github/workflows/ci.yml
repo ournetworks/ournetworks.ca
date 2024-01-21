@@ -2,9 +2,9 @@ name: Jekyll CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 permissions:
   contents: read
@@ -13,19 +13,19 @@ jobs:
   build-test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.1'
-        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-    - name: Build site
-      run: bundle exec jekyll build
-    - name: Cache HTMLProofer
-      id: cache-htmlproofer
-      uses: actions/cache@v2
-      with:
-        path: tmp/.htmlproofer
-        key: ${{ runner.os }}-htmlproofer
-    - name: Run tests
-      run: bundle exec rake
+      - uses: actions/checkout@v4
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - name: Build site
+        run: bundle exec jekyll build
+      - name: Cache HTMLProofer
+        id: cache-htmlproofer
+        uses: actions/cache@v4
+        with:
+          path: tmp/.htmlproofer
+          key: ${{ runner.os }}-htmlproofer
+      - name: Run tests
+        run: bundle exec rake
