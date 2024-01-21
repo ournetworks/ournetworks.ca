@@ -12,7 +12,7 @@
     </a>
   </div>
   <header class="m-1">
-    <h3 class="mb-0 mt-0 authentic-condensed-60">{{ session.title }}</h3>
+    <h3 class="mb-0 mt-0">{{ session.title }}</h3>
     {%- if session.presenterID -%}
       <h4 class="session-presenter fs-small mt-1 fw-normal">
         {% assign presenters = site.data.presenters[include.year] %}

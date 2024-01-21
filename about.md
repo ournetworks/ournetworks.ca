@@ -14,7 +14,6 @@ We would like to acknowledge this sacred land on which Our Networks will take pl
 _We are grateful to the [First Nations House](https://studentlife.utoronto.ca/service/first-nations-house/) and Elders Circle (Council of Aboriginal Initiatives) for the language that this acknowledgement is based on._
 
 ## Organizers
-{:.authentic-condensed-60}
 
 {% for organizer in site.data.organizers %}
   <p class="mb-05">
@@ -31,6 +30,5 @@ _We are grateful to the [First Nations House](https://studentlife.utoronto.ca/se
 {% endfor %}
 
 ### Design
-{:.authentic-condensed-60}
 
 Logo by [Marlo Yarlo](https://www.instagram.com/marloyarlo/).
