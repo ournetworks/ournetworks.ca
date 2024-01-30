@@ -2,7 +2,6 @@
 layout: page
 order: 2
 title: "Speculating Together With Care"
-parent: "About the event"
 ---
 
 ## Using MediaWiki
