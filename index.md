@@ -19,13 +19,6 @@ For an event that has been held alongside these struggles, Our Networks has been
 
 So once again, what will we make of our futures? How do we learn from our pasts? How do we extend the forms of redistribution and accountability in the spaces, movements, collectives, and institutions that have been our inspirations and homes for the last few decades?
 
-We’re excited to announce our keynote speakers, check back for more details closer to the event:
-<div markdown="1">
-- Counsul Renata Jones from Open Space Initiative, an extrastate nonprofit organisation that supports research and development of space exploration
-- Edie Watson, Slow Network Operator speaking about "Federation over slow networks: Reflections, challenges, and opportunities from"
-- Feral computation, a feral committee archival collective, speaking on "liminalithic protocol"
-</div>
-
   </div>
 
 </div>
