@@ -5,7 +5,7 @@ title: "Program"
 ---
 
 ## Keynote Speakers
-{:.authentic-condensed-60.mt-2}
+{:.authentic-condensed-60}
 
 We’re excited to announce our keynote speakers:
 <div markdown="1">
@@ -15,7 +15,7 @@ We’re excited to announce our keynote speakers:
 </div>
 
 ## Writeathons
-{:.authentic-condensed-60.mt-2}
+{:.authentic-condensed-60}
 
 Between November 14–27, 2022 we will host a series of online writeathons where we will facilitate contributions and co-writing on to the 2047 wiki. To join us during the writeathons, all you need is an internet connection. You will also be able to edit the wiki fully asynchronously. All events are free, and registration will stay open during the writing period.
 
