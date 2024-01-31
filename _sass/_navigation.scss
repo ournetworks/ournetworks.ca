@@ -1,9 +1,7 @@
 .header {
   z-index: 100;
-  font-size: 0.75em;
 
   @media (max-width: $on-palm) {
-    background: var(--dusk);
     max-height: 100vh;
     overflow: scroll;
   }
@@ -18,16 +16,14 @@
   }
 
   .nav-item {
-    padding: 1em;
+    padding: 0.75em 1em;
     display: inline-flex;
     text-decoration: none;
     align-items: flex-end;
     text-align: left;
-    width: 7em;
-    line-height: 1.3em;
+    line-height: 1em;
     background: var(--white);
-    color: var(--dusk);
-    aspect-ratio: 1/1;
+    color: var(--black);
 
     &:hover,
     &.active {
@@ -40,7 +36,7 @@
     }
 
     &:active {
-      background: var(--accent);
+      background: var(--black);
     }
 
     @media (max-width: $on-palm) {
@@ -69,7 +65,7 @@
         width: 100%;
 
         &[aria-haspopup="true"] {
-          margin: 0.25em 0;
+          margin: 1px 0;
         }
 
         &[aria-haspopup="true"]:first-child {
@@ -109,7 +105,6 @@ input[type="checkbox"].menu-btn {
   background: var(--white);
   color: var(--black);
   padding: 0.5em 1em 0.5em 1em;
-  aspect-ratio: 1/1;
   margin-right: 20px;
   cursor: pointer;
   align-items: flex-end;
@@ -150,9 +145,9 @@ input[type="checkbox"].menu-btn {
     margin-top: 1px;
     display: block;
     white-space: nowrap;
-    padding: 1em;
+    padding: 0.75em 1em;
     text-decoration: none;
-    color: var(--dusk);
+    color: var(--black);
     background: var(--white);
   }
 

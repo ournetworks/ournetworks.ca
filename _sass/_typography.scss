@@ -44,12 +44,6 @@ p {
 
 .mono {
   font-family: $mono-font-family;
-  font-variation-settings: "wght" 401.49;
-}
-
-.authentic-condensed-60 {
-  font-family: AuthenticSans-Condensed;
-  font-weight: 60;
 }
 
 // Typography helper classes
@@ -66,57 +60,14 @@ p {
   text-align: center;
 }
 
-.text-right {
-  text-align: right;
-}
+// Heading helpers
 
-.text-left {
-  text-align: left !important;
-}
-
-.lh-1 {
+.heading-display {
+  font-size: clamp(40px, 11vw, 100px);
   line-height: 1em;
 }
 
-.lh-09 {
-  line-height: 0.9em;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-// Heading helpers
-
-.heading-1 {
-  font-size: 59px;
-
-  @media (max-width: $on-palm) {
-    font-size: 40px;
-  }
-}
-
-.heading-2 {
-  font-size: clamp(40px, 2.5vw, 65px);
-}
-
-.heading-3 {
-  font-size: 30px;
-}
-
-.heading-display {
-  font-size: clamp(40px, 11vw, 150px);
-
-  @media (max-width: $on-palm) {
-    font-size: clamp(100px, 1vw, 150px);
-  }
-}
-
 // Font-weight helpers
-
-.fw-bold {
-  font-weight: bold;
-}
 
 .fw-normal {
   font-weight: normal;

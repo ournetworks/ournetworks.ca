@@ -1,31 +1,21 @@
 :root {
   --white: #fff;
   --black: #000;
-  --dusk: #242421;
+  --grey: #333;
   --accent: #5200ff;
   --accent-dark: #290080;
 }
 
 // Typography Variables
 
-$base-font-family: AuthenticSans,arial,sans-serif;
+$base-font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $base-font-size: 1em;
-$base-font-weight: 90;
+$base-font-weight: 400;
 $base-line-height: 1.45;
 $base-heading-line-height: 1.2;
 $base-margin-bottom: 1em;
 
-$mono-font-family: Sligoil,Courier,monospace;
-
-// 2047 Accent
-
-.color-accent {
-  color: var(--accent);
-}
-
-.bg-accent {
-  background: var(--accent);
-}
+$mono-font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 // White
 
