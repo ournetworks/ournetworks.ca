@@ -40,7 +40,7 @@ jobs:
           path: ./*
           key: ${{ github.sha }}
       - name: Rsync Deployment
-        uses: Burnett01/rsync-deployments@6.0.0
+        uses: Burnett01/rsync-deployments@7.0.0
         with:
           switches: -avzrO --delete --no-p
           path: _site/
