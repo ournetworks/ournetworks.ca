@@ -19,11 +19,17 @@
                  </a>
                 {% assign sorted2_pages = site.pages | sort: "order" %}
                  <ul class="nav-item-sub" aria-hidden="true">
-                    {%- for page2 in sorted2_pages -%}
-                      {% if page.title == page2.parent %}
-                      <li><a class="{% if current != '/' %}{% if page2.url == current %}active{% endif %}{% endif %}" href="{% if page2.redirect_to %}{{ page2.redirect_to }}{% else %}{{ page2.url }}{% endif %}" aria-label="{% if page2.titleDisplay %}{{ page2.titleDisplay }}{% else %}{{ page2.title }}{% endif %}">{% if page2.titleDisplay %}{{ page2.titleDisplay }}{% else %}{{ page2.title }}{% endif %}</a></li>
-                      {% endif %}
-                    {%- endfor -%}
+                    {% if page.title == "Previous years" %}
+                      {%- for year in site.data.previous-years -%}
+                        <li><a href="{{ year.redirect_to }}" aria-label="{{ year.titleDisplay }}" target="_blank">{{ year.titleDisplay }}</a></li>
+                      {%- endfor -%}
+                    {% else %}
+                      {%- for page2 in sorted2_pages -%}
+                        {% if page.title == page2.parent %}
+                        <li><a class="{% if current != '/' %}{% if page2.url == current %}active{% endif %}{% endif %}" href="{% if page2.redirect_to %}{{ page2.redirect_to }}{% else %}{{ page2.url }}{% endif %}" aria-label="{% if page2.titleDisplay %}{{ page2.titleDisplay }}{% else %}{{ page2.title }}{% endif %}">{% if page2.titleDisplay %}{{ page2.titleDisplay }}{% else %}{{ page2.title }}{% endif %}</a></li>
+                        {% endif %}
+                      {%- endfor -%}
+                    {% endif %}
                  </ul>
                </li>
              {% endif %}
