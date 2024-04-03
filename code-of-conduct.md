@@ -9,57 +9,73 @@ Our Networks is dedicated to providing a harassment-free environment for everyon
 
 In order to reduce obstacles to participation, we have adopted an explicitly-documented code to communicate our expectations for conduct at the event.
 
+{:.font-display}
+
 ## Expected behaviour
 
 We expect event participants or organizers to remain mindful of, and take responsibility for, their speech and behaviour. This includes:
 
-* acting out of respect for others
-* actively listening to others and not dominating discussions
-* respecting physical and emotional boundaries
+{:.text-sm}
+
+- acting out of respect for others
+- actively listening to others and not dominating discussions
+- respecting physical and emotional boundaries
+
+{:.font-display}
 
 ## Unacceptable behaviour
 
 We do not tolerate harassment of event participants or organizers in any form. Harassment includes, but is not limited to:
 
-* verbal comments that reinforce social structures of domination related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion, technical skill level
-* deliberate intimidation, stalking, following
-* harassing photography, screenshots, or recording
-* sustained disruption of talks or other events
-* inappropriate physical contact
-* unwelcome sexual attention and sexual language
-* disclosure of personal data (doxing), or sharing other contributors' private information, such as name, place of employment, physical or email address without their explicit consent 
-* hounding, or following a person and repeatedly critiquing their work mainly with the intent to upset or discourage them
-* trolling, or deliberately disrupting or posting in bad-faith to intentionally provoke.
-* advocating for, or encouraging, any of the above behaviour
+{:.text-sm}
+
+- verbal comments that reinforce social structures of domination related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion, technical skill level
+- deliberate intimidation, stalking, following
+- harassing photography, screenshots, or recording
+- sustained disruption of talks or other events
+- inappropriate physical contact
+- unwelcome sexual attention and sexual language
+- disclosure of personal data (doxing), or sharing other contributors' private information, such as name, place of employment, physical or email address without their explicit consent
+- hounding, or following a person and repeatedly critiquing their work mainly with the intent to upset or discourage them
+- trolling, or deliberately disrupting or posting in bad-faith to intentionally provoke.
+- advocating for, or encouraging, any of the above behaviour
 
 Participants asked to stop any harassing behavior are expected to comply immediately. Participants violating these rules may be sanctioned or asked to leave, at the discretion of the organizers.
+
+{:.font-display}
 
 ## Scope
 
 This Code of Conduct applies at the event, in the online spaces of the conference, and in public spaces when an individual is representing Our Networks.
 
+{:.font-display}
+
 ## Content Moderation Guidelines
 
 To ensure this Code of Conduct is enforceable in an online context across platforms, we have some guidelines about the types of spaces the conference includes.
 
-* **Moderated** - one of the organizers or a trained volunteer is present for the full duration of the event actively moderating. The platform provides at least a minimum set of tools for moderation.
+{:.text-sm}
 
-* **Partially moderated** - either the space is durational and cannot be continuously moderated (but an organizer or a trained volunteer will check in periodically to check on participants and moderate if needed) and/or the space has some moderation tools but they may not be ideal or "complete".
-
-* **Unmoderated** - the space cannot be moderated because of the nature of the platform/artwork/etc please use these spaces at your own risk/discretion, we will do our best to clearly mark them.
+- **Moderated** - one of the organizers or a trained volunteer is present for the full duration of the event actively moderating. The platform provides at least a minimum set of tools for moderation.
+- **Partially moderated** - either the space is durational and cannot be continuously moderated (but an organizer or a trained volunteer will check in periodically to check on participants and moderate if needed) and/or the space has some moderation tools but they may not be ideal or "complete".
+- **Unmoderated** - the space cannot be moderated because of the nature of the platform/artwork/etc please use these spaces at your own risk/discretion, we will do our best to clearly mark them.
 
 For a session to be considered "moderateable" for this conference, the minimum feature set we're requiring is that the platform or service allows:
 
-* Moderators to: 
-  * mute participants (for audio)
-  * delete messages that have been posted (in text chats)
-  * kick/ban participants if required
-* Users to: 
-  * use a pseudonym 
-  * turn off their own microphone/camera 
-  * leave at any time
-  
+{:.text-sm}
+
+- Moderators to:
+  - mute participants (for audio)
+  - delete messages that have been posted (in text chats)
+  - kick/ban participants if required
+- Users to:
+  - use a pseudonym
+  - turn off their own microphone/camera
+  - leave at any time
+
 Because of the limits of machine translation, the organizers and volunteers are only able to moderate in English, unless arranged in advance.
+
+{:.font-display}
 
 ## Enforcement
 

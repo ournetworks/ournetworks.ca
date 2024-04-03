@@ -16,27 +16,18 @@
   }
 
   .nav-item {
-    padding: 0.75em 1em;
     display: inline-flex;
     text-decoration: none;
     align-items: flex-end;
     text-align: left;
     line-height: 1em;
-    background: var(--white);
-    color: var(--black);
 
-    &:hover,
     &.active {
-      color: var(--white);
-      background: var(--black);
+      color: var(--black);
 
       .nav-item-sub {
         display: block;
       }
-    }
-
-    &:active {
-      background: var(--black);
     }
 
     @media (max-width: $on-palm) {
@@ -61,7 +52,6 @@
       margin-right: 1px;
 
       @media (max-width: $on-palm) {
-
         width: 100%;
 
         &[aria-haspopup="true"] {
@@ -125,7 +115,6 @@ input[type="checkbox"].menu-btn {
   }
 
   svg {
-    fill: currentColor;
     width: 40px;
     height: 100%;
   }
@@ -145,21 +134,11 @@ input[type="checkbox"].menu-btn {
     margin-top: 1px;
     display: block;
     white-space: nowrap;
-    padding: 0.75em 1em;
     text-decoration: none;
-    color: var(--black);
-    background: var(--white);
-  }
-
-  a:hover,
-  a:focus {
-    color: var(--white);
-    background: var(--black);
   }
 
   a.active {
     color: var(--black);
-    background: var(--white);
   }
 
   &:empty {

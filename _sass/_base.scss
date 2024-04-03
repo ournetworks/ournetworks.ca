@@ -1,26 +1,16 @@
-// Base Styling
+// Images
 
-body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+a {
+  color: inherit;
+  text-underline-offset: 0.2rem;
 }
 
-// Images
+p {
+  @extend .text-sm;
+  line-height: 1.5;
+}
 
 img {
   max-width: 100%;
   height: auto;
-}
-
-// Links
-
-a {
-  color: var(--black);
-
-  &:hover,
-  &:focus,
-  &.active {
-    text-decoration: none;
-  }
 }

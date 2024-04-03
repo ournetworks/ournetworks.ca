@@ -1,12 +1,12 @@
-<header class="header w-100 top-0 mb-2">
-  <div class="container flex relative m-0 w-100 flex-align-center flex-justify-space-between">
+<header class="header w-100 top-0 mb-2 font-display font-medium">
+  <div class="container flex relative w-100 flex-align-center flex-justify-space-between">
     <a class="logo" href="{{ "/" | relative_url }}" rel="home" title="{{ site.title }}">
       {% include logo/soon-logo.svg %}
     </a>
     <input class="menu-btn none" type="checkbox" id="menu-btn" />
-    <label class="menu-icon none color-white bg-black" for="menu-btn"><span>Menu</span></label>
+    <label class="menu-icon none text-white bg-black" for="menu-btn"><span>Menu</span></label>
     <nav class="nav w-100" aria-label="Primary Menu">
-      <ul class="menu flex w-100 text-center ls-none">
+      <ul class="menu flex w-100 gap-4 text-center list-none">
         {% assign currentTitle = page.title %}
         {% assign current = page.url %}
         {% assign sorted_pages = site.pages | sort: "order" %}
