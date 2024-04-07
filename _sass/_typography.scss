@@ -4,8 +4,20 @@
   font-family: var(--font-family-display);
 }
 
+.font-display-mono {
+  font-family: var(--font-family-display-mono);
+}
+
+.font-mono {
+  font-family: var(--font-family-mono);
+}
+
 .leading-normal {
   line-height: 1.5;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
 }
 
 .antialiased {
@@ -15,6 +27,10 @@
 
 .aliased {
   -webkit-font-smoothing: none;
+}
+
+.text-10 {
+  font-size: 1.25rem;
 }
 
 .text-base {
@@ -28,6 +44,16 @@
 
 .text-xs {
   font-size: 0.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-center {
@@ -60,4 +86,8 @@
 
 .break-all {
   word-break: break-all;
+}
+
+.no-underline {
+  text-decoration-line: none;
 }

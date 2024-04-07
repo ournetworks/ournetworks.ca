@@ -39,7 +39,7 @@
     />
   </head>
   <body class="bg-beige">
-    <main>{% include nav.html %} {{ content }} {% include footer.html %}</main>
+    <main class="max-w-prose mx-auto">{% include nav.html %} {{ content }} {% include footer.html %}</main>
     <script
       async
       src="{{ '/js/main.js' | relative_url }}?{{ site.time | date: '%s%N' }}"

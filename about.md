@@ -23,7 +23,7 @@ _We are grateful to the [First Nations House](https://studentlife.utoronto.ca/se
     <strong id="{{ organizer.organizerID }}">{{ organizer.name }}</strong>&nbsp;{% if organizer.bio %}{{ organizer.bio }}{% endif %}
   </p>
   {% if organizer.link or organizer.twitter or organizer.github %}
-  <ul class="flex flex-wrap p-0 mb-2 gap-4 list-none text-sm">
+  <ul class="flex flex-wrap p-0 mb-2 gap-4 list-none text-base">
     {%- if organizer.link -%}<li class="bio-sm-list-item"><a href="https://{{ organizer.link }}" target="_blank" rel="noopener" data-proofer-ignore>{{ organizer.link }}</a></li>{%- endif -%}
     {%- if organizer.fediverse -%}<li class="bio-sm-list-item"><a href="https://{{ organizer.fediverseLink }}" target="_blank" rel="noopener">{{ organizer.fediverse }}</a></li>{%- endif -%}
     {%- if organizer.twitter -%}<li class="bio-sm-list-item"><a href="https://twitter.com/{{ organizer.twitter }}" target="_blank" rel="noopener">@{{ organizer.twitter }}</a></li>{%- endif -%}

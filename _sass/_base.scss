@@ -6,11 +6,17 @@ a {
 }
 
 p {
-  @extend .text-sm;
-  line-height: 1.5;
+  @extend .text-base;
+  @extend .leading-relaxed;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+hr {
+  border: 0;
+  background-color: var(--black);
+  height: 1px;
 }

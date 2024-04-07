@@ -1,6 +1,8 @@
 :root {
-  --font-family-display: "hershey-futural", SFMono-Regular, Menlo, Monaco,
-    Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-family-display: "hershey-futural", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-display-mono: "jgs5", SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
   --font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
@@ -8,6 +10,7 @@
   --white: #fff;
   --black: #000;
   --beige: #f5f5dc;
+  --grey: #d2d2c8;
 }
 
 .text-white {
@@ -24,6 +27,10 @@
 
 .bg-beige {
   background-color: var(--beige);
+}
+
+.bg-grey {
+  background-color: var(--grey);
 }
 
 // Content Layout Variables
