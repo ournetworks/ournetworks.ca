@@ -13,6 +13,10 @@ We would like to acknowledge this sacred land on which Our Networks will take pl
 
 _We are grateful to the [First Nations House](https://studentlife.utoronto.ca/service/first-nations-house/) and Elders Circle (Council of Aboriginal Initiatives) for the language that this acknowledgement is based on._
 
+<pre class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden">
+.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*
+</pre>
+
 {:.font-display}
 
 ## Organizers
@@ -32,8 +36,18 @@ _We are grateful to the [First Nations House](https://studentlife.utoronto.ca/se
   {% endif %}
 {% endfor %}
 
+<pre class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden">
+--..,___.--,--'`,---..-.--+--.,,-,,..._.--..-._.-a:f--..-.--
+</pre>
+
 {:.font-display}
 
-### Design
+### Graphics & Typography
 
 Logo by [Marlo Yarlo](https://www.instagram.com/marloyarlo/).
+
+ASCII drawings adapted from original work by [Joan G. Stark](https://en.wikipedia.org/wiki/Joan_Stark) (a.k.a. jgs, Spunk) and Adel Faure.
+
+Headings: [Hershey-Futural](https://gitlab.com/swrs/hershey-futural), a typeface designed by Dr. A.V. Hershey  in the late 60s. Originally designed to be rendered using vectors on early cathode ray tube displays. SIL Open Font License.
+
+ASCII drawings: [jgs](https://gitlab.com/velvetyne/jgs/-/tree/main), designed by Adel Faure as a tribute to jgs. This font has been specifically designed to draw ASCII art. SIL Open Font License. 
