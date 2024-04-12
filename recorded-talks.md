@@ -12,6 +12,10 @@ redirect_from:
 
 There are only local archives for 2022.
 
+<pre class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden">
+--..,___.--,--'`,---..-.--+--.,,-,,..._.--..-._.-a:f--..-.--
+</pre>
+
 ## Our Networks 2020 archive
 {:.font-display}
 
@@ -24,6 +28,7 @@ Full archives of 2020 videos are available:
 - YouTube playlist: [Our Networks 2020 — Growing Our Networks in Uncertain Times↔Places](https://www.youtube.com/playlist?list=PLx7_J32Ys60eSNBStqqEeVN1cbA-dKf9q)
 
 Thank you to our A/V volunteers: [Henry Wilkinson](https://github.com/Shrinks99), and [Elon Li](https://github.com/ASoTNetworks).
+
 
 {:.font-display}
 
@@ -41,9 +46,9 @@ Thank you to our A/V volunteers: [Henry Wilkinson](https://github.com/Shrinks99)
 {%- endfor -%}
 </div>
 
----
-
-{:.extended}
+<pre class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden">
+`\\//`,.\|/|//.|/\\|/\\|,\|/ //\|/\|.\\\| // \|\\ |/,\|/\|\\
+</pre>
 
 {:.font-display}
 
@@ -87,9 +92,9 @@ Thank you to our A/V volunteers: [Yurko](https://github.com/YurkoWasHere), [Henr
 {%- endfor -%}
 </div>
 
----
-
-{:.extended}
+<pre class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden">
+.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*
+</pre>
 
 {:.font-display}
 

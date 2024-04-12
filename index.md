@@ -15,7 +15,6 @@ Drawing on practices of [local-first](https://www.inkandswitch.com/local-first/)
 .:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*
 </pre>
 
-
 {:.font-display}
 
 ## Format
