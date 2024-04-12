@@ -11,6 +11,15 @@
   --black: #000;
   --beige: #f5f5dc;
   --grey: #d2d2c8;
+  --accent: #FF4433;
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+.bg-accent {
+  background-color: var(--accent);
 }
 
 .text-white {

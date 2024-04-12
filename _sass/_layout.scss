@@ -186,3 +186,11 @@
 .outlined:active {
   outline-width: 2px;
 }
+
+.screen {
+  display: inline-block;
+  width: 38ch;
+  min-height: 2rem;
+  overflow: hidden;
+  margin-bottom: -4px;
+}
