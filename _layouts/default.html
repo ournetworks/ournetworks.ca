@@ -41,6 +41,9 @@
   <body class="bg-beige">
     <main class="max-w-prose mx-auto">{% include nav.html %} {{ content }} {% include footer.html %}</main>
     <script
+      src="{{ '/js/vendor/asciiMorph.js' | relative_url }}"
+    ></script>
+    <script
       async
       src="{{ '/js/main.js' | relative_url }}?{{ site.time | date: '%s%N' }}"
     ></script>
