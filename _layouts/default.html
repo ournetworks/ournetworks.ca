@@ -26,6 +26,10 @@
     <meta property="og:url" content="{{ site.url }}" />
     <meta property="og:description" content="{{ sitedescription }}" />
     <meta
+      property="og:image:alt"
+      content="ASCII mountains and clouds in the background with a laptop in the foreground and DOES NOT COMPUTE on the screen"
+    />
+    <meta
       property="og:image"
       content="{{ site.social_image | prepend: site.url }}"
     />
@@ -39,10 +43,10 @@
     />
   </head>
   <body class="bg-beige">
-    <main class="max-w-prose mx-auto">{% include nav.html %} {{ content }} {% include footer.html %}</main>
-    <script
-      src="{{ '/js/vendor/asciiMorph.js' | relative_url }}"
-    ></script>
+    <main class="max-w-prose mx-auto">
+      {% include nav.html %} {{ content }} {% include footer.html %}
+    </main>
+    <script src="{{ '/js/vendor/asciiMorph.js' | relative_url }}"></script>
     <script
       async
       src="{{ '/js/main.js' | relative_url }}?{{ site.time | date: '%s%N' }}"

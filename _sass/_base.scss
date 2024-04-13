@@ -3,10 +3,18 @@
 a {
   color: inherit;
   text-underline-offset: 0.2rem;
+
+  &:active {
+    color: var(--accent);
+  }
 }
 
 p {
+  @extend .leading-relaxed;
   @extend .text-base;
+}
+
+ul {
   @extend .leading-relaxed;
 }
 

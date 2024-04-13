@@ -13,7 +13,7 @@ We would like to acknowledge this sacred land on which Our Networks will take pl
 
 _We are grateful to the [First Nations House](https://studentlife.utoronto.ca/service/first-nations-house/) and Elders Circle (Council of Aboriginal Initiatives) for the language that this acknowledgement is based on._
 
-<pre class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden">
+<pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden">
 .:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*
 </pre>
 
@@ -36,7 +36,7 @@ _We are grateful to the [First Nations House](https://studentlife.utoronto.ca/se
   {% endif %}
 {% endfor %}
 
-<pre class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden">
+<pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden">
 --..,___.--,--'`,---..-.--+--.,,-,,..._.--..-._.-a:f--..-.--
 </pre>
 

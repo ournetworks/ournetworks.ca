@@ -12,7 +12,7 @@ redirect_from:
 
 There are only local archives for 2022.
 
-<pre class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden">
+<pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden">
 --..,___.--,--'`,---..-.--+--.,,-,,..._.--..-._.-a:f--..-.--
 </pre>
 
@@ -21,7 +21,6 @@ There are only local archives for 2022.
 
 Full archives of 2020 videos are available:
 
-{:.text-sm}
 - IPFS: [ipfs://QmSgVLXPu4ZASkbcebkhXsgx7NjjJx1Xa1ymqkNWaTU4Jt]({{ site.ipfs_gateway }}/ipfs/QmSgVLXPu4ZASkbcebkhXsgx7NjjJx1Xa1ymqkNWaTU4Jt/){: .break-all}
 - Mirror: [Toronto Mesh Alexandria Mirror](https://alexandria.tomesh.net/ournetworks/2020){:data-proofer-ignore=""}
 - Internet Archive: [Our Networks 2020 Talks](https://archive.org/details/ournetworks2020) (torrent available)
@@ -46,7 +45,7 @@ Thank you to our A/V volunteers: [Henry Wilkinson](https://github.com/Shrinks99)
 {%- endfor -%}
 </div>
 
-<pre class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden">
+<pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden">
 `\\//`,.\|/|//.|/\\|/\\|,\|/ //\|/\|.\\\| // \|\\ |/,\|/\|\\
 </pre>
 
@@ -57,8 +56,6 @@ Thank you to our A/V volunteers: [Henry Wilkinson](https://github.com/Shrinks99)
 {:.mb-025}
 Full archives of 2019 videos are available:
 
-{:.text-sm}
-
 - IPFS: [ipfs://QmQQfD1ztg1aG82VmUmutusbxn7tL4c2o1qHv1ivyWbNj6]({{ site.ipfs_gateway }}/ipfs/QmaWc83FvLkyvw8p7Q45prW7HTXAaLgk8jxmkdciokaE1K/){: .break-all}
 - Mirror: [Toronto Mesh Alexandria Mirror](https://alexandria.tomesh.net/ournetworks/2019){:data-proofer-ignore=""}
 - Internet Archive: [Our Networks 2019 Talks](https://archive.org/details/ournetworks2019) (torrent available)
@@ -67,8 +64,6 @@ Full archives of 2019 videos are available:
 {:.font-display}
 
 #### Live stream
-
-{:.text-sm}
 
 - [September 20, 2019](https://2019.ournetworks.ca/livestream/?m3u8=live-2019-09-20.m3u8)
 - [September 21, 2019](https://2019.ournetworks.ca/livestream/?m3u8=live-2019-09-21.m3u8)
@@ -92,7 +87,7 @@ Thank you to our A/V volunteers: [Yurko](https://github.com/YurkoWasHere), [Henr
 {%- endfor -%}
 </div>
 
-<pre class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden">
+<pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden">
 .:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*
 </pre>
 
@@ -101,8 +96,6 @@ Thank you to our A/V volunteers: [Yurko](https://github.com/YurkoWasHere), [Henr
 ## Our Networks 2018 Archive
 
 Full archives of 2018 videos are available:
-
-{:.text-sm}
 
 - IPFS: [ipfs://QmQQfD1ztg1aG82VmUmutusbxn7tL4c2o1qHv1ivyWbNj6]({{ site.ipfs_gateway }}/ipfs/QmQQfD1ztg1aG82VmUmutusbxn7tL4c2o1qHv1ivyWbNj6/){: .break-all}
 - Mirror: [Toronto Mesh Alexandria Mirror](https://alexandria.tomesh.net/ournetworks/2018){:data-proofer-ignore=""}
