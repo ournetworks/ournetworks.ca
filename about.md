@@ -13,22 +13,41 @@ We would like to acknowledge this sacred land on which Our Networks will take pl
 
 _We are grateful to the [First Nations House](https://studentlife.utoronto.ca/service/first-nations-house/) and Elders Circle (Council of Aboriginal Initiatives) for the language that this acknowledgement is based on._
 
+<pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden w-100">
+.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*
+</pre>
+
+{:.font-display}
+
 ## Organizers
 
 {% for organizer in site.data.organizers %}
+
   <p class="mb-05">
     <strong id="{{ organizer.organizerID }}">{{ organizer.name }}</strong>&nbsp;{% if organizer.bio %}{{ organizer.bio }}{% endif %}
   </p>
   {% if organizer.link or organizer.twitter or organizer.github %}
-  <ul class="flex flex-wrap p-0 mb-2 ls-none">
-    {%- if organizer.link -%}<li class="bio-sm-list-item mr-1"><a href="https://{{ organizer.link }}" target="_blank" rel="noopener" data-proofer-ignore>{{ organizer.link }}</a></li>{%- endif -%}
-    {%- if organizer.fediverse -%}<li class="bio-sm-list-item mr-1"><a href="https://{{ organizer.fediverseLink }}" target="_blank" rel="noopener">{{ organizer.fediverse }}</a></li>{%- endif -%}
-    {%- if organizer.twitter -%}<li class="bio-sm-list-item mr-1"><a href="https://twitter.com/{{ organizer.twitter }}" target="_blank" rel="noopener">@{{ organizer.twitter }}</a></li>{%- endif -%}
+  <ul class="flex flex-wrap p-0 mb-2 gap-4 list-none text-base">
+    {%- if organizer.link -%}<li class="bio-sm-list-item"><a href="https://{{ organizer.link }}" target="_blank" rel="noopener" data-proofer-ignore>{{ organizer.link }}</a></li>{%- endif -%}
+    {%- if organizer.fediverse -%}<li class="bio-sm-list-item"><a href="https://{{ organizer.fediverseLink }}" target="_blank" rel="noopener">{{ organizer.fediverse }}</a></li>{%- endif -%}
+    {%- if organizer.twitter -%}<li class="bio-sm-list-item"><a href="https://twitter.com/{{ organizer.twitter }}" target="_blank" rel="noopener">@{{ organizer.twitter }}</a></li>{%- endif -%}
     {%- if organizer.github -%}<li class="bio-sm-list-item"><a href="https://github.com/{{ organizer.github }}" target="_blank" rel="noopener">{{ organizer.github }}</a></li>{%- endif -%}
   </ul>
   {% endif %}
 {% endfor %}
 
-### Design
+<pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden w-100">
+--..,___.--,--'`,---..-.--+--.,,-,,..._.--..-._.-a:f--..-.--
+</pre>
+
+{:.font-display}
+
+### Graphics & Typography
 
 Logo by [Marlo Yarlo](https://www.instagram.com/marloyarlo/).
+
+ASCII drawings adapted from original work by [Joan G. Stark](https://en.wikipedia.org/wiki/Joan_Stark) (a.k.a. jgs, Spunk) and Adel Faure.
+
+Headings: [Hershey-Futural](https://gitlab.com/swrs/hershey-futural), a typeface designed by Dr. A.V. Hershey  in the late 60s. Originally designed to be rendered using vectors on early cathode ray tube displays. SIL Open Font License.
+
+ASCII drawings: [jgs](https://gitlab.com/velvetyne/jgs/-/tree/main), designed by Adel Faure as a tribute to jgs. This font has been specifically designed to draw ASCII art. SIL Open Font License. 

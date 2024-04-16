@@ -125,3 +125,34 @@ document.querySelector('.logo').addEventListener('focus', function(){
   blurSubMenu();
 })
 
+const element = document.querySelector('.screen');
+AsciiMorph(element, {x: 0,y: 0});
+
+const asciis = [[
+  "|NETWORK IS░░░|",
+  "|OPTIONAL░░░░░|"
+],[
+  "|░░░░░░░░░░░░░|",
+  "|░░░░░░░░░░░░░|"
+],[
+  "|DOES NOT░░░░░|",
+  "|CLOUD COMPUTE|",
+]
+,[
+  "|░░░░░░░░░░░░░|",
+  "|░░░░░░░░░░░░░|"
+]]
+
+AsciiMorph.render(asciis[0])
+
+var currentIndex = 1
+
+setTimeout(() => {
+  AsciiMorph.morph(asciis[1])
+}, 7000)
+
+setInterval(() => {
+  AsciiMorph.morph(asciis[currentIndex])
+  currentIndex++
+  currentIndex%= asciis.length
+}, 7000)

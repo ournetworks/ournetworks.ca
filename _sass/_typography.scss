@@ -1,80 +1,93 @@
-// Headings
+// Typography helper classes
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: $base-heading-line-height;
-  margin-bottom: 0.5em;
+.font-display {
+  font-family: var(--font-family-display);
 }
 
-h1 {
-  font-size: 2.18rem;
-  line-height: 1.25em;
+.font-display-mono {
+  font-family: var(--font-family-display-mono);
 }
 
-h2 {
-  font-size: 1.81rem;
+.font-mono {
+  font-family: var(--font-family-mono);
 }
 
-h3 {
-  font-size: 1.56rem;
+.leading-normal {
+  line-height: 1.5;
 }
 
-h4 {
-  font-size: 1.37rem;
+.leading-relaxed {
+  line-height: 1.625;
 }
 
-h5 {
-  font-size: 1.2rem;
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-h6 {
+.aliased {
+  -webkit-font-smoothing: none;
+}
+
+.text-10 {
+  font-size: 1.25rem;
+}
+
+.text-base {
   font-size: 1rem;
 }
 
-p {
-  margin-top: 0;
-  margin-bottom: $base-margin-bottom;
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
-// Font-family
-
-.mono {
-  font-family: $mono-font-family;
+.text-xs {
+  font-size: 0.75rem;
 }
 
-// Typography helper classes
-
-.fs-normal {
-  font-size: 1em;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-.fs-small {
-  font-size: 0.75em;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-center {
   text-align: center;
 }
 
-// Heading helpers
-
-.heading-display {
-  font-size: clamp(40px, 11vw, 100px);
-  line-height: 1em;
+.list-none {
+  list-style-type: none;
 }
 
 // Font-weight helpers
 
-.fw-normal {
-  font-weight: normal;
+.font-light {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 // Word break helper
 
-.overflow-wrap {
+.break-all {
   word-break: break-all;
+}
+
+.no-underline {
+  text-decoration-line: none;
 }

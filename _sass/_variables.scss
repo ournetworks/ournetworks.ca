@@ -1,40 +1,53 @@
 :root {
+  --font-family-display: "hershey-futural", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-display-mono: "jgs5", SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
   --white: #fff;
   --black: #000;
-  --grey: #333;
-  --accent: #5200ff;
-  --accent-dark: #290080;
+  --beige: #f5f5dc;
+  --grey: #d2d2c8;
+  --accent: #FF4433;
 }
 
-// Typography Variables
+.text-accent {
+  color: var(--accent);
+}
 
-$base-font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$base-font-size: 1em;
-$base-font-weight: 400;
-$base-line-height: 1.45;
-$base-heading-line-height: 1.2;
-$base-margin-bottom: 1em;
+.bg-accent {
+  background-color: var(--accent);
+}
 
-$mono-font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+.active\:bg-accent:active {
+  background-color: var(--accent);
+}
 
-// White
+.active\:text-white:active {
+ color: var(--white);
+}
 
-.color-white {
+.text-white {
   color: var(--white);
 }
 
 .bg-white {
-  background: var(--white);
-}
-
-// Black
-
-.color-black {
-  color: var(--black);
+  background-color: var(--white);
 }
 
 .bg-black {
-  background: var(--black);
+  background-color: var(--black);
+}
+
+.bg-beige {
+  background-color: var(--beige);
+}
+
+.bg-grey {
+  background-color: var(--grey);
 }
 
 // Content Layout Variables

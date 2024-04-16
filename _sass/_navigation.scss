@@ -1,42 +1,18 @@
 .header {
-  z-index: 100;
-
-  @media (max-width: $on-palm) {
-    max-height: 100vh;
-    overflow: scroll;
-  }
 
   > .container {
     padding: 1em 30px;
 
     @media (max-width: $on-palm) {
       padding: 1em 0;
-      flex-wrap: wrap;
     }
   }
 
   .nav-item {
-    padding: 0.75em 1em;
     display: inline-flex;
-    text-decoration: none;
-    align-items: flex-end;
-    text-align: left;
-    line-height: 1em;
-    background: var(--white);
-    color: var(--black);
 
-    &:hover,
     &.active {
-      color: var(--white);
-      background: var(--black);
-
-      .nav-item-sub {
-        display: block;
-      }
-    }
-
-    &:active {
-      background: var(--black);
+      color: var(--black);
     }
 
     @media (max-width: $on-palm) {
@@ -44,16 +20,7 @@
     }
   }
 
-  li:hover,
-  li.active {
-    .nav-item-sub {
-      min-width: 100%;
-      display: block;
-    }
-  }
-
   .menu {
-    margin: 0;
     padding: 0;
 
     li {
@@ -61,7 +28,6 @@
       margin-right: 1px;
 
       @media (max-width: $on-palm) {
-
         width: 100%;
 
         &[aria-haspopup="true"] {
@@ -85,27 +51,28 @@
 
 .nav {
   @media (max-width: $on-palm) {
+    padding: 0 20px;
     display: none;
+
+    pre {
+      line-height: 2rem;
+    }
   }
 }
 
 input[type="checkbox"].menu-btn {
   &:checked ~ .nav {
     display: block;
-    padding-bottom: 3em;
   }
 
   &:checked ~ .menu-icon {
-    background: var(--black);
-    color: var(--white);
+    background-color: var(--accent);
+    outline-color: var(--accent);
   }
 }
 
 .menu-icon {
-  background: var(--white);
-  color: var(--black);
   padding: 0.5em 1em 0.5em 1em;
-  margin-right: 20px;
   cursor: pointer;
   align-items: flex-end;
 
@@ -119,14 +86,14 @@ input[type="checkbox"].menu-btn {
 .logo {
   display: inline-flex;
   margin-right: 30px;
+  vertical-align: middle;
 
   @media (max-width: $on-palm) {
     margin-left: 20px;
   }
 
   svg {
-    fill: currentColor;
-    width: 40px;
+    width: 50px;
     height: 100%;
   }
 }
@@ -134,37 +101,8 @@ input[type="checkbox"].menu-btn {
 // Sub-menu
 
 .nav-item-sub {
-  position: absolute;
-  z-index: 1000;
-  display: none;
   padding: 0;
   list-style: none;
-  text-align: left;
-
-  a {
-    margin-top: 1px;
-    display: block;
-    white-space: nowrap;
-    padding: 0.75em 1em;
-    text-decoration: none;
-    color: var(--black);
-    background: var(--white);
-  }
-
-  a:hover,
-  a:focus {
-    color: var(--white);
-    background: var(--black);
-  }
-
-  a.active {
-    color: var(--black);
-    background: var(--white);
-  }
-
-  &:empty {
-    display: none;
-  }
 }
 
 @media (max-width: $on-palm) {
@@ -175,9 +113,6 @@ input[type="checkbox"].menu-btn {
       }
     }
   }
-  .nav-item {
-    min-width: 100%;
-  }
   .nav-item-sub {
     display: block;
     position: inherit;
@@ -185,4 +120,19 @@ input[type="checkbox"].menu-btn {
     float: none;
     margin-bottom: 0;
   }
+}
+
+.hover-ornament:after {
+  font-family: var(--font-family-display-mono);
+  display: inline-flex;
+  line-height: 0;
+  margin-left: 1ch;
+}
+
+.hover-ornament:hover::after {
+  content: "☼";
+}
+
+.hover-ornament.active::after {
+  content: "*";
 }
