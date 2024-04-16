@@ -12,7 +12,7 @@ redirect_from:
 
 There are only local archives for 2022.
 
-<pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden">
+<pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden w-100">
 --..,___.--,--'`,---..-.--+--.,,-,,..._.--..-._.-a:f--..-.--
 </pre>
 
@@ -45,7 +45,7 @@ Thank you to our A/V volunteers: [Henry Wilkinson](https://github.com/Shrinks99)
 {%- endfor -%}
 </div>
 
-<pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden">
+<pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden w-100">
 `\\//`,.\|/|//.|/\\|/\\|,\|/ //\|/\|.\\\| // \|\\ |/,\|/\|\\
 </pre>
 
@@ -87,7 +87,7 @@ Thank you to our A/V volunteers: [Yurko](https://github.com/YurkoWasHere), [Henr
 {%- endfor -%}
 </div>
 
-<pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden">
+<pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden w-100">
 .:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*
 </pre>
 
