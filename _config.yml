@@ -12,6 +12,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ournetworks.ca" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
 twitter_username: _ournetworks
+bsky_username: ournetworks.ca
 github_username: ournetworks
 social_image: /images/social.png
 ipfs_gateway: https://ipfs.io

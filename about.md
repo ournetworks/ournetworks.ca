@@ -30,6 +30,7 @@ _We are grateful to the [First Nations House](https://studentlife.utoronto.ca/se
   <ul class="flex flex-wrap p-0 mb-2 gap-4 list-none text-base">
     {%- if organizer.link -%}<li class="bio-sm-list-item"><a href="https://{{ organizer.link }}" target="_blank" rel="noopener" data-proofer-ignore>{{ organizer.link }}</a></li>{%- endif -%}
     {%- if organizer.fediverse -%}<li class="bio-sm-list-item"><a href="https://{{ organizer.fediverseLink }}" target="_blank" rel="noopener">{{ organizer.fediverse }}</a></li>{%- endif -%}
+    {%- if organizer.bsky -%}<li class="bio-sm-list-item"><a href="https://bsky.app/profile/{{ organizer.bsky }}" target="_blank" rel="noopener">{{ organizer.bsky }}</a></li>{%- endif -%}
     {%- if organizer.twitter -%}<li class="bio-sm-list-item"><a href="https://twitter.com/{{ organizer.twitter }}" target="_blank" rel="noopener">@{{ organizer.twitter }}</a></li>{%- endif -%}
     {%- if organizer.github -%}<li class="bio-sm-list-item"><a href="https://github.com/{{ organizer.github }}" target="_blank" rel="noopener">{{ organizer.github }}</a></li>{%- endif -%}
   </ul>
