@@ -5,13 +5,14 @@
     "Liberation Mono", "Courier New", monospace;
   --font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-bc-sans: "bc-sans", ui-sans-serif, system-ui, sans-serif;
   --font-family-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
   --white: #fff;
   --black: #000;
   --beige: #f5f5dc;
   --grey: #d2d2c8;
-  --accent: #FF4433;
+  --accent: #ff4433;
 }
 
 .text-accent {
@@ -27,7 +28,7 @@
 }
 
 .active\:text-white:active {
- color: var(--white);
+  color: var(--white);
 }
 
 .text-white {

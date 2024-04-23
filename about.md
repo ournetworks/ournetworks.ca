@@ -9,9 +9,9 @@ Our Networks is a conference about the past, present, and future of building our
 
 The event has a [Code of Conduct](/code-of-conduct/) in order to foster an environment we can all be in together. During the event if you are being harassed, notice that someone else is being harassed, or have any other concerns, we ask you to contact an organizer immediately. Those who wish to do so but don’t feel comfortable talking to the organizers in-person can email [coc@ournetworks.ca](mailto:coc@ournetworks.ca).
 
-We would like to acknowledge this sacred land on which Our Networks will take place. Tkaronto (Toronto) has been a site of human activity for 15,000 years. This land is the territory of the Huron-Wendat and Petun First Nations, the Seneca, and most recently, the Mississaugas of the Credit River. The territory was the subject of the Dish with One Spoon Wampum Belt Covenant, an agreement between the Iroquois Confederacy and Confederacy of the Ojibwe and allied nations to peaceably share and care for the resources around the Great Lakes. Today, the meeting place of Toronto is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work in the community, on this territory.
+We would like to acknowledge this sacred land on which Our Networks will take place. Vancouver is the unceded and ancestral territory of the <span class="font-bc-sans">hən̓q̓əmin̓əm̓</span> and <span class="font-bc-sans">Sḵwx̱wú7mesh</span> (Squamish) speaking peoples, the <span class="font-bc-sans">xʷməθkʷəy̓əm</span> (Musqueam), <span class="font-bc-sans">Sḵwx̱wú7mesh</span>, and <span class="font-bc-sans">səlilwətaɬ</span> (Tsleil-Waututh) Nations, and has been stewarded by them since time immemorial.
 
-_We are grateful to the [First Nations House](https://studentlife.utoronto.ca/service/first-nations-house/) and Elders Circle (Council of Aboriginal Initiatives) for the language that this acknowledgement is based on._
+The term unceded acknowledges the dispossession of the land and the inherent rights that Musqueam, Squamish and Tsleil-Waututh hold to the territory. The term serves as a reminder that Musqueam, Squamish and Tsleil-Waututh have never left their territories and will always retain their jurisdiction and relationships with the territory. We are grateful to have the opportunity to work on this territory.
 
 <pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden w-100">
 .:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*
@@ -49,6 +49,6 @@ Logo by [Marlo Yarlo](https://www.instagram.com/marloyarlo/).
 
 ASCII drawings adapted from original work by [Joan G. Stark](https://en.wikipedia.org/wiki/Joan_Stark) (a.k.a. jgs, Spunk) and Adel Faure.
 
-Headings: [Hershey-Futural](https://gitlab.com/swrs/hershey-futural), a typeface designed by Dr. A.V. Hershey  in the late 60s. Originally designed to be rendered using vectors on early cathode ray tube displays. SIL Open Font License.
+Headings: [Hershey-Futural](https://gitlab.com/swrs/hershey-futural), a typeface designed by Dr. A.V. Hershey in the late 60s. Originally designed to be rendered using vectors on early cathode ray tube displays. SIL Open Font License.
 
-ASCII drawings: [jgs](https://gitlab.com/velvetyne/jgs/-/tree/main), designed by Adel Faure as a tribute to jgs. This font has been specifically designed to draw ASCII art. SIL Open Font License. 
+ASCII drawings: [jgs](https://gitlab.com/velvetyne/jgs/-/tree/main), designed by Adel Faure as a tribute to jgs. This font has been specifically designed to draw ASCII art. SIL Open Font License.
