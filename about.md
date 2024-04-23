@@ -13,6 +13,8 @@ We would like to acknowledge this sacred land on which Our Networks will take pl
 
 The term unceded acknowledges the dispossession of the land and the inherent rights that Musqueam, Squamish and Tsleil-Waututh hold to the territory. The term serves as a reminder that Musqueam, Squamish and Tsleil-Waututh have never left their territories and will always retain their jurisdiction and relationships with the territory. We are grateful to have the opportunity to work on this territory.
 
+_We credit [The City of Vancouver](https://vancouver.ca/people-programs/land-acknowledgement) for the language acknowledging the unceded territories._
+
 <pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden w-100">
 .:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*
 </pre>
