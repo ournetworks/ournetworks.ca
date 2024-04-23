@@ -58,3 +58,5 @@ ASCII drawings adapted from original work by [Joan G. Stark](https://en.wikipedi
 Headings: [Hershey-Futural](https://gitlab.com/swrs/hershey-futural), a typeface designed by Dr. A.V. Hershey in the late 60s. Originally designed to be rendered using vectors on early cathode ray tube displays. SIL Open Font License.
 
 ASCII drawings: [jgs](https://gitlab.com/velvetyne/jgs/-/tree/main), designed by Adel Faure as a tribute to jgs. This font has been specifically designed to draw ASCII art. SIL Open Font License.
+
+Indigenous Languages: [BC Sans](https://github.com/bcgov/bc-sans), a "living" typeface developed to support special characters and syllabics found in Indigenous Languages in British Columbia. [More on BC Sans](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/bc-visual-identity/bc-sans). SIL Open Font License.
