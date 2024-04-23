@@ -11,7 +11,7 @@ The event has a [Code of Conduct](/code-of-conduct/) in order to foster an envir
 
 We would like to acknowledge this sacred land on which Our Networks will take place. Vancouver is the unceded and ancestral territory of the <span class="font-bc-sans">hən̓q̓əmin̓əm̓</span> and <span class="font-bc-sans">Sḵwx̱wú7mesh</span> (Squamish) speaking peoples, the <span class="font-bc-sans">xʷməθkʷəy̓əm</span> (Musqueam), <span class="font-bc-sans">Sḵwx̱wú7mesh</span>, and <span class="font-bc-sans">səlilwətaɬ</span> (Tsleil-Waututh) Nations, and has been stewarded by them since time immemorial.
 
-The term unceded acknowledges the dispossession of the land and the inherent rights that Musqueam, Squamish and Tsleil-Waututh hold to the territory. The term serves as a reminder that Musqueam, Squamish and Tsleil-Waututh have never left their territories and will always retain their jurisdiction and relationships with the territory. We are grateful to have the opportunity to work on this territory.
+The term unceded acknowledges the dispossession of the land and the inherent rights that Musqueam, Squamish and Tsleil-Waututh hold to the territory. The term serves as a reminder that Musqueam, Squamish and Tsleil-Waututh have never left their territories and will always retain their jurisdiction and relationships with the territory. We are grateful to have the opportunity to gather on this territory.
 
 _We credit [The City of Vancouver](https://vancouver.ca/people-programs/land-acknowledgement) for the language acknowledging the unceded territories._
 
