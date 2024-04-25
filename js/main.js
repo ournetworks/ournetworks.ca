@@ -87,8 +87,13 @@ events.map(function(e){
 
 // menu tab navigation support
 
-var subMenuContainers = document.querySelectorAll('.nav-item-sub');
-var menuItems = document.querySelectorAll('.menu > li');
+const subMenuContainers = document.querySelectorAll('.nav-item-sub');
+const subMenuContainersLastItem = document.querySelectorAll('.nav-item-sub li:last-child');
+const menuItems = document.querySelectorAll('.menu > li');
+
+subMenuContainersLastItem.forEach((li) => {
+  li.innerHTML = li.innerHTML.replace(/├──/g, "└──");
+});
 
 function blurSubMenu() {
   document.querySelectorAll('[aria-haspopup]').forEach(function(e){

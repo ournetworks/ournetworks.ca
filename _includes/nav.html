@@ -1,7 +1,6 @@
 {% assign currentTitle = page.title %}
 {% assign current = page.url %}
 {% assign sorted_pages = site.pages | sort: "order" %}
-{% assign sub_pages = '' | split: '' %}
 
 <header class="header w-100 top-0 mb-2">
   <div class="container relative w-100">
@@ -11,11 +10,20 @@
     <input class="menu-btn none" type="checkbox" id="menu-btn" />
     <label class="menu-icon none text-white bg-black rounded font-mono antialiased p-1 no-underline outlined active:bg-accent active:outline-accent" for="menu-btn"><span>Menu</span></label>
     <nav class="nav w-100" aria-label="Primary Menu">
-<pre class="leading-normal"><ul class="menu w-100 gap-4 list-none"><a class="hover-ornament {% if current == '/' %}active{% endif %}" href="{{ "/" | relative_url }}" rel="home" title="{{ site.title }}">ournetworks.ca</a>{% for page in sorted_pages %}{% if page.order > 0 and page.parent == nil %}<li>{% if forloop.last %}└── {% else %}├── {% endif %}<a class="hover-ornament {% if current != '/' %}{% if page.url == current %}active{% endif %}{% endif %}"
+    <pre class="leading-normal"><ul class="menu w-100 gap-4 list-none"><a class="hover-ornament {% if current == '/' %}active{% endif %}" href="{{ "/" | relative_url }}" rel="home" title="{{ site.title }}">ournetworks.ca</a>
+      {%- for page in sorted_pages -%}
+      {%- if page.order > 0 and page.parent == nil -%}
+      <li>{% if forloop.last %}└── {% else %}├── {% endif %}<a class="hover-ornament {% if current != '/' %}{% if page.url == current %}active{% endif %}{% endif %}"
 href="{% if page.content.size > 1 %}{{ page.url | relative_url }}{% else %}#{% endif %}" aria-label="{{ page.title }}">{% if page.titleDisplay %}{{ page.titleDisplay }}{% else %}{{ page.title }}{% endif %}</a>{% assign sorted2_pages = site.pages | sort: "order" %}<ul class="nav-item-sub">{% if page.title == "Previous years" %}{%- for year in site.data.previous-years -%}<li>│   {% if forloop.last %}└── {% else %}├── {% endif %}<a class="hover-ornament" href="{{ year.redirect_to }}" aria-label="{{ year.titleDisplay }}" target="_blank">{{ year.titleDisplay }}</a></li>
-{%- endfor -%}{% else %}{%- for page2 in sorted2_pages -%}{% if page.title == page2.parent %}{% assign sub_pages = sub_pages | push: page2 %}
-    {%- for page in sub_pages -%}
-    <li>│   {% if forloop.last %}└── {% else %}├── {% endif %}<a class="hover-ornament {% if current != '/' %}{% if page.url == current %}active{% endif %}{% endif %}" href="{% if page.redirect_to %}{{ page.redirect_to }}{% else %}{{ page.url }}{% endif %}" aria-label="{% if page.titleDisplay %}{{ page.titleDisplay }}{% else %}{{ page.title }}{% endif %}">{% if page.titleDisplay %}{{ page.titleDisplay }}{% else %}{{ page.title }}{% endif %}</a></li>{% endfor %}{% endif %}{%- endfor -%}{% endif %}</ul></li>{% endif %}{% endfor %}</ul></pre><!-- .nav -->
+      {%- endfor -%}{%- else -%}
+      {%- for page2 in sorted2_pages -%}
+      {%- if page.title == page2.parent -%}
+      <li>│   {% if forloop.last %}└── {% else %}├── {% endif %}<a class="hover-ornament {% if current != '/' %}{% if page2.url == current %}active{% endif %}{% endif %}" href="{% if page2.redirect_to %}{{ page2.redirect_to }}{% else %}{{ page2.url }}{% endif %}" aria-label="{% if page2.titleDisplay %}{{ page2.titleDisplay }}{% else %}{{ page2.title }}{% endif %}">{% if page2.titleDisplay %}{{ page2.titleDisplay }}{% else %}{{ page2.title }}{% endif %}</a></li>
+      {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  </ul></li>{%- endif -%}{%- endfor -%}
+</ul></pre><!-- .nav -->
     </nav>
   </div>
 </header>
