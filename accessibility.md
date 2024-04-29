@@ -11,6 +11,7 @@ The details of this page are current as of {{ page.date }}.
 
 
 ## Venue
+{:.font-display}
 
 312 Main Street has an accessible entrance, all gender accesible washrooms, and bike parking located inside the venue. We will be sharing more details here closer to the event.
 
