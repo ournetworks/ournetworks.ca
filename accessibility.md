@@ -16,6 +16,7 @@ The details of this page are current as of {{ page.date }}.
 
 
 ## Presentations
+{:.font-display}
 
 For presentations we ask speaktes to consider the following suggestions to enhance the accessibility of any slides: 
 - use high-contrast slides with large fonts 
