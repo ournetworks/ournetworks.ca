@@ -48,3 +48,13 @@ jobs:
           remote_host: ournetworks.ca
           remote_user: ${{ secrets.DEPLOY_USER }}
           remote_key: ${{ secrets.DEPLOY_KEY }}
+      - name: Publish to Distributed Press
+        uses: hyphacoop/actions-distributed-press@v1.1
+        with:
+          publish_dir: _site
+          dp_url: https://press.ournetworks.ca
+          refresh_token: ${{ secrets.REFRESH_TOKEN }}
+          site_url: ournetworks.ca
+          deploy_http: true
+          deploy_hyper: true
+          deploy_ipfs: true
