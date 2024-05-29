@@ -1,0 +1,8 @@
+---
+notifications:
+  posts/hello-activitypub.jsonld:
+    action: create
+    id: https://ournetworks.ca/posts/hello-activitypub.jsonld
+actor_url: https://ournetworks.ca/about.jsonld
+actor: "@orga@ournetworks.ca"
+public_key_url: https://ournetworks.ca/about.jsonld#main-key

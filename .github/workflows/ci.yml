@@ -5,6 +5,7 @@ on:
     branches: ["main"]
   pull_request:
     branches: ["main"]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -19,8 +20,10 @@ jobs:
         with:
           ruby-version: "3.3"
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - name: Decode Production Key
+        run: echo ${{ secrets.ENCODED_DP_AP_KEY }} | base64 --decode > /tmp/secret.key
       - name: Build site
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --key /tmp/secret.key
       - name: Cache HTMLProofer
         id: cache-htmlproofer
         uses: actions/cache@v4
