@@ -22,6 +22,11 @@ sass:
   style: compressed
 markdown: kramdown
 plugins:
+  - jekyll-activity-pub
+  - jekyll-activity-pub-absolute-assets
+  - jekyll-activity-pub-link-iframes
+  - jekyll-activity-pub-assets-as-attachments
+  - jekyll-activity-pub-fep-fffd-distributed-press
   - jekyll-feed
   - jekyll-redirect-from
 
@@ -37,17 +42,29 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# Keep files (Dat files)
-keep_files: [.dat]
+exclude:
+  - tmp
 
-# Include files (Dat files)
-include: [.well-known]
+locale: "en"
 
 activity_pub:
+  url: "https://social.ournetworks.ca"
   hostname: "ournetworks.ca"
   username: "orga"
   public_name: "Our Networks"
   icons:
-  - "actor_avatar.png"
+  - "images/ournetworks-social.png"
   images:
-  - "actor_banner.png"
+  - "images/ournetworks-banner.png"
+
+collections:
+  posts:
+    permalink: /posts/:title/
+
+defaults:
+  -
+    scope:
+      type: posts
+    values:
+      layout: "default"
+      activity: true
