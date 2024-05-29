@@ -42,3 +42,12 @@ keep_files: [.dat]
 
 # Include files (Dat files)
 include: [.well-known]
+
+activity_pub:
+  hostname: "ournetworks.ca"
+  username: "orga"
+  public_name: "Our Networks"
+  icons:
+  - "actor_avatar.png"
+  images:
+  - "actor_banner.png"
