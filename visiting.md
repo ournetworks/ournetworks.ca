@@ -43,7 +43,7 @@ Public transpit is operated by [Translink](https://www.translink.ca/) and the ne
 
 **Fares** are for the whole system and allow transfers between bus, Skytrain, and more on a single trip within 90 minutes. You can pay by cash, tap, and [Compass Card](https://www.compasscard.ca/). There are three [fare zones](https://www.translink.ca/transit-fares/pricing-and-fare-zones), with a single 1-ZONE trip costing $3.15 for cash or tap and $2.55 if you use the Compass card. 
 
-The airport is [Vancouver International airport (YVR)](https://www.yvr.ca/en/passengers), from which you can travel to downtown Vancouver or across the Metro area via Skytrain along the [Canada Line](https://www.translink.ca/schedules-and-maps/skytrain#canada-line). There is an [additional $5 fare](https://www.translink.ca/transit-fares/transferring-and-addfare#yvr-airport-addfare) for taking the Skytrain from the airport.
+The airport is [Vancouver International airport (YVR)](https://www.yvr.ca/), from which you can travel to downtown Vancouver or across the Metro area via Skytrain along the [Canada Line](https://www.translink.ca/schedules-and-maps/skytrain). There is an [additional $5 fare](https://www.translink.ca/transit-fares/transferring-and-addfare) for taking the Skytrain from the airport.
 
 
 {:.font-display}
