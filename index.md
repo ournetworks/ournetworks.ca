@@ -30,7 +30,25 @@ This year we are planning a single-day event with invited speakers and workshop 
 
 ## Register
 
-Registration will open closer to the event. Check back here or [sign up to our mailing list](https://lists.mayfirst.org/mailman/listinfo/ournetworks){:target="\_blank"} to receive updates.
+Registration is now open!
+
+We project that the cost for us to host this event is $82 per person, however we want to ensure all can attend and so are seeking sponsorships and grants to reduce that cost for all. We have three admission levels: Supporter, General, and Reduced Cost and we have a suggested admission of $60.
+
+| Admission              | Price | Details |
+|:-----------------------|:------|:--------|
+| Supporter | $120 | If your org or company is paying or your registration can be reimbursed, consider registering as organization supporter. This allows us to offer reduced cost admissions and scholarships. |
+| General              | $60 | Suggested admission for those employed or otherwise financially comfortable. At this rate we can sustain the event. |
+| Reduced Cost           | $30 | Lower cost admission for those unwaged, students, or otherwise in need of a reduced cost. |
+
+The conference has a [Code of Conduct](https://ournetworks.ca/code-of-conduct/). We are looking for volunteers (in return for complimentary admission) and are able to offer a limited number of scholarships, please contact us at [{{ site.email }}](mailto:{{ site.email }})
+
+<a href="https://lu.ma/r3afi0b0" class="bg-black active:bg-accent text-white font-mono antialiased rounded p-1 px-2 no-underline outlined active:text-white active:outline-accent" target="_blank" rel="noopener">Register on Luma</a>
+
+{:.font-display}
+
+## Mailing List
+
+Register above or [sign up to our mailing list](https://lists.mayfirst.org/mailman/listinfo/ournetworks){:target="\_blank"} to receive updates.
 
 <a href="https://lists.mayfirst.org/mailman/listinfo/ournetworks" class="bg-black active:bg-accent text-white font-mono antialiased rounded p-1 px-2 no-underline outlined active:text-white active:outline-accent" target="_blank" rel="noopener">Subscribe to our mailing list</a>
 
@@ -39,8 +57,3 @@ Registration will open closer to the event. Check back here or [sign up to our m
 --..,___.--,--'`,---..-.--+--.,,-,,..._.--..-._.-a:f--..-.--
 </pre>
 
-{:.font-display}
-
-## Not sure about something? Ask us!
-
-The conference has a [Code of Conduct](https://ournetworks.ca/code-of-conduct/). If you have any additional questions let us know at [orga@ournetworks.ca](mailto:orga@ournetworks.ca)!
