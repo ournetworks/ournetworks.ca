@@ -39,22 +39,22 @@ _Please note, wearing a helmet while bicycling is the law in British Columbia an
 {:.font-display}
 ### Public transit
 
-Public transpit is operated by [Translink](https://www.translink.ca/) and the network consists of automated rapid transit called the Skytrain, Seabus ferries, commuter rail, and bus. Translink offers a [trip planner](https://www.translink.ca/trip-planner) and [route maps](https://www.translink.ca/schedules-and-maps) to aide passengers, and routes are searchable from most transit apps. 
+Public transit is operated by [Translink](https://www.translink.ca/) and the network includes automated rapid transit called the Skytrain, Seabus ferries, commuter rail, and bus. Translink has a [trip planner](https://www.translink.ca/trip-planner) and [route maps](https://www.translink.ca/schedules-and-maps) to aide passengers, and routes are searchable from most transit apps. 
 
-**Fares** are for the whole system and allow transfers between bus, Skytrain, and more on a single trip within 90 minutes. You can pay by cash, tap, and [Compass Card](https://www.compasscard.ca/). There are three [fare zones](https://www.translink.ca/transit-fares/pricing-and-fare-zones), with a single 1-ZONE trip costing $3.15 for cash or tap and $2.55 if you use the Compass card. 
+**Fares** are for the whole system and allow transfers on 90 minute trips. You can pay by cash, tap, and load funds on a [Compass Card](https://www.compasscard.ca/). There are three [fare zones](https://www.translink.ca/transit-fares/pricing-and-fare-zones), with a single 1-ZONE trip costing $3.15 by cash or tap and $2.55 by Compass. 
 
-The airport is [Vancouver International airport (YVR)](https://www.yvr.ca/), from which you can travel to downtown Vancouver or across the Metro area via Skytrain along the [Canada Line](https://www.translink.ca/schedules-and-maps/skytrain). There is an [additional $5 fare](https://www.translink.ca/transit-fares/transferring-and-addfare) for taking the Skytrain from the airport.
+The airport is [Vancouver International airport (YVR)](https://www.yvr.ca/), you can travel to downtown Vancouver or across the Metro area from it via Skytrain on the [Canada Line](https://www.translink.ca/schedules-and-maps/skytrain). There is an [additional $5 fare](https://www.translink.ca/transit-fares/transferring-and-addfare) for taking the Skytrain from the airport.
 
 
 {:.font-display}
 
 ## Staying in Vancouver
 
-For those looking at alternative accommodations including platforms like Airbnb, we wanted to provide context about the current housing market. 
+For those looking at accommodations, including short-term rentals on platforms like Airbnb, we wanted to provide context about the current housing market. 
 
-Vancouver is an expensive place to live and visit. Like many cities around the world, Vancouver is experiencing an [affordability crisis](https://globalnews.ca/news/10401449/vancouver-full-blown-crisis-housing-affordability-report/) compounded by a decades-long [housing crisis](https://thetyee.ca/Culture/2023/05/03/What-Behind-Housing-Crisis-Canada/), in part driven by housing that would otherwise be available to rentals being treated as speculative investments for the operation of [short-term rentals](https://www.cbc.ca/news/canada/british-columbia/short-term-rental-accomodation-act-bc-rules-and-enforcement-1.7177836). As a result, Vancouver rent is the [most expensive in Canada](https://vancouversun.com/news/local-news/vancouver-rent-flat-decline-most-expensive-report), an increase in [bad-faith evictions](https://www.theglobeandmail.com/real-estate/vancouver/article-landlord-use-now-most-frequently-used-tool-to-evict-bc-renters/), and [tenant unions](https://www.vancouvertenantsunion.ca/).
+Vancouver is an expensive place to live and visit. Like many cities around the world, Vancouver is experiencing an [affordability crisis](https://globalnews.ca/news/10401449/vancouver-full-blown-crisis-housing-affordability-report/) compounded by a decades-long [housing crisis](https://thetyee.ca/Culture/2023/05/03/What-Behind-Housing-Crisis-Canada/), in part driven by housing that would otherwise be available to rentals being treated as speculative investments for the operation of [short-term rentals](https://www.cbc.ca/news/canada/british-columbia/short-term-rental-accomodation-act-bc-rules-and-enforcement-1.7177836). As a result, Vancouver rent is the [most expensive in Canada](https://vancouversun.com/news/local-news/vancouver-rent-flat-decline-most-expensive-report) and there has been an increase in [bad-faith evictions](https://www.theglobeandmail.com/real-estate/vancouver/article-landlord-use-now-most-frequently-used-tool-to-evict-bc-renters/). The [Vancouver Tenants Union](https://www.vancouvertenantsunion.ca/about) has members who live in the 50% of the city that is rentals and collectively ensures their rights as tenants are respected.
 
-As of May 1, 2024, B.C. has introduced new rules that [apply to Vancouver](https://vancouver.ca/doing-business/short-term-rentals.aspx): short-term rentals are restricted to the home the operator lives in, and they must be rented out for less than 30 consecutive days at a time. s
+As of May 1, 2024, B.C. has new rules that [apply to Vancouver](https://vancouver.ca/doing-business/short-term-rentals.aspx): short-term rentals are restricted to the home the operator lives in and they must be rented out for less than 30 consecutive days at a time. 
 
 Inspired by [4S 2019 in New Orleans](https://www.4s2019.org/accommodation/), we have [once again](https://2019.ournetworks.ca/visiting/) provided information on ways to mitigate the impact of short-term rentals as well as notes on how to make your own guides.
 
@@ -62,13 +62,13 @@ Inspired by [4S 2019 in New Orleans](https://www.4s2019.org/accommodation/), we 
 
 ### Unionized hotels
 
-We checked [Fair Hotels](https://www.fairhotel.org/search?location%5Bgeolocation_geocoder_address%5D=Vancouver%2C+BC%2C+Canada&location%5Blat_north_east%5D=49.3172939&location%5Blng_north_east%5D=-123.023068&location%5Blat_south_west%5D=49.19817700000001&location%5Blng_south_west%5D=-123.22474&brand=All&field_guest_rooms_value%5Bmin%5D=0&field_guest_rooms_value%5Bmax%5D=6000&meeting_rooms%5Bmin%5D=0&meeting_rooms%5Bmax%5D=500&venue_size%5Bmin%5D=0&venue_size%5Bmax%5D=3000000), and as of May 2024, these hotels are unionized and less than $500/night,roughly sorted by lowest price and distance:
+We checked [Fair Hotels](https://www.fairhotel.org/search?location%5Bgeolocation_geocoder_address%5D=Vancouver%2C+BC%2C+Canada&location%5Blat_north_east%5D=49.3172939&location%5Blng_north_east%5D=-123.023068&location%5Blat_south_west%5D=49.19817700000001&location%5Blng_south_west%5D=-123.22474&brand=All&field_guest_rooms_value%5Bmin%5D=0&field_guest_rooms_value%5Bmax%5D=6000&meeting_rooms%5Bmin%5D=0&meeting_rooms%5Bmax%5D=500&venue_size%5Bmin%5D=0&venue_size%5Bmax%5D=3000000), and these hotels are unionized and less than $500/night,roughly sorted by lowest price and distance:
 - [St. Regis Hotel](https://www.stregishotel.com)
 - [Holiday Inn Vancouver-Centre (Broadway)](https://www.ihg.com/holidayinn/hotels/us/en/vancouver/yvrbw/hoteldetail)
 - [Hilton Vancouver Metrotown](https://www.hilton.com/en/hotels/yvrvmhf-hilton-vancouver-metrotown/) (along the SkyTrain line)
 - [Inn At the Quay](https://bookings.innatwestminsterquay.com/) (along the SkyTrain line)
 
-In addition, [Unite Here Local 40](https://www.uniteherelocal40.org/) has asked that people **do not** cross their picketline at the following locations:
+In addition, [Unite Here Local 40](https://www.uniteherelocal40.org/) has asked that people **do not** cross their picket lines at the following locations:
 - Sheraton YVR Hotel
 - Marriott YVR Hotel
 - Hilton YVR Hotel
@@ -84,7 +84,7 @@ We searched and could not confirm a directory of accommodations that are small b
 
 ### Mitigate the harm of short-term rentals
 
-Considerations for other short-term rentals:
+Considerations for short-term rentals:
 
 - Ensure the listing includes a business license
 - Check to see if the operator allows you to book for longer than 30 days
