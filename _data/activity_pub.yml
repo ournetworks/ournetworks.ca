@@ -1,9 +1,9 @@
 ---
 notifications:
   posts/hello-activitypub.jsonld:
-    action: done
     id: https://ournetworks.ca/posts/hello-activitypub.jsonld
-    created_at: 1717036949
+    action: done
+    created_at: 1717206409
 actor_url: https://ournetworks.ca/about.jsonld
 actor: "@orga@ournetworks.ca"
 public_key_url: https://ournetworks.ca/about.jsonld#main-key
