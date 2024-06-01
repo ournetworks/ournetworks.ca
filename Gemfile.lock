@@ -1,22 +1,22 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    Ascii85 (1.1.0)
+    Ascii85 (1.1.1)
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
     afm (0.2.2)
-    async (2.10.1)
-      console (~> 1.10)
+    async (2.11.0)
+      console (~> 1.25, >= 1.25.2)
       fiber-annotation
       io-event (~> 1.5, >= 1.5.1)
       timers (~> 4.1)
-    bigdecimal (3.1.7)
+    bigdecimal (3.1.8)
     climate_control (1.2.0)
     colorator (1.1.0)
     concurrent-ruby (1.2.3)
-    console (1.23.6)
+    console (1.25.2)
       fiber-annotation
-      fiber-local
+      fiber-local (~> 1.1)
       json
     csv (3.3.0)
     distributed-press-api-client (0.4.2)
@@ -62,7 +62,9 @@ GEM
     eventmachine (1.2.7)
     ffi (1.16.3)
     fiber-annotation (0.2.0)
-    fiber-local (1.0.0)
+    fiber-local (1.1.0)
+      fiber-storage
+    fiber-storage (0.1.1)
     forwardable-extended (2.6.0)
     google-protobuf (4.26.1)
       rake (>= 13)
@@ -71,7 +73,7 @@ GEM
     google-protobuf (4.26.1-x86_64-linux)
       rake (>= 13)
     hashery (2.1.2)
-    html-proofer (5.0.8)
+    html-proofer (5.0.9)
       addressable (~> 2.3)
       async (~> 2.1)
       nokogiri (~> 1.13)
@@ -148,7 +150,7 @@ GEM
       ruby-rc4
       ttfunk
     public_suffix (5.0.5)
-    racc (1.7.3)
+    racc (1.8.0)
     rainbow (3.1.1)
     rake (13.2.1)
     rb-fsevent (0.11.2)
@@ -178,7 +180,7 @@ GEM
     unicode-display_width (2.5.0)
     webrick (1.8.1)
     yell (2.2.2)
-    zeitwerk (2.6.13)
+    zeitwerk (2.6.15)
 
 PLATFORMS
   arm-linux
