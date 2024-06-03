@@ -15,7 +15,7 @@ Drawing on practices of [local-first](https://www.inkandswitch.com/local-first/)
 .:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*
 </pre>
 
-{:.font-display}
+{:.font-display.mt-1}
 
 ## Format
 
@@ -26,7 +26,7 @@ This year we are planning a single-day event with invited speakers and workshop 
 </pre>
 
 
-{:.font-display}
+{:.font-display.mt-1}
 
 ## Register
 
@@ -42,7 +42,12 @@ We project that the cost for us to host this event is $82 per person, however we
 
 The conference has a [Code of Conduct](https://ournetworks.ca/code-of-conduct/). We are looking for volunteers (in return for complimentary admission) and are able to offer a limited number of scholarships, please contact us at [{{ site.email }}](mailto:{{ site.email }})
 
-<a href="https://lu.ma/r3afi0b0" class="bg-black active:bg-accent text-white font-mono antialiased rounded p-1 px-2 no-underline outlined active:text-white active:outline-accent" target="_blank" rel="noopener">Register on Luma</a>
+<a href="https://lu.ma/r3afi0b0" class="inline-flex bg-black active:bg-accent text-white font-mono antialiased rounded p-2 px-2 no-underline outlined active:text-white active:outline-accent" target="_blank" rel="noopener">Register on Luma</a>
+
+<pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden w-100">
+--..,___.--,--'`,---..-.--+--.,,-,,..._.--..-._.-a:f--..-.--
+</pre>
+
 
 {:.font-display}
 
@@ -50,10 +55,5 @@ The conference has a [Code of Conduct](https://ournetworks.ca/code-of-conduct/).
 
 Register above or [sign up to our mailing list](https://lists.mayfirst.org/mailman/listinfo/ournetworks){:target="\_blank"} to receive updates.
 
-<a href="https://lists.mayfirst.org/mailman/listinfo/ournetworks" class="bg-black active:bg-accent text-white font-mono antialiased rounded p-1 px-2 no-underline outlined active:text-white active:outline-accent" target="_blank" rel="noopener">Subscribe to our mailing list</a>
-
-
-<pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden w-100">
---..,___.--,--'`,---..-.--+--.,,-,,..._.--..-._.-a:f--..-.--
-</pre>
+<a href="https://lists.mayfirst.org/mailman/listinfo/ournetworks" class="inline-flex bg-grey active:bg-accent text-white font-mono antialiased rounded p-1 px-2 no-underline outlined active:text-white active:outline-accent" target="_blank" rel="noopener">Subscribe to our mailing list</a>
 
