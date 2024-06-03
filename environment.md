@@ -18,16 +18,12 @@ As with 2019, our last in-person event, we have committed to the following actio
 
 - Making space for conversations around sustainability, our environment, and the climate crisis during the event
    - Having solar-powered servers and permacomputing serve as major themes for this event
-
 - Eliminating and restricting purchase of new goods
    - We will not purchase new t-shirts and totes nor offer them as swag
-
 - Reducing single-use plastics and packaging
    - We are investigating the which materials to avoid purchasing altogether as well as catering options that package food in bulk, and whether we can brew our own coffee and tea
    - Using compostable utensils and paper plates where single-use materials are required
-   - Encouraging bring your own bottle for bevarages and providing ways to fill them onsite
-
- - Redirecting products entering the waste stream to compost or recycling, with the support of the venue insfrastructure for returnables, recycling, and compost
-
+   - Encouraging bring your own bottle for beverages and providing ways to fill them onsite
+ - Redirecting products entering the waste stream to compost or recycling, with the support of the venue infrastructure for returnables, recycling, and compost
  - Investigating ways to participate in re-localizing and re-circularizing economic activities
 
