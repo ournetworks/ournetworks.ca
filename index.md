@@ -19,7 +19,7 @@ Drawing on practices of [local-first](https://www.inkandswitch.com/local-first/)
 
 ## Format
 
-This year we are planning a single-day event with invited speakers and workshop hosts in Vancouver, British Columbia. We will leave open space in the schedule for emergent discussions, conversations, and activities by attendees.
+This year we are planning a single-day event with invited speakers and workshop hosts in Vancouver, British Columbia. We will leave open space in the schedule for emergent discussions, conversations, and activities by attendees. The conference has a [Code of Conduct](https://ournetworks.ca/code-of-conduct/).
 
 <pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden w-100">
 `\\//`,.\|/|//.|/\\|/\\|,\|/ //\|/\|.\\\| // \|\\ |/,\|/\|\\
@@ -32,15 +32,15 @@ This year we are planning a single-day event with invited speakers and workshop 
 
 Registration is now open!
 
-We project that the cost for us to host this event is $82 per person, however we want to ensure all can attend and so are seeking sponsorships and grants to reduce that cost for all. We have three admission levels: Supporter, General, and Reduced Cost and we have a suggested admission of $60.
+We suggest $60 with other registration levels on a sliding scale from $30-120 depending on your financial situation. 
 
-| Admission              | Price | Details |
+| Level              | Price | Details |
 |:-----------------------|:------|:--------|
 | Supporter | $120 | If your org or company is paying or your registration can be reimbursed, consider registering as organization supporter. This allows us to offer reduced cost admissions and scholarships. |
-| General              | $60 | Suggested admission for those employed or otherwise financially comfortable. At this rate we can sustain the event. |
-| Reduced Cost           | $30 | Lower cost admission for those unwaged, students, or otherwise in need of a reduced cost. |
+| General              | $60 | Suggested registration for those employed or otherwise financially comfortable. At this rate we can sustain the event. |
+| Reduced Cost           | $30 | Lower cost registration for those unwaged, students, or otherwise in need of a reduced cost. |
 
-The conference has a [Code of Conduct](https://ournetworks.ca/code-of-conduct/). We are looking for volunteers (in return for complimentary admission) and are able to offer a limited number of scholarships, please contact us at [{{ site.email }}](mailto:{{ site.email }})
+We are looking for volunteers (in return for complimentary admission) and are able to offer a limited number of scholarships, please contact us at [{{ site.email }}](mailto:{{ site.email }})
 
 <a href="https://lu.ma/r3afi0b0" class="inline-flex bg-black active:bg-accent text-white font-mono antialiased rounded p-2 px-2 no-underline outlined active:text-white active:outline-accent" target="_blank" rel="noopener">Register on Luma</a>
 
