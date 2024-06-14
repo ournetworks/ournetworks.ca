@@ -10,6 +10,7 @@ titleDisplay: "Visiting"
   - [Public transit](#public-transit)
 - [Staying in Vancouver](#staying-in-vancouver)
   - [Unionized hotels](#unionized-hotels)
+  - [Hostels, Non-profits, and Summer Residences](#hostels-non-profits-and-summer-residences)
   - [Small-business or IBPOC-owned hotels](#small-business-or-ibpoc-owned-hotels)
   - [Mitigate the harm of short-term rentals](#mitigate-the-harm-of-short-term-rentals)
 
@@ -37,6 +38,7 @@ Cycling even as a visitor is possible with [Mobi](https://www.mobibikes.ca/), a 
 _Please note, wearing a helmet while bicycling is the law in British Columbia and you can be fined ($29) for failing to do so. You can learn more about cycling in the province from [HUB Cycling](https://bikehub.ca/sites/default/files/imce/hub_cyclist_handbook_web.pdf)._
 
 {:.font-display}
+
 ### Public transit
 
 Public transit is operated by [Translink](https://www.translink.ca/){:data-proofer-ignore=""} and the network includes automated rapid transit called the Skytrain, Seabus ferries, commuter rail, and bus. Translink has a [trip planner](https://www.translink.ca/trip-planner){:data-proofer-ignore=""} and [route maps](https://www.translink.ca/schedules-and-maps){:data-proofer-ignore=""} to aide passengers, and routes are searchable from most transit apps. 
@@ -62,7 +64,7 @@ Inspired by [4S 2019 in New Orleans](https://www.4s2019.org/accommodation/), we 
 
 ### Unionized hotels
 
-We checked [Fair Hotels](https://www.fairhotel.org/search?location%5Bgeolocation_geocoder_address%5D=Vancouver%2C+BC%2C+Canada&location%5Blat_north_east%5D=49.3172939&location%5Blng_north_east%5D=-123.023068&location%5Blat_south_west%5D=49.19817700000001&location%5Blng_south_west%5D=-123.22474&brand=All&field_guest_rooms_value%5Bmin%5D=0&field_guest_rooms_value%5Bmax%5D=6000&meeting_rooms%5Bmin%5D=0&meeting_rooms%5Bmax%5D=500&venue_size%5Bmin%5D=0&venue_size%5Bmax%5D=3000000), and these hotels are unionized and less than $500/night,roughly sorted by lowest price and distance:
+We checked [Fair Hotels](https://www.fairhotel.org/search?location%5Bgeolocation_geocoder_address%5D=Vancouver%2C+BC%2C+Canada&location%5Blat_north_east%5D=49.3172939&location%5Blng_north_east%5D=-123.023068&location%5Blat_south_west%5D=49.19817700000001&location%5Blng_south_west%5D=-123.22474&brand=All&field_guest_rooms_value%5Bmin%5D=0&field_guest_rooms_value%5Bmax%5D=6000&meeting_rooms%5Bmin%5D=0&meeting_rooms%5Bmax%5D=500&venue_size%5Bmin%5D=0&venue_size%5Bmax%5D=3000000), and these hotels are unionized and less than $500/night, roughly ordered by lowest price and distance:
 - [St. Regis Hotel](https://www.stregishotel.com)
 - [Holiday Inn Vancouver-Centre (Broadway)](https://www.ihg.com/holidayinn/hotels/us/en/vancouver/yvrbw/hoteldetail)
 - [Hilton Vancouver Metrotown](https://www.hilton.com/en/hotels/yvrvmhf-hilton-vancouver-metrotown/){:data-proofer-ignore=""} (along the SkyTrain line)
@@ -73,6 +75,16 @@ In addition, [Unite Here Local 40](https://www.uniteherelocal40.org/) has asked 
 - Marriott YVR Hotel
 - Hilton YVR Hotel
 - Radisson Blu YVR Hotel
+
+{:.font-display}
+
+### Hostels, Non-profits, and Summer Residences
+
+Here are some lower-cost options bases around the city, roughly ordered by distance:
+- [The Cambie Hostel](https://www.cambiehostels.com/)
+- [YWCA Hotel](https://ywcavan.org/hotel)
+- [Simon Fraser University (SFU) Guest Accomodations](https://www.sfu.ca/stayhere/request-a-booking/individual-traveller.html)
+- [University of British Columbia (UBC) Pacific Spirit Hostel](https://suitesatubc.com/affordable-reliable-hostels-vancouver/)
 
 {:.font-display}
 
