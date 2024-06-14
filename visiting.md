@@ -10,7 +10,7 @@ titleDisplay: "Visiting"
   - [Public transit](#public-transit)
 - [Staying in Vancouver](#staying-in-vancouver)
   - [Unionized hotels](#unionized-hotels)
-  - [Hostels, Non-profits, and Summer Residences](#hostels-non-profits-and-summer-residences)
+  - [Hostels, non-profits, and summer residences](#hostels-non-profits-and-summer-residences)
   - [Small-business or IBPOC-owned hotels](#small-business-or-ibpoc-owned-hotels)
   - [Mitigate the harm of short-term rentals](#mitigate-the-harm-of-short-term-rentals)
 
@@ -78,9 +78,9 @@ In addition, [Unite Here Local 40](https://www.uniteherelocal40.org/) has asked 
 
 {:.font-display}
 
-### Hostels, Non-profits, and Summer Residences
+### Hostels, non-profits, and summer residences
 
-Here are some lower-cost options bases around the city, roughly ordered by distance:
+Here are some lower-cost options based around the city, roughly ordered by distance:
 - [The Cambie Hostel](https://www.cambiehostels.com/)
 - [YWCA Hotel](https://ywcavan.org/hotel)
 - [Simon Fraser University (SFU) Guest Accomodations](https://www.sfu.ca/stayhere/request-a-booking/individual-traveller.html)
