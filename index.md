@@ -17,9 +17,20 @@ Drawing on practices of [local-first](https://www.inkandswitch.com/local-first/)
 
 {:.font-display.mt-1}
 
-## Format
+## Announced Presenters
 
-This year we are planning a single-day event with invited speakers and workshop hosts in Vancouver, British Columbia. We will leave open space in the schedule for emergent discussions, conversations, and activities by attendees. The conference has a [Code of Conduct](https://ournetworks.ca/code-of-conduct/).
+Over the course of a day we will cover the PAST, PRESENT, and FUTURE with short keynote talks, workshops, and activities on the local network. Presenters include:
+
+{% assign sortedPresenters = site.data.presenters[2024] %}
+
+{%- for presenter in sortedPresenters -%}
+    {% include presenter-details.html year=2024 %}
+{%- endfor -%}
+
+In addition, attendees will be able to sign up to give lightening talks, lead conversations, or host impromptu jams in available open spaces
+
+
+The conference has a [Code of Conduct](https://ournetworks.ca/code-of-conduct/).
 
 <pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden w-100">
 `\\//`,.\|/|//.|/\\|/\\|,\|/ //\|/\|.\\\| // \|\\ |/,\|/\|\\

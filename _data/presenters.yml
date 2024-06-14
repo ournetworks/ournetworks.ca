@@ -898,3 +898,35 @@
     name: "Qusai Jouda"
     bio: "Qusai Jouda is a technologist and a software developer exploring multi-token crypto-economic designs. He holds a Master of Science in Software Technology from Stuttgart University of Applied Sciences  and was a visiting academic at ETH Zürich. He led UNICEF Innovation’s exploration and demystification of blockchain networks. He designed and presented training sessions on Bitcoin and Ethereum to UNICEF, the World Bank, and the US Department of state."
     github: qjouda
+
+2024:
+  - presenterID: lori  
+    name: "Lori Emerson"
+    affiliation: "Associate Professor of Media Studies, University of Colorado Boulder / Director, Media Archaeology Lab"
+    link:
+      - link1: https://loriemerson.net/
+      - linkDisplay1: "loriemerson.net"
+      - link2: https://www.mediaarchaeologylab.com/
+      - linkDisplay2: "mediaarchaeologylab.com"
+      - link3: https://othernetworks.net/
+      - linkDisplay3: "othernetworks.net"
+    socialMedia:
+      - socialMedia1: https://post.lurk.org/@loriemerson 
+      - socialMediaDisplay1: "@loriemerson@post.lurk.org"
+      - socialMedia2: https://bsky.app/profile/loriemerson.bsky.social
+      - socialMediaDisplay2: "@loriemerson.bsky.social"
+
+  - presenterID: joni 
+    name: "Joni Schinkel"
+    affiliation: "Communications Manager, Small File Media Festival"
+    bio: "(he/they), is a web designer, artist, and arts organizer from Mohkinstsis (Calgary). Joni has recently produced for concept-driven sites for projects such as Deep Horse Texts (Hazel Meyer / The Bows), A Sound That Never Was (The Dim Coast), and Black Gold (Tsēmā Igharas). They were previously Co-Director at M:ST Performative Art, and are committed to supporting experimental media arts as a Co-Curator with XINEMA and Communications Manager for Small File Media Festival."
+    link:
+      - link1: https://jschinkel.com/
+      - linkDisplay1: "jschinkel.com"
+      - link2: https://smallfile.ca/
+      - linkDisplay2: "smallfile.ca"
+    socialMedia:
+      - socialMedia1: https://instagram.com/funwithgod
+      - socialMediaDisplay1: "@funwithgod"
+      - socialMedia2: "http://instagram.com/smallfile"
+      - socialMediaDisplay2: "@smallfile"
