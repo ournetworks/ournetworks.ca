@@ -43,6 +43,8 @@ _We credit [The City of Vancouver](https://vancouver.ca/people-programs/land-ack
   {% endif %}
 {% endfor %}
 
+With special thanks to E.L. Guerrero and Mauve for their involvement in early ideation of Our Networks 2024. Previous co-organizers are Sarah Friend, Benedict Lau, Patrick Connolly, E.L. Guerrero, and Mauve and our previous A/V team includes Elon Li, Henry Wilkinson, and Yurko.
+
 <pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden w-100">
 --..,___.--,--'`,---..-.--+--.,,-,,..._.--..-._.-a:f--..-.--
 </pre>
