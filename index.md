@@ -24,7 +24,7 @@ Over the course of a day we will cover the PAST, PRESENT, and FUTURE with short 
 {% assign sortedPresenters = site.data.presenters[2024] %}
 
 {%- for presenter in sortedPresenters -%}
-    {% include presenter-details.html year=2024 %}
+<ul>{% include presenter-details.html year=2024 %}</ul>
 {%- endfor -%}
 
 In addition, attendees will be able to sign up to give lightening talks, lead conversations, or host impromptu jams in available open spaces
