@@ -8,6 +8,10 @@ notifications:
     action: done
     id: https://ournetworks.ca/posts/update-registration.jsonld
     created_at: 1717545192
+  posts/presenters.jsonld:
+    action: done
+    id: https://ournetworks.ca/posts/presenters.jsonld
+    created_at: 1718493810
 actor_url: https://ournetworks.ca/about.jsonld
 actor: "@orga@ournetworks.ca"
 public_key_url: https://ournetworks.ca/about.jsonld#main-key
