@@ -1,0 +1,13 @@
+{%- if presenter.name -%}
+<li>
+  {%- if presenter.link -%}
+  <a
+    href="{{ presenter.link[0]['link1'] }}"
+    target="_blank"
+    rel="noopener"
+  >
+  {%- endif -%}
+  <strong>{{ presenter.name }}</strong>{%- if presenter.link -%}</a>{%- endif -%}
+  {%- if presenter.affiliation -%}, {{ presenter.affiliation}}{%- endif -%}
+</li>
+{%- endif -%}
