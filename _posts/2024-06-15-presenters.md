@@ -1,6 +1,6 @@
 ---
 title:  "Past, present, future"
-date:   2024-06-04 16:26:10 -0400
+date:   2024-06-16 21:00:00 -0400
 ---
 
 Over the course of a day we will cover the PAST, PRESENT, and FUTURE of our networks, and we are excited to announce a couple of the presenters guiding us through each period:
