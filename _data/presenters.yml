@@ -904,29 +904,29 @@
     name: "Lori Emerson"
     affiliation: "Associate Professor of Media Studies, University of Colorado Boulder / Director, Media Archaeology Lab"
     link:
-      - link1: https://loriemerson.net/
-      - linkDisplay1: "loriemerson.net"
-      - link2: https://www.mediaarchaeologylab.com/
-      - linkDisplay2: "mediaarchaeologylab.com"
-      - link3: https://othernetworks.net/
-      - linkDisplay3: "othernetworks.net"
+      - url: https://loriemerson.net/
+        text: "loriemerson.net"
+      - url: https://www.mediaarchaeologylab.com/
+        text: "mediaarchaeologylab.com"
+      - url: https://othernetworks.net/
+        text: "othernetworks.net"
     socialMedia:
-      - socialMedia1: https://post.lurk.org/@loriemerson 
-      - socialMediaDisplay1: "@loriemerson@post.lurk.org"
-      - socialMedia2: https://bsky.app/profile/loriemerson.bsky.social
-      - socialMediaDisplay2: "@loriemerson.bsky.social"
+      - url: https://post.lurk.org/@loriemerson 
+        text: "@loriemerson@post.lurk.org"
+      - url: https://bsky.app/profile/loriemerson.bsky.social
+        text: "@loriemerson.bsky.social"
 
   - presenterID: joni 
     name: "Joni Schinkel"
     affiliation: "Communications Manager, Small File Media Festival"
     bio: "(he/they), is a web designer, artist, and arts organizer from Mohkinstsis (Calgary). Joni has recently produced for concept-driven sites for projects such as Deep Horse Texts (Hazel Meyer / The Bows), A Sound That Never Was (The Dim Coast), and Black Gold (Tsēmā Igharas). They were previously Co-Director at M:ST Performative Art, and are committed to supporting experimental media arts as a Co-Curator with XINEMA and Communications Manager for Small File Media Festival."
     link:
-      - link1: https://jschinkel.com/
-      - linkDisplay1: "jschinkel.com"
-      - link2: https://smallfile.ca/
-      - linkDisplay2: "smallfile.ca"
+      - url: https://jschinkel.com/
+        text: "jschinkel.com"
+      - url: https://smallfile.ca/
+        text: "smallfile.ca"
     socialMedia:
-      - socialMedia1: https://instagram.com/funwithgod
-      - socialMediaDisplay1: "@funwithgod"
-      - socialMedia2: "http://instagram.com/smallfile"
-      - socialMediaDisplay2: "@smallfile"
+      - url: https://instagram.com/funwithgod
+        text: "@funwithgod"
+      - url: "http://instagram.com/smallfile"
+        text: "@smallfile"

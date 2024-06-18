@@ -1,13 +1,16 @@
 {%- if presenter.name -%}
 <li>
   {%- if presenter.link -%}
-  <a
-    href="{{ presenter.link[0]['link1'] }}"
-    target="_blank"
-    rel="noopener"
-  >
-  {%- endif -%}
-  <strong>{{ presenter.name }}</strong>{%- if presenter.link -%}</a>{%- endif -%}
-  {%- if presenter.affiliation -%}, {{ presenter.affiliation}}{%- endif -%}
+  <a href="{{ presenter.link[0]['url'] }}" target="_blank" rel="noopener">
+    {%- endif -%}
+    <strong>{{ presenter.name }}</strong>
+  {%- if presenter.link -%}</a>{%- endif -%}
+  {%- if presenter.affiliation -%}, {{ presenter.affiliation}}{%-endif -%}
+
+  <p class="mt-0">
+    {%- for link in presenter.link -%}
+      <a href="{{link.url}}" target="_blank">{{link.text}}</a>{% unless forloop.last %}, {% endunless %}
+    {%- endfor -%}
+  </p>
 </li>
 {%- endif -%}
