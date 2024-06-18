@@ -1,16 +1,28 @@
 {%- if presenter.name -%}
-<li>
-  {%- if presenter.link -%}
-  <a href="{{ presenter.link[0]['url'] }}" target="_blank" rel="noopener">
-    {%- endif -%}
-    <strong>{{ presenter.name }}</strong>
-  {%- if presenter.link -%}</a>{%- endif -%}
-  {%- if presenter.affiliation -%}, {{ presenter.affiliation}}{%-endif -%}
-
-  <p class="mt-0">
-    {%- for link in presenter.link -%}
-      <a href="{{link.url}}" target="_blank">{{link.text}}</a>{% unless forloop.last %}, {% endunless %}
-    {%- endfor -%}
-  </p>
-</li>
+<div class="presenter program-block content-width">
+  <a class="program-block-anchor" id="{{ presenter.presenterID }}"></a>
+  <div class="program-block-content p-1">
+    <header>
+      <h3 class="presenter-name heading">{{ presenter.name }}</h3>
+      {%- if presenter.affiliation -%}<h4>{{ presenter.affiliation}}</h4>{%-endif -%}
+    </header>
+    <div class="presenter-bio">
+      {%- if presenter.bio -%}<p>{{ presenter.bio }}</p>{%- endif -%}
+      {%- if presenter.link -%}
+        <ul class="bio-sm-list pl-0">
+          {%- for link in presenter.link -%}
+          <li class="bio-sm-list-item"><a href="{{link.url}}" target="_blank">{{link.text}}</a></li>
+          {%- endfor -%}
+        </ul>
+      {%- endif -%}
+      {%- if presenter.socialMedia -%}
+      <ul class="bio-sm-list pl-0">
+        {%- for link in presenter.socialMedia -%}
+        <li class="bio-sm-list-item"><a href="{{link.url}}" target="_blank">{{link.text}}</a></li>
+        {%- endfor -%}
+      </ul>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
 {%- endif -%}

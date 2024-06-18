@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 3
+order: 6
 title: "Environment"
 ---
 
