@@ -35,7 +35,8 @@ blockquote {
   border-left: 1px dashed var(--black);
 }
 
-h2, h3 {
+h2,
+h3 {
   margin-top: 1.5em;
   margin-bottom: 0em;
 }
@@ -45,19 +46,6 @@ table {
   line-height: 1.625;
 }
 
-table th:first-child {
-  min-width: 120px;
-}
-
-table th:nth-child(2) {
-  min-width: 75px;
-}
-
-table tr td:nth-child(3) {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 table tr {
   border: 1px dashed;
   border-left: 0;
@@ -65,7 +53,34 @@ table tr {
   border-bottom-color: var(--black);
 }
 
-table td, table th {
+table td,
+table th {
   padding: 0.5em;
   vertical-align: top;
+}
+
+.register-table {
+  & th:first-child {
+    min-width: 120px;
+  }
+
+  & th:nth-child(2) {
+    min-width: 75px;
+  }
+
+  & tr td:nth-child(3) {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+.schedule-table {
+  & th:first-child {
+    width: 1%;
+    white-space: nowrap;
+    border-right: 1px dashed var(--black);
+  }
+  & .time-cell:first-child {
+    border-right: 1px dashed var(--black);
+  }
 }

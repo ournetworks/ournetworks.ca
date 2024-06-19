@@ -4,6 +4,14 @@
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
+.top-0 {
+  top: 0;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -101,6 +109,14 @@
 
 .p-0 {
   padding: 0;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.pl-1 {
+  padding-left: 1rem;
 }
 
 .pt-4 {
@@ -202,4 +218,14 @@
   min-height: 2rem;
   overflow: hidden;
   margin-bottom: -4px;
+}
+
+.presenter:has(*:target) {
+  .presenter-name:before {
+    margin-right: 1ch;
+    margin-left: -2ch;
+    content: "*";
+    color: var(--accent);
+    font-family: var(--font-family-display-mono);
+  }
 }

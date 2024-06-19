@@ -1,26 +1,35 @@
 {%- if presenter.name -%}
-<div class="presenter program-block content-width">
-  <a class="program-block-anchor" id="{{ presenter.presenterID }}"></a>
-  <div class="program-block-content p-1">
-    <header>
-      <h3 class="presenter-name heading">{{ presenter.name }}</h3>
-      {%- if presenter.affiliation -%}<h4>{{ presenter.affiliation}}</h4>{%-endif -%}
+<div class="presenter program-block">
+  <div class="program-block-content p-1" id="{{ presenter.presenterID }}">
+    <header class="leading-relaxed">
+      <h3 class="presenter-name heading mb-0 text-base">{{ presenter.name }}</h3>
+      {%- if presenter.affiliation -%}
+      <h4 class="mt-0 font-normal text-sm mb-1">{{ presenter.affiliation}}</h4>
+      {%-endif -%}
+      {%- if presenter.socialMedia -%}
+        <div class="mb-1">
+          {%for link in presenter.socialMedia%}
+            <a href="{{link.url}}" target="_blank">{{link.text}}</a>{% if forloop.last %}{% else %}, {% endif %}
+          {% endfor %}
+        </div>
+      {%- endif -%}
     </header>
+    {%- if presenter.bio -%}
     <div class="presenter-bio">
-      {%- if presenter.bio -%}<p>{{ presenter.bio }}</p>{%- endif -%}
+      <p>{{ presenter.bio }}</p>
+    </div>
+    {%- endif -%}
+    <div class="presenter-links flex gap-4">
       {%- if presenter.link -%}
-        <ul class="bio-sm-list pl-0">
+      <div>
+        <ul class="list-none pl-0 mt-0">
           {%- for link in presenter.link -%}
-          <li class="bio-sm-list-item"><a href="{{link.url}}" target="_blank">{{link.text}}</a></li>
+          <li class="bio-sm-list-item">
+            <a href="{{link.url}}" target="_blank">{{link.text}}</a>
+          </li>
           {%- endfor -%}
         </ul>
-      {%- endif -%}
-      {%- if presenter.socialMedia -%}
-      <ul class="bio-sm-list pl-0">
-        {%- for link in presenter.socialMedia -%}
-        <li class="bio-sm-list-item"><a href="{{link.url}}" target="_blank">{{link.text}}</a></li>
-        {%- endfor -%}
-      </ul>
+      </div>
       {%- endif -%}
     </div>
   </div>

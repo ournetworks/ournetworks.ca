@@ -1585,3 +1585,36 @@
   sessionType:
     - exhibit
   sessionLink: "https://open-weather.community/"
+
+2024:
+  - sessionID: 24001
+    title: 'Session title 1'
+    presenterID:
+      - lori
+    sessionType: talk
+    description: >
+      Session description text
+
+  - sessionID: 24002
+    title: 'Session title 2'
+    presenterID:
+      - joni
+    sessionType: workshop
+    description: >
+      Session description text
+
+  - sessionID: 24003
+    title: 'Session title 3'
+    presenterID:
+      - brooklyn
+    sessionType: talk
+    description: >
+      Session description text
+
+  - sessionID: 24004
+    title: 'Session title 4'
+    presenterID:
+      - michelle
+    sessionType: panel
+    description: >
+      Session description text

@@ -1,13 +1,12 @@
 {%- if session.title -%}
-<div class="session-detail program-block content-width">
-  <a class="program-block-anchor" {% unless session.skipProgramID %}id="{{ session.title | truncatewords: 6, '' | downcase | replace: ':', '' | replace: ' ', '-' }}"{% endunless %}></a>
-  <div class="program-block-content p-1">
+<div class="session-detail program-block">
+  <div class="program-block-content p-1" {% unless session.skipProgramID %}id="{{ session.title | slugify }}"{% endunless %}>
     <header class="session-header mb-1">
       <h3 class="session-title heading font-display">{{ session.title }}</h3>
       {%- if session.presenterID -%}
           {% assign presenters = site.data.presenters[include.year] %}
           {% assign presenterCount = session.presenterID.size %}
-          <ul class="ls-none pl-0">
+          <ul class="list-none pl-0 mt-0">
           {%- for presenterID in session.presenterID -%}
             {%- for presenter in presenters -%}
               {%- if presenter.presenterID == presenterID -%}
@@ -15,7 +14,7 @@
               {%- endif -%}
             {%- endfor -%}
             {% assign presenterCount = presenterCount | minus:1 %}
-            <li><h4 class="session-presenter"><a href="#{{ presenterID }}">{{ name }}</a></h4></li>
+            <li><h4 class="session-presenter m-0"><a href="#{{ presenterID }}">{{ name }}</a></h4></li>
           {%- endfor -%}
           </ul>
       {%- endif -%}
