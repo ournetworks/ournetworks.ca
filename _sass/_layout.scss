@@ -177,6 +177,11 @@
   border-radius: 0.25rem;
 }
 
+.border {
+  border-style: solid;
+  border-width: 2px;
+}
+
 .outlined:hover,
 .outlined:focus {
   outline: 1px solid var(--black);
