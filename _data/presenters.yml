@@ -313,14 +313,6 @@
     linkDisplay: "jayapapaya.net"
     github: "jayapapaya"
     twitter: "jayapapaya"
-    
-  - presenterID: dan 
-    name: "Dan Hassan"
-    bio: "Dan is a queer white-passing descendent of indo-guyanese indenture and founder of blockades.org. they are an opensource hacker with solarpunk tendencies active in autonomous co-operatives, blockchain research/development & big (enough) data analytics. currently building dark crystal, a fun decent(ralised) peer-to-peer utility for securing secrets with friends in cypherspace and an antidote for alienation and cobox. CoBox has been funded by the EU LedgerEU programme and seeks to replace the corporate cloud with a cooperative cloud utilising P2P technologies."
-    link: "https://dan.blockades.org/"
-    linkDisplay: "dan.blockades.org"
-    github: "dan-mi-sun"
-    twitter: "dan_mi_sun"
 
   - presenterID: andrew
     name: "Andrew Louis"
@@ -387,24 +379,24 @@
     link: "https://paleeyesmusic.bandcamp.com/"
     linkDisplay: "paleeyesmusic.bandcamp.com"
     instagram: paleeyesmusic
-  
+
   - presenterID: jill
     name: "Jillian Murphy"
     bio: "Jillian volunteers with NYC Mesh with a particular passion for breaking down social barriers through technology and education. Jillian is an install leader, event organizer, and author of the organization's monthly newsletter. The IRS knows her as an administrator at New York University where she is also a graduate student in business."
     link: "https://www.linkedin.com/in/jillianemurphy/"
     linkDisplay: "linkedin.com/in/jillianemurphy"
-      
+
   - presenterID: scott
     name: "Scott Rasmussen"
-    bio: "Scott focuses on telecommunications policy as it intersects with questions of equity and access. After years of policy work on Capitol Hill, he is now working with NYC Mesh, an open, neutral, and resilient community network aiming to make a home or business internet connection accessible and affordable to all New Yorkers." 
+    bio: "Scott focuses on telecommunications policy as it intersects with questions of equity and access. After years of policy work on Capitol Hill, he is now working with NYC Mesh, an open, neutral, and resilient community network aiming to make a home or business internet connection accessible and affordable to all New Yorkers."
     link: "https://nycmesh.net"
     linkDisplay: "nycmesh.net"
     twitter: "rscooter369"
-    
+
   - presenterID: grant
     name: "Grant Gallo"
     bio: "Grant is a professional network engineer who builds temporary wireless networks for a living."
-    
+
   - presenterID: lance
     name: "Lance Wakeling"
     link: "https://vimeo.com/lancewakeling"
@@ -412,7 +404,7 @@
 
   - presenterID: joanne
     name: "Joanne McNeil"
-    bio: "Joanne McNeil is a writer interested in the ways that technology is shaping art, politics, and society. She received the inaugural Arts Writing Fellowship Award for an emerging digital arts writer from the Carl & Marilynn Thoma Art Foundation. She is a 2019 Logan Nonfiction Program fellow. She was an Artist-in-Residence and an Impact Resident at Eyebeam. Her book, Lurking: How a Person Became a User, is forthcoming." 
+    bio: "Joanne McNeil is a writer interested in the ways that technology is shaping art, politics, and society. She received the inaugural Arts Writing Fellowship Award for an emerging digital arts writer from the Carl & Marilynn Thoma Art Foundation. She is a 2019 Logan Nonfiction Program fellow. She was an Artist-in-Residence and an Impact Resident at Eyebeam. Her book, Lurking: How a Person Became a User, is forthcoming."
     link: "http://www.joannemcneil.com"
     linkDisplay: "joannemcneil.com"
     twitter: "jomc"
@@ -428,26 +420,26 @@
     bio: "Currently based in Berlin and Kyiv, Geocinema consists of art historian Asia Bazdyrieva and filmmaker Solveig Suess. With Geocinema they consider planetary-scale sensory networks – cell phones, surveillance cameras, satellites – as a vastly distributed camera, each running through their own sets of scales and temporalities while producing terabytes of raw data. While taking cues from these networks, the episodic documentary project looks to such infrastructures of earth-sensing data as forms of cinema. Geocinema as a practice began during The New Normal 2018 with Alexey Orlov, at Strelka Institute Moscow. Their upcoming episode takes the Chinese-led Digital Belt and Road (DBAR) as a starting point, to be released Spring 2020."
     link: "https://geocinema.network/"
     linkDisplay: "geocinema.network"
-      
+
   - presenterID: lorraine
     name: "Lorraine Chuen"
-    bio: "Lorraine is a co-organizer for IntersectTO, a community for BIPOC (Black, Indigenous, and/or people of colour) folks interested in tech and digital justice. IntersectTO's aim is to have a space for folks to share tech skills, find collaborators, and hold critical discussions on how technology affects communities of colour." 
+    bio: "Lorraine is a co-organizer for IntersectTO, a community for BIPOC (Black, Indigenous, and/or people of colour) folks interested in tech and digital justice. IntersectTO's aim is to have a space for folks to share tech skills, find collaborators, and hold critical discussions on how technology affects communities of colour."
     link: "https://intersectto.gitbook.io/community/"
     linkDisplay: "intersectto.gitbook.io"
 
   - presenterID: victoria
     name: "Victoria Barnett"
-    bio: "Victoria is a freelance digital graphic designer and trainer based in Toronto, and is a steering committee member of the Design Justice Network, which rethinks design processes, centers people who are normally marginalized by design, and uses collaborative, creative practices to address the deepest challenges our communities face." 
+    bio: "Victoria is a freelance digital graphic designer and trainer based in Toronto, and is a steering committee member of the Design Justice Network, which rethinks design processes, centers people who are normally marginalized by design, and uses collaborative, creative practices to address the deepest challenges our communities face."
     link: "http://designjusticenetwork.org/"
     linkDisplay: "designjusticenetwork.org"
-    
+
   - presenterID: ellie
     name: "Ellie Ade Kur"
-    
+
 0000:
   - presenterID: jenniferw
     name: "Jennifer Wemigwans"
-    bio: "Dr. Jennifer Wemigwans is Anishnaabekwe (Ojibwe/ Potawatomi) from Wikwemikong First Nation. She is a new media producer, writer and scholar specializing in the convergence between education, Indigenous knowledge and new media technologies. Dr. Wemigwans takes pride in working to invert the conventional use of media by revealing the potential for Indigenous cultural expression and Indigenous knowledge through new technologies, education and the arts.  Her book A Digital Bundle: Protecting and Promoting Indigenous Knowledge Online explores the prospects of education and digital projects in a networked world.  Her work in academia and online technologies puts her in a unique position to tap the pulse of innovation in Indigenous education, the arts, and media." 
+    bio: "Dr. Jennifer Wemigwans is Anishnaabekwe (Ojibwe/ Potawatomi) from Wikwemikong First Nation. She is a new media producer, writer and scholar specializing in the convergence between education, Indigenous knowledge and new media technologies. Dr. Wemigwans takes pride in working to invert the conventional use of media by revealing the potential for Indigenous cultural expression and Indigenous knowledge through new technologies, education and the arts.  Her book A Digital Bundle: Protecting and Promoting Indigenous Knowledge Online explores the prospects of education and digital projects in a networked world.  Her work in academia and online technologies puts her in a unique position to tap the pulse of innovation in Indigenous education, the arts, and media."
     link: "https://www.oise.utoronto.ca/lhae/Faculty/4959/Jennifer_Wemigwans.html"
     linkDisplay: "oise.utoronto.ca/.../Jennifer_Wemigwans.html"
 
@@ -528,7 +520,6 @@
     link: https://disaster.radio/
     linkDisplay: disaster.radio
     link2: https://peoplesopen.net/
-    link2: peoplesopen.net
     github: paidforby
 
   - presenterID: brady
@@ -650,7 +641,7 @@
 
   - presenterID: disorientations
     name: "Disorientations"
-    bio: 'Disorientation is an informal archive of 100+ disorientation publications by student activists, threading counter-narratives across institutions. This workshop is organized by Casey, Emma, and Katie.'
+    bio: "Disorientation is an informal archive of 100+ disorientation publications by student activists, threading counter-narratives across institutions. This workshop is organized by Casey, Emma, and Katie."
     link: https://disorientations.org
     linkDisplay: disorientations.org
     twitter: diso_archive
@@ -900,7 +891,7 @@
     github: qjouda
 
 2024:
-  - presenterID: lori  
+  - presenterID: lori
     name: "Lori Emerson"
     affiliation: "Associate Professor of Media Studies, University of Colorado Boulder / Director, Media Archaeology Lab"
     link:
@@ -911,15 +902,15 @@
       - url: https://othernetworks.net/
         text: "othernetworks.net"
     socialMedia:
-      - url: https://post.lurk.org/@loriemerson 
+      - url: https://post.lurk.org/@loriemerson
         text: "@loriemerson@post.lurk.org"
       - url: https://bsky.app/profile/loriemerson.bsky.social
         text: "@loriemerson.bsky.social"
 
-  - presenterID: joni 
+  - presenterID: joni
     name: "Joni Schinkel"
     affiliation: "Communications Manager, Small File Media Festival"
-    bio: "(he/they), is a web designer, artist, and arts organizer from Mohkinstsis (Calgary). Joni has recently produced for concept-driven sites for projects such as Deep Horse Texts (Hazel Meyer / The Bows), A Sound That Never Was (The Dim Coast), and Black Gold (Tsēmā Igharas). They were previously Co-Director at M:ST Performative Art, and are committed to supporting experimental media arts as a Co-Curator with XINEMA and Communications Manager for Small File Media Festival."
+    bio: "Joni (he/they), is a web designer, artist, and arts organizer from Mohkinstsis (Calgary). Joni has recently produced for concept-driven sites for projects such as Deep Horse Texts (Hazel Meyer / The Bows), A Sound That Never Was (The Dim Coast), and Black Gold (Tsēmā Igharas). They were previously Co-Director at M:ST Performative Art, and are committed to supporting experimental media arts as a Co-Curator with XINEMA and Communications Manager for Small File Media Festival."
     link:
       - url: https://jschinkel.com/
         text: "jschinkel.com"
@@ -934,24 +925,22 @@
   - presenterID: brooklyn
     name: "Brooklyn Zelenka"
     affiliation: "Indie Researcher"
-    bio: "is an independent distributed systems researcher, working on next-gen tools that empower developers to easily build innovative, decentralised, and local-first applications. Her belief in open standards & open source has lead to work spanning distributed VMs (Ethereum, IPVM), local-first authorisation (UCAN, Auth-o-merge), data privacy (WebNative File System), cryptographic protocols (varsig, skip ratchet), denotational design (Witchcraft), and others. She is based beautiful, rainy in Vancouver, BC with her partner and their very fluffy cat."
+    bio: "Brooklyn is an independent distributed systems researcher, working on next-gen tools that empower developers to easily build innovative, decentralised, and local-first applications. Her belief in open standards & open source has lead to work spanning distributed VMs (Ethereum, IPVM), local-first authorisation (UCAN, Auth-o-merge), data privacy (WebNative File System), cryptographic protocols (varsig, skip ratchet), denotational design (Witchcraft), and others. She is based beautiful, rainy in Vancouver, BC with her partner and their very fluffy cat."
     link:
-      - url: https://notes.brooklynzelenka.com  
+      - url: https://notes.brooklynzelenka.com
         text: "notes.brooklynzelenka.com"
     socialMedia:
-      - url: https://bsky.app/profile/expede.wtf 
+      - url: https://bsky.app/profile/expede.wtf
         text: "@expede.wtf"
       - url: https://octodon.social/@expede
-        text: "@expede@octodon.social" 
+        text: "@expede@octodon.social"
       - url: https://github.com/expede
-        text: "github.com/@expede"        
+        text: "github.com/@expede"
 
-  - presenterID: michelle 
+  - presenterID: michelle
     name: "Michelle Kaczmarek"
     affiliation: "Program Manager, Share Reuse Repair Initiative"
-    bio: "is a research and program manager based on Coast Salish territory. She is interested in how people reckon with the material impacts of their technologies. Her PhD research at UBC's School of Information explored the efforts and aspirations of those participating in community-based repair initiatives in Metro Vancouver. With the Share Reuse Repair Initiative, Michelle's works to bring together government, businesses, and community organisations to seek equitable paths towards more circular ways of living."
+    bio: "Michelle is a research and program manager based on Coast Salish territory. She is interested in how people reckon with the material impacts of their technologies. Her PhD research at UBC's School of Information explored the efforts and aspirations of those participating in community-based repair initiatives in Metro Vancouver. With the Share Reuse Repair Initiative, Michelle's works to bring together government, businesses, and community organisations to seek equitable paths towards more circular ways of living."
     link:
       - url: https://www.sharereuserepair.org/
         text: "sharereuserepair.org"
-
-
