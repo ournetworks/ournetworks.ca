@@ -928,5 +928,30 @@
     socialMedia:
       - url: https://instagram.com/funwithgod
         text: "@funwithgod"
-      - url: "http://instagram.com/smallfile"
+      - url: http://instagram.com/smallfile
         text: "@smallfile"
+
+  - presenterID: brooklyn
+    name: "Brooklyn Zelenka"
+    affiliation: "Indie Researcher"
+    bio: "is an independent distributed systems researcher, working on next-gen tools that empower developers to easily build innovative, decentralised, and local-first applications. Her belief in open standards & open source has lead to work spanning distributed VMs (Ethereum, IPVM), local-first authorisation (UCAN, Auth-o-merge), data privacy (WebNative File System), cryptographic protocols (varsig, skip ratchet), denotational design (Witchcraft), and others. She is based beautiful, rainy in Vancouver, BC with her partner and their very fluffy cat."
+    link:
+      - url: https://notes.brooklynzelenka.com  
+        text: "notes.brooklynzelenka.com"
+    socialMedia:
+      - url: https://bsky.app/profile/expede.wtf 
+        text: "@expede.wtf"
+      - url: https://octodon.social/@expede
+        text: "@expede@octodon.social" 
+      - url: https://github.com/expede
+        text: "github.com/@expede"        
+
+  - presenterID: michelle 
+    name: "Michelle Kaczmarek"
+    affiliation: "Program Manager, Share Reuse Repair Initiative"
+    bio: "is a research and program manager based on Coast Salish territory. She is interested in how people reckon with the material impacts of their technologies. Her PhD research at UBC's School of Information explored the efforts and aspirations of those participating in community-based repair initiatives in Metro Vancouver. With the Share Reuse Repair Initiative, Michelle's works to bring together government, businesses, and community organisations to seek equitable paths towards more circular ways of living."
+    link:
+      - url: https://www.sharereuserepair.org/
+        text: "sharereuserepair.org"
+
+
