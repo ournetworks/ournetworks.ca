@@ -53,6 +53,8 @@ We suggest $60 with other registration levels on a sliding scale from $30-120 de
 
 We are looking for volunteers (in return for complimentary admission) and are able to offer a limited number of scholarships, please contact us at [{{ site.email }}](mailto:{{ site.email }})
 
+Our Networks 2024 is part [LOCALHOST](https://writing.dwebyvr.org/announcing-localhost/){:target="\_blank"}, a week of events organized by The DWebYVR community between July 21st to 28th. [View community events](https://lu.ma/LOCALHOST_vancouver){:target="\_blank"}. Tickets to Our Networks includes the LOCALHOST Hack Day on July 28.
+
 <a href="https://lu.ma/r3afi0b0" class="inline-flex bg-black active:bg-accent text-white font-mono antialiased rounded p-2 px-2 no-underline outlined active:text-white active:outline-accent" target="_blank" rel="noopener">Register on Luma</a>
 
 <pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden w-100">
