@@ -313,14 +313,6 @@
     linkDisplay: "jayapapaya.net"
     github: "jayapapaya"
     twitter: "jayapapaya"
-    
-  - presenterID: dan 
-    name: "Dan Hassan"
-    bio: "Dan is a queer white-passing descendent of indo-guyanese indenture and founder of blockades.org. they are an opensource hacker with solarpunk tendencies active in autonomous co-operatives, blockchain research/development & big (enough) data analytics. currently building dark crystal, a fun decent(ralised) peer-to-peer utility for securing secrets with friends in cypherspace and an antidote for alienation and cobox. CoBox has been funded by the EU LedgerEU programme and seeks to replace the corporate cloud with a cooperative cloud utilising P2P technologies."
-    link: "https://dan.blockades.org/"
-    linkDisplay: "dan.blockades.org"
-    github: "dan-mi-sun"
-    twitter: "dan_mi_sun"
 
   - presenterID: andrew
     name: "Andrew Louis"
