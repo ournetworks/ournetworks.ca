@@ -48,7 +48,7 @@ titleDisplay: "Program"
         <td colspan="3"><strong><span class="font-mono">PRESENT</span> / <a href="#brooklyn">Brooklyn Zelenka</a> </strong></td>
     </tr>
     <tr>
-        <td class="font-mono text time-cell">13:40 ↓<br />15:00</td>
+        <td class="font-mono text time-cell">13:50 ↓<br />15:00</td>
         <td colspan="3">
             <strong>Lightning Talks</strong>
             <table class="w-100">
