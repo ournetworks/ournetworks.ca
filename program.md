@@ -53,12 +53,7 @@ titleDisplay: "Program"
             <strong>Lightning Talks</strong>
             <table class="w-100">
                 <tr class="border-0">
-                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Sound</em><br />
-                        <ul class="mt-0 mb-0 pl-1">
-                            <li><a href="#michelle">Michelle Kaczmarek</a></li>
-                            <li>Internet Archive</li>
-                        </ul>
-                    </td>
+                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Sound</em><br />Open</td>
                     <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach</em><br />Open</td>
                     <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Spillover</em><br />Open</td>
                 </tr>
