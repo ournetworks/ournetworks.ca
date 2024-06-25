@@ -88,7 +88,7 @@ titleDisplay: "Program"
     </tr>
     <tr>
         <td class="font-mono text time-cell">17:30 ↓<br />18:00</td>
-        <td colspan="3">Closing Keynote</td>
+        <td colspan="3">Closing</td>
     </tr>
     <tr>
         <td class="font-mono text time-cell">18:00 ↓<br />19:30</td>
