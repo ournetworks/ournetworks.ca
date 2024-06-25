@@ -83,4 +83,8 @@ table th {
   & .time-cell:first-child {
     border-right: 1px dashed var(--black);
   }
+  tr:not(.sticky):hover .time-cell:first-child {
+    color: var(--accent);
+  }
+
 }

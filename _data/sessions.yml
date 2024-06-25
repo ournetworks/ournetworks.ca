@@ -1588,33 +1588,33 @@
 
 2024:
   - sessionID: 24001
-    title: 'Session title 1'
+    title: 
     presenterID:
       - lori
     sessionType: talk
     description: >
-      Session description text
+      
 
   - sessionID: 24002
-    title: 'Session title 2'
+    title: 
     presenterID:
       - joni
     sessionType: workshop
     description: >
-      Session description text
+      
 
   - sessionID: 24003
-    title: 'Session title 3'
+    title: 
     presenterID:
       - brooklyn
     sessionType: talk
     description: >
-      Session description text
+      
 
   - sessionID: 24004
-    title: 'Session title 4'
+    title: 
     presenterID:
       - michelle
-    sessionType: panel
+    sessionType: discussion
     description: >
-      Session description text
+      

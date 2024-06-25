@@ -103,3 +103,19 @@
 .no-underline {
   text-decoration-line: none;
 }
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.not-italic {
+  font-style: normal;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
+}

@@ -198,6 +198,10 @@
   border-width: 2px;
 }
 
+.border-0	{
+  border-width: 0px;
+}
+
 .outlined:hover,
 .outlined:focus {
   outline: 1px solid var(--black);
