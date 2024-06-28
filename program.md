@@ -18,11 +18,11 @@ titleDisplay: "Program"
         <td>Doors Open</td>
     </tr>
     <tr>
-        <td class="font-mono text time-cell">10:00 ↓<br />10:10</td>
+        <td class="font-mono text time-cell">10:00 ↓<br />10:20</td>
         <td>Welcome</td>
     </tr>
     <tr>
-        <td class="font-mono text time-cell">10:10 ↓<br />10:50</td>
+        <td class="font-mono text time-cell">10:20 ↓<br />11:00</td>
         <td><strong><span class="font-mono">PAST</span> / <a href="#lori">Lori Emerson</a></strong>
         </td>
     </tr>
@@ -48,7 +48,7 @@ titleDisplay: "Program"
         <td><strong><span class="font-mono">PRESENT</span> / <a href="#brooklyn">Brooklyn Zelenka</a> </strong></td>
     </tr>
     <tr>
-        <td class="font-mono text time-cell">14:20 ↓<br />15:30</td>
+        <td class="font-mono text time-cell">14:10 ↓<br />15:00</td>
         <td>
             <table class="w-100">
                 <tr class="border-0">
@@ -61,36 +61,36 @@ titleDisplay: "Program"
         </td>
     </tr>
     <tr>
-        <td class="font-mono text time-cell">15:30 ↓<br />16:00 </td>
+        <td class="font-mono text time-cell">15:00 ↓<br />15:30 </td>
         <td><strong>BREAK</strong></td>
     </tr>
     <tr>
-        <td class="font-mono text time-cell">16:00 ↓<br />16:30</td>
+        <td class="font-mono text time-cell">15:30 ↓<br />16:10</td>
         <td><strong><span class="font-mono">FUTURE</span> / <a href="#esther">Esther Jang</a></strong></td>
     </tr>
     <tr>
-        <td class="font-mono text time-cell">16:30 ↓<br />18:00</td>
+        <td class="font-mono text time-cell">16:10 ↓<br />17:40</td>
         <td>
-            <strong>Workshops/Discussions</strong>
+            <strong><span class="font-mono">FUTURE</span> / Workshops and Discussions</strong>
             <table class="w-100">
                 <tr class="border-0">
-                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Sound</em><br />Roundtable - Repair Futures <a href="#michelle">Michelle Kaczmarek</a></td>
-                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach</em><br />Workshop - Small File <a href="#joni">Joni Schinkel</a></td>
+                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Sound</em><br />Roundtable -<br /> Repair Futures <a href="#michelle">Michelle Kaczmarek</a></td>
+                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach</em><br />Workshop -<br /> Small Footprint and Small File Web Art <br /> <a href="#joni">Joni Schinkel</a></td>
                     <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Spillover</em><br />Open</td>
                 </tr>
             </table>
         </td>
     </tr>
     <tr>
-        <td class="font-mono text time-cell">18:00 ↓<br />18:30</td>
+        <td class="font-mono text time-cell">17:45 ↓<br />18:00</td>
         <td>Closing</td>
     </tr>
     <tr>
-        <td class="font-mono text time-cell">18:30 ↓<br />19:30</td>
+        <td class="font-mono text time-cell">18:00 ↓<br />19:00</td>
         <td><strong><span class="font-mono"></span></strong></td>
     </tr>
     <tr>
-        <td class="font-mono text time-cell">19:30 ↓<br />22:00</td>
+        <td class="font-mono text time-cell">19:00 ↓<br />??:??</td>
         <td><strong><span class="font-mono">AFTER PARTY</span></strong></td>
     </tr>
 </table>

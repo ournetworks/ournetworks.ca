@@ -947,3 +947,7 @@
 
   - presenterID: esther
     name: "Esther Jang"
+    affiliation: "Seattle Community Network"
+    link:
+      - url: https://seattlecommunitynetwork.org/
+        text: "seattlecommunitynetwork.org"
