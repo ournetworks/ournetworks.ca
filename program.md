@@ -29,12 +29,14 @@ titleDisplay: "Program"
     <tr>
         <td class="font-mono text time-cell">11:00 ↓ <br />12:00</td>
         <td>
+            <strong><span class="font-mono">PAST</span> / </strong>
             <table class="w-100">
                 <tr class="border-0">
-                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Sound & ⌂ Reach</em><br />
-                            <strong><span class="font-mono">PAST</span> / LAN Interaction</strong>
+                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Sound</em><br />
+                            LAN Interaction
                     </td>
-                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Spillover</em><br />Open</td>
+                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach</em><br />Workshop -<br /> Small Footprint and Small File Web Art <br /> <a href="#joni">Joni Schinkel</a></td>
+                    <!--<td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Spillover</em><br />Open</td>-->
                 </tr>
             </table>
         </td>
@@ -50,6 +52,7 @@ titleDisplay: "Program"
     <tr>
         <td class="font-mono text time-cell">14:10 ↓<br />15:00</td>
         <td>
+            <strong><span class="font-mono">PRESENT</span> / </strong>
             <table class="w-100">
                 <tr class="border-0">
                     <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Sound & ⌂ Reach</em><br />
@@ -71,12 +74,12 @@ titleDisplay: "Program"
     <tr>
         <td class="font-mono text time-cell">16:10 ↓<br />17:40</td>
         <td>
-            <strong><span class="font-mono">FUTURE</span> / Workshops and Discussions</strong>
+            <strong><span class="font-mono">FUTURE</span> / </strong>
             <table class="w-100">
                 <tr class="border-0">
                     <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Sound</em><br />Roundtable -<br /> Repair Futures <a href="#michelle">Michelle Kaczmarek</a></td>
-                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach</em><br />Workshop -<br /> Small Footprint and Small File Web Art <br /> <a href="#joni">Joni Schinkel</a></td>
-                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Spillover</em><br />Open</td>
+                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach</em><br />Open</td>
+                    <!--<td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Spillover</em><br />Open</td>-->
                 </tr>
             </table>
         </td>
