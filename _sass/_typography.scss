@@ -68,6 +68,10 @@
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .list-none {
   list-style-type: none;
 }
@@ -98,4 +102,20 @@
 
 .no-underline {
   text-decoration-line: none;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.not-italic {
+  font-style: normal;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
 }

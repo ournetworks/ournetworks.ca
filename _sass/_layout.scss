@@ -4,6 +4,14 @@
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
+.top-0 {
+  top: 0;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -103,6 +111,14 @@
   padding: 0;
 }
 
+.pl-0 {
+  padding-left: 0;
+}
+
+.pl-1 {
+  padding-left: 1rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
 }
@@ -182,6 +198,10 @@
   border-width: 2px;
 }
 
+.border-0	{
+  border-width: 0px;
+}
+
 .outlined:hover,
 .outlined:focus {
   outline: 1px solid var(--black);
@@ -202,4 +222,14 @@
   min-height: 2rem;
   overflow: hidden;
   margin-bottom: -4px;
+}
+
+.presenter:has(*:target) {
+  .presenter-name:before {
+    margin-right: 1ch;
+    margin-left: -2ch;
+    content: "*";
+    color: var(--accent);
+    font-family: var(--font-family-display-mono);
+  }
 }

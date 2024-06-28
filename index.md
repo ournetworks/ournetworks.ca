@@ -17,18 +17,14 @@ Drawing on practices of [local-first](https://www.inkandswitch.com/local-first/)
 
 {:.font-display.mt-1}
 
-## Announced Presenters
+## Sessions and Presenters
 
 Over the course of a day we will cover the PAST, PRESENT, and FUTURE with short keynote talks, workshops, and activities on the local network. Presenters include:
 
-{% assign sortedPresenters = site.data.presenters[2024] %}
 
-{%- for presenter in sortedPresenters -%}
-<ul>{% include presenter-details.html year=2024 %}</ul>
-{%- endfor -%}
+<a href="/program" class="text-sm border border-inherit active:bg-accent font-mono antialiased rounded p-1 px-2 no-underline outlined active:text-white active:outline-accent">View program</a>
 
 In addition, attendees will be able to sign up to give lightening talks, lead conversations, or host impromptu jams in available open spaces
-
 
 The conference has a [Code of Conduct](https://ournetworks.ca/code-of-conduct/).
 
@@ -44,6 +40,9 @@ The conference has a [Code of Conduct](https://ournetworks.ca/code-of-conduct/).
 Registration is now open!
 
 We suggest $60 with other registration levels on a sliding scale from $30-120 depending on your financial situation. 
+
+
+{:.register-table}
 
 | Level              | Price | Details |
 |:-----------------------|:------|:--------|

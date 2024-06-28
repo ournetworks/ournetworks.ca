@@ -919,7 +919,7 @@
     socialMedia:
       - url: https://instagram.com/funwithgod
         text: "@funwithgod"
-      - url: http://instagram.com/smallfile
+      - url: https://www.instagram.com/smallfile
         text: "@smallfile"
 
   - presenterID: brooklyn
@@ -944,3 +944,10 @@
     link:
       - url: https://www.sharereuserepair.org/
         text: "sharereuserepair.org"
+
+  - presenterID: esther
+    name: "Esther Jang"
+    affiliation: "Seattle Community Network"
+    link:
+      - url: https://seattlecommunitynetwork.org/
+        text: "seattlecommunitynetwork.org"
