@@ -946,8 +946,14 @@
         text: "sharereuserepair.org"
 
   - presenterID: esther
-    name: "Esther Jang"
-    affiliation: "Seattle Community Network"
+    name: "Esther Han Beol Jang"
+    affiliation: "Director, Local Connectivity Lab / Postdoctoral Researcher, University of Washington / Seattle Community Network"
+    bio: "Esther is a newly graduated PhD in Computer Science from the University of Washington in Seattle, and will be starting a postdoc there in the Fall. Her research focuses on both rural and urban community networks, and especially how communities of practice can build and sustain technical infrastructures. She has installed community networks in Tanzania, the Philippines, Mexico, and various states around the US. She founded and organizes the Seattle Community Network (SCN) project, which builds community-owned and maintained Internet access infrastructure to support digital equity in Seattle and Tacoma. She serves as a Director at the Local Connectivity Lab, a 501(c)(3) nonprofit focusing on technology research, deployment, and teaching in support of community networks around the world. She has been a technical networking instructor for the Tribal Broadband Bootcamps since 2019. In her free time, she is an avid jazz singer and performs with the vibrant Seattle swing community."
     link:
+      - url: https://estherjang.com/
+        text: "estherjang.com"
       - url: https://seattlecommunitynetwork.org/
         text: "seattlecommunitynetwork.org"
+    socialMedia:
+      - url: https://discord.gg/hNAW7a6KqB
+        text: "@infrared0"
