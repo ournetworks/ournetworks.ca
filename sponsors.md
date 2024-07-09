@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 4
+order: 5
 title: "Sponsors"
 parent: "About the event"
 ---
