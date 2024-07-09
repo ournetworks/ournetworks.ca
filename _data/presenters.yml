@@ -909,8 +909,12 @@
 
   - presenterID: joni
     name: "Joni Schinkel"
-    affiliation: "Communications Manager, Small File Media Festival"
-    bio: "Joni (he/they), is a web designer, artist, and arts organizer from Mohkinstsis (Calgary). Joni has recently produced for concept-driven sites for projects such as Deep Horse Texts (Hazel Meyer / The Bows), A Sound That Never Was (The Dim Coast), and Black Gold (Tsēmā Igharas). They were previously Co-Director at M:ST Performative Art, and are committed to supporting experimental media arts as a Co-Curator with XINEMA and Communications Manager for Small File Media Festival."
+    affiliation: "Engagement Coordinator, Small File Media Festival"
+    bio: |+
+      Joni (he/they) is a web designer, artist, and arts organizer. Joni has recently produced for concept-driven sites for projects such as Deep Horse Texts (Hazel Meyer / The Bows), A Sound That Never Was (The Dim Coast), and Black Gold (Tsēmā Igharas). They were previously Co-Director at M:ST Performative Art, and are committed to supporting experimental media arts as a Co-Curator with XINEMA and Engagement Coordinator for Small File Media Festival. 
+      The Small File Media Festival was founded in 2020 to raise awareness of the high carbon footprint of streaming media. The festival proposes alternative solutions for media practice, as well as modes of thinking otherwise in media theory, which converged in a festival of sustainable experimental media organized annually.  
+    title: "Small Footprint and Small File Web Art"
+    description: "Join the Small File Media Festival for this interactive workshop on creating small footprint and small-file web art! Technologies and devices used for web hosting account for 3.7% of the world's carbon emissions today, and we are responding by sharing data-negligible ecomedia techniques, creative image compression pipelines, and innovative lofi media alternatives. In this workshop, learn about 'folk web' creation techniques and reclaim websites as an offline or local network medium. Draw from permacomputing philosophies and experiment with HTML, CSS, and JavaScript to build sustainable and accessible web content."
     link:
       - url: https://jschinkel.com/
         text: "jschinkel.com"
