@@ -1,7 +1,7 @@
 ---
 layout: page
 order: 5
-title: "Sponsors"
+title: "Sponsors & Partners"
 parent: "About the event"
 ---
 
@@ -28,7 +28,7 @@ Our Networks is volunteer-run and would not be possible without the support of o
 ## Partners
 {:.font-display.mb-1}
 
-We are grateful for the support of the following organizations who helped us with archival research for the Local Area Network
+We are grateful for the support of the following organizations who helped us with archival research for the Local Area Network.
 
 <div class="mb-2">
   <a href="https://westernfront.ca/" rel="noopener" target="_blank"><img src="/images/logos/wf-logo.png" width="30%" alt="Western Front logo" /></a>
