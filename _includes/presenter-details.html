@@ -16,7 +16,7 @@
     </header>
     {%- if presenter.bio -%}
     <div class="presenter-bio">
-      <p>{{ presenter.bio }}</p>
+      {{ presenter.bio | markdownify }}
     </div>
     {%- endif -%}
     <div class="presenter-links flex gap-4">
