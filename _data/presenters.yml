@@ -909,8 +909,11 @@
 
   - presenterID: joni
     name: "Joni Schinkel"
-    affiliation: "Communications Manager, Small File Media Festival"
-    bio: "Joni (he/they), is a web designer, artist, and arts organizer from Mohkinstsis (Calgary). Joni has recently produced for concept-driven sites for projects such as Deep Horse Texts (Hazel Meyer / The Bows), A Sound That Never Was (The Dim Coast), and Black Gold (Tsēmā Igharas). They were previously Co-Director at M:ST Performative Art, and are committed to supporting experimental media arts as a Co-Curator with XINEMA and Communications Manager for Small File Media Festival."
+    affiliation: "Engagement Coordinator, Small File Media Festival"
+    bio: |
+      Joni (he/they) is a web designer, artist, and arts organizer. Joni has recently produced for concept-driven sites for projects such as Deep Horse Texts (Hazel Meyer / The Bows), A Sound That Never Was (The Dim Coast), and Black Gold (Tsēmā Igharas). They were previously Co-Director at M:ST Performative Art, and are committed to supporting experimental media arts as a Co-Curator with XINEMA and Engagement Coordinator for Small File Media Festival. 
+
+      The Small File Media Festival was founded in 2020 to raise awareness of the high carbon footprint of streaming media. The festival proposes alternative solutions for media practice, as well as modes of thinking otherwise in media theory, which converged in a festival of sustainable experimental media organized annually.
     link:
       - url: https://jschinkel.com/
         text: "jschinkel.com"
