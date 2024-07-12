@@ -1604,12 +1604,12 @@
       Join the Small File Media Festival for this interactive workshop on creating small footprint and small-file web art! Technologies and devices used for web hosting account for 3.7% of the world's carbon emissions today, and we are responding by sharing data-negligible ecomedia techniques, creative image compression pipelines, and innovative lofi media alternatives. In this workshop, learn about 'folk web' creation techniques and reclaim websites as an offline or local network medium. Draw from permacomputing philosophies and experiment with HTML, CSS, and JavaScript to build sustainable and accessible web content.
 
   - sessionID: 24003
-    title: 
+    title: "Software Unplugged: Rewriting the Rules with Local-First Software"
     presenterID:
       - brooklyn
     sessionType: talk
     description: >
-      
+      Local-First software (“LoFi”) is an approach to software that boasts many advantages over the cloud, from enhanced privacy to improved collaboration without relying on the network or a specific host. This promises more user agency, lowers barriers to entry, and adds new degrees of freedom, but comes with new constraints and challenges. In this talk, Brooklyn will explore the state of LoFi today, what we can learn from its successes, and what comes next.
 
   - sessionID: 24004
     title: 
