@@ -36,3 +36,10 @@ We are grateful for the support of the following organizations who helped us wit
 <div class="mb-2">
   <a href=" " rel="noopener" target="_blank"><img src="/images/logos/openspace-logo.png" width="30%" alt="Open Space Arts Centre logo" /></a>
 </div>
+
+## Venue Partner
+{:.font-display.mb-1}
+
+<div class="mb-2">
+  <a href="https://312main.ca/" rel="noopener" target="_blank"><img src="/images/logos/312-logo.png" width="30%" alt="312 Main logo" /></a>
+</div>
