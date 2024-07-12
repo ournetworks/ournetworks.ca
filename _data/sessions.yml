@@ -1588,11 +1588,12 @@
 
 2024:
   - sessionID: 24001
-    title: 
+    title: "Future Histories of Other Networks"
     presenterID:
       - lori
     sessionType: talk
     description: >
+      Lori Emerson will discuss the surprising depth and breadth of wired and wireless networks that preceded the internet and many of which still exist today. From packet radio networks to barbed wire fence phones, telefacsimile, videophone, telex, and microbroadcasting, she will talk about how we have become so accustomed to associating networks with computer networks that it is easy to forget: networks have long been deeply heterogeneous and they also have existed for nearly as long as human civilization as existed.
       
 
   - sessionID: 24002
