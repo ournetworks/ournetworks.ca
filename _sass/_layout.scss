@@ -237,3 +237,14 @@
     font-family: var(--font-family-display-mono);
   }
 }
+
+#register-button {
+  @media (max-width: $on-palm) {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: var(--beige);
+  }
+}
