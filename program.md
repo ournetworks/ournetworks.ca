@@ -35,7 +35,7 @@ titleDisplay: "Program"
                     <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Sound</em><br />
                             LAN Interaction
                     </td>
-                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach</em><br />Workshop -<br /> Small Footprint and Small File Web Art <br /> <a href="#joni">Joni Schinkel</a></td>
+                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach</em><br />Workshop -<br /> Tiny Dreams: Ecomedia and Small File Web Art <br /> <a href="#joni">Joni Schinkel</a></td>
                     <!--<td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Spillover</em><br />Open</td>-->
                 </tr>
             </table>
