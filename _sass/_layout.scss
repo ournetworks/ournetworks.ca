@@ -228,8 +228,8 @@
   margin-bottom: -4px;
 }
 
-.presenter:has(*:target) {
-  .presenter-name:before {
+.highlight:has(*:target) {
+  .highlight-name:before {
     margin-right: 1ch;
     margin-left: -2ch;
     content: "*";

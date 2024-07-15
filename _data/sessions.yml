@@ -1613,7 +1613,7 @@
       Local-First software (“LoFi”) is an approach to software that boasts many advantages over the cloud, from enhanced privacy to improved collaboration without relying on the network or a specific host. This promises more user agency, lowers barriers to entry, and adds new degrees of freedom, but comes with new constraints and challenges. In this talk, Brooklyn will explore the state of LoFi today, what we can learn from its successes, and what comes next.
 
   - sessionID: 24004
-    title: 
+    title: "Repair Futures"
     presenterID:
       - michelle
     sessionType: discussion

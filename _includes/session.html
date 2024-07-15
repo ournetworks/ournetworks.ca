@@ -1,12 +1,11 @@
 {%- for session in site.data.sessions[include.year] -%}
   {%- if include.session-id == session.sessionID -%}
   <div class="session">
-    <header>
-      <h3 class="session-title font-display">
-        {{ session.title }}
+      <h3 class="text-base m-0 font-normal">
+        <a href="#{{ session.title | slugify }}">{{ session.title }}</a>
       </h3>
       {% if session.presenterID %}
-        <h4 class="session-presenterID mt-05">
+        <a href="#{{ session.presenterID }}" class="session-presenterID text-base m-0 font-normal">
           {% assign presenters = site.data.presenters[include.year] %}
           {% assign presenterCount = session.presenterID.size %}
           {%- for presenterID in session.presenterID -%}
@@ -18,9 +17,8 @@
             {% assign presenterCount = presenterCount | minus:1 %}
             {{ name }}<br>
           {%- endfor -%}
-        </h4>
+        </a>
       {% endif %}
-    </header>
   </div>
   {%- endif -%}
 {%- endfor -%}
