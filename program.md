@@ -36,11 +36,11 @@ titleDisplay: "Program"
             <strong><span class="font-mono">PAST</span> / </strong>
             <table class="w-100">
                 <tr class="border-0">
+                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach</em><br />Workshop -<br />
+                    {% include session.html year=2024 session-id=24002 %}</td>
                     <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Sound</em><br />
                             LAN Interaction
                     </td>
-                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach</em><br />Workshop -<br />
-                    {% include session.html year=2024 session-id=24002 %}</td>
                     <!--<td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Spillover</em><br />Open</td>-->
                 </tr>
             </table>
@@ -63,7 +63,7 @@ titleDisplay: "Program"
             <strong><span class="font-mono">PRESENT</span> / </strong>
             <table class="w-100">
                 <tr class="border-0">
-                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Sound & ⌂ Reach</em><br />
+                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach & ⌂ Sound</em><br />
                         <strong>Lightning Talks</strong>
                     </td>
                     <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Spillover</em><br />Open</td>
@@ -86,10 +86,10 @@ titleDisplay: "Program"
             <table class="w-100">
                 <tr class="border-0">
                     <td>
-                        <em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Sound</em><br />Roundtable -<br />
+                        <em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach</em><br />Roundtable -<br />
                         {% include session.html year=2024 session-id=24004 %}
                     </td>
-                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach</em><br />Open</td>
+                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Sound</em><br />Open</td>
                     <!--<td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Spillover</em><br />Open</td>-->
                 </tr>
             </table>
