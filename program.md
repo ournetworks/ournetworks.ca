@@ -23,7 +23,11 @@ titleDisplay: "Program"
     </tr>
     <tr>
         <td class="font-mono text time-cell">10:20 ↓<br />11:00</td>
-        <td><strong><span class="font-mono">PAST</span> / <a href="#lori">Lori Emerson</a></strong>
+        <td>
+            <strong>
+                <span class="font-mono">PAST</span> /
+            </strong>
+            {% include session.html year=2024 session-id=24001 %}
         </td>
     </tr>
     <tr>
@@ -35,7 +39,8 @@ titleDisplay: "Program"
                     <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Sound</em><br />
                             LAN Interaction
                     </td>
-                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach</em><br />Workshop -<br /> Tiny Dreams: Ecomedia and Small File Web Art <br /> <a href="#joni">Joni Schinkel</a></td>
+                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach</em><br />Workshop -<br />
+                    {% include session.html year=2024 session-id=24002 %}</td>
                     <!--<td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Spillover</em><br />Open</td>-->
                 </tr>
             </table>
@@ -47,7 +52,10 @@ titleDisplay: "Program"
     </tr>
     <tr>
         <td class="font-mono text time-cell">13:30 ↓<br />14:10</td>
-        <td><strong><span class="font-mono">PRESENT</span> / <a href="#brooklyn">Brooklyn Zelenka</a> </strong></td>
+        <td>
+            <strong><span class="font-mono">PRESENT</span></strong> /
+            {% include session.html year=2024 session-id=24003 %}
+        </td>
     </tr>
     <tr>
         <td class="font-mono text time-cell">14:10 ↓<br />15:00</td>
@@ -77,7 +85,10 @@ titleDisplay: "Program"
             <strong><span class="font-mono">FUTURE</span> / </strong>
             <table class="w-100">
                 <tr class="border-0">
-                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Sound</em><br />Roundtable -<br /> Repair Futures <a href="#michelle">Michelle Kaczmarek</a></td>
+                    <td>
+                        <em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Sound</em><br />Roundtable -<br />
+                        {% include session.html year=2024 session-id=24004 %}
+                    </td>
                     <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach</em><br />Open</td>
                     <!--<td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Spillover</em><br />Open</td>-->
                 </tr>
@@ -98,8 +109,9 @@ titleDisplay: "Program"
     </tr>
 </table>
 
----
-{:.mt-2}
+<pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden w-100">
+--..,___.--,--'`,---..-.--+--.,,-,,..._.--..-._.-a:f--..-.--
+</pre>
 
 {:.font-display}
 
@@ -121,6 +133,10 @@ titleDisplay: "Program"
 {% for session in sortedSessions %}
   {% include session-details.html year=2024 %}
 {% endfor %}
+
+<pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden w-100">
+.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*
+</pre>
 
 {:.font-display}
 
