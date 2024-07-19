@@ -18,11 +18,11 @@ titleDisplay: "Program"
         <td>Doors Open</td>
     </tr>
     <tr>
-        <td class="font-mono text time-cell">10:00 ↓<br />10:20</td>
+        <td class="font-mono text time-cell">10:00 ↓<br />10:15</td>
         <td>Welcome</td>
     </tr>
     <tr>
-        <td class="font-mono text time-cell">10:20 ↓<br />11:00</td>
+        <td class="font-mono text time-cell">10:15 ↓<br />11:00</td>
         <td>
             <strong>
                 <span class="font-mono">PAST</span> /
