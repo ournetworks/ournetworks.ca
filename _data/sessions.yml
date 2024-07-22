@@ -1613,9 +1613,9 @@
       Local-First software (“LoFi”) is an approach to software that boasts many advantages over the cloud, from enhanced privacy to improved collaboration without relying on the network or a specific host. This promises more user agency, lowers barriers to entry, and adds new degrees of freedom, but comes with new constraints and challenges. In this talk, Brooklyn will explore the state of LoFi today, what we can learn from its successes, and what comes next.
 
   - sessionID: 24004
-    title: "Repair Futures"
+    title: "Caring for the Chips: Repair and Reuse as Permacomputing"
     presenterID:
       - michelle
     sessionType: discussion
     description: >
-      
+      Permacomputing is a concept and practice that draws inspiration from permaculture and its values of situated, regenerative and resilient systems. Where permaculture seeks a more holistic and ecologically harmonious alternative to industrial agriculture, permacomputing challenges dominant extractive, growth-oriented approaches to computing. In this roundtable, Michelle will guide a discussion to consider computing repair and reuse cultures/futures through the perspective of permacomputing. How can permacomputing principles shape the ways we design, relate, and reckon with our computing materials? What practices of “caring for the chips” could we foster in our local networks?
