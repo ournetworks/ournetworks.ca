@@ -29,7 +29,7 @@ Over the course of a day we will cover the PAST, PRESENT, and FUTURE with short 
 
 <a href="/program" class="text-sm border border-inherit active:bg-accent font-mono antialiased rounded p-1 px-2 no-underline outlined active:text-white active:outline-accent">View program</a>
 
-Sign up to give lightening talks or let us know you want to lead conversations, or host impromptu jams in available open spaces: <a href ="mailto:{{ site.email }}">{{ site.email }}</a>.
+Sign up to give lightning talks or let us know you want to lead conversations, or host impromptu jams in available open spaces: <a href ="mailto:{{ site.email }}">{{ site.email }}</a>.
 
 The conference has a [Code of Conduct](https://ournetworks.ca/code-of-conduct/).
 
@@ -57,7 +57,7 @@ We suggest $60 with other registration levels on a sliding scale from $30-120 de
 
 We are looking for volunteers (in return for complimentary admission) and are able to offer a limited number of scholarships, please contact us at [{{ site.email }}](mailto:{{ site.email }})
 
-Our Networks 2024 is part [LOCALHOST](https://writing.dwebyvr.org/announcing-localhost/){:target="\_blank"}, a week of events organized by The DWebYVR community between July 21st to 28th. [View community events](https://lu.ma/LOCALHOST_vancouver){:target="\_blank"}. Tickets to Our Networks includes the LOCALHOST Hack Day on July 28.
+Our Networks 2024 is part of [LOCALHOST](https://writing.dwebyvr.org/announcing-localhost/){:target="\_blank"}, a week of events organized by The DWebYVR community between July 21st to 28th. [View community events](https://lu.ma/LOCALHOST_vancouver){:target="\_blank"}. Tickets to Our Networks includes the LOCALHOST Hack Day on July 28.
 
 <a href="https://lu.ma/r3afi0b0" class="inline-flex bg-black active:bg-accent text-white font-mono antialiased rounded p-2 px-2 no-underline outlined active:text-white active:outline-accent" target="_blank" rel="noopener">Register on Luma</a>
 
