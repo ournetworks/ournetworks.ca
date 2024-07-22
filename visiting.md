@@ -83,7 +83,7 @@ Here are some lower-cost options based around the city, roughly ordered by dista
 - [The Cambie Hostel](https://www.cambiehostels.com/)
 - [YWCA Hotel](https://ywcavan.org/hotel)
 - [Simon Fraser University (SFU) Guest Accomodations](https://www.sfu.ca/stayhere/request-a-booking/individual-traveller.html)
-- [University of British Columbia (UBC) Pacific Spirit Hostel](https://suitesatubc.com/affordable-reliable-hostels-vancouver/)
+- [University of British Columbia (UBC) Pacific Spirit Hostel](https://suitesatubc.com/affordable-reliable-hostels-vancouver/){:data-proofer-ignore=""}
 
 {:.font-display}
 
