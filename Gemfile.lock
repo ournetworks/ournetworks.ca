@@ -18,7 +18,7 @@ GEM
       fiber-local (~> 1.1)
       json
     csv (3.3.0)
-    distributed-press-api-client (0.5.0rc7)
+    distributed-press-api-client (0.5.0rc8)
       addressable (~> 2.3, >= 2.3.0)
       climate_control
       dry-schema
@@ -114,8 +114,8 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
-    jekyll-activity-pub (0.3.0rc3)
-      distributed-press-api-client (~> 0.5.0rc4)
+    jekyll-activity-pub (0.3.0rc4)
+      distributed-press-api-client (~> 0.5.0rc8)
       jekyll (~> 4)
       marcel (~> 1)
     jekyll-feed (0.17.0)
@@ -197,7 +197,7 @@ PLATFORMS
 DEPENDENCIES
   html-proofer
   jekyll (~> 4.3.3)
-  jekyll-activity-pub (= 0.3.0rc3)
+  jekyll-activity-pub (= 0.3.0rc4)
   jekyll-feed (~> 0.16)
   jekyll-redirect-from
   rake
