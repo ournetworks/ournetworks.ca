@@ -20,6 +20,14 @@ notifications:
     action: done
     id: https://ournetworks.ca/posts/holochain-sponsorship.jsonld
     created_at: 1721881600
+  posts/days-away.jsonld:
+    action: done
+    id: https://ournetworks.ca/posts/days-away.jsonld
+    created_at: 1721950156
+  posts/sessions.jsonld:
+    action: done
+    id: https://ournetworks.ca/posts/sessions.jsonld
+    created_at: 1721950158
 actor_url: https://ournetworks.ca/about.jsonld
 actor: "@orga@ournetworks.ca"
 public_key_url: https://ournetworks.ca/about.jsonld#main-key
