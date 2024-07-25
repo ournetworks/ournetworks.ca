@@ -16,6 +16,10 @@ notifications:
     action: done
     id: https://ournetworks.ca/posts/presenters-update.jsonld
     created_at: 1721136450
+  posts/holochain-sponsorship.jsonld:
+    action: done
+    id: https://ournetworks.ca/posts/holochain-sponsorship.jsonld
+    created_at: 1721881600
 actor_url: https://ournetworks.ca/about.jsonld
 actor: "@orga@ournetworks.ca"
 public_key_url: https://ournetworks.ca/about.jsonld#main-key
