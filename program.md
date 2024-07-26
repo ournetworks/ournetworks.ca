@@ -77,7 +77,8 @@ titleDisplay: "Program"
     </tr>
     <tr>
         <td class="font-mono text time-cell">15:30 ↓<br />16:10</td>
-        <td><strong><span class="font-mono">FUTURE</span> / <a href="#esther">Esther Han Beol Jang</a></strong></td>
+        <td><strong><span class="font-mono">FUTURE</span></strong> / 
+            {% include session.html year=2024 session-id=24005 %}</td>
     </tr>
     <tr>
         <td class="font-mono text time-cell">16:10 ↓<br />17:40</td>
