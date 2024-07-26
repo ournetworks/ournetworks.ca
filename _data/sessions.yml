@@ -1594,7 +1594,6 @@
     sessionType: talk
     description: >
       Lori Emerson will discuss the surprising depth and breadth of wired and wireless networks that preceded the internet and many of which still exist today. From packet radio networks to barbed wire fence phones, telefacsimile, videophone, telex, and microbroadcasting, she will talk about how we have become so accustomed to associating networks with computer networks that it is easy to forget: networks have long been deeply heterogeneous and they also have existed for nearly as long as human civilization as existed.
-      
 
   - sessionID: 24002
     title: "Tiny Dreams: Ecomedia and Small File Web Art"
@@ -1619,3 +1618,13 @@
     sessionType: discussion
     description: >
       Permacomputing is a concept and practice that draws inspiration from permaculture and its values of situated, regenerative and resilient systems. Where permaculture seeks a more holistic and ecologically harmonious alternative to industrial agriculture, permacomputing challenges dominant extractive, growth-oriented approaches to computing. In this roundtable, Michelle will guide a discussion to consider computing repair and reuse cultures/futures through the perspective of permacomputing. How can permacomputing principles shape the ways we design, relate, and reckon with our computing materials? What practices of “caring for the chips” could we foster in our local networks?
+
+  - sessionID: 24005
+    title: "DIY Infrastructure Building for Power"
+    presenterID:
+      - esther
+    sessionType: talk
+    description: >
+      This interactive talk presents a model for a non-profit, educational community-owned and operated Internet access network (“community learning network”) that builds power among participants and produces a “learning commons” for in-context hands-on technical learning. Based on participant observer research conducted through the mobilization of the Seattle Community Network (SCN) and work with NYC Mesh and other CN builders from 2019 to the present, I frame DIY infrastructure building as a way of claiming power over technology within diverse settings of technological marginality. I introduce opportunities that CNs present for solidarity with Tiny House Village residents, other housing unstable or mutual aid groups, as well as Tribal and First Nations groups. I emphasize the importance of in-context “actual” problems for DIY learning and empowerment as well as access to community-of-practice resources such as tools and expert knowledge.
+
+
