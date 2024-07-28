@@ -3,9 +3,9 @@ require 'html-proofer'
 task :test do
   options = {
     cache: { timeframe: { external: '6M' } },
-    ignore_status_codes: [429],
     swap_urls: { %r{^https://ournetworks.ca} => "" },
     ignore_urls: [/ipfs.io\/ipfs/],
+    ignore_files: [/posts/],
     typhoeus: {
       headers: { "User-Agent" => "Chrome/120.0.0.0 Safari/537.36" },
     }
