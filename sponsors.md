@@ -31,8 +31,11 @@ Our Networks is volunteer-run and would not be possible without the support of o
 We are grateful for the support of the following organizations who helped us with archival research for the Local Area Network.
 
 <div class="mb-2">
-  <a href="https://westernfront.ca/" rel="noopener" target="_blank"><img src="/images/logos/wf-logo.png" width="30%" alt="Western Front logo" /></a>
+  <a href="https://westernfront.ca/" rel="noopener" target="_blank"><img src="/images/logos/wf-logo.png" width="35%" alt="Western Front logo" /></a>
 </div>
 <div class="mb-2">
-  <a href=" " rel="noopener" target="_blank"><img src="/images/logos/openspace-logo.png" width="30%" alt="Open Space Arts Centre logo" /></a>
+  <a href="https://openspacearts.ca/" rel="noopener" target="_blank"><img src="/images/logos/openspace-logo.png" width="35%" alt="Open Space Arts Centre logo" /></a>
+</div>
+<div class="mb-2">
+  <a href="https://www.vivomediaarts.com/" rel="noopener" target="_blank"><img src="/images/logos/vivo-logo.png" width="35%" alt="Open Space Arts Centre logo" /></a>
 </div>
