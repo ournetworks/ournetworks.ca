@@ -36,7 +36,7 @@ titleDisplay: "Program"
             <strong><span class="font-mono">PAST</span> / </strong>
             <table class="w-100">
                 <tr class="border-0">
-                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach</em><br />Workshop -<br />
+                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach</em><br />Workshop &ndash;<br />
                     {% include session.html year=2024 session-id=24002 %}</td>
                     <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Sound</em><br />
                             LAN Interaction
@@ -64,9 +64,14 @@ titleDisplay: "Program"
             <table class="w-100">
                 <tr class="border-0">
                     <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach & ⌂ Sound</em><br />
-                        <strong>Lightning Talks</strong>
+                        <strong>Lightning Talks</strong><br />
+                        Permaweb: can a website last a lifetime? &ndash; Neil Kandalgaonkar<br />
+                        Captive Cinema &ndash; Brett Ian Balogh<br />
+                        Teleporting SQLite databases around the world &ndash; Carl Sverre<br />
+                        Production self-hosting howto &ndash; Damien Norris<br />
+                        Ideas and tricks to steal from AT Protocol &ndash; Bryan Newbold
                     </td>
-                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Spillover</em><br />Open</td>
+                    <!--<td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Spillover</em><br />Open</td>-->
                 </tr>
             </table>
         </td>
@@ -87,7 +92,7 @@ titleDisplay: "Program"
             <table class="w-100">
                 <tr class="border-0">
                     <td>
-                        <em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach</em><br />Roundtable -<br />
+                        <em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach</em><br />Roundtable &ndash;<br />
                         {% include session.html year=2024 session-id=24004 %}
                     </td>
                     <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Sound</em><br />Open</td>
