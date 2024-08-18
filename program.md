@@ -60,20 +60,16 @@ titleDisplay: "Program"
     <tr>
         <td class="font-mono text time-cell">14:10 ↓<br />15:00</td>
         <td>
-            <strong><span class="font-mono">PRESENT</span> / </strong>
-            <table class="w-100">
-                <tr class="border-0">
-                    <td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach & ⌂ Sound</em><br />
-                        <strong>Lightning Talks</strong><br />
-                        Permaweb: can a website last a lifetime? &ndash; Neil Kandalgaonkar<br />
-                        Captive Cinema &ndash; Brett Ian Balogh<br />
-                        Teleporting SQLite databases around the world &ndash; Carl Sverre<br />
-                        Production self-hosting howto &ndash; Damien Norris<br />
-                        Ideas and tricks to steal from AT Protocol &ndash; Bryan Newbold
-                    </td>
-                    <!--<td><em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Spillover</em><br />Open</td>-->
-                </tr>
-            </table>
+            <strong><span class="font-mono">PRESENT</span> / </strong><br />
+            <em class="font-display-mono uppercase text-sm whitespace-nowrap not-italic tracking-wide">⌂ Reach & ⌂ Sound</em><br />
+            <strong>Lightning Talks</strong><br />
+            <ul class="pl-1 pt-0 mt-0 mb-0">
+                <li>Permaweb: can a website last a lifetime? &ndash; Neil Kandalgaonkar</li>
+                <li>Captive Cinema &ndash; Brett Ian Balogh</li>
+                <li>Teleporting SQLite databases around the world &ndash; Carl Sverre</li>
+                <li>Production self-hosting howto &ndash; Damien Norris</li>
+                <li>Ideas and tricks to steal from AT Protocol &ndash; Bryan Newbold</li>
+            </ul>
         </td>
     </tr>
     <tr>
