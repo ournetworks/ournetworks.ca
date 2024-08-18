@@ -1,6 +1,6 @@
 {%- if session.title -%}
 <div class="session-detail highlight">
-  <div class="program-block-content p-1" {% unless session.skipProgramID %}id="{{ session.title | slugify }}"{% endunless %}>
+  <div class="program-block-content p-1" {% unless session.skipProgramID %}id="{{ session.title | truncatewords: 6, '' | slugify }}"{% endunless %}>
     <header class="session-header mb-1">
       <h3 class="session-title heading font-display highlight-name">{{ session.title }}</h3>
       {%- if session.presenterID -%}
