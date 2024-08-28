@@ -1594,6 +1594,7 @@
     description: >
       Lori Emerson will discuss the surprising depth and breadth of wired and wireless networks that preceded the internet and many of which still exist today. From packet radio networks to barbed wire fence phones, telefacsimile, videophone, telex, and microbroadcasting, she will talk about how we have become so accustomed to associating networks with computer networks that it is easy to forget: networks have long been deeply heterogeneous and they also have existed for nearly as long as human civilization as existed.
     youtube: LjS5_dsuFfo
+    internetarchive: ournetworks2024/Our+Networks+2024+Future+Histories+of+Other+Networks+by+Lori+Emerson+1080p.mp4
 
   - sessionID: 24002
     title: "Tiny Dreams: Ecomedia and Small File Web Art"
@@ -1603,6 +1604,7 @@
     description: >
       Join the Small File Media Festival for this interactive workshop on creating small footprint and small-file web art! Technologies and devices used for web hosting account for 3.7% of the world's carbon emissions today, and we are responding by sharing data-negligible ecomedia techniques, creative image compression pipelines, and innovative lofi media alternatives. In this workshop, learn about 'folk web' creation techniques and reclaim websites as an offline or local network medium. Draw from permacomputing philosophies and experiment with HTML, CSS, and JavaScript to build sustainable and accessible web content.
     youtube: EInkwpMErrE
+    internetarchive: ournetworks2024/Our+Networks+2024+Tiny+Dreams+Ecomedia+and+Small+File+Web+Art+by+Joni+Schinkel+1080p.mp4
 
   - sessionID: 24003
     title: "Software Unplugged: Rewriting the Rules with Local-First Software"
@@ -1612,6 +1614,7 @@
     description: >
       Local-First software (“LoFi”) is an approach to software that boasts many advantages over the cloud, from enhanced privacy to improved collaboration without relying on the network or a specific host. This promises more user agency, lowers barriers to entry, and adds new degrees of freedom, but comes with new constraints and challenges. In this talk, Brooklyn will explore the state of LoFi today, what we can learn from its successes, and what comes next.
     youtube: 0CDtUoVdkco
+    internetarchive: ournetworks2024/Our+Networks+2024+Software+Unplugged+Rewriting+the+Rules+with+Local+First+Software+by+Brooklyn+Zelenka+1080p.mp4
 
   - sessionID: 24004
     title: "Caring for the Chips: Repair and Reuse as Permacomputing"
@@ -1621,6 +1624,7 @@
     description: >
       Permacomputing is a concept and practice that draws inspiration from permaculture and its values of situated, regenerative and resilient systems. Where permaculture seeks a more holistic and ecologically harmonious alternative to industrial agriculture, permacomputing challenges dominant extractive, growth-oriented approaches to computing. In this roundtable, Michelle will guide a discussion to consider computing repair and reuse cultures/futures through the perspective of permacomputing. How can permacomputing principles shape the ways we design, relate, and reckon with our computing materials? What practices of “caring for the chips” could we foster in our local networks?
     youtube: 1G-H5mTxsnU
+    internetarchive: ournetworks2024/Our+Networks+2024+Caring+for+the+Chips+Repair+and+Reuse+as+Permacomputing+by+Michelle+Kaczmarek+1080p.mp4
 
   - sessionID: 24005
     title: "DIY Infrastructure Building for Power"
@@ -1630,38 +1634,45 @@
     description: >
       This interactive talk presents a model for a non-profit, educational community-owned and operated Internet access network (“community learning network”) that builds power among participants and produces a “learning commons” for in-context hands-on technical learning. Based on participant observer research conducted through the mobilization of the Seattle Community Network (SCN) and work with NYC Mesh and other CN builders from 2019 to the present, I frame DIY infrastructure building as a way of claiming power over technology within diverse settings of technological marginality. I introduce opportunities that CNs present for solidarity with Tiny House Village residents, other housing unstable or mutual aid groups, as well as Tribal and First Nations groups. I emphasize the importance of in-context “actual” problems for DIY learning and empowerment as well as access to community-of-practice resources such as tools and expert knowledge.
     youtube: 9xOUy3BD980
+    internetarchive: ournetworks2024/Our+Networks+2024+DIY+Infrastructure+Building+for+Power+by+Esther+Han+Beol+Jang+1080p.mp4
 
   - sessionID: 24006
     title: "Permaweb: can a website last a lifetime?"
     description: "Neil Kandalgaonkar. Lightning talk."
     sessionType: "lightning-talk"
     youtube: hP4PO8ae9WM
+    internetarchive: ournetworks2024/Our+Networks+2024+Permaweb+can+a+website+last+a+lifetime+by+Neil+Kandalgaonkar+1080p.mp4
 
   - sessionID: 24007
     title: "Captive Cinema"
     description: "Brett Ian Balogh. Lightning talk."
     sessionType: "lightning-talk"
     youtube: 43JTIL2PUZc
+    internetarchive: ournetworks2024/Our+Networks+2024+Captive+Cinema+Brett+by+Ian+Balogh+1080p.mp4
 
   - sessionID: 24008
     title: "Teleporting SQLite databases around the world"
     description: "Carl Sverre. Lightning talk."
     sessionType: "lightning-talk"
     youtube: 0NJb8JTmpvo
+    internetarchive: ournetworks2024/Our+Networks+2024+Teleporting+SQLite+databases+around+the+world+by+Carl+Sverre+1080p.mp4
 
   - sessionID: 24009
     title: "Production self-hosting howto"
     description: "Damien Norris. Lightning talk."
     sessionType: "lightning-talk"
     youtube: illHXzFwEm0
+    internetarchive: ournetworks2024/Our+Networks+2024+Production+self+hosting+howto+by+Damien+Norris+1080p.mp4
 
   - sessionID: 24010
     title: "Ideas and tricks to steal from AT Protocol"
     description: "Bryan Newbold. Lightning talk."
     sessionType: "lightning-talk"
     youtube: _KfTBRRDaZ8
-  
+    internetarchive: ournetworks2024/Our+Networks+2024+Ideas+and+tricks+to+steal+from+AT+Protocol+by+Bryan+Newbold+1080p.mp4
+
   - sessionID: 24011
     title: "Opening remarks"
     sessionType: "orga"
     youtube: hJixUk5vF7s
+    internetarchive: ournetworks2024/Our+Networks+2024+Opening+Remarks+1080p.mp4
