@@ -133,7 +133,9 @@ titleDisplay: "Program"
 {% endif %}
 
 {% for session in sortedSessions %}
-  {% include session-details.html year=2024 %}
+  {%- if session.sessionType != "orga" and session.sessionType != "lightning-talk" -%}
+    {% include session-details.html year=2024 %}
+  {% endif %}
 {% endfor %}
 
 <pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden w-100">

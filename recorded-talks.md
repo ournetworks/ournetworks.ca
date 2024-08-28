@@ -7,6 +7,34 @@ redirect_from:
   - "/conference/recorded-talks"
 ---
 
+## Our Networks 2024 archive
+{:.font-display}
+
+Full archives of 2024 videos are available:
+
+- Internet Archive: [Our Networks 2020 Talks](https://archive.org/details/ournetworks2024) (torrent available)
+- YouTube playlist: [Our Networks 2024 — Does not (cloud) compute](https://www.youtube.com/playlist?list=PLx7_J32Ys60d6rMfC9aOY7nLXn_QhZVt7)
+
+{:.font-display}
+
+### Our Networks 2024 videos
+
+{:.mb-1.mt-2}
+
+{% assign sorted2024Sessions = site.data.sessions[2024] | sort: "title" %}
+
+<div class="flex flex-wrap flex-justify-space-between">
+{%- for session in sorted2024Sessions -%}
+  {%- if session.ipfs720 or session.ipfs1080 or session.youtube -%}
+    {% include session-video.html year=2024 %}
+  {%- endif -%}
+{%- endfor -%}
+</div>
+
+<pre role="img" aria-label="ASCII divider" class="font-display-mono aliased text-10 inline-flex max-w-prose overflow-hidden w-100">
+.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*
+</pre>
+
 ## Our Networks 2022 archive
 {:.font-display}
 

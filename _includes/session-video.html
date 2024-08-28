@@ -42,6 +42,7 @@
           <ul class="list-none p-0 text-xs font-mono">
            {%- if session.ipfs720 -%}<li class="video-links-item"><a href="{{ site.ipfs_gateway }}/ipfs/{{ session.ipfs720 }}" target="_blank" rel="noopener"><code>[&nbsp;720p]</code>ipfs://{{ session.ipfs720 }}</a></li>{%- endif -%}
            {%- if session.ipfs1080 -%}<li class="video-links-item"><a href="{{ site.ipfs_gateway }}/ipfs/{{ session.ipfs1080 }}" target="_blank" rel="noopener"><code>[1080p]</code>ipfs://{{ session.ipfs1080 }}</a></li>{%- endif -%}
+           {%- if session.internetarchive -%}<li class="video-links-item"><a href="https://archive.org/details/{{ session.internetarchive }}" target="_blank" rel="noopener">{{ session.internetarchive }}</a></li>{%- endif -%}
            {%- if session.youtube -%}<li><a href="https://youtu.be/{{ session.youtube }}" target="_blank" rel="noopener">youtu.be/{{ session.youtube }}</a></li>{%- endif -%}
           </ul>
         {%- endif -%}
