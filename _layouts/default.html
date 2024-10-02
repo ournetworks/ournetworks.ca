@@ -48,11 +48,11 @@
       href="{{ page.url | replace:'index.html','' | prepend: site.url }}"
     />
     {% if page.activity %}
-      <link data-proofer-ignore href="{{ page.activity.url | absolute_url }}" rel="alternate" type="application/activity+json" />
+      <link data-proofer-ignore href="{{ page.activity.url[0].href }}" rel="alternate" type="application/activity+json" />
     {% endif %}
     <meta property="profile:username" content="{{ site.activity_pub_profile }}" />
     {%- if site.actor -%}
-      <link rel="me" href="{{ site.actor.url | absolute_url }}" />
+      <link rel="me" href="{{ site.actor.url[0].href }}" />
     {%- endif -%}
   </head>
   <body class="bg-beige">
