@@ -98,7 +98,7 @@ GEM
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
     io-event (1.6.5)
-    jekyll (4.3.3)
+    jekyll (4.3.4)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -194,7 +194,7 @@ PLATFORMS
 
 DEPENDENCIES
   html-proofer
-  jekyll (~> 4.3.3)
+  jekyll (~> 4.3.4)
   jekyll-activity-pub
   jekyll-feed (~> 0.16)
   jekyll-redirect-from
